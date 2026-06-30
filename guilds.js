@@ -2,7 +2,7 @@ fetch("./data/guilds.json")
   .then(response => response.json())
   .then(guilds => {
     const tableBody = document.getElementById("guildTableBody");
-
+    
     guilds.forEach(guild => {
       let rankDisplay = guild.rank;
 
