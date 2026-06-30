@@ -96,13 +96,12 @@ nav a.active {
 }
 
 .ticker {
-  display: flex;
-  overflow: hidden;
-  background: #d4af37;
-  color: #07111f;
-  font-weight: bold;
-  height: 64px;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #d4af37;
+    height: 64px;
+    position: relative;
 }
 
 .ticker-title {
