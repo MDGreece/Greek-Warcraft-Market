@@ -11,11 +11,11 @@ header {
 }
 
 .top-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 40px;
-  gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    gap: 30px;
 }
 
 .logo {
