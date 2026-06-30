@@ -2,68 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Greek Warcraft Market</title>
+  <title>News - Greek Warcraft Market</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <div class="top-header">
-   <div class="logo">
-    <img src="./assets/tmglogo.png" alt="Greek Warcraft Market Logo">
-    <div class="logo-text">
-        <span class="logo-top">Greek</span>
-        <span class="logo-main">Warcraft</span>
-        <span class="logo-bottom">Market</span>
-    </div>
-</div>
-
-    <div class="search">
-      <input type="text" placeholder="Search guilds, players...">
-    </div>
-<div class="header-links">
-    <a href="#" class="discord-btn">
-        💬 Discord
-    </a>
-
-  <a href="https://guildranking.io/guilds/greek"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="ranking-btn">
-    🏆 Guild Rankings
-</a>
-
-    <a href="#" class="mdg-btn">
-        🛡 MDG
-    </a>
-</div>
-  </div>
+  <!-- copy your same header from index.html here -->
 
   <nav>
-    <a href="index.html" class="active">🏠 Home</a>
+    <a href="index.html">🏠 Home</a>
     <a href="guilds.html">🏰 Guilds</a>
     <a href="players.html">👤 Players</a>
     <a href="free-agents.html">💼 Free Agents</a>
     <a href="raid-groups.html">⚔️ Raid Groups</a>
     <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="news.html">📰 News</a>
-</nav>
-
-  <div class="ticker">
-    <div class="ticker-title">🔥 Breaking News</div>
-    <div class="ticker-content">
-      <span>📰 Επιστροφή You are not Repaired!</span>
-      <span>📰 MDG Season 2: Έρχεται σύντομα!</span>
-      <span>🔥 Rumor • Τανκ με ασπίδα φαίνεται να ψάχνουν οι SOE Reborn.</span>
-      <span>📰 Συγχαρητήρια στους Death and Glory για ένα ακόμη Greek First!</span>
-      <span>🔥 Rumor • Hunter σε ελληνικό raid group έφαγε server mute!</span>
-    </div>
-  </div>
+    <a href="news.html" class="active">📰 News</a>
+  </nav>
 </header>
 
-<main>
+<div class="breadcrumb">
+  <a href="index.html">Greek Warcraft Market</a>
+  <span>›</span>
+  <span>News</span>
+</div>
+
+<main class="news-page">
+  <h1>📰 News & Rumors</h1>
+  <div id="newsContainer"></div>
 </main>
+
+<script src="news.js"></script>
 
 </body>
 </html>
