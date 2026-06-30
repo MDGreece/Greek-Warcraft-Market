@@ -1,1 +1,30 @@
-
+[
+  {
+    "title": "Draenor",
+    "tiers": ["Highmaul", "BRF", "HFC"]
+  },
+  {
+    "title": "Legion",
+    "tiers": ["EN", "ToV", "NH", "ToS", "Antorus"]
+  },
+  {
+    "title": "BFA",
+    "tiers": ["Uldir", "BoD", "CoS", "EP", "Ny'alotha"]
+  },
+  {
+    "title": "Shadowlands",
+    "tiers": ["CN", "SoD", "SotFO"]
+  },
+  {
+    "title": "Dragonflight",
+    "tiers": ["Vault", "Aberrus", "Amirdrassil"]
+  },
+  {
+    "title": "TWW",
+    "tiers": ["NP", "LoU", "MO"]
+  },
+  {
+    "title": "Midnight",
+    "tiers": ["T1 (DR, VS, MoQ)"]
+  }
+]
