@@ -12,13 +12,16 @@ fetch("./data/guilds.json")
 
       const row = document.createElement("tr");
 
-      row.innerHTML = `
-        <td>${rankDisplay}</td>
-        <td>${guild.name}</td>
-        <td>${guild.realm}</td>
-        <td>${guild.progress}</td>
-      `;
-
+     row.innerHTML = `
+  <td>${rankDisplay}</td>
+  <td>
+    <a class="guild-link" href="guild.html?id=${guild.id}">
+      ${guild.name}
+    </a>
+  </td>
+  <td>${guild.worldRank}</td>
+  <td>${guild.progress}</td>
+`;
       tableBody.appendChild(row);
     });
   });
