@@ -476,3 +476,13 @@ nav a.active {
 .guild-profile-top .guild-awards {
   gap: 40px !important;
 }
+.guild-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.guild-link:hover {
+    color: #f0b90b;
+}
