@@ -1,209 +1,244 @@
 [
   {
+    "id": "death-and-glory",
     "rank": 1,
-    "name": "Death and Glory (r)",
+    "name": "Death and Glory",
     "worldRank": 323,
     "progress": "6/6 (M) • 1/1 (M) • 2/2 (M)"
   },
   {
+    "id": "disobedient",
     "rank": 2,
     "name": "Disobedient",
     "worldRank": 634,
     "progress": "6/6 (M) • 1/1 (M) • 2/2 (M)"
   },
   {
+    "id": "klika",
     "rank": 3,
     "name": "K L I K A",
     "worldRank": 645,
     "progress": "6/6 (M) • 1/1 (M) • 2/2 (M)"
   },
   {
+    "id": "disobedient-group-ii",
     "rank": 4,
     "name": "Disobedient [Disobedient Group II]",
     "worldRank": 1102,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "deny-everything",
     "rank": 5,
     "name": "Deny Everything",
     "worldRank": 1423,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "omega",
     "rank": 6,
     "name": "O M E G A",
     "worldRank": 1589,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "amargosa-crew",
     "rank": 7,
-    "name": "Amargosa Crew (r)",
+    "name": "Amargosa Crew",
     "worldRank": 1729,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "disobedient-group-iii",
     "rank": 8,
     "name": "Disobedient [Disobedient Group III]",
     "worldRank": 1753,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "soe-reborn",
     "rank": 9,
-    "name": "SoE Reborn (r)",
+    "name": "SoE Reborn",
     "worldRank": 1757,
     "progress": "6/6 (M) • 1/1 (M) • 1/2 (M)"
   },
   {
+    "id": "unique-legacy",
     "rank": 10,
-    "name": "UNIQUE LEGACY (r)",
+    "name": "UNIQUE LEGACY",
     "worldRank": 2174,
     "progress": "6/6 (M) • 1/1 (M) • 2/2 (H)"
   },
   {
+    "id": "chillers",
     "rank": 11,
     "name": "Chillers",
     "worldRank": 2668,
     "progress": "5/6 (M) • 1/1 (M) • 2/2 (H)"
   },
   {
+    "id": "provatina",
     "rank": 12,
     "name": "Provatina",
     "worldRank": 3670,
     "progress": "4/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "nyxborn",
     "rank": 13,
     "name": "Nyxborn",
     "worldRank": 3688,
     "progress": "4/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "utopia",
     "rank": 14,
     "name": "U T O P I A",
     "worldRank": 3693,
     "progress": "4/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "theory",
     "rank": 15,
     "name": "T H E O R Y",
     "worldRank": 3745,
     "progress": "4/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "dungeon-meta",
     "rank": 16,
     "name": "Dungeon Meta",
     "worldRank": 4285,
     "progress": "3/6 (M) • 1/1 (M) • 2/2 (H)"
   },
   {
+    "id": "elegance",
     "rank": 17,
-    "name": "Elegance (r)",
+    "name": "Elegance",
     "worldRank": 4580,
     "progress": "3/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "myrmidones",
     "rank": 18,
     "name": "Myrmidones",
     "worldRank": 5331,
     "progress": "2/6 (M) • 1/1 (M) • 1/2 (H)"
   },
   {
+    "id": "the-haunted",
     "rank": 19,
     "name": "The Haunted",
     "worldRank": 6136,
     "progress": "1/6 (M) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "leontokardoi",
     "rank": 20,
     "name": "leontokardoi",
     "worldRank": 7286,
     "progress": "6/6 (H) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "the-syndicate",
     "rank": 21,
     "name": "THE SYNDICATE",
     "worldRank": 9028,
     "progress": "6/6 (H) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "epsilon",
     "rank": 22,
     "name": "Epsilon",
     "worldRank": 9313,
     "progress": "6/6 (H) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "analosoiim",
     "rank": 23,
-    "name": "A N A L O S O I M ..",
+    "name": "A N A L O S O I M O I",
     "worldRank": 9423,
     "progress": "6/6 (H) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "chthonic",
     "rank": 24,
     "name": "Chthonic",
     "worldRank": 10003,
     "progress": "6/6 (H) • 1/1 (H) • 2/2 (H)"
   },
   {
+    "id": "irriducibili",
     "rank": 25,
     "name": "Irriducibili",
     "worldRank": 10338,
     "progress": "6/6 (H) • 1/1 (H) • 1/2 (H)"
   },
   {
+    "id": "odyssey",
     "rank": 26,
     "name": "OdySSey",
     "worldRank": 13280,
     "progress": "3/6 (H) • 1/1 (N) • 0/2"
   },
   {
+    "id": "you-are-not-repaired",
     "rank": 27,
-    "name": "You Are Not Repaired (r)",
+    "name": "You Are Not Repaired",
     "worldRank": 14201,
     "progress": "6/6 (N) • 1/1 (N) • 2/2 (N)"
   },
   {
+    "id": "crimson-thunder",
     "rank": 28,
     "name": "Crimson Thunder",
     "worldRank": 14961,
     "progress": "6/6 (N) • 1/1 (N) • 1/2 (N)"
   },
   {
+    "id": "laughingcoffin",
     "rank": 29,
     "name": "LaughingCoffin",
     "worldRank": 15874,
     "progress": "6/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "forsaken-dawn",
     "rank": 30,
     "name": "Forsaken Dawn",
     "worldRank": 16294,
     "progress": "6/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "lost-crew",
     "rank": 31,
     "name": "Lost CreW",
     "worldRank": 16318,
     "progress": "6/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "little-grims-of-ho",
     "rank": 32,
-    "name": "Little Grims of Ho..",
+    "name": "Little Grims of Horror",
     "worldRank": 16526,
     "progress": "6/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "not-forgotten",
     "rank": 33,
-    "name": "Not Forgotten (r)",
+    "name": "Not Forgotten",
     "worldRank": 16566,
     "progress": "6/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "spartans",
     "rank": 34,
     "name": "spartans",
     "worldRank": 16847,
     "progress": "5/6 (N) • 1/1 (N) • 0/2"
   },
   {
+    "id": "dark-odyssey",
     "rank": 35,
     "name": "Dark Odyssey",
     "worldRank": 17795,
