@@ -6,30 +6,42 @@
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
-  
-  "raidingDays": {
-    "mon": "",
-    "tue": "",
-    "wed": "",
-    "thu": "",
-    "fri": "",
-    "sat": "",
-    "sun": ""
-  },
 
-  "raidHistory": [
-    { "tier": "The War Within", "worldRank": "323" },
-    { "tier": "Dragonflight", "worldRank": "-" },
-    { "tier": "Shadowlands", "worldRank": "-" },
-    { "tier": "Battle for Azeroth", "worldRank": "-" },
-    { "tier": "Legion", "worldRank": "-" },
-    { "tier": "Warlords of Draenor", "worldRank": "-" },
-    { "tier": "Mists of Pandaria", "worldRank": "-" },
-    { "tier": "Cataclysm", "worldRank": "-" },
-    { "tier": "Wrath of the Lich King", "worldRank": "-" },
-    { "tier": "The Burning Crusade", "worldRank": "-" },
-    { "tier": "Classic", "worldRank": "-" }
-  ],
+  "established": "2007",
+  "weeklySchedule": "Τετάρτη-Πέμπτη-Δευτέρα",
+  "RaidTimes": "20:00-23:30 Ελλάδας",
+
+  "tierRanks": {
+    "Highmaul": { "WR": "-", "GR": "-" },
+    "BRF": { "WR": "-", "GR": "-" },
+    "HFC": { "WR": "-", "GR": "-" },
+
+    "EN": { "WR": "-", "GR": "-" },
+    "ToV": { "WR": "-", "GR": "-" },
+    "NH": { "WR": "-", "GR": "-" },
+    "ToS": { "WR": "876", "GR": "-" },
+    "Antorus": { "WR": "1170", "GR": "-" },
+
+    "Uldir": { "WR": "945", "GR": "-" },
+    "BoD": { "WR": "657", "GR": "-" },
+    "CoS": { "WR": "-", "GR": "-" },
+    "EP": { "WR": "628", "GR": "-" },
+    "Ny'alotha": { "WR": "683", "GR": "-" },
+
+    "CN": { "WR": "458", "GR": "-" },
+    "SoD": { "WR": "662", "GR": "-" },
+    "SotFO": { "WR": "221", "GR": "-" },
+
+    "Vault": { "WR": "416", "GR": "-" },
+    "Aberrus": { "WR": "773", "GR": "-" },
+    "Amirdrassil": { "WR": "603", "GR": "-" },
+
+    "NP": { "WR": "443", "GR": "1" },
+    "LoU": { "WR": "484", "GR": "1" },
+    "MO": { "WR": "450", "GR": "1" },
+
+    "T1 (DR, VS, MoQ)": { "WR": "322", "GR": "1" }
+  },
 
   "roster": {
     "tanks": [],
