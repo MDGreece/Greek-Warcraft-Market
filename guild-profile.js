@@ -3,6 +3,7 @@ const guildId = params.get("id");
 
 if (!guildId) {
   document.getElementById("guildName").textContent = "Guild Not Found";
+  document.getElementById("guildNameBreadcrumb").textContent = guild.name;
 } else {
   Promise.all([
     fetch(`./data/guilds/${guildId}.json`).then(response => response.json()),
