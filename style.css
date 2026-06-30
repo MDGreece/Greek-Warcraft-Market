@@ -129,7 +129,7 @@ nav a.active {
   min-height: 520px;
   background-image:
     linear-gradient(rgba(7, 17, 31, 0.25), rgba(7, 17, 31, 0.75)),
-    url("assets/warcraft-bg.png");
+    url("assets/wow-bg.png");
   background-size: cover;
   background-position: center;
   display: flex;
