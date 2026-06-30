@@ -26,7 +26,7 @@ if (!guildId) {
 
       document.getElementById("guildEstablished").textContent = guild.established || "Date placeholder";
       document.getElementById("weeklySchedule").textContent = guild.weeklySchedule || "Days placeholder";
-      document.getElementById("hourlySchedule").textContent = guild.hourlySchedule || "Time placeholder";
+      document.getElementById("RaidTimes").textContent = guild.RaidTimes || "Time placeholder";
 
       const expansionGrid = document.getElementById("expansionGrid");
       expansionGrid.innerHTML = "";
