@@ -308,35 +308,38 @@ nav a.active {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 70px;
+    gap: 80px;
 
     width: 100%;
     margin: 40px auto 50px;
 }
 
 .award-card {
-    width: 180px;
-    text-align: center;
+    width: 220px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .award-card img {
-    width: 120px;
-    height: 120px;
+    width: 180px;      /* Increase this */
+    height: 180px;     /* Increase this */
+
     object-fit: contain;
     display: block;
-    margin: 0 auto;
 }
 
 .award-count {
     margin-top: 12px;
 
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
 
     color: #f0b90b;
-
     text-align: center;
-}
+  }
+
 .guild-info-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
