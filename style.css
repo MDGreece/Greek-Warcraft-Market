@@ -363,13 +363,20 @@ nav a.active {
 }
 
 .raid-tier {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 80px 80px;
+  gap: 12px;
+  align-items: center;
   padding: 10px 0;
   border-top: 1px solid #263a59;
 }
 
-.raid-tier span:last-child {
+.raid-name {
+  color: white;
+}
+
+.raid-rank {
   color: #f0b90b;
   font-weight: bold;
+  text-align: center;
 }
