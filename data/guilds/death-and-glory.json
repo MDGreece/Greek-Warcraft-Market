@@ -1,0 +1,39 @@
+{
+  "id": "death-and-glory",
+  "name": "Death and Glory",
+  "logo": "./assets/guilds/death-and-glory.png",
+
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+
+  "raidingDays": {
+    "mon": "",
+    "tue": "",
+    "wed": "",
+    "thu": "",
+    "fri": "",
+    "sat": "",
+    "sun": ""
+  },
+
+  "raidHistory": [
+    { "tier": "The War Within", "worldRank": "323" },
+    { "tier": "Dragonflight", "worldRank": "-" },
+    { "tier": "Shadowlands", "worldRank": "-" },
+    { "tier": "Battle for Azeroth", "worldRank": "-" },
+    { "tier": "Legion", "worldRank": "-" },
+    { "tier": "Warlords of Draenor", "worldRank": "-" },
+    { "tier": "Mists of Pandaria", "worldRank": "-" },
+    { "tier": "Cataclysm", "worldRank": "-" },
+    { "tier": "Wrath of the Lich King", "worldRank": "-" },
+    { "tier": "The Burning Crusade", "worldRank": "-" },
+    { "tier": "Classic", "worldRank": "-" }
+  ],
+
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  }
+}
