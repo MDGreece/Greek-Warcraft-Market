@@ -1,16 +1,33 @@
 [
   {
-    "type": "Rumor",
-    "title": "You Are Not Repaired επιστρέφουν;",
-    "date": "30 Jun 2026",
-    "body": "Φήμες λένε πως το guild You Are Not Repaired ετοιμάζει επιστροφή στη Mythic σκηνή.",
-    "link": "guild.html?id=you-are-not-repaired"
+    "type": "Achievement",
+    "title": "Άλλο ένα Greek First για τους Death and Glory",
+    "date": "04 Jun 2026",
+    "body": "Συγχαρητήρια στους Death and Glory για ένα ακόμη συνεχόμενο Greek First!",
+    "link": "guild.html?id=death-and-glory"
   },
   {
     "type": "News",
-    "title": "MDG Season 2 έρχεται σύντομα",
+    "title": "H δεύτερη σεζόν του MDG έρχεται σύντομα",
     "date": "29 Jun 2026",
     "body": "Η δεύτερη season του MDG βρίσκεται σε προετοιμασία, με περισσότερες ομάδες και νέο format.",
     "link": ""
+  },
+ {
+    "type": "Recruiting",
+    "title": "Recruitment Post για Disobedient G1",
+    "date": "30 Jun 2026",
+    "body": "Οι Disobedient (γκρουπ 1) εχουμε ανοίξει πάλι το recruitment για το season 2. 
+Ιδανικά χρειαζόμαστε rogue, druids, dk , warlocks. 
+Θα προτιμήσουμε ατομα με εκτενή εμπειρία στο current content και όχι world 20 από το MoP και rank 1 logs από το legion. 
+Ρεινταρουμε Τετάρτη/Δευτέρα 9:30-00:30  και στην αρχή η μέσα του τιερ κανουμε 4ς έξτρα μερες ρειντ (συνήθως Κυριακη) ανάλογα με το ποτε πέφτουν γιορτές/διακοπες κλπγ",
+    "link": "https://www.wowprogress.com/guild/eu/twisting-nether/Disobedient"
+  },
+  {
+    "type": "Recruiting",
+    "title": "Recruitment Post για UNIQUE LEGACY",
+    "date": "30 Jun 2026",
+    "body": "Οι UNIQUE LEGACY αναζητούν τα εξής, για το Mythic Progress τους: Shaman DPS & Priest/Druid Healer.",
+    "link": "https://www.wowprogress.com/guild/eu/twisting-nether/UNIQUE+LEGACY"
   }
 ]
