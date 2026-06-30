@@ -34,7 +34,7 @@ nav a:hover {
 .hero {
     background-image:
         linear-gradient(rgba(7,17,31,.65), rgba(7,17,31,.75)),
-        url("assets/wow-bg.png");
+        url("./assets/wow-bg.png");
 
     background-size: cover;
     background-position: center;
