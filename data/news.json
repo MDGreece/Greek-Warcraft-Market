@@ -1,12 +1,16 @@
 [
   {
     "type": "Rumor",
-    "text": "Olympus is searching for a new healer before next reset.",
-    "date": "2026-06-30"
+    "title": "You Are Not Repaired επιστρέφουν;",
+    "date": "30 Jun 2026",
+    "body": "Φήμες λένε πως το guild You Are Not Repaired ετοιμάζει επιστροφή στη Mythic σκηνή.",
+    "link": "guild.html?id=you-are-not-repaired"
   },
   {
     "type": "News",
-    "text": "MDG Season 1 teams will be added to Greek Warcraft Market.",
-    "date": "2026-06-30"
+    "title": "MDG Season 2 έρχεται σύντομα",
+    "date": "29 Jun 2026",
+    "body": "Η δεύτερη season του MDG βρίσκεται σε προετοιμασία, με περισσότερες ομάδες και νέο format.",
+    "link": ""
   }
 ]
