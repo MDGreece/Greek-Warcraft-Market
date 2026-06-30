@@ -37,10 +37,11 @@ if (!guildId) {
         card.innerHTML = `
           <h3>${expansion.title}</h3>
           ${expansion.tiers.map(tier => `
-            <div class="raid-tier">
-              <span>${tier}</span>
-              <span>-</span>
-            </div>
+         <div class="raid-tier">
+  <span class="raid-name">${tier}</span>
+  <span class="raid-rank">WR: -</span>
+  <span class="raid-rank">GR: -</span>
+</div>
           `).join("")}
         `;
 
