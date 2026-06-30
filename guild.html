@@ -14,61 +14,55 @@
 
 <main class="guild-profile-page">
 
-  <section class="guild-hero">
+  <section class="guild-profile-top">
     <h1 id="guildName">Loading guild...</h1>
 
     <div class="guild-logo-placeholder" id="guildLogo">
       <div class="placeholder-icon">🛡️</div>
       <p>Logo Placeholder</p>
     </div>
-  </section>
 
-  <section class="medal-section">
-    <div class="medal-card">
-      <div class="medal">🥇</div>
-      <h3>Rank 1</h3>
-      <p>x <span id="rank1Wins">0</span> Wins</p>
-    </div>
+    <div class="guild-awards">
+      <div class="award-card">
+        <img src="./assets/medals/rank1.png" alt="Rank 1">
+        <div class="award-count">x<span id="rank1Wins">0</span></div>
+      </div>
 
-    <div class="medal-card">
-      <div class="medal">🥈</div>
-      <h3>Rank 2</h3>
-      <p>x <span id="rank2Wins">0</span> Wins</p>
-    </div>
+      <div class="award-card">
+        <img src="./assets/medals/rank2.png" alt="Rank 2">
+        <div class="award-count">x<span id="rank2Wins">0</span></div>
+      </div>
 
-    <div class="medal-card">
-      <div class="medal">🥉</div>
-      <h3>Rank 3</h3>
-      <p>x <span id="rank3Wins">0</span> Wins</p>
+      <div class="award-card">
+        <img src="./assets/medals/rank3.png" alt="Rank 3">
+        <div class="award-count">x<span id="rank3Wins">0</span></div>
+      </div>
     </div>
   </section>
 
-  <section class="guild-box">
-    <h2>Raiding Days</h2>
+  <section class="guild-info-grid">
+    <div class="info-card">
+      <h3>Est.</h3>
+      <p id="guildEstablished">Date placeholder</p>
+    </div>
 
-    <div class="raid-days">
-      <div>Mon<br><span id="raidMon">-</span></div>
-      <div>Tue<br><span id="raidTue">-</span></div>
-      <div>Wed<br><span id="raidWed">-</span></div>
-      <div>Thu<br><span id="raidThu">-</span></div>
-      <div>Fri<br><span id="raidFri">-</span></div>
-      <div>Sat<br><span id="raidSat">-</span></div>
-      <div>Sun<br><span id="raidSun">-</span></div>
+    <div class="info-card">
+      <h3>Weekly Schedule</h3>
+      <p id="weeklySchedule">Days placeholder</p>
+    </div>
+
+    <div class="info-card">
+      <h3>Hourly Schedule</h3>
+      <p id="hourlySchedule">Time placeholder</p>
     </div>
   </section>
 
-  <section class="guild-box">
-    <h2>Raid Tiers & Rankings</h2>
+  <section class="expansions-section">
+    <h2>Raid History</h2>
 
-    <table class="profile-table">
-      <thead>
-        <tr>
-          <th>Tier</th>
-          <th>Rank</th>
-        </tr>
-      </thead>
-      <tbody id="raidHistoryBody"></tbody>
-    </table>
+    <div class="expansion-grid" id="expansionGrid">
+      <!-- Expansion boxes will load here -->
+    </div>
   </section>
 
   <section class="guild-box">
@@ -93,7 +87,6 @@
   </section>
 
 </main>
-
 <script src="guild-profile.js"></script>
 
 </body>
