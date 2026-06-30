@@ -460,3 +460,19 @@ nav a.active {
   font-size: 17px;
   line-height: 1.6;
 }
+/* Force award logo size */
+.guild-profile-top .award-card img {
+  width: 280px !important;
+  height: 280px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+}
+
+.guild-profile-top .award-card {
+  width: 280px !important;
+}
+
+.guild-profile-top .guild-awards {
+  gap: 40px !important;
+}
