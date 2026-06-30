@@ -105,24 +105,40 @@ nav a.active {
 }
 
 .ticker-title {
-  padding: 0 32px;
-  height: 64px;
-  background: #07111f;
-  color: #d4af37;
-  display: flex;
-  align-items: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  white-space: nowrap;
+    position: relative;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 270px;
+    height: 64px;
+
+    background: #07111f;
+    color: #f0b90b;
+
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-right: 3px solid #d4af37;
 }
 
 .ticker-content {
-  display: flex;
-  gap: 60px;
-  padding-left: 40px;
-  white-space: nowrap;
-  animation: scrollTicker 28s linear infinite;
-  font-size: 18px;
+    position: absolute;
+    left: 270px;
+    right: 0;
+
+    display: flex;
+    gap: 70px;
+
+    white-space: nowrap;
+
+    animation: scrollTicker 35s linear infinite;
+
+    font-size: 18px;
+    font-weight: bold;
 }
 
 @keyframes scrollTicker {
