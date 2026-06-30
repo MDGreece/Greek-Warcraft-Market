@@ -32,8 +32,21 @@ nav a:hover {
 }
 
 .hero {
-  padding: 40px 24px;
+    background-image:
+        linear-gradient(rgba(7,17,31,.65), rgba(7,17,31,.75)),
+        url("assets/warcraft-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .ticker {
   display: flex;
   overflow: hidden;
@@ -64,4 +77,19 @@ nav a:hover {
   to {
     transform: translateX(-100%);
   }
+}
+.hero-content {
+    text-align: center;
+    max-width: 900px;
+}
+
+.hero-content h2 {
+    font-size: 54px;
+    color: #F0B90B;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    color: white;
 }
