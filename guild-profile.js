@@ -4,19 +4,16 @@ const guildId = params.get("id");
 if (!guildId) {
   document.getElementById("guildName").textContent = "Guild Not Found";
 } else {
-  fetch(`./data/guilds/${guildId}.json`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("Guild file not found");
-      }
-      return response.json();
-    })
-    .then(guild => {
+  Promise.all([
+    fetch(`./data/guilds/${guildId}.json`).then(response => response.json()),
+    fetch("./data/raid-tiers.json").then(response => response.json())
+  ])
+    .then(([guild, raidTiers]) => {
       document.getElementById("guildName").textContent = guild.name;
 
-      document.getElementById("rank1Wins").textContent = guild.rank1Wins;
-      document.getElementById("rank2Wins").textContent = guild.rank2Wins;
-      document.getElementById("rank3Wins").textContent = guild.rank3Wins;
+      document.getElementById("rank1Wins").textContent = guild.rank1Wins || 0;
+      document.getElementById("rank2Wins").textContent = guild.rank2Wins || 0;
+      document.getElementById("rank3Wins").textContent = guild.rank3Wins || 0;
 
       const logoBox = document.getElementById("guildLogo");
 
@@ -25,6 +22,30 @@ if (!guildId) {
           <img src="${guild.logo}" alt="${guild.name} logo">
         `;
       }
+
+      document.getElementById("guildEstablished").textContent = guild.established || "Date placeholder";
+      document.getElementById("weeklySchedule").textContent = guild.weeklySchedule || "Days placeholder";
+      document.getElementById("hourlySchedule").textContent = guild.hourlySchedule || "Time placeholder";
+
+      const expansionGrid = document.getElementById("expansionGrid");
+      expansionGrid.innerHTML = "";
+
+      raidTiers.forEach(expansion => {
+        const card = document.createElement("div");
+        card.classList.add("expansion-card");
+
+        card.innerHTML = `
+          <h3>${expansion.title}</h3>
+          ${expansion.tiers.map(tier => `
+            <div class="raid-tier">
+              <span>${tier}</span>
+              <span>-</span>
+            </div>
+          `).join("")}
+        `;
+
+        expansionGrid.appendChild(card);
+      });
     })
     .catch(error => {
       document.getElementById("guildName").textContent = "Guild Not Found";
