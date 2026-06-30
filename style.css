@@ -5,32 +5,57 @@ body {
   color: #f5f5f5;
 }
 
-header {
-  background: #07111f;
-  padding: 24px;
-  border-bottom: 3px solid #d4af37;
+header{
+    background:#07111f;
+    border-bottom:3px solid #F0B90B;
 }
 
-h1 {
-  margin: 0;
-  color: #d4af37;
+.top-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 40px;
 }
 
-nav {
-  margin-top: 16px;
+.logo{
+
+    font-size:30px;
+    font-weight:bold;
+    color:#F0B90B;
+
 }
 
-nav a {
-  color: #f5f5f5;
-  margin-right: 18px;
-  text-decoration: none;
-  font-weight: bold;
+.search input{
+
+    width:420px;
+    padding:10px 15px;
+
+    border:none;
+    border-radius:6px;
+
+    font-size:16px;
+
 }
 
-nav a:hover {
-  color: #d4af37;
+.header-links a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
 }
 
+nav{
+
+    display:flex;
+    justify-content:center;
+    gap:35px;
+
+    padding:15px;
+
+    background:#0f1d30;
+}
 .hero {
     background-image:
         linear-gradient(rgba(7,17,31,.65), rgba(7,17,31,.75)),
