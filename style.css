@@ -232,3 +232,42 @@ nav a.active {
   font-weight: bold;
   text-transform: uppercase;
 }
+.guild-table {
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.guild-table h1 {
+  color: #f0b90b;
+  margin-bottom: 25px;
+}
+
+.guild-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #101820;
+}
+
+.guild-table th {
+  background: #d4af37;
+  color: #07111f;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.guild-table td {
+  padding: 16px;
+  border-bottom: 1px solid #263a59;
+}
+
+.guild-table tr:hover {
+  background: #1b2b45;
+}
+
+.guild-table td:first-child {
+  text-align: center;
+  width: 80px;
+  font-size: 24px;
+  font-weight: bold;
+}
