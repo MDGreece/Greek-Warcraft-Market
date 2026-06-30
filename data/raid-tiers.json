@@ -1,35 +1,30 @@
-Promise.all([
-  fetch(`./data/guilds/${guildId}.json`).then(response => response.json()),
-  fetch("./data/raid-tiers.json").then(response => response.json())
-])
-  .then(([guild, raidTiers]) => {
-    document.getElementById("guildName").textContent = guild.name;
-
-    document.getElementById("rank1Wins").textContent = guild.rank1Wins || 0;
-    document.getElementById("rank2Wins").textContent = guild.rank2Wins || 0;
-    document.getElementById("rank3Wins").textContent = guild.rank3Wins || 0;
-
-    const logoBox = document.getElementById("guildLogo");
-    if (guild.logo) {
-      logoBox.innerHTML = `<img src="${guild.logo}" alt="${guild.name} logo">`;
-    }
-
-    const expansionGrid = document.getElementById("expansionGrid");
-
-    raidTiers.forEach(expansion => {
-      const card = document.createElement("div");
-      card.classList.add("expansion-card");
-
-      card.innerHTML = `
-        <h3>${expansion.title}</h3>
-        ${expansion.tiers.map(tier => `
-          <div class="raid-tier">
-            <span>${tier}</span>
-            <span>-</span>
-          </div>
-        `).join("")}
-      `;
-
-      expansionGrid.appendChild(card);
-    });
-  });
+[
+  {
+    "title": "Draenor",
+    "tiers": ["Highmaul", "BRF", "HFC"]
+  },
+  {
+    "title": "Legion",
+    "tiers": ["EN", "ToV", "NH", "ToS", "Antorus"]
+  },
+  {
+    "title": "BFA",
+    "tiers": ["Uldir", "BoD", "CoS", "EP", "Ny'alotha"]
+  },
+  {
+    "title": "Shadowlands",
+    "tiers": ["CN", "SoD", "SotFO"]
+  },
+  {
+    "title": "Dragonflight",
+    "tiers": ["Vault", "Aberrus", "Amirdrassil"]
+  },
+  {
+    "title": "TWW",
+    "tiers": ["NP", "LoU", "MO"]
+  },
+  {
+    "title": "Midnight",
+    "tiers": ["T1 (DR, VS, MoQ)"]
+  }
+]
