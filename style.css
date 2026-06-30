@@ -34,3 +34,34 @@ nav a:hover {
 .hero {
   padding: 40px 24px;
 }
+.ticker {
+  display: flex;
+  overflow: hidden;
+  background: #d4af37;
+  color: #07111f;
+  font-weight: bold;
+}
+
+.ticker-title {
+  padding: 10px 16px;
+  background: #07111f;
+  color: #d4af37;
+  white-space: nowrap;
+}
+
+.ticker-content {
+  display: flex;
+  gap: 40px;
+  padding: 10px 0;
+  white-space: nowrap;
+  animation: scrollTicker 25s linear infinite;
+}
+
+@keyframes scrollTicker {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
