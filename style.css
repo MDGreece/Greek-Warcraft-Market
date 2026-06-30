@@ -21,19 +21,19 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 18px;
 }
 
 .logo img {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
     object-fit: contain;
 }
 
 .logo span {
-    font-size: 34px;
+    font-size: 42px;
     font-weight: 900;
-    color: #f0b90b;
+    color: #F0B90B;
 }
 
 .search {
