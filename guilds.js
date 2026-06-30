@@ -12,7 +12,7 @@ fetch("./data/guilds.json")
 
       const row = document.createElement("tr");
 
-     row.innerHTML = `
+   row.innerHTML = `
   <td>${rankDisplay}</td>
   <td>
     <a class="guild-link" href="guild.html?id=${guild.id}">
