@@ -3,7 +3,7 @@ const guildId = params.get("id");
 
 if (!guildId) {
   document.getElementById("guildName").textContent = "Guild Not Found";
-  document.getElementById("guildNameBreadcrumb").textContent = guild.name;
+  document.getElementById("guildNameBreadcrumb").textContent = "Guild Not Found";
 } else {
   Promise.all([
     fetch(`./data/guilds/${guildId}.json`).then(response => response.json()),
@@ -11,6 +11,7 @@ if (!guildId) {
   ])
     .then(([guild, raidTiers]) => {
       document.getElementById("guildName").textContent = guild.name;
+      document.getElementById("guildNameBreadcrumb").textContent = guild.name;
 
       document.getElementById("rank1Wins").textContent = guild.rank1Wins || 0;
       document.getElementById("rank2Wins").textContent = guild.rank2Wins || 0;
@@ -24,9 +25,14 @@ if (!guildId) {
         `;
       }
 
-      document.getElementById("guildEstablished").textContent = guild.established || "Date placeholder";
-      document.getElementById("weeklySchedule").textContent = guild.weeklySchedule || "Days placeholder";
-      document.getElementById("RaidTimes").textContent = guild.RaidTimes || "Time placeholder";
+      document.getElementById("guildEstablished").textContent =
+        guild.established || "Date placeholder";
+
+      document.getElementById("weeklySchedule").textContent =
+        guild.weeklySchedule || "Days placeholder";
+
+      document.getElementById("RaidTimes").textContent =
+        guild.RaidTimes || "Time placeholder";
 
       const expansionGrid = document.getElementById("expansionGrid");
       expansionGrid.innerHTML = "";
@@ -37,13 +43,17 @@ if (!guildId) {
 
         card.innerHTML = `
           <h3>${expansion.title}</h3>
-          ${expansion.tiers.map(tier => `
-         <div class="raid-tier">
-  <span class="raid-name">${tier}</span>
-  <span class="raid-rank">WR: -</span>
-  <span class="raid-rank">GR: -</span>
-</div>
-          `).join("")}
+          ${expansion.tiers.map(tier => {
+            const tierRank = guild.tierRanks?.[tier] || { WR: "-", GR: "-" };
+
+            return `
+              <div class="raid-tier">
+                <span class="raid-name">${tier}</span>
+                <span class="raid-rank">WR: ${tierRank.WR}</span>
+                <span class="raid-rank">GR: ${tierRank.GR}</span>
+              </div>
+            `;
+          }).join("")}
         `;
 
         expansionGrid.appendChild(card);
@@ -51,6 +61,7 @@ if (!guildId) {
     })
     .catch(error => {
       document.getElementById("guildName").textContent = "Guild Not Found";
+      document.getElementById("guildNameBreadcrumb").textContent = "Guild Not Found";
       console.error(error);
     });
 }
