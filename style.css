@@ -383,3 +383,22 @@ nav a.active {
   font-weight: bold;
   text-align: center;
 }
+.breadcrumb {
+    max-width: 1200px;
+    margin: 20px auto 10px;
+    color: #b8c2cc;
+    font-size: 15px;
+}
+
+.breadcrumb a {
+    color: #f0b90b;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 6px;
+}
