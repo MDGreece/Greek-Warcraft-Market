@@ -1,1 +1,12 @@
-
+[
+  {
+    "type": "Rumor",
+    "text": "Olympus is searching for a new healer before next reset.",
+    "date": "2026-06-30"
+  },
+  {
+    "type": "News",
+    "text": "MDG Season 1 teams will be added to Greek Warcraft Market.",
+    "date": "2026-06-30"
+  }
+]
