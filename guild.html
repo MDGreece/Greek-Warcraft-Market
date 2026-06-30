@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guild Profile - Greek Warcraft Market</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+  <!-- You can copy your full header from index.html here later -->
+</header>
+
+<main class="guild-profile-page">
+
+  <section class="guild-hero">
+    <h1 id="guildName">Loading guild...</h1>
+
+    <div class="guild-logo-placeholder" id="guildLogo">
+      <div class="placeholder-icon">🛡️</div>
+      <p>Logo Placeholder</p>
+    </div>
+  </section>
+
+  <section class="medal-section">
+    <div class="medal-card">
+      <div class="medal">🥇</div>
+      <h3>Rank 1</h3>
+      <p>x <span id="rank1Wins">0</span> Wins</p>
+    </div>
+
+    <div class="medal-card">
+      <div class="medal">🥈</div>
+      <h3>Rank 2</h3>
+      <p>x <span id="rank2Wins">0</span> Wins</p>
+    </div>
+
+    <div class="medal-card">
+      <div class="medal">🥉</div>
+      <h3>Rank 3</h3>
+      <p>x <span id="rank3Wins">0</span> Wins</p>
+    </div>
+  </section>
+
+  <section class="guild-box">
+    <h2>Raiding Days</h2>
+
+    <div class="raid-days">
+      <div>Mon<br><span id="raidMon">-</span></div>
+      <div>Tue<br><span id="raidTue">-</span></div>
+      <div>Wed<br><span id="raidWed">-</span></div>
+      <div>Thu<br><span id="raidThu">-</span></div>
+      <div>Fri<br><span id="raidFri">-</span></div>
+      <div>Sat<br><span id="raidSat">-</span></div>
+      <div>Sun<br><span id="raidSun">-</span></div>
+    </div>
+  </section>
+
+  <section class="guild-box">
+    <h2>Raid Tiers & Rankings</h2>
+
+    <table class="profile-table">
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>Rank</th>
+        </tr>
+      </thead>
+      <tbody id="raidHistoryBody"></tbody>
+    </table>
+  </section>
+
+  <section class="guild-box">
+    <h2>Roster</h2>
+
+    <div class="roster-grid">
+      <div class="roster-column">
+        <h3>Tanks</h3>
+        <ul id="tankRoster"></ul>
+      </div>
+
+      <div class="roster-column">
+        <h3>Healers</h3>
+        <ul id="healerRoster"></ul>
+      </div>
+
+      <div class="roster-column">
+        <h3>DPS</h3>
+        <ul id="dpsRoster"></ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="guild-profile.js"></script>
+
+</body>
+</html>
