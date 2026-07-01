@@ -1,14 +1,34 @@
-fetch("./data/guilds.json")
+const leaderboardFile = "./data/guildsio.json";
+
+fetch(leaderboardFile)
   .then(response => response.json())
   .then(guilds => {
     const tableBody = document.getElementById("guildTableBody");
+    tableBody.innerHTML = "";
 
-    guilds.forEach(guild => {
-      let rankDisplay = guild.rank;
+    const currentRaid = "tier-mn-1";
 
-      if (guild.rank === 1) rankDisplay = "🥇";
-      if (guild.rank === 2) rankDisplay = "🥈";
-      if (guild.rank === 3) rankDisplay = "🥉";
+    guilds.sort((a, b) => {
+      const rankA = a.rankings?.[currentRaid]?.mythic?.world || 999999;
+      const rankB = b.rankings?.[currentRaid]?.mythic?.world || 999999;
+      return rankA - rankB;
+    });
+
+    guilds.forEach((guild, index) => {
+      const greekRank = index + 1;
+
+      let rankDisplay = greekRank;
+      if (greekRank === 1) rankDisplay = "🥇";
+      if (greekRank === 2) rankDisplay = "🥈";
+      if (greekRank === 3) rankDisplay = "🥉";
+
+      const worldRank = guild.rankings?.[currentRaid]?.mythic?.world || "-";
+
+      const mainProgress = guild.progress?.["tier-mn-1"]?.summary || "-";
+      const miniProgress = guild.progress?.["sporefall"]?.summary || "-";
+      const lastProgress = guild.progress?.["the-venomous-abyss"]?.summary || "-";
+
+      const progress = `${mainProgress} • ${miniProgress} • ${lastProgress}`;
 
       const row = document.createElement("tr");
 
@@ -19,10 +39,13 @@ fetch("./data/guilds.json")
             ${guild.name}
           </a>
         </td>
-        <td>${guild.worldRank}</td>
-        <td>${guild.progress}</td>
+        <td>${worldRank}</td>
+        <td>${progress}</td>
       `;
 
       tableBody.appendChild(row);
     });
+  })
+  .catch(error => {
+    console.error("Could not load guildsio.json:", error);
   });
