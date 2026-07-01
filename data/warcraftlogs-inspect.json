@@ -3,11 +3,6 @@
     "report": {
       "code": "CgA1mHkKyd3x6Zfn",
       "title": "Lura",
-      "startTime": 1782754614172,
-      "endTime": 1782768862795,
-      "zone": {
-        "name": "VS / DR / MQD"
-      },
       "fights": [
         {
           "id": 6,
@@ -15,9 +10,7 @@
           "kill": false,
           "bossPercentage": 92.21,
           "fightPercentage": 93.37,
-          "difficulty": 5,
-          "startTime": 3644366,
-          "endTime": 3681664
+          "difficulty": 5
         },
         {
           "id": 7,
@@ -25,9 +18,7 @@
           "kill": false,
           "bossPercentage": 64.03,
           "fightPercentage": 69.42,
-          "difficulty": 5,
-          "startTime": 3794943,
-          "endTime": 3996822
+          "difficulty": 5
         },
         {
           "id": 8,
@@ -35,9 +26,7 @@
           "kill": false,
           "bossPercentage": 69.75,
           "fightPercentage": 74.28,
-          "difficulty": 5,
-          "startTime": 4102967,
-          "endTime": 4266645
+          "difficulty": 5
         },
         {
           "id": 9,
@@ -45,9 +34,7 @@
           "kill": false,
           "bossPercentage": 63.47,
           "fightPercentage": 68.94,
-          "difficulty": 5,
-          "startTime": 4328454,
-          "endTime": 4534323
+          "difficulty": 5
         },
         {
           "id": 10,
@@ -55,9 +42,7 @@
           "kill": false,
           "bossPercentage": 98.04,
           "fightPercentage": 98.33,
-          "difficulty": 5,
-          "startTime": 4605964,
-          "endTime": 4627818
+          "difficulty": 5
         },
         {
           "id": 11,
@@ -65,9 +50,7 @@
           "kill": false,
           "bossPercentage": 61.56,
           "fightPercentage": 67.32,
-          "difficulty": 5,
-          "startTime": 4767155,
-          "endTime": 4983141
+          "difficulty": 5
         },
         {
           "id": 12,
@@ -75,9 +58,7 @@
           "kill": false,
           "bossPercentage": 52.95,
           "fightPercentage": 60,
-          "difficulty": 5,
-          "startTime": 5378065,
-          "endTime": 5659606
+          "difficulty": 5
         },
         {
           "id": 13,
@@ -85,9 +66,7 @@
           "kill": false,
           "bossPercentage": 58.43,
           "fightPercentage": 64.66,
-          "difficulty": 5,
-          "startTime": 5807542,
-          "endTime": 6051165
+          "difficulty": 5
         },
         {
           "id": 14,
@@ -95,9 +74,7 @@
           "kill": false,
           "bossPercentage": 62.07,
           "fightPercentage": 67.75,
-          "difficulty": 5,
-          "startTime": 6167182,
-          "endTime": 6376614
+          "difficulty": 5
         },
         {
           "id": 15,
@@ -105,9 +82,7 @@
           "kill": false,
           "bossPercentage": 57.64,
           "fightPercentage": 63.99,
-          "difficulty": 5,
-          "startTime": 6450781,
-          "endTime": 6702314
+          "difficulty": 5
         },
         {
           "id": 16,
@@ -115,9 +90,7 @@
           "kill": false,
           "bossPercentage": 60.67,
           "fightPercentage": 66.56,
-          "difficulty": 5,
-          "startTime": 6890859,
-          "endTime": 7108143
+          "difficulty": 5
         },
         {
           "id": 17,
@@ -125,9 +98,7 @@
           "kill": false,
           "bossPercentage": 48.26,
           "fightPercentage": 56.02,
-          "difficulty": 5,
-          "startTime": 7175170,
-          "endTime": 7478367
+          "difficulty": 5
         },
         {
           "id": 18,
@@ -135,9 +106,7 @@
           "kill": false,
           "bossPercentage": 70.29,
           "fightPercentage": 74.74,
-          "difficulty": 5,
-          "startTime": 7759190,
-          "endTime": 7931822
+          "difficulty": 5
         },
         {
           "id": 19,
@@ -145,9 +114,7 @@
           "kill": false,
           "bossPercentage": 55.5,
           "fightPercentage": 62.17,
-          "difficulty": 5,
-          "startTime": 8019012,
-          "endTime": 8280271
+          "difficulty": 5
         },
         {
           "id": 20,
@@ -155,9 +122,7 @@
           "kill": false,
           "bossPercentage": 43.45,
           "fightPercentage": 51.93,
-          "difficulty": 5,
-          "startTime": 8371168,
-          "endTime": 8711198
+          "difficulty": 5
         },
         {
           "id": 21,
@@ -165,9 +130,7 @@
           "kill": false,
           "bossPercentage": 64.11,
           "fightPercentage": 69.49,
-          "difficulty": 5,
-          "startTime": 10194661,
-          "endTime": 10398973
+          "difficulty": 5
         },
         {
           "id": 22,
@@ -175,9 +138,7 @@
           "kill": false,
           "bossPercentage": 82.54,
           "fightPercentage": 85.15,
-          "difficulty": 5,
-          "startTime": 10582353,
-          "endTime": 10675987
+          "difficulty": 5
         },
         {
           "id": 23,
@@ -185,9 +146,7 @@
           "kill": false,
           "bossPercentage": 85.83,
           "fightPercentage": 87.95,
-          "difficulty": 5,
-          "startTime": 10746473,
-          "endTime": 10827009
+          "difficulty": 5
         },
         {
           "id": 24,
@@ -195,9 +154,7 @@
           "kill": false,
           "bossPercentage": 60.72,
           "fightPercentage": 66.61,
-          "difficulty": 5,
-          "startTime": 10904987,
-          "endTime": 11126713
+          "difficulty": 5
         },
         {
           "id": 25,
@@ -205,9 +162,7 @@
           "kill": false,
           "bossPercentage": 75.52,
           "fightPercentage": 79.19,
-          "difficulty": 5,
-          "startTime": 11218951,
-          "endTime": 11359253
+          "difficulty": 5
         },
         {
           "id": 26,
@@ -215,9 +170,7 @@
           "kill": false,
           "bossPercentage": 63.05,
           "fightPercentage": 68.59,
-          "difficulty": 5,
-          "startTime": 11467862,
-          "endTime": 11687898
+          "difficulty": 5
         },
         {
           "id": 27,
@@ -225,9 +178,7 @@
           "kill": false,
           "bossPercentage": 60.48,
           "fightPercentage": 66.4,
-          "difficulty": 5,
-          "startTime": 11760625,
-          "endTime": 11979179
+          "difficulty": 5
         },
         {
           "id": 28,
@@ -235,9 +186,7 @@
           "kill": false,
           "bossPercentage": 57.26,
           "fightPercentage": 63.67,
-          "difficulty": 5,
-          "startTime": 12054260,
-          "endTime": 12298359
+          "difficulty": 5
         },
         {
           "id": 29,
@@ -245,9 +194,7 @@
           "kill": false,
           "bossPercentage": 45.86,
           "fightPercentage": 53.98,
-          "difficulty": 5,
-          "startTime": 12380394,
-          "endTime": 12703472
+          "difficulty": 5
         },
         {
           "id": 30,
@@ -255,9 +202,7 @@
           "kill": false,
           "bossPercentage": 43.63,
           "fightPercentage": 52.08,
-          "difficulty": 5,
-          "startTime": 12858243,
-          "endTime": 13195841
+          "difficulty": 5
         },
         {
           "id": 31,
@@ -265,9 +210,7 @@
           "kill": false,
           "bossPercentage": 59.29,
           "fightPercentage": 65.39,
-          "difficulty": 5,
-          "startTime": 13374025,
-          "endTime": 13596122
+          "difficulty": 5
         },
         {
           "id": 32,
@@ -275,9 +218,7 @@
           "kill": false,
           "bossPercentage": 72.28,
           "fightPercentage": 76.43,
-          "difficulty": 5,
-          "startTime": 13649192,
-          "endTime": 13802682
+          "difficulty": 5
         },
         {
           "id": 33,
@@ -285,9 +226,7 @@
           "kill": false,
           "bossPercentage": 88.79,
           "fightPercentage": 90.47,
-          "difficulty": 5,
-          "startTime": 13868322,
-          "endTime": 13930148
+          "difficulty": 5
         },
         {
           "id": 34,
@@ -295,9 +234,7 @@
           "kill": false,
           "bossPercentage": 57.36,
           "fightPercentage": 63.75,
-          "difficulty": 5,
-          "startTime": 13991962,
-          "endTime": 14248623
+          "difficulty": 5
         }
       ]
     }
