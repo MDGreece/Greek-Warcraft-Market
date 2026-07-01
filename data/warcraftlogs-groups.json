@@ -5,26 +5,26 @@
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 705280,
     "progress": "8/9M",
-    "bossProg": "45.33%",
+    "bossProg": "0.00%",
     "worldRank": 1102,
-    "totalPulls": 13,
+    "totalPulls": 564,
     "totalReports": 20,
-    "latestReport": "Vb7XTcKyfxDBdh8A",
+    "latestReport": "bjwJZ4rLxAhyVCQD",
     "latestReportTitle": "VS / DR / MQD",
-    "bestBoss": "Midnight Falls"
+    "bestBoss": "Belo'ren, Child of Al'ar"
   },
   {
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 730932,
-    "progress": "8/9M",
-    "bossProg": "67.48%",
+    "progress": "5/9M",
+    "bossProg": "0.00%",
     "worldRank": 1753,
-    "totalPulls": 6,
+    "totalPulls": 415,
     "totalReports": 20,
     "latestReport": "fdnvC8X1Z3cP7t2F",
     "latestReportTitle": " Lura S01E04",
-    "bestBoss": "Midnight Falls"
+    "bestBoss": "Belo'ren, Child of Al'ar"
   }
 ]
