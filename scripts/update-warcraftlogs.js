@@ -6,6 +6,8 @@ const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
 const inputPath = "data/warcraftlogs-groups.json";
 const outputPath = "data/warcraftlogs-groups.json";
 
+const TOTAL_BOSSES = 9;
+
 async function getToken() {
   const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
     method: "POST",
@@ -62,7 +64,7 @@ async function getReportsForGuild(token, guildId) {
   return data.reportData.reports.data || [];
 }
 
-async function getReportProgress(token, reportCode) {
+async function getFightsFromReport(token, reportCode) {
   const query = `
     query($code: String!) {
       reportData {
@@ -72,7 +74,6 @@ async function getReportProgress(token, reportCode) {
             name
             kill
             bossPercentage
-            fightPercentage
             difficulty
           }
         }
@@ -81,31 +82,7 @@ async function getReportProgress(token, reportCode) {
   `;
 
   const data = await queryWarcraftLogs(token, query, { code: reportCode });
-  const fights = data.reportData.report.fights || [];
-
-  if (fights.length === 0) {
-    return {
-      totalPulls: 0,
-      bossProg: "-",
-      bestBoss: ""
-    };
-  }
-
-  const bestFight = fights.reduce((best, fight) => {
-    if (fight.kill) return fight;
-
-    if (fight.bossPercentage < best.bossPercentage) {
-      return fight;
-    }
-
-    return best;
-  }, fights[0]);
-
-  return {
-    totalPulls: fights.length,
-    bossProg: bestFight.kill ? "Kill" : `${bestFight.bossPercentage.toFixed(2)}%`,
-    bestBoss: bestFight.name
-  };
+  return data.reportData.report.fights || [];
 }
 
 async function run() {
@@ -120,22 +97,53 @@ async function run() {
     const reports = await getReportsForGuild(token, group.warcraftLogsGuildId);
 
     group.totalReports = reports.length;
-    group.latestReport = reports[0]?.code || "";
-    group.latestReportTitle = reports[0]?.title || "";
 
-    if (group.latestReport) {
-      const progress = await getReportProgress(token, group.latestReport);
+    let allFights = [];
+    let latestUsefulReport = null;
 
-      group.totalPulls = progress.totalPulls;
-      group.bossProg = progress.bossProg;
-      group.bestBoss = progress.bestBoss;
+    for (const report of reports) {
+      const fights = await getFightsFromReport(token, report.code);
+
+      if (fights.length > 0 && !latestUsefulReport) {
+        latestUsefulReport = report;
+      }
+
+      allFights = allFights.concat(fights);
+    }
+
+    const mythicFights = allFights.filter(fight => fight.difficulty === 5);
+
+    const killedBosses = new Set(
+      mythicFights
+        .filter(fight => fight.kill)
+        .map(fight => fight.name)
+    );
+
+    const mythicKills = killedBosses.size;
+
+    group.progress =
+      mythicKills >= TOTAL_BOSSES ? "CE" : `${mythicKills}/${TOTAL_BOSSES}M`;
+
+    group.totalPulls = mythicFights.length;
+
+    const wipeFights = mythicFights.filter(fight => !fight.kill);
+
+    if (wipeFights.length > 0) {
+      const bestWipe = wipeFights.reduce((best, fight) => {
+        return fight.bossPercentage < best.bossPercentage ? fight : best;
+      }, wipeFights[0]);
+
+      group.bossProg = `${bestWipe.bossPercentage.toFixed(2)}%`;
+      group.bestBoss = bestWipe.name;
     } else {
-      group.totalPulls = 0;
-      group.bossProg = "-";
+      group.bossProg = mythicKills >= TOTAL_BOSSES ? "WR " + group.worldRank : "-";
       group.bestBoss = "";
     }
 
-    console.log(`${group.name}: ${group.totalPulls} pulls, ${group.bossProg} on ${group.bestBoss}`);
+    group.latestReport = latestUsefulReport?.code || "";
+    group.latestReportTitle = latestUsefulReport?.title || "";
+
+    console.log(`${group.name}: ${group.progress}, ${group.totalPulls} pulls, ${group.bossProg}`);
   }
 
   fs.writeFileSync(outputPath, JSON.stringify(groups, null, 2));
