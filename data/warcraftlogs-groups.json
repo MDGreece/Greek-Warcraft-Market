@@ -3,20 +3,20 @@
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "parentGuild": "Disobedient",
-    "warcraftLogsGuild": "Disobedient",
-    "warcraftLogsTeam": "Raid/Mythic+ TeamDisobedient",
-    "realm": "Twisting Nether",
-    "region": "EU",
+    "warcraftLogsGuildId": 705280,
+    "progress": "-",
+    "bossProg": "-",
+    "worldRank": 999999,
     "totalPulls": 0
   },
   {
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "parentGuild": "Disobedient",
-    "warcraftLogsGuild": "Disobedient",
-    "warcraftLogsTeam": "Raid/Mythic+ TeamDisobedient",
-    "realm": "Twisting Nether",
-    "region": "EU",
+    "warcraftLogsGuildId": 730932,
+    "progress": "-",
+    "bossProg": "-",
+    "worldRank": 999999,
     "totalPulls": 0
   }
 ]
