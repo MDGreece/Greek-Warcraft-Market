@@ -69,6 +69,25 @@ async function getReportsForGuild(token, guildId) {
   return data.reportData.reports.data || [];
 }
 
+async function getPullsFromReport(token, reportCode) {
+  const query = `
+    query($code: String!) {
+      reportData {
+        report(code: $code) {
+          fights(killType: Encounters) {
+            id
+            name
+            kill
+          }
+        }
+      }
+    }
+  `;
+
+  const data = await queryWarcraftLogs(token, query, { code: reportCode });
+  return data.reportData.report.fights.length || 0;
+}
+
 async function run() {
   const token = await getToken();
 
@@ -83,8 +102,13 @@ async function run() {
     group.latestReport = reports[0]?.code || "";
     group.latestReportTitle = reports[0]?.title || "";
 
-    // Temporary until we add fight/pull parsing
-    group.totalPulls = group.totalPulls || 0;
+    if (group.latestReport) {
+      group.totalPulls = await getPullsFromReport(token, group.latestReport);
+    } else {
+      group.totalPulls = 0;
+    }
+
+    console.log(`${group.name}: ${group.totalPulls} pulls`);
   }
 
   fs.writeFileSync(outputPath, JSON.stringify(groups, null, 2));
