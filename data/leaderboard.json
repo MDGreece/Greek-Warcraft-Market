@@ -5,10 +5,12 @@
     "name": "Death and Glory",
     "type": "guild",
     "realm": "silvermoon",
+    "parentGuild": "",
     "progress": "CE",
     "bossProg": "WR 401",
     "worldRank": 401,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 2,
@@ -16,10 +18,12 @@
     "name": "Disobedient",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "CE",
     "bossProg": "WR 774",
     "worldRank": 774,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 3,
@@ -27,65 +31,81 @@
     "name": "K L I K A",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "CE",
     "bossProg": "WR 784",
     "worldRank": 784,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 4,
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "type": "raid-team",
+    "realm": "",
     "parentGuild": "Disobedient",
-    "progress": "8/9M",
-    "bossProg": "0.00% Belo'ren, Child of Al'ar",
+    "progress": "CE",
+    "bossProg": "35.80% Midnight Falls",
     "worldRank": 1102,
-    "totalPulls": 564
+    "totalPulls": 350,
+    "source": "warcraftlogs",
+    "latestReport": "gCTLGcvbdH693zfM",
+    "latestReportTitle": "VS / DR / MQD"
   },
   {
     "rank": 5,
+    "id": "disobedient-group-iii",
+    "name": "Disobedient Group III",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "CE",
+    "bossProg": "62.99% Midnight Falls",
+    "worldRank": 1753,
+    "totalPulls": 119,
+    "source": "warcraftlogs",
+    "latestReport": "fdnvC8X1Z3cP7t2F",
+    "latestReportTitle": " Lura S01E04"
+  },
+  {
+    "rank": 6,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
     "realm": "tarren-mill",
+    "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "WR 1242",
-    "worldRank": 1242,
-    "totalPulls": "-"
+    "bossProg": "WR 1248",
+    "worldRank": 1248,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "WR 1458",
-    "worldRank": 1458,
-    "totalPulls": "-"
+    "bossProg": "WR 1332",
+    "worldRank": 1332,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
     "realm": "tarren-mill",
+    "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "WR 1671",
-    "worldRank": 1671,
-    "totalPulls": "-"
-  },
-  {
-    "rank": 8,
-    "id": "disobedient-group-iii",
-    "name": "Disobedient Group III",
-    "type": "raid-team",
-    "parentGuild": "Disobedient",
-    "progress": "5/9M",
-    "bossProg": "0.00% Belo'ren, Child of Al'ar",
-    "worldRank": 1753,
-    "totalPulls": 415
+    "bossProg": "WR 1673",
+    "worldRank": 1673,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 9,
@@ -93,10 +113,12 @@
     "name": "UNIQUE LEGACY",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "7/9M",
-    "bossProg": "WR 2983",
-    "worldRank": 2983,
-    "totalPulls": "-"
+    "bossProg": "WR 2987",
+    "worldRank": 2987,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 10,
@@ -104,10 +126,12 @@
     "name": "Chillers",
     "type": "guild",
     "realm": "silvermoon",
+    "parentGuild": "",
     "progress": "6/9M",
-    "bossProg": "WR 3282",
-    "worldRank": 3282,
-    "totalPulls": "-"
+    "bossProg": "WR 3288",
+    "worldRank": 3288,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 11,
@@ -115,10 +139,12 @@
     "name": "Nyxborn",
     "type": "guild",
     "realm": "silvermoon",
+    "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "WR 4451",
     "worldRank": 4451,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 12,
@@ -126,10 +152,12 @@
     "name": "Provatina",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "WR 4703",
-    "worldRank": 4703,
-    "totalPulls": "-"
+    "bossProg": "WR 4704",
+    "worldRank": 4704,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 13,
@@ -137,10 +165,12 @@
     "name": "U T O P I A",
     "type": "guild",
     "realm": "silvermoon",
+    "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "WR 4754",
-    "worldRank": 4754,
-    "totalPulls": "-"
+    "bossProg": "WR 4755",
+    "worldRank": 4755,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 14,
@@ -148,10 +178,12 @@
     "name": "T H E O R Y",
     "type": "guild",
     "realm": "ravencrest",
+    "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "WR 4961",
-    "worldRank": 4961,
-    "totalPulls": "-"
+    "bossProg": "WR 4962",
+    "worldRank": 4962,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 15,
@@ -159,10 +191,12 @@
     "name": "Elegance",
     "type": "guild",
     "realm": "silvermoon",
+    "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "WR 5530",
     "worldRank": 5530,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 16,
@@ -170,10 +204,12 @@
     "name": "Dungeon Meta",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "WR 6215",
-    "worldRank": 6215,
-    "totalPulls": "-"
+    "bossProg": "WR 6216",
+    "worldRank": 6216,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 17,
@@ -181,10 +217,12 @@
     "name": "Myrmidones",
     "type": "guild",
     "realm": "stormscale",
+    "parentGuild": "",
     "progress": "2/9M",
-    "bossProg": "WR 7659",
-    "worldRank": 7659,
-    "totalPulls": "-"
+    "bossProg": "WR 7662",
+    "worldRank": 7662,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 18,
@@ -192,54 +230,64 @@
     "name": "The Haunted",
     "type": "guild",
     "realm": "twisting-nether",
+    "parentGuild": "",
     "progress": "1/9M",
     "bossProg": "WR 8294",
     "worldRank": 8294,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 19,
-    "id": "a-n-a-l-o-s-o-i-m-o-i",
-    "name": "A N A L O S O I M O I",
-    "type": "guild",
-    "realm": "silvermoon",
-    "progress": "0/9M",
-    "bossProg": "WR 8700",
-    "worldRank": 8700,
-    "totalPulls": "-"
-  },
-  {
-    "rank": 20,
-    "id": "the-syndicate",
-    "name": "The Syndicate",
-    "type": "guild",
-    "realm": "genjuros",
-    "progress": "0/9M",
-    "bossProg": "WR 8763",
-    "worldRank": 8763,
-    "totalPulls": "-"
-  },
-  {
-    "rank": 21,
-    "id": "chthonic",
-    "name": "Chthonic",
-    "type": "guild",
-    "realm": "draenor",
-    "progress": "0/9M",
-    "bossProg": "WR 8992",
-    "worldRank": 8992,
-    "totalPulls": "-"
-  },
-  {
-    "rank": 22,
     "id": "leontokardoi",
     "name": "leontokardoi",
     "type": "guild",
     "realm": "twisting-nether",
-    "progress": "0/9M",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "totalPulls": "-"
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "WR 4433",
+    "worldRank": 4433,
+    "totalPulls": "-",
+    "source": "raiderio"
+  },
+  {
+    "rank": 20,
+    "id": "a-n-a-l-o-s-o-i-m-o-i",
+    "name": "A N A L O S O I M O I",
+    "type": "guild",
+    "realm": "silvermoon",
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "WR 8700",
+    "worldRank": 8700,
+    "totalPulls": "-",
+    "source": "raiderio"
+  },
+  {
+    "rank": 21,
+    "id": "the-syndicate",
+    "name": "The Syndicate",
+    "type": "guild",
+    "realm": "genjuros",
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "WR 8763",
+    "worldRank": 8763,
+    "totalPulls": "-",
+    "source": "raiderio"
+  },
+  {
+    "rank": 22,
+    "id": "chthonic",
+    "name": "Chthonic",
+    "type": "guild",
+    "realm": "draenor",
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "WR 8993",
+    "worldRank": 8993,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 23,
@@ -247,10 +295,12 @@
     "name": "Epsilon",
     "type": "guild",
     "realm": "draenor",
-    "progress": "0/9M",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "totalPulls": "-"
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "WR 9203",
+    "worldRank": 9203,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 24,
@@ -258,10 +308,12 @@
     "name": "Irriducibili",
     "type": "guild",
     "realm": "twisting-nether",
-    "progress": "0/9M",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "totalPulls": "-"
+    "parentGuild": "",
+    "progress": "8/9H",
+    "bossProg": "WR 12399",
+    "worldRank": 12399,
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 25,
@@ -269,10 +321,12 @@
     "name": "Crimson Thunder",
     "type": "guild",
     "realm": "twisting-nether",
-    "progress": "0/9M",
+    "parentGuild": "",
+    "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   },
   {
     "rank": 26,
@@ -280,9 +334,11 @@
     "name": "Not Forgotten",
     "type": "guild",
     "realm": "tarren-mill",
-    "progress": "0/9M",
+    "parentGuild": "",
+    "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
-    "totalPulls": "-"
+    "totalPulls": "-",
+    "source": "raiderio"
   }
 ]
