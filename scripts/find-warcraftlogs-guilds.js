@@ -7,6 +7,10 @@ const raiderPath = "data/guildsio.json";
 const outputPath = "data/warcraftlogs-groups.json";
 
 async function getToken() {
+  if (!CLIENT_ID || !CLIENT_SECRET) {
+    throw new Error("Missing WARCRAFTLOGS_CLIENT_ID or WARCRAFTLOGS_CLIENT_SECRET");
+  }
+
   const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
     method: "POST",
     headers: {
@@ -17,7 +21,10 @@ async function getToken() {
     body: "grant_type=client_credentials"
   });
 
-  if (!response.ok) throw new Error("Could not get Warcraft Logs token");
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`Could not get Warcraft Logs token: ${response.status} ${text}`);
+  }
 
   const data = await response.json();
   return data.access_token;
@@ -88,11 +95,34 @@ async function findGuild(token, guild) {
   return data?.guildData?.guild || null;
 }
 
+function loadExistingGroups() {
+  if (!fs.existsSync(outputPath)) {
+    return [];
+  }
+
+  return JSON.parse(fs.readFileSync(outputPath, "utf8"));
+}
+
+function groupAlreadyExists(groups, guild, wclGuild) {
+  const newId = slugifyId(guild.name);
+
+  return groups.some(group =>
+    group.id === newId ||
+    group.warcraftLogsGuildId === wclGuild.id ||
+    (
+      group.name?.toLowerCase() === guild.name.toLowerCase() &&
+      group.realm?.toLowerCase() === guild.realm.toLowerCase()
+    )
+  );
+}
+
 async function run() {
+  console.log("Finding Warcraft Logs guild IDs without removing manual groups");
+
   const token = await getToken();
   const raiderGuilds = JSON.parse(fs.readFileSync(raiderPath, "utf8"));
 
-  const groups = [];
+  const groups = loadExistingGroups();
 
   for (const guild of raiderGuilds) {
     console.log(`Searching Warcraft Logs: ${guild.name} - ${guild.realm}`);
@@ -104,19 +134,25 @@ async function run() {
       continue;
     }
 
+    if (groupAlreadyExists(groups, guild, wclGuild)) {
+      console.log(`SKIP EXISTING: ${guild.name}`);
+      continue;
+    }
+
     groups.push({
       id: slugifyId(guild.name),
       name: guild.name,
       parentGuild: guild.name,
       realm: guild.realm,
-      warcraftLogsGuildId: wclGuild.id
+      warcraftLogsGuildId: wclGuild.id,
+      autoFound: true
     });
 
     console.log(`FOUND: ${guild.name} => ${wclGuild.id}`);
   }
 
   fs.writeFileSync(outputPath, JSON.stringify(groups, null, 2));
-  console.log(`Created ${outputPath} with ${groups.length} guilds`);
+  console.log(`Updated ${outputPath} with ${groups.length} total entries`);
 }
 
 run().catch(error => {
