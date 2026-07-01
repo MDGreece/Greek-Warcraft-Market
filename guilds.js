@@ -1,3 +1,27 @@
+function getProgressClass(progress) {
+  if (!progress || progress === "-") {
+    return "";
+  }
+
+  if (progress === "CE") {
+    return "progress-ce";
+  }
+
+  if (progress.endsWith("M")) {
+    return "progress-mythic";
+  }
+
+  if (progress.endsWith("H")) {
+    return "progress-heroic";
+  }
+
+  if (progress.endsWith("N")) {
+    return "progress-normal";
+  }
+
+  return "";
+}
+
 fetch("./data/leaderboard.json")
   .then(response => response.json())
   .then(entries => {
@@ -16,7 +40,7 @@ fetch("./data/leaderboard.json")
           </a>
         </td>
 
-        <td class="${entry.progress === "CE" ? "progress-ce" : "progress-mythic"}">
+        <td class="${getProgressClass(entry.progress)}">
           ${entry.progress}
         </td>
 
