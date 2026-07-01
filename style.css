@@ -521,7 +521,22 @@ nav a.active {
   font-weight: bold;
 }
 
+.progress-ce {
+    color: #ffb100;
+    font-weight: bold;
+}
+
 .progress-mythic {
-  color: #a855f7;
-  font-weight: bold;
+    color: #a335ee;
+    font-weight: bold;
+}
+
+.progress-heroic {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.progress-normal {
+    color: #1eff00;
+    font-weight: bold;
 }
