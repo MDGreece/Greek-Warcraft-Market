@@ -155,7 +155,19 @@ async function run() {
 
     group.totalPulls = relevantFights.length;
 
-    const bestWipe = getBestWipe(relevantFights);
+   function getBestWipe(fights) {
+  const wipes = fights.filter(fight =>
+    !fight.kill &&
+    typeof fight.bossPercentage === "number" &&
+    fight.bossPercentage > 0
+  );
+
+  if (wipes.length === 0) return null;
+
+  return wipes.reduce((best, fight) => {
+    return fight.bossPercentage < best.bossPercentage ? fight : best;
+  }, wipes[0]);
+}
 
     if (bestWipe) {
       group.bossProg = `${bestWipe.bossPercentage.toFixed(2)}%`;
