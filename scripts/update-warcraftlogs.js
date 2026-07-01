@@ -3,7 +3,7 @@ const fs = require("fs");
 const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
 const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
 
-const outputPath = "data/warcraftlogs.json";
+const outputPath = "data/warcraftlogs-groups.json";
 
 async function getAccessToken() {
   const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
