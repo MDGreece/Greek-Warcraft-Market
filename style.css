@@ -486,3 +486,42 @@ nav a.active {
 .guild-link:hover {
     color: #f0b90b;
 }
+.guild-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(7, 17, 31, 0.85);
+}
+
+.guild-table th {
+  color: white;
+  padding: 22px;
+  font-size: 22px;
+  text-align: center;
+  background: transparent;
+}
+
+.guild-table td {
+  padding: 22px;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: none;
+}
+
+.guild-link {
+  color: #4d8cff;
+  text-decoration: none;
+}
+
+.guild-link:hover {
+  color: #f0b90b;
+}
+
+.progress-ce {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.progress-mythic {
+  color: #a855f7;
+  font-weight: bold;
+}
