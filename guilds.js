@@ -32,22 +32,20 @@ fetch("./data/leaderboard.json")
       const row = document.createElement("tr");
 
       row.innerHTML = `
-        <td>${entry.rank}</td>
+  <td>${entry.rank}</td>
 
-        <td>
-          <a class="guild-link" href="guild.html?id=${entry.id}">
-            ${entry.name}
-          </a>
-        </td>
+  <td>
+    <a class="guild-link" href="guild.html?id=${entry.id}">
+      ${entry.name}
+    </a>
+  </td>
 
-        <td class="${getProgressClass(entry.progress)}">
-          ${entry.progress}
-        </td>
+  <td class="${getProgressClass(entry.progress)}">
+    ${entry.progress}
+  </td>
 
-        <td>${entry.bossProg}</td>
-
-        <td>${entry.totalPulls}</td>
-      `;
+  <td>${entry.bossProg}</td>
+`;
 
       tableBody.appendChild(row);
     });
