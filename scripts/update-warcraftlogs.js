@@ -9,6 +9,18 @@ const outputPath = "data/warcraftlogs-groups.json";
 const TOTAL_BOSSES = 9;
 const REPORT_LIMIT = 50;
 
+const CURRENT_RAID_BOSSES = [
+  "Imperator Averzian",
+  "Vorasius",
+  "Vaelgor & Ezzorak",
+  "Fallen-King Salhadaar",
+  "Lightblinded Vanguard",
+  "Crown of the Cosmos",
+  "Chimaerus the Undreamt God",
+  "Belo'ren, Child of Al'ar",
+  "Midnight Falls"
+];
+
 const DIFFICULTIES = [
   { id: 5, suffix: "M", name: "Mythic" },
   { id: 4, suffix: "H", name: "Heroic" },
@@ -23,7 +35,8 @@ async function getToken() {
   const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
     method: "POST",
     headers: {
-      Authorization: "Basic " + Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64"),
+      Authorization:
+        "Basic " + Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64"),
       "Content-Type": "application/x-www-form-urlencoded"
     },
     body: "grant_type=client_credentials"
@@ -121,6 +134,10 @@ async function getFightsFromReport(token, report) {
   }));
 }
 
+function isCurrentRaidFight(fight) {
+  return CURRENT_RAID_BOSSES.includes(fight.name);
+}
+
 function countUniqueKills(fights) {
   return new Set(
     fights
@@ -146,8 +163,6 @@ function getDifficultySummary(allFights) {
   const heroic = summaries.find(d => d.suffix === "H");
   const normal = summaries.find(d => d.suffix === "N");
 
-  // Important rule:
-  // 0/9M + 9/9H should display 9/9H, not 0/9M.
   if (mythic.kills > 0) {
     return {
       ...mythic,
@@ -158,7 +173,7 @@ function getDifficultySummary(allFights) {
   if (heroic.kills > 0 || heroic.hasFights) {
     return {
       ...heroic,
-      progress: heroic.kills >= TOTAL_BOSSES ? `${TOTAL_BOSSES}/${TOTAL_BOSSES}H` : `${heroic.kills}/${TOTAL_BOSSES}H`
+      progress: `${heroic.kills}/${TOTAL_BOSSES}H`
     };
   }
 
@@ -252,7 +267,6 @@ async function updateGroup(token, group) {
   console.log(`Fetching Warcraft Logs for ${group.name}...`);
 
   if (!group.warcraftLogsGuildId) {
-    console.log(`${group.name}: missing warcraftLogsGuildId`);
     return {
       ...group,
       progress: group.progress || "-",
@@ -272,7 +286,9 @@ async function updateGroup(token, group) {
     allFights = allFights.concat(fights);
   }
 
-  const difficulty = getDifficultySummary(allFights);
+  const currentRaidFights = allFights.filter(isCurrentRaidFight);
+
+  const difficulty = getDifficultySummary(currentRaidFights);
   const progression = getCurrentProgressionBoss(difficulty.fights);
 
   const updatedGroup = {
@@ -298,10 +314,9 @@ async function updateGroup(token, group) {
 }
 
 async function run() {
-  console.log("Warcraft Logs script started");
+  console.log("Running NEW Warcraft Logs updater with current raid filter");
 
   const token = await getToken();
-
   const groups = JSON.parse(fs.readFileSync(inputPath, "utf8"));
   const updatedGroups = [];
 
