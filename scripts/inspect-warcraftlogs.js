@@ -55,14 +55,15 @@ async function run() {
             name
           }
           fights(killType: Encounters) {
-            id
-            name
-            kill
-            percentage
-            difficulty
-            startTime
-            endTime
-          }
+  id
+  name
+  kill
+  bossPercentage
+  fightPercentage
+  difficulty
+  startTime
+  endTime
+}
         }
       }
     }
