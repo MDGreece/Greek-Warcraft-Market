@@ -1,58 +1,14 @@
-const raiderFile = "./data/guildsio.json";
-const logsFile = "./data/warcraftlogs-groups.json";
-
-const CURRENT_RAID = "tier-mn-1";
-
-Promise.all([
-  fetch(raiderFile).then(response => response.json()),
-  fetch(logsFile).then(response => response.json())
-])
-  .then(([guilds, logGroups]) => {
+fetch("./data/leaderboard.json")
+  .then(response => response.json())
+  .then(entries => {
     const tableBody = document.getElementById("guildTableBody");
     tableBody.innerHTML = "";
 
-    const raiderRows = guilds.map(guild => {
-      const raid = guild.progress?.[CURRENT_RAID];
-
-      const mythicKills = raid?.mythic_bosses_killed || 0;
-      const totalBosses = raid?.total_bosses || 9;
-
-      const progressText =
-        mythicKills === totalBosses ? "CE" : `${mythicKills}/${totalBosses}M`;
-
-      const worldRank =
-        guild.rankings?.[CURRENT_RAID]?.mythic?.world || 999999;
-
-      return {
-        id: guild.id,
-        name: guild.name,
-        progress: progressText,
-        bossProg: worldRank === 999999 ? "-" : "WR " + worldRank,
-        worldRank: worldRank,
-        totalPulls: "-"
-      };
-    });
-
-    const groupRows = logGroups.map(group => {
-      return {
-        id: group.id,
-        name: group.name,
-        progress: group.progress || "-",
-        bossProg: group.bossProg || "-",
-        worldRank: group.worldRank || 999999,
-        totalPulls: group.totalPulls || 0
-      };
-    });
-
-    const allRows = [...raiderRows, ...groupRows];
-
-    allRows.sort((a, b) => a.worldRank - b.worldRank);
-
-    allRows.forEach((entry, index) => {
+    entries.forEach(entry => {
       const row = document.createElement("tr");
 
       row.innerHTML = `
-        <td>${index + 1}</td>
+        <td>${entry.rank}</td>
 
         <td>
           <a class="guild-link" href="guild.html?id=${entry.id}">
@@ -73,5 +29,5 @@ Promise.all([
     });
   })
   .catch(error => {
-    console.error("Could not load leaderboard data:", error);
+    console.error("Could not load leaderboard:", error);
   });
