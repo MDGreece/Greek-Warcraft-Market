@@ -28,7 +28,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update guild and Warcraft Logs data
-          file_pattern: data/guildsio.json data/warcraftlogs.json
+          file_pattern: data/guildsio.json data/warcraftlogs-groups.json
 
       - name: Run Warcraft Logs updater
         env:
