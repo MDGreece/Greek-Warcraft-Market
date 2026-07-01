@@ -5,12 +5,13 @@
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 705280,
     "progress": "-",
-    "bossProg": "-",
+    "bossProg": "52.71%",
     "worldRank": 999999,
-    "totalPulls": 3,
+    "totalPulls": 9,
     "totalReports": 20,
     "latestReport": "Vb7XTcKyfxDBdh8A",
-    "latestReportTitle": "VS / DR / MQD"
+    "latestReportTitle": "VS / DR / MQD",
+    "bestBoss": "Midnight Falls"
   },
   {
     "id": "disobedient-group-iii",
@@ -23,6 +24,7 @@
     "totalPulls": 0,
     "totalReports": 20,
     "latestReport": "fdnvC8X1Z3cP7t2F",
-    "latestReportTitle": " Lura S01E04"
+    "latestReportTitle": " Lura S01E04",
+    "bestBoss": ""
   }
 ]
