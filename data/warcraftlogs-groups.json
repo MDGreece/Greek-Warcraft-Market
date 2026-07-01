@@ -1,1 +1,14 @@
-
+[
+  {
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "parentGuild": "Disobedient",
+    "totalPulls": 0
+  },
+  {
+    "id": "disobedient-group-iii",
+    "name": "Disobedient Group III",
+    "parentGuild": "Disobedient",
+    "totalPulls": 0
+  }
+]
