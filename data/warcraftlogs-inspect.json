@@ -1,106 +1,303 @@
 {
-  "guildData": {
-    "guild": {
-      "id": 705280,
-      "name": "Disobedient Group II",
-      "server": {
-        "name": "Twisting Nether",
-        "region": {
-          "name": "Europe"
-        }
-      }
-    }
-  },
   "reportData": {
-    "reports": {
-      "data": [
+    "report": {
+      "code": "CgA1mHkKyd3x6Zfn",
+      "title": "Lura",
+      "startTime": 1782754614172,
+      "endTime": 1782768862795,
+      "zone": {
+        "name": "VS / DR / MQD"
+      },
+      "fights": [
         {
-          "code": "Vb7XTcKyfxDBdh8A",
-          "title": "",
-          "startTime": 1782930760501,
-          "endTime": 1782930760501,
-          "zone": null
+          "id": 6,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 92.21,
+          "fightPercentage": 93.37,
+          "difficulty": 5,
+          "startTime": 3644366,
+          "endTime": 3681664
         },
         {
-          "code": "CgA1mHkKyd3x6Zfn",
-          "title": "Lura",
-          "startTime": 1782754614172,
-          "endTime": 1782768862795,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 7,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 64.03,
+          "fightPercentage": 69.42,
+          "difficulty": 5,
+          "startTime": 3794943,
+          "endTime": 3996822
         },
         {
-          "code": "QBqaw91kY46cDpKz",
-          "title": "Lura",
-          "startTime": 1782754614172,
-          "endTime": 1782762092539,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 8,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 69.75,
+          "fightPercentage": 74.28,
+          "difficulty": 5,
+          "startTime": 4102967,
+          "endTime": 4266645
         },
         {
-          "code": "zy1PMhVqfDrWZ2xd",
-          "title": "Lura",
-          "startTime": 1782325386380,
-          "endTime": 1782336763031,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 9,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 63.47,
+          "fightPercentage": 68.94,
+          "difficulty": 5,
+          "startTime": 4328454,
+          "endTime": 4534323
         },
         {
-          "code": "1RQHgmfptdWcn2vP",
-          "title": "Lura",
-          "startTime": 1782152384508,
-          "endTime": 1782163936456,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 10,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 98.04,
+          "fightPercentage": 98.33,
+          "difficulty": 5,
+          "startTime": 4605964,
+          "endTime": 4627818
         },
         {
-          "code": "PaJjkZLY6GMmcfqv",
-          "title": "Sporefall",
-          "startTime": 1781712799489,
-          "endTime": 1781733298924,
-          "zone": {
-            "name": "Sporefall"
-          }
+          "id": 11,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 61.56,
+          "fightPercentage": 67.32,
+          "difficulty": 5,
+          "startTime": 4767155,
+          "endTime": 4983141
         },
         {
-          "code": "acBK9dDgTXGAQYZz",
-          "title": "Lura",
-          "startTime": 1781547138910,
-          "endTime": 1781559189298,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 12,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 52.95,
+          "fightPercentage": 60,
+          "difficulty": 5,
+          "startTime": 5378065,
+          "endTime": 5659606
         },
         {
-          "code": "3Km6ayc2rwvDb9FW",
-          "title": "Lura",
-          "startTime": 1781115441694,
-          "endTime": 1781127206257,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 13,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 58.43,
+          "fightPercentage": 64.66,
+          "difficulty": 5,
+          "startTime": 5807542,
+          "endTime": 6051165
         },
         {
-          "code": "Wc6pkF1ARJ7hCNqd",
-          "title": "Lura",
-          "startTime": 1780942796157,
-          "endTime": 1780954506320,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 14,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 62.07,
+          "fightPercentage": 67.75,
+          "difficulty": 5,
+          "startTime": 6167182,
+          "endTime": 6376614
         },
         {
-          "code": "qT6t9MrPaNLvcnBf",
-          "title": "Mythic",
-          "startTime": 1780511043324,
-          "endTime": 1780522411245,
-          "zone": {
-            "name": "VS / DR / MQD"
-          }
+          "id": 15,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 57.64,
+          "fightPercentage": 63.99,
+          "difficulty": 5,
+          "startTime": 6450781,
+          "endTime": 6702314
+        },
+        {
+          "id": 16,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 60.67,
+          "fightPercentage": 66.56,
+          "difficulty": 5,
+          "startTime": 6890859,
+          "endTime": 7108143
+        },
+        {
+          "id": 17,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 48.26,
+          "fightPercentage": 56.02,
+          "difficulty": 5,
+          "startTime": 7175170,
+          "endTime": 7478367
+        },
+        {
+          "id": 18,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 70.29,
+          "fightPercentage": 74.74,
+          "difficulty": 5,
+          "startTime": 7759190,
+          "endTime": 7931822
+        },
+        {
+          "id": 19,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 55.5,
+          "fightPercentage": 62.17,
+          "difficulty": 5,
+          "startTime": 8019012,
+          "endTime": 8280271
+        },
+        {
+          "id": 20,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 43.45,
+          "fightPercentage": 51.93,
+          "difficulty": 5,
+          "startTime": 8371168,
+          "endTime": 8711198
+        },
+        {
+          "id": 21,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 64.11,
+          "fightPercentage": 69.49,
+          "difficulty": 5,
+          "startTime": 10194661,
+          "endTime": 10398973
+        },
+        {
+          "id": 22,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 82.54,
+          "fightPercentage": 85.15,
+          "difficulty": 5,
+          "startTime": 10582353,
+          "endTime": 10675987
+        },
+        {
+          "id": 23,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 85.83,
+          "fightPercentage": 87.95,
+          "difficulty": 5,
+          "startTime": 10746473,
+          "endTime": 10827009
+        },
+        {
+          "id": 24,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 60.72,
+          "fightPercentage": 66.61,
+          "difficulty": 5,
+          "startTime": 10904987,
+          "endTime": 11126713
+        },
+        {
+          "id": 25,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 75.52,
+          "fightPercentage": 79.19,
+          "difficulty": 5,
+          "startTime": 11218951,
+          "endTime": 11359253
+        },
+        {
+          "id": 26,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 63.05,
+          "fightPercentage": 68.59,
+          "difficulty": 5,
+          "startTime": 11467862,
+          "endTime": 11687898
+        },
+        {
+          "id": 27,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 60.48,
+          "fightPercentage": 66.4,
+          "difficulty": 5,
+          "startTime": 11760625,
+          "endTime": 11979179
+        },
+        {
+          "id": 28,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 57.26,
+          "fightPercentage": 63.67,
+          "difficulty": 5,
+          "startTime": 12054260,
+          "endTime": 12298359
+        },
+        {
+          "id": 29,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 45.86,
+          "fightPercentage": 53.98,
+          "difficulty": 5,
+          "startTime": 12380394,
+          "endTime": 12703472
+        },
+        {
+          "id": 30,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 43.63,
+          "fightPercentage": 52.08,
+          "difficulty": 5,
+          "startTime": 12858243,
+          "endTime": 13195841
+        },
+        {
+          "id": 31,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 59.29,
+          "fightPercentage": 65.39,
+          "difficulty": 5,
+          "startTime": 13374025,
+          "endTime": 13596122
+        },
+        {
+          "id": 32,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 72.28,
+          "fightPercentage": 76.43,
+          "difficulty": 5,
+          "startTime": 13649192,
+          "endTime": 13802682
+        },
+        {
+          "id": 33,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 88.79,
+          "fightPercentage": 90.47,
+          "difficulty": 5,
+          "startTime": 13868322,
+          "endTime": 13930148
+        },
+        {
+          "id": 34,
+          "name": "Midnight Falls",
+          "kill": false,
+          "bossPercentage": 57.36,
+          "fightPercentage": 63.75,
+          "difficulty": 5,
+          "startTime": 13991962,
+          "endTime": 14248623
         }
       ]
     }
