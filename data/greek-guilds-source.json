@@ -1,1 +1,137 @@
-
+[
+  {
+    "name": "Death and Glory",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "Disobedient",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "K L I K A",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+    {
+    "name": "Deny Everything",
+    "realm": "tarren-mill",
+    "region": "eu"
+  },
+    {
+    "name": "Disobedient Group II",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+    {
+    "name": "O M E G A",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "Disobedient Group III",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "SOE Reborn",
+    "realm": "tarren-mill",
+    "region": "eu"
+  },
+  {
+    "name": "Amargossa Crew",
+    "realm": "tarren-mill",
+    "region": "eu"
+  },
+  {
+    "name": "UNIQUE LEGACY",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "Chillers",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "Nyxborn",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "Provatina",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "U T O P I A",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "T H E O R Y",
+    "realm": "ravencrest",
+    "region": "eu"
+  },
+  {
+    "name": "Elegance",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "Dungeon Meta",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "Myrmidones",
+    "realm": "stormscale",
+    "region": "eu"
+  },
+  {
+    "name": "The Haunted",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "The Syndicate",
+    "realm": "genjuros",
+    "region": "eu"
+  },
+  {
+    "name": "leontokardoi",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  {
+    "name": "A N A L O S O I M O I",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  {
+    "name": "Chthonic",
+    "realm": "draenor",
+    "region": "eu"
+  },
+  {
+    "name": "Epsilon",
+    "realm": "draenor",
+    "region": "eu"
+  },
+    {
+    "name": "Irriducibili",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+     {
+    "name": "Crimson Thunder",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+     {
+    "name": "Not Forgotten",
+    "realm": "tarren-mill",
+    "region": "eu"
+  },
+]
