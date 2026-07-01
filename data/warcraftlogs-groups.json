@@ -4,7 +4,7 @@
     "name": "Disobedient Group II",
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 705280,
-    "progress": "CE",
+    "progress": "7/9M",
     "bossProg": "35.80%",
     "worldRank": 1102,
     "totalPulls": 350,
@@ -14,15 +14,15 @@
     "bestBoss": "Midnight Falls",
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
-    "raidKills": 20,
-    "updatedAt": "2026-07-01T21:36:39.936Z"
+    "raidKills": 7,
+    "updatedAt": "2026-07-01T21:44:46.021Z"
   },
   {
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 730932,
-    "progress": "CE",
+    "progress": "7/9M",
     "bossProg": "62.99%",
     "worldRank": 1753,
     "totalPulls": 119,
@@ -32,7 +32,7 @@
     "bestBoss": "Midnight Falls",
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
-    "raidKills": 22,
-    "updatedAt": "2026-07-01T21:37:25.516Z"
+    "raidKills": 7,
+    "updatedAt": "2026-07-01T21:44:59.384Z"
   }
 ]

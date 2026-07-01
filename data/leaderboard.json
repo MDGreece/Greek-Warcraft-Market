@@ -40,36 +40,6 @@
   },
   {
     "rank": 4,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "CE",
-    "bossProg": "35.80% Midnight Falls",
-    "worldRank": 1102,
-    "totalPulls": 350,
-    "source": "warcraftlogs",
-    "latestReport": "gCTLGcvbdH693zfM",
-    "latestReportTitle": "VS / DR / MQD"
-  },
-  {
-    "rank": 5,
-    "id": "disobedient-group-iii",
-    "name": "Disobedient Group III",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "CE",
-    "bossProg": "62.99% Midnight Falls",
-    "worldRank": 1753,
-    "totalPulls": 119,
-    "source": "warcraftlogs",
-    "latestReport": "fdnvC8X1Z3cP7t2F",
-    "latestReportTitle": " Lura S01E04"
-  },
-  {
-    "rank": 6,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -82,7 +52,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 7,
+    "rank": 5,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -95,7 +65,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 8,
+    "rank": 6,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -106,6 +76,36 @@
     "worldRank": 1673,
     "totalPulls": "-",
     "source": "raiderio"
+  },
+  {
+    "rank": 7,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "7/9M",
+    "bossProg": "35.80% Midnight Falls",
+    "worldRank": 1102,
+    "totalPulls": 350,
+    "source": "warcraftlogs",
+    "latestReport": "gCTLGcvbdH693zfM",
+    "latestReportTitle": "VS / DR / MQD"
+  },
+  {
+    "rank": 8,
+    "id": "disobedient-group-iii",
+    "name": "Disobedient Group III",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "7/9M",
+    "bossProg": "62.99% Midnight Falls",
+    "worldRank": 1753,
+    "totalPulls": 119,
+    "source": "warcraftlogs",
+    "latestReport": "fdnvC8X1Z3cP7t2F",
+    "latestReportTitle": " Lura S01E04"
   },
   {
     "rank": 9,
