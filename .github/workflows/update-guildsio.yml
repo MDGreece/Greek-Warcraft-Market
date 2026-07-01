@@ -1,1 +1,31 @@
+name: Update guildsio
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-guildsio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Raider.IO updater
+        run: node scripts/update-guildsio.js
+
+      - name: Commit updated guildsio
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update guildsio.json
+          file_pattern: data/guildsio.json
