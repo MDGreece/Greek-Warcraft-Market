@@ -14,9 +14,7 @@ async function getToken() {
     body: "grant_type=client_credentials"
   });
 
-  if (!response.ok) {
-    throw new Error("Could not get Warcraft Logs token");
-  }
+  if (!response.ok) throw new Error("Could not get Warcraft Logs token");
 
   const data = await response.json();
   return data.access_token;
@@ -46,30 +44,24 @@ async function run() {
   const token = await getToken();
 
   const query = `
-    query($guildId: Int!) {
-      guildData {
-        guild(id: $guildId) {
-          id
-          name
-          server {
-            name
-            region {
-              name
-            }
-          }
-        }
-      }
-
+    query($code: String!) {
       reportData {
-        reports(guildID: $guildId, limit: 10) {
-          data {
-            code
-            title
+        report(code: $code) {
+          code
+          title
+          startTime
+          endTime
+          zone {
+            name
+          }
+          fights(killType: Encounters) {
+            id
+            name
+            kill
+            percentage
+            difficulty
             startTime
             endTime
-            zone {
-              name
-            }
           }
         }
       }
@@ -77,7 +69,7 @@ async function run() {
   `;
 
   const data = await queryWarcraftLogs(token, query, {
-    guildId: 705280
+    code: "CgA1mHkKyd3x6Zfn"
   });
 
   fs.writeFileSync(
@@ -85,7 +77,7 @@ async function run() {
     JSON.stringify(data, null, 2)
   );
 
-  console.log("Saved data/warcraftlogs-inspect.json");
+  console.log("Saved report fight inspection");
 }
 
 run();
