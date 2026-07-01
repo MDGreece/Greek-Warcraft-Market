@@ -3,12 +3,18 @@
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "parentGuild": "Disobedient",
+    "warcraftLogsGuild": "Disobedient",
+    "realm": "Twisting Nether",
+    "region": "EU",
     "totalPulls": 0
   },
   {
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "parentGuild": "Disobedient",
+    "warcraftLogsGuild": "Disobedient",
+    "realm": "Twisting Nether",
+    "region": "EU",
     "totalPulls": 0
   }
 ]
