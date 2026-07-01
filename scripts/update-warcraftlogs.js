@@ -163,12 +163,15 @@ function getDifficultySummary(allFights) {
   const heroic = summaries.find(d => d.suffix === "H");
   const normal = summaries.find(d => d.suffix === "N");
 
-  if (mythic.kills > 0) {
-    return {
-      ...mythic,
-      progress: mythic.kills >= TOTAL_BOSSES ? "CE" : `${mythic.kills}/${TOTAL_BOSSES}M`
-    };
-  }
+if (mythic.kills > 0) {
+  const safeKills = Math.min(mythic.kills, TOTAL_BOSSES);
+
+  return {
+    ...mythic,
+    kills: safeKills,
+    progress: safeKills >= TOTAL_BOSSES ? "CE" : `${safeKills}/${TOTAL_BOSSES}M`
+  };
+}
 
   if (heroic.kills > 0 || heroic.hasFights) {
     return {
@@ -288,8 +291,21 @@ async function updateGroup(token, group) {
 
   const currentRaidFights = allFights.filter(isCurrentRaidFight);
 
-  const difficulty = getDifficultySummary(currentRaidFights);
-  const progression = getCurrentProgressionBoss(difficulty.fights);
+let difficulty = getDifficultySummary(currentRaidFights);
+const progression = getCurrentProgressionBoss(difficulty.fights);
+
+// If the group is still progressing a boss, they are not CE.
+if (
+  difficulty.suffix === "M" &&
+  difficulty.progress === "CE" &&
+  progression.bestBoss
+) {
+  difficulty = {
+    ...difficulty,
+    kills: TOTAL_BOSSES - 1,
+    progress: `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`
+  };
+}
 
   const updatedGroup = {
     ...group,
