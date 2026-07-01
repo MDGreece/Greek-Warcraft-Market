@@ -30,8 +30,14 @@ jobs:
           WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
         run: node scripts/update-warcraftlogs.js
 
+      - name: Inspect Warcraft Logs
+        env:
+          WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
+          WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
+        run: node scripts/inspect-warcraftlogs.js
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update guild and Warcraft Logs data
-          file_pattern: data/guildsio.json data/warcraftlogs-groups.json
+          file_pattern: data/guildsio.json data/warcraftlogs-groups.json data/warcraftlogs-inspect.json
