@@ -462,63 +462,6 @@ run();
 Save → Commit changes → run the workflow again.
 
 
-Yes, this script looks correct.
-
-Now do:
-
-Save it in:
-
-scripts/update-warcraftlogs.js
-Click Commit changes.
-
-Run the workflow again:
-
-Actions → Update guildsio → Run workflow
-You should now see logs like:
-
-Warcraft Logs script started
-Fetching Warcraft Logs for Disobedient Group II...
-Disobedient Group II: 29 pulls, 43.45% on Midnight Falls
-Then check:
-
-data/warcraftlogs-groups.json
-It should now include:
-
-"bossProg": "43.45%",
-"bestBoss": "Midnight Falls",
-"totalPulls": 29
-
-[
-  {
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "parentGuild": "Disobedient",
-    "warcraftLogsGuildId": 705280,
-    "progress": "-",
-    "bossProg": "52.71%",
-    "worldRank": 999999,
-    "totalPulls": 9,
-    "totalReports": 20,
-    "latestReport": "Vb7XTcKyfxDBdh8A",
-    "latestReportTitle": "VS / DR / MQD",
-    "bestBoss": "Midnight Falls"
-  },
-  {
-    "id": "disobedient-group-iii",
-    "name": "Disobedient Group III",
-    "parentGuild": "Disobedient",
-    "warcraftLogsGuildId": 730932,
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "totalPulls": 0,
-    "totalReports": 20,
-    "latestReport": "fdnvC8X1Z3cP7t2F",
-    "latestReportTitle": " Lura S01E04",
-    "bestBoss": ""
-  }
-]
-
 Good — it’s working now.
 
 What you have means:
@@ -787,5 +730,89 @@ async function run() {
 
 run();
 Then commit and run the workflow again.
+
+
+
+Pasted text(1).txt
+Document
+is inspect correct?
+
+No — that uploaded text is not the inspect file. It contains copied chat history, not clean JavaScript. That is why you keep getting Generated image... inside code.
+
+For scripts/inspect-warcraftlogs.js, use only this:
+
+const fs = require("fs");
+
+const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
+const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
+
+async function getToken() {
+  const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
+    method: "POST",
+    headers: {
+      Authorization: "Basic " + Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64"),
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: "grant_type=client_credentials"
+  });
+
+  if (!response.ok) throw new Error("Could not get Warcraft Logs token");
+
+  const data = await response.json();
+  return data.access_token;
+}
+
+async function queryWarcraftLogs(token, query, variables = {}) {
+  const response = await fetch("https://www.warcraftlogs.com/api/v2/client", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ query, variables })
+  });
+
+  const data = await response.json();
+
+  if (data.errors) {
+    console.log(JSON.stringify(data.errors, null, 2));
+    throw new Error("GraphQL error");
+  }
+
+  return data.data;
+}
+
+async function run() {
+  const token = await getToken();
+
+  const query = `
+    query($code: String!) {
+      reportData {
+        report(code: $code) {
+          code
+          title
+          fights(killType: Encounters) {
+            id
+            name
+            kill
+            bossPercentage
+            fightPercentage
+            difficulty
+          }
+        }
+      }
+    }
+  `;
+
+  const data = await queryWarcraftLogs(token, query, {
+    code: "CgA1mHkKyd3x6Zfn"
+  });
+
+  fs.writeFileSync("data/warcraftlogs-inspect.json", JSON.stringify(data, null, 2));
+  console.log("Saved report fight inspection");
+}
+
+run();
+And for scripts/update-warcraftlogs.js, use the full updater, not the inspect script.
 
 
