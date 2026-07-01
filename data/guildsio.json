@@ -456,9 +456,9 @@
           "realm": 77
         },
         "mythic": {
-          "world": 1673,
-          "region": 869,
-          "realm": 92
+          "world": 1674,
+          "region": 870,
+          "realm": 93
         }
       },
       "sporefall": {
@@ -639,8 +639,8 @@
           "realm": 0
         },
         "mythic": {
-          "world": 6687,
-          "region": 2789,
+          "world": 6688,
+          "region": 2790,
           "realm": 148
         }
       },
@@ -971,8 +971,8 @@
           "realm": 51
         },
         "mythic": {
-          "world": 6415,
-          "region": 2652,
+          "world": 6416,
+          "region": 2653,
           "realm": 73
         }
       },
@@ -1054,8 +1054,8 @@
           "realm": 231
         },
         "mythic": {
-          "world": 6060,
-          "region": 2475,
+          "world": 6062,
+          "region": 2476,
           "realm": 130
         }
       },
@@ -1552,8 +1552,8 @@
           "realm": 43
         },
         "mythic": {
-          "world": 6701,
-          "region": 2797,
+          "world": 6702,
+          "region": 2798,
           "realm": 149
         }
       },
@@ -1718,7 +1718,7 @@
           "realm": 45
         },
         "mythic": {
-          "world": 6025,
+          "world": 6026,
           "region": 2449,
           "realm": 171
         }
