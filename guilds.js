@@ -27,6 +27,7 @@ Promise.all([
         id: guild.id,
         name: guild.name,
         progress: progressText,
+        bossProg: worldRank === 999999 ? "-" : "WR " + worldRank,
         worldRank: worldRank,
         totalPulls: "-"
       };
@@ -37,6 +38,7 @@ Promise.all([
         id: group.id,
         name: group.name,
         progress: group.progress || "-",
+        bossProg: group.bossProg || "-",
         worldRank: group.worldRank || 999999,
         totalPulls: group.totalPulls || 0
       };
@@ -47,12 +49,10 @@ Promise.all([
     allRows.sort((a, b) => a.worldRank - b.worldRank);
 
     allRows.forEach((entry, index) => {
-      const greekRank = index + 1;
-
       const row = document.createElement("tr");
 
       row.innerHTML = `
-        <td>${greekRank}</td>
+        <td>${index + 1}</td>
 
         <td>
           <a class="guild-link" href="guild.html?id=${entry.id}">
@@ -64,7 +64,7 @@ Promise.all([
           ${entry.progress}
         </td>
 
-        <td>${entry.worldRank === 999999 ? "-" : "WR " + entry.worldRank}</td>
+        <td>${entry.bossProg}</td>
 
         <td>${entry.totalPulls}</td>
       `;
