@@ -1,0 +1,1994 @@
+[
+  {
+    "id": "death-and-glory",
+    "name": "Death and Glory",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 4754,
+          "region": 1813,
+          "realm": 111
+        },
+        "heroic": {
+          "world": 344,
+          "region": 138,
+          "realm": 7
+        },
+        "mythic": {
+          "world": 401,
+          "region": 200,
+          "realm": 7
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2534,
+          "region": 222,
+          "realm": 9
+        },
+        "mythic": {
+          "world": 850,
+          "region": 122,
+          "realm": 5
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "disobedient",
+    "name": "Disobedient",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 9323,
+          "region": 3982,
+          "realm": 115
+        },
+        "heroic": {
+          "world": 912,
+          "region": 443,
+          "realm": 35
+        },
+        "mythic": {
+          "world": 774,
+          "region": 369,
+          "realm": 30
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2428,
+          "region": 117,
+          "realm": 4
+        },
+        "mythic": {
+          "world": 5243,
+          "region": 2185,
+          "realm": 99
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "k-l-i-k-a",
+    "name": "K L I K A",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15261,
+          "region": 6728,
+          "realm": 176
+        },
+        "heroic": {
+          "world": 349,
+          "region": 143,
+          "realm": 15
+        },
+        "mythic": {
+          "world": 784,
+          "region": 379,
+          "realm": 32
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "deny-everything",
+    "name": "Deny Everything",
+    "realm": "tarren-mill",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "8/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 8
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 10207,
+          "region": 4440,
+          "realm": 228
+        },
+        "heroic": {
+          "world": 3593,
+          "region": 1781,
+          "realm": 139
+        },
+        "mythic": {
+          "world": 1223,
+          "region": 611,
+          "realm": 70
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 4278,
+          "region": 1961,
+          "realm": 104
+        },
+        "mythic": {
+          "world": 1577,
+          "region": 846,
+          "realm": 75
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "o-m-e-g-a",
+    "name": "O M E G A",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "8/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 8
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15317,
+          "region": 6784,
+          "realm": 181
+        },
+        "heroic": {
+          "world": 2475,
+          "region": 1238,
+          "realm": 75
+        },
+        "mythic": {
+          "world": 1442,
+          "region": 722,
+          "realm": 54
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2531,
+          "region": 219,
+          "realm": 9
+        },
+        "mythic": {
+          "world": 846,
+          "region": 118,
+          "realm": 7
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "soe-reborn",
+    "name": "SOE Reborn",
+    "realm": "tarren-mill",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "8/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 8
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 16314,
+          "region": 7003,
+          "realm": 330
+        },
+        "heroic": {
+          "world": 1616,
+          "region": 791,
+          "realm": 77
+        },
+        "mythic": {
+          "world": 1653,
+          "region": 851,
+          "realm": 91
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 9256,
+          "region": 3808,
+          "realm": 174
+        },
+        "mythic": {
+          "world": 4195,
+          "region": 1708,
+          "realm": 125
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "unique-legacy",
+    "name": "UNIQUE LEGACY",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "7/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 7
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 10349,
+          "region": 4582,
+          "realm": 131
+        },
+        "heroic": {
+          "world": 8785,
+          "region": 4042,
+          "realm": 146
+        },
+        "mythic": {
+          "world": 2963,
+          "region": 1370,
+          "realm": 82
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 8207,
+          "region": 3557,
+          "realm": 109
+        },
+        "mythic": {
+          "world": 3693,
+          "region": 1631,
+          "realm": 83
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "chillers",
+    "name": "Chillers",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "6/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 6
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 16868,
+          "region": 7195,
+          "realm": 350
+        },
+        "heroic": {
+          "world": 6145,
+          "region": 2897,
+          "realm": 160
+        },
+        "mythic": {
+          "world": 3315,
+          "region": 1547,
+          "realm": 76
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 6653,
+          "region": 2763,
+          "realm": 147
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "nyxborn",
+    "name": "Nyxborn",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Nyxborn",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 7589,
+          "region": 3463,
+          "realm": 199
+        },
+        "heroic": {
+          "world": 12368,
+          "region": 5610,
+          "realm": 299
+        },
+        "mythic": {
+          "world": 4434,
+          "region": 2008,
+          "realm": 108
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "provatina",
+    "name": "Provatina",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Provatina",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 2641,
+          "region": 1163,
+          "realm": 38
+        },
+        "heroic": {
+          "world": 11617,
+          "region": 5190,
+          "realm": 174
+        },
+        "mythic": {
+          "world": 4692,
+          "region": 2147,
+          "realm": 115
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "u-t-o-p-i-a",
+    "name": "U T O P I A",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/U%20T%20O%20P%20I%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15347,
+          "region": 6814,
+          "realm": 333
+        },
+        "heroic": {
+          "world": 12884,
+          "region": 5761,
+          "realm": 313
+        },
+        "mythic": {
+          "world": 4744,
+          "region": 2158,
+          "realm": 116
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "t-h-e-o-r-y",
+    "name": "T H E O R Y",
+    "realm": "ravencrest",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 5974,
+          "region": 3030,
+          "realm": 64
+        },
+        "heroic": {
+          "world": 12093,
+          "region": 5452,
+          "realm": 132
+        },
+        "mythic": {
+          "world": 4954,
+          "region": 2202,
+          "realm": 63
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 4188,
+          "region": 1871,
+          "realm": 51
+        },
+        "mythic": {
+          "world": 6381,
+          "region": 2623,
+          "realm": 72
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "elegance",
+    "name": "Elegance",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Elegance",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "4/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 4
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 11466,
+          "region": 5102,
+          "realm": 260
+        },
+        "heroic": {
+          "world": 12044,
+          "region": 5423,
+          "realm": 289
+        },
+        "mythic": {
+          "world": 5523,
+          "region": 2486,
+          "realm": 140
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11281,
+          "region": 4450,
+          "realm": 231
+        },
+        "mythic": {
+          "world": 6021,
+          "region": 2441,
+          "realm": 129
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "4/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 4
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 2482,
+          "region": 1004,
+          "realm": 34
+        },
+        "heroic": {
+          "world": 8173,
+          "region": 3743,
+          "realm": 142
+        },
+        "mythic": {
+          "world": 6209,
+          "region": 2722,
+          "realm": 137
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 10887,
+          "region": 4343,
+          "realm": 128
+        },
+        "mythic": {
+          "world": 5896,
+          "region": 2398,
+          "realm": 109
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "myrmidones",
+    "name": "Myrmidones",
+    "realm": "stormscale",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/stormscale/Myrmidones",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "2/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 2
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 8368,
+          "region": 3570,
+          "realm": 44
+        },
+        "heroic": {
+          "world": 11788,
+          "region": 5280,
+          "realm": 73
+        },
+        "mythic": {
+          "world": 7651,
+          "region": 3290,
+          "realm": 49
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11273,
+          "region": 4442,
+          "realm": 46
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "the-haunted",
+    "name": "The Haunted",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/The%20Haunted",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "1/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 1
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 5640,
+          "region": 2698,
+          "realm": 80
+        },
+        "heroic": {
+          "world": 8787,
+          "region": 4044,
+          "realm": 147
+        },
+        "mythic": {
+          "world": 8286,
+          "region": 3526,
+          "realm": 163
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 1849,
+          "region": 814,
+          "realm": 11
+        },
+        "heroic": {
+          "world": 7820,
+          "region": 3171,
+          "realm": 100
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "the-syndicate",
+    "name": "The Syndicate",
+    "realm": "genjuros",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/genjuros/THE%20SYNDICATE",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 13761,
+          "region": 6126,
+          "realm": 29
+        },
+        "heroic": {
+          "world": 8594,
+          "region": 3948,
+          "realm": 19
+        },
+        "mythic": {
+          "world": 8758,
+          "region": 3699,
+          "realm": 8
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 1007,
+          "region": 267,
+          "realm": 5
+        },
+        "heroic": {
+          "world": 3656,
+          "region": 1341,
+          "realm": 10
+        },
+        "mythic": {
+          "world": 6488,
+          "region": 2681,
+          "realm": 6
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "leontokardoi",
+    "name": "leontokardoi",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/leontokardoi",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 14059,
+          "region": 6249,
+          "realm": 160
+        },
+        "heroic": {
+          "world": 4433,
+          "region": 2159,
+          "realm": 99
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11749,
+          "region": 4671,
+          "realm": 136
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "a-n-a-l-o-s-o-i-m-o-i",
+    "name": "A N A L O S O I M O I",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/A%20N%20A%20L%20O%20S%20O%20I%20M%20O%20I",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 7228,
+          "region": 3109,
+          "realm": 176
+        },
+        "heroic": {
+          "world": 9408,
+          "region": 4269,
+          "realm": 234
+        },
+        "mythic": {
+          "world": 8695,
+          "region": 3671,
+          "realm": 207
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 817,
+          "region": 77,
+          "realm": 4
+        },
+        "heroic": {
+          "world": 2992,
+          "region": 677,
+          "realm": 43
+        },
+        "mythic": {
+          "world": 7355,
+          "region": 3071,
+          "realm": 166
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "chthonic",
+    "name": "Chthonic",
+    "realm": "draenor",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/draenor/Chthonic",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 13216,
+          "region": 5868,
+          "realm": 281
+        },
+        "heroic": {
+          "world": 10499,
+          "region": 4686,
+          "realm": 256
+        },
+        "mythic": {
+          "world": 8988,
+          "region": 3792,
+          "realm": 222
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 8166,
+          "region": 3516,
+          "realm": 195
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "epsilon",
+    "name": "Epsilon",
+    "realm": "draenor",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/draenor/Epsilon",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 2957,
+          "region": 1479,
+          "realm": 84
+        },
+        "heroic": {
+          "world": 9203,
+          "region": 4178,
+          "realm": 232
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 3145,
+          "region": 830,
+          "realm": 45
+        },
+        "mythic": {
+          "world": 6148,
+          "region": 2508,
+          "realm": 170
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "irriducibili",
+    "name": "Irriducibili",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Irriducibili",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "8/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 16788,
+          "region": 7116,
+          "realm": 203
+        },
+        "heroic": {
+          "world": 12393,
+          "region": 5622,
+          "realm": 185
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "crimson-thunder",
+    "name": "Crimson Thunder",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Crimson%20Thunder",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "0/9 N",
+        "total_bosses": 9,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "not-forgotten",
+    "name": "Not Forgotten",
+    "realm": "tarren-mill",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Not%20Forgotten",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "0/9 N",
+        "total_bosses": 9,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  }
+]
