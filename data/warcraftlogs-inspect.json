@@ -1,0 +1,108 @@
+{
+  "guildData": {
+    "guild": {
+      "id": 705280,
+      "name": "Disobedient Group II",
+      "server": {
+        "name": "Twisting Nether",
+        "region": {
+          "name": "Europe"
+        }
+      }
+    }
+  },
+  "reportData": {
+    "reports": {
+      "data": [
+        {
+          "code": "Vb7XTcKyfxDBdh8A",
+          "title": "",
+          "startTime": 1782930760501,
+          "endTime": 1782930760501,
+          "zone": null
+        },
+        {
+          "code": "CgA1mHkKyd3x6Zfn",
+          "title": "Lura",
+          "startTime": 1782754614172,
+          "endTime": 1782768862795,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "QBqaw91kY46cDpKz",
+          "title": "Lura",
+          "startTime": 1782754614172,
+          "endTime": 1782762092539,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "zy1PMhVqfDrWZ2xd",
+          "title": "Lura",
+          "startTime": 1782325386380,
+          "endTime": 1782336763031,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "1RQHgmfptdWcn2vP",
+          "title": "Lura",
+          "startTime": 1782152384508,
+          "endTime": 1782163936456,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "PaJjkZLY6GMmcfqv",
+          "title": "Sporefall",
+          "startTime": 1781712799489,
+          "endTime": 1781733298924,
+          "zone": {
+            "name": "Sporefall"
+          }
+        },
+        {
+          "code": "acBK9dDgTXGAQYZz",
+          "title": "Lura",
+          "startTime": 1781547138910,
+          "endTime": 1781559189298,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "3Km6ayc2rwvDb9FW",
+          "title": "Lura",
+          "startTime": 1781115441694,
+          "endTime": 1781127206257,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "Wc6pkF1ARJ7hCNqd",
+          "title": "Lura",
+          "startTime": 1780942796157,
+          "endTime": 1780954506320,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        },
+        {
+          "code": "qT6t9MrPaNLvcnBf",
+          "title": "Mythic",
+          "startTime": 1780511043324,
+          "endTime": 1780522411245,
+          "zone": {
+            "name": "VS / DR / MQD"
+          }
+        }
+      ]
+    }
+  }
+}
