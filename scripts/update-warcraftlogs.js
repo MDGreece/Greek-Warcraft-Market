@@ -85,6 +85,24 @@ async function getFightsFromReport(token, reportCode) {
   return data.reportData.report.fights || [];
 }
 
+function countKills(fights) {
+  return new Set(
+    fights
+      .filter(fight => fight.kill)
+      .map(fight => fight.name)
+  ).size;
+}
+
+function getBestWipe(fights) {
+  const wipes = fights.filter(fight => !fight.kill && typeof fight.bossPercentage === "number");
+
+  if (wipes.length === 0) return null;
+
+  return wipes.reduce((best, fight) => {
+    return fight.bossPercentage < best.bossPercentage ? fight : best;
+  }, wipes[0]);
+}
+
 async function run() {
   console.log("Warcraft Logs script started");
 
@@ -112,31 +130,38 @@ async function run() {
     }
 
     const mythicFights = allFights.filter(fight => fight.difficulty === 5);
+    const heroicFights = allFights.filter(fight => fight.difficulty === 4);
+    const normalFights = allFights.filter(fight => fight.difficulty === 3);
 
-    const killedBosses = new Set(
-      mythicFights
-        .filter(fight => fight.kill)
-        .map(fight => fight.name)
-    );
+    const mythicKills = countKills(mythicFights);
+    const heroicKills = countKills(heroicFights);
+    const normalKills = countKills(normalFights);
 
-    const mythicKills = killedBosses.size;
+    let relevantFights = [];
 
-    group.progress =
-      mythicKills >= TOTAL_BOSSES ? "CE" : `${mythicKills}/${TOTAL_BOSSES}M`;
+    if (mythicKills > 0 || mythicFights.length > 0) {
+      relevantFights = mythicFights;
+      group.progress = mythicKills >= TOTAL_BOSSES ? "CE" : `${mythicKills}/${TOTAL_BOSSES}M`;
+    } else if (heroicKills > 0 || heroicFights.length > 0) {
+      relevantFights = heroicFights;
+      group.progress = `${heroicKills}/${TOTAL_BOSSES}H`;
+    } else if (normalKills > 0 || normalFights.length > 0) {
+      relevantFights = normalFights;
+      group.progress = `${normalKills}/${TOTAL_BOSSES}N`;
+    } else {
+      relevantFights = [];
+      group.progress = "-";
+    }
 
-    group.totalPulls = mythicFights.length;
+    group.totalPulls = relevantFights.length;
 
-    const wipeFights = mythicFights.filter(fight => !fight.kill);
+    const bestWipe = getBestWipe(relevantFights);
 
-    if (wipeFights.length > 0) {
-      const bestWipe = wipeFights.reduce((best, fight) => {
-        return fight.bossPercentage < best.bossPercentage ? fight : best;
-      }, wipeFights[0]);
-
+    if (bestWipe) {
       group.bossProg = `${bestWipe.bossPercentage.toFixed(2)}%`;
       group.bestBoss = bestWipe.name;
     } else {
-      group.bossProg = mythicKills >= TOTAL_BOSSES ? "WR " + group.worldRank : "-";
+      group.bossProg = group.progress === "CE" ? `WR ${group.worldRank}` : "-";
       group.bestBoss = "";
     }
 
