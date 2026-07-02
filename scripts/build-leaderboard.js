@@ -77,6 +77,44 @@ function normalizeLogProgress(group) {
   return "CE";
 }
 
+function parseProgress(progress) {
+  if (!progress || progress === "-") {
+    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
+  }
+
+  if (progress === "CE") {
+    return { difficulty: "M", kills: TOTAL_BOSSES, total: TOTAL_BOSSES, ce: true };
+  }
+
+  const match = progress.match(/^(\d+)\/(\d+)([MNH])$/);
+
+  if (!match) {
+    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
+  }
+
+  return {
+    kills: Number(match[1]),
+    total: Number(match[2]),
+    difficulty: match[3],
+    ce: false
+  };
+}
+
+function logMatchesCurrentRaiderProgress(raiderProgress, logProgress) {
+  const raider = parseProgress(raiderProgress);
+  const logs = parseProgress(logProgress);
+
+  if (!raider.difficulty || !logs.difficulty) {
+    return false;
+  }
+
+  return (
+    raider.difficulty === logs.difficulty &&
+    raider.kills === logs.kills &&
+    raider.total === logs.total
+  );
+}
+
 function formatBossProgress(group) {
   if (group.bestBoss && group.bossProg && group.bossProg !== "-") {
     return `${group.bossProg} ${group.bestBoss}`;
@@ -137,7 +175,13 @@ function buildRaiderRow(guild, logGroups) {
   const progress = getRaiderProgress(guild);
   const worldRank = getRaiderWorldRank(guild);
   const logGroup = findLogGroupForGuild(guild, logGroups);
+  const logProgress = logGroup ? normalizeLogProgress(logGroup) : "-";
   const isCE = progress === "CE";
+
+  const useLogBossProgress =
+    !isCE &&
+    logGroup &&
+    logMatchesCurrentRaiderProgress(progress, logProgress);
 
   return {
     id: guild.id || slugifyId(guild.name),
@@ -148,7 +192,7 @@ function buildRaiderRow(guild, logGroups) {
     progress,
     bossProg: isCE
       ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
-      : logGroup ? formatBossProgress(logGroup) : "-",
+      : useLogBossProgress ? formatBossProgress(logGroup) : "-",
     worldRank,
     source: "raiderio"
   };
