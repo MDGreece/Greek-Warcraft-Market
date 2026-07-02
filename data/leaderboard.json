@@ -37,6 +37,20 @@
   },
   {
     "rank": 4,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "8/9M",
+    "bossProg": "35.80% Midnight Falls",
+    "worldRank": 1102,
+    "source": "warcraftlogs",
+    "latestReport": "gCTLGcvbdH693zfM",
+    "latestReportTitle": "VS / DR / MQD"
+  },
+  {
+    "rank": 5,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -48,7 +62,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -60,30 +74,16 @@
     "source": "raiderio"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
     "realm": "tarren-mill",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "57.94% Midnight Falls",
+    "bossProg": "60.87% Midnight Falls",
     "worldRank": 1697,
     "source": "raiderio"
-  },
-  {
-    "rank": 7,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "7/9M",
-    "bossProg": "35.80% Midnight Falls",
-    "worldRank": 1102,
-    "source": "warcraftlogs",
-    "latestReport": "gCTLGcvbdH693zfM",
-    "latestReportTitle": "VS / DR / MQD"
   },
   {
     "rank": 8,
@@ -92,7 +92,7 @@
     "type": "raid-team",
     "realm": "",
     "parentGuild": "Disobedient",
-    "progress": "7/9M",
+    "progress": "8/9M",
     "bossProg": "62.99% Midnight Falls",
     "worldRank": 1753,
     "source": "warcraftlogs",
@@ -119,7 +119,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "6/9M",
-    "bossProg": "9.14% Crown of the Cosmos",
+    "bossProg": "49.20% Rotmire",
     "worldRank": 3312,
     "source": "raiderio"
   },
@@ -155,7 +155,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "-",
+    "bossProg": "3.21% Forgeweaver Araz",
     "worldRank": 4764,
     "source": "raiderio"
   },
@@ -167,7 +167,7 @@
     "realm": "ravencrest",
     "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "-",
+    "bossProg": "18.41% Rotmire",
     "worldRank": 4968,
     "source": "raiderio"
   },
@@ -179,7 +179,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "61.97% Vaelgor & Ezzorak",
+    "bossProg": "1.06% Rotmire",
     "worldRank": 5531,
     "source": "raiderio"
   },
@@ -191,7 +191,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "7.16% Fallen-King Salhadaar",
+    "bossProg": "56.62% Rotmire",
     "worldRank": 6220,
     "source": "raiderio"
   },
@@ -215,7 +215,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "1/9M",
-    "bossProg": "46.98% Vorasius",
+    "bossProg": "57.61% Chimaerus, the Undreamt God",
     "worldRank": 8299,
     "source": "raiderio"
   },
@@ -227,7 +227,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "-",
+    "bossProg": "72.56% Loom'ithar",
     "worldRank": 4433,
     "source": "raiderio"
   },
@@ -239,7 +239,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "-",
+    "bossProg": "32.83% Rotmire",
     "worldRank": 8704,
     "source": "raiderio"
   },
@@ -251,7 +251,7 @@
     "realm": "genjuros",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "-",
+    "bossProg": "24.39% Rotmire",
     "worldRank": 8768,
     "source": "raiderio"
   },
@@ -275,7 +275,7 @@
     "realm": "draenor",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "-",
+    "bossProg": "45.27% Plexus Sentinel",
     "worldRank": 9203,
     "source": "raiderio"
   },
@@ -299,7 +299,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "-",
-    "bossProg": "-",
+    "bossProg": "56.56% Chrome King Gallywix",
     "worldRank": 999999,
     "source": "raiderio"
   },
