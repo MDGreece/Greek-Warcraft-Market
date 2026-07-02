@@ -539,7 +539,7 @@
           "realm": 146
         },
         "mythic": {
-          "world": 2999,
+          "world": 3000,
           "region": 1392,
           "realm": 84
         }
@@ -788,7 +788,7 @@
           "realm": 174
         },
         "mythic": {
-          "world": 4714,
+          "world": 4715,
           "region": 2157,
           "realm": 115
         }
@@ -871,7 +871,7 @@
           "realm": 314
         },
         "mythic": {
-          "world": 4764,
+          "world": 4765,
           "region": 2167,
           "realm": 117
         }
@@ -954,7 +954,7 @@
           "realm": 132
         },
         "mythic": {
-          "world": 4968,
+          "world": 4969,
           "region": 2210,
           "realm": 64
         }
@@ -1389,89 +1389,6 @@
           "world": 6545,
           "region": 2711,
           "realm": 6
-        }
-      },
-      "the-venomous-abyss": {
-        "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "heroic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        }
-      }
-    }
-  },
-  {
-    "id": "leontokardoi",
-    "name": "leontokardoi",
-    "realm": "twisting-nether",
-    "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/leontokardoi",
-    "progress": {
-      "tier-mn-1": {
-        "summary": "9/9 H",
-        "total_bosses": 9,
-        "normal_bosses_killed": 9,
-        "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 0
-      },
-      "sporefall": {
-        "summary": "1/1 H",
-        "total_bosses": 1,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 1,
-        "mythic_bosses_killed": 0
-      },
-      "the-venomous-abyss": {
-        "summary": "0/8 N",
-        "total_bosses": 8,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 0,
-        "mythic_bosses_killed": 0
-      }
-    },
-    "rankings": {
-      "tier-mn-1": {
-        "normal": {
-          "world": 14059,
-          "region": 6249,
-          "realm": 160
-        },
-        "heroic": {
-          "world": 4433,
-          "region": 2159,
-          "realm": 99
-        },
-        "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        }
-      },
-      "sporefall": {
-        "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "heroic": {
-          "world": 11750,
-          "region": 4671,
-          "realm": 136
-        },
-        "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
         }
       },
       "the-venomous-abyss": {

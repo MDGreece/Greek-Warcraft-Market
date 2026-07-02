@@ -69,7 +69,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "41.74% Midnight Falls",
+    "bossProg": "-",
     "worldRank": 1350,
     "source": "raiderio"
   },
@@ -81,7 +81,7 @@
     "realm": "tarren-mill",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "60.87% Midnight Falls",
+    "bossProg": "-",
     "worldRank": 1697,
     "source": "raiderio"
   },
@@ -108,7 +108,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 2999,
+    "worldRank": 3000,
     "source": "raiderio"
   },
   {
@@ -144,7 +144,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4714,
+    "worldRank": 4715,
     "source": "raiderio"
   },
   {
@@ -155,8 +155,8 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "3.21% Forgeweaver Araz",
-    "worldRank": 4764,
+    "bossProg": "-",
+    "worldRank": 4765,
     "source": "raiderio"
   },
   {
@@ -167,8 +167,8 @@
     "realm": "ravencrest",
     "parentGuild": "",
     "progress": "5/9M",
-    "bossProg": "18.41% Rotmire",
-    "worldRank": 4968,
+    "bossProg": "-",
+    "worldRank": 4969,
     "source": "raiderio"
   },
   {
@@ -179,7 +179,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "1.06% Rotmire",
+    "bossProg": "-",
     "worldRank": 5531,
     "source": "raiderio"
   },
@@ -191,7 +191,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "56.62% Rotmire",
+    "bossProg": "-",
     "worldRank": 6220,
     "source": "raiderio"
   },
@@ -209,6 +209,20 @@
   },
   {
     "rank": 18,
+    "id": "leontokardoi",
+    "name": "leontokardoi",
+    "type": "raid-team",
+    "realm": "twisting-nether",
+    "parentGuild": "leontokardoi",
+    "progress": "2/9M",
+    "bossProg": "72.56% Loom'ithar",
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "T4kpG3th1bvV9FjW",
+    "latestReportTitle": "Manaforge Omega"
+  },
+  {
+    "rank": 19,
     "id": "the-haunted",
     "name": "The Haunted",
     "type": "guild",
@@ -220,18 +234,6 @@
     "source": "raiderio"
   },
   {
-    "rank": 19,
-    "id": "leontokardoi",
-    "name": "leontokardoi",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "progress": "9/9H",
-    "bossProg": "72.56% Loom'ithar",
-    "worldRank": 4433,
-    "source": "raiderio"
-  },
-  {
     "rank": 20,
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
@@ -239,7 +241,7 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "32.83% Rotmire",
+    "bossProg": "-",
     "worldRank": 8704,
     "source": "raiderio"
   },
@@ -251,7 +253,7 @@
     "realm": "genjuros",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "24.39% Rotmire",
+    "bossProg": "-",
     "worldRank": 8768,
     "source": "raiderio"
   },
@@ -275,7 +277,7 @@
     "realm": "draenor",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "45.27% Plexus Sentinel",
+    "bossProg": "-",
     "worldRank": 9203,
     "source": "raiderio"
   },
@@ -299,7 +301,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "-",
-    "bossProg": "56.56% Chrome King Gallywix",
+    "bossProg": "-",
     "worldRank": 999999,
     "source": "raiderio"
   },
