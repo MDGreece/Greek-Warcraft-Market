@@ -1411,6 +1411,89 @@
     }
   },
   {
+    "id": "leontokardoi",
+    "name": "leontokardoi",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/leontokardoi",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 H",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 0
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 14059,
+          "region": 6249,
+          "realm": 160
+        },
+        "heroic": {
+          "world": 4433,
+          "region": 2159,
+          "realm": 99
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11750,
+          "region": 4671,
+          "realm": 136
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
     "realm": "silvermoon",
