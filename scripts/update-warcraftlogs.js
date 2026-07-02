@@ -1,371 +1,287 @@
 const fs = require("fs");
 
-const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
-const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
+const raiderPath = "data/guildsio.json";
+const logsPath = "data/warcraftlogs-groups.json";
+const outputPath = "data/leaderboard.json";
 
-const inputPath = "data/warcraftlogs-groups.json";
-const outputPath = "data/warcraftlogs-groups.json";
-
+const CURRENT_RAID = "tier-mn-1";
+const DEFAULT_WORLD_RANK = 999999;
 const TOTAL_BOSSES = 9;
-const REPORT_LIMIT = 50;
 
-// Current raid only. This prevents old-tier data from being used.
-const CURRENT_RAID_ZONES = [
-  "Manaforge Omega"
+const CURRENT_RAID_BOSSES = [
+  "Imperator Averzian",
+  "Vorasius",
+  "Vaelgor & Ezzorak",
+  "Fallen-King Salhadaar",
+  "Lightblinded Vanguard",
+  "Crown of the Cosmos",
+  "Chimaerus the Undreamt God",
+  "Belo'ren, Child of Al'ar",
+  "Midnight Falls"
 ];
 
-const DIFFICULTIES = [
-  { id: 5, suffix: "M", name: "Mythic" },
-  { id: 4, suffix: "H", name: "Heroic" },
-  { id: 3, suffix: "N", name: "Normal" }
-];
-
-async function getToken() {
-  if (!CLIENT_ID || !CLIENT_SECRET) {
-    throw new Error("Missing WARCRAFTLOGS_CLIENT_ID or WARCRAFTLOGS_CLIENT_SECRET");
+function readJson(path) {
+  if (!fs.existsSync(path)) {
+    throw new Error(`Missing file: ${path}`);
   }
 
-  const response = await fetch("https://www.warcraftlogs.com/oauth/token", {
-    method: "POST",
-    headers: {
-      Authorization:
-        "Basic " + Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64"),
-      "Content-Type": "application/x-www-form-urlencoded"
-    },
-    body: "grant_type=client_credentials"
-  });
+  return JSON.parse(fs.readFileSync(path, "utf8"));
+}
 
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`Could not get Warcraft Logs token: ${response.status} ${text}`);
+function slugifyId(name) {
+  return String(name)
+    .toLowerCase()
+    .replace(/'/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function getRaiderRaid(guild) {
+  return guild.progress?.[CURRENT_RAID] || null;
+}
+
+function getRaiderProgress(guild) {
+  const raid = getRaiderRaid(guild);
+  if (!raid) return "-";
+
+  const totalBosses = raid.total_bosses || TOTAL_BOSSES;
+  const mythicKills = raid.mythic_bosses_killed || 0;
+  const heroicKills = raid.heroic_bosses_killed || 0;
+  const normalKills = raid.normal_bosses_killed || 0;
+
+  if (mythicKills > 0) {
+    return mythicKills >= totalBosses ? "CE" : `${mythicKills}/${totalBosses}M`;
   }
 
-  const data = await response.json();
-  return data.access_token;
-}
-
-async function queryWarcraftLogs(token, query, variables = {}) {
-  const response = await fetch("https://www.warcraftlogs.com/api/v2/client", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ query, variables })
-  });
-
-  const data = await response.json();
-
-  if (!response.ok) {
-    throw new Error(`Warcraft Logs HTTP error: ${response.status} ${JSON.stringify(data)}`);
+  if (heroicKills > 0) {
+    return `${heroicKills}/${totalBosses}H`;
   }
 
-  if (data.errors) {
-    console.log(JSON.stringify(data.errors, null, 2));
-    throw new Error("Warcraft Logs GraphQL error");
+  if (normalKills > 0) {
+    return `${normalKills}/${totalBosses}N`;
   }
 
-  return data.data;
+  return "-";
 }
 
-async function getReportsForGuild(token, guildId) {
-  const query = `
-    query($guildId: Int!, $limit: Int!) {
-      reportData {
-        reports(guildID: $guildId, limit: $limit) {
-          data {
-            code
-            title
-            startTime
-            endTime
-            zone {
-              name
-            }
-          }
-        }
-      }
-    }
-  `;
+function getRaiderWorldRank(guild) {
+  const rankings = guild.rankings?.[CURRENT_RAID];
 
-  const data = await queryWarcraftLogs(token, query, {
-    guildId,
-    limit: REPORT_LIMIT
-  });
-
-  return data?.reportData?.reports?.data || [];
+  return (
+    rankings?.mythic?.world ||
+    rankings?.heroic?.world ||
+    rankings?.normal?.world ||
+    DEFAULT_WORLD_RANK
+  );
 }
 
-async function getFightsFromReport(token, report) {
-  const query = `
-    query($code: String!) {
-      reportData {
-        report(code: $code) {
-          fights(killType: Encounters) {
-            id
-            name
-            kill
-            bossPercentage
-            difficulty
-            startTime
-            endTime
-          }
-        }
-      }
-    }
-  `;
-
-  const data = await queryWarcraftLogs(token, query, { code: report.code });
-  const fights = data?.reportData?.report?.fights || [];
-
-  return fights.map(fight => ({
-    ...fight,
-    reportCode: report.code,
-    reportTitle: report.title,
-    reportStartTime: report.startTime,
-    reportEndTime: report.endTime,
-    zoneName: report.zone?.name || ""
-  }));
+function isCurrentRaidBoss(bossName) {
+  return CURRENT_RAID_BOSSES.includes(bossName);
 }
 
-function isCurrentRaidReport(report) {
-  return CURRENT_RAID_ZONES.includes(report.zone?.name);
-}
+function normalizeLogProgress(group) {
+  const progress = group.progress || "-";
 
-function countUniqueKills(fights) {
-  return new Set(
-    fights
-      .filter(fight => fight.kill && fight.name)
-      .map(fight => fight.name)
-  ).size;
-}
-
-function getDifficultySummary(fights) {
-  const summaries = DIFFICULTIES.map(diff => {
-    const diffFights = fights.filter(fight => fight.difficulty === diff.id);
-    const kills = countUniqueKills(diffFights);
-
-    return {
-      ...diff,
-      fights: diffFights,
-      kills,
-      hasFights: diffFights.length > 0
-    };
-  });
-
-  const mythic = summaries.find(d => d.suffix === "M");
-  const heroic = summaries.find(d => d.suffix === "H");
-  const normal = summaries.find(d => d.suffix === "N");
-
-  if (mythic.kills > 0 || mythic.hasFights) {
-    return {
-      ...mythic,
-      progress: mythic.kills >= TOTAL_BOSSES ? "CE" : `${mythic.kills}/${TOTAL_BOSSES}M`
-    };
+  if (progress !== "CE") {
+    return progress;
   }
 
-  if (heroic.kills > 0 || heroic.hasFights) {
-    return {
-      ...heroic,
-      progress: `${heroic.kills}/${TOTAL_BOSSES}H`
-    };
+  if (isCurrentRaidBoss(group.bestBoss)) {
+    return `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`;
   }
 
-  if (normal.kills > 0 || normal.hasFights) {
-    return {
-      ...normal,
-      progress: `${normal.kills}/${TOTAL_BOSSES}N`
-    };
+  return "CE";
+}
+
+function parseProgress(progress) {
+  if (!progress || progress === "-") {
+    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
+  }
+
+  if (progress === "CE") {
+    return { difficulty: "M", kills: TOTAL_BOSSES, total: TOTAL_BOSSES, ce: true };
+  }
+
+  const match = progress.match(/^(\d+)\/(\d+)([MNH])$/);
+
+  if (!match) {
+    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
   }
 
   return {
-    id: null,
-    suffix: "",
-    name: "",
-    fights: [],
-    kills: 0,
-    hasFights: false,
-    progress: "-"
+    kills: Number(match[1]),
+    total: Number(match[2]),
+    difficulty: match[3],
+    ce: false
   };
 }
 
-function getCurrentProgressionBoss(fights) {
-  const killedBosses = new Set(
-    fights
-      .filter(fight => fight.kill && fight.name)
-      .map(fight => fight.name)
+function progressMatches(raiderProgress, logProgress) {
+  const raider = parseProgress(raiderProgress);
+  const logs = parseProgress(logProgress);
+
+  return (
+    raider.difficulty &&
+    logs.difficulty &&
+    raider.difficulty === logs.difficulty &&
+    raider.kills === logs.kills &&
+    raider.total === logs.total
   );
-
-  const wipes = fights.filter(fight =>
-    !fight.kill &&
-    fight.name &&
-    typeof fight.bossPercentage === "number" &&
-    fight.bossPercentage > 0 &&
-    !killedBosses.has(fight.name)
-  );
-
-  if (wipes.length === 0) {
-    return {
-      bestBoss: "",
-      bossProg: "-",
-      latestReport: "",
-      latestReportTitle: "",
-      zoneName: ""
-    };
-  }
-
-  const bosses = new Map();
-
-  for (const fight of wipes) {
-    if (!bosses.has(fight.name)) {
-      bosses.set(fight.name, {
-        name: fight.name,
-        bestPercent: 100,
-        latestTimestamp: 0,
-        latestReport: "",
-        latestReportTitle: "",
-        zoneName: fight.zoneName || ""
-      });
-    }
-
-    const boss = bosses.get(fight.name);
-
-    if (fight.bossPercentage < boss.bestPercent) {
-      boss.bestPercent = fight.bossPercentage;
-    }
-
-    const timestamp = Number(fight.reportStartTime || 0) + Number(fight.startTime || 0);
-
-    if (timestamp > boss.latestTimestamp) {
-      boss.latestTimestamp = timestamp;
-      boss.latestReport = fight.reportCode || "";
-      boss.latestReportTitle = fight.reportTitle || "";
-      boss.zoneName = fight.zoneName || "";
-    }
-  }
-
-  const currentBoss = [...bosses.values()]
-    .sort((a, b) => b.latestTimestamp - a.latestTimestamp)[0];
-
-  return {
-    bestBoss: currentBoss.name,
-    bossProg: `${currentBoss.bestPercent.toFixed(2)}%`,
-    latestReport: currentBoss.latestReport,
-    latestReportTitle: currentBoss.latestReportTitle,
-    zoneName: currentBoss.zoneName
-  };
 }
 
-async function updateGroup(token, group) {
-  console.log(`Fetching Warcraft Logs for ${group.name}...`);
-
-  if (!group.warcraftLogsGuildId) {
-    return {
-      ...group,
-      progress: group.progress || "-",
-      bossProg: "-",
-      bestBoss: "",
-      totalReports: 0,
-      raidZone: ""
-    };
-  }
-
-  const reports = await getReportsForGuild(token, group.warcraftLogsGuildId);
-  const currentRaidReports = reports.filter(isCurrentRaidReport);
-
-  if (currentRaidReports.length === 0) {
-    console.log(`${group.name}: no current raid reports found`);
-
-    return {
-      ...group,
-      progress: "-",
-      raidDifficulty: "",
-      raidDifficultySuffix: "",
-      raidKills: 0,
-      totalReports: reports.length,
-      currentRaidReports: 0,
-      bossProg: "-",
-      bestBoss: "",
-      latestReport: "",
-      latestReportTitle: "",
-      raidZone: "",
-      updatedAt: new Date().toISOString()
-    };
-  }
-
-  let allFights = [];
-
-  for (const report of currentRaidReports) {
-    const fights = await getFightsFromReport(token, report);
-    allFights = allFights.concat(fights);
-  }
-
-  const difficulty = getDifficultySummary(allFights);
-  const progression = getCurrentProgressionBoss(difficulty.fights);
-
-  let progress = difficulty.progress;
-  let raidKills = difficulty.kills;
-
+function formatBossProgress(group) {
   if (
-    difficulty.suffix === "M" &&
-    progress === "CE" &&
-    progression.bestBoss
+    group.bestBoss &&
+    group.bossProg &&
+    group.bossProg !== "-" &&
+    isCurrentRaidBoss(group.bestBoss)
   ) {
-    raidKills = TOTAL_BOSSES - 1;
-    progress = `${raidKills}/${TOTAL_BOSSES}M`;
+    return `${group.bossProg} ${group.bestBoss}`;
   }
 
-  const updatedGroup = {
-    ...group,
-    progress,
-    raidDifficulty: difficulty.name,
-    raidDifficultySuffix: difficulty.suffix,
-    raidKills,
-    totalReports: reports.length,
-    currentRaidReports: currentRaidReports.length,
-    bossProg: progression.bossProg,
-    bestBoss: progression.bestBoss,
-    latestReport: progression.latestReport,
-    latestReportTitle: progression.latestReportTitle,
-    raidZone: progression.zoneName || CURRENT_RAID_ZONES[0],
-    updatedAt: new Date().toISOString()
+  return "-";
+}
+
+function findLogGroupForGuild(guild, logGroups) {
+  const guildId = guild.id || slugifyId(guild.name);
+  const guildName = guild.name?.toLowerCase();
+  const guildRealm = guild.realm?.toLowerCase();
+
+  return logGroups.find(group => {
+    const groupId = group.id;
+    const groupName = group.name?.toLowerCase();
+    const parentGuild = group.parentGuild?.toLowerCase();
+    const groupRealm = group.realm?.toLowerCase();
+
+    const sameId = groupId === guildId;
+    const sameName = groupName === guildName;
+    const sameParent = parentGuild === guildName;
+    const sameRealm = !guildRealm || !groupRealm || guildRealm === groupRealm;
+
+    return sameRealm && (sameId || sameName || sameParent);
+  });
+}
+
+function getProgressScore(progress) {
+  if (!progress || progress === "-") return 0;
+  if (progress === "CE") return 999;
+
+  const match = progress.match(/^(\d+)\/(\d+)([MNH])$/);
+  if (!match) return 0;
+
+  const kills = Number(match[1]);
+  const difficulty = match[3];
+
+  const difficultyScore = {
+    M: 300,
+    H: 200,
+    N: 100
   };
 
-  delete updatedGroup.totalPulls;
+  return difficultyScore[difficulty] + kills;
+}
 
-  console.log(
-    `${updatedGroup.name}: ${updatedGroup.progress}, ${updatedGroup.bossProg} ${updatedGroup.bestBoss}`
+function getBossPercentValue(bossProg) {
+  if (!bossProg || bossProg === "-") return 100;
+
+  const match = String(bossProg).match(/([\d.]+)%/);
+  if (!match) return 100;
+
+  return Number(match[1]);
+}
+
+function buildRaiderRow(guild, logGroups) {
+  const progress = getRaiderProgress(guild);
+  const worldRank = getRaiderWorldRank(guild);
+  const logGroup = findLogGroupForGuild(guild, logGroups);
+
+  const isCE = progress === "CE";
+  const logProgress = logGroup ? normalizeLogProgress(logGroup) : "-";
+
+  const canUseBossProgress =
+    !isCE &&
+    logGroup &&
+    isCurrentRaidBoss(logGroup.bestBoss) &&
+    progressMatches(progress, logProgress);
+
+  return {
+    id: guild.id || slugifyId(guild.name),
+    name: guild.name,
+    type: "guild",
+    realm: guild.realm || "",
+    parentGuild: "",
+    progress,
+    bossProg: isCE
+      ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
+      : canUseBossProgress ? formatBossProgress(logGroup) : "-",
+    worldRank,
+    source: "raiderio"
+  };
+}
+
+function buildLogRow(group) {
+  const progress = normalizeLogProgress(group);
+  const isCE = progress === "CE";
+  const worldRank = group.worldRank || DEFAULT_WORLD_RANK;
+
+  return {
+    id: group.id,
+    name: group.name,
+    type: "raid-team",
+    realm: group.realm || "",
+    parentGuild: group.parentGuild || "",
+    progress,
+    bossProg: isCE
+      ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
+      : formatBossProgress(group),
+    worldRank,
+    source: "warcraftlogs",
+    latestReport: group.latestReport || "",
+    latestReportTitle: group.latestReportTitle || ""
+  };
+}
+
+function isManualRaidTeam(group, raiderGuilds) {
+  const raiderIds = new Set(
+    raiderGuilds.map(guild => guild.id || slugifyId(guild.name))
   );
 
-  return updatedGroup;
+  return !raiderIds.has(group.id);
 }
 
-async function run() {
-  console.log("Running Warcraft Logs updater with explicit current raid filter");
+function sortLeaderboard(a, b) {
+  const progressDiff = getProgressScore(b.progress) - getProgressScore(a.progress);
+  if (progressDiff !== 0) return progressDiff;
 
-  const token = await getToken();
-  const groups = JSON.parse(fs.readFileSync(inputPath, "utf8"));
-  const updatedGroups = [];
+  const worldRankDiff = a.worldRank - b.worldRank;
+  if (worldRankDiff !== 0) return worldRankDiff;
 
-  for (const group of groups) {
-    try {
-      const updatedGroup = await updateGroup(token, group);
-      updatedGroups.push(updatedGroup);
-    } catch (error) {
-      console.error(`Failed updating ${group.name}:`, error.message);
+  const bossPercentDiff = getBossPercentValue(a.bossProg) - getBossPercentValue(b.bossProg);
+  if (bossPercentDiff !== 0) return bossPercentDiff;
 
-      updatedGroups.push({
-        ...group,
-        updateError: error.message,
-        updatedAt: new Date().toISOString()
-      });
-    }
-  }
-
-  fs.writeFileSync(outputPath, JSON.stringify(updatedGroups, null, 2));
-  console.log("Updated data/warcraftlogs-groups.json");
+  return a.name.localeCompare(b.name);
 }
 
-run().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+function run() {
+  const raiderGuilds = readJson(raiderPath);
+  const logGroups = readJson(logsPath);
+
+  const raiderRows = raiderGuilds.map(guild => buildRaiderRow(guild, logGroups));
+
+  const logRows = logGroups
+    .filter(group => isManualRaidTeam(group, raiderGuilds))
+    .map(buildLogRow);
+
+  const leaderboard = [...raiderRows, ...logRows]
+    .sort(sortLeaderboard)
+    .map((entry, index) => ({
+      rank: index + 1,
+      ...entry
+    }));
+
+  fs.writeFileSync(outputPath, JSON.stringify(leaderboard, null, 2));
+
+  console.log(`Created ${outputPath} with ${leaderboard.length} entries`);
+}
+
+run();
