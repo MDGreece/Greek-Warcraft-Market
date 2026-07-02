@@ -9,18 +9,6 @@ const outputPath = "data/warcraftlogs-groups.json";
 const TOTAL_BOSSES = 9;
 const REPORT_LIMIT = 50;
 
-const CURRENT_RAID_BOSSES = [
-  "Imperator Averzian",
-  "Vorasius",
-  "Vaelgor & Ezzorak",
-  "Fallen-King Salhadaar",
-  "Lightblinded Vanguard",
-  "Crown of the Cosmos",
-  "Chimaerus the Undreamt God",
-  "Belo'ren, Child of Al'ar",
-  "Midnight Falls"
-];
-
 const DIFFICULTIES = [
   { id: 5, suffix: "M", name: "Mythic" },
   { id: 4, suffix: "H", name: "Heroic" },
@@ -134,28 +122,24 @@ async function getFightsFromReport(token, report) {
   }));
 }
 
-function isCurrentRaidFight(fight) {
-  return CURRENT_RAID_BOSSES.includes(fight.name);
-}
-
 function countUniqueKills(fights) {
   return new Set(
     fights
-      .filter(fight => fight.kill)
+      .filter(fight => fight.kill && fight.name)
       .map(fight => fight.name)
   ).size;
 }
 
-function getDifficultySummary(allFights) {
+function getDifficultySummary(fights) {
   const summaries = DIFFICULTIES.map(diff => {
-    const fights = allFights.filter(fight => fight.difficulty === diff.id);
-    const kills = countUniqueKills(fights);
+    const diffFights = fights.filter(fight => fight.difficulty === diff.id);
+    const kills = countUniqueKills(diffFights);
 
     return {
       ...diff,
-      fights,
+      fights: diffFights,
       kills,
-      hasFights: fights.length > 0
+      hasFights: diffFights.length > 0
     };
   });
 
@@ -163,15 +147,12 @@ function getDifficultySummary(allFights) {
   const heroic = summaries.find(d => d.suffix === "H");
   const normal = summaries.find(d => d.suffix === "N");
 
-if (mythic.kills > 0) {
-  const safeKills = Math.min(mythic.kills, TOTAL_BOSSES);
-
-  return {
-    ...mythic,
-    kills: safeKills,
-    progress: safeKills >= TOTAL_BOSSES ? "CE" : `${safeKills}/${TOTAL_BOSSES}M`
-  };
-}
+  if (mythic.kills > 0 || mythic.hasFights) {
+    return {
+      ...mythic,
+      progress: mythic.kills >= TOTAL_BOSSES ? "CE" : `${mythic.kills}/${TOTAL_BOSSES}M`
+    };
+  }
 
   if (heroic.kills > 0 || heroic.hasFights) {
     return {
@@ -201,7 +182,7 @@ if (mythic.kills > 0) {
 function getCurrentProgressionBoss(fights) {
   const killedBosses = new Set(
     fights
-      .filter(fight => fight.kill)
+      .filter(fight => fight.kill && fight.name)
       .map(fight => fight.name)
   );
 
@@ -217,9 +198,9 @@ function getCurrentProgressionBoss(fights) {
     return {
       bestBoss: "",
       bossProg: "-",
-      totalPulls: 0,
       latestReport: "",
-      latestReportTitle: ""
+      latestReportTitle: "",
+      zoneName: ""
     };
   }
 
@@ -229,17 +210,15 @@ function getCurrentProgressionBoss(fights) {
     if (!bosses.has(fight.name)) {
       bosses.set(fight.name, {
         name: fight.name,
-        pulls: 0,
         bestPercent: 100,
         latestTimestamp: 0,
         latestReport: "",
-        latestReportTitle: ""
+        latestReportTitle: "",
+        zoneName: fight.zoneName || ""
       });
     }
 
     const boss = bosses.get(fight.name);
-
-    boss.pulls += 1;
 
     if (fight.bossPercentage < boss.bestPercent) {
       boss.bestPercent = fight.bossPercentage;
@@ -251,6 +230,7 @@ function getCurrentProgressionBoss(fights) {
       boss.latestTimestamp = timestamp;
       boss.latestReport = fight.reportCode || "";
       boss.latestReportTitle = fight.reportTitle || "";
+      boss.zoneName = fight.zoneName || "";
     }
   }
 
@@ -260,9 +240,35 @@ function getCurrentProgressionBoss(fights) {
   return {
     bestBoss: currentBoss.name,
     bossProg: `${currentBoss.bestPercent.toFixed(2)}%`,
-    totalPulls: currentBoss.pulls,
     latestReport: currentBoss.latestReport,
-    latestReportTitle: currentBoss.latestReportTitle
+    latestReportTitle: currentBoss.latestReportTitle,
+    zoneName: currentBoss.zoneName
+  };
+}
+
+function getRelevantRaidFights(allFights) {
+  const firstPassDifficulty = getDifficultySummary(allFights);
+  const firstPassProgression = getCurrentProgressionBoss(firstPassDifficulty.fights);
+
+  if (!firstPassProgression.zoneName) {
+    return {
+      fights: firstPassDifficulty.fights,
+      difficulty: firstPassDifficulty,
+      progression: firstPassProgression
+    };
+  }
+
+  const sameZoneFights = allFights.filter(fight =>
+    fight.zoneName === firstPassProgression.zoneName
+  );
+
+  const difficulty = getDifficultySummary(sameZoneFights);
+  const progression = getCurrentProgressionBoss(difficulty.fights);
+
+  return {
+    fights: sameZoneFights,
+    difficulty,
+    progression
   };
 }
 
@@ -275,7 +281,6 @@ async function updateGroup(token, group) {
       progress: group.progress || "-",
       bossProg: "-",
       bestBoss: "",
-      totalPulls: 0,
       totalReports: 0
     };
   }
@@ -289,48 +294,46 @@ async function updateGroup(token, group) {
     allFights = allFights.concat(fights);
   }
 
-  const currentRaidFights = allFights.filter(isCurrentRaidFight);
+  const { difficulty, progression } = getRelevantRaidFights(allFights);
 
-let difficulty = getDifficultySummary(currentRaidFights);
-const progression = getCurrentProgressionBoss(difficulty.fights);
+  let progress = difficulty.progress;
+  let raidKills = difficulty.kills;
 
-// If the group is still progressing a boss, they are not CE.
-if (
-  difficulty.suffix === "M" &&
-  difficulty.progress === "CE" &&
-  progression.bestBoss
-) {
-  difficulty = {
-    ...difficulty,
-    kills: TOTAL_BOSSES - 1,
-    progress: `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`
-  };
-}
+  if (
+    difficulty.suffix === "M" &&
+    progress === "CE" &&
+    progression.bestBoss
+  ) {
+    raidKills = TOTAL_BOSSES - 1;
+    progress = `${raidKills}/${TOTAL_BOSSES}M`;
+  }
 
   const updatedGroup = {
     ...group,
-    progress: difficulty.progress,
+    progress,
     raidDifficulty: difficulty.name,
     raidDifficultySuffix: difficulty.suffix,
-    raidKills: difficulty.kills,
+    raidKills,
     totalReports: reports.length,
-    totalPulls: progression.totalPulls,
     bossProg: progression.bossProg,
     bestBoss: progression.bestBoss,
     latestReport: progression.latestReport,
     latestReportTitle: progression.latestReportTitle,
+    raidZone: progression.zoneName || "",
     updatedAt: new Date().toISOString()
   };
 
+  delete updatedGroup.totalPulls;
+
   console.log(
-    `${updatedGroup.name}: ${updatedGroup.progress}, ${updatedGroup.bossProg} ${updatedGroup.bestBoss}, ${updatedGroup.totalPulls} pulls`
+    `${updatedGroup.name}: ${updatedGroup.progress}, ${updatedGroup.bossProg} ${updatedGroup.bestBoss}`
   );
 
   return updatedGroup;
 }
 
 async function run() {
-  console.log("Running NEW Warcraft Logs updater with current raid filter");
+  console.log("Running Warcraft Logs updater with zone-based raid detection");
 
   const token = await getToken();
   const groups = JSON.parse(fs.readFileSync(inputPath, "utf8"));
