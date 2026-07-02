@@ -9,6 +9,11 @@ const outputPath = "data/warcraftlogs-groups.json";
 const TOTAL_BOSSES = 9;
 const REPORT_LIMIT = 50;
 
+// Current raid only. This prevents old-tier data from being used.
+const CURRENT_RAID_ZONES = [
+  "Manaforge Omega"
+];
+
 const DIFFICULTIES = [
   { id: 5, suffix: "M", name: "Mythic" },
   { id: 4, suffix: "H", name: "Heroic" },
@@ -120,6 +125,10 @@ async function getFightsFromReport(token, report) {
     reportEndTime: report.endTime,
     zoneName: report.zone?.name || ""
   }));
+}
+
+function isCurrentRaidReport(report) {
+  return CURRENT_RAID_ZONES.includes(report.zone?.name);
 }
 
 function countUniqueKills(fights) {
@@ -246,32 +255,6 @@ function getCurrentProgressionBoss(fights) {
   };
 }
 
-function getRelevantRaidFights(allFights) {
-  const firstPassDifficulty = getDifficultySummary(allFights);
-  const firstPassProgression = getCurrentProgressionBoss(firstPassDifficulty.fights);
-
-  if (!firstPassProgression.zoneName) {
-    return {
-      fights: firstPassDifficulty.fights,
-      difficulty: firstPassDifficulty,
-      progression: firstPassProgression
-    };
-  }
-
-  const sameZoneFights = allFights.filter(fight =>
-    fight.zoneName === firstPassProgression.zoneName
-  );
-
-  const difficulty = getDifficultySummary(sameZoneFights);
-  const progression = getCurrentProgressionBoss(difficulty.fights);
-
-  return {
-    fights: sameZoneFights,
-    difficulty,
-    progression
-  };
-}
-
 async function updateGroup(token, group) {
   console.log(`Fetching Warcraft Logs for ${group.name}...`);
 
@@ -281,20 +264,43 @@ async function updateGroup(token, group) {
       progress: group.progress || "-",
       bossProg: "-",
       bestBoss: "",
-      totalReports: 0
+      totalReports: 0,
+      raidZone: ""
     };
   }
 
   const reports = await getReportsForGuild(token, group.warcraftLogsGuildId);
+  const currentRaidReports = reports.filter(isCurrentRaidReport);
+
+  if (currentRaidReports.length === 0) {
+    console.log(`${group.name}: no current raid reports found`);
+
+    return {
+      ...group,
+      progress: "-",
+      raidDifficulty: "",
+      raidDifficultySuffix: "",
+      raidKills: 0,
+      totalReports: reports.length,
+      currentRaidReports: 0,
+      bossProg: "-",
+      bestBoss: "",
+      latestReport: "",
+      latestReportTitle: "",
+      raidZone: "",
+      updatedAt: new Date().toISOString()
+    };
+  }
 
   let allFights = [];
 
-  for (const report of reports) {
+  for (const report of currentRaidReports) {
     const fights = await getFightsFromReport(token, report);
     allFights = allFights.concat(fights);
   }
 
-  const { difficulty, progression } = getRelevantRaidFights(allFights);
+  const difficulty = getDifficultySummary(allFights);
+  const progression = getCurrentProgressionBoss(difficulty.fights);
 
   let progress = difficulty.progress;
   let raidKills = difficulty.kills;
@@ -315,11 +321,12 @@ async function updateGroup(token, group) {
     raidDifficultySuffix: difficulty.suffix,
     raidKills,
     totalReports: reports.length,
+    currentRaidReports: currentRaidReports.length,
     bossProg: progression.bossProg,
     bestBoss: progression.bestBoss,
     latestReport: progression.latestReport,
     latestReportTitle: progression.latestReportTitle,
-    raidZone: progression.zoneName || "",
+    raidZone: progression.zoneName || CURRENT_RAID_ZONES[0],
     updatedAt: new Date().toISOString()
   };
 
@@ -333,7 +340,7 @@ async function updateGroup(token, group) {
 }
 
 async function run() {
-  console.log("Running Warcraft Logs updater with zone-based raid detection");
+  console.log("Running Warcraft Logs updater with explicit current raid filter");
 
   const token = await getToken();
   const groups = JSON.parse(fs.readFileSync(inputPath, "utf8"));
