@@ -66,12 +66,15 @@ function getRaiderWorldRank(guild) {
 function normalizeLogProgress(group) {
   const progress = group.progress || "-";
 
-  if (progress === "CE" && group.bestBoss) {
-    const kills = Math.min(group.raidKills || TOTAL_BOSSES - 1, TOTAL_BOSSES - 1);
-    return `${kills}/${TOTAL_BOSSES}M`;
+  if (progress !== "CE") {
+    return progress;
   }
 
-  return progress;
+  if (group.bestBoss && group.bossProg && group.bossProg !== "-") {
+    return `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`;
+  }
+
+  return "CE";
 }
 
 function formatBossProgress(group) {
@@ -83,16 +86,23 @@ function formatBossProgress(group) {
 }
 
 function findLogGroupForGuild(guild, logGroups) {
-  const guildId = slugifyId(guild.name);
+  const guildId = guild.id || slugifyId(guild.name);
+  const guildName = guild.name?.toLowerCase();
+  const guildRealm = guild.realm?.toLowerCase();
 
-  return logGroups.find(group =>
-    group.id === guildId ||
-    group.name?.toLowerCase() === guild.name.toLowerCase() ||
-    (
-      group.parentGuild?.toLowerCase() === guild.name.toLowerCase() &&
-      group.name?.toLowerCase() === guild.name.toLowerCase()
-    )
-  );
+  return logGroups.find(group => {
+    const groupId = group.id;
+    const groupName = group.name?.toLowerCase();
+    const parentGuild = group.parentGuild?.toLowerCase();
+    const groupRealm = group.realm?.toLowerCase();
+
+    const sameId = groupId === guildId;
+    const sameName = groupName === guildName;
+    const sameParent = parentGuild === guildName;
+    const sameRealm = !guildRealm || !groupRealm || guildRealm === groupRealm;
+
+    return sameRealm && (sameId || sameName || sameParent);
+  });
 }
 
 function getProgressScore(progress) {
@@ -127,7 +137,6 @@ function buildRaiderRow(guild, logGroups) {
   const progress = getRaiderProgress(guild);
   const worldRank = getRaiderWorldRank(guild);
   const logGroup = findLogGroupForGuild(guild, logGroups);
-
   const isCE = progress === "CE";
 
   return {
@@ -137,20 +146,18 @@ function buildRaiderRow(guild, logGroups) {
     realm: guild.realm || "",
     parentGuild: "",
     progress,
-
-    // CE guilds show WR. Non-CE guilds show boss progress if Warcraft Logs exists.
     bossProg: isCE
       ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
       : logGroup ? formatBossProgress(logGroup) : "-",
-
     worldRank,
-    totalPulls: isCE ? "-" : logGroup?.totalPulls ?? "-",
     source: "raiderio"
   };
 }
 
 function buildLogRow(group) {
   const progress = normalizeLogProgress(group);
+  const isCE = progress === "CE";
+  const worldRank = group.worldRank || DEFAULT_WORLD_RANK;
 
   return {
     id: group.id,
@@ -159,9 +166,10 @@ function buildLogRow(group) {
     realm: group.realm || "",
     parentGuild: group.parentGuild || "",
     progress,
-    bossProg: progress === "CE" ? `WR ${group.worldRank || DEFAULT_WORLD_RANK}` : formatBossProgress(group),
-    worldRank: group.worldRank || DEFAULT_WORLD_RANK,
-    totalPulls: progress === "CE" ? "-" : group.totalPulls ?? 0,
+    bossProg: isCE
+      ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
+      : formatBossProgress(group),
+    worldRank,
     source: "warcraftlogs",
     latestReport: group.latestReport || "",
     latestReportTitle: group.latestReportTitle || ""
@@ -169,12 +177,11 @@ function buildLogRow(group) {
 }
 
 function isManualRaidTeam(group, raiderGuilds) {
-  const groupId = group.id;
   const raiderIds = new Set(
     raiderGuilds.map(guild => guild.id || slugifyId(guild.name))
   );
 
-  return !raiderIds.has(groupId);
+  return !raiderIds.has(group.id);
 }
 
 function sortLeaderboard(a, b) {
@@ -187,10 +194,7 @@ function sortLeaderboard(a, b) {
   const bossPercentDiff = getBossPercentValue(a.bossProg) - getBossPercentValue(b.bossProg);
   if (bossPercentDiff !== 0) return bossPercentDiff;
 
-  const pullsA = Number(a.totalPulls) || 0;
-  const pullsB = Number(b.totalPulls) || 0;
-
-  return pullsB - pullsA;
+  return a.name.localeCompare(b.name);
 }
 
 function run() {
@@ -199,8 +203,6 @@ function run() {
 
   const raiderRows = raiderGuilds.map(guild => buildRaiderRow(guild, logGroups));
 
-  // Only show special/manual raid teams separately.
-  // Normal guilds from Warcraft Logs are used only to enrich Raider.IO rows.
   const logRows = logGroups
     .filter(group => isManualRaidTeam(group, raiderGuilds))
     .map(buildLogRow);
