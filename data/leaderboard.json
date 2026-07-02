@@ -43,11 +43,11 @@
     "realm": "",
     "parentGuild": "Disobedient",
     "progress": "8/9M",
-    "bossProg": "-",
+    "bossProg": "35.80% Midnight Falls",
     "worldRank": 1102,
     "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
+    "latestReport": "gCTLGcvbdH693zfM",
+    "latestReportTitle": "VS / DR / MQD"
   },
   {
     "rank": 5,
@@ -57,7 +57,7 @@
     "realm": "tarren-mill",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "-",
+    "bossProg": "36.58% Midnight Falls",
     "worldRank": 1269,
     "source": "raiderio"
   },
@@ -87,6 +87,20 @@
   },
   {
     "rank": 8,
+    "id": "disobedient-group-iii",
+    "name": "Disobedient Group III",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "8/9M",
+    "bossProg": "62.99% Midnight Falls",
+    "worldRank": 1753,
+    "source": "warcraftlogs",
+    "latestReport": "fdnvC8X1Z3cP7t2F",
+    "latestReportTitle": " Lura S01E04"
+  },
+  {
+    "rank": 9,
     "id": "unique-legacy",
     "name": "UNIQUE LEGACY",
     "type": "guild",
@@ -98,19 +112,19 @@
     "source": "raiderio"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "id": "chillers",
     "name": "Chillers",
     "type": "guild",
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "6/9M",
-    "bossProg": "-",
-    "worldRank": 3312,
+    "bossProg": "49.20% Rotmire",
+    "worldRank": 3313,
     "source": "raiderio"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "id": "nyxborn",
     "name": "Nyxborn",
     "type": "guild",
@@ -122,7 +136,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "id": "provatina",
     "name": "Provatina",
     "type": "guild",
@@ -134,7 +148,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "id": "u-t-o-p-i-a",
     "name": "U T O P I A",
     "type": "guild",
@@ -146,7 +160,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "id": "t-h-e-o-r-y",
     "name": "T H E O R Y",
     "type": "guild",
@@ -158,7 +172,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -170,7 +184,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "id": "dungeon-meta",
     "name": "Dungeon Meta",
     "type": "guild",
@@ -180,20 +194,6 @@
     "bossProg": "-",
     "worldRank": 6220,
     "source": "raiderio"
-  },
-  {
-    "rank": 16,
-    "id": "disobedient-group-iii",
-    "name": "Disobedient Group III",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "2/9M",
-    "bossProg": "-",
-    "worldRank": 1753,
-    "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
   },
   {
     "rank": 17,
@@ -215,7 +215,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "1/9M",
-    "bossProg": "-",
+    "bossProg": "57.61% Chimaerus, the Undreamt God",
     "worldRank": 8299,
     "source": "raiderio"
   },
