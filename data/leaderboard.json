@@ -9,7 +9,6 @@
     "progress": "CE",
     "bossProg": "WR 401",
     "worldRank": 401,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -22,7 +21,6 @@
     "progress": "CE",
     "bossProg": "WR 774",
     "worldRank": 774,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -35,7 +33,6 @@
     "progress": "CE",
     "bossProg": "WR 784",
     "worldRank": 784,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -46,9 +43,8 @@
     "realm": "tarren-mill",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "-",
-    "worldRank": 1248,
-    "totalPulls": "-",
+    "bossProg": "36.58% Midnight Falls",
+    "worldRank": 1269,
     "source": "raiderio"
   },
   {
@@ -59,9 +55,8 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "-",
-    "worldRank": 1332,
-    "totalPulls": "-",
+    "bossProg": "41.74% Midnight Falls",
+    "worldRank": 1350,
     "source": "raiderio"
   },
   {
@@ -72,9 +67,8 @@
     "realm": "tarren-mill",
     "parentGuild": "",
     "progress": "8/9M",
-    "bossProg": "-",
-    "worldRank": 1675,
-    "totalPulls": "-",
+    "bossProg": "57.94% Midnight Falls",
+    "worldRank": 1697,
     "source": "raiderio"
   },
   {
@@ -87,7 +81,6 @@
     "progress": "7/9M",
     "bossProg": "35.80% Midnight Falls",
     "worldRank": 1102,
-    "totalPulls": 350,
     "source": "warcraftlogs",
     "latestReport": "gCTLGcvbdH693zfM",
     "latestReportTitle": "VS / DR / MQD"
@@ -102,7 +95,6 @@
     "progress": "7/9M",
     "bossProg": "62.99% Midnight Falls",
     "worldRank": 1753,
-    "totalPulls": 119,
     "source": "warcraftlogs",
     "latestReport": "fdnvC8X1Z3cP7t2F",
     "latestReportTitle": " Lura S01E04"
@@ -116,8 +108,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 2987,
-    "totalPulls": "-",
+    "worldRank": 2999,
     "source": "raiderio"
   },
   {
@@ -128,9 +119,8 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "6/9M",
-    "bossProg": "-",
-    "worldRank": 3288,
-    "totalPulls": "-",
+    "bossProg": "9.14% Crown of the Cosmos",
+    "worldRank": 3312,
     "source": "raiderio"
   },
   {
@@ -142,8 +132,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4451,
-    "totalPulls": "-",
+    "worldRank": 4462,
     "source": "raiderio"
   },
   {
@@ -155,8 +144,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4704,
-    "totalPulls": "-",
+    "worldRank": 4714,
     "source": "raiderio"
   },
   {
@@ -168,8 +156,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4755,
-    "totalPulls": "-",
+    "worldRank": 4764,
     "source": "raiderio"
   },
   {
@@ -181,8 +168,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4962,
-    "totalPulls": "-",
+    "worldRank": 4968,
     "source": "raiderio"
   },
   {
@@ -193,9 +179,8 @@
     "realm": "silvermoon",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "-",
-    "worldRank": 5530,
-    "totalPulls": "-",
+    "bossProg": "61.97% Vaelgor & Ezzorak",
+    "worldRank": 5531,
     "source": "raiderio"
   },
   {
@@ -206,9 +191,8 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "4/9M",
-    "bossProg": "-",
-    "worldRank": 6216,
-    "totalPulls": "-",
+    "bossProg": "7.16% Fallen-King Salhadaar",
+    "worldRank": 6220,
     "source": "raiderio"
   },
   {
@@ -220,8 +204,7 @@
     "parentGuild": "",
     "progress": "2/9M",
     "bossProg": "-",
-    "worldRank": 7663,
-    "totalPulls": "-",
+    "worldRank": 7667,
     "source": "raiderio"
   },
   {
@@ -232,9 +215,8 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "1/9M",
-    "bossProg": "-",
-    "worldRank": 8294,
-    "totalPulls": "-",
+    "bossProg": "46.98% Vorasius",
+    "worldRank": 8299,
     "source": "raiderio"
   },
   {
@@ -247,7 +229,6 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 4433,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -259,8 +240,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8700,
-    "totalPulls": "-",
+    "worldRank": 8704,
     "source": "raiderio"
   },
   {
@@ -272,8 +252,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8763,
-    "totalPulls": "-",
+    "worldRank": 8768,
     "source": "raiderio"
   },
   {
@@ -285,8 +264,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8993,
-    "totalPulls": "-",
+    "worldRank": 8996,
     "source": "raiderio"
   },
   {
@@ -299,7 +277,6 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 9203,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -311,8 +288,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12399,
-    "totalPulls": "-",
+    "worldRank": 12410,
     "source": "raiderio"
   },
   {
@@ -325,7 +301,6 @@
     "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
-    "totalPulls": "-",
     "source": "raiderio"
   },
   {
@@ -338,7 +313,6 @@
     "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
-    "totalPulls": "-",
     "source": "raiderio"
   }
 ]
