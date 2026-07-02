@@ -1,0 +1,51 @@
+{
+  "id": "klika",
+  "name": "K L I K A",
+  "logo": "./assets/guilds/klika.png",
+
+  "rank1Wins": 1,
+  "rank2Wins": 0,
+  "rank3Wins": 1,
+
+  "established": "2026",
+  "weeklySchedule": "Τετάρτη-Κυριακή-Δευτέρα",
+  "RaidTimes": "20:30-00:00 Ελλάδας",
+
+  "tierRanks": {
+    "Highmaul": { "WR": "-", "GR": "-" },
+    "BRF": { "WR": "-", "GR": "-" },
+    "HFC": { "WR": "-", "GR": "-" },
+
+    "EN": { "WR": "-", "GR": "-" },
+    "ToV": { "WR": "-", "GR": "-" },
+    "NH": { "WR": "-", "GR": "-" },
+    "ToS": { "WR": "-", "GR": "-" },
+    "Antorus": { "WR": "-", "GR": "-" },
+
+    "Uldir": { "WR": "-", "GR": "-" },
+    "BoD": { "WR": "-", "GR": "-" },
+    "CoS": { "WR": "-", "GR": "-" },
+    "EP": { "WR": "-", "GR": "-" },
+    "Ny'alotha": { "WR": "-", "GR": "-" },
+
+    "CN": { "WR": "-", "GR": "-" },
+    "SoD": { "WR": "-", "GR": "-" },
+    "SotFO": { "WR": "-", "GR": "-" },
+
+    "Vault": { "WR": "-", "GR": "-" },
+    "Aberrus": { "WR": "-", "GR": "-" },
+    "Amirdrassil": { "WR": "-", "GR": "-" },
+
+    "NP": { "WR": "-", "GR": "-" },
+    "LoU": { "WR": "-", "GR": "-" },
+    "MO": { "WR": "-", "GR": "-" },
+
+    "T1 (DR, VS, MoQ)": { "WR": "784", "GR": "3" }
+  },
+
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  }
+}
