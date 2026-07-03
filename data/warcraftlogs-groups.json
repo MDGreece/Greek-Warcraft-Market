@@ -14,7 +14,7 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-02T18:18:21.764Z",
+    "updatedAt": "2026-07-03T09:04:58.868Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 4
   },
@@ -33,7 +33,7 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-02T18:19:01.918Z",
+    "updatedAt": "2026-07-03T09:05:30.914Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 3
   },
@@ -53,7 +53,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:19:33.723Z",
+    "updatedAt": "2026-07-03T09:05:54.261Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -73,7 +73,7 @@
     "bestBoss": "Fractillus",
     "latestReport": "AkCazRfV4FgYJWxr",
     "latestReportTitle": "Manaforge Omega",
-    "updatedAt": "2026-07-02T18:20:02.376Z",
+    "updatedAt": "2026-07-03T09:06:13.655Z",
     "raidZone": "Manaforge Omega",
     "currentRaidReports": 11
   },
@@ -93,7 +93,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:20:27.692Z",
+    "updatedAt": "2026-07-03T09:06:33.479Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -109,11 +109,11 @@
     "raidDifficultySuffix": "M",
     "raidKills": 8,
     "totalReports": 50,
-    "bossProg": "36.58%",
+    "bossProg": "28.46%",
     "bestBoss": "Midnight Falls",
-    "latestReport": "Xp4gYaWtVmG8TZJM",
-    "latestReportTitle": "lura 7",
-    "updatedAt": "2026-07-02T18:20:54.399Z",
+    "latestReport": "NDnWjCTgFhmHpwX1",
+    "latestReportTitle": "lura 8",
+    "updatedAt": "2026-07-03T09:06:53.166Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -133,7 +133,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "HxLzyRD9cKgG618X",
     "latestReportTitle": "1/7/26",
-    "updatedAt": "2026-07-02T18:21:13.368Z",
+    "updatedAt": "2026-07-03T09:07:05.928Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 0
   },
@@ -153,7 +153,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "c3ZqNt1xDVTgQw7v",
     "latestReportTitle": "Lura v5",
-    "updatedAt": "2026-07-02T18:21:44.607Z",
+    "updatedAt": "2026-07-03T09:07:28.845Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 16
   },
@@ -173,7 +173,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:22:34.182Z",
+    "updatedAt": "2026-07-03T09:08:09.209Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -193,7 +193,7 @@
     "bestBoss": "Rotmire",
     "latestReport": "1BfMbmYWDXnjqKak",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-02T18:23:00.953Z",
+    "updatedAt": "2026-07-03T09:08:31.460Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -213,7 +213,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:23:01.126Z",
+    "updatedAt": "2026-07-03T09:08:31.564Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -233,7 +233,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:23:30.280Z",
+    "updatedAt": "2026-07-03T09:08:56.452Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -253,7 +253,7 @@
     "bestBoss": "Forgeweaver Araz",
     "latestReport": "HZ1BXdpRGxvmgLnN",
     "latestReportTitle": "4/12 reclear + araz progress",
-    "updatedAt": "2026-07-02T18:23:45.123Z",
+    "updatedAt": "2026-07-03T09:09:06.143Z",
     "raidZone": "Manaforge Omega",
     "currentRaidReports": 11
   },
@@ -273,7 +273,7 @@
     "bestBoss": "Rotmire",
     "latestReport": "P4gTtf7yNdKDxaG8",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-07-02T18:24:27.908Z",
+    "updatedAt": "2026-07-03T09:09:39.124Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 0
   },
@@ -291,9 +291,9 @@
     "totalReports": 50,
     "bossProg": "1.06%",
     "bestBoss": "Rotmire",
-    "latestReport": "1KmT9bJM4AzdaPj8",
-    "latestReportTitle": "Raid",
-    "updatedAt": "2026-07-02T18:24:54.581Z",
+    "latestReport": "Tfc1wCVxXj6KBFrz",
+    "latestReportTitle": "Raid!",
+    "updatedAt": "2026-07-03T09:09:56.542Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 15
   },
@@ -313,7 +313,7 @@
     "bestBoss": "Rotmire",
     "latestReport": "WPDZVMzLmBCYNtTv",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-02T18:25:20.667Z",
+    "updatedAt": "2026-07-03T09:10:17.404Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -333,7 +333,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:26:05.468Z",
+    "updatedAt": "2026-07-03T09:10:54.559Z",
     "raidZone": "",
     "currentRaidReports": 8
   },
@@ -353,7 +353,7 @@
     "bestBoss": "Chimaerus, the Undreamt God",
     "latestReport": "v9m1yQ8hWXAgZC6z",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-02T18:26:28.601Z",
+    "updatedAt": "2026-07-03T09:11:17.505Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 20
   },
@@ -373,7 +373,7 @@
     "bestBoss": "Rotmire",
     "latestReport": "rKDFMqJCtb3yXjAT",
     "latestReportTitle": "Mythic+ Season 1",
-    "updatedAt": "2026-07-02T18:26:39.303Z",
+    "updatedAt": "2026-07-03T09:11:25.593Z",
     "raidZone": "Mythic+ Season 1",
     "currentRaidReports": 0
   },
@@ -393,7 +393,7 @@
     "bestBoss": "Loom'ithar",
     "latestReport": "T4kpG3th1bvV9FjW",
     "latestReportTitle": "Manaforge Omega",
-    "updatedAt": "2026-07-02T18:27:04.046Z",
+    "updatedAt": "2026-07-03T09:11:44.602Z",
     "raidZone": "Manaforge Omega",
     "currentRaidReports": 17
   },
@@ -413,7 +413,7 @@
     "bestBoss": "Rotmire",
     "latestReport": "WV94vMR27ZygLGF8",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-07-02T18:27:26.820Z",
+    "updatedAt": "2026-07-03T09:12:01.616Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 19
   },
@@ -433,7 +433,7 @@
     "bestBoss": "Plexus Sentinel",
     "latestReport": "R2vqQkwhPmDAfFH8",
     "latestReportTitle": "Manaforge Dimensius ",
-    "updatedAt": "2026-07-02T18:27:53.763Z",
+    "updatedAt": "2026-07-03T09:12:18.168Z",
     "raidZone": "Manaforge Omega",
     "currentRaidReports": 21
   },
@@ -453,7 +453,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:28:12.437Z",
+    "updatedAt": "2026-07-03T09:12:31.943Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -473,7 +473,7 @@
     "bestBoss": "Chrome King Gallywix",
     "latestReport": "gnFACYqtmBjML94v",
     "latestReportTitle": "Liberation of Undermine",
-    "updatedAt": "2026-07-02T18:28:19.294Z",
+    "updatedAt": "2026-07-03T09:12:36.313Z",
     "raidZone": "Liberation of Undermine",
     "currentRaidReports": 2
   },
@@ -493,7 +493,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-02T18:28:19.468Z",
+    "updatedAt": "2026-07-03T09:12:36.412Z",
     "raidZone": "",
     "currentRaidReports": 0
   }
