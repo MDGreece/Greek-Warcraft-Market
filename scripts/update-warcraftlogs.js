@@ -293,6 +293,17 @@ async function updateGroup(token, group) {
 
   let progress = difficulty.progress;
   let raidKills = difficulty.kills;
+  const bossIndex = CURRENT_RAID_BOSSES.indexOf(progression.bestBoss);
+
+if (
+  difficulty.suffix === "M" &&
+  bossIndex > 0 &&
+  progression.bestBoss &&
+  progression.bossProg !== "-"
+) {
+  raidKills = bossIndex;
+  progress = `${raidKills}/${TOTAL_BOSSES}M`;
+}
 
   if (
     difficulty.suffix === "M" &&
