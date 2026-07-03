@@ -105,23 +105,27 @@ function loadExistingGroups() {
 
 function groupAlreadyExists(groups, guild, wclGuild) {
   const newId = slugifyId(guild.name);
+  const guildName = guild.name?.toLowerCase();
+  const guildRealm = guild.realm?.toLowerCase();
 
-  return groups.some(group =>
-    group.id === newId ||
-    group.warcraftLogsGuildId === wclGuild.id ||
-    (
-      group.name?.toLowerCase() === guild.name.toLowerCase() &&
-      group.realm?.toLowerCase() === guild.realm.toLowerCase()
-    )
-  );
+  return groups.some(group => {
+    const sameId = group.id === newId;
+    const sameWclId = group.warcraftLogsGuildId === wclGuild.id;
+    const sameName = group.name?.toLowerCase() === guildName;
+    const sameRealm =
+      !group.realm ||
+      !guildRealm ||
+      group.realm.toLowerCase() === guildRealm;
+
+    return sameId || sameWclId || (sameName && sameRealm);
+  });
 }
 
 async function run() {
-  console.log("Finding Warcraft Logs guild IDs without removing manual groups");
+  console.log("Finding Warcraft Logs guild IDs without removing existing entries");
 
   const token = await getToken();
   const raiderGuilds = JSON.parse(fs.readFileSync(raiderPath, "utf8"));
-
   const groups = loadExistingGroups();
 
   for (const guild of raiderGuilds) {
@@ -150,6 +154,8 @@ async function run() {
 
     console.log(`FOUND: ${guild.name} => ${wclGuild.id}`);
   }
+
+  groups.sort((a, b) => a.name.localeCompare(b.name));
 
   fs.writeFileSync(outputPath, JSON.stringify(groups, null, 2));
   console.log(`Updated ${outputPath} with ${groups.length} total entries`);
