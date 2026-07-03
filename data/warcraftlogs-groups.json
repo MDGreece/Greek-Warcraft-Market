@@ -1,5 +1,12 @@
 [
-  {
+ {
+  "id": "amargosa-crew",
+  "name": "Amargosa Crew",
+  "parentGuild": "Amargosa Crew",
+  "realm": "tarren-mill",
+  "warcraftLogsGuildId": 806903,
+  "manual": true
+} {
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
     "parentGuild": "A N A L O S O I M O I",
