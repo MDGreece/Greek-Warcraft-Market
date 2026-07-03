@@ -9,6 +9,18 @@ const outputPath = "data/warcraftlogs-groups.json";
 const TOTAL_BOSSES = 9;
 const REPORT_LIMIT = 50;
 
+const CURRENT_RAID_BOSSES = [
+  "Imperator Averzian",
+  "Vorasius",
+  "Vaelgor & Ezzorak",
+  "Fallen-King Salhadaar",
+  "Lightblinded Vanguard",
+  "Crown of the Cosmos",
+  "Chimaerus the Undreamt God",
+  "Belo'ren, Child of Al'ar",
+  "Midnight Falls"
+];
+
 const DIFFICULTIES = [
   { id: 5, suffix: "M", name: "Mythic" },
   { id: 4, suffix: "H", name: "Heroic" },
@@ -122,24 +134,30 @@ async function getFightsFromReport(token, report) {
   }));
 }
 
+function isCurrentRaidBoss(name) {
+  return CURRENT_RAID_BOSSES.includes(name);
+}
+
 function countUniqueKills(fights) {
   return new Set(
     fights
-      .filter(fight => fight.kill && fight.name)
+      .filter(fight => fight.kill && fight.name && isCurrentRaidBoss(fight.name))
       .map(fight => fight.name)
   ).size;
 }
 
-function getDifficultySummary(fights) {
+function getDifficultySummary(allFights) {
+  const currentRaidFights = allFights.filter(fight => isCurrentRaidBoss(fight.name));
+
   const summaries = DIFFICULTIES.map(diff => {
-    const diffFights = fights.filter(fight => fight.difficulty === diff.id);
-    const kills = countUniqueKills(diffFights);
+    const fights = currentRaidFights.filter(fight => fight.difficulty === diff.id);
+    const kills = countUniqueKills(fights);
 
     return {
       ...diff,
-      fights: diffFights,
+      fights,
       kills,
-      hasFights: diffFights.length > 0
+      hasFights: fights.length > 0
     };
   });
 
@@ -180,13 +198,15 @@ function getDifficultySummary(fights) {
 }
 
 function getCurrentProgressionBoss(fights) {
+  const currentRaidFights = fights.filter(fight => isCurrentRaidBoss(fight.name));
+
   const killedBosses = new Set(
-    fights
+    currentRaidFights
       .filter(fight => fight.kill && fight.name)
       .map(fight => fight.name)
   );
 
-  const wipes = fights.filter(fight =>
+  const wipes = currentRaidFights.filter(fight =>
     !fight.kill &&
     fight.name &&
     typeof fight.bossPercentage === "number" &&
@@ -246,30 +266,6 @@ function getCurrentProgressionBoss(fights) {
   };
 }
 
-function getRelevantRaidFights(allFights) {
-  const firstPassDifficulty = getDifficultySummary(allFights);
-  const firstPassProgression = getCurrentProgressionBoss(firstPassDifficulty.fights);
-
-  if (!firstPassProgression.zoneName) {
-    return {
-      difficulty: firstPassDifficulty,
-      progression: firstPassProgression
-    };
-  }
-
-  const sameZoneFights = allFights.filter(fight =>
-    fight.zoneName === firstPassProgression.zoneName
-  );
-
-  const difficulty = getDifficultySummary(sameZoneFights);
-  const progression = getCurrentProgressionBoss(difficulty.fights);
-
-  return {
-    difficulty,
-    progression
-  };
-}
-
 async function updateGroup(token, group) {
   console.log(`Fetching Warcraft Logs for ${group.name}...`);
 
@@ -292,7 +288,8 @@ async function updateGroup(token, group) {
     allFights = allFights.concat(fights);
   }
 
-  const { difficulty, progression } = getRelevantRaidFights(allFights);
+  const difficulty = getDifficultySummary(allFights);
+  const progression = getCurrentProgressionBoss(difficulty.fights);
 
   let progress = difficulty.progress;
   let raidKills = difficulty.kills;
@@ -331,7 +328,7 @@ async function updateGroup(token, group) {
 }
 
 async function run() {
-  console.log("Running Warcraft Logs updater - stable rollback version");
+  console.log("Running Warcraft Logs updater for Midnight VS / DR / MQD");
 
   const token = await getToken();
   const groups = JSON.parse(fs.readFileSync(inputPath, "utf8"));
