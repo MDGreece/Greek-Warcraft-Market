@@ -9,10 +9,7 @@ const DEFAULT_WORLD_RANK = 999999;
 const TOTAL_BOSSES = 9;
 
 function readJson(path) {
-  if (!fs.existsSync(path)) {
-    throw new Error(`Missing file: ${path}`);
-  }
-
+  if (!fs.existsSync(path)) throw new Error(`Missing file: ${path}`);
   return JSON.parse(fs.readFileSync(path, "utf8"));
 }
 
@@ -32,22 +29,14 @@ function getRaiderProgress(guild) {
   const raid = getRaiderRaid(guild);
   if (!raid) return "-";
 
-  const totalBosses = raid.total_bosses || TOTAL_BOSSES;
-  const mythicKills = raid.mythic_bosses_killed || 0;
-  const heroicKills = raid.heroic_bosses_killed || 0;
-  const normalKills = raid.normal_bosses_killed || 0;
+  const total = raid.total_bosses || TOTAL_BOSSES;
+  const mythic = raid.mythic_bosses_killed || 0;
+  const heroic = raid.heroic_bosses_killed || 0;
+  const normal = raid.normal_bosses_killed || 0;
 
-  if (mythicKills > 0) {
-    return mythicKills >= totalBosses ? "CE" : `${mythicKills}/${totalBosses}M`;
-  }
-
-  if (heroicKills > 0) {
-    return `${heroicKills}/${totalBosses}H`;
-  }
-
-  if (normalKills > 0) {
-    return `${normalKills}/${totalBosses}N`;
-  }
+  if (mythic > 0) return mythic >= total ? "CE" : `${mythic}/${total}M`;
+  if (heroic > 0) return `${heroic}/${total}H`;
+  if (normal > 0) return `${normal}/${total}N`;
 
   return "-";
 }
@@ -63,64 +52,12 @@ function getRaiderWorldRank(guild) {
   );
 }
 
-function normalizeLogProgress(group) {
-  const progress = group.progress || "-";
-
-  if (progress !== "CE") {
-    return progress;
-  }
-
-  if (group.bestBoss && group.bossProg && group.bossProg !== "-") {
-    return `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`;
-  }
-
-  return "CE";
-}
-
-function parseProgress(progress) {
-  if (!progress || progress === "-") {
-    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
-  }
-
-  if (progress === "CE") {
-    return { difficulty: "M", kills: TOTAL_BOSSES, total: TOTAL_BOSSES, ce: true };
-  }
-
-  const match = progress.match(/^(\d+)\/(\d+)([MNH])$/);
-
-  if (!match) {
-    return { difficulty: "", kills: 0, total: TOTAL_BOSSES, ce: false };
-  }
-
-  return {
-    kills: Number(match[1]),
-    total: Number(match[2]),
-    difficulty: match[3],
-    ce: false
-  };
-}
-
-function logMatchesCurrentRaiderProgress(raiderProgress, logProgress) {
-  const raider = parseProgress(raiderProgress);
-  const logs = parseProgress(logProgress);
-
-  if (!raider.difficulty || !logs.difficulty) {
-    return false;
-  }
-
-  return (
-    raider.difficulty === logs.difficulty &&
-    raider.kills === logs.kills &&
-    raider.total === logs.total
-  );
-}
-
 function formatBossProgress(group) {
-  if (group.bestBoss && group.bossProg && group.bossProg !== "-") {
+  if (group?.bestBoss && group?.bossProg && group.bossProg !== "-") {
     return `${group.bossProg} ${group.bestBoss}`;
   }
 
-  return group.bossProg || "-";
+  return "-";
 }
 
 function findLogGroupForGuild(guild, logGroups) {
@@ -143,6 +80,21 @@ function findLogGroupForGuild(guild, logGroups) {
   });
 }
 
+function normalizeRaidTeamProgress(group) {
+  const progress = group.progress || "-";
+
+  if (
+    progress === "CE" &&
+    group.bestBoss &&
+    group.bossProg &&
+    group.bossProg !== "-"
+  ) {
+    return `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`;
+  }
+
+  return progress;
+}
+
 function getProgressScore(progress) {
   if (!progress || progress === "-") return 0;
   if (progress === "CE") return 999;
@@ -153,35 +105,21 @@ function getProgressScore(progress) {
   const kills = Number(match[1]);
   const difficulty = match[3];
 
-  const difficultyScore = {
-    M: 300,
-    H: 200,
-    N: 100
-  };
-
-  return difficultyScore[difficulty] + kills;
+  return { M: 300, H: 200, N: 100 }[difficulty] + kills;
 }
 
 function getBossPercentValue(bossProg) {
-  if (!bossProg || bossProg === "-") return 100;
+  if (!bossProg || bossProg === "-") return 999;
 
   const match = String(bossProg).match(/([\d.]+)%/);
-  if (!match) return 100;
-
-  return Number(match[1]);
+  return match ? Number(match[1]) : 999;
 }
 
 function buildRaiderRow(guild, logGroups) {
   const progress = getRaiderProgress(guild);
   const worldRank = getRaiderWorldRank(guild);
   const logGroup = findLogGroupForGuild(guild, logGroups);
-  const logProgress = logGroup ? normalizeLogProgress(logGroup) : "-";
   const isCE = progress === "CE";
-
-  const useLogBossProgress =
-    !isCE &&
-    logGroup &&
-    logMatchesCurrentRaiderProgress(progress, logProgress);
 
   return {
     id: guild.id || slugifyId(guild.name),
@@ -192,16 +130,16 @@ function buildRaiderRow(guild, logGroups) {
     progress,
     bossProg: isCE
       ? worldRank !== DEFAULT_WORLD_RANK ? `WR ${worldRank}` : "-"
-      : useLogBossProgress ? formatBossProgress(logGroup) : "-",
+      : formatBossProgress(logGroup),
     worldRank,
     source: "raiderio"
   };
 }
 
 function buildLogRow(group) {
-  const progress = normalizeLogProgress(group);
-  const isCE = progress === "CE";
+  const progress = normalizeRaidTeamProgress(group);
   const worldRank = group.worldRank || DEFAULT_WORLD_RANK;
+  const isCE = progress === "CE";
 
   return {
     id: group.id,
@@ -232,11 +170,19 @@ function sortLeaderboard(a, b) {
   const progressDiff = getProgressScore(b.progress) - getProgressScore(a.progress);
   if (progressDiff !== 0) return progressDiff;
 
+  const aIsCE = a.progress === "CE";
+  const bIsCE = b.progress === "CE";
+
+  if (aIsCE && bIsCE) {
+    const worldRankDiff = a.worldRank - b.worldRank;
+    if (worldRankDiff !== 0) return worldRankDiff;
+  }
+
+  const bossDiff = getBossPercentValue(a.bossProg) - getBossPercentValue(b.bossProg);
+  if (bossDiff !== 0) return bossDiff;
+
   const worldRankDiff = a.worldRank - b.worldRank;
   if (worldRankDiff !== 0) return worldRankDiff;
-
-  const bossPercentDiff = getBossPercentValue(a.bossProg) - getBossPercentValue(b.bossProg);
-  if (bossPercentDiff !== 0) return bossPercentDiff;
 
   return a.name.localeCompare(b.name);
 }
@@ -259,7 +205,6 @@ function run() {
     }));
 
   fs.writeFileSync(outputPath, JSON.stringify(leaderboard, null, 2));
-
   console.log(`Created ${outputPath} with ${leaderboard.length} entries`);
 }
 
