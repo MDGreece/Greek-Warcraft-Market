@@ -15,7 +15,7 @@
     "bestBoss": "Imperator Averzian",
     "latestReport": "QT98f1Y2PJcXytn7",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-07-06T14:07:41.370Z",
+    "updatedAt": "2026-07-06T22:44:58.881Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 19
   },
@@ -30,13 +30,13 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "totalReports": 36,
-    "bossProg": "57.72%",
+    "totalReports": 37,
+    "bossProg": "56.38%",
     "bestBoss": "Midnight Falls",
-    "latestReport": "21b7fLqTv8ywrRjG",
-    "latestReportTitle": "Mythic-20260702-1",
+    "latestReport": "q68Xd7CZcNGA9kYf",
+    "latestReportTitle": "Mythic-20260706-1",
     "raidZone": "VS / DR / MQD",
-    "updatedAt": "2026-07-06T14:07:59.321Z"
+    "updatedAt": "2026-07-06T22:45:17.071Z"
   },
   {
     "id": "chillers",
@@ -54,7 +54,7 @@
     "bestBoss": "Crown of the Cosmos",
     "latestReport": "VM81HZLWPFQgAt2f",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-06T14:08:19.648Z",
+    "updatedAt": "2026-07-06T22:45:44.906Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -74,7 +74,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:08:23.281Z",
+    "updatedAt": "2026-07-06T22:45:49.211Z",
     "raidZone": "",
     "currentRaidReports": 2
   },
@@ -94,7 +94,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:08:47.744Z",
+    "updatedAt": "2026-07-06T22:46:20.195Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -114,7 +114,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "NDnWjCTgFhmHpwX1",
     "latestReportTitle": "lura 8",
-    "updatedAt": "2026-07-06T14:09:10.690Z",
+    "updatedAt": "2026-07-06T22:46:44.711Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -134,7 +134,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:09:17.258Z",
+    "updatedAt": "2026-07-06T22:47:09.029Z",
     "raidZone": "",
     "currentRaidReports": 11
   },
@@ -147,13 +147,13 @@
     "bossProg": "35.80%",
     "worldRank": 1102,
     "totalReports": 50,
-    "latestReport": "gCTLGcvbdH693zfM",
+    "latestReport": "LRxhTp9ZVYfAJmqB",
     "latestReportTitle": "VS / DR / MQD",
     "bestBoss": "Midnight Falls",
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-06T14:09:43.214Z",
+    "updatedAt": "2026-07-06T22:47:33.666Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 4
   },
@@ -163,16 +163,16 @@
     "parentGuild": "Disobedient",
     "warcraftLogsGuildId": 730932,
     "progress": "8/9M",
-    "bossProg": "62.99%",
+    "bossProg": "62.48%",
     "worldRank": 1753,
     "totalReports": 50,
-    "latestReport": "fdnvC8X1Z3cP7t2F",
-    "latestReportTitle": " Lura S01E04",
+    "latestReport": "GCHqTKnVLRNJBydA",
+    "latestReportTitle": " Lura S01E05",
     "bestBoss": "Midnight Falls",
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-06T14:10:07.133Z",
+    "updatedAt": "2026-07-06T22:47:55.930Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 3
   },
@@ -192,7 +192,7 @@
     "bestBoss": "Fallen-King Salhadaar",
     "latestReport": "G2ZtQfJbYxjrMaky",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-06T14:10:34.307Z",
+    "updatedAt": "2026-07-06T22:48:17.071Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -212,7 +212,7 @@
     "bestBoss": "Vaelgor & Ezzorak",
     "latestReport": "K82fqZXtR4Cnh9d3",
     "latestReportTitle": "Mythic!",
-    "updatedAt": "2026-07-06T14:10:56.277Z",
+    "updatedAt": "2026-07-06T22:48:37.573Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 15
   },
@@ -232,7 +232,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:11:20.955Z",
+    "updatedAt": "2026-07-06T22:48:57.100Z",
     "raidZone": "",
     "currentRaidReports": 21
   },
@@ -252,7 +252,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:11:27.736Z",
+    "updatedAt": "2026-07-06T22:49:05.010Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -272,7 +272,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:11:48.588Z",
+    "updatedAt": "2026-07-06T22:49:26.781Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -292,7 +292,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:12:05.728Z",
+    "updatedAt": "2026-07-06T22:49:44.426Z",
     "raidZone": "",
     "currentRaidReports": 17
   },
@@ -312,7 +312,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:12:25.239Z",
+    "updatedAt": "2026-07-06T22:50:06.045Z",
     "raidZone": "",
     "currentRaidReports": 8
   },
@@ -332,7 +332,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:12:25.355Z",
+    "updatedAt": "2026-07-06T22:50:06.207Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -352,7 +352,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:12:25.468Z",
+    "updatedAt": "2026-07-06T22:50:06.372Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -368,12 +368,12 @@
     "raidDifficultySuffix": "M",
     "raidKills": 8,
     "totalReports": 50,
-    "bossProg": "41.74%",
+    "bossProg": "39.16%",
     "bestBoss": "Midnight Falls",
-    "latestReport": "HxLzyRD9cKgG618X",
-    "latestReportTitle": "1/7/26",
-    "updatedAt": "2026-07-06T14:12:45.810Z",
-    "raidZone": "Sporefall",
+    "latestReport": "dbvFrPRWQZhXYkNM",
+    "latestReportTitle": "6/7/26",
+    "updatedAt": "2026-07-06T22:50:29.264Z",
+    "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
   {
@@ -392,7 +392,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:13:03.299Z",
+    "updatedAt": "2026-07-06T22:50:47.952Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -412,7 +412,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "c3ZqNt1xDVTgQw7v",
     "latestReportTitle": "Lura v5",
-    "updatedAt": "2026-07-06T14:13:22.752Z",
+    "updatedAt": "2026-07-06T22:51:10.063Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 16
   },
@@ -432,7 +432,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:13:41.201Z",
+    "updatedAt": "2026-07-06T22:51:31.422Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -452,7 +452,7 @@
     "bestBoss": "Vorasius",
     "latestReport": "kraAZcBnw6H4YgL8",
     "latestReportTitle": "Mythic Prog",
-    "updatedAt": "2026-07-06T14:13:58.844Z",
+    "updatedAt": "2026-07-06T22:51:50.129Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 20
   },
@@ -472,7 +472,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:14:04.997Z",
+    "updatedAt": "2026-07-06T22:51:57.423Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -492,7 +492,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:14:15.515Z",
+    "updatedAt": "2026-07-06T22:52:09.933Z",
     "raidZone": "",
     "currentRaidReports": 11
   },
@@ -512,7 +512,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-06T14:14:32.273Z",
+    "updatedAt": "2026-07-06T22:52:30.869Z",
     "raidZone": "",
     "currentRaidReports": 0
   }
