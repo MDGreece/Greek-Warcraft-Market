@@ -256,11 +256,11 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
     "progress": {
       "tier-mn-1": {
-        "summary": "8/9 M",
+        "summary": "9/9 M",
         "total_bosses": 9,
         "normal_bosses_killed": 9,
         "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 8
+        "mythic_bosses_killed": 9
       },
       "sporefall": {
         "summary": "1/1 M",
@@ -290,9 +290,9 @@
           "realm": 139
         },
         "mythic": {
-          "world": 1260,
-          "region": 618,
-          "realm": 67
+          "world": 1243,
+          "region": 609,
+          "realm": 66
         }
       },
       "sporefall": {
@@ -373,8 +373,8 @@
           "realm": 75
         },
         "mythic": {
-          "world": 1396,
-          "region": 685,
+          "world": 1404,
+          "region": 693,
           "realm": 53
         }
       },
@@ -456,8 +456,8 @@
           "realm": 77
         },
         "mythic": {
-          "world": 1932,
-          "region": 970,
+          "world": 1937,
+          "region": 975,
           "realm": 99
         }
       },
@@ -539,8 +539,8 @@
           "realm": 146
         },
         "mythic": {
-          "world": 3168,
-          "region": 1472,
+          "world": 3172,
+          "region": 1474,
           "realm": 85
         }
       },
@@ -622,8 +622,8 @@
           "realm": 160
         },
         "mythic": {
-          "world": 3428,
-          "region": 1564,
+          "world": 3432,
+          "region": 1566,
           "realm": 79
         }
       },
@@ -639,8 +639,8 @@
           "realm": 0
         },
         "mythic": {
-          "world": 6952,
-          "region": 2869,
+          "world": 6955,
+          "region": 2870,
           "realm": 154
         }
       },
@@ -700,13 +700,13 @@
           "realm": 199
         },
         "heroic": {
-          "world": 12629,
-          "region": 5698,
+          "world": 12633,
+          "region": 5701,
           "realm": 303
         },
         "mythic": {
-          "world": 4624,
-          "region": 2067,
+          "world": 4627,
+          "region": 2069,
           "realm": 109
         }
       },
@@ -783,13 +783,13 @@
           "realm": 38
         },
         "heroic": {
-          "world": 11903,
-          "region": 5284,
+          "world": 11909,
+          "region": 5288,
           "realm": 174
         },
         "mythic": {
-          "world": 4857,
-          "region": 2198,
+          "world": 4859,
+          "region": 2199,
           "realm": 116
         }
       },
@@ -866,13 +866,13 @@
           "realm": 335
         },
         "heroic": {
-          "world": 13132,
-          "region": 5849,
+          "world": 13136,
+          "region": 5852,
           "realm": 317
         },
         "mythic": {
-          "world": 4904,
-          "region": 2208,
+          "world": 4905,
+          "region": 2209,
           "realm": 117
         }
       },
@@ -949,13 +949,13 @@
           "realm": 64
         },
         "heroic": {
-          "world": 12366,
-          "region": 5542,
+          "world": 12370,
+          "region": 5545,
           "realm": 133
         },
         "mythic": {
-          "world": 5067,
-          "region": 2248,
+          "world": 5068,
+          "region": 2249,
           "realm": 66
         }
       },
@@ -971,8 +971,8 @@
           "realm": 51
         },
         "mythic": {
-          "world": 6699,
-          "region": 2736,
+          "world": 6702,
+          "region": 2737,
           "realm": 75
         }
       },
@@ -1032,13 +1032,13 @@
           "realm": 260
         },
         "heroic": {
-          "world": 12317,
-          "region": 5513,
+          "world": 12320,
+          "region": 5515,
           "realm": 293
         },
         "mythic": {
-          "world": 5643,
-          "region": 2529,
+          "world": 5646,
+          "region": 2532,
           "realm": 141
         }
       },
@@ -1120,8 +1120,8 @@
           "realm": 142
         },
         "mythic": {
-          "world": 6308,
-          "region": 2766,
+          "world": 6312,
+          "region": 2770,
           "realm": 138
         }
       },
@@ -1198,13 +1198,13 @@
           "realm": 44
         },
         "heroic": {
-          "world": 12064,
-          "region": 5371,
+          "world": 12069,
+          "region": 5374,
           "realm": 73
         },
         "mythic": {
-          "world": 7745,
-          "region": 3325,
+          "world": 7749,
+          "region": 3329,
           "realm": 49
         }
       },
@@ -1286,8 +1286,8 @@
           "realm": 147
         },
         "mythic": {
-          "world": 8373,
-          "region": 3558,
+          "world": 8376,
+          "region": 3560,
           "realm": 163
         }
       },
@@ -1386,8 +1386,8 @@
           "realm": 10
         },
         "mythic": {
-          "world": 6800,
-          "region": 2793,
+          "world": 6803,
+          "region": 2794,
           "realm": 6
         }
       },
@@ -1552,8 +1552,8 @@
           "realm": 43
         },
         "mythic": {
-          "world": 6966,
-          "region": 2878,
+          "world": 6969,
+          "region": 2879,
           "realm": 155
         }
       },
@@ -1779,8 +1779,8 @@
           "realm": 203
         },
         "heroic": {
-          "world": 12654,
-          "region": 5710,
+          "world": 12658,
+          "region": 5713,
           "realm": 185
         },
         "mythic": {
