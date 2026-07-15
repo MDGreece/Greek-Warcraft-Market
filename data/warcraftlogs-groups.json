@@ -15,7 +15,7 @@
     "bestBoss": "Imperator Averzian",
     "latestReport": "QT98f1Y2PJcXytn7",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-07-14T21:33:13.961Z",
+    "updatedAt": "2026-07-15T07:30:44.566Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 19
   },
@@ -36,7 +36,7 @@
     "latestReport": "QHJ1qkRAYnmzBraj",
     "latestReportTitle": "Mythic-20260713-01",
     "raidZone": "VS / DR / MQD",
-    "updatedAt": "2026-07-14T21:33:32.237Z"
+    "updatedAt": "2026-07-15T07:31:03.008Z"
   },
   {
     "id": "chillers",
@@ -54,7 +54,7 @@
     "bestBoss": "Crown of the Cosmos",
     "latestReport": "PGAxNtvjK7chnmbL",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-14T21:33:54.060Z",
+    "updatedAt": "2026-07-15T07:31:23.236Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -74,7 +74,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:33:58.242Z",
+    "updatedAt": "2026-07-15T07:31:27.623Z",
     "raidZone": "",
     "currentRaidReports": 2
   },
@@ -94,7 +94,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:34:24.046Z",
+    "updatedAt": "2026-07-15T07:31:52.419Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -114,7 +114,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:34:44.902Z",
+    "updatedAt": "2026-07-15T07:32:14.850Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -134,7 +134,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:35:09.243Z",
+    "updatedAt": "2026-07-15T07:32:36.285Z",
     "raidZone": "",
     "currentRaidReports": 11
   },
@@ -153,7 +153,7 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-14T21:35:30.723Z",
+    "updatedAt": "2026-07-15T07:32:56.045Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 4
   },
@@ -172,7 +172,7 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-07-14T21:35:52.210Z",
+    "updatedAt": "2026-07-15T07:33:16.775Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 3
   },
@@ -192,7 +192,7 @@
     "bestBoss": "Fallen-King Salhadaar",
     "latestReport": "G2ZtQfJbYxjrMaky",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-07-14T21:36:14.946Z",
+    "updatedAt": "2026-07-15T07:33:37.826Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 0
   },
@@ -212,7 +212,7 @@
     "bestBoss": "Vaelgor & Ezzorak",
     "latestReport": "K82fqZXtR4Cnh9d3",
     "latestReportTitle": "Mythic!",
-    "updatedAt": "2026-07-14T21:36:37.069Z",
+    "updatedAt": "2026-07-15T07:33:57.884Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 15
   },
@@ -232,7 +232,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:36:58.186Z",
+    "updatedAt": "2026-07-15T07:34:17.111Z",
     "raidZone": "",
     "currentRaidReports": 21
   },
@@ -252,7 +252,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:37:06.303Z",
+    "updatedAt": "2026-07-15T07:34:25.180Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -272,7 +272,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:37:28.738Z",
+    "updatedAt": "2026-07-15T07:34:45.477Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -292,7 +292,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:37:50.238Z",
+    "updatedAt": "2026-07-15T07:35:03.517Z",
     "raidZone": "",
     "currentRaidReports": 17
   },
@@ -312,7 +312,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:38:14.032Z",
+    "updatedAt": "2026-07-15T07:35:24.985Z",
     "raidZone": "",
     "currentRaidReports": 8
   },
@@ -332,7 +332,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:38:14.222Z",
+    "updatedAt": "2026-07-15T07:35:25.141Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -352,7 +352,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:38:14.403Z",
+    "updatedAt": "2026-07-15T07:35:25.291Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -372,7 +372,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "F1fCHv8wyLKRJaXq",
     "latestReportTitle": "13/7/26",
-    "updatedAt": "2026-07-14T21:38:38.372Z",
+    "updatedAt": "2026-07-15T07:35:46.783Z",
     "raidZone": "Amirdrassil, the Dream's Hope",
     "currentRaidReports": 0
   },
@@ -392,7 +392,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:38:58.543Z",
+    "updatedAt": "2026-07-15T07:36:04.687Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -412,7 +412,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "TXHNCG9dayYt84pm",
     "latestReportTitle": "Lura v8",
-    "updatedAt": "2026-07-14T21:39:23.028Z",
+    "updatedAt": "2026-07-15T07:36:25.397Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 16
   },
@@ -432,7 +432,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:39:45.889Z",
+    "updatedAt": "2026-07-15T07:36:46.265Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -452,7 +452,7 @@
     "bestBoss": "Vorasius",
     "latestReport": "kraAZcBnw6H4YgL8",
     "latestReportTitle": "Mythic Prog",
-    "updatedAt": "2026-07-14T21:40:08.265Z",
+    "updatedAt": "2026-07-15T07:37:06.293Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 20
   },
@@ -472,7 +472,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:40:15.700Z",
+    "updatedAt": "2026-07-15T07:37:13.563Z",
     "raidZone": "",
     "currentRaidReports": 0
   },
@@ -492,7 +492,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:40:28.003Z",
+    "updatedAt": "2026-07-15T07:37:25.367Z",
     "raidZone": "",
     "currentRaidReports": 11
   },
@@ -512,7 +512,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-07-14T21:40:46.698Z",
+    "updatedAt": "2026-07-15T07:37:45.605Z",
     "raidZone": "",
     "currentRaidReports": 0
   }
