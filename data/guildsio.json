@@ -197,8 +197,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15352,
-          "region": 6767,
+          "world": 15354,
+          "region": 6769,
           "realm": 176
         },
         "heroic": {
@@ -363,8 +363,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15402,
-          "region": 6817,
+          "world": 15404,
+          "region": 6819,
           "realm": 181
         },
         "heroic": {
@@ -373,9 +373,9 @@
           "realm": 75
         },
         "mythic": {
-          "world": 1426,
-          "region": 693,
-          "realm": 53
+          "world": 1346,
+          "region": 668,
+          "realm": 51
         }
       },
       "sporefall": {
@@ -446,8 +446,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16387,
-          "region": 7031,
+          "world": 16389,
+          "region": 7033,
           "realm": 330
         },
         "heroic": {
@@ -456,8 +456,8 @@
           "realm": 77
         },
         "mythic": {
-          "world": 1956,
-          "region": 975,
+          "world": 1928,
+          "region": 962,
           "realm": 99
         }
       },
@@ -539,9 +539,9 @@
           "realm": 146
         },
         "mythic": {
-          "world": 3179,
-          "region": 1474,
-          "realm": 85
+          "world": 3184,
+          "region": 1478,
+          "realm": 86
         }
       },
       "sporefall": {
@@ -588,18 +588,18 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "progress": {
       "tier-mn-1": {
-        "summary": "6/9 M",
+        "summary": "7/9 M",
         "total_bosses": 9,
         "normal_bosses_killed": 7,
         "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 6
+        "mythic_bosses_killed": 7
       },
       "sporefall": {
-        "summary": "0/1 N",
+        "summary": "1/1 M",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
         "heroic_bosses_killed": 0,
-        "mythic_bosses_killed": 0
+        "mythic_bosses_killed": 1
       },
       "the-venomous-abyss": {
         "summary": "0/8 N",
@@ -612,9 +612,9 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16934,
-          "region": 7220,
-          "realm": 352
+          "world": 16936,
+          "region": 7222,
+          "realm": 353
         },
         "heroic": {
           "world": 6146,
@@ -622,9 +622,9 @@
           "realm": 160
         },
         "mythic": {
-          "world": 3449,
-          "region": 1566,
-          "realm": 79
+          "world": 3393,
+          "region": 1535,
+          "realm": 76
         }
       },
       "sporefall": {
@@ -639,9 +639,9 @@
           "realm": 0
         },
         "mythic": {
-          "world": 6968,
-          "region": 2870,
-          "realm": 154
+          "world": 6417,
+          "region": 2593,
+          "realm": 141
         }
       },
       "the-venomous-abyss": {
@@ -700,13 +700,13 @@
           "realm": 199
         },
         "heroic": {
-          "world": 12641,
-          "region": 5702,
+          "world": 12651,
+          "region": 5712,
           "realm": 303
         },
         "mythic": {
-          "world": 4637,
-          "region": 2069,
+          "world": 4640,
+          "region": 2072,
           "realm": 109
         }
       },
@@ -783,13 +783,13 @@
           "realm": 38
         },
         "heroic": {
-          "world": 11922,
-          "region": 5290,
+          "world": 11931,
+          "region": 5299,
           "realm": 174
         },
         "mythic": {
-          "world": 4865,
-          "region": 2199,
+          "world": 4870,
+          "region": 2204,
           "realm": 116
         }
       },
@@ -861,18 +861,18 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15432,
-          "region": 6847,
-          "realm": 335
+          "world": 15434,
+          "region": 6849,
+          "realm": 336
         },
         "heroic": {
-          "world": 13144,
-          "region": 5853,
+          "world": 13152,
+          "region": 5861,
           "realm": 317
         },
         "mythic": {
-          "world": 4911,
-          "region": 2209,
+          "world": 4916,
+          "region": 2214,
           "realm": 117
         }
       },
@@ -949,13 +949,13 @@
           "realm": 64
         },
         "heroic": {
-          "world": 12379,
-          "region": 5547,
+          "world": 12388,
+          "region": 5556,
           "realm": 133
         },
         "mythic": {
-          "world": 5074,
-          "region": 2249,
+          "world": 5078,
+          "region": 2253,
           "realm": 66
         }
       },
@@ -971,8 +971,8 @@
           "realm": 51
         },
         "mythic": {
-          "world": 6714,
-          "region": 2737,
+          "world": 6718,
+          "region": 2740,
           "realm": 75
         }
       },
@@ -1032,14 +1032,14 @@
           "realm": 260
         },
         "heroic": {
-          "world": 12329,
-          "region": 5517,
+          "world": 12338,
+          "region": 5526,
           "realm": 293
         },
         "mythic": {
-          "world": 5650,
-          "region": 2532,
-          "realm": 141
+          "world": 5656,
+          "region": 2538,
+          "realm": 142
         }
       },
       "sporefall": {
@@ -1120,8 +1120,8 @@
           "realm": 142
         },
         "mythic": {
-          "world": 6316,
-          "region": 2770,
+          "world": 6321,
+          "region": 2775,
           "realm": 138
         }
       },
@@ -1198,14 +1198,14 @@
           "realm": 44
         },
         "heroic": {
-          "world": 12079,
-          "region": 5376,
+          "world": 12088,
+          "region": 5385,
           "realm": 73
         },
         "mythic": {
-          "world": 7754,
-          "region": 3330,
-          "realm": 49
+          "world": 7759,
+          "region": 3335,
+          "realm": 50
         }
       },
       "sporefall": {
@@ -1286,8 +1286,8 @@
           "realm": 147
         },
         "mythic": {
-          "world": 8385,
-          "region": 3561,
+          "world": 8387,
+          "region": 3563,
           "realm": 163
         }
       },
@@ -1369,8 +1369,8 @@
           "realm": 19
         },
         "mythic": {
-          "world": 8866,
-          "region": 3737,
+          "world": 8868,
+          "region": 3739,
           "realm": 8
         }
       },
@@ -1386,8 +1386,8 @@
           "realm": 10
         },
         "mythic": {
-          "world": 6816,
-          "region": 2794,
+          "world": 6819,
+          "region": 2797,
           "realm": 6
         }
       },
@@ -1535,8 +1535,8 @@
           "realm": 234
         },
         "mythic": {
-          "world": 8801,
-          "region": 3709,
+          "world": 8803,
+          "region": 3711,
           "realm": 211
         }
       },
@@ -1552,8 +1552,8 @@
           "realm": 43
         },
         "mythic": {
-          "world": 6982,
-          "region": 2879,
+          "world": 6985,
+          "region": 2882,
           "realm": 155
         }
       },
@@ -1618,8 +1618,8 @@
           "realm": 256
         },
         "mythic": {
-          "world": 9101,
-          "region": 3831,
+          "world": 9103,
+          "region": 3833,
           "realm": 225
         }
       },
@@ -1701,8 +1701,8 @@
           "realm": 232
         },
         "mythic": {
-          "world": 8794,
-          "region": 3704,
+          "world": 8796,
+          "region": 3706,
           "realm": 218
         }
       },
@@ -1774,13 +1774,13 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16856,
-          "region": 7143,
+          "world": 16858,
+          "region": 7145,
           "realm": 203
         },
         "heroic": {
-          "world": 12665,
-          "region": 5714,
+          "world": 12675,
+          "region": 5724,
           "realm": 185
         },
         "mythic": {
