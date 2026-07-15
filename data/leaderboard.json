@@ -56,7 +56,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "1.35% Midnight Falls",
-    "worldRank": 1425,
+    "worldRank": 1426,
     "source": "raiderio"
   },
   {
@@ -96,7 +96,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "56.03% Midnight Falls",
-    "worldRank": 1953,
+    "worldRank": 1956,
     "source": "raiderio"
   },
   {
@@ -134,11 +134,23 @@
     "parentGuild": "",
     "progress": "6/9M",
     "bossProg": "0.01% Crown of the Cosmos",
-    "worldRank": 3448,
+    "worldRank": 3449,
     "source": "raiderio"
   },
   {
     "rank": 12,
+    "id": "nyxborn",
+    "name": "Nyxborn",
+    "type": "guild",
+    "realm": "silvermoon",
+    "parentGuild": "",
+    "progress": "5/9M",
+    "bossProg": "-",
+    "worldRank": 4637,
+    "source": "raiderio"
+  },
+  {
+    "rank": 13,
     "id": "provatina",
     "name": "Provatina",
     "type": "guild",
@@ -146,11 +158,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4863,
+    "worldRank": 4865,
     "source": "raiderio"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "id": "u-t-o-p-i-a",
     "name": "U T O P I A",
     "type": "guild",
@@ -158,11 +170,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4909,
+    "worldRank": 4911,
     "source": "raiderio"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "t-h-e-o-r-y",
     "name": "T H E O R Y",
     "type": "guild",
@@ -170,11 +182,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5072,
+    "worldRank": 5074,
     "source": "raiderio"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "id": "dungeon-meta",
     "name": "Dungeon Meta",
     "type": "guild",
@@ -186,7 +198,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -198,7 +210,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "id": "myrmidones",
     "name": "Myrmidones",
     "type": "guild",
@@ -206,11 +218,11 @@
     "parentGuild": "",
     "progress": "2/9M",
     "bossProg": "-",
-    "worldRank": 7751,
+    "worldRank": 7754,
     "source": "raiderio"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "id": "the-haunted",
     "name": "The Haunted",
     "type": "guild",
@@ -218,11 +230,11 @@
     "parentGuild": "",
     "progress": "1/9M",
     "bossProg": "46.98% Vorasius",
-    "worldRank": 8383,
+    "worldRank": 8385,
     "source": "raiderio"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
     "type": "guild",
@@ -230,11 +242,11 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 8797,
+    "worldRank": 8801,
     "source": "raiderio"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "id": "leontokardoi",
     "name": "leontokardoi",
     "type": "guild",
@@ -246,7 +258,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "id": "epsilon",
     "name": "Epsilon",
     "type": "guild",
@@ -254,11 +266,11 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8790,
+    "worldRank": 8794,
     "source": "raiderio"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "id": "the-syndicate",
     "name": "The Syndicate",
     "type": "guild",
@@ -266,11 +278,11 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8863,
+    "worldRank": 8866,
     "source": "raiderio"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "id": "chthonic",
     "name": "Chthonic",
     "type": "guild",
@@ -278,11 +290,11 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 9099,
+    "worldRank": 9101,
     "source": "raiderio"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "id": "irriducibili",
     "name": "Irriducibili",
     "type": "guild",
@@ -290,11 +302,11 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12664,
+    "worldRank": 12665,
     "source": "raiderio"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "id": "crimson-thunder",
     "name": "Crimson Thunder",
     "type": "guild",
@@ -306,7 +318,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "id": "not-forgotten",
     "name": "Not Forgotten",
     "type": "guild",
@@ -316,19 +328,5 @@
     "bossProg": "-",
     "worldRank": 999999,
     "source": "raiderio"
-  },
-  {
-    "rank": 27,
-    "id": "nyxborn",
-    "name": "Nyxborn",
-    "type": "raid-team",
-    "realm": "silvermoon",
-    "parentGuild": "Nyxborn",
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
   }
 ]
