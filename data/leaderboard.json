@@ -56,7 +56,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "0.01% Midnight Falls",
-    "worldRank": 1451,
+    "worldRank": 1465,
     "source": "raiderio"
   },
   {
@@ -110,11 +110,23 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "54.73% Midnight Falls",
-    "worldRank": 1999,
+    "worldRank": 2002,
     "source": "raiderio"
   },
   {
     "rank": 10,
+    "id": "unique-legacy",
+    "name": "UNIQUE LEGACY",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "progress": "7/9M",
+    "bossProg": "-",
+    "worldRank": 3230,
+    "source": "raiderio"
+  },
+  {
+    "rank": 11,
     "id": "chillers",
     "name": "Chillers",
     "type": "guild",
@@ -122,11 +134,11 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3415,
+    "worldRank": 3416,
     "source": "raiderio"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "id": "nyxborn",
     "name": "Nyxborn",
     "type": "guild",
@@ -138,7 +150,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "id": "provatina",
     "name": "Provatina",
     "type": "guild",
@@ -146,11 +158,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4904,
+    "worldRank": 4906,
     "source": "raiderio"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "id": "u-t-o-p-i-a",
     "name": "U T O P I A",
     "type": "guild",
@@ -158,11 +170,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4949,
+    "worldRank": 4951,
     "source": "raiderio"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "t-h-e-o-r-y",
     "name": "T H E O R Y",
     "type": "guild",
@@ -170,22 +182,8 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5108,
+    "worldRank": 5110,
     "source": "raiderio"
-  },
-  {
-    "rank": 15,
-    "id": "unique-legacy",
-    "name": "UNIQUE LEGACY",
-    "type": "raid-team",
-    "realm": "twisting-nether",
-    "parentGuild": "UNIQUE LEGACY",
-    "progress": "5/9M",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
   },
   {
     "rank": 16,
@@ -196,7 +194,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 6343,
+    "worldRank": 6346,
     "source": "raiderio"
   },
   {
@@ -208,7 +206,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "61.97% Vaelgor & Ezzorak",
-    "worldRank": 5681,
+    "worldRank": 5684,
     "source": "raiderio"
   },
   {
@@ -232,7 +230,7 @@
     "parentGuild": "",
     "progress": "1/9M",
     "bossProg": "46.98% Vorasius",
-    "worldRank": 8409,
+    "worldRank": 8411,
     "source": "raiderio"
   },
   {
@@ -244,7 +242,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 8825,
+    "worldRank": 8828,
     "source": "raiderio"
   },
   {
@@ -268,7 +266,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8818,
+    "worldRank": 8821,
     "source": "raiderio"
   },
   {
@@ -280,7 +278,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8890,
+    "worldRank": 8893,
     "source": "raiderio"
   },
   {
@@ -292,7 +290,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 9123,
+    "worldRank": 9125,
     "source": "raiderio"
   },
   {
@@ -304,7 +302,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12732,
+    "worldRank": 12734,
     "source": "raiderio"
   },
   {
