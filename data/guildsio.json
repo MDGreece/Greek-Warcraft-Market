@@ -373,7 +373,7 @@
           "realm": 75
         },
         "mythic": {
-          "world": 1470,
+          "world": 1473,
           "region": 710,
           "realm": 52
         }
@@ -456,7 +456,7 @@
           "realm": 77
         },
         "mythic": {
-          "world": 2006,
+          "world": 2009,
           "region": 985,
           "realm": 100
         }
@@ -539,7 +539,7 @@
           "realm": 146
         },
         "mythic": {
-          "world": 3230,
+          "world": 3231,
           "region": 1491,
           "realm": 86
         }
@@ -622,7 +622,7 @@
           "realm": 160
         },
         "mythic": {
-          "world": 3417,
+          "world": 3418,
           "region": 1540,
           "realm": 76
         }
@@ -634,7 +634,7 @@
           "realm": 0
         },
         "heroic": {
-          "world": 12964,
+          "world": 12965,
           "region": 5068,
           "realm": 267
         },
@@ -700,12 +700,12 @@
           "realm": 199
         },
         "heroic": {
-          "world": 12718,
+          "world": 12720,
           "region": 5732,
           "realm": 304
         },
         "mythic": {
-          "world": 4679,
+          "world": 4680,
           "region": 2081,
           "realm": 109
         }
@@ -783,12 +783,12 @@
           "realm": 38
         },
         "heroic": {
-          "world": 12007,
+          "world": 12009,
           "region": 5326,
           "realm": 174
         },
         "mythic": {
-          "world": 4908,
+          "world": 4909,
           "region": 2214,
           "realm": 116
         }
@@ -866,12 +866,12 @@
           "realm": 337
         },
         "heroic": {
-          "world": 13213,
+          "world": 13215,
           "region": 5878,
           "realm": 317
         },
         "mythic": {
-          "world": 4953,
+          "world": 4954,
           "region": 2224,
           "realm": 118
         }
@@ -949,12 +949,12 @@
           "realm": 64
         },
         "heroic": {
-          "world": 12455,
+          "world": 12457,
           "region": 5577,
           "realm": 133
         },
         "mythic": {
-          "world": 5112,
+          "world": 5113,
           "region": 2263,
           "realm": 66
         }
@@ -1032,12 +1032,12 @@
           "realm": 260
         },
         "heroic": {
-          "world": 12408,
+          "world": 12410,
           "region": 5548,
           "realm": 294
         },
         "mythic": {
-          "world": 5685,
+          "world": 5686,
           "region": 2544,
           "realm": 142
         }
@@ -1120,7 +1120,7 @@
           "realm": 142
         },
         "mythic": {
-          "world": 6347,
+          "world": 6348,
           "region": 2783,
           "realm": 138
         }
@@ -1198,7 +1198,7 @@
           "realm": 44
         },
         "heroic": {
-          "world": 12161,
+          "world": 12163,
           "region": 5409,
           "realm": 73
         },
@@ -1286,7 +1286,7 @@
           "realm": 147
         },
         "mythic": {
-          "world": 8412,
+          "world": 8413,
           "region": 3571,
           "realm": 163
         }
@@ -1577,89 +1577,6 @@
     }
   },
   {
-    "id": "chthonic",
-    "name": "Chthonic",
-    "realm": "draenor",
-    "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/draenor/Chthonic",
-    "progress": {
-      "tier-mn-1": {
-        "summary": "9/9 H",
-        "total_bosses": 9,
-        "normal_bosses_killed": 9,
-        "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 0
-      },
-      "sporefall": {
-        "summary": "1/1 H",
-        "total_bosses": 1,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 1,
-        "mythic_bosses_killed": 0
-      },
-      "the-venomous-abyss": {
-        "summary": "0/8 N",
-        "total_bosses": 8,
-        "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 0,
-        "mythic_bosses_killed": 0
-      }
-    },
-    "rankings": {
-      "tier-mn-1": {
-        "normal": {
-          "world": 13219,
-          "region": 5868,
-          "realm": 281
-        },
-        "heroic": {
-          "world": 10502,
-          "region": 4686,
-          "realm": 256
-        },
-        "mythic": {
-          "world": 9127,
-          "region": 3840,
-          "realm": 225
-        }
-      },
-      "sporefall": {
-        "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "heroic": {
-          "world": 8174,
-          "region": 3519,
-          "realm": 195
-        },
-        "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        }
-      },
-      "the-venomous-abyss": {
-        "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "heroic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        },
-        "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
-        }
-      }
-    }
-  },
-  {
     "id": "epsilon",
     "name": "Epsilon",
     "realm": "draenor",
@@ -1779,7 +1696,7 @@
           "realm": 203
         },
         "heroic": {
-          "world": 12742,
+          "world": 12744,
           "region": 5744,
           "realm": 185
         },
