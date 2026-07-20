@@ -49,6 +49,20 @@
   },
   {
     "rank": 5,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "8/9M",
+    "bossProg": "0.01% Midnight Falls",
+    "worldRank": 1102,
+    "source": "warcraftlogs",
+    "latestReport": "yWhHPBFDJjt8d9wR",
+    "latestReportTitle": "Mythic"
+  },
+  {
+    "rank": 6,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -56,22 +70,8 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "0.01% Midnight Falls",
-    "worldRank": 1473,
+    "worldRank": 1479,
     "source": "raiderio"
-  },
-  {
-    "rank": 6,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "8/9M",
-    "bossProg": "8.25% Midnight Falls",
-    "worldRank": 1102,
-    "source": "warcraftlogs",
-    "latestReport": "RbchVqfJXM4BHDPL",
-    "latestReportTitle": "Lura"
   },
   {
     "rank": 7,
@@ -84,11 +84,23 @@
     "bossProg": "36.31% Midnight Falls",
     "worldRank": 999999,
     "source": "warcraftlogs",
-    "latestReport": "9b6hWDma1yBYJkzX",
-    "latestReportTitle": "Mythic-20260716-1"
+    "latestReport": "rPdn9RfTzM834AK1",
+    "latestReportTitle": "Mythic-20260720-1"
   },
   {
     "rank": 8,
+    "id": "soe-reborn",
+    "name": "SOE Reborn",
+    "type": "guild",
+    "realm": "tarren-mill",
+    "parentGuild": "",
+    "progress": "8/9M",
+    "bossProg": "41.41% Midnight Falls",
+    "worldRank": 1868,
+    "source": "raiderio"
+  },
+  {
+    "rank": 9,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -98,20 +110,8 @@
     "bossProg": "47.14% Midnight Falls",
     "worldRank": 1753,
     "source": "warcraftlogs",
-    "latestReport": "RPmBYcJf9Fzxnw61",
-    "latestReportTitle": " Lura S01E10"
-  },
-  {
-    "rank": 9,
-    "id": "soe-reborn",
-    "name": "SOE Reborn",
-    "type": "guild",
-    "realm": "tarren-mill",
-    "parentGuild": "",
-    "progress": "8/9M",
-    "bossProg": "54.73% Midnight Falls",
-    "worldRank": 2009,
-    "source": "raiderio"
+    "latestReport": "gMz4xZqtNJcFCB9Q",
+    "latestReportTitle": "Lura S01E11 "
   },
   {
     "rank": 10,
@@ -122,7 +122,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3231,
+    "worldRank": 3234,
     "source": "raiderio"
   },
   {
@@ -134,7 +134,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3418,
+    "worldRank": 3421,
     "source": "raiderio"
   },
   {
@@ -146,7 +146,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4680,
+    "worldRank": 4681,
     "source": "raiderio"
   },
   {
@@ -158,7 +158,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4909,
+    "worldRank": 4910,
     "source": "raiderio"
   },
   {
@@ -170,7 +170,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4954,
+    "worldRank": 4955,
     "source": "raiderio"
   },
   {
@@ -182,7 +182,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5113,
+    "worldRank": 5114,
     "source": "raiderio"
   },
   {
@@ -194,7 +194,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 6348,
+    "worldRank": 6350,
     "source": "raiderio"
   },
   {
@@ -206,7 +206,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "61.97% Vaelgor & Ezzorak",
-    "worldRank": 5686,
+    "worldRank": 5690,
     "source": "raiderio"
   },
   {
@@ -218,7 +218,7 @@
     "parentGuild": "",
     "progress": "2/9M",
     "bossProg": "-",
-    "worldRank": 7794,
+    "worldRank": 7796,
     "source": "raiderio"
   },
   {
@@ -230,7 +230,7 @@
     "parentGuild": "",
     "progress": "1/9M",
     "bossProg": "46.98% Vorasius",
-    "worldRank": 8413,
+    "worldRank": 8415,
     "source": "raiderio"
   },
   {
@@ -242,7 +242,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 8829,
+    "worldRank": 8832,
     "source": "raiderio"
   },
   {
@@ -266,7 +266,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8822,
+    "worldRank": 8825,
     "source": "raiderio"
   },
   {
@@ -278,11 +278,23 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8894,
+    "worldRank": 8897,
     "source": "raiderio"
   },
   {
     "rank": 24,
+    "id": "chthonic",
+    "name": "Chthonic",
+    "type": "guild",
+    "realm": "draenor",
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "-",
+    "worldRank": 9130,
+    "source": "raiderio"
+  },
+  {
+    "rank": 25,
     "id": "irriducibili",
     "name": "Irriducibili",
     "type": "guild",
@@ -290,11 +302,11 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12744,
+    "worldRank": 12747,
     "source": "raiderio"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "id": "crimson-thunder",
     "name": "Crimson Thunder",
     "type": "guild",
@@ -306,7 +318,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "id": "not-forgotten",
     "name": "Not Forgotten",
     "type": "guild",
