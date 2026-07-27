@@ -13,14 +13,14 @@
   },
   {
     "rank": 2,
-    "id": "disobedient",
-    "name": "Disobedient",
+    "id": "k-l-i-k-a",
+    "name": "K L I K A",
     "type": "guild",
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "CE",
-    "bossProg": "WR 774",
-    "worldRank": 774,
+    "bossProg": "WR 784",
+    "worldRank": 784,
     "source": "raiderio"
   },
   {
@@ -93,11 +93,11 @@
   },
   {
     "rank": 8,
-    "id": "k-l-i-k-a",
-    "name": "K L I K A",
+    "id": "disobedient",
+    "name": "Disobedient",
     "type": "raid-team",
     "realm": "twisting-nether",
-    "parentGuild": "K L I K A",
+    "parentGuild": "Disobedient",
     "progress": "8/9M",
     "bossProg": "-",
     "worldRank": 999999,
@@ -135,6 +135,18 @@
   },
   {
     "rank": 11,
+    "id": "provatina",
+    "name": "Provatina",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "progress": "5/9M",
+    "bossProg": "-",
+    "worldRank": 4952,
+    "source": "raiderio"
+  },
+  {
+    "rank": 12,
     "id": "unique-legacy",
     "name": "UNIQUE LEGACY",
     "type": "raid-team",
@@ -148,33 +160,7 @@
     "latestReportTitle": ""
   },
   {
-    "rank": 12,
-    "id": "dungeon-meta",
-    "name": "Dungeon Meta",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "progress": "4/9M",
-    "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 6373,
-    "source": "raiderio"
-  },
-  {
     "rank": 13,
-    "id": "provatina",
-    "name": "Provatina",
-    "type": "raid-team",
-    "realm": "twisting-nether",
-    "parentGuild": "Provatina",
-    "progress": "4/9M",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
-  },
-  {
-    "rank": 14,
     "id": "t-h-e-o-r-y",
     "name": "T H E O R Y",
     "type": "raid-team",
@@ -188,7 +174,7 @@
     "latestReportTitle": ""
   },
   {
-    "rank": 15,
+    "rank": 14,
     "id": "u-t-o-p-i-a",
     "name": "U T O P I A",
     "type": "raid-team",
@@ -200,6 +186,20 @@
     "source": "warcraftlogs",
     "latestReport": "",
     "latestReportTitle": ""
+  },
+  {
+    "rank": 15,
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "type": "raid-team",
+    "realm": "twisting-nether",
+    "parentGuild": "Dungeon Meta",
+    "progress": "3/9M",
+    "bossProg": "7.16% Fallen-King Salhadaar",
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "G2ZtQfJbYxjrMaky",
+    "latestReportTitle": "VS / DR / MQD"
   },
   {
     "rank": 16,
@@ -247,30 +247,16 @@
     "rank": 19,
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
-    "type": "raid-team",
-    "realm": "silvermoon",
-    "parentGuild": "A N A L O S O I M O I",
-    "progress": "0/9M",
-    "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "QT98f1Y2PJcXytn7",
-    "latestReportTitle": "Sporefall"
-  },
-  {
-    "rank": 20,
-    "id": "epsilon",
-    "name": "Epsilon",
     "type": "guild",
-    "realm": "draenor",
+    "realm": "silvermoon",
     "parentGuild": "",
     "progress": "9/9H",
-    "bossProg": "-",
-    "worldRank": 8854,
+    "bossProg": "20.77% Imperator Averzian",
+    "worldRank": 8861,
     "source": "raiderio"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "id": "the-syndicate",
     "name": "The Syndicate",
     "type": "guild",
@@ -282,16 +268,30 @@
     "source": "raiderio"
   },
   {
-    "rank": 22,
-    "id": "irriducibili",
-    "name": "Irriducibili",
+    "rank": 21,
+    "id": "chthonic",
+    "name": "Chthonic",
     "type": "guild",
-    "realm": "twisting-nether",
+    "realm": "draenor",
     "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "-",
+    "worldRank": 9161,
+    "source": "raiderio"
+  },
+  {
+    "rank": 22,
+    "id": "epsilon",
+    "name": "Epsilon",
+    "type": "raid-team",
+    "realm": "draenor",
+    "parentGuild": "Epsilon",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12825,
-    "source": "raiderio"
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "",
+    "latestReportTitle": ""
   },
   {
     "rank": 23,
@@ -309,6 +309,20 @@
   },
   {
     "rank": 24,
+    "id": "irriducibili",
+    "name": "Irriducibili",
+    "type": "raid-team",
+    "realm": "twisting-nether",
+    "parentGuild": "Irriducibili",
+    "progress": "7/9H",
+    "bossProg": "-",
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "",
+    "latestReportTitle": ""
+  },
+  {
+    "rank": 25,
     "id": "crimson-thunder",
     "name": "Crimson Thunder",
     "type": "guild",
@@ -320,7 +334,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "id": "not-forgotten",
     "name": "Not Forgotten",
     "type": "guild",
@@ -332,7 +346,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "id": "nyxborn",
     "name": "Nyxborn",
     "type": "raid-team",

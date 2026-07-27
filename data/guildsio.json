@@ -83,25 +83,25 @@
     }
   },
   {
-    "id": "disobedient",
-    "name": "Disobedient",
+    "id": "k-l-i-k-a",
+    "name": "K L I K A",
     "realm": "twisting-nether",
     "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "progress": {
       "tier-mn-1": {
         "summary": "9/9 M",
         "total_bosses": 9,
-        "normal_bosses_killed": 9,
+        "normal_bosses_killed": 7,
         "heroic_bosses_killed": 9,
         "mythic_bosses_killed": 9
       },
       "sporefall": {
-        "summary": "1/1 M",
+        "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 1,
-        "mythic_bosses_killed": 1
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "0/8 N",
@@ -114,19 +114,19 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 9325,
-          "region": 3982,
-          "realm": 115
+          "world": 15430,
+          "region": 6798,
+          "realm": 176
         },
         "heroic": {
-          "world": 914,
-          "region": 443,
-          "realm": 35
+          "world": 349,
+          "region": 143,
+          "realm": 15
         },
         "mythic": {
-          "world": 774,
-          "region": 369,
-          "realm": 30
+          "world": 784,
+          "region": 379,
+          "realm": 32
         }
       },
       "sporefall": {
@@ -136,14 +136,14 @@
           "realm": 0
         },
         "heroic": {
-          "world": 2430,
-          "region": 117,
-          "realm": 4
+          "world": 0,
+          "region": 0,
+          "realm": 0
         },
         "mythic": {
-          "world": 5244,
-          "region": 2185,
-          "realm": 99
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       },
       "the-venomous-abyss": {
@@ -249,25 +249,25 @@
     }
   },
   {
-    "id": "dungeon-meta",
-    "name": "Dungeon Meta",
+    "id": "provatina",
+    "name": "Provatina",
     "realm": "twisting-nether",
     "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Provatina",
     "progress": {
       "tier-mn-1": {
-        "summary": "4/9 M",
+        "summary": "5/9 M",
         "total_bosses": 9,
         "normal_bosses_killed": 9,
-        "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 4
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
       },
       "sporefall": {
-        "summary": "1/1 M",
+        "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 1,
-        "mythic_bosses_killed": 1
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "0/8 N",
@@ -280,19 +280,19 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 2482,
-          "region": 1004,
-          "realm": 34
+          "world": 2641,
+          "region": 1163,
+          "realm": 38
         },
         "heroic": {
-          "world": 8176,
-          "region": 3743,
-          "realm": 142
+          "world": 12102,
+          "region": 5362,
+          "realm": 174
         },
         "mythic": {
-          "world": 6373,
-          "region": 2792,
-          "realm": 138
+          "world": 4952,
+          "region": 2230,
+          "realm": 116
         }
       },
       "sporefall": {
@@ -302,14 +302,14 @@
           "realm": 0
         },
         "heroic": {
-          "world": 10905,
-          "region": 4348,
-          "realm": 128
+          "world": 0,
+          "region": 0,
+          "realm": 0
         },
         "mythic": {
-          "world": 5915,
-          "region": 2399,
-          "realm": 109
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       },
       "the-venomous-abyss": {
@@ -415,11 +415,11 @@
     }
   },
   {
-    "id": "epsilon",
-    "name": "Epsilon",
-    "realm": "draenor",
+    "id": "a-n-a-l-o-s-o-i-m-o-i",
+    "name": "A N A L O S O I M O I",
+    "realm": "silvermoon",
     "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/draenor/Epsilon",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/A%20N%20A%20L%20O%20S%20O%20I%20M%20O%20I",
     "progress": {
       "tier-mn-1": {
         "summary": "9/9 H",
@@ -429,11 +429,11 @@
         "mythic_bosses_killed": 0
       },
       "sporefall": {
-        "summary": "1/1 M",
+        "summary": "1/1 H",
         "total_bosses": 1,
-        "normal_bosses_killed": 0,
+        "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
-        "mythic_bosses_killed": 1
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "0/8 N",
@@ -446,36 +446,36 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 2957,
-          "region": 1479,
-          "realm": 84
+          "world": 7230,
+          "region": 3109,
+          "realm": 176
         },
         "heroic": {
-          "world": 9206,
-          "region": 4178,
-          "realm": 232
+          "world": 9411,
+          "region": 4269,
+          "realm": 234
         },
         "mythic": {
-          "world": 8854,
-          "region": 3727,
-          "realm": 218
+          "world": 8861,
+          "region": 3732,
+          "realm": 212
         }
       },
       "sporefall": {
         "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
+          "world": 818,
+          "region": 77,
+          "realm": 4
         },
         "heroic": {
-          "world": 3148,
-          "region": 831,
-          "realm": 45
+          "world": 2994,
+          "region": 677,
+          "realm": 43
         },
         "mythic": {
-          "world": 6058,
-          "region": 2457,
-          "realm": 171
+          "world": 7092,
+          "region": 2915,
+          "realm": 158
         }
       },
       "the-venomous-abyss": {
@@ -498,24 +498,24 @@
     }
   },
   {
-    "id": "irriducibili",
-    "name": "Irriducibili",
-    "realm": "twisting-nether",
+    "id": "chthonic",
+    "name": "Chthonic",
+    "realm": "draenor",
     "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Irriducibili",
+    "profileUrl": "https://raider.io/guilds/eu/draenor/Chthonic",
     "progress": {
       "tier-mn-1": {
-        "summary": "8/9 H",
+        "summary": "9/9 H",
         "total_bosses": 9,
-        "normal_bosses_killed": 7,
-        "heroic_bosses_killed": 8,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
         "mythic_bosses_killed": 0
       },
       "sporefall": {
-        "summary": "0/1 N",
+        "summary": "1/1 H",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
-        "heroic_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -529,19 +529,19 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16916,
-          "region": 7169,
-          "realm": 203
+          "world": 13219,
+          "region": 5868,
+          "realm": 281
         },
         "heroic": {
-          "world": 12825,
-          "region": 5771,
-          "realm": 185
+          "world": 10502,
+          "region": 4686,
+          "realm": 256
         },
         "mythic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
+          "world": 9161,
+          "region": 3854,
+          "realm": 225
         }
       },
       "sporefall": {
@@ -551,9 +551,9 @@
           "realm": 0
         },
         "heroic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
+          "world": 8176,
+          "region": 3520,
+          "realm": 195
         },
         "mythic": {
           "world": 0,
