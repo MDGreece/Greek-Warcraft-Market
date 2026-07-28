@@ -2,23 +2,27 @@ const params = new URLSearchParams(window.location.search);
 const guildId = params.get("id");
 
 const CLASS_COLORS = {
-  "Death Knight": "#C41E3A",
-  "Demon Hunter": "#A330C9",
-  "Druid": "#FF7C0A",
-  "Evoker": "#33937F",
-  "Hunter": "#AAD372",
-  "Mage": "#3FC7EB",
-  "Monk": "#00FF98",
-  "Paladin": "#F48CBA",
-  "Priest": "#FFFFFF",
-  "Rogue": "#FFF468",
-  "Shaman": "#0070DD",
-  "Warlock": "#8788EE",
-  "Warrior": "#C69B6D"
+  DeathKnight: "#C41E3A",
+  DemonHunter: "#A330C9",
+  Druid: "#FF7D0A",
+  Evoker: "#33937F",
+  Hunter: "#AAD372",
+  Mage: "#3FC7EB",
+  Monk: "#00FF98",
+  Paladin: "#F48CBA",
+  Priest: "#FFFFFF",
+  Rogue: "#FFF468",
+  Shaman: "#0070DD",
+  Warlock: "#8788EE",
+  Warrior: "#C69B6D"
 };
 
 function getClassColor(className) {
-  return CLASS_COLORS[className] || "#FFFFFF";
+  const normalizedClass = String(className || "")
+    .trim()
+    .replace(/\s+/g, "");
+
+  return CLASS_COLORS[normalizedClass] || "#FFFFFF";
 }
 
 function escapeHtml(value) {
@@ -60,7 +64,6 @@ function createRosterPlayerElement(player) {
   listItem.className = "roster-player";
 
   const classColor = getClassColor(normalizedPlayer.class);
-
   const details = [];
 
   if (normalizedPlayer.spec) {
@@ -79,7 +82,9 @@ function createRosterPlayerElement(player) {
 
   const reportText =
     normalizedPlayer.reports !== null
-      ? `${normalizedPlayer.reports} report${normalizedPlayer.reports === 1 ? "" : "s"}`
+      ? `${normalizedPlayer.reports} report${
+          normalizedPlayer.reports === 1 ? "" : "s"
+        }`
       : "";
 
   listItem.innerHTML = `
@@ -162,12 +167,21 @@ function renderRoster(roster) {
 }
 
 function showGuildNotFound() {
-  document.getElementById("guildName").textContent =
-    "Guild Not Found";
+  const guildName =
+    document.getElementById("guildName");
 
-  document.getElementById(
-    "guildNameBreadcrumb"
-  ).textContent = "Guild Not Found";
+  const breadcrumb =
+    document.getElementById(
+      "guildNameBreadcrumb"
+    );
+
+  if (guildName) {
+    guildName.textContent = "Guild Not Found";
+  }
+
+  if (breadcrumb) {
+    breadcrumb.textContent = "Guild Not Found";
+  }
 
   renderRoster({
     tanks: [],
@@ -193,7 +207,9 @@ if (!guildId) {
     fetch("./data/raid-tiers.json").then(
       response => {
         if (!response.ok) {
-          throw new Error("Raid tiers JSON not found");
+          throw new Error(
+            "Raid tiers JSON not found"
+          );
         }
 
         return response.json();
@@ -239,7 +255,7 @@ if (!guildId) {
       const logoBox =
         document.getElementById("guildLogo");
 
-      if (guild.logo) {
+      if (guild.logo && logoBox) {
         logoBox.innerHTML = `
           <img
             src="${escapeHtml(guild.logo)}"
@@ -251,50 +267,52 @@ if (!guildId) {
       const expansionGrid =
         document.getElementById("expansionGrid");
 
-      expansionGrid.innerHTML = "";
+      if (expansionGrid) {
+        expansionGrid.innerHTML = "";
 
-      raidTiers.forEach(expansion => {
-        const card =
-          document.createElement("div");
+        raidTiers.forEach(expansion => {
+          const card =
+            document.createElement("div");
 
-        card.className = "expansion-card";
+          card.className = "expansion-card";
 
-        let tierRows = "";
+          let tierRows = "";
 
-        expansion.tiers.forEach(tier => {
-          const tierRank =
-            guild.tierRanks &&
-            guild.tierRanks[tier]
-              ? guild.tierRanks[tier]
-              : {
-                  WR: "-",
-                  GR: "-"
-                };
+          expansion.tiers.forEach(tier => {
+            const tierRank =
+              guild.tierRanks &&
+              guild.tierRanks[tier]
+                ? guild.tierRanks[tier]
+                : {
+                    WR: "-",
+                    GR: "-"
+                  };
 
-          tierRows += `
-            <div class="raid-tier">
-              <span class="raid-name">
-                ${escapeHtml(tier)}
-              </span>
+            tierRows += `
+              <div class="raid-tier">
+                <span class="raid-name">
+                  ${escapeHtml(tier)}
+                </span>
 
-              <span class="raid-rank">
-                WR: ${escapeHtml(tierRank.WR)}
-              </span>
+                <span class="raid-rank">
+                  WR: ${escapeHtml(tierRank.WR)}
+                </span>
 
-              <span class="raid-rank">
-                GR: ${escapeHtml(tierRank.GR)}
-              </span>
-            </div>
+                <span class="raid-rank">
+                  GR: ${escapeHtml(tierRank.GR)}
+                </span>
+              </div>
+            `;
+          });
+
+          card.innerHTML = `
+            <h3>${escapeHtml(expansion.title)}</h3>
+            ${tierRows}
           `;
+
+          expansionGrid.appendChild(card);
         });
-
-        card.innerHTML = `
-          <h3>${escapeHtml(expansion.title)}</h3>
-          ${tierRows}
-        `;
-
-        expansionGrid.appendChild(card);
-      });
+      }
 
       renderRoster(guild.roster);
     })
