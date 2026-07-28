@@ -379,22 +379,27 @@ nav a.active {
 }
 
 .raid-tier {
-  display: grid;
-  grid-template-columns: 1fr 80px 80px;
-  gap: 12px;
-  align-items: center;
-  padding: 10px 0;
-  border-top: 1px solid #263a59;
+    display: grid;
+    grid-template-columns: 1fr 90px 90px 90px;
+    align-items: center;
+    gap: 12px;
+
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,.08);
 }
 
-.raid-name {
-  color: white;
+.raid-name{
+    text-align:left;
 }
 
-.raid-rank {
-  color: #f0b90b;
-  font-weight: bold;
-  text-align: center;
+.raid-progress{
+    text-align:center;
+    font-weight:700;
+}
+
+.raid-rank{
+    text-align:right;
+    font-weight:600;
 }
 .breadcrumb {
     max-width: 1200px;
