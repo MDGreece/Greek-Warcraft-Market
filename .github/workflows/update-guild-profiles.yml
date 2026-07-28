@@ -1,0 +1,48 @@
+name: Update Guild Profiles
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-guild-profiles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Show files before update
+        run: |
+          echo "Current branch:"
+          git branch --show-current
+
+          echo "Death and Glory in guildsio.json:"
+          grep -n -A 20 '"id": "death-and-glory"' data/guildsio.json || true
+
+          echo "Guild profile exists:"
+          ls -la data/guilds/death-and-glory.json
+
+      - name: Update guild profiles
+        run: node scripts/update-guild-profiles.js
+
+      - name: Show updated profile
+        run: |
+          echo "Updated Death and Glory profile:"
+          cat data/guilds/death-and-glory.json
+
+          echo "Git changes:"
+          git diff -- data/guilds/death-and-glory.json
+
+      - name: Commit updated guild profiles
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update guild profiles
+          file_pattern: data/guilds/*.json
