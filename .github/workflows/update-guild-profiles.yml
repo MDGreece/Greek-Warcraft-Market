@@ -33,6 +33,12 @@ jobs:
       - name: Update guild profiles
         run: node scripts/update-guild-profiles.js
 
+      - name: Update active guild rosters
+        env:
+          WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
+          WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
+        run: node scripts/update-guild-rosters.js
+
       - name: Show updated profile
         run: |
           echo "Updated Death and Glory profile:"
@@ -44,5 +50,5 @@ jobs:
       - name: Commit updated guild profiles
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update guild profiles
+          commit_message: Update guild profiles and active rosters
           file_pattern: data/guilds/*.json
