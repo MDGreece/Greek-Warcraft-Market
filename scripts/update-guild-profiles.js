@@ -5,10 +5,10 @@ const guildsIOPath = "data/guildsio.json";
 const guildProfilesDirectory = "data/guilds";
 
 /*
- * Add each new raid tier here when Raider.IO introduces it.
+ * Raider.IO tiers that should be updated automatically.
  *
- * Existing entries are preserved.
- * New entries are added separately.
+ * Historical/manual tiers already stored in the guild profile
+ * are always preserved.
  */
 const RAID_NAMES = {
   "tier-mn-1": "T1 (DR, VS, MoQ)"
@@ -17,14 +17,10 @@ const RAID_NAMES = {
   // "tier-mn-2": "Midnight T2"
 };
 
-/*
- * These manual The War Within tiers are preserved.
- * Older unwanted tiers are removed.
- */
-const MANUAL_TWW_TIERS = ["NP", "LoU", "MO"];
-
 function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return JSON.parse(
+    fs.readFileSync(filePath, "utf8")
+  );
 }
 
 function writeJson(filePath, data) {
@@ -63,49 +59,69 @@ function getBestRanking(raidRankings) {
   return null;
 }
 
-function buildTierRanks(guildData, existingTierRanks = {}) {
-  const tierRanks = {};
+function buildTierRanks(
+  guildData,
+  existingTierRanks = {}
+) {
+  /*
+   * Preserve every existing tier.
+   *
+   * This includes:
+   * - NP
+   * - LoU
+   * - MO
+   * - older expansions
+   * - any other manually maintained raid history
+   */
+  const tierRanks = {
+    ...existingTierRanks
+  };
 
   /*
-   * Preserve only the three manual The War Within tiers.
+   * Update only the Raider.IO tiers explicitly configured
+   * in RAID_NAMES.
    */
-  for (const tierName of MANUAL_TWW_TIERS) {
-    if (existingTierRanks[tierName]) {
-      tierRanks[tierName] = existingTierRanks[tierName];
-    }
-  }
+  for (
+    const [raidSlug, displayName]
+    of Object.entries(RAID_NAMES)
+  ) {
+    const progression =
+      guildData.progress?.[raidSlug];
 
-  /*
-   * Preserve configured Midnight tiers, then update them
-   * when fresh Raider.IO data exists.
-   */
-  for (const [raidSlug, displayName] of Object.entries(RAID_NAMES)) {
-    if (existingTierRanks[displayName]) {
-      tierRanks[displayName] = existingTierRanks[displayName];
-    }
+    const rankings =
+      guildData.rankings?.[raidSlug];
 
-    const progression = guildData.progress?.[raidSlug];
-    const rankings = guildData.rankings?.[raidSlug];
-
+    /*
+     * When Raider.IO does not return this tier, preserve the
+     * existing manual or previously fetched entry unchanged.
+     */
     if (!progression && !rankings) {
       continue;
     }
 
-    const bestRanking = getBestRanking(rankings);
+    const existingTier =
+      existingTierRanks[displayName] || {};
+
+    const bestRanking =
+      getBestRanking(rankings);
 
     tierRanks[displayName] = {
       progress:
         progression?.summary ||
-        existingTierRanks[displayName]?.progress ||
+        existingTier.progress ||
         "-",
 
       WR:
         bestRanking?.WR?.toString() ||
-        existingTierRanks[displayName]?.WR ||
+        existingTier.WR ||
         "-",
 
+      /*
+       * Raider.IO does not currently provide the Greek rank
+       * used by this site, so it stays manual.
+       */
       GR:
-        existingTierRanks[displayName]?.GR ||
+        existingTier.GR ||
         "-"
     };
   }
@@ -120,11 +136,15 @@ function updateGuildProfile(guildData) {
   );
 
   if (!fs.existsSync(profilePath)) {
-    console.log(`Profile not found: ${profilePath}`);
+    console.log(
+      `Profile not found: ${profilePath}`
+    );
+
     return;
   }
 
-  const profile = readJson(profilePath);
+  const profile =
+    readJson(profilePath);
 
   const updatedProfile = {
     ...profile,
@@ -145,7 +165,8 @@ function updateGuildProfile(guildData) {
         profile.raiderIO?.region ||
         "",
 
-      lastUpdated: new Date().toISOString()
+      lastUpdated:
+        new Date().toISOString()
     },
 
     tierRanks: buildTierRanks(
@@ -153,30 +174,46 @@ function updateGuildProfile(guildData) {
       profile.tierRanks || {}
     ),
 
-    roster: profile.roster || {
-      tanks: [],
-      healers: [],
-      dps: []
-    }
+    /*
+     * The separate Warcraft Logs updater manages this.
+     */
+    roster:
+      profile.roster || {
+        tanks: [],
+        healers: [],
+        dps: []
+      }
   };
 
-  writeJson(profilePath, updatedProfile);
+  writeJson(
+    profilePath,
+    updatedProfile
+  );
 
-  console.log(`Updated profile: ${guildData.name}`);
+  console.log(
+    `Updated profile: ${guildData.name}`
+  );
 }
 
 function run() {
   if (!fs.existsSync(guildsIOPath)) {
-    throw new Error(`Missing file: ${guildsIOPath}`);
+    throw new Error(
+      `Missing file: ${guildsIOPath}`
+    );
   }
 
-  if (!fs.existsSync(guildProfilesDirectory)) {
+  if (
+    !fs.existsSync(
+      guildProfilesDirectory
+    )
+  ) {
     throw new Error(
       `Missing directory: ${guildProfilesDirectory}`
     );
   }
 
-  const guilds = readJson(guildsIOPath);
+  const guilds =
+    readJson(guildsIOPath);
 
   if (!Array.isArray(guilds)) {
     throw new Error(
@@ -184,11 +221,24 @@ function run() {
     );
   }
 
+  console.log(
+    `Found ${guilds.length} guilds to process.`
+  );
+
   for (const guild of guilds) {
-    updateGuildProfile(guild);
+    try {
+      updateGuildProfile(guild);
+    } catch (error) {
+      console.error(
+        `Failed to update ${guild.name || guild.id}: ` +
+        error.message
+      );
+    }
   }
 
-  console.log("Finished updating guild profiles.");
+  console.log(
+    "Finished updating guild profiles."
+  );
 }
 
 try {
