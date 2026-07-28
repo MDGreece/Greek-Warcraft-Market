@@ -4,12 +4,24 @@ const path = require("path");
 const guildsIOPath = "data/guildsio.json";
 const guildProfilesDirectory = "data/guilds";
 
+/*
+ * Add each new raid tier here when Raider.IO introduces it.
+ *
+ * Existing entries are preserved.
+ * New entries are added separately.
+ */
 const RAID_NAMES = {
-  "nerubar-palace": "NP",
-  "liberation-of-undermine": "LoU",
-  "manaforge-omega": "MO",
   "tier-mn-1": "T1 (DR, VS, MoQ)"
+
+  // Future example:
+  // "tier-mn-2": "Midnight T2"
 };
+
+/*
+ * These manual The War Within tiers are preserved.
+ * Older unwanted tiers are removed.
+ */
+const MANUAL_TWW_TIERS = ["NP", "LoU", "MO"];
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -51,10 +63,27 @@ function getBestRanking(raidRankings) {
   return null;
 }
 
-function buildTierRanks(guildData) {
+function buildTierRanks(guildData, existingTierRanks = {}) {
   const tierRanks = {};
 
+  /*
+   * Preserve only the three manual The War Within tiers.
+   */
+  for (const tierName of MANUAL_TWW_TIERS) {
+    if (existingTierRanks[tierName]) {
+      tierRanks[tierName] = existingTierRanks[tierName];
+    }
+  }
+
+  /*
+   * Preserve configured Midnight tiers, then update them
+   * when fresh Raider.IO data exists.
+   */
   for (const [raidSlug, displayName] of Object.entries(RAID_NAMES)) {
+    if (existingTierRanks[displayName]) {
+      tierRanks[displayName] = existingTierRanks[displayName];
+    }
+
     const progression = guildData.progress?.[raidSlug];
     const rankings = guildData.rankings?.[raidSlug];
 
@@ -65,9 +94,19 @@ function buildTierRanks(guildData) {
     const bestRanking = getBestRanking(rankings);
 
     tierRanks[displayName] = {
-      progress: progression?.summary || "-",
-      WR: bestRanking?.WR?.toString() || "-",
-      GR: "-"
+      progress:
+        progression?.summary ||
+        existingTierRanks[displayName]?.progress ||
+        "-",
+
+      WR:
+        bestRanking?.WR?.toString() ||
+        existingTierRanks[displayName]?.WR ||
+        "-",
+
+      GR:
+        existingTierRanks[displayName]?.GR ||
+        "-"
     };
   }
 
@@ -91,13 +130,28 @@ function updateGuildProfile(guildData) {
     ...profile,
 
     raiderIO: {
-      profileUrl: guildData.profileUrl || "",
-      realm: guildData.realm || profile.raiderIO?.realm || "",
-      region: guildData.region || profile.raiderIO?.region || "",
+      profileUrl:
+        guildData.profileUrl ||
+        profile.raiderIO?.profileUrl ||
+        "",
+
+      realm:
+        guildData.realm ||
+        profile.raiderIO?.realm ||
+        "",
+
+      region:
+        guildData.region ||
+        profile.raiderIO?.region ||
+        "",
+
       lastUpdated: new Date().toISOString()
     },
 
-    tierRanks: buildTierRanks(guildData),
+    tierRanks: buildTierRanks(
+      guildData,
+      profile.tierRanks || {}
+    ),
 
     roster: profile.roster || {
       tanks: [],
@@ -125,7 +179,9 @@ function run() {
   const guilds = readJson(guildsIOPath);
 
   if (!Array.isArray(guilds)) {
-    throw new Error(`${guildsIOPath} must contain an array`);
+    throw new Error(
+      `${guildsIOPath} must contain an array`
+    );
   }
 
   for (const guild of guilds) {
