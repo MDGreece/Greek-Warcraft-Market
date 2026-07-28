@@ -1,10 +1,16 @@
 [
   {
-    "title": "TWW",
-    "tiers": ["NP", "LoU", "MO"]
+    "title": "The War Within",
+    "tiers": [
+      "NP",
+      "LoU",
+      "MO"
+    ]
   },
   {
     "title": "Midnight",
-    "tiers": ["T1 (DR, VS, MoQ)"]
+    "tiers": [
+      "T1 (DR, VS, MoQ)"
+    ]
   }
 ]
