@@ -220,7 +220,7 @@ async function getGuildMembers(token, guildId) {
                 slug
               }
             }
-            hasMorePages
+            has_more_pages
           }
         }
       }
@@ -229,7 +229,7 @@ async function getGuildMembers(token, guildId) {
 
   const guildMembers = new Set();
   let page = 1;
-  let hasMorePages = true;
+  let has_more_pages = true;
 
   while (hasMorePages) {
     const data = await queryWarcraftLogs(
