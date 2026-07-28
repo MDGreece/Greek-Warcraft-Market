@@ -280,29 +280,37 @@ if (!guildId) {
 
           expansion.tiers.forEach(tier => {
             const tierRank =
-              guild.tierRanks &&
-              guild.tierRanks[tier]
-                ? guild.tierRanks[tier]
-                : {
-                    WR: "-",
-                    GR: "-"
-                  };
+  guild.tierRanks && guild.tierRanks[tier]
+    ? guild.tierRanks[tier]
+    : {
+        progress: "-",
+        WR: "-",
+        GR: "-"
+      };
 
-            tierRows += `
-              <div class="raid-tier">
-                <span class="raid-name">
-                  ${escapeHtml(tier)}
-                </span>
+const progress = tierRank.progress || "-";
 
-                <span class="raid-rank">
-                  WR: ${escapeHtml(tierRank.WR)}
-                </span>
+let progressClass = "";
 
-                <span class="raid-rank">
-                  GR: ${escapeHtml(tierRank.GR)}
-                </span>
-              </div>
-            `;
+if (progress.endsWith("M")) {
+  progressClass = "progress-mythic";
+} else if (progress.endsWith("H")) {
+  progressClass = "progress-heroic";
+}
+
+tierRows += `
+  <div class="raid-tier">
+    <span class="raid-name">${tier}</span>
+
+    <span class="raid-progress ${progressClass}">
+      ${progress}
+    </span>
+
+    <span class="raid-rank">WR: ${tierRank.WR}</span>
+
+    <span class="raid-rank">GR: ${tierRank.GR}</span>
+  </div>
+`;
           });
 
           card.innerHTML = `
