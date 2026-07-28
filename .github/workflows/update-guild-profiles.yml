@@ -19,16 +19,32 @@ jobs:
         with:
           node-version: 24
 
-      - name: Show files before update
+      - name: Check required files
         run: |
           echo "Current branch:"
           git branch --show-current
 
-          echo "Death and Glory in guildsio.json:"
-          grep -n -A 20 '"id": "death-and-glory"' data/guildsio.json || true
+          echo ""
+          echo "Scripts directory:"
+          ls -la scripts
 
-          echo "Guild profile exists:"
-          ls -la data/guilds/death-and-glory.json
+          echo ""
+          echo "Checking roster script:"
+          if [ -f scripts/update-guild-rosters.js ]; then
+            echo "Roster script exists."
+          else
+            echo "ERROR: scripts/update-guild-rosters.js does not exist."
+            exit 1
+          fi
+
+          echo ""
+          echo "Checking Death and Glory profile:"
+          if [ -f data/guilds/death-and-glory.json ]; then
+            cat data/guilds/death-and-glory.json
+          else
+            echo "ERROR: Death and Glory profile does not exist."
+            exit 1
+          fi
 
       - name: Update guild profiles
         run: node scripts/update-guild-profiles.js
@@ -37,13 +53,29 @@ jobs:
         env:
           WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
           WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
-        run: node scripts/update-guild-rosters.js
+        run: |
+          echo "Starting active roster updater..."
+
+          if [ -z "$WARCRAFTLOGS_CLIENT_ID" ]; then
+            echo "ERROR: WARCRAFTLOGS_CLIENT_ID is missing."
+            exit 1
+          fi
+
+          if [ -z "$WARCRAFTLOGS_CLIENT_SECRET" ]; then
+            echo "ERROR: WARCRAFTLOGS_CLIENT_SECRET is missing."
+            exit 1
+          fi
+
+          node scripts/update-guild-rosters.js
+
+          echo "Roster updater finished."
 
       - name: Show updated profile
         run: |
           echo "Updated Death and Glory profile:"
           cat data/guilds/death-and-glory.json
 
+          echo ""
           echo "Git changes:"
           git diff -- data/guilds/death-and-glory.json
 
