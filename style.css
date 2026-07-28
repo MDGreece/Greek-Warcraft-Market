@@ -587,3 +587,15 @@ nav a.active {
   padding: 0;
   list-style: none;
 }
+.raid-progress {
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.progress-mythic {
+  color: #b366ff;
+}
+
+.progress-heroic {
+  color: #4aa3ff;
+}
