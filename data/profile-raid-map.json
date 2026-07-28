@@ -1,0 +1,26 @@
+{
+  "tier-mn-1": {
+    "expansion": "Midnight",
+    "displayName": "T1 (DR, VS, MoQ)"
+  },
+  "sporefall": {
+    "expansion": "Midnight",
+    "displayName": "Sporefall"
+  },
+  "the-venomous-abyss": {
+    "expansion": "Midnight",
+    "displayName": "The Venomous Abyss"
+  },
+  "nerubar-palace": {
+    "expansion": "The War Within",
+    "displayName": "Nerub-ar Palace"
+  },
+  "liberation-of-undermine": {
+    "expansion": "The War Within",
+    "displayName": "Liberation of Undermine"
+  },
+  "manaforge-omega": {
+    "expansion": "The War Within",
+    "displayName": "Manaforge Omega"
+  }
+}
