@@ -25,6 +25,30 @@ function getClassColor(className) {
   return CLASS_COLORS[normalizedClass] || "#FFFFFF";
 }
 
+function getProgressClass(progress) {
+  const normalizedProgress = String(progress || "")
+    .trim()
+    .replace(/\s+/g, "")
+    .toUpperCase();
+
+  if (!normalizedProgress || normalizedProgress === "-") {
+    return "";
+  }
+
+  if (
+    normalizedProgress === "CE" ||
+    normalizedProgress.endsWith("M")
+  ) {
+    return "progress-mythic";
+  }
+
+  if (normalizedProgress.endsWith("H")) {
+    return "progress-heroic";
+  }
+
+  return "";
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -58,12 +82,17 @@ function normalizeRosterPlayer(player) {
 }
 
 function createRosterPlayerElement(player) {
-  const normalizedPlayer = normalizeRosterPlayer(player);
-  const listItem = document.createElement("li");
+  const normalizedPlayer =
+    normalizeRosterPlayer(player);
+
+  const listItem =
+    document.createElement("li");
 
   listItem.className = "roster-player";
 
-  const classColor = getClassColor(normalizedPlayer.class);
+  const classColor =
+    getClassColor(normalizedPlayer.class);
+
   const details = [];
 
   if (normalizedPlayer.spec) {
@@ -78,7 +107,8 @@ function createRosterPlayerElement(player) {
     details.push(normalizedPlayer.realm);
   }
 
-  const detailText = details.join(" · ");
+  const detailText =
+    details.join(" · ");
 
   const reportText =
     normalizedPlayer.reports !== null
@@ -122,7 +152,8 @@ function createRosterPlayerElement(player) {
 }
 
 function renderRosterList(elementId, players) {
-  const rosterList = document.getElementById(elementId);
+  const rosterList =
+    document.getElementById(elementId);
 
   if (!rosterList) {
     return;
@@ -130,11 +161,16 @@ function renderRosterList(elementId, players) {
 
   rosterList.innerHTML = "";
 
-  if (!Array.isArray(players) || players.length === 0) {
-    const emptyItem = document.createElement("li");
+  if (
+    !Array.isArray(players) ||
+    players.length === 0
+  ) {
+    const emptyItem =
+      document.createElement("li");
 
     emptyItem.className = "roster-empty";
-    emptyItem.textContent = "No active players found";
+    emptyItem.textContent =
+      "No active players found";
 
     rosterList.appendChild(emptyItem);
     return;
@@ -176,11 +212,13 @@ function showGuildNotFound() {
     );
 
   if (guildName) {
-    guildName.textContent = "Guild Not Found";
+    guildName.textContent =
+      "Guild Not Found";
   }
 
   if (breadcrumb) {
-    breadcrumb.textContent = "Guild Not Found";
+    breadcrumb.textContent =
+      "Guild Not Found";
   }
 
   renderRoster({
@@ -194,18 +232,19 @@ if (!guildId) {
   showGuildNotFound();
 } else {
   Promise.all([
-    fetch(`./data/guilds/${guildId}.json`).then(
-      response => {
+    fetch(`./data/guilds/${guildId}.json`)
+      .then(response => {
         if (!response.ok) {
-          throw new Error("Guild JSON not found");
+          throw new Error(
+            "Guild JSON not found"
+          );
         }
 
         return response.json();
-      }
-    ),
+      }),
 
-    fetch("./data/raid-tiers.json").then(
-      response => {
+    fetch("./data/raid-tiers.json")
+      .then(response => {
         if (!response.ok) {
           throw new Error(
             "Raid tiers JSON not found"
@@ -213,8 +252,7 @@ if (!guildId) {
         }
 
         return response.json();
-      }
-    )
+      })
   ])
     .then(([guild, raidTiers]) => {
       document.getElementById(
@@ -227,33 +265,41 @@ if (!guildId) {
 
       document.getElementById(
         "rank1Wins"
-      ).textContent = guild.rank1Wins ?? 0;
+      ).textContent =
+        guild.rank1Wins ?? 0;
 
       document.getElementById(
         "rank2Wins"
-      ).textContent = guild.rank2Wins ?? 0;
+      ).textContent =
+        guild.rank2Wins ?? 0;
 
       document.getElementById(
         "rank3Wins"
-      ).textContent = guild.rank3Wins ?? 0;
+      ).textContent =
+        guild.rank3Wins ?? 0;
 
       document.getElementById(
         "guildEstablished"
       ).textContent =
-        guild.established || "Date placeholder";
+        guild.established ||
+        "Date placeholder";
 
       document.getElementById(
         "weeklySchedule"
       ).textContent =
-        guild.weeklySchedule || "Days placeholder";
+        guild.weeklySchedule ||
+        "Days placeholder";
 
       document.getElementById(
         "RaidTimes"
       ).textContent =
-        guild.RaidTimes || "Time placeholder";
+        guild.RaidTimes ||
+        "Time placeholder";
 
       const logoBox =
-        document.getElementById("guildLogo");
+        document.getElementById(
+          "guildLogo"
+        );
 
       if (guild.logo && logoBox) {
         logoBox.innerHTML = `
@@ -265,7 +311,9 @@ if (!guildId) {
       }
 
       const expansionGrid =
-        document.getElementById("expansionGrid");
+        document.getElementById(
+          "expansionGrid"
+        );
 
       if (expansionGrid) {
         expansionGrid.innerHTML = "";
@@ -274,56 +322,63 @@ if (!guildId) {
           const card =
             document.createElement("div");
 
-          card.className = "expansion-card";
+          card.className =
+            "expansion-card";
 
           let tierRows = "";
 
           expansion.tiers.forEach(tier => {
             const tierRank =
-  guild.tierRanks && guild.tierRanks[tier]
-    ? guild.tierRanks[tier]
-    : {
-        progress: "-",
-        WR: "-",
-        GR: "-"
-      };
+              guild.tierRanks &&
+              guild.tierRanks[tier]
+                ? guild.tierRanks[tier]
+                : {
+                    progress: "-",
+                    WR: "-",
+                    GR: "-"
+                  };
 
-const progress = tierRank.progress || "-";
+            const progress =
+              tierRank.progress || "-";
 
-let progressClass = "";
+            tierRows += `
+              <div class="raid-history-row">
+                <span class="raid-history-name">
+                  ${escapeHtml(tier)}
+                </span>
 
-if (progress.endsWith("M")) {
-  progressClass = "progress-mythic";
-} else if (progress.endsWith("H")) {
-  progressClass = "progress-heroic";
-}
+                <span
+                  class="raid-history-progress ${getProgressClass(progress)}"
+                >
+                  ${escapeHtml(progress)}
+                </span>
 
-tierRows += `
-<div class="raid-tier">
+                <span class="raid-history-rank">
+                  ${escapeHtml(tierRank.WR)}
+                </span>
 
-    <span class="raid-name">
-        ${tier}
-    </span>
-
-    <span class="raid-progress ${getProgressClass(tierRank.progress)}">
-        ${tierRank.progress}
-    </span>
-
-    <span class="raid-rank">
-        WR: ${tierRank.WR}
-    </span>
-
-    <span class="raid-rank">
-        GR: ${tierRank.GR}
-    </span>
-
-</div>
-`;
+                <span class="raid-history-rank">
+                  ${escapeHtml(tierRank.GR)}
+                </span>
+              </div>
+            `;
           });
 
           card.innerHTML = `
-            <h3>${escapeHtml(expansion.title)}</h3>
-            ${tierRows}
+            <h3>
+              ${escapeHtml(expansion.title)}
+            </h3>
+
+            <div class="raid-history-table">
+              <div class="raid-history-header">
+                <span>Raid</span>
+                <span>Progress</span>
+                <span>WR</span>
+                <span>GR</span>
+              </div>
+
+              ${tierRows}
+            </div>
           `;
 
           expansionGrid.appendChild(card);
