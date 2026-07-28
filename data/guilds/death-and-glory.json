@@ -14,6 +14,11 @@
     "region": "eu",
     "lastUpdated": "2026-07-28T15:33:36.220Z"
   },
+   "warcraftLogs": {
+    "guildName": "Death and Glory",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
   "tierRanks": {
     "T1 (DR, VS, MoQ)": {
       "progress": "9/9 M",
