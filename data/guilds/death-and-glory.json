@@ -2,24 +2,25 @@
   "id": "death-and-glory",
   "name": "Death and Glory",
   "logo": "./assets/guilds/death-and-glory.png",
-
   "rank1Wins": 4,
   "rank2Wins": 0,
   "rank3Wins": 0,
-
   "established": "2007",
   "weeklySchedule": "Τετάρτη-Πέμπτη-Δευτέρα",
   "RaidTimes": "20:00-23:30 Ελλάδας",
-
   "raiderIO": {
-    "profileUrl": "",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": ""
+    "lastUpdated": "2026-07-28T15:33:36.220Z"
   },
-
-  "tierRanks": {},
-
+  "tierRanks": {
+    "T1 (DR, VS, MoQ)": {
+      "progress": "9/9 M",
+      "WR": "401",
+      "GR": "-"
+    }
+  },
   "roster": {
     "tanks": [],
     "healers": [],
