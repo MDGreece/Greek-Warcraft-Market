@@ -540,3 +540,50 @@ nav a.active {
     color: #1eff00;
     font-weight: bold;
 }
+.roster-player {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.roster-player-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.roster-player-name {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.roster-player-details {
+  margin-top: 3px;
+  color: #aeb8c7;
+  font-size: 0.8rem;
+}
+
+.roster-player-reports {
+  flex-shrink: 0;
+  color: #8f9bad;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.roster-empty {
+  padding: 10px 12px;
+  color: #8f9bad;
+  font-style: italic;
+}
+
+.roster-column ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
