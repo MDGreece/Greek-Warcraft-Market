@@ -604,3 +604,79 @@ nav a.active {
 .progress-heroic {
   color: #4aa3ff;
 }
+.raid-history-table {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.raid-history-header,
+.raid-history-row {
+  display: grid;
+  grid-template-columns:
+    minmax(150px, 1fr)
+    110px
+    80px
+    80px;
+  align-items: center;
+  gap: 16px;
+}
+
+.raid-history-header {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 204, 0, 0.35);
+  color: #ffcc00;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.raid-history-header span:nth-child(n + 2) {
+  text-align: center;
+}
+
+.raid-history-row {
+  min-height: 48px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.raid-history-row:last-child {
+  border-bottom: none;
+}
+
+.raid-history-name {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.raid-history-progress {
+  text-align: center;
+  font-weight: 700;
+}
+
+.raid-history-rank {
+  text-align: center;
+  color: #ffcc00;
+  font-weight: 700;
+}
+
+.progress-mythic {
+  color: #b366ff;
+}
+
+.progress-heroic {
+  color: #4aa3ff;
+}
+
+@media (max-width: 700px) {
+  .raid-history-header,
+  .raid-history-row {
+    grid-template-columns:
+      minmax(110px, 1fr)
+      80px
+      55px
+      55px;
+    gap: 8px;
+    font-size: 0.82rem;
+  }
+}
