@@ -12,33 +12,33 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-07-28T17:55:27.627Z"
+    "lastUpdated": "2026-07-28T18:28:23.870Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
     "realm": "silvermoon",
     "region": "eu"
   },
- "tierRanks": {
-  "NP": {
-    "progress": "8/8 M",
-    "WR": "438",
-    "GR": "1"
-  },
-  "LoU": {
-    "progress": "8/8 M",
-    "WR": "486",
-    "GR": "1"
-  },
-  "MO": {
-    "progress": "8/8 M",
-    "WR": "488",
-    "GR": "1"
-  },
-  "T1 (DR, VS, MoQ)": {
-    "progress": "9/9 M",
-    "WR": "401",
-    "GR": "1"
+  "tierRanks": {
+    "NP": {
+      "progress": "8/8 M",
+      "WR": "438",
+      "GR": "1"
+    },
+    "LoU": {
+      "progress": "8/8 M",
+      "WR": "486",
+      "GR": "1"
+    },
+    "MO": {
+      "progress": "8/8 M",
+      "WR": "488",
+      "GR": "1"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "9/9 M",
+      "WR": "401",
+      "GR": "1"
     }
   },
   "roster": {
@@ -245,7 +245,7 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-07-28T17:55:32.182Z",
+  "rosterUpdatedAt": "2026-07-28T18:28:28.518Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
