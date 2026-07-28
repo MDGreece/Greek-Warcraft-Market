@@ -299,17 +299,25 @@ if (progress.endsWith("M")) {
 }
 
 tierRows += `
-  <div class="raid-tier">
-    <span class="raid-name">${tier}</span>
+<div class="raid-tier">
 
-    <span class="raid-progress ${progressClass}">
-      ${progress}
+    <span class="raid-name">
+        ${tier}
     </span>
 
-    <span class="raid-rank">WR: ${tierRank.WR}</span>
+    <span class="raid-progress ${getProgressClass(tierRank.progress)}">
+        ${tierRank.progress}
+    </span>
 
-    <span class="raid-rank">GR: ${tierRank.GR}</span>
-  </div>
+    <span class="raid-rank">
+        WR: ${tierRank.WR}
+    </span>
+
+    <span class="raid-rank">
+        GR: ${tierRank.GR}
+    </span>
+
+</div>
 `;
           });
 
