@@ -1,1 +1,137 @@
+[
+  {
+    "id": "character-0001",
+    "playerId": "player-0001",
 
+    "name": "Anadín",
+    "region": "eu",
+    "realm": "Silvermoon",
+    "realmSlug": "silvermoon",
+
+    "class": "",
+    "activeSpec": "",
+    "role": "Healer",
+
+    "level": 80,
+    "itemLevel": null,
+
+    "isMain": true,
+    "isActive": true,
+
+    "guild": {
+      "id": null,
+      "name": null,
+      "realm": "Silvermoon"
+    },
+
+    "mythicPlus": {
+      "score": null,
+      "worldRank": null,
+      "regionRank": null,
+      "realmRank": null
+    },
+
+    "raid": {
+      "progress": null,
+      "difficulty": null
+    },
+
+    "links": {
+      "raiderIo": "https://raider.io/characters/eu/silvermoon/Anad%C3%ADn",
+      "warcraftLogs": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
+      "armory": "https://worldofwarcraft.blizzard.com/en-gb/character/eu/silvermoon/anad%C3%ADn"
+    },
+
+    "lastUpdated": null
+  },
+  {
+    "id": "character-0002",
+    "playerId": "player-0001",
+
+    "name": "Anastria",
+    "region": "eu",
+    "realm": "Silvermoon",
+    "realmSlug": "silvermoon",
+
+    "class": "",
+    "activeSpec": "",
+    "role": "Unknown",
+
+    "level": 80,
+    "itemLevel": null,
+
+    "isMain": false,
+    "isActive": true,
+
+    "guild": {
+      "id": null,
+      "name": null,
+      "realm": "Silvermoon"
+    },
+
+    "mythicPlus": {
+      "score": null,
+      "worldRank": null,
+      "regionRank": null,
+      "realmRank": null
+    },
+
+    "raid": {
+      "progress": null,
+      "difficulty": null
+    },
+
+    "links": {
+      "raiderIo": "https://raider.io/characters/eu/silvermoon/Anastria",
+      "warcraftLogs": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastria",
+      "armory": "https://worldofwarcraft.blizzard.com/en-gb/character/eu/silvermoon/anastria"
+    },
+
+    "lastUpdated": null
+  },
+  {
+    "id": "character-0003",
+    "playerId": "player-0001",
+
+    "name": "Anastrásza",
+    "region": "eu",
+    "realm": "Silvermoon",
+    "realmSlug": "silvermoon",
+
+    "class": "",
+    "activeSpec": "",
+    "role": "Unknown",
+
+    "level": 80,
+    "itemLevel": null,
+
+    "isMain": false,
+    "isActive": true,
+
+    "guild": {
+      "id": null,
+      "name": null,
+      "realm": "Silvermoon"
+    },
+
+    "mythicPlus": {
+      "score": null,
+      "worldRank": null,
+      "regionRank": null,
+      "realmRank": null
+    },
+
+    "raid": {
+      "progress": null,
+      "difficulty": null
+    },
+
+    "links": {
+      "raiderIo": "https://raider.io/characters/eu/silvermoon/Anastr%C3%A1sza",
+      "warcraftLogs": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastr%C3%A1sza",
+      "armory": "https://worldofwarcraft.blizzard.com/en-gb/character/eu/silvermoon/anastr%C3%A1sza"
+    },
+
+    "lastUpdated": null
+  }
+]
