@@ -8,11 +8,31 @@
   "established": "2026",
   "weeklySchedule": "Τετάρτη-Κυριακή-Δευτέρα",
   "RaidTimes": "20:30-00:00 Ελλάδας",
+    "warcraftLogs": {
+    "guildName": "K L I K A",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
   "tierRanks": {
+    "NP": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
     "T1 (DR, VS, MoQ)": {
       "progress": "9/9 M",
       "WR": "784",
-      "GR": "-"
+      "GR": "3"
     }
   },
   "roster": {
