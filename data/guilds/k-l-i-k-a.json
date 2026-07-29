@@ -8,7 +8,7 @@
   "established": "2026",
   "weeklySchedule": "Τετάρτη-Κυριακή-Δευτέρα",
   "RaidTimes": "20:30-00:00 Ελλάδας",
-    "warcraftLogs": {
+  "warcraftLogs": {
     "guildName": "K L I K A",
     "realm": "twisting-nether",
     "region": "eu"
@@ -36,14 +36,145 @@
     }
   },
   "roster": {
-    "tanks": [],
-    "healers": [],
-    "dps": []
+    "tanks": [
+      {
+        "name": "Chenkø",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 2
+      },
+      {
+        "name": "Gigachadapo",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 3
+      },
+      {
+        "name": "Palarenas",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 3
+      }
+    ],
+    "healers": [
+      {
+        "name": "Darkllinè",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 3
+      },
+      {
+        "name": "Mocchii",
+        "realm": "Draenor",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 3
+      },
+      {
+        "name": "Rikkisixx",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 3
+      }
+    ],
+    "dps": [
+      {
+        "name": "Babakita",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Frost",
+        "reports": 3
+      },
+      {
+        "name": "Drepanis",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 3
+      },
+      {
+        "name": "Evôx",
+        "realm": "TwistingNether",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 3
+      },
+      {
+        "name": "Felixshammy",
+        "realm": "Silvermoon",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 3
+      },
+      {
+        "name": "Loxagòs",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 2
+      },
+      {
+        "name": "Luminay",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 3
+      },
+      {
+        "name": "Primohunter",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "Survival",
+        "reports": 2
+      },
+      {
+        "name": "Rvivr",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 3
+      },
+      {
+        "name": "Tigki",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "Survival",
+        "reports": 3
+      },
+      {
+        "name": "Tsamarella",
+        "realm": "TwistingNether",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 3
+      },
+      {
+        "name": "Yükí",
+        "realm": "Ravencrest",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 3
+      }
+    ]
   },
   "raiderIO": {
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-07-28T18:37:02.127Z"
+    "lastUpdated": "2026-07-29T09:41:22.328Z"
+  },
+  "rosterUpdatedAt": "2026-07-29T09:41:30.528Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 818058,
+    "activeDays": 30,
+    "minimumReports": 2,
+    "reportsChecked": 3,
+    "verifiedGuildMembers": 152
   }
 }
