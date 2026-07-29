@@ -6,18 +6,31 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-guild-profiles-main
+  cancel-in-progress: false
+
 jobs:
   update-guild-profiles:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
+      - name: Checkout latest main branch
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Synchronize with latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
+          package-manager-cache: false
 
       - name: Check required files
         run: |
@@ -25,29 +38,63 @@ jobs:
           git branch --show-current
 
           echo ""
+          echo "Current commit:"
+          git log -1 --oneline
+
+          echo ""
           echo "Scripts directory:"
           ls -la scripts
 
           echo ""
-          echo "Checking roster script:"
+          echo "Checking guild profile updater:"
+          if [ -f scripts/update-guild-profiles.js ]; then
+            echo "Guild profile updater exists."
+          else
+            echo "ERROR: scripts/update-guild-profiles.js does not exist."
+            exit 1
+          fi
+
+          echo ""
+          echo "Checking roster updater:"
           if [ -f scripts/update-guild-rosters.js ]; then
-            echo "Roster script exists."
+            echo "Roster updater exists."
           else
             echo "ERROR: scripts/update-guild-rosters.js does not exist."
             exit 1
           fi
 
           echo ""
+          echo "Checking guild profiles directory:"
+          if [ -d data/guilds ]; then
+            ls -la data/guilds
+          else
+            echo "ERROR: data/guilds directory does not exist."
+            exit 1
+          fi
+
+          echo ""
           echo "Checking Death and Glory profile:"
           if [ -f data/guilds/death-and-glory.json ]; then
-            cat data/guilds/death-and-glory.json
+            echo "Death and Glory profile exists."
           else
             echo "ERROR: Death and Glory profile does not exist."
             exit 1
           fi
 
+          echo ""
+          echo "Checking Disobedient profile:"
+          if [ -f data/guilds/disobedient.json ]; then
+            echo "Disobedient profile exists."
+          else
+            echo "ERROR: Disobedient profile does not exist."
+            exit 1
+          fi
+
       - name: Update guild profiles
-        run: node scripts/update-guild-profiles.js
+        run: |
+          echo "Starting guild profile updater..."
+          node scripts/update-guild-profiles.js
+          echo "Guild profile updater finished."
 
       - name: Update active guild rosters
         env:
@@ -70,17 +117,26 @@ jobs:
 
           echo "Roster updater finished."
 
-      - name: Show updated profile
+      - name: Show updated profiles and changes
         run: |
           echo "Updated Death and Glory profile:"
           cat data/guilds/death-and-glory.json
 
           echo ""
-          echo "Git changes:"
-          git diff -- data/guilds/death-and-glory.json
+          echo "Updated Disobedient profile:"
+          cat data/guilds/disobedient.json
+
+          echo ""
+          echo "All changed guild profile files:"
+          git status --short data/guilds
+
+          echo ""
+          echo "Guild profile differences:"
+          git diff -- data/guilds
 
       - name: Commit updated guild profiles
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update guild profiles and active rosters
           file_pattern: data/guilds/*.json
+          branch: main
