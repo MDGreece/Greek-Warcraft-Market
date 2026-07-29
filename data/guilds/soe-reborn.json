@@ -1,0 +1,44 @@
+{
+  "id": "soe-reborn",
+    "name": "SOE Reborn",
+  "logo": "./assets/guilds/SOE.png",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2021",
+  "weeklySchedule": "Τετάρτη - Δευτέρα",
+  "RaidTimes": "22:00-00:30 Ελλάδας",
+    "warcraftLogs": {
+    "guildName": "SOE Reborn",
+    "realm": "Tarren Mill",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "7/8M",
+      "WR": "2442",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "6/8M",
+      "WR": "3053",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "7/8M",
+      "WR": "2442",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    }
+  },
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  }
+ 
+}
