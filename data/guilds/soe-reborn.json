@@ -7,10 +7,10 @@
   "rank3Wins": 0,
   "established": "2021",
   "weeklySchedule": "Τετάρτη - Δευτέρα",
-  "RaidTimes": "22:00-00:30 Ελλάδας",
+  "RaidTimes": "22:00-01:00 Ελλάδας",
     "warcraftLogs": {
     "guildName": "SOE Reborn",
-    "realm": "Tarren Mill",
+    "realm": "tarren-mill",
     "region": "eu"
   },
   "tierRanks": {
