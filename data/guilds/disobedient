@@ -1,0 +1,44 @@
+{
+  "id": "disobedient",
+  "name": "Disobedient",
+  "logo": "./assets/guilds/disobedient-grp1-logo.png",
+  "rank1Wins": 0,
+  "rank2Wins": 4,
+  "rank3Wins": 0,
+  "established": "2020",
+  "weeklySchedule": "Δευτέρα - Τετάρτη",
+  "RaidTimes": "21:30-00:30 Ελλάδας",
+    "warcraftLogs": {
+    "guildName": "Disobedient",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "9/9M",
+      "WR": "732",
+      "GR": "2"
+    },
+    "LoU": {
+      "progress": "9/9M",
+      "WR": "723",
+      "GR": "2"
+    },
+    "MO": {
+      "progress": "9/9M",
+      "WR": "614",
+      "GR": "2"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    }
+  },
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  }
+ 
+}
