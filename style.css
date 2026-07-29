@@ -680,3 +680,344 @@ nav a.active {
     font-size: 0.82rem;
   }
 }
+/* =========================================================
+   PLAYERS PAGE
+   ========================================================= */
+
+.players-page {
+  width: min(1400px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 42px 0 70px;
+}
+
+.players-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 28px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(19, 46, 76, 0.92),
+      rgba(8, 14, 25, 0.96)
+    );
+}
+
+.section-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #61b7ff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.players-hero h1 {
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.players-hero p {
+  max-width: 680px;
+  margin: 0;
+  color: #aebed0;
+  line-height: 1.6;
+}
+
+.players-summary {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.summary-box {
+  min-width: 115px;
+  padding: 18px 20px;
+  border: 1px solid rgba(97, 183, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(5, 12, 22, 0.7);
+  text-align: center;
+}
+
+.summary-number {
+  display: block;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.summary-label {
+  display: block;
+  margin-top: 4px;
+  color: #8fa3b9;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.players-controls {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) 220px 240px;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  background: rgba(10, 18, 30, 0.92);
+}
+
+.players-search-wrapper,
+.players-filter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.players-controls label {
+  color: #9fb0c4;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.players-controls input,
+.players-controls select {
+  min-height: 44px;
+  padding: 0 13px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 8px;
+  outline: none;
+  background: #101a29;
+  color: #ffffff;
+  font: inherit;
+}
+
+.players-controls input:focus,
+.players-controls select:focus {
+  border-color: #4ea9f5;
+  box-shadow: 0 0 0 3px rgba(78, 169, 245, 0.12);
+}
+
+.players-table-section {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  background: rgba(8, 14, 24, 0.94);
+}
+
+.table-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.table-heading h2 {
+  margin: 0 0 5px;
+  color: #ffffff;
+  font-size: 1.15rem;
+}
+
+.table-heading p {
+  margin: 0;
+  color: #8192a6;
+  font-size: 0.9rem;
+}
+
+.players-table-wrapper {
+  overflow-x: auto;
+}
+
+.players-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: collapse;
+}
+
+.players-table th {
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(17, 29, 45, 0.95);
+  color: #8da2b8;
+  font-size: 0.75rem;
+  letter-spacing: 0.7px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.players-table td {
+  padding: 17px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.055);
+  color: #d5deea;
+  vertical-align: middle;
+}
+
+.players-table tbody tr {
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.players-table tbody tr:hover {
+  background: rgba(66, 146, 215, 0.08);
+}
+
+.players-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.player-name-link,
+.main-character-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.player-name-link {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.player-name-link:hover,
+.main-character-link:hover .main-character-name {
+  color: #61b7ff;
+}
+
+.main-character-link {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.main-character-name {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.main-character-class {
+  color: #7f91a5;
+  font-size: 0.78rem;
+}
+
+.player-role-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.player-role-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 8px;
+  border: 1px solid rgba(97, 183, 255, 0.18);
+  border-radius: 999px;
+  background: rgba(97, 183, 255, 0.08);
+  color: #a9d7ff;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
+.character-count {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.recruitment-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-looking {
+  background: rgba(74, 222, 128, 0.13);
+  color: #7bea9f;
+}
+
+.status-open {
+  background: rgba(96, 165, 250, 0.14);
+  color: #8fc5ff;
+}
+
+.status-mythic-plus {
+  background: rgba(192, 132, 252, 0.15);
+  color: #d2a7ff;
+}
+
+.status-closed {
+  background: rgba(148, 163, 184, 0.12);
+  color: #aeb9c8;
+}
+
+.status-unknown {
+  background: rgba(251, 191, 36, 0.12);
+  color: #f4ce65;
+}
+
+.players-message {
+  padding: 40px 20px !important;
+  color: #8fa0b4 !important;
+  text-align: center;
+}
+
+.players-error {
+  color: #ff8b8b !important;
+}
+
+.secondary-text {
+  color: #7f91a5;
+}
+
+.logo {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .players-hero {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .players-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .players-summary {
+    width: 100%;
+  }
+
+  .summary-box {
+    flex: 1;
+  }
+}
+
+@media (max-width: 560px) {
+  .players-page {
+    width: min(100% - 22px, 1400px);
+    padding-top: 24px;
+  }
+
+  .players-hero {
+    padding: 22px;
+  }
+
+  .players-summary {
+    flex-direction: column;
+  }
+}
