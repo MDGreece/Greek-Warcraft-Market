@@ -4,6 +4,7 @@
     "playerId": "player-0001",
 
     "name": "Anadín",
+    "slug": "anadin",
     "region": "eu",
     "realm": "Silvermoon",
     "realmSlug": "silvermoon",
@@ -94,6 +95,7 @@
     "playerId": "player-0001",
 
     "name": "Anastrásza",
+    "slug": "anastrasza",
     "region": "eu",
     "realm": "Silvermoon",
     "realmSlug": "silvermoon",
