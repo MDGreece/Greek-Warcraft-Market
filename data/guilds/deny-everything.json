@@ -1,0 +1,44 @@
+{
+  "id": "deny-everything",
+  "name": "Deny Everything",
+  "logo": "./assets/guilds/deny.png",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2026",
+  "weeklySchedule": "Πέμπτη - Τρίτη",
+  "RaidTimes": "22:00-01:00 Ελλάδας",
+    "warcraftLogs": {
+    "guildName": "Deny Everything",
+    "realm": "tarren-mill",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "-",
+      "WR": "-",
+      "GR": "4"
+    }
+  },
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  }
+ 
+}
