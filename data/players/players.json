@@ -1,1 +1,42 @@
+[
+  {
+    "id": "player-0001",
+    "displayName": "AnaHealz",
+    "mainCharacterId": "character-0001",
+    "primaryGuildId": null,
 
+    "discord": {
+      "username": "",
+      "public": false
+    },
+
+    "battleNet": {
+      "battleTag": "",
+      "public": false
+    },
+
+    "roles": [
+      "Healer"
+    ],
+
+    "languages": [
+      "Greek",
+      "English"
+    ],
+
+    "recruitmentStatus": "unknown",
+
+    "bio": "",
+
+    "characterIds": [
+      "character-0001",
+      "character-0002",
+      "character-0003"
+    ],
+
+    "profileStatus": "active",
+
+    "createdAt": "2026-07-29",
+    "updatedAt": "2026-07-29"
+  }
+]
