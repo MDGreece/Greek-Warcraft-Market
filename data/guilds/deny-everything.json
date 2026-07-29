@@ -8,7 +8,7 @@
   "established": "2026",
   "weeklySchedule": "Πέμπτη - Τρίτη",
   "RaidTimes": "22:00-01:00 Ελλάδας",
-    "warcraftLogs": {
+  "warcraftLogs": {
     "guildName": "Deny Everything",
     "realm": "tarren-mill",
     "region": "eu"
@@ -30,15 +30,179 @@
       "GR": "-"
     },
     "T1 (DR, VS, MoQ)": {
-      "progress": "-",
-      "WR": "-",
+      "progress": "9/9 M",
+      "WR": "1263",
       "GR": "4"
     }
   },
   "roster": {
-    "tanks": [],
-    "healers": [],
-    "dps": []
+    "tanks": [
+      {
+        "name": "Bernokp",
+        "realm": "TarrenMill",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 9
+      },
+      {
+        "name": "Deghinsea",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 9
+      }
+    ],
+    "healers": [
+      {
+        "name": "Adiavastos",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 8
+      },
+      {
+        "name": "Anadín",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 4
+      },
+      {
+        "name": "Darkfäiry",
+        "realm": "Stormscale",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 9
+      },
+      {
+        "name": "Elgatzol",
+        "realm": "Silvermoon",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 8
+      },
+      {
+        "name": "Okeanios",
+        "realm": "TarrenMill",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 7
+      }
+    ],
+    "dps": [
+      {
+        "name": "Anáftra",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 9
+      },
+      {
+        "name": "Balthour",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 7
+      },
+      {
+        "name": "Belicita",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 9
+      },
+      {
+        "name": "Darkmatterdh",
+        "realm": "TarrenMill",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 7
+      },
+      {
+        "name": "Fotinator",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 8
+      },
+      {
+        "name": "Gnolis",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 7
+      },
+      {
+        "name": "Grandpanic",
+        "realm": "Ravencrest",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 9
+      },
+      {
+        "name": "Johnisplay",
+        "realm": "TarrenMill",
+        "class": "Shaman",
+        "spec": "Enhancement",
+        "reports": 5
+      },
+      {
+        "name": "Kapptech",
+        "realm": "TarrenMill",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 7
+      },
+      {
+        "name": "Kavleè",
+        "realm": "TarrenMill",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 6
+      },
+      {
+        "name": "Pioupiouu",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 9
+      },
+      {
+        "name": "Synodus",
+        "realm": "Quel'Thalas",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 9
+      },
+      {
+        "name": "Xabock",
+        "realm": "Dentarg",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 8
+      },
+      {
+        "name": "Xitzaaz",
+        "realm": "TarrenMill",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 6
+      }
+    ]
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
+    "realm": "tarren-mill",
+    "region": "eu",
+    "lastUpdated": "2026-07-29T11:08:45.197Z"
+  },
+  "rosterUpdatedAt": "2026-07-29T11:08:56.983Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 805922,
+    "activeDays": 30,
+    "minimumReports": 2,
+    "reportsChecked": 9,
+    "verifiedGuildMembers": 279
   }
- 
 }
