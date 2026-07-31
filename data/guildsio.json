@@ -202,7 +202,7 @@
           "realm": 77
         },
         "mythic": {
-          "world": 1931,
+          "world": 1934,
           "region": 909,
           "realm": 91
         }
@@ -302,12 +302,12 @@
           "realm": 199
         },
         "heroic": {
-          "world": 12849,
+          "world": 12852,
           "region": 5777,
           "realm": 305
         },
         "mythic": {
-          "world": 4740,
+          "world": 4741,
           "region": 2103,
           "realm": 110
         }
@@ -337,12 +337,12 @@
           "realm": 38
         },
         "heroic": {
-          "world": 12159,
+          "world": 12162,
           "region": 5384,
           "realm": 174
         },
         "mythic": {
-          "world": 4969,
+          "world": 4970,
           "region": 2232,
           "realm": 116
         }
@@ -372,12 +372,12 @@
           "realm": 337
         },
         "heroic": {
-          "world": 13332,
+          "world": 13335,
           "region": 5919,
           "realm": 318
         },
         "mythic": {
-          "world": 5013,
+          "world": 5014,
           "region": 2242,
           "realm": 119
         }
@@ -407,12 +407,12 @@
           "realm": 64
         },
         "heroic": {
-          "world": 12592,
+          "world": 12595,
           "region": 5624,
           "realm": 134
         },
         "mythic": {
-          "world": 5170,
+          "world": 5171,
           "region": 2281,
           "realm": 66
         }
@@ -442,7 +442,7 @@
           "realm": 260
         },
         "heroic": {
-          "world": 12545,
+          "world": 12548,
           "region": 5594,
           "realm": 295
         },
@@ -450,6 +450,41 @@
           "world": 5733,
           "region": 2567,
           "realm": 144
+        }
+      }
+    }
+  },
+  {
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "4/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 4
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 2482,
+          "region": 1004,
+          "realm": 34
+        },
+        "heroic": {
+          "world": 8176,
+          "region": 3743,
+          "realm": 142
+        },
+        "mythic": {
+          "world": 6385,
+          "region": 2799,
+          "realm": 138
         }
       }
     }
@@ -477,12 +512,12 @@
           "realm": 44
         },
         "heroic": {
-          "world": 12307,
+          "world": 12310,
           "region": 5461,
           "realm": 73
         },
         "mythic": {
-          "world": 7842,
+          "world": 7843,
           "region": 3364,
           "realm": 50
         }
@@ -722,7 +757,7 @@
           "realm": 203
         },
         "heroic": {
-          "world": 12873,
+          "world": 12876,
           "region": 5789,
           "realm": 185
         },

@@ -82,7 +82,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1931,
+    "worldRank": 1934,
     "source": "raiderio"
   },
   {
@@ -146,7 +146,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4740,
+    "worldRank": 4741,
     "source": "raiderio"
   },
   {
@@ -158,7 +158,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4969,
+    "worldRank": 4970,
     "source": "raiderio"
   },
   {
@@ -170,7 +170,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5013,
+    "worldRank": 5014,
     "source": "raiderio"
   },
   {
@@ -182,11 +182,23 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5170,
+    "worldRank": 5171,
     "source": "raiderio"
   },
   {
     "rank": 16,
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "progress": "4/9M",
+    "bossProg": "7.16% Fallen-King Salhadaar",
+    "worldRank": 6385,
+    "source": "raiderio"
+  },
+  {
+    "rank": 17,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -198,20 +210,6 @@
     "source": "raiderio"
   },
   {
-    "rank": 17,
-    "id": "dungeon-meta",
-    "name": "Dungeon Meta",
-    "type": "raid-team",
-    "realm": "twisting-nether",
-    "parentGuild": "Dungeon Meta",
-    "progress": "3/9M",
-    "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "G2ZtQfJbYxjrMaky",
-    "latestReportTitle": "VS / DR / MQD"
-  },
-  {
     "rank": 18,
     "id": "myrmidones",
     "name": "Myrmidones",
@@ -220,7 +218,7 @@
     "parentGuild": "",
     "progress": "2/9M",
     "bossProg": "-",
-    "worldRank": 7842,
+    "worldRank": 7843,
     "source": "raiderio"
   },
   {
@@ -304,7 +302,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12873,
+    "worldRank": 12876,
     "source": "raiderio"
   },
   {
