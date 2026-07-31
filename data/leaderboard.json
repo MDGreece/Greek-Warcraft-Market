@@ -61,6 +61,20 @@
   },
   {
     "rank": 6,
+    "id": "disobedient-group-iii",
+    "name": "Disobedient Group III",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "8/9M",
+    "bossProg": "0.06% Midnight Falls",
+    "worldRank": 1753,
+    "source": "warcraftlogs",
+    "latestReport": "HRN3xgrbGKM92XmY",
+    "latestReportTitle": "Lura S01E16"
+  },
+  {
+    "rank": 7,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -68,22 +82,8 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1899,
+    "worldRank": 1922,
     "source": "raiderio"
-  },
-  {
-    "rank": 7,
-    "id": "disobedient-group-iii",
-    "name": "Disobedient Group III",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "8/9M",
-    "bossProg": "8.51% Midnight Falls",
-    "worldRank": 1753,
-    "source": "warcraftlogs",
-    "latestReport": "HRN3xgrbGKM92XmY",
-    "latestReportTitle": "Lura S01E16"
   },
   {
     "rank": 8,
@@ -122,7 +122,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3319,
+    "worldRank": 3322,
     "source": "raiderio"
   },
   {
@@ -134,7 +134,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3479,
+    "worldRank": 3482,
     "source": "raiderio"
   },
   {
@@ -146,7 +146,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4738,
+    "worldRank": 4739,
     "source": "raiderio"
   },
   {
@@ -158,7 +158,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4964,
+    "worldRank": 4965,
     "source": "raiderio"
   },
   {
@@ -170,7 +170,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5008,
+    "worldRank": 5009,
     "source": "raiderio"
   },
   {
@@ -182,7 +182,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5165,
+    "worldRank": 5166,
     "source": "raiderio"
   },
   {
@@ -194,7 +194,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 6384,
+    "worldRank": 6385,
     "source": "raiderio"
   },
   {
@@ -206,7 +206,7 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "61.97% Vaelgor & Ezzorak",
-    "worldRank": 5729,
+    "worldRank": 5730,
     "source": "raiderio"
   },
   {
@@ -218,7 +218,7 @@
     "parentGuild": "",
     "progress": "2/9M",
     "bossProg": "-",
-    "worldRank": 7841,
+    "worldRank": 7842,
     "source": "raiderio"
   },
   {
@@ -230,7 +230,7 @@
     "parentGuild": "",
     "progress": "1/9M",
     "bossProg": "46.98% Vorasius",
-    "worldRank": 8456,
+    "worldRank": 8458,
     "source": "raiderio"
   },
   {
@@ -242,7 +242,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 8877,
+    "worldRank": 8880,
     "source": "raiderio"
   },
   {
@@ -266,7 +266,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8870,
+    "worldRank": 8873,
     "source": "raiderio"
   },
   {
@@ -278,7 +278,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 8945,
+    "worldRank": 8949,
     "source": "raiderio"
   },
   {
@@ -290,7 +290,7 @@
     "parentGuild": "",
     "progress": "9/9H",
     "bossProg": "-",
-    "worldRank": 9175,
+    "worldRank": 9177,
     "source": "raiderio"
   },
   {
@@ -302,7 +302,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12867,
+    "worldRank": 12872,
     "source": "raiderio"
   },
   {
