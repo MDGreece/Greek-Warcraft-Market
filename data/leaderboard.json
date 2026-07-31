@@ -82,7 +82,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1922,
+    "worldRank": 1931,
     "source": "raiderio"
   },
   {
@@ -122,7 +122,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3322,
+    "worldRank": 3323,
     "source": "raiderio"
   },
   {
@@ -134,7 +134,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3482,
+    "worldRank": 3483,
     "source": "raiderio"
   },
   {
@@ -146,7 +146,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4739,
+    "worldRank": 4740,
     "source": "raiderio"
   },
   {
@@ -158,7 +158,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4965,
+    "worldRank": 4969,
     "source": "raiderio"
   },
   {
@@ -170,7 +170,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5009,
+    "worldRank": 5013,
     "source": "raiderio"
   },
   {
@@ -182,23 +182,11 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5166,
+    "worldRank": 5170,
     "source": "raiderio"
   },
   {
     "rank": 16,
-    "id": "dungeon-meta",
-    "name": "Dungeon Meta",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "progress": "4/9M",
-    "bossProg": "7.16% Fallen-King Salhadaar",
-    "worldRank": 6385,
-    "source": "raiderio"
-  },
-  {
-    "rank": 17,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -206,8 +194,22 @@
     "parentGuild": "",
     "progress": "4/9M",
     "bossProg": "61.97% Vaelgor & Ezzorak",
-    "worldRank": 5730,
+    "worldRank": 5733,
     "source": "raiderio"
+  },
+  {
+    "rank": 17,
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "type": "raid-team",
+    "realm": "twisting-nether",
+    "parentGuild": "Dungeon Meta",
+    "progress": "3/9M",
+    "bossProg": "7.16% Fallen-King Salhadaar",
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "G2ZtQfJbYxjrMaky",
+    "latestReportTitle": "VS / DR / MQD"
   },
   {
     "rank": 18,
@@ -302,7 +304,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12872,
+    "worldRank": 12873,
     "source": "raiderio"
   },
   {
