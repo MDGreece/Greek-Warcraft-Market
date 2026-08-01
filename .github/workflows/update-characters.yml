@@ -32,9 +32,12 @@ jobs:
         with:
           node-version: 24
 
-      - name: Run character updater
+      - name: Collect roster characters
         run: node scripts/update-characters.js
-        
+
+      - name: Enrich characters from Raider.IO
+        run: node scripts/update-character-data.js
+
       - name: Commit character data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
