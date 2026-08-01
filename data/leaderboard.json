@@ -37,6 +37,20 @@
   },
   {
     "rank": 4,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "CE",
+    "bossProg": "CE",
+    "worldRank": 1102,
+    "source": "warcraftlogs",
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
+  },
+  {
+    "rank": 5,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -48,7 +62,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -60,7 +74,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 6,
+    "rank": 7,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -74,7 +88,7 @@
     "latestReportTitle": "Lura S01E16"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -84,20 +98,6 @@
     "bossProg": "7.70% Midnight Falls",
     "worldRank": 1949,
     "source": "raiderio"
-  },
-  {
-    "rank": 8,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "8/9M",
-    "bossProg": "CE Midnight Falls",
-    "worldRank": 1102,
-    "source": "warcraftlogs",
-    "latestReport": "Cn7bMytm8RpdKaqJ",
-    "latestReportTitle": "Mythic"
   },
   {
     "rank": 9,
