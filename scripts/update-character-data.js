@@ -6,11 +6,55 @@ const outputPath = "data/characters/characters.json";
 
 const REQUEST_DELAY_MS = 350;
 const MAX_RETRIES = 4;
+const CURRENT_TIER_TOTAL_BOSSES = 9;
 
 /*
- * Raider.IO allows up to 200 unauthenticated API requests per minute.
- * A small delay plus retry/backoff helps prevent HTTP 429 errors.
+ * Known possible Raider.IO keys/names for the combined
+ * Midnight launch tier: VS / DR / MQD.
+ *
+ * The total-boss check provides an additional fallback if
+ * Raider.IO changes the displayed name but still returns 9 bosses.
  */
+const CURRENT_TIER_KEYS = new Set([
+  "midnight-tier-1",
+  "tier-mn-1",
+  "mn-tier-1"
+]);
+
+const CURRENT_TIER_MARKERS = [
+  "vs / dr / mqd",
+  "vs/dr/mqd",
+  "voidspire",
+  "dreamrift",
+  "march on quel",
+  "midnight tier 1",
+  "midnight-tier-1",
+  "tier-mn-1"
+];
+
+const EXCLUDED_RAID_MARKERS = [
+  "sporefall",
+  "rotmire"
+];
+
+const REALM_ALIASES = {
+  twistingnether: "twisting-nether",
+  tarrenmill: "tarren-mill",
+  argentdawn: "argent-dawn",
+  burninglegion: "burning-legion",
+  chamberofaspects: "chamber-of-aspects",
+  defiasbrotherhood: "defias-brotherhood",
+  emeralddream: "emerald-dream",
+  grimbatol: "grim-batol",
+  lightningsblade: "lightnings-blade",
+  ravencrest: "ravencrest",
+  silvermoon: "silvermoon",
+  stormscale: "stormscale",
+  sylvanas: "sylvanas",
+  draenor: "draenor",
+  genjuros: "genjuros",
+  kazzak: "kazzak"
+};
 
 function readJson(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -36,33 +80,6 @@ function normalizeRegion(region) {
   );
 }
 
-/*
- * Produces a Raider.IO-compatible realm slug.
- *
- * Examples:
- * Twisting Nether -> twisting-nether
- * twistingnether  -> twisting-nether, using the aliases below
- */
-
-const REALM_ALIASES = {
-  twistingnether: "twisting-nether",
-  tarrenmill: "tarren-mill",
-  argentdawn: "argent-dawn",
-  burninglegion: "burning-legion",
-  chamberofaspects: "chamber-of-aspects",
-  defiasbrotherhood: "defias-brotherhood",
-  emeraldDream: "emerald-dream",
-  grimBatol: "grim-batol",
-  kazzak: "kazzak",
-  lightningsblade: "lightnings-blade",
-  ravencrest: "ravencrest",
-  silvermoon: "silvermoon",
-  stormscale: "stormscale",
-  sylvanas: "sylvanas",
-  draenor: "draenor",
-  genjuros: "genjuros"
-};
-
 function normalizeRealm(realm) {
   const original = String(realm || "")
     .trim()
@@ -84,6 +101,15 @@ function normalizeRealm(realm) {
     .replace(/[_\s]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+function normalizeText(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, "");
 }
 
 function encodePathPart(value) {
@@ -162,8 +188,7 @@ async function fetchJson(url, attempt = 1) {
   const response = await fetch(url, {
     headers: {
       Accept: "application/json",
-      "User-Agent":
-        "Greek-Warcraft-Market/1.0"
+      "User-Agent": "Greek-Warcraft-Market/1.0"
     }
   });
 
@@ -229,11 +254,8 @@ function getCurrentSeasonScore(profile) {
     return null;
   }
 
-  const currentSeason =
-    seasons[0];
-
   const score =
-    currentSeason?.scores?.all;
+    seasons[0]?.scores?.all;
 
   if (typeof score !== "number") {
     return null;
@@ -258,21 +280,6 @@ function getRaidEntries(profile) {
       const totalBosses =
         Number(raid?.total_bosses) || 0;
 
-      const mythicKills =
-        Number(
-          raid?.mythic_bosses_killed
-        ) || 0;
-
-      const heroicKills =
-        Number(
-          raid?.heroic_bosses_killed
-        ) || 0;
-
-      const normalKills =
-        Number(
-          raid?.normal_bosses_killed
-        ) || 0;
-
       return {
         raidKey,
 
@@ -282,9 +289,21 @@ function getRaidEntries(profile) {
           raidKey,
 
         totalBosses,
-        mythicKills,
-        heroicKills,
-        normalKills
+
+        mythicKills:
+          Number(
+            raid?.mythic_bosses_killed
+          ) || 0,
+
+        heroicKills:
+          Number(
+            raid?.heroic_bosses_killed
+          ) || 0,
+
+        normalKills:
+          Number(
+            raid?.normal_bosses_killed
+          ) || 0
       };
     })
     .filter(raid =>
@@ -292,147 +311,245 @@ function getRaidEntries(profile) {
     );
 }
 
-function getRaidScore(raid) {
-  if (
-    raid.mythicKills >=
-      raid.totalBosses &&
-    raid.totalBosses > 0
-  ) {
-    return 400000;
-  }
-
-  if (raid.mythicKills > 0) {
-    return (
-      300000 +
-      raid.mythicKills
-    );
-  }
-
-  if (
-    raid.heroicKills >=
-      raid.totalBosses &&
-    raid.totalBosses > 0
-  ) {
-    return 250000;
-  }
-
-  if (raid.heroicKills > 0) {
-    return (
-      200000 +
-      raid.heroicKills
-    );
-  }
-
-  if (raid.normalKills > 0) {
-    return (
-      100000 +
-      raid.normalKills
-    );
-  }
-
-  return 0;
-}
-
-function selectHighestRaidProgress(profile) {
-  const raids =
-    getRaidEntries(profile);
-
-  if (raids.length === 0) {
-    return {
-      raidKey: "",
-      raidName: "",
-      raidProgress: "-",
-      achievement: "-",
-      difficulty: "",
-      kills: 0,
-      totalBosses: 0
-    };
-  }
-
-  const sortedRaids = [...raids].sort(
-    (a, b) =>
-      getRaidScore(b) -
-      getRaidScore(a)
+function isExcludedRaid(raid) {
+  const searchableText = normalizeText(
+    `${raid.raidKey} ${raid.raidName}`
   );
 
-  const highestRaid =
-    sortedRaids[0];
+  return EXCLUDED_RAID_MARKERS.some(
+    marker => searchableText.includes(marker)
+  );
+}
 
-  const {
-    raidKey,
-    raidName,
-    totalBosses,
-    mythicKills,
-    heroicKills,
-    normalKills
-  } = highestRaid;
+function getCurrentTierMatchScore(raid) {
+  if (isExcludedRaid(raid)) {
+    return -1;
+  }
 
+  const normalizedKey =
+    normalizeText(raid.raidKey);
+
+  const searchableText =
+    normalizeText(
+      `${raid.raidKey} ${raid.raidName}`
+    );
+
+  let score = 0;
+
+  if (CURRENT_TIER_KEYS.has(normalizedKey)) {
+    score += 1000;
+  }
+
+  for (const marker of CURRENT_TIER_MARKERS) {
+    if (searchableText.includes(marker)) {
+      score += 200;
+    }
+  }
+
+  if (
+    raid.totalBosses ===
+    CURRENT_TIER_TOTAL_BOSSES
+  ) {
+    score += 100;
+  }
+
+  /*
+   * Avoid selecting unrelated older nine-boss raids solely
+   * because they also contain nine encounters.
+   *
+   * A nine-boss fallback is accepted only when the raid has
+   * some current character progress.
+   */
+  const hasProgress =
+    raid.mythicKills > 0 ||
+    raid.heroicKills > 0 ||
+    raid.normalKills > 0;
+
+  if (
+    score === 100 &&
+    !hasProgress
+  ) {
+    return 0;
+  }
+
+  return score;
+}
+
+function findCurrentTierRaid(profile) {
+  const raids = getRaidEntries(profile);
+
+  const candidates = raids
+    .map(raid => ({
+      raid,
+      matchScore:
+        getCurrentTierMatchScore(raid)
+    }))
+    .filter(candidate =>
+      candidate.matchScore > 0
+    )
+    .sort((a, b) => {
+      if (
+        b.matchScore !==
+        a.matchScore
+      ) {
+        return (
+          b.matchScore -
+          a.matchScore
+        );
+      }
+
+      /*
+       * If duplicate representations of the same tier exist,
+       * prefer the entry with more Mythic, Heroic and Normal
+       * progress in that order.
+       */
+      if (
+        b.raid.mythicKills !==
+        a.raid.mythicKills
+      ) {
+        return (
+          b.raid.mythicKills -
+          a.raid.mythicKills
+        );
+      }
+
+      if (
+        b.raid.heroicKills !==
+        a.raid.heroicKills
+      ) {
+        return (
+          b.raid.heroicKills -
+          a.raid.heroicKills
+        );
+      }
+
+      return (
+        b.raid.normalKills -
+        a.raid.normalKills
+      );
+    });
+
+  return candidates[0]?.raid || null;
+}
+
+function createEmptyRaidProgress() {
+  return {
+    raidKey: "",
+    raidName: "",
+    raidProgress: "-",
+    achievement: "-",
+    difficulty: "",
+    kills: 0,
+    totalBosses:
+      CURRENT_TIER_TOTAL_BOSSES
+  };
+}
+
+function selectCurrentTierProgress(profile) {
+  const raid =
+    findCurrentTierRaid(profile);
+
+  if (!raid) {
+    return createEmptyRaidProgress();
+  }
+
+  const mythicKills = Math.min(
+    Math.max(raid.mythicKills, 0),
+    CURRENT_TIER_TOTAL_BOSSES
+  );
+
+  const heroicKills = Math.min(
+    Math.max(raid.heroicKills, 0),
+    CURRENT_TIER_TOTAL_BOSSES
+  );
+
+  const normalKills = Math.min(
+    Math.max(raid.normalKills, 0),
+    CURRENT_TIER_TOTAL_BOSSES
+  );
+
+  /*
+   * Always use the highest difficulty with at least one kill.
+   *
+   * 5/9M plus 9/9H displays 5/9M.
+   * 0/9M plus 9/9H displays 9/9H and AotC.
+   */
   if (mythicKills > 0) {
-    const earnedCE =
-      mythicKills >= totalBosses;
+    const hasLuraKill =
+      mythicKills ===
+      CURRENT_TIER_TOTAL_BOSSES;
 
     return {
-      raidKey,
-      raidName,
+      raidKey: raid.raidKey,
+      raidName: raid.raidName,
 
       raidProgress:
         `${mythicKills}/` +
-        `${totalBosses}M`,
+        `${CURRENT_TIER_TOTAL_BOSSES}M`,
 
       achievement:
-        earnedCE ? "CE" : "-",
+        hasLuraKill ? "CE" : "-",
 
       difficulty: "Mythic",
       kills: mythicKills,
-      totalBosses
+
+      totalBosses:
+        CURRENT_TIER_TOTAL_BOSSES
     };
   }
 
   if (heroicKills > 0) {
-    const earnedAotC =
-      heroicKills >= totalBosses;
+    const hasAotC =
+      heroicKills ===
+      CURRENT_TIER_TOTAL_BOSSES;
 
     return {
-      raidKey,
-      raidName,
+      raidKey: raid.raidKey,
+      raidName: raid.raidName,
 
       raidProgress:
         `${heroicKills}/` +
-        `${totalBosses}H`,
+        `${CURRENT_TIER_TOTAL_BOSSES}H`,
 
       achievement:
-        earnedAotC ? "AotC" : "-",
+        hasAotC ? "AotC" : "-",
 
       difficulty: "Heroic",
       kills: heroicKills,
-      totalBosses
+
+      totalBosses:
+        CURRENT_TIER_TOTAL_BOSSES
     };
   }
 
   if (normalKills > 0) {
     return {
-      raidKey,
-      raidName,
+      raidKey: raid.raidKey,
+      raidName: raid.raidName,
 
       raidProgress:
         `${normalKills}/` +
-        `${totalBosses}N`,
+        `${CURRENT_TIER_TOTAL_BOSSES}N`,
 
       achievement: "-",
       difficulty: "Normal",
       kills: normalKills,
-      totalBosses
+
+      totalBosses:
+        CURRENT_TIER_TOTAL_BOSSES
     };
   }
 
   return {
-    raidKey,
-    raidName,
+    raidKey: raid.raidKey,
+    raidName: raid.raidName,
     raidProgress: "-",
     achievement: "-",
     difficulty: "",
     kills: 0,
-    totalBosses
+
+    totalBosses:
+      CURRENT_TIER_TOTAL_BOSSES
   };
 }
 
@@ -454,10 +571,9 @@ function getCurrentGuild(profile) {
 }
 
 function normalizeRole(role) {
-  const normalized =
-    String(role || "")
-      .trim()
-      .toLowerCase();
+  const normalized = String(role || "")
+    .trim()
+    .toLowerCase();
 
   if (
     normalized === "tank" ||
@@ -475,7 +591,7 @@ function buildUpdatedCharacter(
   profile
 ) {
   const raid =
-    selectHighestRaidProgress(profile);
+    selectCurrentTierProgress(profile);
 
   const now =
     new Date().toISOString();
@@ -495,7 +611,7 @@ function buildUpdatedCharacter(
   const currentGuild =
     getCurrentGuild(profile);
 
-  const profileCharacter = {
+  return {
     ...character,
 
     name:
@@ -522,19 +638,13 @@ function buildUpdatedCharacter(
       ),
 
     /*
-     * This field is the character's current
-     * Raider.IO/Blizzard guild.
-     *
-     * It intentionally replaces the old
-     * roster guild, so build-free-agents.js
-     * can determine whether the character
-     * is still in a tracked Greek guild.
+     * Current live guild from Raider.IO.
+     * This is used by build-free-agents.js.
      */
     guild: currentGuild,
 
     /*
-     * Keep the last roster/team source
-     * separately.
+     * Preserve the original tracked roster guild separately.
      */
     trackedGuild:
       character.trackedGuild ||
@@ -629,8 +739,6 @@ function buildUpdatedCharacter(
     lastSuccessfulUpdateAt: now,
     updatedAt: now
   };
-
-  return profileCharacter;
 }
 
 function buildMissingCharacter(
@@ -675,8 +783,7 @@ async function updateCharacter(
   total
 ) {
   const label =
-    `${character.name}-` +
-    `${character.realm}`;
+    `${character.name}-${character.realm}`;
 
   console.log(
     `[${index + 1}/${total}] ` +
@@ -702,7 +809,8 @@ async function updateCharacter(
       `${updatedCharacter.class || "-"}, ` +
       `guild=${updatedCharacter.guild || "Guildless"}, ` +
       `M+=${updatedCharacter.mythicPlusScore ?? "-"}, ` +
-      `raid=${updatedCharacter.raidProgress}`
+      `raid=${updatedCharacter.raidProgress}, ` +
+      `achievement=${updatedCharacter.achievement}`
     );
 
     return updatedCharacter;
@@ -749,6 +857,10 @@ function sortCharacters(characters) {
 async function run() {
   console.log(
     "Starting Raider.IO character updater"
+  );
+
+  console.log(
+    "Raid filter: current 9-boss Midnight tier only"
   );
 
   const characters =
@@ -864,6 +976,18 @@ async function run() {
         "invalid"
     ).length;
 
+  const ceCount =
+    updatedCharacters.filter(
+      character =>
+        character.achievement === "CE"
+    ).length;
+
+  const aotcCount =
+    updatedCharacters.filter(
+      character =>
+        character.achievement === "AotC"
+    ).length;
+
   console.log("");
   console.log(
     "Character enrichment complete"
@@ -887,6 +1011,14 @@ async function run() {
 
   console.log(
     `Invalid records: ${invalid}`
+  );
+
+  console.log(
+    `CE characters: ${ceCount}`
+  );
+
+  console.log(
+    `AotC characters: ${aotcCount}`
   );
 
   console.log(
