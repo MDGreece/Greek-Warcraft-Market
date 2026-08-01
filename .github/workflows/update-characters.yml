@@ -38,11 +38,14 @@ jobs:
       - name: Enrich characters from Raider.IO
         run: node scripts/update-character-data.js
 
+      - name: Build player profiles
+        run: node scripts/build-players.js
+
       - name: Build free agents
         run: node scripts/build-free-agents.js
 
-      - name: Commit character and free-agent data
+      - name: Commit character, player and free-agent data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update characters and free agents
-          file_pattern: data/characters/characters.json data/free-agents.json
+          commit_message: Update characters, players and free agents
+          file_pattern: data/characters/characters.json data/players/players.json data/free-agents.json
