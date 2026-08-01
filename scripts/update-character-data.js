@@ -826,7 +826,165 @@ async function updateCharacter(
     );
   }
 }
+function normalizeCharacterKeyName(name) {
+  return String(name || "")
+    .trim()
+    .toLowerCase()
+    .normalize("NFC");
+}
 
+function createCharacterKey(character) {
+  return [
+    normalizeRegion(character.region),
+    normalizeRealm(character.realm)
+      .replace(/[\s_-]+/g, ""),
+    normalizeCharacterKeyName(character.name)
+  ].join(":");
+}
+
+function getLatestTimestamp(character) {
+  const dates = [
+    character.lastSuccessfulUpdateAt,
+    character.raiderIoUpdatedAt,
+    character.rosterUpdatedAt,
+    character.lastSeenInRosterAt,
+    character.updatedAt
+  ];
+
+  return Math.max(
+    ...dates.map(value => {
+      const timestamp = Date.parse(value || "");
+      return Number.isFinite(timestamp) ? timestamp : 0;
+    })
+  );
+}
+
+function mergeDuplicateCharacters(first, second) {
+  const firstTimestamp = getLatestTimestamp(first);
+  const secondTimestamp = getLatestTimestamp(second);
+
+  const newest =
+    secondTimestamp > firstTimestamp
+      ? second
+      : first;
+
+  const older =
+    newest === first
+      ? second
+      : first;
+
+  return {
+    ...older,
+    ...newest,
+
+    id:
+      newest.id ||
+      older.id,
+
+    name:
+      newest.name ||
+      older.name,
+
+    region:
+      normalizeRegion(
+        newest.region ||
+        older.region
+      ),
+
+    realm:
+      normalizeRealm(
+        newest.realm ||
+        older.realm
+      ),
+
+    class:
+      newest.class ||
+      older.class ||
+      "",
+
+    spec:
+      newest.spec ||
+      older.spec ||
+      "",
+
+    role:
+      newest.role ||
+      older.role ||
+      "",
+
+    guild:
+      newest.guild ||
+      older.guild ||
+      "",
+
+    trackedGuild:
+      newest.trackedGuild ||
+      older.trackedGuild ||
+      "",
+
+    raidGroup:
+      newest.raidGroup ||
+      older.raidGroup ||
+      "",
+
+    raiderIoUrl:
+      newest.raiderIoUrl ||
+      older.raiderIoUrl ||
+      "",
+
+    warcraftLogsUrl:
+      newest.warcraftLogsUrl ||
+      older.warcraftLogsUrl ||
+      "",
+
+    thumbnailUrl:
+      newest.thumbnailUrl ||
+      older.thumbnailUrl ||
+      "",
+
+    firstSeenAt:
+      older.firstSeenAt ||
+      newest.firstSeenAt ||
+      "",
+
+    lastSeenInRosterAt:
+      newest.lastSeenInRosterAt ||
+      older.lastSeenInRosterAt ||
+      "",
+
+    inCurrentRoster:
+      newest.inCurrentRoster === true ||
+      older.inCurrentRoster === true
+  };
+}
+
+function deduplicateCharacters(characters) {
+  const uniqueCharacters = new Map();
+
+  for (const character of characters) {
+    if (!character?.name || !character?.realm) {
+      continue;
+    }
+
+    const key = createCharacterKey(character);
+    const existing = uniqueCharacters.get(key);
+
+    if (!existing) {
+      uniqueCharacters.set(key, character);
+      continue;
+    }
+
+    uniqueCharacters.set(
+      key,
+      mergeDuplicateCharacters(
+        existing,
+        character
+      )
+    );
+  }
+
+  return [...uniqueCharacters.values()];
+}
 function sortCharacters(characters) {
   return characters.sort((a, b) => {
     const nameDifference =
