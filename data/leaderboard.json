@@ -66,6 +66,22 @@
   },
   {
     "rank": 6,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "CE",
+    "bossProg": "No official WR",
+    "worldRank": 999999,
+    "fixedRank": 6,
+    "raceFinished": true,
+    "source": "warcraftlogs",
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
+  },
+  {
+    "rank": 7,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -74,13 +90,14 @@
     "progress": "8/9M",
     "bossProg": "0.06% Midnight Falls",
     "worldRank": 999999,
-    "hasWorldRank": false,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "warcraftlogs",
     "latestReport": "HRN3xgrbGKM92XmY",
     "latestReportTitle": "Lura S01E16"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -93,21 +110,6 @@
     "source": "raiderio"
   },
   {
-    "rank": 8,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "8/9M",
-    "bossProg": "CE Midnight Falls",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "source": "warcraftlogs",
-    "latestReport": "Cn7bMytm8RpdKaqJ",
-    "latestReportTitle": "Mythic"
-  },
-  {
     "rank": 9,
     "id": "amargosa-crew",
     "name": "Amargosa Crew",
@@ -117,7 +119,8 @@
     "progress": "7/9M",
     "bossProg": "15.49% Midnight Falls",
     "worldRank": 999999,
-    "hasWorldRank": false,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "warcraftlogs",
     "latestReport": "cVw9XNBtdmKrbvMz",
     "latestReportTitle": "Mythic-20260730-1"

@@ -15,7 +15,7 @@
     "bestBoss": "Imperator Averzian",
     "latestReport": "QT98f1Y2PJcXytn7",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-08-01T12:51:28.037Z",
+    "updatedAt": "2026-08-01T13:22:20.379Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 21,
     "raidKey": "midnight-tier-1"
@@ -37,7 +37,7 @@
     "latestReport": "cVw9XNBtdmKrbvMz",
     "latestReportTitle": "Mythic-20260730-1",
     "raidZone": "VS / DR / MQD",
-    "updatedAt": "2026-08-01T12:51:46.778Z",
+    "updatedAt": "2026-08-01T13:22:26.129Z",
     "raidKey": "midnight-tier-1",
     "currentRaidReports": 46
   },
@@ -57,7 +57,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:52:06.048Z",
+    "updatedAt": "2026-08-01T13:22:32.145Z",
     "raidZone": "",
     "currentRaidReports": 26,
     "raidKey": "midnight-tier-1"
@@ -78,7 +78,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:52:09.900Z",
+    "updatedAt": "2026-08-01T13:22:33.226Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "midnight-tier-1"
@@ -99,7 +99,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "GrRV2QBD8PLMavNb",
     "latestReportTitle": "reclear",
-    "updatedAt": "2026-08-01T12:52:31.719Z",
+    "updatedAt": "2026-08-01T13:22:39.425Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 50,
     "raidKey": "midnight-tier-1"
@@ -120,7 +120,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "h1T9tzQJamjbGfDk",
     "latestReportTitle": "L'ura Reclear Attempt #2",
-    "updatedAt": "2026-08-01T12:52:51.064Z",
+    "updatedAt": "2026-08-01T13:22:45.541Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 45,
     "raidKey": "midnight-tier-1"
@@ -141,20 +141,20 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "X8v2wFCx7WPJLD1q",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-08-01T12:53:13.004Z",
+    "updatedAt": "2026-08-01T13:22:51.644Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 42,
     "raidKey": "midnight-tier-1"
   },
   {
     "id": "disobedient-group-ii",
-  "name": "Disobedient Group II",
-  "parentGuild": "Disobedient",
-  "warcraftLogsGuildId": 705280,
-  "manual": true,
-  "fixedProgress": "CE",
-  "raceFinished": true,
-  "fixedRank": 6,
+    "name": "Disobedient Group II",
+    "parentGuild": "Disobedient",
+    "warcraftLogsGuildId": 705280,
+    "manual": true,
+    "fixedProgress": "CE",
+    "raceFinished": true,
+    "fixedRank": 6,
     "totalReports": 50,
     "latestReport": "Cn7bMytm8RpdKaqJ",
     "latestReportTitle": "Mythic",
@@ -162,10 +162,12 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 9,
-    "updatedAt": "2026-08-01T12:53:33.745Z",
+    "updatedAt": "2026-08-01T13:22:57.750Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 49,
-    "raidKey": "midnight-tier-1"
+    "raidKey": "midnight-tier-1",
+    "progress": "CE",
+    "bossProg": "CE"
   },
   {
     "id": "disobedient-group-iii",
@@ -182,7 +184,7 @@
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
     "raidKills": 8,
-    "updatedAt": "2026-08-01T12:53:54.282Z",
+    "updatedAt": "2026-08-01T13:23:03.845Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 46,
     "raidKey": "midnight-tier-1"
@@ -203,7 +205,7 @@
     "bestBoss": "Fallen-King Salhadaar",
     "latestReport": "G2ZtQfJbYxjrMaky",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-08-01T12:54:14.667Z",
+    "updatedAt": "2026-08-01T13:23:09.876Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 41,
     "raidKey": "midnight-tier-1"
@@ -224,7 +226,7 @@
     "bestBoss": "Vaelgor & Ezzorak",
     "latestReport": "K82fqZXtR4Cnh9d3",
     "latestReportTitle": "Mythic!",
-    "updatedAt": "2026-08-01T12:54:34.591Z",
+    "updatedAt": "2026-08-01T13:23:15.893Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 26,
     "raidKey": "midnight-tier-1"
@@ -245,7 +247,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:54:53.159Z",
+    "updatedAt": "2026-08-01T13:23:21.872Z",
     "raidZone": "",
     "currentRaidReports": 20,
     "raidKey": "midnight-tier-1"
@@ -266,7 +268,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:55:00.704Z",
+    "updatedAt": "2026-08-01T13:23:24.831Z",
     "raidZone": "",
     "currentRaidReports": 11,
     "raidKey": "midnight-tier-1"
@@ -287,7 +289,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "TDt79YkXJZfHQpNF",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-08-01T12:55:22.183Z",
+    "updatedAt": "2026-08-01T13:23:30.605Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 44,
     "raidKey": "midnight-tier-1"
@@ -308,7 +310,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:55:39.960Z",
+    "updatedAt": "2026-08-01T13:23:36.514Z",
     "raidZone": "",
     "currentRaidReports": 14,
     "raidKey": "midnight-tier-1"
@@ -329,7 +331,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:56:01.612Z",
+    "updatedAt": "2026-08-01T13:23:42.600Z",
     "raidZone": "",
     "currentRaidReports": 14,
     "raidKey": "midnight-tier-1"
@@ -350,7 +352,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:56:01.788Z",
+    "updatedAt": "2026-08-01T13:23:42.708Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "midnight-tier-1"
@@ -371,7 +373,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:56:01.972Z",
+    "updatedAt": "2026-08-01T13:23:42.820Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "midnight-tier-1"
@@ -392,7 +394,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "JWm3XFhQDg1PRTqG",
     "latestReportTitle": "22/7/26",
-    "updatedAt": "2026-08-01T12:56:25.121Z",
+    "updatedAt": "2026-08-01T13:23:49.009Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 44,
     "raidKey": "midnight-tier-1"
@@ -413,7 +415,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:56:42.955Z",
+    "updatedAt": "2026-08-01T13:23:54.921Z",
     "raidZone": "",
     "currentRaidReports": 24,
     "raidKey": "midnight-tier-1"
@@ -434,7 +436,7 @@
     "bestBoss": "Midnight Falls",
     "latestReport": "dJjk8rWY97BzVwb6",
     "latestReportTitle": "Lura v14",
-    "updatedAt": "2026-08-01T12:57:03.165Z",
+    "updatedAt": "2026-08-01T13:24:01.017Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 43,
     "raidKey": "midnight-tier-1"
@@ -455,7 +457,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:57:23.168Z",
+    "updatedAt": "2026-08-01T13:24:07.108Z",
     "raidZone": "",
     "currentRaidReports": 41,
     "raidKey": "midnight-tier-1"
@@ -476,7 +478,7 @@
     "bestBoss": "Chimaerus the Undreamt God",
     "latestReport": "v9m1yQ8hWXAgZC6z",
     "latestReportTitle": "VS / DR / MQD",
-    "updatedAt": "2026-08-01T12:57:42.401Z",
+    "updatedAt": "2026-08-01T13:24:13.093Z",
     "raidZone": "VS / DR / MQD",
     "currentRaidReports": 21,
     "raidKey": "midnight-tier-1"
@@ -497,7 +499,7 @@
     "bestBoss": "Chimaerus the Undreamt God",
     "latestReport": "8xfZPHTyKtmcaLvM",
     "latestReportTitle": "Sporefall",
-    "updatedAt": "2026-08-01T12:57:50.098Z",
+    "updatedAt": "2026-08-01T13:24:15.530Z",
     "raidZone": "Sporefall",
     "currentRaidReports": 15,
     "raidKey": "midnight-tier-1"
@@ -518,7 +520,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:58:02.214Z",
+    "updatedAt": "2026-08-01T13:24:19.147Z",
     "raidZone": "",
     "currentRaidReports": 16,
     "raidKey": "midnight-tier-1"
@@ -539,7 +541,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-01T12:58:21.605Z",
+    "updatedAt": "2026-08-01T13:24:24.966Z",
     "raidZone": "",
     "currentRaidReports": 16,
     "raidKey": "midnight-tier-1"
