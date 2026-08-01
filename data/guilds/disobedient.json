@@ -42,14 +42,14 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Finiarell",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 3
+        "reports": 2
       }
     ],
     "healers": [
@@ -58,13 +58,6 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 3
-      },
-      {
-        "name": "Jeicore",
-        "realm": "TwistingNether",
-        "class": "Priest",
-        "spec": "Discipline",
         "reports": 2
       },
       {
@@ -72,13 +65,6 @@
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 3
-      },
-      {
-        "name": "Seridna",
-        "realm": "TwistingNether",
-        "class": "Evoker",
-        "spec": "Preservation",
         "reports": 2
       },
       {
@@ -86,7 +72,7 @@
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 3
+        "reports": 2
       }
     ],
     "dps": [
@@ -95,28 +81,28 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Balnados",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Bòbba",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Chaykovsky",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Checkdragoon",
@@ -137,49 +123,49 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Raziee",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Shalash",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Sizor",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Soulsx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Trinkyxcute",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 3
+        "reports": 2
       },
       {
         "name": "Yureih",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 2
       }
     ]
   },
@@ -187,15 +173,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-07-29T13:37:29.166Z"
+    "lastUpdated": "2026-08-01T13:54:48.086Z"
   },
-  "rosterUpdatedAt": "2026-07-29T13:37:39.814Z",
+  "rosterUpdatedAt": "2026-08-01T13:55:03.444Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
     "activeDays": 30,
     "minimumReports": 2,
-    "reportsChecked": 4,
-    "verifiedGuildMembers": 893
+    "reportsChecked": 2,
+    "verifiedGuildMembers": 884
   }
 }

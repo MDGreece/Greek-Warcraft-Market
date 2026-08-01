@@ -42,14 +42,14 @@
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Deghinsea",
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 9
+        "reports": 8
       }
     ],
     "healers": [
@@ -58,7 +58,7 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Anadín",
@@ -72,21 +72,21 @@
         "realm": "Stormscale",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Elgatzol",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Okeanios",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 6
       }
     ],
     "dps": [
@@ -95,56 +95,56 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Balthour",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Belicita",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Darkmatterdh",
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Fotinator",
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Gnolis",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Grandpanic",
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Johnisplay",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 5
+        "reports": 4
       },
       {
         "name": "Kapptech",
@@ -158,35 +158,35 @@
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Pioupiouu",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Synodus",
         "realm": "Quel'Thalas",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Xabock",
         "realm": "Dentarg",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Xitzaaz",
         "realm": "TarrenMill",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 6
+        "reports": 5
       }
     ]
   },
@@ -194,15 +194,15 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-07-29T13:37:29.167Z"
+    "lastUpdated": "2026-08-01T13:54:48.087Z"
   },
-  "rosterUpdatedAt": "2026-07-29T13:37:36.813Z",
+  "rosterUpdatedAt": "2026-08-01T13:55:00.551Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 805922,
     "activeDays": 30,
     "minimumReports": 2,
-    "reportsChecked": 9,
+    "reportsChecked": 8,
     "verifiedGuildMembers": 279
   }
 }

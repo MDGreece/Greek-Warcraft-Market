@@ -12,7 +12,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-07-29T13:37:29.165Z"
+    "lastUpdated": "2026-08-01T13:54:48.086Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -48,7 +48,7 @@
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Protection",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Sapioxeris",
@@ -85,7 +85,7 @@
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 4
+        "reports": 2
       },
       {
         "name": "Nekycat",
@@ -115,13 +115,13 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 4
+        "reports": 6
       },
       {
         "name": "Kuedonn",
         "realm": "Silvermoon",
         "class": "Warrior",
-        "spec": "Fury",
+        "spec": "Arms",
         "reports": 7
       },
       {
@@ -129,14 +129,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 8
-      },
-      {
-        "name": "Malthion",
-        "realm": "TwistingNether",
-        "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 2
+        "reports": 6
       },
       {
         "name": "Maounitsa",
@@ -171,7 +164,7 @@
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Quoruxz",
@@ -185,7 +178,7 @@
         "realm": "Silvermoon",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 6
+        "reports": 4
       },
       {
         "name": "Ralêz",
@@ -202,17 +195,10 @@
         "reports": 8
       },
       {
-        "name": "Snrshaman",
-        "realm": "Silvermoon",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 2
-      },
-      {
         "name": "Takuruadh",
         "realm": "Silvermoon",
         "class": "DemonHunter",
-        "spec": "Havoc",
+        "spec": "Devourer",
         "reports": 8
       },
       {
@@ -227,7 +213,7 @@
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 4
+        "reports": 6
       },
       {
         "name": "Xlepa",
@@ -245,13 +231,13 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-07-29T13:37:34.064Z",
+  "rosterUpdatedAt": "2026-08-01T13:54:55.162Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
     "activeDays": 30,
     "minimumReports": 2,
     "reportsChecked": 8,
-    "verifiedGuildMembers": 926
+    "verifiedGuildMembers": 924
   }
 }

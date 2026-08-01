@@ -42,14 +42,14 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Tanchao",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 10
+        "reports": 7
       }
     ],
     "healers": [
@@ -58,28 +58,28 @@
         "realm": "Ravencrest",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 4
       },
       {
         "name": "Dshamtor",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Sreclar",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Toolowpala",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 10
+        "reports": 7
       }
     ],
     "dps": [
@@ -88,119 +88,112 @@
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 5
+        "reports": 2
       },
       {
         "name": "Akaishi",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Astaeer",
         "realm": "Lightning'sBlade",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Draizer",
         "realm": "Outland",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 8
+        "reports": 5
       },
       {
         "name": "Elloon",
         "realm": "Kazzak",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Envyxyo",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Gaby",
         "realm": "Al'Akir",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 9
+        "reports": 7
       },
       {
         "name": "Highcurse",
         "realm": "Kazzak",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 10
-      },
-      {
-        "name": "Howimetmypet",
-        "realm": "Ravencrest",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 9
+        "reports": 7
       },
       {
         "name": "Maralyn",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 9
+        "reports": 6
       },
       {
         "name": "Mínwu",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Fire",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Onlybuffs",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Øuaøua",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Partneas",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 8
+        "reports": 5
       },
       {
         "name": "Pataugia",
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Relikk",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Tubobanned",
         "realm": "Ravencrest",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 4
+        "reports": 2
       }
     ]
   },
@@ -208,15 +201,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-07-29T13:37:29.167Z"
+    "lastUpdated": "2026-08-01T13:54:48.087Z"
   },
-  "rosterUpdatedAt": "2026-07-29T13:37:44.906Z",
+  "rosterUpdatedAt": "2026-08-01T13:55:16.600Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,
     "activeDays": 30,
     "minimumReports": 2,
-    "reportsChecked": 10,
-    "verifiedGuildMembers": 651
+    "reportsChecked": 7,
+    "verifiedGuildMembers": 650
   }
 }
