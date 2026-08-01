@@ -1,0 +1,243 @@
+{
+  "id": "unique-leagcy",
+  "name": "UNIQUE LEGACY",
+  "logo": "./assets/guilds/UL.png",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2023",
+  "weeklySchedule": "Πέμπτη-Δευτέρα",
+  "RaidTimes": "21:30-00:30 Ελλάδας",
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "lastUpdated": "2026-08-01T13:54:48.086Z"
+  },
+  "warcraftLogs": {
+    "guildName": "UNIQUE LEGACY",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "5/8 M",
+      "WR": "4.195",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "5/8 M",
+      "WR": "3.333",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "6/8 M",
+      "WR": "3.845",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "7/9 M",
+      "WR": "3.331",
+      "GR": "10"
+    }
+  },
+  "roster": {
+    "tanks": [
+      {
+        "name": "Killspree",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Protection",
+        "reports": 6
+      },
+      {
+        "name": "Sapioxeris",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 8
+      }
+    ],
+    "healers": [
+      {
+        "name": "Absolution",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 8
+      },
+      {
+        "name": "Alentors",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 2
+      },
+      {
+        "name": "Dojamoo",
+        "realm": "Ragnaros",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Limpoh",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Nekycat",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 8
+      },
+      {
+        "name": "Reujo",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 7
+      }
+    ],
+    "dps": [
+      {
+        "name": "Dagouor",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 8
+      },
+      {
+        "name": "Hunterboomer",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 6
+      },
+      {
+        "name": "Kuedonn",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 7
+      },
+      {
+        "name": "Malenakpl",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 6
+      },
+      {
+        "name": "Maounitsa",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 8
+      },
+      {
+        "name": "Mksdh",
+        "realm": "TarrenMill",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 8
+      },
+      {
+        "name": "Neky",
+        "realm": "Sylvanas",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 2
+      },
+      {
+        "name": "Oranormi",
+        "realm": "TarrenMill",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 8
+      },
+      {
+        "name": "Prøsexteme",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 6
+      },
+      {
+        "name": "Quoruxz",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 8
+      },
+      {
+        "name": "Qurouxz",
+        "realm": "Silvermoon",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 4
+      },
+      {
+        "name": "Ralêz",
+        "realm": "Silvermoon",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 8
+      },
+      {
+        "name": "Scuffedaim",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 8
+      },
+      {
+        "name": "Takuruadh",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 8
+      },
+      {
+        "name": "Toubaneiros",
+        "realm": "Kazzak",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 8
+      },
+      {
+        "name": "Tsiflok",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 6
+      },
+      {
+        "name": "Xlepa",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 8
+      },
+      {
+        "name": "Xotheweekend",
+        "realm": "Sylvanas",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 2
+      }
+    ]
+  },
+  "rosterUpdatedAt": "2026-08-01T13:54:55.162Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 312193,
+    "activeDays": 30,
+    "minimumReports": 2,
+    "reportsChecked": 8,
+    "verifiedGuildMembers": 924
+  }
+}
