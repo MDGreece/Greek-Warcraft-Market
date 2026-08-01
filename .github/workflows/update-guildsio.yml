@@ -1,4 +1,4 @@
-name: Update guildsio
+name: Update Guild Leaderboard
 
 on:
   workflow_dispatch:
@@ -9,37 +9,33 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-guild-leaderboard
-  cancel-in-progress: true
+  group: greek-warcraft-data-update
+  cancel-in-progress: false
 
 jobs:
-  update-guildsio:
+  update-leaderboard:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout latest main
+        uses: actions/checkout@v6
         with:
+          ref: main
           fetch-depth: 0
 
-      - name: Rebase latest main
+      - name: Synchronize with remote main
         run: |
           git fetch origin main
-          git pull --rebase origin main
+          git reset --hard origin/main
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
         with:
           node-version: 24
+          package-manager-cache: false
 
       - name: Run Raider.IO updater
         run: node scripts/update-guildsio.js
-
-      - name: Find Warcraft Logs guilds
-        env:
-          WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
-          WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
-        run: node scripts/find-warcraftlogs-guilds.js
 
       - name: Run Warcraft Logs updater
         env:
@@ -50,8 +46,36 @@ jobs:
       - name: Build leaderboard
         run: node scripts/build-leaderboard.js
 
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update guild leaderboard
-          file_pattern: data/guildsio.json data/warcraftlogs-groups.json data/leaderboard.json
+      - name: Save generated files temporarily
+        run: |
+          mkdir -p /tmp/generated-data
+          cp data/guildsio.json /tmp/generated-data/guildsio.json
+          cp data/warcraftlogs-groups.json /tmp/generated-data/warcraftlogs-groups.json
+          cp data/leaderboard.json /tmp/generated-data/leaderboard.json
+
+      - name: Refresh main before commit
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/generated-data/guildsio.json data/guildsio.json
+          cp /tmp/generated-data/warcraftlogs-groups.json data/warcraftlogs-groups.json
+          cp /tmp/generated-data/leaderboard.json data/leaderboard.json
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/guildsio.json \
+            data/warcraftlogs-groups.json \
+            data/leaderboard.json
+
+          if git diff --cached --quiet; then
+            echo "No generated data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update guild leaderboard"
+          git push origin HEAD:main
