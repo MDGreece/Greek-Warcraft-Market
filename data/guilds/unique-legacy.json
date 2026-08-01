@@ -12,7 +12,7 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-01T15:05:11.078Z"
+    "lastUpdated": "2026-08-01T15:33:21.376Z"
   },
   "warcraftLogs": {
     "guildName": "UNIQUE LEGACY",
@@ -37,17 +37,14 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "7/9 M",
-      "WR": "3.331",
+      "WR": "3331",
       "GR": "10"
     }
   },
   "roster": {
-    "tanks": [
-    ],
-    "healers": [
-    ],
-    "dps": [
-    ]
+    "tanks": [],
+    "healers": [],
+    "dps": []
   },
   "rosterUpdatedAt": "2026-08-01T13:54:55.162Z",
   "rosterSource": {
