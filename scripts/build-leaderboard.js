@@ -183,7 +183,8 @@ function buildRaiderRow(guild, logGroups) {
 }
 
 function buildLogRow(group) {
-  const progress = normalizeRaidTeamProgress(group);
+  const progress = group.fixedProgress || group.progress || "-";
+  const isCE = progress === "CE";
 
   return {
     id: group.id,
@@ -193,11 +194,19 @@ function buildLogRow(group) {
     parentGuild: group.parentGuild || "",
     progress,
 
-    // Raid teams never display WR.
-    bossProg: formatBossProgress(group),
+    // Manual raid teams can earn CE but do not have an official WR.
+    bossProg: isCE
+      ? "No official WR"
+      : formatBossProgress(group),
 
     worldRank: DEFAULT_WORLD_RANK,
-    hasWorldRank: false,
+
+    fixedRank:
+      Number.isInteger(group.fixedRank) && group.fixedRank > 0
+        ? group.fixedRank
+        : null,
+
+    raceFinished: group.raceFinished === true,
     source: "warcraftlogs",
     latestReport: group.latestReport || "",
     latestReportTitle: group.latestReportTitle || ""
