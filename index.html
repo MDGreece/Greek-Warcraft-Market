@@ -2,62 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>Greek Warcraft Market</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
 </head>
 
 <body>
 
 <header>
   <div class="top-header">
-   <div class="logo">
-    <img src="./assets/tmglogo.png" alt="Greek Warcraft Market Logo">
-    <div class="logo-text">
+    <div class="logo">
+      <a href="./index.html">
+        <img
+          src="./assets/tmglogo.png"
+          alt="Greek Warcraft Market Logo"
+        >
+      </a>
+
+      <div class="logo-text">
         <span class="logo-top">Greek</span>
         <span class="logo-main">Warcraft</span>
         <span class="logo-bottom">Market</span>
+      </div>
     </div>
-</div>
 
     <div class="search">
-      <input type="text" placeholder="Search guilds, players...">
+      <input
+        type="search"
+        placeholder="Search guilds, characters..."
+        autocomplete="off"
+      >
     </div>
-<div class="header-links">
-    <a href="#" class="discord-btn">
+
+    <div class="header-links">
+      <a
+        href="#"
+        class="discord-btn"
+      >
         💬 Discord
-    </a>
+      </a>
 
-  <a href="https://guildranking.io/guilds/greek"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="ranking-btn">
-    🏆 Guild Rankings
-</a>
+      <a
+        href="https://guildranking.io/guilds/greek"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ranking-btn"
+      >
+        🏆 Guild Rankings
+      </a>
 
-    <a href="#" class="mdg-btn">
+      <a
+        href="#"
+        class="mdg-btn"
+      >
         🛡 MDG
-    </a>
-</div>
+      </a>
+    </div>
   </div>
 
   <nav>
-    <a href="index.html" class="active">🏠 Home</a>
-    <a href="guilds.html">🏰 Guilds</a>
-    <a href="players.html">👤 Players</a>
-    <a href="free-agents.html">💼 Free Agents</a>
-    <a href="characters.html">⚔️ Characters</a>
-    <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="news.html">📰 News</a>
-</nav>
+    <a
+      href="index.html"
+      class="active"
+    >
+      🏠 Home
+    </a>
+
+    <a href="guilds.html">
+      🏰 Guilds
+    </a>
+
+    <a href="players.html">
+      👤 Players
+    </a>
+
+    <a href="free-agents.html">
+      💼 Free Agents
+    </a>
+
+    <a href="characters.html">
+      ⚔️ Characters
+    </a>
+
+    <a href="mdg-teams.html">
+      🏆 MDG Teams
+    </a>
+
+    <a href="news.html">
+      📰 News
+    </a>
+  </nav>
 
   <div class="ticker">
-    <div class="ticker-title">🔥 Breaking News</div>
+    <div class="ticker-title">
+      🔥 Breaking News
+    </div>
+
     <div class="ticker-content">
       <span>📰 Επιστροφή You are not Repaired!</span>
       <span>📰 MDG Season 2: Έρχεται σύντομα!</span>
       <span>🔥 Rumor • Τανκ με ασπίδα φαίνεται να ψάχνουν οι SOE Reborn.</span>
       <span>📰 Συγχαρητήρια στους Death and Glory για ένα ακόμη Greek First!</span>
-      <span>🔥 Rumor • Ανησυχίες για διάλυση των K L I K A, μέσα στην εβδομάδα! </span>
+      <span>🔥 Rumor • Ανησυχίες για διάλυση των K L I K A, μέσα στην εβδομάδα!</span>
       <span>📰 Οι Disobedient G1 ψάχνουν για Druids, DKs, Rogues & Warlocks!</span>
       <span>📰 Οι UNIQUE LEGACY ψάχνουν για Shaman DPS, Druid/Priest Healer!</span>
     </div>
@@ -67,38 +122,186 @@
 <main>
   <section class="hero">
     <div class="hero-content">
-      <h2>Βρες στοιχεία για Ελληνικά guilds, παίκτες & Free Agents</h2>
-      <p>Inspired by Transfermarkt, built for the Greek World of Warcraft community.</p>
+      <h2>
+        Βρες στοιχεία για Ελληνικά guilds, characters & Free Agents
+      </h2>
+
+      <p>
+        Inspired by Transfermarkt, built for the Greek World of Warcraft community.
+      </p>
 
       <div class="hero-buttons">
-        <a href="#">🔍 Search Players</a>
-        <a href="#">🛡 Browse Guilds</a>
+        <a href="characters.html">
+          🔍 Search Characters
+        </a>
+
+        <a href="guilds.html">
+          🛡 Browse Guilds
+        </a>
       </div>
     </div>
   </section>
 
   <section class="stats">
-    <div class="stat-card">
-      <div class="stat-number">35</div>
-      <div class="stat-label">Guilds</div>
-    </div>
+    <a
+      href="guilds.html"
+      class="stat-card"
+    >
+      <div
+        id="guildCount"
+        class="stat-number"
+      >
+        -
+      </div>
 
-    <div class="stat-card">
-      <div class="stat-number">????</div>
-      <div class="stat-label">Players</div>
-    </div>
+      <div class="stat-label">
+        Guilds
+      </div>
+    </a>
 
-    <div class="stat-card">
-      <div class="stat-number">???</div>
-      <div class="stat-label">Free Agents</div>
-    </div>
+    <a
+      href="characters.html"
+      class="stat-card"
+    >
+      <div
+        id="characterCount"
+        class="stat-number"
+      >
+        -
+      </div>
 
-    <div class="stat-card">
-      <div class="stat-number">8</div>
-      <div class="stat-label">MDG Teams</div>
-    </div>
+      <div class="stat-label">
+        Characters
+      </div>
+    </a>
+
+    <a
+      href="free-agents.html"
+      class="stat-card"
+    >
+      <div
+        id="freeAgentCount"
+        class="stat-number"
+      >
+        -
+      </div>
+
+      <div class="stat-label">
+        Free Agents
+      </div>
+    </a>
+
+    <a
+      href="mdg-teams.html"
+      class="stat-card"
+    >
+      <div class="stat-number">
+        8
+      </div>
+
+      <div class="stat-label">
+        MDG Teams
+      </div>
+    </a>
   </section>
 </main>
+
+<script>
+  async function loadJson(path) {
+    const response = await fetch(
+      `${path}?v=${Date.now()}`
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        `Could not load ${path}: ${response.status}`
+      );
+    }
+
+    return response.json();
+  }
+
+  async function loadGuildCount() {
+    const element =
+      document.getElementById("guildCount");
+
+    try {
+      const leaderboard = await loadJson(
+        "./data/leaderboard.json"
+      );
+
+      const guildCount = Array.isArray(leaderboard)
+        ? leaderboard.filter(entry =>
+            entry.type === "guild"
+          ).length
+        : 0;
+
+      element.textContent = guildCount;
+    } catch (error) {
+      console.error(
+        "Could not load guild count:",
+        error
+      );
+
+      element.textContent = "-";
+    }
+  }
+
+  async function loadCharacterCount() {
+    const element =
+      document.getElementById("characterCount");
+
+    try {
+      const characters = await loadJson(
+        "./data/characters/characters.json"
+      );
+
+      element.textContent =
+        Array.isArray(characters)
+          ? characters.length
+          : 0;
+    } catch (error) {
+      console.error(
+        "Could not load character count:",
+        error
+      );
+
+      element.textContent = "-";
+    }
+  }
+
+  async function loadFreeAgentCount() {
+    const element =
+      document.getElementById("freeAgentCount");
+
+    try {
+      const freeAgents = await loadJson(
+        "./data/free-agents.json"
+      );
+
+      element.textContent =
+        Array.isArray(freeAgents)
+          ? freeAgents.length
+          : 0;
+    } catch (error) {
+      console.error(
+        "Could not load free-agent count:",
+        error
+      );
+
+      element.textContent = "-";
+    }
+  }
+
+  document.addEventListener(
+    "DOMContentLoaded",
+    () => {
+      loadGuildCount();
+      loadCharacterCount();
+      loadFreeAgentCount();
+    }
+  );
+</script>
 
 </body>
 </html>
