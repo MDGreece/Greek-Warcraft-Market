@@ -1,176 +1,533 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+const CLASS_COLORS = {
+  DeathKnight: "#C41E3A",
+  DemonHunter: "#A330C9",
+  Druid: "#FF7D0A",
+  Evoker: "#33937F",
+  Hunter: "#AAD372",
+  Mage: "#3FC7EB",
+  Monk: "#00FF98",
+  Paladin: "#F48CBA",
+  Priest: "#FFFFFF",
+  Rogue: "#FFF468",
+  Shaman: "#0070DD",
+  Warlock: "#8788EE",
+  Warrior: "#C69B6D"
+};
 
-  <title>Characters - Greek Warcraft Market</title>
+const state = {
+  characters: [],
+  filteredCharacters: []
+};
 
-  <link rel="stylesheet" href="style.css">
-</head>
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
 
-<body>
+function normalizeText(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
 
-<header>
-  <div class="top-header">
-    <div class="logo">
-      <img
-        src="./assets/tmglogo.png"
-        alt="Greek Warcraft Market Logo"
-      >
+function normalizeClassName(className) {
+  return String(className || "")
+    .trim()
+    .replace(/\s+/g, "");
+}
 
-      <div class="logo-text">
-        <span class="logo-top">Greek</span>
-        <span class="logo-main">Warcraft</span>
-        <span class="logo-bottom">Market</span>
-      </div>
-    </div>
+function getClassColor(className) {
+  return CLASS_COLORS[normalizeClassName(className)] || "#FFFFFF";
+}
 
-    <div class="search">
-      <input
-        id="characterSearch"
-        type="text"
-        placeholder="Search characters, guilds, realms..."
-      >
-    </div>
+function formatNumber(value) {
+  const number = Number(value);
 
-    <div class="header-links">
-      <a href="#" class="discord-btn">
-        💬 Discord
-      </a>
+  if (!Number.isFinite(number)) {
+    return "-";
+  }
 
-      <a
-        href="https://guildranking.io/guilds/greek"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="ranking-btn"
-      >
-        🏆 Guild Rankings
-      </a>
+  return number.toLocaleString(undefined, {
+    maximumFractionDigits: 1
+  });
+}
 
-      <a href="#" class="mdg-btn">
-        🛡 MDG
-      </a>
-    </div>
-  </div>
+function getRaidProgressScore(progress, achievement) {
+  const normalizedProgress = String(progress || "")
+    .trim()
+    .toUpperCase();
 
-  <nav class="main-nav">
-    <a href="index.html">🏠 Home</a>
-    <a href="guilds.html">🏰 Guilds</a>
-    <a href="players.html">👤 Players</a>
-    <a href="characters.html" class="active">⚔️ Characters</a>
-    <a href="free-agents.html">💼 Free Agents</a>
-    <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="news.html">📰 News</a>
-  </nav>
-</header>
+  const normalizedAchievement = String(achievement || "")
+    .trim()
+    .toUpperCase();
 
-<main class="characters-page">
-  <section class="characters-hero">
-    <div>
-      <p class="section-kicker">
-        Greek World of Warcraft Community
-      </p>
+  if (normalizedAchievement === "CE") {
+    return 10000;
+  }
 
-      <h1>Characters</h1>
+  const match = normalizedProgress.match(
+    /^(\d+)\/(\d+)([MNH])$/
+  );
 
-      <p class="characters-intro">
-        Browse active characters collected from Greek guild rosters and
-        enriched with Raider.IO data.
-      </p>
-    </div>
+  if (!match) {
+    return normalizedAchievement === "AOTC"
+      ? 2500
+      : 0;
+  }
 
-    <div class="characters-count-card">
-      <span class="characters-count-label">
-        Characters
-      </span>
+  const kills = Number(match[1]);
+  const difficulty = match[3];
 
-      <strong id="characterCount">
-        0
-      </strong>
-    </div>
-  </section>
+  const difficultyBase = {
+    M: 3000,
+    H: 2000,
+    N: 1000
+  };
 
-  <section class="characters-controls">
-    <div class="character-filter-group">
-      <label for="guildFilter">
-        Guild
-      </label>
+  return difficultyBase[difficulty] + kills;
+}
 
-      <select id="guildFilter">
-        <option value="">
-          All guilds
-        </option>
-      </select>
-    </div>
+function createExternalLink(url, label, className) {
+  if (!url) {
+    return "";
+  }
 
-    <div class="character-filter-group">
-      <label for="classFilter">
-        Class
-      </label>
+  return `
+    <a
+      class="${className}"
+      href="${escapeHtml(url)}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${escapeHtml(label)}
+    </a>
+  `;
+}
 
-      <select id="classFilter">
-        <option value="">
-          All classes
-        </option>
-      </select>
-    </div>
+function renderCharacters() {
+  const tableBody =
+    document.getElementById("charactersTableBody");
 
-    <div class="character-filter-group">
-      <label for="sortCharacters">
-        Sort
-      </label>
+  const characterCount =
+    document.getElementById("characterCount");
 
-      <select id="sortCharacters">
-        <option value="alphabetical">
-          Alphabetical
-        </option>
+  if (!tableBody || !characterCount) {
+    console.error(
+      "Required character page elements were not found."
+    );
+    return;
+  }
 
-        <option value="mythic-plus">
-          Mythic+ score
-        </option>
+  tableBody.innerHTML = "";
+  characterCount.textContent =
+    state.filteredCharacters.length;
 
-        <option value="raid-progress">
-          Raid progress
-        </option>
+  if (state.filteredCharacters.length === 0) {
+    tableBody.innerHTML = `
+      <tr>
+        <td
+          colspan="9"
+          class="characters-empty"
+        >
+          No characters found.
+        </td>
+      </tr>
+    `;
 
-        <option value="item-level">
-          Item level
-        </option>
-      </select>
-    </div>
-  </section>
+    return;
+  }
 
-  <section class="characters-table-card">
-    <div class="characters-table-wrapper">
-      <table class="characters-table">
-        <thead>
-          <tr>
-            <th>Character</th>
-            <th>Class / Spec</th>
-            <th>Realm</th>
-            <th>Guild</th>
-            <th>Item Level</th>
-            <th>Mythic+</th>
-            <th>Raid Progress</th>
-            <th>Achievement</th>
-            <th>Links</th>
-          </tr>
-        </thead>
+  for (const character of state.filteredCharacters) {
+    const row = document.createElement("tr");
 
-        <tbody id="charactersTableBody">
-          <tr>
-            <td colspan="9" class="characters-loading">
-              Loading characters...
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-</main>
+    const classColor =
+      getClassColor(character.class);
 
-<script src="characters.js"></script>
+    const raiderIoLink =
+      createExternalLink(
+        character.raiderIoUrl,
+        "Raider.IO",
+        "character-link character-link-raiderio"
+      );
 
-</body>
-</html>
+    const warcraftLogsLink =
+      createExternalLink(
+        character.warcraftLogsUrl,
+        "Warcraft Logs",
+        "character-link character-link-warcraftlogs"
+      );
+
+    const linkHtml = [
+      raiderIoLink,
+      warcraftLogsLink
+    ]
+      .filter(Boolean)
+      .join("");
+
+    row.innerHTML = `
+      <td>
+        <div class="character-name-cell">
+          ${
+            character.thumbnailUrl
+              ? `
+                <img
+                  class="character-thumbnail"
+                  src="${escapeHtml(character.thumbnailUrl)}"
+                  alt="${escapeHtml(character.name || "Character")}"
+                >
+              `
+              : ""
+          }
+
+          <div>
+            <strong
+              class="character-name"
+              style="color: ${classColor};"
+            >
+              ${escapeHtml(character.name || "Unknown")}
+            </strong>
+
+            ${
+              character.raidGroup &&
+              character.raidGroup !== character.guild
+                ? `
+                  <span class="character-raid-group">
+                    ${escapeHtml(character.raidGroup)}
+                  </span>
+                `
+                : ""
+            }
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="character-class-spec">
+          <span>
+            ${escapeHtml(character.spec || "-")}
+          </span>
+
+          <small>
+            ${escapeHtml(character.class || "-")}
+          </small>
+        </div>
+      </td>
+
+      <td>
+        ${escapeHtml(character.realm || "-")}
+      </td>
+
+      <td>
+        ${escapeHtml(character.guild || "-")}
+      </td>
+
+      <td>
+        ${formatNumber(character.itemLevel)}
+      </td>
+
+      <td>
+        ${formatNumber(character.mythicPlusScore)}
+      </td>
+
+      <td>
+        ${escapeHtml(character.raidProgress || "-")}
+      </td>
+
+      <td>
+        ${escapeHtml(character.achievement || "-")}
+      </td>
+
+      <td>
+        <div class="character-links">
+          ${linkHtml || "-"}
+        </div>
+      </td>
+    `;
+
+    tableBody.appendChild(row);
+  }
+}
+
+function populateFilters() {
+  const guildFilter =
+    document.getElementById("guildFilter");
+
+  const classFilter =
+    document.getElementById("classFilter");
+
+  if (!guildFilter || !classFilter) {
+    return;
+  }
+
+  guildFilter.innerHTML = `
+    <option value="">
+      All guilds
+    </option>
+  `;
+
+  classFilter.innerHTML = `
+    <option value="">
+      All classes
+    </option>
+  `;
+
+  const guilds = [
+    ...new Set(
+      state.characters
+        .map(character => character.guild)
+        .filter(Boolean)
+    )
+  ].sort((a, b) =>
+    String(a).localeCompare(
+      String(b),
+      undefined,
+      {
+        sensitivity: "base"
+      }
+    )
+  );
+
+  const classes = [
+    ...new Set(
+      state.characters
+        .map(character => character.class)
+        .filter(Boolean)
+    )
+  ].sort((a, b) =>
+    String(a).localeCompare(
+      String(b),
+      undefined,
+      {
+        sensitivity: "base"
+      }
+    )
+  );
+
+  for (const guild of guilds) {
+    const option =
+      document.createElement("option");
+
+    option.value = guild;
+    option.textContent = guild;
+
+    guildFilter.appendChild(option);
+  }
+
+  for (const className of classes) {
+    const option =
+      document.createElement("option");
+
+    option.value = className;
+    option.textContent = className;
+
+    classFilter.appendChild(option);
+  }
+}
+
+function applyFilters() {
+  const searchInput =
+    document.getElementById("characterSearch");
+
+  const guildFilter =
+    document.getElementById("guildFilter");
+
+  const classFilter =
+    document.getElementById("classFilter");
+
+  const sortCharacters =
+    document.getElementById("sortCharacters");
+
+  const searchValue =
+    normalizeText(searchInput?.value);
+
+  const guildValue =
+    guildFilter?.value || "";
+
+  const classValue =
+    classFilter?.value || "";
+
+  const sortValue =
+    sortCharacters?.value || "alphabetical";
+
+  state.filteredCharacters =
+    state.characters.filter(character => {
+      const searchableText = [
+        character.name,
+        character.guild,
+        character.raidGroup,
+        character.realm,
+        character.class,
+        character.spec
+      ]
+        .map(normalizeText)
+        .join(" ");
+
+      const matchesSearch =
+        !searchValue ||
+        searchableText.includes(searchValue);
+
+      const matchesGuild =
+        !guildValue ||
+        character.guild === guildValue;
+
+      const matchesClass =
+        !classValue ||
+        character.class === classValue;
+
+      return (
+        matchesSearch &&
+        matchesGuild &&
+        matchesClass
+      );
+    });
+
+  state.filteredCharacters.sort((a, b) => {
+    if (sortValue === "mythic-plus") {
+      const scoreDifference =
+        (Number(b.mythicPlusScore) || 0) -
+        (Number(a.mythicPlusScore) || 0);
+
+      if (scoreDifference !== 0) {
+        return scoreDifference;
+      }
+    }
+
+    if (sortValue === "raid-progress") {
+      const progressDifference =
+        getRaidProgressScore(
+          b.raidProgress,
+          b.achievement
+        ) -
+        getRaidProgressScore(
+          a.raidProgress,
+          a.achievement
+        );
+
+      if (progressDifference !== 0) {
+        return progressDifference;
+      }
+    }
+
+    if (sortValue === "item-level") {
+      const itemLevelDifference =
+        (Number(b.itemLevel) || 0) -
+        (Number(a.itemLevel) || 0);
+
+      if (itemLevelDifference !== 0) {
+        return itemLevelDifference;
+      }
+    }
+
+    return String(a.name || "").localeCompare(
+      String(b.name || ""),
+      undefined,
+      {
+        sensitivity: "base"
+      }
+    );
+  });
+
+  renderCharacters();
+}
+
+function attachEvents() {
+  const searchInput =
+    document.getElementById("characterSearch");
+
+  const guildFilter =
+    document.getElementById("guildFilter");
+
+  const classFilter =
+    document.getElementById("classFilter");
+
+  const sortCharacters =
+    document.getElementById("sortCharacters");
+
+  searchInput?.addEventListener(
+    "input",
+    applyFilters
+  );
+
+  guildFilter?.addEventListener(
+    "change",
+    applyFilters
+  );
+
+  classFilter?.addEventListener(
+    "change",
+    applyFilters
+  );
+
+  sortCharacters?.addEventListener(
+    "change",
+    applyFilters
+  );
+}
+
+async function loadCharacters() {
+  const tableBody =
+    document.getElementById("charactersTableBody");
+
+  try {
+    console.log("Loading characters.json...");
+
+    const response = await fetch(
+      `./data/characters/characters.json?v=${Date.now()}`
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        `Could not load characters.json: ${response.status}`
+      );
+    }
+
+    const characters =
+      await response.json();
+
+    if (!Array.isArray(characters)) {
+      throw new Error(
+        "characters.json must contain a JSON array"
+      );
+    }
+
+    console.log(
+      `Loaded ${characters.length} characters`
+    );
+
+    state.characters = characters;
+    state.filteredCharacters = [
+      ...characters
+    ];
+
+    populateFilters();
+    attachEvents();
+    applyFilters();
+  } catch (error) {
+    console.error(
+      "Could not load character data:",
+      error
+    );
+
+    if (tableBody) {
+      tableBody.innerHTML = `
+        <tr>
+          <td
+            colspan="9"
+            class="characters-error"
+          >
+            Could not load character data.
+          </td>
+        </tr>
+      `;
+    }
+  }
+}
+
+document.addEventListener(
+  "DOMContentLoaded",
+  loadCharacters
+);
