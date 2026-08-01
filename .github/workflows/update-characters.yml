@@ -1,0 +1,42 @@
+name: Update characters
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-characters
+  cancel-in-progress: true
+
+jobs:
+  update-characters:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update local branch
+        run: |
+          git fetch origin main
+          git pull --rebase origin main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Run character updater
+        run: node scripts/update-characters.js
+
+      - name: Commit character data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update character data
+          file_pattern: data/characters.json
