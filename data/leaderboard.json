@@ -82,36 +82,36 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1946,
+    "worldRank": 1949,
     "source": "raiderio"
   },
   {
     "rank": 8,
-    "id": "amargosa-crew",
-    "name": "Amargosa Crew",
-    "type": "raid-team",
-    "realm": "tarren-mill",
-    "parentGuild": "Amargosa Crew",
-    "progress": "8/9M",
-    "bossProg": "15.49% Midnight Falls",
-    "worldRank": 999999,
-    "source": "warcraftlogs",
-    "latestReport": "cVw9XNBtdmKrbvMz",
-    "latestReportTitle": "Mythic-20260730-1"
-  },
-  {
-    "rank": 9,
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "type": "raid-team",
     "realm": "",
     "parentGuild": "Disobedient",
     "progress": "8/9M",
-    "bossProg": "-",
+    "bossProg": "CE Midnight Falls",
     "worldRank": 1102,
     "source": "warcraftlogs",
-    "latestReport": "",
-    "latestReportTitle": ""
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
+  },
+  {
+    "rank": 9,
+    "id": "amargosa-crew",
+    "name": "Amargosa Crew",
+    "type": "raid-team",
+    "realm": "tarren-mill",
+    "parentGuild": "Amargosa Crew",
+    "progress": "7/9M",
+    "bossProg": "15.49% Midnight Falls",
+    "worldRank": 999999,
+    "source": "warcraftlogs",
+    "latestReport": "cVw9XNBtdmKrbvMz",
+    "latestReportTitle": "Mythic-20260730-1"
   },
   {
     "rank": 10,
@@ -122,7 +122,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3328,
+    "worldRank": 3329,
     "source": "raiderio"
   },
   {
@@ -134,7 +134,7 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3487,
+    "worldRank": 3488,
     "source": "raiderio"
   },
   {
@@ -146,7 +146,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4744,
+    "worldRank": 4745,
     "source": "raiderio"
   },
   {
@@ -158,7 +158,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 4974,
+    "worldRank": 4975,
     "source": "raiderio"
   },
   {
@@ -170,7 +170,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5018,
+    "worldRank": 5019,
     "source": "raiderio"
   },
   {
@@ -182,7 +182,7 @@
     "parentGuild": "",
     "progress": "5/9M",
     "bossProg": "-",
-    "worldRank": 5175,
+    "worldRank": 5176,
     "source": "raiderio"
   },
   {
@@ -229,7 +229,7 @@
     "realm": "twisting-nether",
     "parentGuild": "",
     "progress": "1/9M",
-    "bossProg": "46.98% Vorasius",
+    "bossProg": "57.61% Chimaerus the Undreamt God",
     "worldRank": 8462,
     "source": "raiderio"
   },
@@ -247,6 +247,18 @@
   },
   {
     "rank": 21,
+    "id": "the-syndicate",
+    "name": "The Syndicate",
+    "type": "guild",
+    "realm": "genjuros",
+    "parentGuild": "",
+    "progress": "9/9H",
+    "bossProg": "36.65% Chimaerus the Undreamt God",
+    "worldRank": 8950,
+    "source": "raiderio"
+  },
+  {
+    "rank": 22,
     "id": "leontokardoi",
     "name": "leontokardoi",
     "type": "guild",
@@ -258,7 +270,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "id": "epsilon",
     "name": "Epsilon",
     "type": "guild",
@@ -267,18 +279,6 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 8875,
-    "source": "raiderio"
-  },
-  {
-    "rank": 23,
-    "id": "the-syndicate",
-    "name": "The Syndicate",
-    "type": "guild",
-    "realm": "genjuros",
-    "parentGuild": "",
-    "progress": "9/9H",
-    "bossProg": "-",
-    "worldRank": 8950,
     "source": "raiderio"
   },
   {
@@ -302,7 +302,7 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12888,
+    "worldRank": 12890,
     "source": "raiderio"
   },
   {
