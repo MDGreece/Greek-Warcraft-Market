@@ -9,6 +9,7 @@
     "progress": "CE",
     "bossProg": "WR 401",
     "worldRank": 401,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -21,6 +22,7 @@
     "progress": "CE",
     "bossProg": "WR 774",
     "worldRank": 774,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -33,24 +35,11 @@
     "progress": "CE",
     "bossProg": "WR 784",
     "worldRank": 784,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
     "rank": 4,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "CE",
-    "bossProg": "CE",
-    "worldRank": 1102,
-    "source": "warcraftlogs",
-    "latestReport": "Cn7bMytm8RpdKaqJ",
-    "latestReportTitle": "Mythic"
-  },
-  {
-    "rank": 5,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -59,10 +48,11 @@
     "progress": "CE",
     "bossProg": "WR 1263",
     "worldRank": 1263,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -71,10 +61,11 @@
     "progress": "CE",
     "bossProg": "WR 1510",
     "worldRank": 1510,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
-    "rank": 7,
+    "rank": 6,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -82,13 +73,14 @@
     "parentGuild": "Disobedient",
     "progress": "8/9M",
     "bossProg": "0.06% Midnight Falls",
-    "worldRank": 1753,
+    "worldRank": 999999,
+    "hasWorldRank": false,
     "source": "warcraftlogs",
     "latestReport": "HRN3xgrbGKM92XmY",
     "latestReportTitle": "Lura S01E16"
   },
   {
-    "rank": 8,
+    "rank": 7,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -97,7 +89,23 @@
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
     "worldRank": 1949,
+    "hasWorldRank": true,
     "source": "raiderio"
+  },
+  {
+    "rank": 8,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "8/9M",
+    "bossProg": "CE Midnight Falls",
+    "worldRank": 999999,
+    "hasWorldRank": false,
+    "source": "warcraftlogs",
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
   },
   {
     "rank": 9,
@@ -109,6 +117,7 @@
     "progress": "7/9M",
     "bossProg": "15.49% Midnight Falls",
     "worldRank": 999999,
+    "hasWorldRank": false,
     "source": "warcraftlogs",
     "latestReport": "cVw9XNBtdmKrbvMz",
     "latestReportTitle": "Mythic-20260730-1"
@@ -122,7 +131,8 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3329,
+    "worldRank": 3331,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -134,7 +144,8 @@
     "parentGuild": "",
     "progress": "7/9M",
     "bossProg": "-",
-    "worldRank": 3488,
+    "worldRank": 3489,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -147,6 +158,7 @@
     "progress": "5/9M",
     "bossProg": "-",
     "worldRank": 4745,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -159,6 +171,7 @@
     "progress": "5/9M",
     "bossProg": "-",
     "worldRank": 4975,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -171,6 +184,7 @@
     "progress": "5/9M",
     "bossProg": "-",
     "worldRank": 5019,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -183,6 +197,7 @@
     "progress": "5/9M",
     "bossProg": "-",
     "worldRank": 5176,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -195,6 +210,7 @@
     "progress": "4/9M",
     "bossProg": "7.16% Fallen-King Salhadaar",
     "worldRank": 6386,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -207,6 +223,7 @@
     "progress": "4/9M",
     "bossProg": "61.97% Vaelgor & Ezzorak",
     "worldRank": 5734,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -219,6 +236,7 @@
     "progress": "2/9M",
     "bossProg": "-",
     "worldRank": 7848,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -231,6 +249,7 @@
     "progress": "1/9M",
     "bossProg": "57.61% Chimaerus the Undreamt God",
     "worldRank": 8462,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -243,6 +262,7 @@
     "progress": "9/9H",
     "bossProg": "20.77% Imperator Averzian",
     "worldRank": 8882,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -255,6 +275,7 @@
     "progress": "9/9H",
     "bossProg": "36.65% Chimaerus the Undreamt God",
     "worldRank": 8950,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -267,6 +288,7 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 4435,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -279,6 +301,7 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 8875,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -291,6 +314,7 @@
     "progress": "9/9H",
     "bossProg": "-",
     "worldRank": 9178,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -302,7 +326,8 @@
     "parentGuild": "",
     "progress": "8/9H",
     "bossProg": "-",
-    "worldRank": 12890,
+    "worldRank": 12891,
+    "hasWorldRank": true,
     "source": "raiderio"
   },
   {
@@ -315,6 +340,7 @@
     "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
+    "hasWorldRank": false,
     "source": "raiderio"
   },
   {
@@ -327,6 +353,7 @@
     "progress": "-",
     "bossProg": "-",
     "worldRank": 999999,
+    "hasWorldRank": false,
     "source": "raiderio"
   }
 ]
