@@ -2,6 +2,9 @@
   "id": "disobedient-group-ii",
   "name": "Disobedient Group II",
   "logo": "./assets/guilds/disog2.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
