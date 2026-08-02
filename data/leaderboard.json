@@ -1,6 +1,23 @@
 [
   {
     "rank": 1,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "CE",
+    "bossProg": "No official WR",
+    "worldRank": 999999,
+    "hasWorldRank": false,
+    "fixedRank": 6,
+    "raceFinished": true,
+    "source": "warcraftlogs",
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
+  },
+  {
+    "rank": 2,
     "id": "death-and-glory",
     "name": "Death and Glory",
     "type": "guild",
@@ -10,10 +27,12 @@
     "bossProg": "WR 401",
     "worldRank": 401,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": true,
     "source": "raiderio"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "id": "disobedient",
     "name": "Disobedient",
     "type": "guild",
@@ -23,10 +42,12 @@
     "bossProg": "WR 774",
     "worldRank": 774,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": true,
     "source": "raiderio"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "id": "k-l-i-k-a",
     "name": "K L I K A",
     "type": "guild",
@@ -36,10 +57,12 @@
     "bossProg": "WR 784",
     "worldRank": 784,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": true,
     "source": "raiderio"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -49,10 +72,12 @@
     "bossProg": "WR 1263",
     "worldRank": 1263,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": true,
     "source": "raiderio"
   },
   {
-    "rank": 5,
+    "rank": 6,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -62,23 +87,9 @@
     "bossProg": "WR 1510",
     "worldRank": 1510,
     "hasWorldRank": true,
-    "source": "raiderio"
-  },
-  {
-    "rank": 6,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "CE",
-    "bossProg": "No official WR",
-    "worldRank": 999999,
-    "fixedRank": 6,
+    "fixedRank": null,
     "raceFinished": true,
-    "source": "warcraftlogs",
-    "latestReport": "Cn7bMytm8RpdKaqJ",
-    "latestReportTitle": "Mythic"
+    "source": "raiderio"
   },
   {
     "rank": 7,
@@ -89,7 +100,8 @@
     "parentGuild": "Disobedient",
     "progress": "8/9M",
     "bossProg": "0.06% Midnight Falls",
-    "worldRank": 999999,
+    "worldRank": 1753,
+    "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "warcraftlogs",
@@ -105,8 +117,10 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1955,
+    "worldRank": 1956,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -119,6 +133,7 @@
     "progress": "7/9M",
     "bossProg": "15.49% Midnight Falls",
     "worldRank": 999999,
+    "hasWorldRank": false,
     "fixedRank": null,
     "raceFinished": false,
     "source": "warcraftlogs",
@@ -136,6 +151,8 @@
     "bossProg": "-",
     "worldRank": 3334,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -149,6 +166,8 @@
     "bossProg": "-",
     "worldRank": 3491,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -162,6 +181,8 @@
     "bossProg": "-",
     "worldRank": 4746,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -175,6 +196,8 @@
     "bossProg": "-",
     "worldRank": 4977,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -188,6 +211,8 @@
     "bossProg": "-",
     "worldRank": 5021,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -201,6 +226,8 @@
     "bossProg": "-",
     "worldRank": 5178,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -214,6 +241,8 @@
     "bossProg": "7.16% Fallen-King Salhadaar",
     "worldRank": 6386,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -227,6 +256,8 @@
     "bossProg": "61.97% Vaelgor & Ezzorak",
     "worldRank": 5734,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -240,6 +271,8 @@
     "bossProg": "-",
     "worldRank": 7851,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -253,6 +286,8 @@
     "bossProg": "57.61% Chimaerus the Undreamt God",
     "worldRank": 8464,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -266,6 +301,8 @@
     "bossProg": "20.77% Imperator Averzian",
     "worldRank": 8887,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -279,6 +316,8 @@
     "bossProg": "36.65% Chimaerus the Undreamt God",
     "worldRank": 8955,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -292,6 +331,8 @@
     "bossProg": "-",
     "worldRank": 4435,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -305,6 +346,8 @@
     "bossProg": "-",
     "worldRank": 8880,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -318,6 +361,8 @@
     "bossProg": "-",
     "worldRank": 9187,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -331,6 +376,8 @@
     "bossProg": "-",
     "worldRank": 12901,
     "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -344,6 +391,8 @@
     "bossProg": "-",
     "worldRank": 999999,
     "hasWorldRank": false,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   },
   {
@@ -357,6 +406,8 @@
     "bossProg": "-",
     "worldRank": 999999,
     "hasWorldRank": false,
+    "fixedRank": null,
+    "raceFinished": false,
     "source": "raiderio"
   }
 ]
