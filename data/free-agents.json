@@ -15,11 +15,11 @@
     "raidProgress": "4/9M",
     "achievement": "-",
     "sourceGuildFile": "disobedient-group-iii.json",
-    "rosterUpdatedAt": "2026-08-02T10:08:08.680Z",
+    "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-02T10:29:48.407Z",
-    "updatedAt": "2026-08-02T10:32:08.714Z",
+    "lastSeenInRosterAt": "2026-08-02T14:09:18.254Z",
+    "updatedAt": "2026-08-02T14:11:46.970Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -35,11 +35,11 @@
     "raiderIoUpdatedAt": "2026-07-24T16:20:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-02T10:32:08.714Z",
+    "lastSuccessfulUpdateAt": "2026-08-02T14:11:46.970Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-02T10:32:17.971Z",
-    "freeAgentUpdatedAt": "2026-08-02T10:32:17.971Z"
+    "freeAgentSince": "2026-08-02T14:11:59.313Z",
+    "freeAgentUpdatedAt": "2026-08-02T14:11:59.313Z"
   }
 ]
