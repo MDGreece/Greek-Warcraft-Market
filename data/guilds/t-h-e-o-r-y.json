@@ -1,0 +1,64 @@
+{
+  "id": "t-h-e-o-r-y",
+  "name": "T H E O R Y",
+  "logo": "./assets/guilds/theory.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2019",
+  "weeklySchedule": "Τετάρτη - Πέμπτη - Δευτέρα",
+  "RaidTimes": "22:30-01:00 Ελλάδας",
+  "warcraftLogs": {
+    "guildName": "T H E O R Y",
+    "realm": "ravencrest",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "4/8M",
+      "WR": "4.884",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "3/8M",
+      "WR": "4.474",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "6/8M",
+      "WR": "4.558",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "5/9 M",
+      "WR": "5.178",
+      "GR": "15"
+    }
+  },
+  "roster": {
+    "tanks": [
+    ],
+    "healers": [
+    ],
+    "dps": [
+    ]
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
+    "realm": "ravencrest",
+    "region": "eu",
+    "lastUpdated": "2026-08-02T11:37:16.275Z"
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 436691,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 650
+  }
+}
