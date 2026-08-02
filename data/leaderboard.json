@@ -1,23 +1,6 @@
 [
   {
     "rank": 1,
-    "id": "disobedient-group-ii",
-    "name": "Disobedient Group II",
-    "type": "raid-team",
-    "realm": "",
-    "parentGuild": "Disobedient",
-    "progress": "CE",
-    "bossProg": "No official WR",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": 6,
-    "raceFinished": true,
-    "source": "warcraftlogs",
-    "latestReport": "Cn7bMytm8RpdKaqJ",
-    "latestReportTitle": "Mythic"
-  },
-  {
-    "rank": 2,
     "id": "death-and-glory",
     "name": "Death and Glory",
     "type": "guild",
@@ -32,7 +15,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 3,
+    "rank": 2,
     "id": "disobedient",
     "name": "Disobedient",
     "type": "guild",
@@ -47,7 +30,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "id": "k-l-i-k-a",
     "name": "K L I K A",
     "type": "guild",
@@ -62,7 +45,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 5,
+    "rank": 4,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -77,7 +60,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -90,6 +73,23 @@
     "fixedRank": null,
     "raceFinished": true,
     "source": "raiderio"
+  },
+  {
+    "rank": 6,
+    "id": "disobedient-group-ii",
+    "name": "Disobedient Group II",
+    "type": "raid-team",
+    "realm": "",
+    "parentGuild": "Disobedient",
+    "progress": "CE",
+    "bossProg": "No official WR",
+    "worldRank": 999999,
+    "hasWorldRank": false,
+    "fixedRank": 6,
+    "raceFinished": true,
+    "source": "warcraftlogs",
+    "latestReport": "Cn7bMytm8RpdKaqJ",
+    "latestReportTitle": "Mythic"
   },
   {
     "rank": 7,
@@ -117,7 +117,7 @@
     "parentGuild": "",
     "progress": "8/9M",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1963,
+    "worldRank": 1964,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
