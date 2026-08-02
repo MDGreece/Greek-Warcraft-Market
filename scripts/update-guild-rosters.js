@@ -12,8 +12,8 @@ const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
  * A character must appear in at least MIN_REPORTS
  * separate reports during the last ACTIVE_DAYS.
  */
-const ACTIVE_DAYS = 30;
-const MIN_REPORTS = 2;
+const ACTIVE_DAYS = 45;
+const MIN_REPORTS = 1;
 const MAX_REPORTS = 12;
 
 /*
