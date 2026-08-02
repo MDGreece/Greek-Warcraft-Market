@@ -1,69 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Greek Warcraft Market</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<main class="characters-page">
 
-<body>
+  <section class="characters-hero">
+    <div>
+      <p class="section-kicker">
+        Greek World of Warcraft Community
+      </p>
 
-<header>
-  <div class="top-header">
-   <div class="logo">
-    <img src="./assets/tmglogo.png" alt="Greek Warcraft Market Logo">
-    <div class="logo-text">
-        <span class="logo-top">Greek</span>
-        <span class="logo-main">Warcraft</span>
-        <span class="logo-bottom">Market</span>
+      <h1>Free Agents</h1>
+
+      <p class="characters-intro">
+        Browse characters currently without a Greek guild or playing
+        outside the Greek leaderboard.
+      </p>
     </div>
-</div>
 
-    <div class="search">
-      <input type="text" placeholder="Search guilds, players...">
+    <div class="characters-count-card">
+      <span class="characters-count-label">
+        Free Agents
+      </span>
+
+      <strong id="freeAgentCount">
+        0
+      </strong>
     </div>
-<div class="header-links">
-    <a href="#" class="discord-btn">
-        💬 Discord
-    </a>
+  </section>
 
-  <a href="https://guildranking.io/guilds/greek"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="ranking-btn">
-    🏆 Guild Rankings
-</a>
+  <section class="characters-controls">
 
-    <a href="#" class="mdg-btn">
-        🛡 MDG
-    </a>
-</div>
-  </div>
+    <div class="character-filter-group">
+      <label for="classFilter">
+        Class
+      </label>
 
-  <nav>
-    <a href="index.html" class="active">🏠 Home</a>
-    <a href="guilds.html">🏰 Guilds</a>
-    <a href="players.html">👤 Players</a>
-    <a href="free-agents.html">💼 Free Agents</a>
-    <a href="characters.html">⚔️ Characters</a>
-    <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="news.html">📰 News</a>
-</nav>
-
-  <div class="ticker">
-    <div class="ticker-title">🔥 Breaking News</div>
-    <div class="ticker-content">
-      <span>📰 Επιστροφή You are not Repaired!</span>
-      <span>📰 MDG Season 2: Έρχεται σύντομα!</span>
-      <span>🔥 Rumor • Τανκ με ασπίδα φαίνεται να ψάχνουν οι SOE Reborn.</span>
-      <span>📰 Συγχαρητήρια στους Death and Glory για ένα ακόμη Greek First!</span>
-      <span>🔥 Rumor • Hunter σε ελληνικό raid group έφαγε server mute!</span>
+      <select id="classFilter">
+        <option value="">
+          All Classes
+        </option>
+      </select>
     </div>
-  </div>
-</header>
 
-<main>
+    <div class="character-filter-group">
+      <label for="sortFreeAgents">
+        Sort
+      </label>
+
+      <select id="sortFreeAgents">
+        <option value="alphabetical">
+          Alphabetical
+        </option>
+
+        <option value="mythic-plus">
+          Mythic+ Score
+        </option>
+
+        <option value="raid-progress">
+          Raid Progress
+        </option>
+
+        <option value="item-level">
+          Item Level
+        </option>
+      </select>
+    </div>
+
+  </section>
+
+  <section class="characters-table-card">
+
+    <div class="characters-table-wrapper">
+
+      <table class="characters-table">
+
+        <thead>
+          <tr>
+            <th>Character</th>
+            <th>Class / Spec</th>
+            <th>Realm</th>
+            <th>Guild</th>
+            <th>Item Level</th>
+            <th>Mythic+</th>
+            <th>Raid Progress</th>
+            <th>Achievement</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+
+        <tbody id="freeAgentsTableBody">
+
+          <tr>
+            <td colspan="9" class="characters-loading">
+              Loading free agents...
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </section>
+
 </main>
 
-</body>
-</html>
+<script src="free-agents.js"></script>
