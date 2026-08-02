@@ -8,20 +8,28 @@ const CURRENT_RAID = "tier-mn-1";
 const DEFAULT_WORLD_RANK = 999999;
 const TOTAL_BOSSES = 9;
 
-function readJson(path) {
-  if (!fs.existsSync(path)) {
-    throw new Error(`Missing file: ${path}`);
+function readJson(filePath) {
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Missing file: ${filePath}`);
   }
 
-  return JSON.parse(fs.readFileSync(path, "utf8"));
+  return JSON.parse(
+    fs.readFileSync(filePath, "utf8")
+  );
 }
 
 function slugifyId(name) {
-  return String(name)
+  return String(name || "")
     .toLowerCase()
     .replace(/'/g, "")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
+    .replace(/^-+|-+$/g, "");
+}
+
+function normalizeProgress(progress) {
+  return String(progress || "-")
+    .trim()
+    .replace(/\s+/g, "");
 }
 
 function getRaiderRaid(guild) {
@@ -35,10 +43,17 @@ function getRaiderProgress(guild) {
     return "-";
   }
 
-  const totalBosses = raid.total_bosses || TOTAL_BOSSES;
-  const mythicKills = raid.mythic_bosses_killed || 0;
-  const heroicKills = raid.heroic_bosses_killed || 0;
-  const normalKills = raid.normal_bosses_killed || 0;
+  const totalBosses =
+    Number(raid.total_bosses) || TOTAL_BOSSES;
+
+  const mythicKills =
+    Number(raid.mythic_bosses_killed) || 0;
+
+  const heroicKills =
+    Number(raid.heroic_bosses_killed) || 0;
+
+  const normalKills =
+    Number(raid.normal_bosses_killed) || 0;
 
   if (mythicKills > 0) {
     return mythicKills >= totalBosses
@@ -58,17 +73,25 @@ function getRaiderProgress(guild) {
 }
 
 function getRaiderWorldRank(guild) {
-  const rankings = guild.rankings?.[CURRENT_RAID];
+  const rankings =
+    guild.rankings?.[CURRENT_RAID];
 
   return (
-    rankings?.mythic?.world ||
-    rankings?.heroic?.world ||
-    rankings?.normal?.world ||
+    Number(rankings?.mythic?.world) ||
+    Number(rankings?.heroic?.world) ||
+    Number(rankings?.normal?.world) ||
     DEFAULT_WORLD_RANK
   );
 }
 
 function formatBossProgress(group) {
+  if (
+    group?.bossProg === "CE" ||
+    group?.progress === "CE"
+  ) {
+    return "CE";
+  }
+
   if (
     group?.bestBoss &&
     group?.bossProg &&
@@ -80,62 +103,104 @@ function formatBossProgress(group) {
   return "-";
 }
 
-function findLogGroupForGuild(guild, logGroups) {
-  const guildId = guild.id || slugifyId(guild.name);
-  const guildName = String(guild.name || "").toLowerCase();
-  const guildRealm = String(guild.realm || "").toLowerCase();
+function findLogGroupForGuild(
+  guild,
+  logGroups
+) {
+  const guildId =
+    guild.id || slugifyId(guild.name);
+
+  const guildName =
+    String(guild.name || "")
+      .trim()
+      .toLowerCase();
+
+  const guildRealm =
+    String(guild.realm || "")
+      .trim()
+      .toLowerCase();
 
   return logGroups.find(group => {
-    const groupId = group.id || "";
-    const groupName = String(group.name || "").toLowerCase();
-    const parentGuild = String(group.parentGuild || "").toLowerCase();
-    const groupRealm = String(group.realm || "").toLowerCase();
+    const groupId =
+      group.id || "";
 
-    const sameId = groupId === guildId;
-    const sameName = groupName === guildName;
-    const sameParent = parentGuild === guildName;
+    const groupName =
+      String(group.name || "")
+        .trim()
+        .toLowerCase();
+
+    const parentGuild =
+      String(group.parentGuild || "")
+        .trim()
+        .toLowerCase();
+
+    const groupRealm =
+      String(group.realm || "")
+        .trim()
+        .toLowerCase();
+
+    const sameId =
+      groupId === guildId;
+
+    const sameName =
+      groupName === guildName;
+
+    const sameParent =
+      parentGuild === guildName;
 
     const sameRealm =
       !guildRealm ||
       !groupRealm ||
       guildRealm === groupRealm;
 
-    return sameRealm && (sameId || sameName || sameParent);
+    return (
+      sameRealm &&
+      (sameId || sameName || sameParent)
+    );
   });
 }
 
-function normalizeRaidTeamProgress(group) {
-  const progress = group.progress || "-";
+function getLogProgress(group) {
+  /*
+   * fixedProgress is an optional manual override.
+   *
+   * If it exists, it wins over the automatically
+   * calculated Warcraft Logs progress.
+   */
+  const progress =
+    group.fixedProgress ??
+    group.progress ??
+    "-";
 
-  if (
-    progress === "CE" &&
-    group.bestBoss &&
-    group.bossProg &&
-    group.bossProg !== "-"
-  ) {
-    return `${TOTAL_BOSSES - 1}/${TOTAL_BOSSES}M`;
-  }
-
-  return progress;
+  return normalizeProgress(progress);
 }
 
 function getProgressScore(progress) {
-  if (!progress || progress === "-") {
+  const normalized =
+    normalizeProgress(progress);
+
+  if (!normalized || normalized === "-") {
     return 0;
   }
 
-  if (progress === "CE") {
+  if (normalized === "CE") {
     return 1000;
   }
 
-  const match = progress.match(/^(\d+)\/(\d+)([MNH])$/);
+  const match =
+    normalized.match(
+      /^(\d+)\/(\d+)([MNH])$/
+    );
 
   if (!match) {
     return 0;
   }
 
-  const kills = Number(match[1]);
-  const difficulty = match[3];
+  const kills =
+    Number(match[1]);
+
+  const difficulty =
+    match[3];
 
   const difficultyBase = {
     M: 300,
@@ -143,91 +208,231 @@ function getProgressScore(progress) {
     N: 100
   };
 
-  return difficultyBase[difficulty] + kills;
+  return (
+    difficultyBase[difficulty] +
+    kills
+  );
 }
 
 function getBossPercentValue(bossProg) {
-  if (!bossProg || bossProg === "-") {
+  if (
+    !bossProg ||
+    bossProg === "-" ||
+    bossProg === "CE" ||
+    bossProg === "No official WR"
+  ) {
     return 999;
   }
 
-  const match = String(bossProg).match(/([\d.]+)%/);
+  const match =
+    String(bossProg).match(
+      /([\d.]+)%/
+    );
 
-  return match ? Number(match[1]) : 999;
+  return match
+    ? Number(match[1])
+    : 999;
 }
 
-function buildRaiderRow(guild, logGroups) {
-  const progress = getRaiderProgress(guild);
-  const worldRank = getRaiderWorldRank(guild);
-  const logGroup = findLogGroupForGuild(guild, logGroups);
-  const isCE = progress === "CE";
+function getFixedRank(group) {
+  const fixedRank =
+    Number(group.fixedRank);
+
+  return (
+    Number.isInteger(fixedRank) &&
+    fixedRank > 0
+  )
+    ? fixedRank
+    : null;
+}
+
+function buildRaiderRow(
+  guild,
+  logGroups
+) {
+  const progress =
+    getRaiderProgress(guild);
+
+  const worldRank =
+    getRaiderWorldRank(guild);
+
+  const logGroup =
+    findLogGroupForGuild(
+      guild,
+      logGroups
+    );
+
+  const isCE =
+    progress === "CE";
 
   return {
-    id: guild.id || slugifyId(guild.name),
-    name: guild.name,
-    type: "guild",
-    realm: guild.realm || "",
-    parentGuild: "",
+    id:
+      guild.id ||
+      slugifyId(guild.name),
+
+    name:
+      guild.name,
+
+    type:
+      "guild",
+
+    realm:
+      guild.realm || "",
+
+    parentGuild:
+      "",
+
     progress,
 
-    bossProg: isCE
-      ? worldRank !== DEFAULT_WORLD_RANK
-        ? `WR ${worldRank}`
-        : "-"
-      : formatBossProgress(logGroup),
+    bossProg:
+      isCE
+        ? worldRank !== DEFAULT_WORLD_RANK
+          ? `WR ${worldRank}`
+          : "CE"
+        : formatBossProgress(logGroup),
 
     worldRank,
-    hasWorldRank: worldRank !== DEFAULT_WORLD_RANK,
-    source: "raiderio"
+
+    hasWorldRank:
+      worldRank !== DEFAULT_WORLD_RANK,
+
+    fixedRank: null,
+
+    raceFinished:
+      isCE,
+
+    source:
+      "raiderio"
   };
 }
 
 function buildLogRow(group) {
-  const progress = group.fixedProgress || group.progress || "-";
-  const isCE = progress === "CE";
+  const progress =
+    getLogProgress(group);
+
+  const isCE =
+    progress === "CE";
+
+  /*
+   * Warcraft Logs-only raid teams normally have no
+   * official Raider.IO world rank.
+   *
+   * currentWorldRank can be supplied manually if a
+   * trustworthy current rank exists.
+   */
+  const suppliedWorldRank =
+    Number(
+      group.currentWorldRank ??
+      group.worldRank
+    );
+
+  const hasWorldRank =
+    Number.isInteger(suppliedWorldRank) &&
+    suppliedWorldRank > 0 &&
+    suppliedWorldRank < DEFAULT_WORLD_RANK;
+
+  const worldRank =
+    hasWorldRank
+      ? suppliedWorldRank
+      : DEFAULT_WORLD_RANK;
 
   return {
-    id: group.id,
-    name: group.name,
-    type: "raid-team",
-    realm: group.realm || "",
-    parentGuild: group.parentGuild || "",
+    id:
+      group.id,
+
+    name:
+      group.name,
+
+    type:
+      group.type || "raid-team",
+
+    realm:
+      group.realm || "",
+
+    parentGuild:
+      group.parentGuild || "",
+
     progress,
 
-    // Manual raid teams can earn CE but do not have an official WR.
-    bossProg: isCE
-      ? "No official WR"
-      : formatBossProgress(group),
+    bossProg:
+      isCE
+        ? hasWorldRank
+          ? `WR ${worldRank}`
+          : "No official WR"
+        : formatBossProgress(group),
 
-    worldRank: DEFAULT_WORLD_RANK,
+    worldRank,
+
+    hasWorldRank,
 
     fixedRank:
-      Number.isInteger(group.fixedRank) && group.fixedRank > 0
-        ? group.fixedRank
-        : null,
+      getFixedRank(group),
 
-    raceFinished: group.raceFinished === true,
-    source: "warcraftlogs",
-    latestReport: group.latestReport || "",
-    latestReportTitle: group.latestReportTitle || ""
+    raceFinished:
+      group.raceFinished === true ||
+      isCE,
+
+    source:
+      "warcraftlogs",
+
+    latestReport:
+      group.latestReport || "",
+
+    latestReportTitle:
+      group.latestReportTitle || ""
   };
 }
 
-function isManualRaidTeam(group, raiderGuilds) {
-  if (group.manual === true) {
-    return true;
-  }
-
-  const raiderIds = new Set(
-    raiderGuilds.map(guild =>
-      guild.id || slugifyId(guild.name)
-    )
+function getGuildId(guild) {
+  return (
+    guild.id ||
+    slugifyId(guild.name)
   );
+}
 
-  return !raiderIds.has(group.id);
+function getManualLogIds(logGroups) {
+  return new Set(
+    logGroups
+      .filter(
+        group =>
+          group.manual === true
+      )
+      .map(
+        group =>
+          group.id
+      )
+      .filter(Boolean)
+  );
 }
 
 function sortLeaderboard(a, b) {
+  /*
+   * Optional fixed positions take priority.
+   *
+   * Use fixedRank only when you deliberately want
+   * a manual placement.
+   */
+  if (
+    a.fixedRank !== null ||
+    b.fixedRank !== null
+  ) {
+    if (
+      a.fixedRank !== null &&
+      b.fixedRank !== null
+    ) {
+      const fixedDifference =
+        a.fixedRank - b.fixedRank;
+
+      if (fixedDifference !== 0) {
+        return fixedDifference;
+      }
+    } else {
+      return a.fixedRank !== null
+        ? -1
+        : 1;
+    }
+  }
+
   const progressDifference =
     getProgressScore(b.progress) -
     getProgressScore(a.progress);
@@ -240,13 +445,34 @@ function sortLeaderboard(a, b) {
     a.progress === "CE" &&
     b.progress === "CE";
 
-  if (bothCE) {
+  /*
+   * Among CE entries, use an official or supplied
+   * world rank only when both entries have one.
+   */
+  if (
+    bothCE &&
+    a.hasWorldRank &&
+    b.hasWorldRank
+  ) {
     const worldRankDifference =
       a.worldRank - b.worldRank;
 
     if (worldRankDifference !== 0) {
       return worldRankDifference;
     }
+  }
+
+  /*
+   * When only one CE entry has an official world rank,
+   * place the officially ranked entry first.
+   */
+  if (
+    bothCE &&
+    a.hasWorldRank !== b.hasWorldRank
+  ) {
+    return a.hasWorldRank
+      ? -1
+      : 1;
   }
 
   const bossPercentageDifference =
@@ -257,9 +483,15 @@ function sortLeaderboard(a, b) {
     return bossPercentageDifference;
   }
 
-  // For equal non-CE progress, real guilds with an official WR
-  // may be used only as a final tie-breaker.
-  if (!bothCE) {
+  /*
+   * For equal non-CE progress, official world rank
+   * may be used as a later tie-breaker.
+   */
+  if (
+    !bothCE &&
+    a.hasWorldRank &&
+    b.hasWorldRank
+  ) {
     const worldRankDifference =
       a.worldRank - b.worldRank;
 
@@ -268,41 +500,152 @@ function sortLeaderboard(a, b) {
     }
   }
 
-  return String(a.name).localeCompare(String(b.name));
+  if (
+    !bothCE &&
+    a.hasWorldRank !== b.hasWorldRank
+  ) {
+    return a.hasWorldRank
+      ? -1
+      : 1;
+  }
+
+  return String(a.name || "")
+    .localeCompare(
+      String(b.name || "")
+    );
 }
 
 function run() {
-  const raiderGuilds = readJson(raiderPath);
-  const logGroups = readJson(logsPath);
+  const raiderGuilds =
+    readJson(raiderPath);
 
-  const raiderRows = raiderGuilds.map(guild =>
-    buildRaiderRow(guild, logGroups)
-  );
+  const logGroups =
+    readJson(logsPath);
 
-  const raidTeamRows = logGroups
-    .filter(group =>
-      isManualRaidTeam(group, raiderGuilds)
-    )
-    .map(buildLogRow);
+  if (!Array.isArray(raiderGuilds)) {
+    throw new Error(
+      `${raiderPath} must contain an array`
+    );
+  }
 
-  const leaderboard = [
-    ...raiderRows,
-    ...raidTeamRows
-  ]
-    .sort(sortLeaderboard)
-    .map((entry, index) => ({
-      rank: index + 1,
-      ...entry
-    }));
+  if (!Array.isArray(logGroups)) {
+    throw new Error(
+      `${logsPath} must contain an array`
+    );
+  }
+
+  /*
+   * A manual Warcraft Logs entry overrides the
+   * Raider.IO entry with the same ID.
+   *
+   * This is required for Amargosa Crew and other
+   * manually controlled raid teams/guilds.
+   */
+  const manualLogIds =
+    getManualLogIds(logGroups);
+
+  const raiderRows =
+    raiderGuilds
+      .filter(guild => {
+        const guildId =
+          getGuildId(guild);
+
+        return !manualLogIds.has(guildId);
+      })
+      .map(guild =>
+        buildRaiderRow(
+          guild,
+          logGroups
+        )
+      );
+
+  const raiderIds =
+    new Set(
+      raiderGuilds.map(
+        guild =>
+          getGuildId(guild)
+      )
+    );
+
+  /*
+   * Include:
+   * - all manual Warcraft Logs entries;
+   * - all Warcraft Logs-only raid teams not found
+   *   in Raider.IO.
+   */
+  const raidTeamRows =
+    logGroups
+      .filter(group => {
+        return (
+          group.manual === true ||
+          !raiderIds.has(group.id)
+        );
+      })
+      .map(buildLogRow);
+
+  const leaderboard =
+    [
+      ...raiderRows,
+      ...raidTeamRows
+    ]
+      .sort(sortLeaderboard)
+      .map(
+        (entry, index) => ({
+          rank: index + 1,
+          ...entry
+        })
+      );
 
   fs.writeFileSync(
     outputPath,
-    JSON.stringify(leaderboard, null, 2)
+    JSON.stringify(
+      leaderboard,
+      null,
+      2
+    ) + "\n"
   );
 
   console.log(
-    `Created ${outputPath} with ${leaderboard.length} entries`
+    `Created ${outputPath} with ` +
+    `${leaderboard.length} entries`
   );
+
+  const amargosa =
+    leaderboard.find(
+      entry =>
+        entry.id === "amargosa-crew"
+    );
+
+  if (amargosa) {
+    console.log(
+      `Amargosa Crew: ` +
+      `${amargosa.progress}, ` +
+      `source=${amargosa.source}`
+    );
+  }
+
+  const groupTwo =
+    leaderboard.find(
+      entry =>
+        entry.id ===
+        "disobedient-group-ii"
+    );
+
+  if (groupTwo) {
+    console.log(
+      `Disobedient Group II: ` +
+      `${groupTwo.progress}, ` +
+      `source=${groupTwo.source}`
+    );
+  }
 }
 
-run();
+try {
+  run();
+} catch (error) {
+  console.error(
+    `Leaderboard build failed: ${error.message}`
+  );
+
+  process.exit(1);
+}
