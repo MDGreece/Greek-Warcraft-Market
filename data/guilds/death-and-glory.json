@@ -2,6 +2,9 @@
   "id": "death-and-glory",
   "name": "Death and Glory",
   "logo": "./assets/guilds/death-and-glory.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 4,
   "rank2Wins": 0,
   "rank3Wins": 0,
