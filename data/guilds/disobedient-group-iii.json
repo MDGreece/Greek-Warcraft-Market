@@ -108,6 +108,13 @@
         "reports": 11
       },
       {
+        "name": "Skullhunter",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 1
+      },
+      {
         "name": "Somie",
         "realm": "TwistingNether",
         "class": "Mage",
@@ -129,12 +136,12 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-02T10:08:08.680Z",
+  "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
-    "activeDays": 30,
-    "minimumReports": 2,
+    "activeDays": 45,
+    "minimumReports": 1,
     "reportsChecked": 12,
     "verifiedGuildMembers": 36
   }

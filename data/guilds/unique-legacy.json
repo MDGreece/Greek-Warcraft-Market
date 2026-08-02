@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-02T10:07:51.434Z"
+    "lastUpdated": "2026-08-02T11:37:16.275Z"
   },
   "warcraftLogs": {
     "guildName": "UNIQUE LEGACY",
@@ -45,17 +45,160 @@
     }
   },
   "roster": {
-    "tanks": [],
-    "healers": [],
-    "dps": []
+    "tanks": [
+      {
+        "name": "Anubysh",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 2
+      },
+      {
+        "name": "Obiclapz",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Protection",
+        "reports": 2
+      }
+    ],
+    "healers": [
+      {
+        "name": "Azmnk",
+        "realm": "Kazzak",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 2
+      },
+      {
+        "name": "Consumerism",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Fruhorn",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Pontsis",
+        "realm": "Ravencrest",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 2
+      },
+      {
+        "name": "Proédros",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 2
+      }
+    ],
+    "dps": [
+      {
+        "name": "Disdaimon",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 2
+      },
+      {
+        "name": "Evalynthe",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 2
+      },
+      {
+        "name": "Èvenstar",
+        "realm": "Ravencrest",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 2
+      },
+      {
+        "name": "Golkonda",
+        "realm": "Silvermoon",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 2
+      },
+      {
+        "name": "Kott",
+        "realm": "Genjuros",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 2
+      },
+      {
+        "name": "Maniacw",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 2
+      },
+      {
+        "name": "Ntunette",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 2
+      },
+      {
+        "name": "Palkovaa",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 2
+      },
+      {
+        "name": "Ravanaa",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 2
+      },
+      {
+        "name": "Scotusmage",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 2
+      },
+      {
+        "name": "Weeyz",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 2
+      },
+      {
+        "name": "Wiinchesterr",
+        "realm": "TarrenMill",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 2
+      },
+      {
+        "name": "Xaxades",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Feral",
+        "reports": 2
+      }
+    ]
   },
-  "rosterUpdatedAt": "2026-08-01T13:54:55.162Z",
+  "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 694677,
-    "activeDays": 30,
-    "minimumReports": 2,
+    "activeDays": 45,
+    "minimumReports": 1,
     "reportsChecked": 8,
-    "verifiedGuildMembers": 924
+    "verifiedGuildMembers": 325
   }
 }

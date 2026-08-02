@@ -52,12 +52,19 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Palarenas",
         "realm": "Silvermoon",
         "class": "Paladin",
+        "spec": "Protection",
+        "reports": 6
+      },
+      {
+        "name": "Veloclap",
+        "realm": "Silvermoon",
+        "class": "Warrior",
         "spec": "Protection",
         "reports": 3
       }
@@ -68,51 +75,65 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 3
+        "reports": 7
       },
       {
         "name": "Mocchii",
         "realm": "Draenor",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Rikkisixx",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 3
+        "reports": 8
+      },
+      {
+        "name": "Yliko",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
       }
     ],
     "dps": [
       {
+        "name": "Babakiris",
+        "realm": "Silvermoon",
+        "class": "Rogue",
+        "spec": "Assassination",
+        "reports": 1
+      },
+      {
         "name": "Babakita",
         "realm": "Silvermoon",
         "class": "DeathKnight",
-        "spec": "Frost",
-        "reports": 3
+        "spec": "Unholy",
+        "reports": 6
       },
       {
         "name": "Drepanis",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 3
+        "reports": 7
       },
       {
         "name": "Evôx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Felixshammy",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Loxagòs",
@@ -126,28 +147,56 @@
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
+        "reports": 6
+      },
+      {
+        "name": "Napethaneis",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
         "reports": 3
       },
       {
         "name": "Primohunter",
         "realm": "TwistingNether",
         "class": "Hunter",
-        "spec": "Survival",
-        "reports": 2
+        "spec": "BeastMastery",
+        "reports": 5
+      },
+      {
+        "name": "Pullstomiden",
+        "realm": "Silvermoon",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 1
+      },
+      {
+        "name": "Realpandh",
+        "realm": "Draenor",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 3
       },
       {
         "name": "Rvivr",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 3
+        "reports": 6
+      },
+      {
+        "name": "Skullhunter",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 1
       },
       {
         "name": "Tigki",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 3
+        "reports": 7
       },
       {
         "name": "Tsamarella",
@@ -169,15 +218,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-02T10:07:51.433Z"
+    "lastUpdated": "2026-08-02T11:37:16.274Z"
   },
-  "rosterUpdatedAt": "2026-07-29T13:37:41.146Z",
+  "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,
-    "activeDays": 30,
-    "minimumReports": 2,
-    "reportsChecked": 3,
-    "verifiedGuildMembers": 152
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 8,
+    "verifiedGuildMembers": 154
   }
 }

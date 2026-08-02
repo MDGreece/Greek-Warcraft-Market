@@ -45,37 +45,100 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Finiarell",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Mightykhal",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 1
+      },
+      {
+        "name": "Tigermonk",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
       }
     ],
     "healers": [
+      {
+        "name": "Alentors",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 2
+      },
       {
         "name": "Blazefist",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Deyaneira",
+        "realm": "Stormscale",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 1
+      },
+      {
+        "name": "Hugepenances",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
+      },
+      {
+        "name": "Jeicore",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 3
+      },
+      {
+        "name": "Kargiolitsa",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 1
+      },
+      {
+        "name": "Madjekyl",
+        "realm": "TarrenMill",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 1
       },
       {
         "name": "Ramrobinson",
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Seridna",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 3
       },
       {
         "name": "Yidras",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 2
+        "reports": 5
       }
     ],
     "dps": [
@@ -84,83 +147,216 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 2
+        "reports": 4
+      },
+      {
+        "name": "Babangîda",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 1
       },
       {
         "name": "Balnados",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Bòbba",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Chaykovsky",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Chayxd",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 1
       },
       {
         "name": "Checkdragoon",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 2
+        "reports": 4
+      },
+      {
+        "name": "Diablalup",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 1
+      },
+      {
+        "name": "Ffls",
+        "realm": "Kazzak",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 1
+      },
+      {
+        "name": "Foúska",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Karanthirr",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 3
+      },
+      {
+        "name": "Kardioklefti",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 1
       },
       {
         "name": "Mimozha",
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Moirane",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 2
+        "reports": 4
+      },
+      {
+        "name": "Navvaldrag",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 3
+      },
+      {
+        "name": "Nerewarrior",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 1
+      },
+      {
+        "name": "Pastillia",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 1
+      },
+      {
+        "name": "Proxypala",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Ragnadriel",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 1
       },
       {
         "name": "Raziee",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Senux",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 1
       },
       {
         "name": "Shalash",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Sizor",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Somie",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
       },
       {
         "name": "Soulsx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 4
+      },
+      {
+        "name": "Swmatemporos",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
+      },
+      {
+        "name": "Thañatos",
+        "realm": "Draenor",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
       },
       {
         "name": "Trinkyxcute",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
+        "reports": 5
+      },
+      {
+        "name": "Wtiger",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
+      },
+      {
+        "name": "Xaliamoutris",
+        "realm": "Kazzak",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Xarxaloulis",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
         "reports": 2
       },
       {
@@ -168,7 +364,7 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 5
       }
     ]
   },
@@ -176,15 +372,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-02T10:07:51.432Z"
+    "lastUpdated": "2026-08-02T11:37:16.274Z"
   },
-  "rosterUpdatedAt": "2026-08-02T10:08:10.868Z",
+  "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
-    "activeDays": 30,
-    "minimumReports": 2,
-    "reportsChecked": 2,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 6,
     "verifiedGuildMembers": 884
   }
 }
