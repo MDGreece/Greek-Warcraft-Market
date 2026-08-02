@@ -2,6 +2,9 @@
   "id": "klika",
   "name": "K L I K A",
   "logo": "./assets/guilds/klika.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 1,
