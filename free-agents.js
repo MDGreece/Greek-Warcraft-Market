@@ -88,21 +88,22 @@ function formatNumber(value) {
 }
 
 function getRaidScore(character) {
-  const achievement =
-    String(
-      character.achievement || ""
-    ).toUpperCase();
+  const achievement = String(
+    character.achievement || ""
+  )
+    .trim()
+    .toUpperCase();
 
   if (achievement === "CE") {
     return 10000;
   }
 
-  const progress =
-    String(
-      character.raidProgress || ""
-    )
-      .trim()
-      .toUpperCase();
+  const progress = String(
+    character.raidProgress || ""
+  )
+    .trim()
+    .replace(/\s+/g, "")
+    .toUpperCase();
 
   const match = progress.match(
     /^(\d+)\/(\d+)([MNH])$/
@@ -130,6 +131,14 @@ function getRaidScore(character) {
 }
 
 function populateClassFilter() {
+  if (!classFilter) {
+    return;
+  }
+
+  while (classFilter.options.length > 1) {
+    classFilter.remove(1);
+  }
+
   const classes = [
     ...new Set(
       allFreeAgents
@@ -202,8 +211,11 @@ function createLinks(character) {
 }
 
 function renderFreeAgents(characters) {
-  tableBody.innerHTML = "";
+  if (!tableBody || !countElement) {
+    return;
+  }
 
+  tableBody.innerHTML = "";
   countElement.textContent =
     characters.length;
 
@@ -238,7 +250,9 @@ function renderFreeAgents(characters) {
             src="${escapeHtml(
               character.thumbnailUrl
             )}"
-            alt=""
+            alt="${escapeHtml(
+              character.name || ""
+            )}"
             class="character-thumbnail"
           >
         `
@@ -338,12 +352,11 @@ function renderFreeAgents(characters) {
 }
 
 function updateDisplay() {
-  const searchValue =
-    String(
-      searchInput?.value || ""
-    )
-      .trim()
-      .toLowerCase();
+  const searchValue = String(
+    searchInput?.value || ""
+  )
+    .trim()
+    .toLowerCase();
 
   const selectedClass =
     classFilter?.value || "";
@@ -357,8 +370,9 @@ function updateDisplay() {
       character => {
         const matchesClass =
           !selectedClass ||
-          character.class ===
-            selectedClass;
+          String(
+            character.class || ""
+          ) === selectedClass;
 
         const searchableText = [
           character.name,
@@ -368,6 +382,7 @@ function updateDisplay() {
           character.class,
           character.spec
         ]
+          .filter(Boolean)
           .join(" ")
           .toLowerCase();
 
@@ -384,8 +399,9 @@ function updateDisplay() {
       }
     );
 
-  visibleCharacters =
-    [...visibleCharacters];
+  visibleCharacters = [
+    ...visibleCharacters
+  ];
 
   if (sortValue === "mythic-plus") {
     visibleCharacters.sort(
@@ -410,8 +426,12 @@ function updateDisplay() {
   ) {
     visibleCharacters.sort(
       (a, b) =>
-        Number(b.itemLevel || 0) -
-        Number(a.itemLevel || 0)
+        Number(
+          b.itemLevel || 0
+        ) -
+        Number(
+          a.itemLevel || 0
+        )
     );
   } else {
     visibleCharacters.sort(
@@ -432,17 +452,24 @@ function updateDisplay() {
   );
 }
 
-fetch("./data/free-agents.json")
-  .then(response => {
+async function loadFreeAgents() {
+  try {
+    const response = await fetch(
+      "./data/free-agents.json",
+      {
+        cache: "no-store"
+      }
+    );
+
     if (!response.ok) {
       throw new Error(
         `Could not load free agents: ${response.status}`
       );
     }
 
-    return response.json();
-  })
-  .then(data => {
+    const data =
+      await response.json();
+
     if (!Array.isArray(data)) {
       throw new Error(
         "free-agents.json must contain an array"
@@ -453,26 +480,30 @@ fetch("./data/free-agents.json")
 
     populateClassFilter();
     updateDisplay();
-  })
-  .catch(error => {
+  } catch (error) {
     console.error(
       "Free Agents page error:",
       error
     );
 
-    countElement.textContent = "0";
+    if (countElement) {
+      countElement.textContent = "0";
+    }
 
-    tableBody.innerHTML = `
-      <tr>
-        <td
-          colspan="9"
-          class="characters-loading"
-        >
-          Could not load free agents
-        </td>
-      </tr>
-    `;
-  });
+    if (tableBody) {
+      tableBody.innerHTML = `
+        <tr>
+          <td
+            colspan="9"
+            class="characters-loading"
+          >
+            Could not load free agents
+          </td>
+        </tr>
+      `;
+    }
+  }
+}
 
 classFilter?.addEventListener(
   "change",
@@ -488,3 +519,5 @@ searchInput?.addEventListener(
   "input",
   updateDisplay
 );
+
+loadFreeAgents();
