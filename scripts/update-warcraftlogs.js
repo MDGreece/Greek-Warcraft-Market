@@ -582,7 +582,23 @@ function countCurrentRaidReports(fights) {
       .filter(Boolean)
   ).size;
 }
+const storedRaidKills =
+  group.raidKey === CURRENT_RAID_KEY
+    ? Number(group.raidKills || 0)
+    : 0;
 
+if (storedRaidKills > raidKills) {
+  console.warn(
+    `${group.name}: preserving ${storedRaidKills} stored kills instead of downgrading to ${raidKills}`
+  );
+
+  raidKills = storedRaidKills;
+
+  progress =
+    raidKills >= TOTAL_BOSSES
+      ? "CE"
+      : `${raidKills}/${TOTAL_BOSSES}${difficulty.suffix || group.raidDifficultySuffix || "M"}`;
+}
 async function updateGroup(
   token,
   group
