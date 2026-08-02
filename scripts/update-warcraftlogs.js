@@ -582,23 +582,6 @@ function countCurrentRaidReports(fights) {
       .filter(Boolean)
   ).size;
 }
-const storedRaidKills =
-  group.raidKey === CURRENT_RAID_KEY
-    ? Number(group.raidKills || 0)
-    : 0;
-
-if (storedRaidKills > raidKills) {
-  console.warn(
-    `${group.name}: preserving ${storedRaidKills} stored kills instead of downgrading to ${raidKills}`
-  );
-
-  raidKills = storedRaidKills;
-
-  progress =
-    raidKills >= TOTAL_BOSSES
-      ? "CE"
-      : `${raidKills}/${TOTAL_BOSSES}${difficulty.suffix || group.raidDifficultySuffix || "M"}`;
-}
 async function updateGroup(
   token,
   group
@@ -653,7 +636,7 @@ async function updateGroup(
   let progression;
 
   /*
-   * When all nine Mythic bosses are actually found as kills,
+   * When all nine Mythic bosses are found as kills,
    * show CE and use the final kill report.
    */
   if (
@@ -681,8 +664,74 @@ async function updateGroup(
   }
 
   /*
-   * Never downgrade a confirmed CE result during the same raid.
-   * This protects against temporary report visibility/API issues.
+   * Preserve the highest stored Mythic kill count
+   * during the same raid tier.
+   *
+   * This prevents an older kill from disappearing when
+   * it falls outside the current Warcraft Logs report limit.
+   */
+  const storedRaidKills =
+    group.raidKey === CURRENT_RAID_KEY
+      ? Number(group.raidKills || 0)
+      : 0;
+
+  const currentSuffix =
+    difficulty.suffix ||
+    group.raidDifficultySuffix ||
+    "M";
+
+  if (
+    currentSuffix === "M" &&
+    storedRaidKills > raidKills
+  ) {
+    console.warn(
+      `${group.name}: preserving ${storedRaidKills} stored Mythic kills ` +
+      `instead of downgrading to ${raidKills}.`
+    );
+
+    raidKills = storedRaidKills;
+
+    progress =
+      raidKills >= TOTAL_BOSSES
+        ? "CE"
+        : `${raidKills}/${TOTAL_BOSSES}M`;
+
+    /*
+     * Preserve the previous progression details when the
+     * current API result contains less complete information.
+     */
+    if (
+      !progression.bestBoss ||
+      progression.bossProg === "-"
+    ) {
+      progression = {
+        bestBoss:
+          group.bestBoss ||
+          (
+            raidKills >= TOTAL_BOSSES
+              ? "Midnight Falls"
+              : ""
+          ),
+
+        bossProg:
+          raidKills >= TOTAL_BOSSES
+            ? "CE"
+            : group.bossProg || "-",
+
+        latestReport:
+          group.latestReport || "",
+
+        latestReportTitle:
+          group.latestReportTitle || "",
+
+        zoneName:
+          group.raidZone || ""
+      };
+    }
+  }
+
+  /*
+   * Preserve an already confirmed CE result.
    */
   if (
     group.raidKey === CURRENT_RAID_KEY &&
@@ -690,41 +739,55 @@ async function updateGroup(
     progress !== "CE"
   ) {
     console.warn(
-      `${group.name}: Warcraft Logs returned ${progress}, ` +
-      "but the stored result is already CE. Preserving CE."
+      `${group.name}: preserving stored CE result.`
     );
 
     progress = "CE";
     raidKills = TOTAL_BOSSES;
 
-    if (
-      !progression.bestBoss
-    ) {
-      progression = {
-        bestBoss: "Midnight Falls",
-        bossProg: "CE",
-        latestReport:
-          group.latestReport || "",
-        latestReportTitle:
-          group.latestReportTitle || "",
-        zoneName:
-          group.raidZone || ""
-      };
-    }
+    progression = {
+      bestBoss:
+        group.bestBoss ||
+        "Midnight Falls",
+
+      bossProg: "CE",
+
+      latestReport:
+        group.latestReport || "",
+
+      latestReportTitle:
+        group.latestReportTitle || "",
+
+      zoneName:
+        group.raidZone || ""
+    };
   }
+
+  /*
+   * Preserve stored difficulty information when the current
+   * API response does not return a useful difficulty.
+   */
+  const raidDifficulty =
+    difficulty.name ||
+    group.raidDifficulty ||
+    "";
+
+  const raidDifficultySuffix =
+    difficulty.suffix ||
+    group.raidDifficultySuffix ||
+    "";
 
   const updatedGroup = {
     ...group,
 
-    raidKey: CURRENT_RAID_KEY,
+    raidKey:
+      CURRENT_RAID_KEY,
 
     progress,
 
-    raidDifficulty:
-      difficulty.name,
+    raidDifficulty,
 
-    raidDifficultySuffix:
-      difficulty.suffix,
+    raidDifficultySuffix,
 
     raidKills,
 
@@ -768,79 +831,3 @@ async function updateGroup(
 
   return updatedGroup;
 }
-
-async function run() {
-  console.log(
-    "Running Warcraft Logs updater for Midnight VS / DR / MQD"
-  );
-
-  const token =
-    await getToken();
-
-  if (!fs.existsSync(inputPath)) {
-    throw new Error(
-      `Missing input file: ${inputPath}`
-    );
-  }
-
-  const groups =
-    JSON.parse(
-      fs.readFileSync(
-        inputPath,
-        "utf8"
-      )
-    );
-
-  if (!Array.isArray(groups)) {
-    throw new Error(
-      `${inputPath} must contain a JSON array`
-    );
-  }
-
-  const updatedGroups = [];
-
-  for (const group of groups) {
-    try {
-      const updatedGroup =
-        await updateGroup(
-          token,
-          group
-        );
-
-      updatedGroups.push(
-        updatedGroup
-      );
-    } catch (error) {
-      console.error(
-        `Failed updating ${group.name}:`,
-        error.message
-      );
-
-      updatedGroups.push({
-        ...group,
-        updateError:
-          error.message,
-        updatedAt:
-          new Date().toISOString()
-      });
-    }
-  }
-
-  fs.writeFileSync(
-    outputPath,
-    JSON.stringify(
-      updatedGroups,
-      null,
-      2
-    ) + "\n"
-  );
-
-  console.log(
-    `Updated ${outputPath}`
-  );
-}
-
-run().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
