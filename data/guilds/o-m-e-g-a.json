@@ -2,6 +2,9 @@
   "id": "o-m-e-g-a",
   "name": "O M E G A",
   "logo": "./assets/guilds/omega.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
