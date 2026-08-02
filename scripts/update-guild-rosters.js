@@ -14,7 +14,7 @@ const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
  */
 const ACTIVE_DAYS = 45;
 const MIN_REPORTS = 1;
-const MAX_REPORTS = 12;
+const MAX_REPORTS = 18;
 
 /*
  * Warcraft Logs allows up to 100 guild members
