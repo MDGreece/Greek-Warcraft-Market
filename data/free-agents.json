@@ -18,8 +18,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-02T19:25:28.057Z",
-    "updatedAt": "2026-08-02T19:28:17.034Z",
+    "lastSeenInRosterAt": "2026-08-02T19:33:24.296Z",
+    "updatedAt": "2026-08-02T19:38:29.470Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -35,11 +35,11 @@
     "raiderIoUpdatedAt": "2026-07-24T16:20:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-02T19:28:17.034Z",
+    "lastSuccessfulUpdateAt": "2026-08-02T19:38:29.470Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-02T19:28:30.198Z",
-    "freeAgentUpdatedAt": "2026-08-02T19:28:30.198Z"
+    "freeAgentSince": "2026-08-02T19:38:42.831Z",
+    "freeAgentUpdatedAt": "2026-08-02T19:38:42.831Z"
   }
 ]
