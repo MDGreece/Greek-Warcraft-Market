@@ -2,6 +2,9 @@
   "id": "unique-leagcy",
   "name": "UNIQUE LEGACY",
   "logo": "./assets/guilds/UL.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
