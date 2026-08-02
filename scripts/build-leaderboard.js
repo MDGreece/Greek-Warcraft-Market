@@ -406,13 +406,6 @@ function getManualLogIds(logGroups) {
 }
 
 function sortLeaderboard(a, b) {
-  /*
-   * Optional fixed positions take priority.
-   *
-   * Use fixedRank only when you deliberately want
-   * a manual placement.
-   */
-
   const progressDifference =
     getProgressScore(b.progress) -
     getProgressScore(a.progress);
@@ -420,43 +413,14 @@ function sortLeaderboard(a, b) {
   if (progressDifference !== 0) {
     return progressDifference;
   }
-  function applyFixedRanks(entries) {
-  const normalEntries = entries.filter(
-    entry => entry.fixedRank === null
-  );
-
-  const fixedEntries = entries
-    .filter(entry => entry.fixedRank !== null)
-    .sort((a, b) =>
-      a.fixedRank - b.fixedRank
-    );
-
-  for (const entry of fixedEntries) {
-    const targetIndex = Math.max(
-      0,
-      Math.min(
-        entry.fixedRank - 1,
-        normalEntries.length
-      )
-    );
-
-    normalEntries.splice(
-      targetIndex,
-      0,
-      entry
-    );
-  }
-
-  return normalEntries;
-}
 
   const bothCE =
     a.progress === "CE" &&
     b.progress === "CE";
 
   /*
-   * Among CE entries, use an official or supplied
-   * world rank only when both entries have one.
+   * Among CE entries, use official world rank
+   * when both entries have one.
    */
   if (
     bothCE &&
@@ -472,8 +436,8 @@ function sortLeaderboard(a, b) {
   }
 
   /*
-   * When only one CE entry has an official world rank,
-   * place the officially ranked entry first.
+   * If only one CE entry has an official rank,
+   * put the officially ranked entry first.
    */
   if (
     bothCE &&
@@ -493,8 +457,8 @@ function sortLeaderboard(a, b) {
   }
 
   /*
-   * For equal non-CE progress, official world rank
-   * may be used as a later tie-breaker.
+   * For equal non-CE progress, use official
+   * world rank as a later tie-breaker.
    */
   if (
     !bothCE &&
@@ -524,6 +488,38 @@ function sortLeaderboard(a, b) {
     );
 }
 
+function applyFixedRanks(entries) {
+  const normalEntries = entries.filter(
+    entry => entry.fixedRank === null
+  );
+
+  const fixedEntries = entries
+    .filter(
+      entry => entry.fixedRank !== null
+    )
+    .sort(
+      (a, b) =>
+        a.fixedRank - b.fixedRank
+    );
+
+  for (const entry of fixedEntries) {
+    const targetIndex = Math.max(
+      0,
+      Math.min(
+        entry.fixedRank - 1,
+        normalEntries.length
+      )
+    );
+
+    normalEntries.splice(
+      targetIndex,
+      0,
+      entry
+    );
+  }
+
+  return normalEntries;
+}
 function run() {
   const raiderGuilds =
     readJson(raiderPath);
