@@ -2,6 +2,9 @@
   "id": "disobedient",
   "name": "Disobedient",
   "logo": "./assets/guilds/disobedient-grp1-logo.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 4,
   "rank3Wins": 0,
