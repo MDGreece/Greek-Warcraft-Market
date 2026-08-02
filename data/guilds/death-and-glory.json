@@ -3,8 +3,8 @@
   "name": "Death and Glory",
   "logo": "./assets/guilds/death-and-glory.png",
   "status": "active",
-"statusReason": "",
-"inactiveSince": "",
+  "statusReason": "",
+  "inactiveSince": "",
   "rank1Wins": 4,
   "rank2Wins": 0,
   "rank3Wins": 0,
@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-01T15:33:21.374Z"
+    "lastUpdated": "2026-08-02T10:07:51.432Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -234,7 +234,7 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-08-01T15:33:25.816Z",
+  "rosterUpdatedAt": "2026-08-02T10:07:56.619Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,

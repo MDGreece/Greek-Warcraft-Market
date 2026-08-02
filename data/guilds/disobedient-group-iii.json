@@ -3,8 +3,8 @@
   "name": "Disobedient Group III",
   "logo": "./assets/guilds/disog3.png",
   "status": "active",
-"statusReason": "",
-"inactiveSince": "",
+  "statusReason": "",
+  "inactiveSince": "",
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
@@ -40,9 +40,87 @@
   },
   "roster": {
     "tanks": [
+      {
+        "name": "Mightykhal",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 12
+      }
     ],
-    "healers": [],
+    "healers": [
+      {
+        "name": "Drakomalakas",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 8
+      },
+      {
+        "name": "Hugepenances",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 11
+      },
+      {
+        "name": "Uchi",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 5
+      },
+      {
+        "name": "Voras",
+        "realm": "Ravencrest",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 9
+      }
+    ],
     "dps": [
+      {
+        "name": "Diablalup",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 12
+      },
+      {
+        "name": "Foúska",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 12
+      },
+      {
+        "name": "Nerewarrior",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 8
+      },
+      {
+        "name": "Ragnadriel",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 11
+      },
+      {
+        "name": "Somie",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 11
+      },
+      {
+        "name": "Wtiger",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 12
+      }
     ]
   },
   "raiderIO": {
@@ -51,13 +129,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-01T15:33:30.519Z",
+  "rosterUpdatedAt": "2026-08-02T10:08:08.680Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
     "activeDays": 30,
     "minimumReports": 2,
-    "reportsChecked": 10,
-    "verifiedGuildMembers": 3
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 36
   }
 }

@@ -3,8 +3,8 @@
   "name": "O M E G A",
   "logo": "./assets/guilds/omega.png",
   "status": "active",
-"statusReason": "",
-"inactiveSince": "",
+  "statusReason": "",
+  "inactiveSince": "",
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
@@ -204,9 +204,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-01T15:33:21.375Z"
+    "lastUpdated": "2026-08-02T10:07:51.433Z"
   },
-  "rosterUpdatedAt": "2026-08-01T15:33:36.891Z",
+  "rosterUpdatedAt": "2026-08-02T10:08:15.947Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,

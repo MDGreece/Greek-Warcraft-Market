@@ -3,8 +3,8 @@
   "name": "Disobedient Group II",
   "logo": "./assets/guilds/disog2.png",
   "status": "active",
-"statusReason": "",
-"inactiveSince": "",
+  "statusReason": "",
+  "inactiveSince": "",
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
@@ -58,6 +58,13 @@
         "reports": 10
       },
       {
+        "name": "Noxkan",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 10
+      },
+      {
         "name": "Pitaclub",
         "realm": "TwistingNether",
         "class": "Mage",
@@ -72,13 +79,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-01T15:33:30.519Z",
+  "rosterUpdatedAt": "2026-08-02T10:08:03.591Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
     "activeDays": 30,
     "minimumReports": 2,
     "reportsChecked": 10,
-    "verifiedGuildMembers": 3
+    "verifiedGuildMembers": 5
   }
 }

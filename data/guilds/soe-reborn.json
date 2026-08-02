@@ -3,8 +3,8 @@
   "name": "SOE Reborn",
   "logo": "./assets/guilds/SOE.png",
   "status": "active",
-"statusReason": "",
-"inactiveSince": "",
+  "statusReason": "",
+  "inactiveSince": "",
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "8/9 M",
-      "WR": "1949",
+      "WR": "1955",
       "GR": "-"
     }
   },
@@ -218,9 +218,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-01T15:33:21.375Z"
+    "lastUpdated": "2026-08-02T10:07:51.433Z"
   },
-  "rosterUpdatedAt": "2026-08-01T15:33:40.038Z",
+  "rosterUpdatedAt": "2026-08-02T10:08:20.068Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,
