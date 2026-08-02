@@ -412,26 +412,6 @@ function sortLeaderboard(a, b) {
    * Use fixedRank only when you deliberately want
    * a manual placement.
    */
-  if (
-    a.fixedRank !== null ||
-    b.fixedRank !== null
-  ) {
-    if (
-      a.fixedRank !== null &&
-      b.fixedRank !== null
-    ) {
-      const fixedDifference =
-        a.fixedRank - b.fixedRank;
-
-      if (fixedDifference !== 0) {
-        return fixedDifference;
-      }
-    } else {
-      return a.fixedRank !== null
-        ? -1
-        : 1;
-    }
-  }
 
   const progressDifference =
     getProgressScore(b.progress) -
@@ -440,6 +420,35 @@ function sortLeaderboard(a, b) {
   if (progressDifference !== 0) {
     return progressDifference;
   }
+  function applyFixedRanks(entries) {
+  const normalEntries = entries.filter(
+    entry => entry.fixedRank === null
+  );
+
+  const fixedEntries = entries
+    .filter(entry => entry.fixedRank !== null)
+    .sort((a, b) =>
+      a.fixedRank - b.fixedRank
+    );
+
+  for (const entry of fixedEntries) {
+    const targetIndex = Math.max(
+      0,
+      Math.min(
+        entry.fixedRank - 1,
+        normalEntries.length
+      )
+    );
+
+    normalEntries.splice(
+      targetIndex,
+      0,
+      entry
+    );
+  }
+
+  return normalEntries;
+}
 
   const bothCE =
     a.progress === "CE" &&
@@ -583,18 +592,17 @@ function run() {
       })
       .map(buildLogRow);
 
-  const leaderboard =
-    [
-      ...raiderRows,
-      ...raidTeamRows
-    ]
-      .sort(sortLeaderboard)
-      .map(
-        (entry, index) => ({
-          rank: index + 1,
-          ...entry
-        })
-      );
+const naturallySortedEntries = [
+  ...raiderRows,
+  ...raidTeamRows
+].sort(sortLeaderboard);
+
+const leaderboard = applyFixedRanks(
+  naturallySortedEntries
+).map((entry, index) => ({
+  rank: index + 1,
+  ...entry
+}));
 
   fs.writeFileSync(
     outputPath,
