@@ -1,0 +1,64 @@
+{
+  "id": "chillers",
+  "name": "Chillers",
+  "logo": "./assets/guilds/chillers.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2024",
+  "weeklySchedule": "Τετάρτη - Δευτέρα",
+  "RaidTimes": "21:00-00:00 Ελλάδας",
+  "warcraftLogs": {
+    "guildName": "Chillers",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "4/8M",
+      "WR": "5.215",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "3/8",
+      "WR": "4.717",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "5/8M",
+      "WR": "5.215",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "7/9 M",
+      "WR": "3.492",
+      "GR": "11"
+    }
+  },
+  "roster": {
+    "tanks": [
+    ],
+    "healers": [
+    ],
+    "dps": [
+    ]
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
+    "realm": "silvermoon",
+    "region": "eu",
+    "lastUpdated": "2026-08-02T11:37:16.275Z"
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 713880,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 650
+  }
+}
