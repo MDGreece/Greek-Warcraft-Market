@@ -2,6 +2,9 @@
   "id": "soe-reborn",
   "name": "SOE Reborn",
   "logo": "./assets/guilds/SOE.png",
+  "status": "active",
+"statusReason": "",
+"inactiveSince": ""
   "rank1Wins": 0,
   "rank2Wins": 0,
   "rank3Wins": 0,
