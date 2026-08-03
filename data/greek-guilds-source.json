@@ -133,5 +133,10 @@
     "name": "Not Forgotten",
     "realm": "tarren-mill",
     "region": "eu"
+   },
+     {
+    "name": "You Are Not Repaired",
+    "realm": "silvermoon",
+    "region": "eu"
   }
 ]
