@@ -15,10 +15,10 @@
         "guild": "Deny Everything",
         "raidGroup": "Deny Everything",
         "sourceGuildFile": "deny-everything.json",
-        "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
+        "rosterUpdatedAt": "2026-08-03T17:30:36.162Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+        "lastSeenInRosterAt": "2026-08-03T20:13:05.261Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "9/9M",
         "achievement": "CE",
-        "updatedAt": "2026-08-03T17:19:53.715Z",
+        "updatedAt": "2026-08-03T20:13:15.202Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 9,
         "raidTotalBosses": 9,
         "raiderIoUpdatedAt": "2026-08-01T19:50:49.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-03T17:19:53.715Z"
+        "lastSuccessfulUpdateAt": "2026-08-03T20:13:15.202Z"
       },
       {
         "id": "silvermoon-anastr-sza",
@@ -58,11 +58,11 @@
         "raidProgress": "5/9M",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
-        "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
+        "rosterUpdatedAt": "2026-08-03T17:30:36.162Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
-        "updatedAt": "2026-08-03T17:19:55.344Z",
+        "lastSeenInRosterAt": "2026-08-03T20:13:05.261Z",
+        "updatedAt": "2026-08-03T20:13:16.640Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -78,7 +78,7 @@
         "raiderIoUpdatedAt": "2026-08-01T18:29:57.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-03T17:19:55.344Z"
+        "lastSuccessfulUpdateAt": "2026-08-03T20:13:16.640Z"
       }
     ],
     "characterCount": 2,
@@ -88,7 +88,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-03T17:22:43.310Z",
-    "updatedAt": "2026-08-03T17:22:43.310Z"
+    "createdAt": "2026-08-03T20:17:14.401Z",
+    "updatedAt": "2026-08-03T20:17:14.401Z"
   }
 ]
