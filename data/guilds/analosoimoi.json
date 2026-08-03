@@ -1,0 +1,64 @@
+{
+  "id": "a-n-a-l-o-s-o-i-m-o-i",
+  "name": "A N A L O S O I M O I",
+  "logo": "./assets/guilds/analosoimoi.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2018",
+  "weeklySchedule": "Τετάρτη - Παρασκευή",
+  "RaidTimes": "20:30-22:30 Ελλάδας",
+  "warcraftLogs": {
+    "guildName": "A N A L O S O I M O I",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "7/8H",
+      "WR": "17.523",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "7/8H",
+      "WR": "14.310",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "8/8H",
+      "WR": "11.394",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "9/9 H",
+      "WR": "9.411",
+      "GR": "20"
+    }
+  },
+  "roster": {
+    "tanks": [
+    ],
+    "healers": [
+    ],
+    "dps": [
+    ]
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/A%20N%20A%20L%20O%20S%20O%20I%20M%20O%20I",
+    "realm": "silvermoon",
+    "region": "eu",
+    "lastUpdated": "2026-08-02T11:37:16.275Z"
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 769674,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 650
+  }
+}
