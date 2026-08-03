@@ -34,31 +34,171 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "5/9 M",
-      "WR": "5.178",
+      "WR": "5181",
       "GR": "15"
     }
   },
   "roster": {
     "tanks": [
+      {
+        "name": "Gobei",
+        "realm": "Ravencrest",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
+      },
+      {
+        "name": "Irìdin",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 1
+      }
     ],
     "healers": [
+      {
+        "name": "Aizzenhaim",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
+      },
+      {
+        "name": "Elnira",
+        "realm": "Ravencrest",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
+      },
+      {
+        "name": "Mainwen",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
+      },
+      {
+        "name": "Moutsikaki",
+        "realm": "Ravencrest",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 1
+      },
+      {
+        "name": "Zozefin",
+        "realm": "Stormscale",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
+      }
     ],
     "dps": [
+      {
+        "name": "Aizen",
+        "realm": "Ravencrest",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
+      },
+      {
+        "name": "Auxcord",
+        "realm": "Draenor",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 1
+      },
+      {
+        "name": "Exghst",
+        "realm": "Doomhammer",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Glikouli",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 1
+      },
+      {
+        "name": "Gouzi",
+        "realm": "Kazzak",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 1
+      },
+      {
+        "name": "Helluvakilla",
+        "realm": "Draenor",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 1
+      },
+      {
+        "name": "Hyperamagus",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
+      },
+      {
+        "name": "Kourkoutas",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Lockdotdem",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Mijuli",
+        "realm": "Kazzak",
+        "class": "Evoker",
+        "spec": "Devastation",
+        "reports": 1
+      },
+      {
+        "name": "Rakariss",
+        "realm": "Stormscale",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
+      },
+      {
+        "name": "Sçárlet",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Zerglolpray",
+        "realm": "ArgentDawn",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
+      }
     ]
   },
   "raiderIO": {
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-08-02T11:37:16.275Z"
+    "lastUpdated": "2026-08-03T17:30:13.747Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterUpdatedAt": "2026-08-03T17:31:19.190Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 436691,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
-    "verifiedGuildMembers": 650
+    "reportsChecked": 1,
+    "verifiedGuildMembers": 936
   }
 }

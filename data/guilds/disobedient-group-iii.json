@@ -45,7 +45,14 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 12
+        "reports": 16
+      },
+      {
+        "name": "Xboomer",
+        "realm": "TarrenMill",
+        "class": "Druid",
+        "spec": "Guardian",
+        "reports": 1
       }
     ],
     "healers": [
@@ -54,28 +61,35 @@
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 8
+        "reports": 11
       },
       {
         "name": "Hugepenances",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 11
+        "reports": 15
+      },
+      {
+        "name": "Starplàtinum",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 2
       },
       {
         "name": "Uchi",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Voras",
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 9
+        "reports": 10
       }
     ],
     "dps": [
@@ -84,49 +98,56 @@
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 12
+        "reports": 15
       },
       {
         "name": "Foúska",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 12
+        "reports": 17
+      },
+      {
+        "name": "Necrös",
+        "realm": "Draenor",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 2
       },
       {
         "name": "Nerewarrior",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 8
+        "reports": 13
       },
       {
         "name": "Ragnadriel",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 11
+        "reports": 15
       },
       {
         "name": "Skullhunter",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 1
+        "reports": 6
       },
       {
         "name": "Somie",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 11
+        "reports": 15
       },
       {
         "name": "Wtiger",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 12
+        "reports": 15
       }
     ]
   },
@@ -136,13 +157,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
+  "rosterUpdatedAt": "2026-08-03T17:30:51.227Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
+    "reportsChecked": 18,
     "verifiedGuildMembers": 36
   }
 }

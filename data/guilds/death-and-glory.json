@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-02T11:37:16.273Z"
+    "lastUpdated": "2026-08-03T17:30:13.744Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -241,13 +241,13 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
+  "rosterUpdatedAt": "2026-08-03T17:30:30.042Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 12,
-    "verifiedGuildMembers": 924
+    "verifiedGuildMembers": 926
   }
 }

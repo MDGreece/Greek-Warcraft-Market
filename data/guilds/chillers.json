@@ -34,31 +34,255 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "7/9 M",
-      "WR": "3.492",
+      "WR": "3492",
       "GR": "11"
     }
   },
   "roster": {
     "tanks": [
+      {
+        "name": "Zerkosmk",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 7
+      }
     ],
     "healers": [
+      {
+        "name": "Catfoxx",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 1
+      },
+      {
+        "name": "Mpournouzi",
+        "realm": "Kazzak",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 1
+      },
+      {
+        "name": "Nantina",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 7
+      },
+      {
+        "name": "Plutonas",
+        "realm": "TarrenMill",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 1
+      },
+      {
+        "name": "Plutonir",
+        "realm": "TarrenMill",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 7
+      },
+      {
+        "name": "Sneakakos",
+        "realm": "Kazzak",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 7
+      },
+      {
+        "name": "Stalìtsa",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 7
+      }
     ],
     "dps": [
+      {
+        "name": "Ahikashe",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
+      },
+      {
+        "name": "Aizenxaouer",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 7
+      },
+      {
+        "name": "Akeginu",
+        "realm": "Kazzak",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 7
+      },
+      {
+        "name": "Asimaroth",
+        "realm": "Silvermoon",
+        "class": "Shaman",
+        "spec": "Enhancement",
+        "reports": 7
+      },
+      {
+        "name": "Avadakedav",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
+      },
+      {
+        "name": "Elraydh",
+        "realm": "Kazzak",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 3
+      },
+      {
+        "name": "Elysium",
+        "realm": "Twilight'sHammer",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 1
+      },
+      {
+        "name": "Grimhold",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 7
+      },
+      {
+        "name": "Heavyshade",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 7
+      },
+      {
+        "name": "Marduar",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Feral",
+        "reports": 1
+      },
+      {
+        "name": "Melenelol",
+        "realm": "Ravenholdt",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 7
+      },
+      {
+        "name": "Morfesa",
+        "realm": "TarrenMill",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 2
+      },
+      {
+        "name": "Mythotsinos",
+        "realm": "Stormscale",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 7
+      },
+      {
+        "name": "Oríonas",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 6
+      },
+      {
+        "name": "Panoramíx",
+        "realm": "Kazzak",
+        "class": "Druid",
+        "spec": "Feral",
+        "reports": 1
+      },
+      {
+        "name": "Proikismenos",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 7
+      },
+      {
+        "name": "Sakisafro",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 7
+      },
+      {
+        "name": "Simidouklas",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 10
+      },
+      {
+        "name": "Spaj",
+        "realm": "Ravencrest",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 1
+      },
+      {
+        "name": "Tsumitg",
+        "realm": "Stormscale",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Xlimitzouras",
+        "realm": "Ravenholdt",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 7
+      },
+      {
+        "name": "Xrifoutsimpo",
+        "realm": "TwistingNether",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
+      },
+      {
+        "name": "Yakionigiri",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 8
+      },
+      {
+        "name": "Ypnaras",
+        "realm": "TarrenMill",
+        "class": "Warlock",
+        "spec": "Destruction",
+        "reports": 7
+      }
     ]
   },
   "raiderIO": {
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-02T11:37:16.275Z"
+    "lastUpdated": "2026-08-03T17:30:13.747Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterUpdatedAt": "2026-08-03T17:30:21.996Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 713880,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
-    "verifiedGuildMembers": 650
+    "reportsChecked": 13,
+    "verifiedGuildMembers": 820
   }
 }

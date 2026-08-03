@@ -150,6 +150,13 @@
         "reports": 6
       },
       {
+        "name": "Mørñîñgstårx",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 6
+      },
+      {
         "name": "Napethaneis",
         "realm": "TwistingNether",
         "class": "Warlock",
@@ -218,15 +225,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-02T11:37:16.274Z"
+    "lastUpdated": "2026-08-03T17:30:13.745Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
+  "rosterUpdatedAt": "2026-08-03T17:31:00.691Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 8,
-    "verifiedGuildMembers": 154
+    "verifiedGuildMembers": 157
   }
 }

@@ -45,7 +45,7 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 11
+        "reports": 14
       }
     ],
     "healers": [],
@@ -55,7 +55,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 12
+        "reports": 15
       },
       {
         "name": "Noxkan",
@@ -69,7 +69,7 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 12
+        "reports": 15
       }
     ]
   },
@@ -79,13 +79,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:32.534Z",
+  "rosterUpdatedAt": "2026-08-03T17:30:43.132Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
+    "reportsChecked": 15,
     "verifiedGuildMembers": 5
   }
 }

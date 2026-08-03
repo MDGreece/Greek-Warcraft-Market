@@ -372,15 +372,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-02T11:37:16.274Z"
+    "lastUpdated": "2026-08-03T17:30:13.745Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
+  "rosterUpdatedAt": "2026-08-03T17:30:55.857Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 6,
-    "verifiedGuildMembers": 884
+    "verifiedGuildMembers": 897
   }
 }
