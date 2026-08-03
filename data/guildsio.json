@@ -87,7 +87,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15478,
+          "world": 15479,
           "region": 6815,
           "realm": 177
         },
@@ -157,7 +157,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15525,
+          "world": 15526,
           "region": 6862,
           "realm": 182
         },
@@ -202,7 +202,7 @@
           "realm": 77
         },
         "mythic": {
-          "world": 1982,
+          "world": 1983,
           "region": 920,
           "realm": 92
         }
@@ -367,7 +367,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15554,
+          "world": 15555,
           "region": 6891,
           "realm": 337
         },
@@ -810,6 +810,41 @@
     "realm": "tarren-mill",
     "region": "eu",
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Not%20Forgotten",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "0/9 N",
+        "total_bosses": 9,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "you-are-not-repaired",
+    "name": "You Are Not Repaired",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/You%20Are%20Not%20Repaired",
     "progress": {
       "tier-mn-1": {
         "summary": "0/9 N",
