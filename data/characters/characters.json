@@ -13,7 +13,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Absolution",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Absolution",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/200/156261064-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
@@ -21,7 +21,7 @@
     "itemLevel": 293.062,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:04.732Z",
+    "updatedAt": "2026-08-03T17:19:47.036Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -35,7 +35,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-23T19:17:17.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:04.732Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:47.036Z"
   },
   {
     "id": "silvermoon-adiavastos",
@@ -51,7 +51,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Adiavastos",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Adiavastos",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/112/183370352-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
@@ -59,7 +59,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:05.370Z",
+    "updatedAt": "2026-08-03T17:19:47.775Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -73,7 +73,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T21:52:53.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:05.370Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:47.775Z"
   },
   {
     "id": "silvermoon-aidsventura",
@@ -89,7 +89,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Aidsventura",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Aidsventura",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/28/195339548-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -97,7 +97,7 @@
     "itemLevel": 292,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:26:06.007Z",
+    "updatedAt": "2026-08-03T17:19:48.421Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -111,7 +111,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-30T00:32:45.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:06.007Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:48.421Z"
   },
   {
     "id": "twistingnether-aidyn",
@@ -132,14 +132,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:07.489Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:50.143Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Dracthyr",
     "gender": "female",
     "achievementPoints": 42875,
-    "itemLevel": 289,
+    "itemLevel": 289.188,
     "raidKey": "tier-mn-1",
     "raidName": "8/9 M",
     "raidDifficulty": "Mythic",
@@ -149,7 +149,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:43:54.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:07.489Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:50.143Z"
   },
   {
     "id": "twistingnether-akaishi",
@@ -170,14 +170,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:08.651Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:50.973Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "female",
     "achievementPoints": 12505,
-    "itemLevel": 292,
+    "itemLevel": 292.25,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -187,7 +187,7 @@
     "raiderIoUpdatedAt": "2026-07-23T04:01:03.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:08.651Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:50.973Z"
   },
   {
     "id": "tarrenmill-aktina",
@@ -208,8 +208,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:09.606Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:52.224Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Blood Elf",
@@ -225,7 +225,7 @@
     "raiderIoUpdatedAt": "2026-08-02T21:15:52.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:09.606Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:52.224Z"
   },
   {
     "id": "twistingnether-alentors",
@@ -246,8 +246,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:11.853Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:53.165Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -263,7 +263,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:14.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:11.853Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:53.165Z"
   },
   {
     "id": "silvermoon-anad-n",
@@ -279,7 +279,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -287,7 +287,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:12.442Z",
+    "updatedAt": "2026-08-03T17:19:53.715Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -301,7 +301,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T19:50:49.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:12.442Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:53.715Z"
   },
   {
     "id": "twistingnether-an-ftra",
@@ -322,8 +322,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:13.436Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:54.760Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Blood Elf",
@@ -339,7 +339,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:52:44.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:13.436Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:54.760Z"
   },
   {
     "id": "silvermoon-anastr-sza",
@@ -360,8 +360,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:14.073Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:55.344Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dracthyr",
@@ -377,7 +377,7 @@
     "raiderIoUpdatedAt": "2026-08-01T18:29:57.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:14.073Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:55.344Z"
   },
   {
     "id": "silvermoon-anekfrastos",
@@ -398,8 +398,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:14.635Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:55.820Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Human",
@@ -415,7 +415,7 @@
     "raiderIoUpdatedAt": "2026-08-01T13:00:07.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:14.635Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:55.820Z"
   },
   {
     "id": "twistingnether-anubysh",
@@ -436,8 +436,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:15.606Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:56.714Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Orc",
@@ -453,7 +453,7 @@
     "raiderIoUpdatedAt": "2026-08-02T06:02:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:15.606Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:56.714Z"
   },
   {
     "id": "silvermoon-apollonus",
@@ -469,7 +469,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Apollonus",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Apollonus",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/111/192015727-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
@@ -477,7 +477,7 @@
     "itemLevel": 291,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:26:16.416Z",
+    "updatedAt": "2026-08-03T17:19:57.176Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -491,7 +491,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T10:44:35.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:16.416Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:57.176Z"
   },
   {
     "id": "twistingnether-arhontas",
@@ -512,8 +512,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:17.486Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:58.116Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Dwarf",
@@ -529,7 +529,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:42:23.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:17.486Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:58.116Z"
   },
   {
     "id": "twistingnether-arleighburke",
@@ -550,8 +550,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:18.479Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:19:59.773Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Orc",
@@ -567,7 +567,7 @@
     "raiderIoUpdatedAt": "2026-07-30T00:21:47.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:18.479Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:19:59.773Z"
   },
   {
     "id": "ravencrest-arrgy",
@@ -583,15 +583,15 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Arrgy",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Arrgy",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ravencrest/49/163070257-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
     "mythicPlusScore": 3661.2,
-    "itemLevel": 292,
+    "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:18.988Z",
+    "updatedAt": "2026-08-03T17:20:00.287Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -605,7 +605,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T15:22:23.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:18.988Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:00.287Z"
   },
   {
     "id": "lightningsblade-astaeer",
@@ -626,14 +626,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:19.915Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:01.153Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "male",
     "achievementPoints": 22300,
-    "itemLevel": 290,
+    "itemLevel": 290.75,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -643,7 +643,7 @@
     "raiderIoUpdatedAt": "2026-08-01T11:37:44.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:19.915Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:01.153Z"
   },
   {
     "id": "dentarg-ator",
@@ -664,8 +664,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:21.018Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:01.717Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Undead",
@@ -681,7 +681,7 @@
     "raiderIoUpdatedAt": "2026-08-02T08:32:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:21.018Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:01.717Z"
   },
   {
     "id": "kazzak-azmnk",
@@ -702,8 +702,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:21.595Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:02.469Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Pandaren",
@@ -719,7 +719,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:17:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:21.595Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:02.469Z"
   },
   {
     "id": "silvermoon-babakiris",
@@ -740,8 +740,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:22.234Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:03.023Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -757,7 +757,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:53:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:22.234Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:03.023Z"
   },
   {
     "id": "silvermoon-babakita",
@@ -773,7 +773,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Babakita",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Babakita",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/111/224970095-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
@@ -781,7 +781,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:22.809Z",
+    "updatedAt": "2026-08-03T17:20:03.518Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -795,7 +795,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T00:41:02.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:22.809Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:03.518Z"
   },
   {
     "id": "twistingnether-babang-da",
@@ -816,8 +816,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:23.895Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:04.469Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -833,7 +833,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:03:25.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:23.895Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:04.469Z"
   },
   {
     "id": "twistingnether-balnados",
@@ -854,8 +854,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:25.102Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:05.346Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -871,7 +871,7 @@
     "raiderIoUpdatedAt": "2026-07-09T19:38:31.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:25.102Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:05.346Z"
   },
   {
     "id": "twistingnether-balthour",
@@ -892,8 +892,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:26.138Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:06.384Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Zandalari Troll",
@@ -909,7 +909,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:52:54.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:26.138Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:06.384Z"
   },
   {
     "id": "twistingnether-beef-ua",
@@ -930,8 +930,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:27.048Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:07.224Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Tauren",
@@ -947,7 +947,7 @@
     "raiderIoUpdatedAt": "2026-07-30T16:08:47.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:27.048Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:07.224Z"
   },
   {
     "id": "twistingnether-belicita",
@@ -968,8 +968,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:28.004Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:08.167Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dwarf",
@@ -985,7 +985,7 @@
     "raiderIoUpdatedAt": "2026-08-01T01:46:40.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:28.004Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:08.167Z"
   },
   {
     "id": "tarrenmill-bernokp",
@@ -1006,8 +1006,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:28.899Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:09.007Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1023,7 +1023,7 @@
     "raiderIoUpdatedAt": "2026-08-01T19:50:53.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:28.899Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:09.007Z"
   },
   {
     "id": "twistingnether-blazefist",
@@ -1044,8 +1044,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:29.850Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:10.126Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -1061,7 +1061,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:11.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:29.850Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:10.126Z"
   },
   {
     "id": "twistingnether-b-bba",
@@ -1082,8 +1082,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:30.767Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:10.994Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -1099,7 +1099,7 @@
     "raiderIoUpdatedAt": "2026-07-30T12:56:37.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:30.767Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:10.994Z"
   },
   {
     "id": "silvermoon-brbwc",
@@ -1120,8 +1120,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:31.328Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:11.514Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dracthyr",
@@ -1137,7 +1137,7 @@
     "raiderIoUpdatedAt": "2026-08-02T14:09:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:31.328Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:11.514Z"
   },
   {
     "id": "twistingnether-chaykovsky",
@@ -1158,8 +1158,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:32.325Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:12.665Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -1175,7 +1175,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:13.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:32.325Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:12.665Z"
   },
   {
     "id": "twistingnether-chayxd",
@@ -1196,8 +1196,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:33.261Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:13.545Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -1213,7 +1213,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:13.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:33.261Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:13.545Z"
   },
   {
     "id": "twistingnether-checkdragoon",
@@ -1234,8 +1234,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:34.308Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:14.548Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -1251,7 +1251,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:47:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:34.308Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:14.548Z"
   },
   {
     "id": "twistingnether-chenk",
@@ -1272,8 +1272,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:35.299Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:15.399Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1289,7 +1289,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:37:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:35.299Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:15.399Z"
   },
   {
     "id": "frostmane-ciradae",
@@ -1310,8 +1310,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:35.864Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:15.989Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
@@ -1327,7 +1327,7 @@
     "raiderIoUpdatedAt": "2026-07-30T15:20:55.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:35.864Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:15.989Z"
   },
   {
     "id": "tarrenmill-clarenadkz",
@@ -1348,8 +1348,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:36.799Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:16.866Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1365,7 +1365,7 @@
     "raiderIoUpdatedAt": "2026-08-03T14:35:24.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:36.799Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:16.866Z"
   },
   {
     "id": "twistingnether-consumerism",
@@ -1386,8 +1386,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:37.714Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:18.014Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Dracthyr",
@@ -1403,7 +1403,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:22.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:37.714Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:18.014Z"
   },
   {
     "id": "twistingnether-dagouor",
@@ -1417,15 +1417,15 @@
     "raidGroup": "Death and Glory",
     "raiderIoUrl": "https://raider.io/characters/eu/twisting-nether/Dagouor",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/twisting-nether/Dagouor",
-    "mythicPlusScore": 3794.1,
+    "mythicPlusScore": 3827.5,
     "raidProgress": "7/9M",
     "achievement": "-",
     "sourceGuildFile": "death-and-glory.json",
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:39.000Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:18.987Z",
     "trackedGuild": "Death and Glory",
     "faction": "horde",
     "race": "Orc",
@@ -1441,7 +1441,7 @@
     "raiderIoUpdatedAt": "2026-08-02T01:22:59.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:39.000Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:18.987Z"
   },
   {
     "id": "stormscale-darkf-iry",
@@ -1457,7 +1457,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/stormscale/Darkfäiry",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/stormscale/Darkf%C3%A4iry",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/stormscale/138/164051594-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
@@ -1465,7 +1465,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:39.703Z",
+    "updatedAt": "2026-08-03T17:20:19.547Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -1479,7 +1479,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T09:45:39.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:39.703Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:19.547Z"
   },
   {
     "id": "twistingnether-darkllin",
@@ -1500,8 +1500,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:40.573Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:20.491Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1517,7 +1517,7 @@
     "raiderIoUpdatedAt": "2026-08-01T00:32:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:40.573Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:20.491Z"
   },
   {
     "id": "tarrenmill-darkmatterdh",
@@ -1538,8 +1538,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:41.551Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:21.448Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Void Elf",
@@ -1555,7 +1555,7 @@
     "raiderIoUpdatedAt": "2026-07-20T23:46:16.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:41.551Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:21.448Z"
   },
   {
     "id": "twistingnether-dartharis",
@@ -1576,8 +1576,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:42.472Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:22.279Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Goblin",
@@ -1593,7 +1593,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:44:42.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:42.472Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:22.279Z"
   },
   {
     "id": "tarrenmill-deathbagua",
@@ -1614,8 +1614,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:43.508Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:23.284Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -1631,7 +1631,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:43.508Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:23.284Z"
   },
   {
     "id": "tarrenmill-deghinsea",
@@ -1652,8 +1652,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:44.419Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:24.178Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1669,7 +1669,7 @@
     "raiderIoUpdatedAt": "2026-08-03T09:45:30.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:44.419Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:24.178Z"
   },
   {
     "id": "twistingnether-d-mian",
@@ -1690,8 +1690,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:45.357Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:25.391Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Orc",
@@ -1707,7 +1707,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:45.357Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:25.391Z"
   },
   {
     "id": "stormscale-deyaneira",
@@ -1728,8 +1728,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:45.895Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:26.084Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -1745,7 +1745,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:47:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:45.895Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:26.084Z"
   },
   {
     "id": "silvermoon-diablalup",
@@ -1766,8 +1766,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:46.563Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:26.755Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Night Elf",
@@ -1783,7 +1783,7 @@
     "raiderIoUpdatedAt": "2026-07-31T03:18:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:46.563Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:26.755Z"
   },
   {
     "id": "twistingnether-disdaimon",
@@ -1804,8 +1804,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:47.495Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:27.860Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Blood Elf",
@@ -1821,7 +1821,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:24.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:47.495Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:27.860Z"
   },
   {
     "id": "twistingnether-dmentor",
@@ -1842,8 +1842,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:48.463Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:28.778Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Dracthyr",
@@ -1859,7 +1859,7 @@
     "raiderIoUpdatedAt": "2026-07-29T09:55:47.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:48.463Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:28.778Z"
   },
   {
     "id": "ragnaros-dojamoo",
@@ -1875,7 +1875,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ragnaros/Dojamoo",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ragnaros/Dojamoo",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ragnaros/167/191444391-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -1883,7 +1883,7 @@
     "itemLevel": 289,
     "raidProgress": "6/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:26:48.975Z",
+    "updatedAt": "2026-08-03T17:20:29.475Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -1897,7 +1897,7 @@
     "raidKills": 6,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:23:00.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:48.975Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:29.475Z"
   },
   {
     "id": "tarrenmill-doomlord",
@@ -1918,8 +1918,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:49.874Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:30.373Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Orc",
@@ -1935,7 +1935,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:52:45.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:49.874Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:30.373Z"
   },
   {
     "id": "outland-draizer",
@@ -1951,7 +1951,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/outland/Draizer",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/outland/Draizer",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/outland/30/120613150-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
@@ -1959,7 +1959,7 @@
     "itemLevel": 293.062,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:50.409Z",
+    "updatedAt": "2026-08-03T17:20:30.943Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -1973,7 +1973,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T09:55:46.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:50.409Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:30.943Z"
   },
   {
     "id": "twistingnether-drakomalakas",
@@ -1994,8 +1994,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:51.309Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:31.875Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Dracthyr",
@@ -2011,7 +2011,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:47:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:51.309Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:31.875Z"
   },
   {
     "id": "tarrenmill-drakoulinia",
@@ -2032,8 +2032,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:52.341Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:32.836Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dracthyr",
@@ -2049,7 +2049,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:52.341Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:32.836Z"
   },
   {
     "id": "tarrenmill-draksie",
@@ -2070,8 +2070,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:53.300Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:33.807Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -2087,7 +2087,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:35.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:53.300Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:33.807Z"
   },
   {
     "id": "tarrenmill-draksiedh",
@@ -2108,8 +2108,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:54.240Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:34.617Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -2125,7 +2125,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:35.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:54.240Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:34.617Z"
   },
   {
     "id": "twistingnether-drepanis",
@@ -2146,8 +2146,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:55.168Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:35.443Z",
     "trackedGuild": "K L I K A",
     "faction": "horde",
     "race": "Pandaren",
@@ -2163,7 +2163,7 @@
     "raiderIoUpdatedAt": "2026-08-01T00:32:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:55.168Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:35.443Z"
   },
   {
     "id": "twistingnether-dshamtor",
@@ -2184,14 +2184,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:56.126Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:36.266Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Troll",
     "gender": "male",
     "achievementPoints": 29075,
-    "itemLevel": 291,
+    "itemLevel": 291.875,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -2201,7 +2201,7 @@
     "raiderIoUpdatedAt": "2026-08-01T22:08:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:56.126Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:36.266Z"
   },
   {
     "id": "silvermoon-elgatzol",
@@ -2217,7 +2217,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Elgatzol",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Elgatzol",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/47/203672879-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -2225,7 +2225,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:56.764Z",
+    "updatedAt": "2026-08-03T17:20:36.794Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -2239,7 +2239,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T00:58:53.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:56.764Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:36.794Z"
   },
   {
     "id": "kazzak-elloon",
@@ -2255,15 +2255,15 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Elloon",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Elloon",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/kazzak/157/197695645-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
     "mythicPlusScore": 3739.5,
-    "itemLevel": 292,
+    "itemLevel": 293.062,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:26:57.320Z",
+    "updatedAt": "2026-08-03T17:20:37.440Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -2277,7 +2277,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T09:56:37.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:57.320Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:37.440Z"
   },
   {
     "id": "twistingnether-envyxyo",
@@ -2298,8 +2298,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:58.228Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:38.285Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
@@ -2315,7 +2315,7 @@
     "raiderIoUpdatedAt": "2026-07-29T09:55:45.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:58.228Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:38.285Z"
   },
   {
     "id": "twistingnether-evalynthe",
@@ -2336,8 +2336,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:59.168Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:39.667Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Blood Elf",
@@ -2353,7 +2353,7 @@
     "raiderIoUpdatedAt": "2026-07-29T10:46:43.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:59.168Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:39.667Z"
   },
   {
     "id": "ravencrest-venstar",
@@ -2374,8 +2374,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:26:59.702Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:40.827Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Void Elf",
@@ -2391,7 +2391,7 @@
     "raiderIoUpdatedAt": "2026-08-03T06:34:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:26:59.702Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:40.827Z"
   },
   {
     "id": "twistingnether-ev-x",
@@ -2412,8 +2412,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:00.637Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:41.811Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -2429,7 +2429,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:37:29.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:00.637Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:41.811Z"
   },
   {
     "id": "ragnaros-falgidron",
@@ -2445,7 +2445,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ragnaros/Falgidron",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ragnaros/Falgidron",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ragnaros/222/115665886-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
@@ -2453,7 +2453,7 @@
     "itemLevel": 289,
     "raidProgress": "-",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:01.167Z",
+    "updatedAt": "2026-08-03T17:20:42.360Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -2467,7 +2467,7 @@
     "raidKills": 0,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-30T23:22:38.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:01.167Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:42.360Z"
   },
   {
     "id": "silvermoon-felixshammy",
@@ -2483,7 +2483,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Felixshammy",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Felixshammy",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/101/213297765-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
@@ -2491,7 +2491,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:01.748Z",
+    "updatedAt": "2026-08-03T17:20:42.864Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -2505,7 +2505,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-31T02:45:52.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:01.748Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:42.864Z"
   },
   {
     "id": "tarrenmill-fenrix",
@@ -2526,8 +2526,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:02.863Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:43.722Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -2543,7 +2543,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:02.863Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:43.722Z"
   },
   {
     "id": "kazzak-ffls",
@@ -2564,8 +2564,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:03.491Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:44.339Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -2581,7 +2581,7 @@
     "raiderIoUpdatedAt": "2026-07-31T03:18:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:03.491Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:44.339Z"
   },
   {
     "id": "twistingnether-filtr-ki",
@@ -2602,8 +2602,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:04.464Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:45.257Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Human",
@@ -2619,7 +2619,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:04.464Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:45.257Z"
   },
   {
     "id": "twistingnether-finiarell",
@@ -2640,8 +2640,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:05.382Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:46.117Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Blood Elf",
@@ -2657,7 +2657,7 @@
     "raiderIoUpdatedAt": "2026-07-20T07:40:26.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:05.382Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:46.117Z"
   },
   {
     "id": "silvermoon-fotinator",
@@ -2673,7 +2673,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Fotinator",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Fotinator",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/245/217409269-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
@@ -2681,7 +2681,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:05.957Z",
+    "updatedAt": "2026-08-03T17:20:46.685Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -2695,7 +2695,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-30T17:46:37.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:05.957Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:46.685Z"
   },
   {
     "id": "twistingnether-fo-ska",
@@ -2716,14 +2716,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:06.902Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:47.583Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "female",
     "achievementPoints": 19950,
-    "itemLevel": 291,
+    "itemLevel": 291.375,
     "raidKey": "tier-mn-1",
     "raidName": "8/9 M",
     "raidDifficulty": "Mythic",
@@ -2733,7 +2733,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:08.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:06.902Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:47.583Z"
   },
   {
     "id": "kazzak-fruhorn",
@@ -2754,8 +2754,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:07.445Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:48.098Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Tauren",
@@ -2771,7 +2771,7 @@
     "raiderIoUpdatedAt": "2026-06-30T03:12:04.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:07.445Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:48.098Z"
   },
   {
     "id": "alakir-gaby",
@@ -2787,7 +2787,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/alakir/Gaby",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/alakir/Gaby",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/alakir/16/189166352-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
@@ -2795,7 +2795,7 @@
     "itemLevel": 293,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:08.178Z",
+    "updatedAt": "2026-08-03T17:20:48.591Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -2809,7 +2809,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-23T04:01:03.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:08.178Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:48.591Z"
   },
   {
     "id": "silvermoon-geronimos",
@@ -2830,8 +2830,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:09.368Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:49.126Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Night Elf",
@@ -2847,7 +2847,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:53:07.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:09.368Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:49.126Z"
   },
   {
     "id": "twistingnether-gigachadapo",
@@ -2868,8 +2868,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:10.286Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:49.941Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -2885,7 +2885,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:31:55.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:10.286Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:49.941Z"
   },
   {
     "id": "twistingnether-gnolis",
@@ -2906,8 +2906,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:11.786Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:50.815Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dwarf",
@@ -2923,7 +2923,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:52:55.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:11.786Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:50.815Z"
   },
   {
     "id": "silvermoon-golkonda",
@@ -2944,8 +2944,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:12.386Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:51.329Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Pandaren",
@@ -2961,7 +2961,7 @@
     "raiderIoUpdatedAt": "2026-08-02T01:53:55.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:12.386Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:51.329Z"
   },
   {
     "id": "twistingnether-goodcookie",
@@ -2982,14 +2982,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:13.317Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:52.198Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "female",
     "achievementPoints": 25490,
-    "itemLevel": 291,
+    "itemLevel": 291.875,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -2999,7 +2999,7 @@
     "raiderIoUpdatedAt": "2026-08-02T16:51:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:13.317Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:52.198Z"
   },
   {
     "id": "tarrenmill-gothdor",
@@ -3020,8 +3020,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:14.251Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:53.065Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -3037,7 +3037,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:35.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:14.251Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:53.065Z"
   },
   {
     "id": "ravencrest-grandpanic",
@@ -3053,7 +3053,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Grandpanic",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Grandpanic",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ravencrest/199/164054727-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
@@ -3061,7 +3061,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:14.833Z",
+    "updatedAt": "2026-08-03T17:20:53.676Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -3075,7 +3075,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T19:50:50.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:14.833Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:53.676Z"
   },
   {
     "id": "kazzak-highcurse",
@@ -3091,7 +3091,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Highcurse",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Highcurse",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/kazzak/175/83750319-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
@@ -3099,7 +3099,7 @@
     "itemLevel": 292.438,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:15.380Z",
+    "updatedAt": "2026-08-03T17:20:54.153Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -3113,7 +3113,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-28T22:14:54.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:15.380Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:54.153Z"
   },
   {
     "id": "twistingnether-hugepenances",
@@ -3134,8 +3134,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:16.345Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:55.092Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Goblin",
@@ -3151,7 +3151,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:12.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:16.345Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:55.092Z"
   },
   {
     "id": "silvermoon-hunterboomer",
@@ -3167,7 +3167,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Hunterboomer",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Hunterboomer",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/245/206214133-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
@@ -3175,7 +3175,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:16.998Z",
+    "updatedAt": "2026-08-03T17:20:55.652Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -3189,7 +3189,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T23:18:47.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:16.998Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:55.652Z"
   },
   {
     "id": "twistingnether-iridadr",
@@ -3210,8 +3210,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:17.916Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:56.512Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -3227,7 +3227,7 @@
     "raiderIoUpdatedAt": "2026-07-08T20:23:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:17.916Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:56.512Z"
   },
   {
     "id": "twistingnether-iridavoke",
@@ -3248,8 +3248,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:18.815Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:57.346Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Dracthyr",
@@ -3265,7 +3265,7 @@
     "raiderIoUpdatedAt": "2026-07-14T19:52:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:18.815Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:57.346Z"
   },
   {
     "id": "twistingnether-jeicore",
@@ -3286,8 +3286,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:19.943Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:58.357Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Dracthyr",
@@ -3303,7 +3303,7 @@
     "raiderIoUpdatedAt": "2026-07-16T04:39:05.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:19.943Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:58.357Z"
   },
   {
     "id": "tarrenmill-johnisplay",
@@ -3324,8 +3324,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:20.921Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:20:59.218Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Orc",
@@ -3341,7 +3341,7 @@
     "raiderIoUpdatedAt": "2026-07-29T21:52:44.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:20.921Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:20:59.218Z"
   },
   {
     "id": "tarrenmill-kapptech",
@@ -3362,8 +3362,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:21.852Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:00.100Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Night Elf",
@@ -3379,7 +3379,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:54:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:21.852Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:00.100Z"
   },
   {
     "id": "twistingnether-karanthirr",
@@ -3400,8 +3400,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:22.844Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:01.152Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -3417,7 +3417,7 @@
     "raiderIoUpdatedAt": "2026-07-17T16:23:20.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:22.844Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:01.152Z"
   },
   {
     "id": "twistingnether-kardasi",
@@ -3438,14 +3438,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:23.839Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:01.995Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
     "gender": "female",
     "achievementPoints": 15500,
-    "itemLevel": 292,
+    "itemLevel": 292.25,
     "raidKey": "tier-mn-1",
     "raidName": "5/9 M",
     "raidDifficulty": "Mythic",
@@ -3455,7 +3455,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:23.839Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:01.995Z"
   },
   {
     "id": "twistingnether-kardioklefti",
@@ -3476,8 +3476,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:24.748Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:02.937Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Zandalari Troll",
@@ -3493,7 +3493,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:42:23.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:24.748Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:02.937Z"
   },
   {
     "id": "twistingnether-kargiolitsa",
@@ -3514,8 +3514,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:25.712Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:03.868Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -3531,7 +3531,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:13.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:25.712Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:03.868Z"
   },
   {
     "id": "tarrenmill-kavle",
@@ -3552,8 +3552,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:26.739Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:04.716Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Blood Elf",
@@ -3569,7 +3569,7 @@
     "raiderIoUpdatedAt": "2026-07-19T23:16:21.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:26.739Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:04.716Z"
   },
   {
     "id": "silvermoon-killspree",
@@ -3585,7 +3585,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Killspree",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Killspree",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/202/188047306-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -3593,7 +3593,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:27.451Z",
+    "updatedAt": "2026-08-03T17:21:05.281Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -3607,7 +3607,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:22:58.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:27.451Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:05.281Z"
   },
   {
     "id": "genjuros-kott",
@@ -3628,8 +3628,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:28.026Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:05.799Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Orc",
@@ -3645,7 +3645,7 @@
     "raiderIoUpdatedAt": "2026-08-02T02:59:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:28.026Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:05.799Z"
   },
   {
     "id": "silvermoon-ksapladin",
@@ -3666,8 +3666,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:28.600Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:06.341Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Dwarf",
@@ -3683,7 +3683,7 @@
     "raiderIoUpdatedAt": "2026-08-01T19:50:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:28.600Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:06.341Z"
   },
   {
     "id": "silvermoon-kuedonn",
@@ -3699,7 +3699,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Kuedonn",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Kuedonn",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/31/161355551-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -3707,7 +3707,7 @@
     "itemLevel": 291,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:29.300Z",
+    "updatedAt": "2026-08-03T17:21:06.859Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -3721,7 +3721,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:22:57.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:29.300Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:06.859Z"
   },
   {
     "id": "stormscale-lengolas",
@@ -3742,8 +3742,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:29.912Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:07.385Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Troll",
@@ -3759,7 +3759,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:26:20.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:29.912Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:07.385Z"
   },
   {
     "id": "twistingnether-limpoh",
@@ -3780,8 +3780,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:30.864Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:08.293Z",
     "trackedGuild": "Death and Glory",
     "faction": "horde",
     "race": "Blood Elf",
@@ -3797,7 +3797,7 @@
     "raiderIoUpdatedAt": "2026-07-18T08:14:25.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:30.864Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:08.293Z"
   },
   {
     "id": "twistingnether-locksteel",
@@ -3818,8 +3818,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:31.837Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:09.205Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Orc",
@@ -3835,7 +3835,7 @@
     "raiderIoUpdatedAt": "2026-07-31T18:25:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:31.837Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:09.205Z"
   },
   {
     "id": "silvermoon-loxag-s",
@@ -3851,7 +3851,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Loxagòs",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Loxag%C3%B2s",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/222/219248862-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -3859,7 +3859,7 @@
     "itemLevel": 293.062,
     "raidProgress": "7/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:32.418Z",
+    "updatedAt": "2026-08-03T17:21:09.875Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -3873,7 +3873,7 @@
     "raidKills": 7,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-10T10:37:28.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:32.418Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:09.875Z"
   },
   {
     "id": "twistingnether-luminay",
@@ -3894,8 +3894,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:33.357Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:10.907Z",
     "trackedGuild": "K L I K A",
     "faction": "horde",
     "race": "Dracthyr",
@@ -3911,7 +3911,7 @@
     "raiderIoUpdatedAt": "2026-07-31T15:25:46.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:33.357Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:10.907Z"
   },
   {
     "id": "tarrenmill-madjekyl",
@@ -3932,8 +3932,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:35.125Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:11.745Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Goblin",
@@ -3949,7 +3949,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:47:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:35.125Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:11.745Z"
   },
   {
     "id": "twistingnether-madmak",
@@ -3970,8 +3970,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:36.099Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:12.634Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Orc",
@@ -3987,7 +3987,7 @@
     "raiderIoUpdatedAt": "2026-07-23T03:59:05.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:36.099Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:12.634Z"
   },
   {
     "id": "twistingnether-malenakpl",
@@ -4008,8 +4008,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:37.051Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:13.528Z",
     "trackedGuild": "Death and Glory",
     "faction": "horde",
     "race": "Zandalari Troll",
@@ -4025,7 +4025,7 @@
     "raiderIoUpdatedAt": "2026-08-01T23:47:00.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:37.051Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:13.528Z"
   },
   {
     "id": "twistingnether-maniacw",
@@ -4046,8 +4046,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:37.929Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:14.451Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Mag'har Orc",
@@ -4063,7 +4063,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:22.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:37.929Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:14.451Z"
   },
   {
     "id": "silvermoon-maounitsa",
@@ -4079,7 +4079,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Maounitsa",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Maounitsa",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/100/156259940-avatar.jpg?alt=/wow/static/images/2d/avatar/22-1.jpg",
@@ -4087,7 +4087,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:38.452Z",
+    "updatedAt": "2026-08-03T17:21:15.185Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -4101,7 +4101,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:22:57.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:38.452Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:15.185Z"
   },
   {
     "id": "twistingnether-maralyn",
@@ -4122,14 +4122,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:39.348Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:16.023Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "female",
     "achievementPoints": 28405,
-    "itemLevel": 292,
+    "itemLevel": 292.5,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -4139,7 +4139,7 @@
     "raiderIoUpdatedAt": "2026-07-23T03:59:05.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:39.348Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:16.023Z"
   },
   {
     "id": "silvermoon-mehiropoulos",
@@ -4155,7 +4155,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Mehiropoulos",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Mehiropoulos",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/69/224015685-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
@@ -4163,7 +4163,7 @@
     "itemLevel": 293,
     "raidProgress": "6/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:39.939Z",
+    "updatedAt": "2026-08-03T17:21:16.491Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -4177,7 +4177,7 @@
     "raidKills": 6,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T10:44:35.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:39.939Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:16.491Z"
   },
   {
     "id": "twistingnether-meleron",
@@ -4198,8 +4198,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:32.534Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:40.960Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:17.428Z",
     "trackedGuild": "Disobedient Group II",
     "faction": "alliance",
     "race": "Dwarf",
@@ -4215,7 +4215,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:13.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:40.960Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:17.428Z"
   },
   {
     "id": "tarrenmill-mendorxd",
@@ -4236,8 +4236,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:41.943Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:18.310Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -4253,7 +4253,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:41.943Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:18.310Z"
   },
   {
     "id": "twistingnether-metabatt",
@@ -4274,8 +4274,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:43.590Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:19.190Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Blood Elf",
@@ -4291,7 +4291,7 @@
     "raiderIoUpdatedAt": "2026-07-30T00:16:39.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:43.590Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:19.190Z"
   },
   {
     "id": "twistingnether-mightykhal",
@@ -4312,8 +4312,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:44.481Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:20.005Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -4329,7 +4329,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:08.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:44.481Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:20.005Z"
   },
   {
     "id": "kazzak-mimozha",
@@ -4345,7 +4345,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Mimozha",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Mimozha",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/kazzak/53/198666805-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
@@ -4353,7 +4353,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:27:45.034Z",
+    "updatedAt": "2026-08-03T17:21:20.616Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Disobedient",
@@ -4367,7 +4367,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T05:13:07.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:45.034Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:20.616Z"
   },
   {
     "id": "twistingnether-m-nwu",
@@ -4388,8 +4388,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:46.147Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:21.558Z",
     "trackedGuild": "O M E G A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -4405,7 +4405,7 @@
     "raiderIoUpdatedAt": "2026-08-01T11:03:43.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:46.147Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:21.558Z"
   },
   {
     "id": "tarrenmill-mksdh",
@@ -4426,8 +4426,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:47.166Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:22.529Z",
     "trackedGuild": "Death and Glory",
     "faction": "alliance",
     "race": "Night Elf",
@@ -4443,7 +4443,7 @@
     "raiderIoUpdatedAt": "2026-08-02T01:22:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:47.166Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:22.529Z"
   },
   {
     "id": "draenor-mocchii",
@@ -4459,7 +4459,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/draenor/Mocchii",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/draenor/Mocchii",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/draenor/237/131649261-avatar.jpg?alt=/wow/static/images/2d/avatar/91-1.jpg",
@@ -4467,7 +4467,7 @@
     "itemLevel": 291,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:47.894Z",
+    "updatedAt": "2026-08-03T17:21:23.122Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -4481,7 +4481,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T16:17:04.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:47.894Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:23.122Z"
   },
   {
     "id": "twistingnether-moirane",
@@ -4502,8 +4502,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:48.889Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:24.151Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -4519,7 +4519,7 @@
     "raiderIoUpdatedAt": "2026-07-24T03:07:22.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:48.889Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:24.151Z"
   },
   {
     "id": "silvermoon-mokinha",
@@ -4535,7 +4535,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Mokinha",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Mokinha",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/164/177668004-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
@@ -4543,7 +4543,7 @@
     "itemLevel": 291,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:49.440Z",
+    "updatedAt": "2026-08-03T17:21:24.728Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -4557,7 +4557,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:49.440Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:24.728Z"
   },
   {
     "id": "twistingnether-napethaneis",
@@ -4578,8 +4578,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:50.407Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:25.840Z",
     "trackedGuild": "K L I K A",
     "faction": "horde",
     "race": "Troll",
@@ -4595,7 +4595,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:36:44.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:50.407Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:25.840Z"
   },
   {
     "id": "twistingnether-navvaldrag",
@@ -4616,8 +4616,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:51.329Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:27.001Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -4633,7 +4633,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:09.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:51.329Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:27.001Z"
   },
   {
     "id": "sylvanas-neky",
@@ -4649,7 +4649,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/sylvanas/Neky",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/sylvanas/Neky",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/sylvanas/129/256833665-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -4657,7 +4657,7 @@
     "itemLevel": 290,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:27:52.401Z",
+    "updatedAt": "2026-08-03T17:21:27.647Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -4671,7 +4671,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-23T20:54:06.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:52.401Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:27.647Z"
   },
   {
     "id": "twistingnether-nekycat",
@@ -4692,8 +4692,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:53.318Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:28.612Z",
     "trackedGuild": "Death and Glory",
     "faction": "alliance",
     "race": "Night Elf",
@@ -4709,7 +4709,7 @@
     "raiderIoUpdatedAt": "2026-08-01T23:31:07.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:53.318Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:28.612Z"
   },
   {
     "id": "silvermoon-nerewarrior",
@@ -4730,8 +4730,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:53.871Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:29.231Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Human",
@@ -4747,7 +4747,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:09.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:53.871Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:29.231Z"
   },
   {
     "id": "silvermoon-noxkan",
@@ -4768,8 +4768,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:32.534Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:54.386Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:29.846Z",
     "trackedGuild": "Disobedient Group II",
     "faction": "alliance",
     "race": "Night Elf",
@@ -4785,7 +4785,7 @@
     "raiderIoUpdatedAt": "2026-08-02T09:34:04.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:54.386Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:29.846Z"
   },
   {
     "id": "twistingnether-ntunette",
@@ -4806,8 +4806,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:55.352Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:30.905Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Orc",
@@ -4823,7 +4823,7 @@
     "raiderIoUpdatedAt": "2026-07-31T22:24:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:55.352Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:30.905Z"
   },
   {
     "id": "twistingnether-obiclapz",
@@ -4844,8 +4844,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:56.314Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:31.888Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Night Elf",
@@ -4861,7 +4861,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:24.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:56.314Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:31.888Z"
   },
   {
     "id": "tarrenmill-okeanios",
@@ -4882,8 +4882,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:57.255Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:32.789Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Tauren",
@@ -4899,7 +4899,7 @@
     "raiderIoUpdatedAt": "2026-08-02T21:14:53.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:57.255Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:32.789Z"
   },
   {
     "id": "twistingnether-onlybuffs",
@@ -4920,14 +4920,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:58.362Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:33.776Z",
     "trackedGuild": "O M E G A",
     "faction": "alliance",
     "race": "Dracthyr",
     "gender": "male",
     "achievementPoints": 28455,
-    "itemLevel": 292,
+    "itemLevel": 292.438,
     "raidKey": "tier-mn-1",
     "raidName": "7/9 M",
     "raidDifficulty": "Mythic",
@@ -4937,7 +4937,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:30:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:58.362Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:33.776Z"
   },
   {
     "id": "tarrenmill-oranormi",
@@ -4958,8 +4958,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:27:59.301Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:34.957Z",
     "trackedGuild": "Death and Glory",
     "faction": "horde",
     "race": "Dracthyr",
@@ -4975,7 +4975,7 @@
     "raiderIoUpdatedAt": "2026-08-02T01:22:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:27:59.301Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:34.957Z"
   },
   {
     "id": "twistingnether-or-anna",
@@ -4996,8 +4996,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:00.221Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:35.852Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Zandalari Troll",
@@ -5013,7 +5013,7 @@
     "raiderIoUpdatedAt": "2026-07-23T07:35:11.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:00.221Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:35.852Z"
   },
   {
     "id": "twistingnether-ua-ua",
@@ -5034,8 +5034,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:01.167Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:36.927Z",
     "trackedGuild": "O M E G A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -5051,7 +5051,7 @@
     "raiderIoUpdatedAt": "2026-08-03T05:09:16.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:01.167Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:36.927Z"
   },
   {
     "id": "tarrenmill-oxtavoltos",
@@ -5072,8 +5072,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:02.271Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:37.921Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Troll",
@@ -5089,7 +5089,7 @@
     "raiderIoUpdatedAt": "2026-08-02T14:11:00.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:02.271Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:37.921Z"
   },
   {
     "id": "silvermoon-palarenas",
@@ -5105,7 +5105,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Palarenas",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Palarenas",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/13/205178893-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
@@ -5113,7 +5113,7 @@
     "itemLevel": 293,
     "raidProgress": "7/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:03.063Z",
+    "updatedAt": "2026-08-03T17:21:39.175Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -5127,7 +5127,7 @@
     "raidKills": 7,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T00:41:02.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:03.063Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:39.175Z"
   },
   {
     "id": "twistingnether-palkovaa",
@@ -5148,8 +5148,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:04.143Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:40.128Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Orc",
@@ -5165,7 +5165,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:24.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:04.143Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:40.128Z"
   },
   {
     "id": "twistingnether-partneas",
@@ -5186,14 +5186,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:05.058Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:40.980Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Blood Elf",
     "gender": "male",
     "achievementPoints": 23145,
-    "itemLevel": 292,
+    "itemLevel": 292.438,
     "raidKey": "tier-mn-1",
     "raidName": "6/9 M",
     "raidDifficulty": "Mythic",
@@ -5203,7 +5203,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:25:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:05.058Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:40.980Z"
   },
   {
     "id": "twistingnether-pastillia",
@@ -5224,8 +5224,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:06.308Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:42.041Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -5241,7 +5241,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:42:23.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:06.308Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:42.041Z"
   },
   {
     "id": "silvermoon-pataugia",
@@ -5257,7 +5257,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Pataugia",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Pataugia",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/124/221865084-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -5265,7 +5265,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:06.871Z",
+    "updatedAt": "2026-08-03T17:21:42.606Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -5279,7 +5279,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-31T02:49:44.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:06.871Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:42.606Z"
   },
   {
     "id": "draenor-pepedeath",
@@ -5295,7 +5295,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/draenor/Pepedeath",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/draenor/Pepedeath",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/draenor/172/177173420-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
@@ -5303,7 +5303,7 @@
     "itemLevel": 292,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:07.441Z",
+    "updatedAt": "2026-08-03T17:21:43.162Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -5317,7 +5317,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:07.441Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:43.162Z"
   },
   {
     "id": "draenor-pepemoulis",
@@ -5338,8 +5338,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:07.968Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:43.663Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Night Elf",
@@ -5355,7 +5355,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:07.968Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:43.663Z"
   },
   {
     "id": "tarrenmill-phatdmgg",
@@ -5376,8 +5376,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:08.898Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:44.558Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Troll",
@@ -5393,7 +5393,7 @@
     "raiderIoUpdatedAt": "2026-07-23T08:35:17.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:08.898Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:44.558Z"
   },
   {
     "id": "stormscale-pinwfix",
@@ -5409,7 +5409,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/stormscale/Pinwfix",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/stormscale/Pinwfix",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/stormscale/126/70661758-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
@@ -5417,7 +5417,7 @@
     "itemLevel": 292,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:09.479Z",
+    "updatedAt": "2026-08-03T17:21:45.125Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -5431,7 +5431,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T23:58:35.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:09.479Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:45.125Z"
   },
   {
     "id": "twistingnether-pioupiouu",
@@ -5452,8 +5452,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:10.390Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:46.031Z",
     "trackedGuild": "Deny Everything",
     "faction": "horde",
     "race": "Orc",
@@ -5469,7 +5469,7 @@
     "raiderIoUpdatedAt": "2026-08-02T17:51:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:10.390Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:46.031Z"
   },
   {
     "id": "ragnaros-pipetos",
@@ -5490,8 +5490,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:10.951Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:46.546Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Goblin",
@@ -5507,7 +5507,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:10.951Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:46.546Z"
   },
   {
     "id": "twistingnether-pitaclub",
@@ -5528,8 +5528,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:32.534Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:11.893Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:47.677Z",
     "trackedGuild": "Disobedient Group II",
     "faction": "horde",
     "race": "Troll",
@@ -5545,7 +5545,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:09.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:11.893Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:47.677Z"
   },
   {
     "id": "ravencrest-pontsis",
@@ -5566,8 +5566,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:12.471Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:48.340Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Dwarf",
@@ -5583,7 +5583,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:22.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:12.471Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:48.340Z"
   },
   {
     "id": "twistingnether-primohunter",
@@ -5604,8 +5604,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:13.444Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:49.233Z",
     "trackedGuild": "K L I K A",
     "faction": "horde",
     "race": "Orc",
@@ -5621,7 +5621,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:36:42.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:13.444Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:49.233Z"
   },
   {
     "id": "twistingnether-pro-dros",
@@ -5642,8 +5642,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:14.595Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:50.180Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Haranir",
@@ -5659,7 +5659,7 @@
     "raiderIoUpdatedAt": "2026-07-29T23:05:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:14.595Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:50.180Z"
   },
   {
     "id": "silvermoon-pr-sexteme",
@@ -5675,7 +5675,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Prøsexteme",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Pr%C3%B8sexteme",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/48/223399216-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -5683,7 +5683,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:15.179Z",
+    "updatedAt": "2026-08-03T17:21:50.639Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -5697,7 +5697,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:23:00.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:15.179Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:50.639Z"
   },
   {
     "id": "silvermoon-proxypala",
@@ -5718,8 +5718,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:15.724Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:51.206Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Blood Elf",
@@ -5735,7 +5735,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:15.724Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:51.206Z"
   },
   {
     "id": "silvermoon-pullstomiden",
@@ -5756,8 +5756,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:16.231Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:51.696Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -5773,7 +5773,7 @@
     "raiderIoUpdatedAt": "2026-08-03T00:41:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:16.231Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:51.696Z"
   },
   {
     "id": "twistingnether-purovolimeno",
@@ -5794,8 +5794,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:32.534Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:17.185Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:52.589Z",
     "trackedGuild": "Disobedient Group II",
     "faction": "horde",
     "race": "Goblin",
@@ -5811,7 +5811,7 @@
     "raiderIoUpdatedAt": "2026-08-03T12:58:21.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:17.185Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:52.589Z"
   },
   {
     "id": "silvermoon-quoruxz",
@@ -5827,7 +5827,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Quoruxz",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Quoruxz",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/7/205188103-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -5835,7 +5835,7 @@
     "itemLevel": 291.875,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:17.717Z",
+    "updatedAt": "2026-08-03T17:21:53.077Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -5849,7 +5849,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T17:01:40.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:17.717Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:53.077Z"
   },
   {
     "id": "silvermoon-qurouxz",
@@ -5865,7 +5865,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Qurouxz",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Qurouxz",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/6/206789894-avatar.jpg?alt=/wow/static/images/2d/avatar/52-0.jpg",
@@ -5873,7 +5873,7 @@
     "itemLevel": 292.438,
     "raidProgress": "4/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:18.213Z",
+    "updatedAt": "2026-08-03T17:21:53.523Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -5887,7 +5887,7 @@
     "raidKills": 4,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T22:25:48.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:18.213Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:53.523Z"
   },
   {
     "id": "twistingnether-ragnadriel",
@@ -5908,8 +5908,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:19.183Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:54.499Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Draenei",
@@ -5925,7 +5925,7 @@
     "raiderIoUpdatedAt": "2026-07-31T21:28:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:19.183Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:54.499Z"
   },
   {
     "id": "silvermoon-ral-z",
@@ -5941,7 +5941,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Ralêz",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Ral%C3%AAz",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/156/210967964-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
@@ -5949,7 +5949,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:19.878Z",
+    "updatedAt": "2026-08-03T17:21:55.093Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -5963,7 +5963,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T00:47:57.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:19.878Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:55.093Z"
   },
   {
     "id": "tarrenmill-ramelitsa",
@@ -5984,8 +5984,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:20.801Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:55.932Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -6001,7 +6001,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:20.801Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:55.932Z"
   },
   {
     "id": "ravencrest-ramrobinson",
@@ -6017,7 +6017,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Ramrobinson",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Ramrobinson",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ravencrest/77/124075085-avatar.jpg?alt=/wow/static/images/2d/avatar/11-1.jpg",
@@ -6025,7 +6025,7 @@
     "itemLevel": 258,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:21.480Z",
+    "updatedAt": "2026-08-03T17:21:56.389Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Disobedient",
@@ -6039,7 +6039,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T10:15:08.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:21.480Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:56.389Z"
   },
   {
     "id": "silvermoon-ravanaa",
@@ -6060,8 +6060,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:22.041Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:56.908Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6077,7 +6077,7 @@
     "raiderIoUpdatedAt": "2026-07-29T23:05:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:22.041Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:56.908Z"
   },
   {
     "id": "twistingnether-raziee",
@@ -6098,8 +6098,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:23.003Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:57.729Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -6115,7 +6115,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:01:55.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:23.003Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:57.729Z"
   },
   {
     "id": "draenor-realpandh",
@@ -6136,8 +6136,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:23.628Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:58.220Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6153,7 +6153,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:37:29.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:23.628Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:58.220Z"
   },
   {
     "id": "twistingnether-relikk",
@@ -6174,8 +6174,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:24.717Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:59.095Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Orc",
@@ -6191,7 +6191,7 @@
     "raiderIoUpdatedAt": "2026-07-23T03:59:05.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:24.717Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:59.095Z"
   },
   {
     "id": "twistingnether-reujo",
@@ -6212,8 +6212,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:25.681Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:21:59.973Z",
     "trackedGuild": "Death and Glory",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6229,7 +6229,7 @@
     "raiderIoUpdatedAt": "2026-08-02T01:23:00.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:25.681Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:21:59.973Z"
   },
   {
     "id": "twistingnether-rikkisixx",
@@ -6250,8 +6250,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:26.674Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:01.811Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6267,7 +6267,7 @@
     "raiderIoUpdatedAt": "2026-08-02T08:48:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:26.674Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:01.811Z"
   },
   {
     "id": "twistingnether-rvivr",
@@ -6288,8 +6288,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:27.672Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:02.772Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Void Elf",
@@ -6305,7 +6305,7 @@
     "raiderIoUpdatedAt": "2026-08-03T09:44:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:27.672Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:02.772Z"
   },
   {
     "id": "twistingnether-salmold",
@@ -6326,8 +6326,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:28.700Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:03.621Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -6343,7 +6343,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:28.700Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:03.621Z"
   },
   {
     "id": "silvermoon-sapioxeris",
@@ -6359,7 +6359,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Sapioxeris",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Sapioxeris",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/12/203871500-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
@@ -6367,7 +6367,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:29.258Z",
+    "updatedAt": "2026-08-03T17:22:04.165Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -6381,7 +6381,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:22:59.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:29.258Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:04.165Z"
   },
   {
     "id": "twistingnether-scotusmage",
@@ -6402,8 +6402,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:30.269Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:05.054Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Troll",
@@ -6419,7 +6419,7 @@
     "raiderIoUpdatedAt": "2026-08-02T13:53:49.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:30.269Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:05.054Z"
   },
   {
     "id": "silvermoon-scuffedaim",
@@ -6435,7 +6435,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Scuffedaim",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Scuffedaim",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/171/183360683-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -6443,7 +6443,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:30.852Z",
+    "updatedAt": "2026-08-03T17:22:05.587Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -6457,7 +6457,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T23:31:46.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:30.852Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:05.587Z"
   },
   {
     "id": "twistingnether-selyne",
@@ -6478,8 +6478,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:31.835Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:06.465Z",
     "trackedGuild": "O M E G A",
     "faction": "alliance",
     "race": "Draenei",
@@ -6495,7 +6495,7 @@
     "raiderIoUpdatedAt": "2026-07-27T20:44:39.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:31.835Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:06.465Z"
   },
   {
     "id": "twistingnether-senux",
@@ -6516,8 +6516,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:33.344Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:07.367Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6533,7 +6533,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:47:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:33.344Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:07.367Z"
   },
   {
     "id": "twistingnether-seridna",
@@ -6554,8 +6554,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:34.458Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:08.318Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -6571,7 +6571,7 @@
     "raiderIoUpdatedAt": "2026-07-24T16:20:21.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:34.458Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:08.318Z"
   },
   {
     "id": "twistingnether-shalash",
@@ -6592,8 +6592,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:35.447Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:09.225Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -6609,7 +6609,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:12.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:35.447Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:09.225Z"
   },
   {
     "id": "silvermoon-sheriffis",
@@ -6630,8 +6630,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:36.063Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:09.795Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Mechagnome",
@@ -6647,7 +6647,7 @@
     "raiderIoUpdatedAt": "2026-07-23T23:32:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:36.063Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:09.795Z"
   },
   {
     "id": "twistingnether-sizor",
@@ -6668,8 +6668,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:37.023Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:10.774Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Troll",
@@ -6685,7 +6685,7 @@
     "raiderIoUpdatedAt": "2026-07-09T19:38:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:37.023Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:10.774Z"
   },
   {
     "id": "twistingnether-skullhunter",
@@ -6706,8 +6706,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:38.186Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:11.659Z",
     "trackedGuild": "K L I K A",
     "faction": "horde",
     "race": "Tauren",
@@ -6723,7 +6723,7 @@
     "raiderIoUpdatedAt": "2026-08-03T00:41:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:38.186Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:11.659Z"
   },
   {
     "id": "silvermoon-snrshaman",
@@ -6744,8 +6744,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:38.849Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:12.354Z",
     "trackedGuild": "Death and Glory",
     "faction": "alliance",
     "race": "Dwarf",
@@ -6761,7 +6761,7 @@
     "raiderIoUpdatedAt": "2026-07-05T03:23:07.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:38.849Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:12.354Z"
   },
   {
     "id": "stormscale-sofron",
@@ -6777,7 +6777,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/stormscale/Sofron",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/stormscale/Sofron",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/stormscale/247/174754295-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
@@ -6785,7 +6785,7 @@
     "itemLevel": 292,
     "raidProgress": "8/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:39.485Z",
+    "updatedAt": "2026-08-03T17:22:12.814Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "SOE Reborn",
@@ -6799,7 +6799,7 @@
     "raidKills": 8,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:39.485Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:12.814Z"
   },
   {
     "id": "twistingnether-somie",
@@ -6820,8 +6820,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:40.477Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:13.802Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -6837,7 +6837,7 @@
     "raiderIoUpdatedAt": "2026-08-02T17:51:03.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:40.477Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:13.802Z"
   },
   {
     "id": "twistingnether-soulsx",
@@ -6858,8 +6858,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:41.546Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:14.655Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -6875,7 +6875,7 @@
     "raiderIoUpdatedAt": "2026-07-17T16:23:17.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:41.546Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:14.655Z"
   },
   {
     "id": "silvermoon-sreclar",
@@ -6891,15 +6891,15 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Sreclar",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Sreclar",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/130/202317442-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
     "mythicPlusScore": 4066.8,
-    "itemLevel": 292,
+    "itemLevel": 292.438,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:42.091Z",
+    "updatedAt": "2026-08-03T17:22:15.265Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -6913,7 +6913,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-29T09:56:37.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:42.091Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:15.265Z"
   },
   {
     "id": "twistingnether-swmatemporos",
@@ -6934,8 +6934,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:43.024Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:16.380Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -6951,7 +6951,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:42:23.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:43.024Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:16.380Z"
   },
   {
     "id": "quelthalas-synodus",
@@ -6967,7 +6967,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/quelthalas/Synodus",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/quelthalas/Synodus",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/quelthalas/135/167324551-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
@@ -6975,7 +6975,7 @@
     "itemLevel": 292,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:43.564Z",
+    "updatedAt": "2026-08-03T17:22:17.379Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -6989,7 +6989,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-02T01:19:55.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:43.564Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:17.379Z"
   },
   {
     "id": "silvermoon-takuruadh",
@@ -7005,7 +7005,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Takuruadh",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Takuruadh",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/132/202279044-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
@@ -7013,7 +7013,7 @@
     "itemLevel": 291,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:44.258Z",
+    "updatedAt": "2026-08-03T17:22:17.920Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -7027,7 +7027,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T04:10:56.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:44.258Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:17.920Z"
   },
   {
     "id": "twistingnether-tanchao",
@@ -7048,8 +7048,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:45.355Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:18.774Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Pandaren",
@@ -7065,7 +7065,7 @@
     "raiderIoUpdatedAt": "2026-08-02T18:01:54.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:45.355Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:18.774Z"
   },
   {
     "id": "draenor-tha-atos",
@@ -7086,8 +7086,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:46.009Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:19.360Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -7103,7 +7103,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:10.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:46.009Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:19.360Z"
   },
   {
     "id": "twistingnether-tidalburner",
@@ -7124,8 +7124,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:47.075Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:20.376Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Night Elf",
@@ -7141,7 +7141,7 @@
     "raiderIoUpdatedAt": "2026-08-02T19:02:00.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:47.075Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:20.376Z"
   },
   {
     "id": "twistingnether-tigermonk",
@@ -7162,8 +7162,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:47.971Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:21.281Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Dwarf",
@@ -7179,7 +7179,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:13.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:47.971Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:21.281Z"
   },
   {
     "id": "twistingnether-tigki",
@@ -7200,8 +7200,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:48.967Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:22.287Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -7217,7 +7217,7 @@
     "raiderIoUpdatedAt": "2026-08-02T00:31:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:48.967Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:22.287Z"
   },
   {
     "id": "silvermoon-toolowpala",
@@ -7233,15 +7233,15 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Toolowpala",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Toolowpala",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/29/216383773-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
     "mythicPlusScore": 3554.5,
-    "itemLevel": 287,
+    "itemLevel": 287.5,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:49.527Z",
+    "updatedAt": "2026-08-03T17:22:22.796Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -7255,7 +7255,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T10:58:47.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:49.527Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:22.796Z"
   },
   {
     "id": "kazzak-toubaneiros",
@@ -7271,7 +7271,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Toubaneiros",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Toubaneiros",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/kazzak/201/145355721-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
@@ -7279,7 +7279,7 @@
     "itemLevel": 292,
     "raidProgress": "7/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:28:50.243Z",
+    "updatedAt": "2026-08-03T17:22:23.438Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -7293,7 +7293,7 @@
     "raidKills": 7,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-31T23:33:40.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:50.243Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:23.438Z"
   },
   {
     "id": "twistingnether-trinkyxcute",
@@ -7314,8 +7314,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:51.245Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:24.436Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Void Elf",
@@ -7331,7 +7331,7 @@
     "raiderIoUpdatedAt": "2026-07-23T16:40:16.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:51.245Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:24.436Z"
   },
   {
     "id": "twistingnether-tsamarella",
@@ -7352,8 +7352,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:52.119Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:25.384Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Night Elf",
@@ -7369,7 +7369,7 @@
     "raiderIoUpdatedAt": "2026-08-01T00:32:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:52.119Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:25.384Z"
   },
   {
     "id": "twistingnether-tsiflok",
@@ -7390,8 +7390,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:53.058Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:27.027Z",
     "trackedGuild": "Death and Glory",
     "faction": "horde",
     "race": "Orc",
@@ -7407,7 +7407,7 @@
     "raiderIoUpdatedAt": "2026-07-29T22:40:39.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:53.058Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:27.027Z"
   },
   {
     "id": "ravencrest-tubobanned",
@@ -7423,15 +7423,15 @@
     "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Tubobanned",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Tubobanned",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ravencrest/172/176638124-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
     "mythicPlusScore": 3458,
-    "itemLevel": 292,
+    "itemLevel": 292.438,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:28:53.613Z",
+    "updatedAt": "2026-08-03T17:22:27.566Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -7445,7 +7445,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T11:02:50.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:53.613Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:27.566Z"
   },
   {
     "id": "twistingnether-uchi",
@@ -7466,8 +7466,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:54.891Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:28.649Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Goblin",
@@ -7483,7 +7483,7 @@
     "raiderIoUpdatedAt": "2026-08-02T23:18:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:54.891Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:28.649Z"
   },
   {
     "id": "silvermoon-vanilegg",
@@ -7504,8 +7504,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:55.992Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:29.164Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Draenei",
@@ -7521,7 +7521,7 @@
     "raiderIoUpdatedAt": "2026-07-16T23:27:07.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:55.992Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:29.164Z"
   },
   {
     "id": "silvermoon-veloclap",
@@ -7542,8 +7542,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:56.524Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:29.676Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Human",
@@ -7559,7 +7559,7 @@
     "raiderIoUpdatedAt": "2026-07-10T10:37:39.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:56.524Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:29.676Z"
   },
   {
     "id": "ravencrest-voras",
@@ -7580,8 +7580,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:37.134Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:57.031Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:30.159Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -7597,7 +7597,7 @@
     "raiderIoUpdatedAt": "2026-07-24T16:20:18.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:57.031Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:30.159Z"
   },
   {
     "id": "twistingnether-weeyz",
@@ -7618,8 +7618,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:58.043Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:31.132Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "horde",
     "race": "Blood Elf",
@@ -7635,7 +7635,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:22.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:58.043Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:31.132Z"
   },
   {
     "id": "tarrenmill-wiinchesterr",
@@ -7656,8 +7656,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:58.975Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:32.045Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Dwarf",
@@ -7673,7 +7673,7 @@
     "raiderIoUpdatedAt": "2026-07-15T21:20:26.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:58.975Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:32.045Z"
   },
   {
     "id": "twistingnether-wtiger",
@@ -7694,8 +7694,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:28:59.985Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:32.928Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Troll",
@@ -7711,7 +7711,7 @@
     "raiderIoUpdatedAt": "2026-08-02T10:15:09.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:28:59.985Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:32.928Z"
   },
   {
     "id": "dentarg-xabock",
@@ -7727,7 +7727,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/dentarg/Xabock",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/dentarg/Xabock",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/dentarg/222/190272222-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
@@ -7735,7 +7735,7 @@
     "itemLevel": 293,
     "raidProgress": "9/9M",
     "achievement": "CE",
-    "updatedAt": "2026-08-03T15:29:00.483Z",
+    "updatedAt": "2026-08-03T17:22:33.429Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Deny Everything",
@@ -7749,7 +7749,7 @@
     "raidKills": 9,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-01T18:29:50.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:00.483Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:33.429Z"
   },
   {
     "id": "kazzak-xaliamoutris",
@@ -7770,8 +7770,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:01.073Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:34.028Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Mag'har Orc",
@@ -7787,7 +7787,7 @@
     "raiderIoUpdatedAt": "2026-07-31T02:45:50.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:01.073Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:34.028Z"
   },
   {
     "id": "twistingnether-xarxaloulis",
@@ -7808,8 +7808,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:02.108Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:35.067Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Tauren",
@@ -7825,7 +7825,7 @@
     "raiderIoUpdatedAt": "2026-08-03T11:42:23.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:02.108Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:35.067Z"
   },
   {
     "id": "silvermoon-xaxades",
@@ -7846,8 +7846,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:03.228Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:35.703Z",
     "trackedGuild": "UNIQUE LEGACY",
     "faction": "alliance",
     "race": "Night Elf",
@@ -7863,7 +7863,7 @@
     "raiderIoUpdatedAt": "2026-08-03T08:15:56.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:03.228Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:35.703Z"
   },
   {
     "id": "tarrenmill-xitzaaz",
@@ -7884,8 +7884,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:04.207Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:36.653Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Void Elf",
@@ -7901,7 +7901,7 @@
     "raiderIoUpdatedAt": "2026-07-26T21:15:28.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:04.207Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:36.653Z"
   },
   {
     "id": "twistingnether-xlepa",
@@ -7922,8 +7922,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:05.251Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:37.739Z",
     "trackedGuild": "Death and Glory",
     "faction": "alliance",
     "race": "Night Elf",
@@ -7939,7 +7939,7 @@
     "raiderIoUpdatedAt": "2026-08-01T23:17:59.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:05.251Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:37.739Z"
   },
   {
     "id": "sylvanas-xotheweekend",
@@ -7955,7 +7955,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:23.424Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/sylvanas/Xotheweekend",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/sylvanas/Xotheweekend",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/sylvanas/52/260436788-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
@@ -7963,7 +7963,7 @@
     "itemLevel": 293,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:29:05.893Z",
+    "updatedAt": "2026-08-03T17:22:38.353Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "Death and Glory",
@@ -7977,7 +7977,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-07-23T21:23:12.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:05.893Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:38.353Z"
   },
   {
     "id": "twistingnether-yidras",
@@ -7998,14 +7998,14 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:06.837Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:39.220Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Goblin",
     "gender": "female",
     "achievementPoints": 22005,
-    "itemLevel": 293,
+    "itemLevel": 293.062,
     "raidKey": "tier-mn-1",
     "raidName": "9/9 M",
     "raidDifficulty": "Mythic",
@@ -8015,7 +8015,7 @@
     "raiderIoUpdatedAt": "2026-08-02T22:39:08.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:06.837Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:39.220Z"
   },
   {
     "id": "silvermoon-yliko",
@@ -8036,8 +8036,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:08.111Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:39.736Z",
     "trackedGuild": "K L I K A",
     "faction": "alliance",
     "race": "Dwarf",
@@ -8053,7 +8053,7 @@
     "raiderIoUpdatedAt": "2026-08-03T00:41:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:08.111Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:39.736Z"
   },
   {
     "id": "ravencrest-y-k",
@@ -8069,7 +8069,7 @@
     "rosterUpdatedAt": "2026-08-02T11:37:44.254Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T18:46:29.181Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Yükí",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Y%C3%BCk%C3%AD",
     "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/ravencrest/117/169091957-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
@@ -8077,7 +8077,7 @@
     "itemLevel": 292.438,
     "raidProgress": "5/9M",
     "achievement": "-",
-    "updatedAt": "2026-08-03T15:29:46.803Z",
+    "updatedAt": "2026-08-03T17:22:40.441Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "K L I K A",
@@ -8091,7 +8091,7 @@
     "raidKills": 5,
     "raidTotalBosses": 9,
     "raiderIoUpdatedAt": "2026-08-03T00:41:01.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:46.803Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:40.441Z"
   },
   {
     "id": "twistingnether-yureih",
@@ -8112,8 +8112,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:40.726Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:47.779Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:41.401Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -8129,7 +8129,7 @@
     "raiderIoUpdatedAt": "2026-08-01T10:33:53.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:47.779Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:41.401Z"
   },
   {
     "id": "tarrenmill-zaks",
@@ -8150,8 +8150,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:55.586Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:48.750Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:42.413Z",
     "trackedGuild": "SOE Reborn",
     "faction": "horde",
     "race": "Orc",
@@ -8167,7 +8167,7 @@
     "raiderIoUpdatedAt": "2026-08-03T10:44:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:48.750Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:42.413Z"
   },
   {
     "id": "twistingnether-zenlimiter",
@@ -8188,8 +8188,8 @@
     "rosterUpdatedAt": "2026-08-02T11:37:28.257Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-03T15:26:04.049Z",
-    "updatedAt": "2026-08-03T15:29:49.638Z",
+    "lastSeenInRosterAt": "2026-08-03T17:19:46.495Z",
+    "updatedAt": "2026-08-03T17:22:43.249Z",
     "trackedGuild": "Deny Everything",
     "faction": "alliance",
     "race": "Night Elf",
@@ -8205,6 +8205,6 @@
     "raiderIoUpdatedAt": "2026-08-03T08:36:59.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-03T15:29:49.638Z"
+    "lastSuccessfulUpdateAt": "2026-08-03T17:22:43.249Z"
   }
 ]
