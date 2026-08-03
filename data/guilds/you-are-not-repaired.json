@@ -1,0 +1,61 @@
+{
+  "id": "you-are-not-repaired",
+  "name": "You Are Not Repaired",
+  "logo": "./assets/guilds/yanr.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2014",
+  "weeklySchedule": "Πέμπτη - Δευτέρα",
+  "RaidTimes": "21:30-00:30 Ελλάδας",
+  "warcraftLogs": {
+    "guildName": "You Are Not Repaired",
+    "realm": "silvermoon",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "6/8M",
+      "WR": "3.425",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "8/8M",
+      "WR": "1.911",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "8/8M",
+      "WR": "1.665",
+      "GR": "4"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "Inactive",
+      "WR": "-",
+      "GR": "-"
+    }
+  },
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/You%20Are%20Not%20Repaired",
+    "realm": "silvermoon",
+    "region": "eu",
+    "lastUpdated": "2026-08-03T17:30:13.747Z"
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 597404,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 650
+  }
+}
