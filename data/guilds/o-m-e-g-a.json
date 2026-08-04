@@ -129,13 +129,6 @@
         "reports": 1
       },
       {
-        "name": "Draizer",
-        "realm": "Outland",
-        "class": "Warrior",
-        "spec": "Fury",
-        "reports": 9
-      },
-      {
         "name": "Elloon",
         "realm": "Kazzak",
         "class": "DemonHunter",
@@ -246,15 +239,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T11:31:33.509Z"
+    "lastUpdated": "2026-08-04T16:27:25.812Z"
   },
-  "rosterUpdatedAt": "2026-08-04T11:32:14.423Z",
+  "rosterUpdatedAt": "2026-08-04T16:28:29.978Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 13,
-    "verifiedGuildMembers": 650
+    "verifiedGuildMembers": 649
   }
 }
