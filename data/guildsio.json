@@ -202,9 +202,44 @@
           "realm": 77
         },
         "mythic": {
-          "world": 2005,
-          "region": 930,
+          "world": 2006,
+          "region": 931,
           "realm": 96
+        }
+      }
+    }
+  },
+  {
+    "id": "amargosa-crew",
+    "name": "Amargosa Crew",
+    "realm": "tarren-mill",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Amargosa%20Crew",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "8/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 8
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 10776,
+          "region": 4765,
+          "realm": 235
+        },
+        "heroic": {
+          "world": 5634,
+          "region": 2764,
+          "realm": 185
+        },
+        "mythic": {
+          "world": 1964,
+          "region": 908,
+          "realm": 91
         }
       }
     }
