@@ -1,0 +1,61 @@
+{
+  "id": "dungeon-meta",
+  "name": "Dungeon Meta",
+  "logo": "./assets/guilds/dmeta.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 0,
+  "rank3Wins": 0,
+  "established": "2025",
+  "weeklySchedule": "Πέμπτη - Κυριακή",
+  "RaidTimes": "21:00-00:00 Ελλάδας",
+  "warcraftLogs": {
+    "guildName": "Dungeon Meta",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "N/A",
+      "WR": "N/A",
+      "GR": "-"
+    },
+    "LoU": {
+      "progress": "1/8M",
+      "WR": "6.798",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "6/8M",
+      "WR": "2.917",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "4/9M",
+      "WR": "6.390",
+      "GR": "16"
+    }
+  },
+  "roster": {
+    "tanks": [],
+    "healers": [],
+    "dps": []
+  },
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
+    "realm": "silvermoon",
+    "region": "eu",
+    "lastUpdated": "2026-08-04T11:31:33.511Z"
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 782331,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 650
+  }
+}
