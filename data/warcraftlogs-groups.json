@@ -24,6 +24,7 @@
     "id": "amargosa-crew",
     "name": "Amargosa Crew",
     "parentGuild": "Amargosa Crew",
+    "type": "guild",
     "realm": "tarren-mill",
     "warcraftLogsGuildId": 806903,
     "manual": true,
