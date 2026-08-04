@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "9/9 M",
-      "WR": "1510",
+      "WR": "1511",
       "GR": "5"
     }
   },
@@ -246,9 +246,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-03T17:30:13.746Z"
+    "lastUpdated": "2026-08-04T11:31:33.509Z"
   },
-  "rosterUpdatedAt": "2026-08-03T17:31:08.916Z",
+  "rosterUpdatedAt": "2026-08-04T11:32:14.423Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,

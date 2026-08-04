@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "8/9 M",
-      "WR": "1983",
+      "WR": "2002",
       "GR": "-"
     }
   },
@@ -52,7 +52,7 @@
         "realm": "Draenor",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 14
+        "reports": 16
       },
       {
         "name": "Pepemoulis",
@@ -66,7 +66,7 @@
         "realm": "Stormscale",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 14
+        "reports": 16
       }
     ],
     "healers": [
@@ -75,21 +75,21 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 9
+        "reports": 11
       },
       {
         "name": "Drakoulinia",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 10
+        "reports": 12
       },
       {
         "name": "Fenrix",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 14
+        "reports": 16
       },
       {
         "name": "Filtráki",
@@ -110,7 +110,7 @@
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 14
+        "reports": 16
       }
     ],
     "dps": [
@@ -119,21 +119,21 @@
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Arleighburke",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Clarenadkz",
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 14
+        "reports": 16
       },
       {
         "name": "Deathbagua",
@@ -147,14 +147,14 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Draksie",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Draksiedh",
@@ -175,7 +175,7 @@
         "realm": "TarrenMill",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Iridavoke",
@@ -196,28 +196,28 @@
         "realm": "Silvermoon",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Mendorxd",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 14
+        "reports": 16
       },
       {
         "name": "Metabatt",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 9
+        "reports": 11
       },
       {
         "name": "Mokinha",
         "realm": "Silvermoon",
         "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 7
+        "spec": "Subtlety",
+        "reports": 9
       },
       {
         "name": "Pipetos",
@@ -231,7 +231,7 @@
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Sheriffis",
@@ -245,7 +245,7 @@
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 13
+        "reports": 15
       },
       {
         "name": "Vanilegg",
@@ -259,7 +259,7 @@
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 10
+        "reports": 12
       }
     ]
   },
@@ -267,15 +267,15 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-03T17:30:13.746Z"
+    "lastUpdated": "2026-08-04T11:31:33.509Z"
   },
-  "rosterUpdatedAt": "2026-08-03T17:31:16.490Z",
+  "rosterUpdatedAt": "2026-08-04T11:32:17.446Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 14,
+    "reportsChecked": 16,
     "verifiedGuildMembers": 547
   }
 }

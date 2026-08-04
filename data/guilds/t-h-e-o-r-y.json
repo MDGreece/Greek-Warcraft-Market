@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "5/9 M",
-      "WR": "5181",
+      "WR": "5183",
       "GR": "15"
     }
   },
@@ -190,9 +190,9 @@
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-08-03T17:30:13.747Z"
+    "lastUpdated": "2026-08-04T11:31:33.510Z"
   },
-  "rosterUpdatedAt": "2026-08-03T17:31:19.190Z",
+  "rosterUpdatedAt": "2026-08-04T11:32:19.322Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 436691,

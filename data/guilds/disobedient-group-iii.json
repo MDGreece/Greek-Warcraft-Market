@@ -75,14 +75,14 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 2
+        "reports": 1
       },
       {
         "name": "Uchi",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 7
       },
       {
         "name": "Voras",
@@ -98,7 +98,7 @@
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 15
+        "reports": 16
       },
       {
         "name": "Foúska",
@@ -112,14 +112,14 @@
         "realm": "Draenor",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 2
+        "reports": 1
       },
       {
         "name": "Nerewarrior",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Ragnadriel",
@@ -133,7 +133,7 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Somie",
@@ -157,7 +157,7 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-03T17:30:51.227Z",
+  "rosterUpdatedAt": "2026-08-04T11:32:01.748Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
