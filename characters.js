@@ -498,10 +498,36 @@ async function loadCharacters() {
       `Loaded ${characters.length} characters`
     );
 
-    state.characters = characters;
-    state.filteredCharacters = [
-      ...characters
-    ];
+  const responseLeaderboard = await fetch(
+  `./data/leaderboard.json?v=${Date.now()}`
+);
+
+if (!responseLeaderboard.ok) {
+  throw new Error("Could not load leaderboard.json");
+}
+
+const leaderboard = await responseLeaderboard.json();
+
+const greekGuilds = new Set(
+  leaderboard
+    .filter(entry => entry.type === "guild")
+    .map(entry =>
+      normalizeText(entry.name)
+    )
+);
+
+state.characters = characters.filter(character => {
+  const guild = normalizeText(character.guild);
+
+  return (
+    guild &&
+    greekGuilds.has(guild)
+  );
+});
+
+state.filteredCharacters = [
+  ...state.characters
+];
 
     populateFilters();
     attachEvents();
