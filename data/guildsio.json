@@ -87,8 +87,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15488,
-          "region": 6821,
+          "world": 15489,
+          "region": 6822,
           "realm": 177
         },
         "heroic": {
@@ -157,8 +157,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15535,
-          "region": 6868,
+          "world": 15536,
+          "region": 6869,
           "realm": 182
         },
         "heroic": {
@@ -192,8 +192,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16490,
-          "region": 7075,
+          "world": 16491,
+          "region": 7076,
           "realm": 330
         },
         "heroic": {
@@ -202,7 +202,7 @@
           "realm": 77
         },
         "mythic": {
-          "world": 2001,
+          "world": 2002,
           "region": 930,
           "realm": 96
         }
@@ -262,8 +262,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 17031,
-          "region": 7261,
+          "world": 17032,
+          "region": 7262,
           "realm": 354
         },
         "heroic": {
@@ -367,8 +367,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15564,
-          "region": 6897,
+          "world": 15565,
+          "region": 6898,
           "realm": 337
         },
         "heroic": {
@@ -450,6 +450,41 @@
           "world": 5737,
           "region": 2569,
           "realm": 145
+        }
+      }
+    }
+  },
+  {
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "4/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 4
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 2482,
+          "region": 1004,
+          "realm": 34
+        },
+        "heroic": {
+          "world": 8176,
+          "region": 3743,
+          "realm": 142
+        },
+        "mythic": {
+          "world": 6390,
+          "region": 2801,
+          "realm": 138
         }
       }
     }
@@ -717,8 +752,8 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16955,
-          "region": 7186,
+          "world": 16956,
+          "region": 7187,
           "realm": 204
         },
         "heroic": {
