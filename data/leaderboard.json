@@ -127,7 +127,7 @@
     "rank": 9,
     "id": "amargosa-crew",
     "name": "Amargosa Crew",
-    "type": "raid-team",
+    "type": "guild",
     "realm": "tarren-mill",
     "parentGuild": "Amargosa Crew",
     "progress": "8/9M",
