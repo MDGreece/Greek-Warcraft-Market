@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-05T19:49:23.177Z",
+        "lastSeenInRosterAt": "2026-08-05T20:09:32.067Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "9/9M",
         "achievement": "CE",
-        "updatedAt": "2026-08-05T19:49:47.804Z",
+        "updatedAt": "2026-08-05T20:09:43.490Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 9,
         "raidTotalBosses": 9,
         "raiderIoUpdatedAt": "2026-08-04T21:09:42.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-05T19:49:47.804Z"
+        "lastSuccessfulUpdateAt": "2026-08-05T20:09:43.490Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -61,8 +61,8 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-05T19:49:23.177Z",
-        "updatedAt": "2026-08-05T19:49:49.480Z",
+        "lastSeenInRosterAt": "2026-08-05T20:09:32.067Z",
+        "updatedAt": "2026-08-05T20:09:45.280Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -78,7 +78,7 @@
         "raiderIoUpdatedAt": "2026-08-01T18:29:57.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-05T19:49:49.480Z"
+        "lastSuccessfulUpdateAt": "2026-08-05T20:09:45.280Z"
       }
     ],
     "characterCount": 2,
@@ -88,7 +88,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-05T19:54:00.274Z",
-    "updatedAt": "2026-08-05T19:54:00.274Z"
+    "createdAt": "2026-08-05T20:17:06.731Z",
+    "updatedAt": "2026-08-05T20:17:06.731Z"
   }
 ]
