@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Mythic+ Rankings - Greek Warcraft Market
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+<header>
+<div class="top-header">
+    <div class="logo">
+      <img
+        src="./assets/tmglogo.png"
+        alt="Greek Warcraft Market Logo"
+      >
+
+      <div class="logo-text">
+        <span class="logo-top">Greek</span>
+        <span class="logo-main">Warcraft</span>
+        <span class="logo-bottom">Market</span>
+      </div>
+    </div>
+
+    <div class="search">
+      <input
+        id="characterSearch"
+        type="text"
+        placeholder="Search characters, guilds, realms..."
+      >
+    </div>
+
+    <div class="header-links">
+      <a href="#" class="discord-btn">
+        💬 Discord
+      </a>
+
+      <a
+        href="https://guildranking.io/guilds/greek"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ranking-btn"
+      >
+        🏆 Guild Rankings
+      </a>
+
+      <a href="#" class="mdg-btn">
+        🛡 MDG
+      </a>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="guilds.html">🏰 Guilds</a>
+    <a href="players.html">👤 Players</a>
+    <a href="free-agents.html">💼 Free Agents</a>
+    <a href="characters.html" class="active">⚔️ Characters</a>
+    <a href="mdg-teams.html">🏆 MDG Teams</a>
+    <a href="m+.html" class="active">⚔️ M+ Rankings</a>
+    <a href="news.html">📰 News</a>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a>
+  <span>›</span>
+  <span>Mythic+ Rankings</span>
+</div>
+
+<main class="mythic-plus-page">
+
+  <section class="mythic-plus-hero">
+    <div>
+      <span class="mythic-plus-eyebrow">
+        Greek Warcraft Market
+      </span>
+
+      <h1>Mythic+ Rankings</h1>
+
+      <p>
+        The highest Raider.IO Mythic+ scores among
+        characters currently playing in tracked Greek guilds.
+      </p>
+    </div>
+
+    <div class="mythic-plus-update">
+      <span>Players ranked</span>
+      <strong id="rankedCharacterCount">0</strong>
+    </div>
+  </section>
+
+  <section
+    id="mythicPlusLoading"
+    class="mythic-plus-message"
+  >
+    Loading Mythic+ rankings...
+  </section>
+
+  <section
+    id="mythicPlusError"
+    class="mythic-plus-message mythic-plus-error"
+    hidden
+  >
+    Could not load Mythic+ ranking data.
+  </section>
+
+  <section
+    id="mythicPlusLeaderboards"
+    class="mythic-plus-grid"
+    hidden
+  >
+
+    <!-- Tanks -->
+    <article class="mythic-plus-board">
+      <div class="mythic-plus-board-header">
+        <div>
+          <span class="role-label">
+            Protection
+          </span>
+
+          <h2>Top 10 Tanks</h2>
+        </div>
+
+        <span class="role-icon">
+          🛡️
+        </span>
+      </div>
+
+      <div class="mythic-plus-table-wrapper">
+        <table class="mythic-plus-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Character</th>
+              <th>Guild</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+
+          <tbody id="tankRankingBody">
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <!-- Healers -->
+    <article class="mythic-plus-board">
+      <div class="mythic-plus-board-header">
+        <div>
+          <span class="role-label">
+            Healing
+          </span>
+
+          <h2>Top 10 Healers</h2>
+        </div>
+
+        <span class="role-icon">
+          ✨
+        </span>
+      </div>
+
+      <div class="mythic-plus-table-wrapper">
+        <table class="mythic-plus-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Character</th>
+              <th>Guild</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+
+          <tbody id="healerRankingBody">
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <!-- DPS -->
+    <article class="mythic-plus-board">
+      <div class="mythic-plus-board-header">
+        <div>
+          <span class="role-label">
+            Damage
+          </span>
+
+          <h2>Top 10 DPS</h2>
+        </div>
+
+        <span class="role-icon">
+          ⚔️
+        </span>
+      </div>
+
+      <div class="mythic-plus-table-wrapper">
+        <table class="mythic-plus-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Character</th>
+              <th>Guild</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+
+          <tbody id="dpsRankingBody">
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+  </section>
+
+</main>
+
+<script src="m-plus.js"></script>
+
+</body>
+</html>
