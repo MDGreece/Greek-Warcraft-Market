@@ -1,4 +1,5 @@
-"id": "provatina",
+{
+  "id": "provatina",
   "name": "Provatina",
   "logo": "./assets/guilds/provatina.png",
   "status": "active",
@@ -60,3 +61,4 @@
     "reportsChecked": 8,
     "verifiedGuildMembers": 325
   }
+}
