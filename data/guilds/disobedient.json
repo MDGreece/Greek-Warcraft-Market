@@ -6,8 +6,8 @@
   "statusReason": "",
   "inactiveSince": "",
   "rank1Wins": 0,
-  "rank2Wins": 4,
-  "rank3Wins": 0,
+  "rank2Wins": 3,
+  "rank3Wins": 1,
   "established": "2020",
   "weeklySchedule": "Δευτέρα - Τετάρτη",
   "RaidTimes": "21:30-00:30 Ελλάδας",
@@ -20,7 +20,7 @@
     "NP": {
       "progress": "9/9M",
       "WR": "732",
-      "GR": "2"
+      "GR": "3"
     },
     "LoU": {
       "progress": "9/9M",
