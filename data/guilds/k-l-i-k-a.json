@@ -89,7 +89,7 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Yliko",
@@ -225,15 +225,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.438Z"
+    "lastUpdated": "2026-08-05T18:18:58.756Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:59.392Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:59.218Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 8,
+    "reportsChecked": 7,
     "verifiedGuildMembers": 157
   }
 }

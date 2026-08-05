@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "8/9 M",
-      "WR": "1964",
+      "WR": "1980",
       "GR": "9"
     }
   },
@@ -232,15 +232,15 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Amargosa%20Crew",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.440Z"
+    "lastUpdated": "2026-08-05T18:18:58.757Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:34.648Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:08.262Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 806903,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 16,
-    "verifiedGuildMembers": 181
+    "verifiedGuildMembers": 183
   }
 }

@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.437Z"
+    "lastUpdated": "2026-08-05T18:18:58.755Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -58,7 +58,7 @@
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 12
+        "reports": 14
       }
     ],
     "healers": [
@@ -67,14 +67,7 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Discipline",
-        "reports": 12
-      },
-      {
-        "name": "Alentors",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Restoration",
-        "reports": 2
+        "reports": 14
       },
       {
         "name": "Dojamoo",
@@ -95,14 +88,14 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Reujo",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 11
+        "reports": 13
       }
     ],
     "dps": [
@@ -111,7 +104,7 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Hunterboomer",
@@ -124,43 +117,43 @@
         "name": "Kuedonn",
         "realm": "Silvermoon",
         "class": "Warrior",
-        "spec": "Fury",
-        "reports": 11
+        "spec": "Arms",
+        "reports": 13
       },
       {
         "name": "Malenakpl",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 10
+        "reports": 12
       },
       {
         "name": "Maounitsa",
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Mksdh",
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Neky",
         "realm": "Sylvanas",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Oranormi",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Prøsexteme",
@@ -174,7 +167,7 @@
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Qurouxz",
@@ -188,14 +181,14 @@
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Scuffedaim",
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Snrshaman",
@@ -209,28 +202,28 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 10
+        "reports": 12
       },
       {
         "name": "Toubaneiros",
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Tsiflok",
         "realm": "TwistingNether",
         "class": "Warlock",
-        "spec": "Affliction",
-        "reports": 8
+        "spec": "Demonology",
+        "reports": 10
       },
       {
         "name": "Xlepa",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 12
+        "reports": 14
       },
       {
         "name": "Xotheweekend",
@@ -241,13 +234,13 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:42.734Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:24.531Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
-    "verifiedGuildMembers": 926
+    "reportsChecked": 14,
+    "verifiedGuildMembers": 930
   }
 }

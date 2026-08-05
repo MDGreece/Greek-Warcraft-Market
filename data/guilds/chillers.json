@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "7/9 M",
-      "WR": "3495",
+      "WR": "3498",
       "GR": "11"
     }
   },
@@ -274,9 +274,9 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.440Z"
+    "lastUpdated": "2026-08-05T18:18:58.758Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:38.686Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:15.321Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 713880,

@@ -71,13 +71,6 @@
     ],
     "healers": [
       {
-        "name": "Alentors",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Restoration",
-        "reports": 2
-      },
-      {
         "name": "Blazefist",
         "realm": "TwistingNether",
         "class": "Monk",
@@ -346,13 +339,6 @@
         "reports": 1
       },
       {
-        "name": "Xaliamoutris",
-        "realm": "Kazzak",
-        "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 1
-      },
-      {
         "name": "Xarxaloulis",
         "realm": "TwistingNether",
         "class": "DeathKnight",
@@ -372,15 +358,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.438Z"
+    "lastUpdated": "2026-08-05T18:18:58.756Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:55.421Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:51.512Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 6,
-    "verifiedGuildMembers": 897
+    "verifiedGuildMembers": 894
   }
 }

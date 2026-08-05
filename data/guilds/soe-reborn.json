@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "8/9 M",
-      "WR": "2006",
+      "WR": "2029",
       "GR": "-"
     }
   },
@@ -267,9 +267,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.439Z"
+    "lastUpdated": "2026-08-05T18:18:58.757Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:17:07.366Z",
+  "rosterUpdatedAt": "2026-08-05T18:20:15.894Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,

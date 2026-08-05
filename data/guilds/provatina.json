@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Provatina",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.440Z"
+    "lastUpdated": "2026-08-05T18:18:58.758Z"
   },
   "warcraftLogs": {
     "guildName": "Provatina",
@@ -40,17 +40,14 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "5/9 M",
-      "WR": "4.984",
+      "WR": "4984",
       "GR": "-"
     }
   },
   "roster": {
-    "tanks": [
-    ],
-    "healers": [
-    ],
-    "dps": [
-    ]
+    "tanks": [],
+    "healers": [],
+    "dps": []
   },
   "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
   "rosterSource": {

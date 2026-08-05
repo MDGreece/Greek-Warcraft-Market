@@ -239,15 +239,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.439Z"
+    "lastUpdated": "2026-08-05T18:18:58.757Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:17:03.321Z",
+  "rosterUpdatedAt": "2026-08-05T18:20:06.844Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 13,
-    "verifiedGuildMembers": 649
+    "verifiedGuildMembers": 650
   }
 }

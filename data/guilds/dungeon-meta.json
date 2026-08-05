@@ -34,7 +34,7 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "4/9 M",
-      "WR": "6390",
+      "WR": "6392",
       "GR": "16"
     }
   },
@@ -45,7 +45,7 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 5
+        "reports": 4
       }
     ],
     "healers": [
@@ -54,7 +54,7 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Sellian",
@@ -68,14 +68,14 @@
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 5
+        "reports": 4
       },
       {
         "name": "Tyxh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 6
+        "reports": 5
       }
     ],
     "dps": [
@@ -84,14 +84,14 @@
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Kaiken",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Kakoelf",
@@ -105,14 +105,14 @@
         "realm": "Draenor",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 5
+        "reports": 4
       },
       {
         "name": "Marlonbrando",
         "realm": "Hellfire",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Nemodr",
@@ -126,21 +126,21 @@
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Wolfel",
         "realm": "Ragnaros",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Zell",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Zellastrasza",
@@ -155,15 +155,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-04T19:16:30.441Z"
+    "lastUpdated": "2026-08-05T18:18:58.759Z"
   },
-  "rosterUpdatedAt": "2026-08-04T19:16:57.425Z",
+  "rosterUpdatedAt": "2026-08-05T18:19:54.541Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 6,
-    "verifiedGuildMembers": 348
+    "reportsChecked": 5,
+    "verifiedGuildMembers": 352
   }
 }
