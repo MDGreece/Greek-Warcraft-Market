@@ -1,0 +1,63 @@
+"id": "provatina",
+  "name": "Provatina",
+  "logo": "./assets/guilds/provatina.png",
+  "status": "active",
+  "statusReason": "",
+  "inactiveSince": "",
+  "rank1Wins": 0,
+  "rank2Wins": 1,
+  "rank3Wins": 0,
+  "established": "2020",
+  "weeklySchedule": "Τετάρτη - Κυριακή - Δευτέρα",
+  "RaidTimes": "21:30-00:30 Ελλάδας",
+  "raiderIO": {
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Provatina",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "lastUpdated": "2026-08-04T19:16:30.440Z"
+  },
+  "warcraftLogs": {
+    "guildName": "Provatina",
+    "realm": "twisting-nether",
+    "region": "eu"
+  },
+  "tierRanks": {
+    "NP": {
+      "progress": "8/8 M",
+      "WR": "639",
+      "GR": "2"
+    },
+    "LoU": {
+      "progress": "Inactive",
+      "WR": "-",
+      "GR": "-"
+    },
+    "MO": {
+      "progress": "Inactive",
+      "WR": "-",
+      "GR": "-"
+    },
+    "T1 (DR, VS, MoQ)": {
+      "progress": "5/9 M",
+      "WR": "4.984",
+      "GR": "-"
+    }
+  },
+  "roster": {
+    "tanks": [
+    ],
+    "healers": [
+    ],
+    "dps": [
+    ]
+  },
+  "rosterUpdatedAt": "2026-08-02T11:37:58.187Z",
+  "rosterSource": {
+    "provider": "Warcraft Logs",
+    "guildId": 713386,
+    "activeDays": 45,
+    "minimumReports": 1,
+    "reportsChecked": 8,
+    "verifiedGuildMembers": 325
+  }
+}
