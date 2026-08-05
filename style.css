@@ -1286,7 +1286,7 @@ nav a.active {
 ======================================== */
 
 .mythic-plus-page {
-  width: min(1500px, 94%);
+  width: min(1780px, 97%);
   margin: 0 auto;
   padding: 30px 0 70px;
 }
@@ -1296,7 +1296,7 @@ nav a.active {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  padding: 28px 32px;
+  padding: 30px 34px;
   margin-bottom: 28px;
   background:
     linear-gradient(
@@ -1314,7 +1314,7 @@ nav a.active {
   display: block;
   margin-bottom: 8px;
   color: var(--gold);
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1322,20 +1322,20 @@ nav a.active {
 
 .mythic-plus-hero h1 {
   margin: 0 0 10px;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
   line-height: 1;
 }
 
 .mythic-plus-hero p {
-  max-width: 760px;
+  max-width: 900px;
   margin: 0;
   color: var(--muted);
   line-height: 1.65;
 }
 
 .mythic-plus-update {
-  min-width: 135px;
-  padding: 16px 20px;
+  min-width: 150px;
+  padding: 18px 22px;
   text-align: center;
   background: rgba(5, 8, 18, 0.6);
   border: 1px solid var(--border);
@@ -1354,14 +1354,14 @@ nav a.active {
   display: block;
   margin-top: 5px;
   color: var(--gold);
-  font-size: 1.8rem;
+  font-size: 1.95rem;
 }
 
 .mythic-plus-grid {
   display: grid;
   grid-template-columns:
     repeat(3, minmax(0, 1fr));
-  gap: 22px;
+  gap: 24px;
   align-items: start;
 }
 
@@ -1385,19 +1385,19 @@ nav a.active {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  padding: 21px 22px;
+  padding: 23px 24px;
   border-bottom:
     1px solid rgba(255, 255, 255, 0.08);
 }
 
 .mythic-plus-board-header h2 {
   margin: 3px 0 0;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 .role-label {
   color: var(--gold);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -1405,52 +1405,63 @@ nav a.active {
 
 .role-icon {
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   place-items: center;
   background: rgba(85, 166, 255, 0.12);
   border: 1px solid rgba(85, 166, 255, 0.28);
   border-radius: 12px;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 
 .mythic-plus-table-wrapper {
   width: 100%;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 .mythic-plus-table {
   width: 100%;
-  min-width: 530px;
+  table-layout: fixed;
   border-collapse: collapse;
 }
 
 .mythic-plus-table th {
-  padding: 12px 10px;
+  padding: 13px 12px;
   color: var(--muted);
   background: rgba(5, 8, 18, 0.55);
-  font-size: 0.66rem;
+  font-size: 0.68rem;
   letter-spacing: 0.06em;
   text-align: left;
   text-transform: uppercase;
 }
 
-.mythic-plus-table th:first-child,
-.mythic-plus-table td:first-child {
-  width: 54px;
-  text-align: center;
-}
-
-.mythic-plus-table th:last-child,
-.mythic-plus-table td:last-child {
-  text-align: right;
-}
-
 .mythic-plus-table td {
-  padding: 13px 10px;
+  padding: 14px 12px;
   border-bottom:
     1px solid rgba(255, 255, 255, 0.065);
   vertical-align: middle;
+}
+
+.mythic-plus-table th:nth-child(1),
+.mythic-plus-table td:nth-child(1) {
+  width: 56px;
+  text-align: center;
+}
+
+.mythic-plus-table th:nth-child(2),
+.mythic-plus-table td:nth-child(2) {
+  width: 49%;
+}
+
+.mythic-plus-table th:nth-child(3),
+.mythic-plus-table td:nth-child(3) {
+  width: 26%;
+}
+
+.mythic-plus-table th:nth-child(4),
+.mythic-plus-table td:nth-child(4) {
+  width: 90px;
+  text-align: right;
 }
 
 .mythic-plus-table tbody tr:last-child td {
@@ -1469,13 +1480,13 @@ nav a.active {
 
 .mythic-plus-rank {
   display: inline-grid;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   place-items: center;
   color: var(--muted);
   background: rgba(255, 255, 255, 0.055);
   border-radius: 50%;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 800;
 }
 
@@ -1512,15 +1523,15 @@ nav a.active {
 .mythic-plus-character {
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-width: 170px;
+  gap: 11px;
+  min-width: 0;
 }
 
 .mythic-plus-character-image,
 .mythic-plus-character-placeholder {
-  flex: 0 0 38px;
-  width: 38px;
-  height: 38px;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
   border-radius: 9px;
 }
 
@@ -1545,10 +1556,14 @@ nav a.active {
 }
 
 .mythic-plus-character-name {
+  display: block;
+  overflow: hidden;
   color: inherit;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 800;
   text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 a.mythic-plus-character-name:hover {
@@ -1556,28 +1571,33 @@ a.mythic-plus-character-name:hover {
 }
 
 .mythic-plus-character-info span {
+  overflow: hidden;
   color: var(--text);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .mythic-plus-character-info small {
+  overflow: hidden;
   color: var(--muted);
-  font-size: 0.65rem;
+  font-size: 0.67rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .mythic-plus-guild {
-  display: inline-block;
-  max-width: 100px;
+  display: block;
   overflow: hidden;
   color: var(--muted);
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .mythic-plus-score {
   color: var(--gold);
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 900;
   text-decoration: none;
 }
@@ -1606,7 +1626,11 @@ a.mythic-plus-score:hover {
   border-color: rgba(239, 68, 68, 0.4);
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1450px) {
+  .mythic-plus-page {
+    width: min(98%, 1400px);
+  }
+
   .mythic-plus-grid {
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
@@ -1617,9 +1641,9 @@ a.mythic-plus-score:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .mythic-plus-page {
-    width: min(96%, 720px);
+    width: min(96%, 820px);
   }
 
   .mythic-plus-hero {
@@ -1638,5 +1662,14 @@ a.mythic-plus-score:hover {
 
   .mythic-plus-board:last-child {
     grid-column: auto;
+  }
+
+  .mythic-plus-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .mythic-plus-table {
+    min-width: 640px;
+    table-layout: auto;
   }
 }
