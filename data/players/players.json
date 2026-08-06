@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-05T21:10:13.258Z",
+        "lastSeenInRosterAt": "2026-08-06T03:50:43.948Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "9/9M",
         "achievement": "CE",
-        "updatedAt": "2026-08-05T21:10:23.060Z",
+        "updatedAt": "2026-08-06T03:50:53.268Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -39,8 +39,8 @@
         "raidDifficulty": "Mythic",
         "raidKills": 9,
         "raidTotalBosses": 9,
-        "raiderIoUpdatedAt": "2026-08-04T21:09:42.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-05T21:10:23.060Z"
+        "raiderIoUpdatedAt": "2026-08-05T22:47:32.000Z",
+        "lastSuccessfulUpdateAt": "2026-08-06T03:50:53.268Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -61,8 +61,8 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-05T21:10:13.258Z",
-        "updatedAt": "2026-08-05T21:10:24.539Z",
+        "lastSeenInRosterAt": "2026-08-06T03:50:43.948Z",
+        "updatedAt": "2026-08-06T03:50:54.603Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -78,7 +78,7 @@
         "raiderIoUpdatedAt": "2026-08-01T18:29:57.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-05T21:10:24.539Z"
+        "lastSuccessfulUpdateAt": "2026-08-06T03:50:54.603Z"
       }
     ],
     "characterCount": 2,
@@ -88,7 +88,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-05T21:14:32.885Z",
-    "updatedAt": "2026-08-05T21:14:32.885Z"
+    "createdAt": "2026-08-06T03:55:14.935Z",
+    "updatedAt": "2026-08-06T03:55:14.935Z"
   }
 ]
