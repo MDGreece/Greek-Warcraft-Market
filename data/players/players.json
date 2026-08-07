@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-07T07:52:37.054Z",
+        "lastSeenInRosterAt": "2026-08-07T13:50:46.849Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "9/9M",
         "achievement": "CE",
-        "updatedAt": "2026-08-07T07:52:49.867Z",
+        "updatedAt": "2026-08-07T13:50:57.448Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 9,
         "raidTotalBosses": 9,
         "raiderIoUpdatedAt": "2026-08-07T06:48:37.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-07T07:52:49.867Z"
+        "lastSuccessfulUpdateAt": "2026-08-07T13:50:57.448Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -61,14 +61,14 @@
         "rosterUpdatedAt": "2026-08-05T18:19:31.031Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-07T07:52:37.054Z",
-        "updatedAt": "2026-08-07T07:52:51.408Z",
+        "lastSeenInRosterAt": "2026-08-07T13:50:46.849Z",
+        "updatedAt": "2026-08-07T13:50:59.044Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 34995,
-        "itemLevel": 282,
+        "itemLevel": 287.562,
         "raidKey": "tier-mn-1",
         "raidName": "5/9 M",
         "raidDifficulty": "Mythic",
@@ -78,7 +78,7 @@
         "raiderIoUpdatedAt": "2026-08-07T06:48:37.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-07T07:52:51.408Z"
+        "lastSuccessfulUpdateAt": "2026-08-07T13:50:59.044Z"
       }
     ],
     "characterCount": 2,
@@ -88,7 +88,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-07T07:57:13.193Z",
-    "updatedAt": "2026-08-07T07:57:13.193Z"
+    "createdAt": "2026-08-07T13:55:44.116Z",
+    "updatedAt": "2026-08-07T13:55:44.116Z"
   }
 ]
