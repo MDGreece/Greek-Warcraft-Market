@@ -110,6 +110,21 @@
   },
   {
     "rank": 8,
+    "id": "amargosa-crew",
+    "name": "Amargosa Crew",
+    "type": "guild",
+    "realm": "tarren-mill",
+    "parentGuild": "",
+    "progress": "CE",
+    "bossProg": "WR 1975",
+    "worldRank": 1975,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": true,
+    "source": "raiderio"
+  },
+  {
+    "rank": 9,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -122,23 +137,6 @@
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
-  },
-  {
-    "rank": 9,
-    "id": "amargosa-crew",
-    "name": "Amargosa Crew",
-    "type": "guild",
-    "realm": "tarren-mill",
-    "parentGuild": "Amargosa Crew",
-    "progress": "8/9M",
-    "bossProg": "15.49% Midnight Falls",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "warcraftlogs",
-    "latestReport": "cVw9XNBtdmKrbvMz",
-    "latestReportTitle": "Mythic-20260730-1"
   },
   {
     "rank": 10,
