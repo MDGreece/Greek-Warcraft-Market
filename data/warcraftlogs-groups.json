@@ -27,7 +27,7 @@
     "type": "guild",
     "realm": "tarren-mill",
     "warcraftLogsGuildId": 806903,
-    "manual": true,
+    "autoFound": true,
     "progress": "8/9M",
     "raidDifficulty": "Mythic",
     "raidDifficultySuffix": "M",
