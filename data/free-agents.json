@@ -18,8 +18,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
-    "lastSeenInRosterAt": "2026-08-08T02:28:37.886Z",
-    "updatedAt": "2026-08-08T02:31:19.479Z",
+    "lastSeenInRosterAt": "2026-08-08T07:30:22.643Z",
+    "updatedAt": "2026-08-08T07:32:45.956Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Haranir",
@@ -35,12 +35,12 @@
     "raiderIoUpdatedAt": "2026-08-07T07:59:52.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-08T02:31:19.479Z",
+    "lastSuccessfulUpdateAt": "2026-08-08T07:32:45.956Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-08T02:33:22.810Z",
-    "freeAgentUpdatedAt": "2026-08-08T02:33:22.810Z"
+    "freeAgentSince": "2026-08-08T07:34:32.670Z",
+    "freeAgentUpdatedAt": "2026-08-08T07:34:32.670Z"
   },
   {
     "id": "ravencrest-voras",
@@ -61,8 +61,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-08T02:28:37.886Z",
-    "updatedAt": "2026-08-08T02:32:58.710Z",
+    "lastSeenInRosterAt": "2026-08-08T07:30:22.643Z",
+    "updatedAt": "2026-08-08T07:34:12.448Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -78,11 +78,11 @@
     "raiderIoUpdatedAt": "2026-08-07T18:47:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-08T02:32:58.710Z",
+    "lastSuccessfulUpdateAt": "2026-08-08T07:34:12.448Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-08T02:33:22.810Z",
-    "freeAgentUpdatedAt": "2026-08-08T02:33:22.810Z"
+    "freeAgentSince": "2026-08-08T07:34:32.670Z",
+    "freeAgentUpdatedAt": "2026-08-08T07:34:32.670Z"
   }
 ]
