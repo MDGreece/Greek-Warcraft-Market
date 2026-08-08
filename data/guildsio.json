@@ -202,8 +202,8 @@
           "realm": 77
         },
         "mythic": {
-          "world": 2091,
-          "region": 946,
+          "world": 2093,
+          "region": 947,
           "realm": 97
         }
       }
@@ -237,7 +237,7 @@
           "realm": 185
         },
         "mythic": {
-          "world": 1976,
+          "world": 1977,
           "region": 897,
           "realm": 92
         }
@@ -280,41 +280,6 @@
     }
   },
   {
-    "id": "chillers",
-    "name": "Chillers",
-    "realm": "silvermoon",
-    "region": "eu",
-    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
-    "progress": {
-      "tier-mn-1": {
-        "summary": "7/9 M",
-        "total_bosses": 9,
-        "normal_bosses_killed": 7,
-        "heroic_bosses_killed": 9,
-        "mythic_bosses_killed": 7
-      }
-    },
-    "rankings": {
-      "tier-mn-1": {
-        "normal": {
-          "world": 17056,
-          "region": 7270,
-          "realm": 355
-        },
-        "heroic": {
-          "world": 6147,
-          "region": 2897,
-          "realm": 160
-        },
-        "mythic": {
-          "world": 3503,
-          "region": 1582,
-          "realm": 80
-        }
-      }
-    }
-  },
-  {
     "id": "nyxborn",
     "name": "Nyxborn",
     "realm": "silvermoon",
@@ -337,7 +302,7 @@
           "realm": 199
         },
         "heroic": {
-          "world": 12940,
+          "world": 12942,
           "region": 5805,
           "realm": 306
         },
@@ -372,7 +337,7 @@
           "realm": 38
         },
         "heroic": {
-          "world": 12260,
+          "world": 12262,
           "region": 5412,
           "realm": 175
         },
@@ -407,7 +372,7 @@
           "realm": 338
         },
         "heroic": {
-          "world": 13408,
+          "world": 13410,
           "region": 5943,
           "realm": 319
         },
@@ -442,7 +407,7 @@
           "realm": 64
         },
         "heroic": {
-          "world": 12685,
+          "world": 12687,
           "region": 5653,
           "realm": 134
         },
@@ -477,7 +442,7 @@
           "realm": 260
         },
         "heroic": {
-          "world": 12638,
+          "world": 12640,
           "region": 5623,
           "realm": 296
         },
@@ -547,12 +512,12 @@
           "realm": 44
         },
         "heroic": {
-          "world": 12403,
+          "world": 12405,
           "region": 5488,
           "realm": 73
         },
         "mythic": {
-          "world": 7862,
+          "world": 7863,
           "region": 3371,
           "realm": 50
         }
@@ -792,7 +757,7 @@
           "realm": 204
         },
         "heroic": {
-          "world": 12961,
+          "world": 12963,
           "region": 5817,
           "realm": 186
         },
