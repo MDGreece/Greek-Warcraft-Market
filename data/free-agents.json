@@ -18,8 +18,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:51.512Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-09T02:36:01.052Z",
-    "updatedAt": "2026-08-09T02:36:52.039Z",
+    "lastSeenInRosterAt": "2026-08-09T07:34:01.572Z",
+    "updatedAt": "2026-08-09T07:34:54.330Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -35,12 +35,12 @@
     "raiderIoUpdatedAt": "2026-08-08T13:06:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-09T02:36:52.039Z",
+    "lastSuccessfulUpdateAt": "2026-08-09T07:34:54.330Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-09T02:40:13.451Z",
-    "freeAgentUpdatedAt": "2026-08-09T02:40:13.451Z"
+    "freeAgentSince": "2026-08-09T07:38:13.146Z",
+    "freeAgentUpdatedAt": "2026-08-09T07:38:13.146Z"
   },
   {
     "id": "draenor-necros",
@@ -61,8 +61,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
-    "lastSeenInRosterAt": "2026-08-09T02:36:01.052Z",
-    "updatedAt": "2026-08-09T02:38:28.147Z",
+    "lastSeenInRosterAt": "2026-08-09T07:34:01.572Z",
+    "updatedAt": "2026-08-09T07:36:27.491Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Haranir",
@@ -78,12 +78,12 @@
     "raiderIoUpdatedAt": "2026-08-07T07:59:52.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-09T02:38:28.147Z",
+    "lastSuccessfulUpdateAt": "2026-08-09T07:36:27.491Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-09T02:40:13.451Z",
-    "freeAgentUpdatedAt": "2026-08-09T02:40:13.451Z"
+    "freeAgentSince": "2026-08-09T07:38:13.146Z",
+    "freeAgentUpdatedAt": "2026-08-09T07:38:13.146Z"
   },
   {
     "id": "ravencrest-voras",
@@ -104,8 +104,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-09T02:36:01.052Z",
-    "updatedAt": "2026-08-09T02:39:52.590Z",
+    "lastSeenInRosterAt": "2026-08-09T07:34:01.572Z",
+    "updatedAt": "2026-08-09T07:37:52.101Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -121,11 +121,11 @@
     "raiderIoUpdatedAt": "2026-08-07T18:47:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-09T02:39:52.590Z",
+    "lastSuccessfulUpdateAt": "2026-08-09T07:37:52.101Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-09T02:40:13.451Z",
-    "freeAgentUpdatedAt": "2026-08-09T02:40:13.451Z"
+    "freeAgentSince": "2026-08-09T07:38:13.146Z",
+    "freeAgentUpdatedAt": "2026-08-09T07:38:13.146Z"
   }
 ]
