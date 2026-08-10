@@ -18,8 +18,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:51.512Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-10T02:41:46.917Z",
-    "updatedAt": "2026-08-10T02:42:36.488Z",
+    "lastSeenInRosterAt": "2026-08-10T08:14:06.985Z",
+    "updatedAt": "2026-08-10T08:15:05.855Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -35,12 +35,12 @@
     "raiderIoUpdatedAt": "2026-08-08T13:06:48.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-10T02:42:36.488Z",
+    "lastSuccessfulUpdateAt": "2026-08-10T08:15:05.855Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-10T02:46:10.059Z",
-    "freeAgentUpdatedAt": "2026-08-10T02:46:10.059Z"
+    "freeAgentSince": "2026-08-10T08:19:12.724Z",
+    "freeAgentUpdatedAt": "2026-08-10T08:19:12.724Z"
   },
   {
     "id": "draenor-necros",
@@ -61,8 +61,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
-    "lastSeenInRosterAt": "2026-08-10T02:41:46.917Z",
-    "updatedAt": "2026-08-10T02:44:13.134Z",
+    "lastSeenInRosterAt": "2026-08-10T08:14:06.985Z",
+    "updatedAt": "2026-08-10T08:16:56.853Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Haranir",
@@ -78,12 +78,12 @@
     "raiderIoUpdatedAt": "2026-08-07T07:59:52.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-10T02:44:13.134Z",
+    "lastSuccessfulUpdateAt": "2026-08-10T08:16:56.853Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-10T02:46:10.059Z",
-    "freeAgentUpdatedAt": "2026-08-10T02:46:10.059Z"
+    "freeAgentSince": "2026-08-10T08:19:12.724Z",
+    "freeAgentUpdatedAt": "2026-08-10T08:19:12.724Z"
   },
   {
     "id": "draenor-thanatos",
@@ -104,8 +104,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:51.512Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
-    "lastSeenInRosterAt": "2026-08-10T02:41:46.917Z",
-    "updatedAt": "2026-08-10T02:45:35.376Z",
+    "lastSeenInRosterAt": "2026-08-10T08:14:06.985Z",
+    "updatedAt": "2026-08-10T08:18:27.824Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -121,12 +121,12 @@
     "raiderIoUpdatedAt": "2026-08-09T15:50:43.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-10T02:45:35.376Z",
+    "lastSuccessfulUpdateAt": "2026-08-10T08:18:27.824Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-10T02:46:10.059Z",
-    "freeAgentUpdatedAt": "2026-08-10T02:46:10.059Z"
+    "freeAgentSince": "2026-08-10T08:19:12.724Z",
+    "freeAgentUpdatedAt": "2026-08-10T08:19:12.724Z"
   },
   {
     "id": "ravencrest-voras",
@@ -147,8 +147,8 @@
     "rosterUpdatedAt": "2026-08-05T18:19:47.179Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
-    "lastSeenInRosterAt": "2026-08-10T02:41:46.917Z",
-    "updatedAt": "2026-08-10T02:45:48.498Z",
+    "lastSeenInRosterAt": "2026-08-10T08:14:06.985Z",
+    "updatedAt": "2026-08-10T08:18:47.208Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -164,11 +164,11 @@
     "raiderIoUpdatedAt": "2026-08-07T18:47:34.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-10T02:45:48.498Z",
+    "lastSuccessfulUpdateAt": "2026-08-10T08:18:47.208Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-10T02:46:10.059Z",
-    "freeAgentUpdatedAt": "2026-08-10T02:46:10.059Z"
+    "freeAgentSince": "2026-08-10T08:19:12.724Z",
+    "freeAgentUpdatedAt": "2026-08-10T08:19:12.724Z"
   }
 ]
