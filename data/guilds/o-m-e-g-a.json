@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "1511",
       "GR": "5"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -204,9 +209,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.215Z"
+    "lastUpdated": "2026-08-14T21:57:38.172Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:41.024Z",
+  "rosterUpdatedAt": "2026-08-14T21:58:14.410Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,

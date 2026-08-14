@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "2043",
       "GR": "9"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -204,9 +209,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.215Z"
+    "lastUpdated": "2026-08-14T21:57:38.172Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:49.959Z",
+  "rosterUpdatedAt": "2026-08-14T21:58:20.648Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,

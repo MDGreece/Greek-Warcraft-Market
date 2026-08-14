@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.216Z"
+    "lastUpdated": "2026-08-14T21:57:38.173Z"
   },
   "warcraftLogs": {
     "guildName": "UNIQUE LEGACY",
@@ -42,6 +42,11 @@
       "progress": "7/9 M",
       "WR": "3352",
       "GR": "10"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {

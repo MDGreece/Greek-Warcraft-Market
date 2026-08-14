@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "774",
       "GR": "2"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -204,9 +209,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.214Z"
+    "lastUpdated": "2026-08-14T21:57:38.170Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:30.740Z",
+  "rosterUpdatedAt": "2026-08-14T21:58:06.989Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,

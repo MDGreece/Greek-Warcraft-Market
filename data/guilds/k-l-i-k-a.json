@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "784",
       "GR": "3"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -218,9 +223,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.214Z"
+    "lastUpdated": "2026-08-14T21:57:38.171Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:35.577Z",
+  "rosterUpdatedAt": "2026-08-14T21:58:10.680Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,

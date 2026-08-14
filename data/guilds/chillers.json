@@ -36,6 +36,11 @@
       "progress": "7/9 M",
       "WR": "3505",
       "GR": "11"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -211,9 +216,9 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.216Z"
+    "lastUpdated": "2026-08-14T21:57:38.173Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:02.306Z",
+  "rosterUpdatedAt": "2026-08-14T21:57:48.266Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 713880,

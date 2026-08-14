@@ -36,6 +36,11 @@
       "progress": "0/9 N",
       "WR": "-",
       "GR": "-"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -47,7 +52,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/You%20Are%20Not%20Repaired",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.217Z"
+    "lastUpdated": "2026-08-14T21:57:38.175Z"
   },
   "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
   "rosterSource": {

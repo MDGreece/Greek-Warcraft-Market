@@ -36,6 +36,11 @@
       "progress": "5/9 M",
       "WR": "5189",
       "GR": "15"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -190,7 +195,7 @@
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.217Z"
+    "lastUpdated": "2026-08-14T21:57:38.174Z"
   },
   "rosterUpdatedAt": "2026-08-05T18:20:18.252Z",
   "rosterSource": {

@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "1992",
       "GR": "9"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -218,9 +223,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Amargosa%20Crew",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.215Z"
+    "lastUpdated": "2026-08-14T21:57:38.172Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:27:56.605Z",
+  "rosterUpdatedAt": "2026-08-14T21:57:43.788Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 806903,

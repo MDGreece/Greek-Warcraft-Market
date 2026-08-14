@@ -36,6 +36,11 @@
       "progress": "9/9 M",
       "WR": "1263",
       "GR": "4"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -288,9 +293,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.215Z"
+    "lastUpdated": "2026-08-14T21:57:38.171Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:13.899Z",
+  "rosterUpdatedAt": "2026-08-14T21:57:56.255Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 805922,

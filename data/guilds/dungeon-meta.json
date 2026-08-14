@@ -36,6 +36,11 @@
       "progress": "4/9 M",
       "WR": "6399",
       "GR": "16"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -133,9 +138,9 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.217Z"
+    "lastUpdated": "2026-08-14T21:57:38.174Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:32.152Z",
+  "rosterUpdatedAt": "2026-08-14T21:58:08.500Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,

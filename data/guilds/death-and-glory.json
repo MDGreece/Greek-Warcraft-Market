@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:27:48.213Z"
+    "lastUpdated": "2026-08-14T21:57:38.170Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -42,6 +42,11 @@
       "progress": "9/9 M",
       "WR": "401",
       "GR": "1"
+    },
+    "The Venomous Abyss": {
+      "progress": "0/8 N",
+      "WR": "-",
+      "GR": "-"
     }
   },
   "roster": {
@@ -241,7 +246,7 @@
       }
     ]
   },
-  "rosterUpdatedAt": "2026-08-14T21:28:09.532Z",
+  "rosterUpdatedAt": "2026-08-14T21:57:53.513Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
