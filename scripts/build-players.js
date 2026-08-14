@@ -1,22 +1,36 @@
 const fs = require("fs");
 const path = require("path");
 
-const charactersPath = "data/characters/characters.json";
-const identitiesPath = "data/players/player-identities.json";
-const outputPath = "data/players/players.json";
+const charactersPath =
+  "data/characters/characters.json";
+
+const identitiesPath =
+  "data/players/player-identities.json";
+
+const outputPath =
+  "data/players/players.json";
+
+const CURRENT_RAID_KEY =
+  "the-venomous-abyss";
 
 function readJson(filePath) {
   if (!fs.existsSync(filePath)) {
-    throw new Error(`Missing file: ${filePath}`);
+    throw new Error(
+      `Missing file: ${filePath}`
+    );
   }
 
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return JSON.parse(
+    fs.readFileSync(filePath, "utf8")
+  );
 }
 
 function normalizeRegion(region) {
-  return String(region || "eu")
-    .trim()
-    .toLowerCase() || "eu";
+  return (
+    String(region || "eu")
+      .trim()
+      .toLowerCase() || "eu"
+  );
 }
 
 function normalizeRealm(realm) {
@@ -38,67 +52,168 @@ function normalizeCharacterName(name) {
 
 function createCharacterKey(character) {
   return [
-    normalizeRegion(character.region),
-    normalizeRealm(character.realm),
-    normalizeCharacterName(character.name)
+    normalizeRegion(
+      character.region
+    ),
+    normalizeRealm(
+      character.realm
+    ),
+    normalizeCharacterName(
+      character.name
+    )
   ].join(":");
 }
 
-function normalizeBattleTag(battleTag) {
-  return String(battleTag || "")
+function normalizeBattleTag(
+  battleTag
+) {
+  return String(
+    battleTag || ""
+  )
     .trim()
     .toLowerCase();
 }
 
-function isValidBattleTag(battleTag) {
-  return /^[^#\s]{3,12}#[0-9]{4,10}$/i.test(
-    String(battleTag || "").trim()
-  );
+function isValidBattleTag(
+  battleTag
+) {
+  return /^[^#\s]{3,12}#[0-9]{4,10}$/i
+    .test(
+      String(
+        battleTag || ""
+      ).trim()
+    );
 }
 
-function slugifyBattleTag(battleTag) {
-  return String(battleTag || "")
+function slugifyBattleTag(
+  battleTag
+) {
+  return String(
+    battleTag || ""
+  )
     .trim()
     .toLowerCase()
     .replace("#", "-")
-    .replace(/[^a-z0-9-]+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+    .replace(
+      /[^a-z0-9-]+/g,
+      "-"
+    )
+    .replace(
+      /-+/g,
+      "-"
+    )
+    .replace(
+      /^-|-$/g,
+      ""
+    );
 }
 
-function getHighestMythicPlusScore(characters) {
-  const scores = characters
-    .map(character => Number(character.mythicPlusScore))
-    .filter(Number.isFinite);
+/*
+ * ============================================================
+ * CURRENT-SEASON CHARACTER FILTERS
+ * ============================================================
+ */
+
+function isCurrentRaidCharacter(
+  character
+) {
+  return (
+    character?.raidKey ===
+    CURRENT_RAID_KEY
+  );
+}
+
+function getCurrentSeasonCharacters(
+  characters
+) {
+  return characters.filter(
+    character =>
+      isCurrentRaidCharacter(
+        character
+      )
+  );
+}
+
+/*
+ * ============================================================
+ * MYTHIC+
+ * ============================================================
+ */
+
+function getHighestMythicPlusScore(
+  characters
+) {
+  const scores =
+    characters
+      .map(character =>
+        Number(
+          character
+            .mythicPlusScore
+        )
+      )
+      .filter(
+        score =>
+          Number.isFinite(score)
+      );
 
   return scores.length > 0
     ? Math.max(...scores)
     : null;
 }
 
-function getRaidScore(character) {
-  const achievement = String(
-    character.achievement || ""
-  ).toUpperCase();
+/*
+ * ============================================================
+ * RAID
+ * ============================================================
+ */
 
-  if (achievement === "CE") {
+function getRaidScore(
+  character
+) {
+  if (
+    !isCurrentRaidCharacter(
+      character
+    )
+  ) {
+    return 0;
+  }
+
+  const achievement =
+    String(
+      character.achievement ||
+      ""
+    ).toUpperCase();
+
+  if (
+    achievement === "CE"
+  ) {
     return 10000;
   }
 
-  const progress = String(
-    character.raidProgress || ""
-  ).toUpperCase();
+  const progress =
+    String(
+      character.raidProgress ||
+      ""
+    ).toUpperCase();
 
-  const match = progress.match(
-    /^(\d+)\/(\d+)([MNH])$/
-  );
+  const match =
+    progress.match(
+      /^(\d+)\/(\d+)([MNH])$/
+    );
 
   if (!match) {
-    return achievement === "AOTC" ? 2500 : 0;
+    return (
+      achievement === "AOTC"
+        ? 2500
+        : 0
+    );
   }
 
-  const kills = Number(match[1]);
-  const difficulty = match[3];
+  const kills =
+    Number(match[1]);
+
+  const difficulty =
+    match[3];
 
   const base = {
     M: 3000,
@@ -106,14 +221,36 @@ function getRaidScore(character) {
     N: 1000
   };
 
-  return base[difficulty] + kills;
+  return (
+    base[difficulty] +
+    kills
+  );
 }
 
-function getBestRaidCharacter(characters) {
-  return [...characters].sort(
-    (a, b) => getRaidScore(b) - getRaidScore(a)
-  )[0] || null;
+function getBestRaidCharacter(
+  characters
+) {
+  const currentRaidCharacters =
+    getCurrentSeasonCharacters(
+      characters
+    );
+
+  return (
+    [...currentRaidCharacters]
+      .sort(
+        (a, b) =>
+          getRaidScore(b) -
+          getRaidScore(a)
+      )[0] ||
+    null
+  );
 }
+
+/*
+ * ============================================================
+ * CHARACTER MAPPING
+ * ============================================================
+ */
 
 function findMappedCharacters(
   identity,
@@ -121,127 +258,245 @@ function findMappedCharacters(
 ) {
   const matched = [];
 
-  for (const reference of identity.characters || []) {
-    const key = createCharacterKey(reference);
-    const character = charactersByKey.get(key);
+  for (
+    const reference of
+    identity.characters || []
+  ) {
+    const key =
+      createCharacterKey(
+        reference
+      );
+
+    const character =
+      charactersByKey.get(key);
 
     if (!character) {
       console.log(
-        `Character not found for ${identity.battleTag}: ` +
-        `${reference.name}-${reference.realm}`
+        `Character not found for ` +
+        `${identity.battleTag}: ` +
+        `${reference.name}-` +
+        `${reference.realm}`
       );
 
       continue;
     }
 
-    matched.push(character);
-  }
-
-  return matched.sort((a, b) =>
-    String(a.name || "").localeCompare(
-      String(b.name || ""),
-      undefined,
-      { sensitivity: "base" }
-    )
-  );
-}
-
-function buildPlayer(identity, matchedCharacters, now) {
-  const bestRaidCharacter =
-    getBestRaidCharacter(matchedCharacters);
-
-  return {
-    id: slugifyBattleTag(identity.battleTag),
-
-    battleTag: identity.battleTag,
-
-    displayName:
-      identity.displayName ||
-      identity.battleTag.split("#")[0],
-
-    characters: matchedCharacters,
-
-    characterCount: matchedCharacters.length,
-
-    highestMythicPlusScore:
-      getHighestMythicPlusScore(matchedCharacters),
-
-    bestRaidProgress:
-      bestRaidCharacter?.raidProgress || "-",
-
-    bestAchievement:
-      bestRaidCharacter?.achievement || "-",
-
-    mainCharacter:
-      identity.mainCharacter || "",
-
-    discord:
-      identity.discord || "",
-
-    profileImage:
-      identity.profileImage || "",
-
-    createdAt:
-      identity.createdAt || now,
-
-    updatedAt: now
-  };
-}
-
-function run() {
-  const characters = readJson(charactersPath);
-  const identities = readJson(identitiesPath);
-
-  if (!Array.isArray(characters)) {
-    throw new Error(
-      `${charactersPath} must contain an array`
-    );
-  }
-
-  if (!Array.isArray(identities)) {
-    throw new Error(
-      `${identitiesPath} must contain an array`
-    );
-  }
-
-  const charactersByKey = new Map();
-
-  for (const character of characters) {
-    if (!character?.name || !character?.realm) {
-      continue;
-    }
-
-    charactersByKey.set(
-      createCharacterKey(character),
+    matched.push(
       character
     );
   }
 
-  const seenBattleTags = new Set();
-  const players = [];
-  const now = new Date().toISOString();
+  return matched.sort(
+    (a, b) =>
+      String(
+        a.name || ""
+      ).localeCompare(
+        String(
+          b.name || ""
+        ),
+        undefined,
+        {
+          sensitivity: "base"
+        }
+      )
+  );
+}
 
-  for (const identity of identities) {
-    if (!isValidBattleTag(identity.battleTag)) {
+/*
+ * ============================================================
+ * PLAYER BUILDER
+ * ============================================================
+ */
+
+function buildPlayer(
+  identity,
+  matchedCharacters,
+  now
+) {
+  const bestRaidCharacter =
+    getBestRaidCharacter(
+      matchedCharacters
+    );
+
+  return {
+    id:
+      slugifyBattleTag(
+        identity.battleTag
+      ),
+
+    battleTag:
+      identity.battleTag,
+
+    displayName:
+      identity.displayName ||
+      identity.battleTag
+        .split("#")[0],
+
+    characters:
+      matchedCharacters,
+
+    characterCount:
+      matchedCharacters.length,
+
+    /*
+     * Character data already uses:
+     *
+     * mythic_plus_scores_by_season:current
+     *
+     * so this becomes the highest CURRENT
+     * season score across the player's characters.
+     */
+    highestMythicPlusScore:
+      getHighestMythicPlusScore(
+        matchedCharacters
+      ),
+
+    /*
+     * Only Venomous Abyss raid data
+     * is considered here.
+     */
+    bestRaidProgress:
+      bestRaidCharacter
+        ?.raidProgress ||
+      "-",
+
+    bestAchievement:
+      bestRaidCharacter
+        ?.achievement ||
+      "-",
+
+    currentRaidKey:
+      CURRENT_RAID_KEY,
+
+    mainCharacter:
+      identity.mainCharacter ||
+      "",
+
+    discord:
+      identity.discord ||
+      "",
+
+    profileImage:
+      identity.profileImage ||
+      "",
+
+    createdAt:
+      identity.createdAt ||
+      now,
+
+    updatedAt:
+      now
+  };
+}
+
+/*
+ * ============================================================
+ * MAIN
+ * ============================================================
+ */
+
+function run() {
+  const characters =
+    readJson(
+      charactersPath
+    );
+
+  const identities =
+    readJson(
+      identitiesPath
+    );
+
+  if (
+    !Array.isArray(
+      characters
+    )
+  ) {
+    throw new Error(
+      `${charactersPath} ` +
+      `must contain an array`
+    );
+  }
+
+  if (
+    !Array.isArray(
+      identities
+    )
+  ) {
+    throw new Error(
+      `${identitiesPath} ` +
+      `must contain an array`
+    );
+  }
+
+  const charactersByKey =
+    new Map();
+
+  for (
+    const character of
+    characters
+  ) {
+    if (
+      !character?.name ||
+      !character?.realm
+    ) {
+      continue;
+    }
+
+    charactersByKey.set(
+      createCharacterKey(
+        character
+      ),
+      character
+    );
+  }
+
+  const seenBattleTags =
+    new Set();
+
+  const players = [];
+
+  const now =
+    new Date()
+      .toISOString();
+
+  for (
+    const identity of
+    identities
+  ) {
+    if (
+      !isValidBattleTag(
+        identity.battleTag
+      )
+    ) {
       console.log(
-        `Skipped invalid BattleTag: ${identity.battleTag || "(empty)"}`
+        `Skipped invalid BattleTag: ` +
+        `${identity.battleTag || "(empty)"}`
       );
 
       continue;
     }
 
     const normalizedBattleTag =
-      normalizeBattleTag(identity.battleTag);
+      normalizeBattleTag(
+        identity.battleTag
+      );
 
-    if (seenBattleTags.has(normalizedBattleTag)) {
+    if (
+      seenBattleTags.has(
+        normalizedBattleTag
+      )
+    ) {
       console.log(
-        `Skipped duplicate BattleTag: ${identity.battleTag}`
+        `Skipped duplicate BattleTag: ` +
+        `${identity.battleTag}`
       );
 
       continue;
     }
 
-    seenBattleTags.add(normalizedBattleTag);
+    seenBattleTags.add(
+      normalizedBattleTag
+    );
 
     const matchedCharacters =
       findMappedCharacters(
@@ -249,9 +504,14 @@ function run() {
         charactersByKey
       );
 
-    if (matchedCharacters.length === 0) {
+    if (
+      matchedCharacters.length ===
+      0
+    ) {
       console.log(
-        `Skipped ${identity.battleTag}: no characters matched`
+        `Skipped ` +
+        `${identity.battleTag}: ` +
+        `no characters matched`
       );
 
       continue;
@@ -266,35 +526,107 @@ function run() {
     );
   }
 
-  players.sort((a, b) =>
-    String(a.displayName).localeCompare(
-      String(b.displayName),
-      undefined,
-      { sensitivity: "base" }
-    )
+  players.sort(
+    (a, b) =>
+      String(
+        a.displayName
+      ).localeCompare(
+        String(
+          b.displayName
+        ),
+        undefined,
+        {
+          sensitivity: "base"
+        }
+      )
   );
 
   fs.mkdirSync(
-    path.dirname(outputPath),
-    { recursive: true }
+    path.dirname(
+      outputPath
+    ),
+    {
+      recursive: true
+    }
   );
 
   fs.writeFileSync(
     outputPath,
-    JSON.stringify(players, null, 2)
+    JSON.stringify(
+      players,
+      null,
+      2
+    ) + "\n"
   );
 
-  console.log(
-    `Created ${outputPath} with ${players.length} player profiles`
-  );
-
-  console.log(
-    `Linked characters: ${players.reduce(
-      (total, player) =>
-        total + player.characterCount,
+  const linkedCharacters =
+    players.reduce(
+      (
+        total,
+        player
+      ) =>
+        total +
+        player.characterCount,
       0
-    )}`
+    );
+
+  const playersWithMPlus =
+    players.filter(
+      player =>
+        typeof player
+          .highestMythicPlusScore ===
+          "number" &&
+        player
+          .highestMythicPlusScore > 0
+    ).length;
+
+  const cePlayers =
+    players.filter(
+      player =>
+        player.bestAchievement ===
+        "CE"
+    ).length;
+
+  const aotcPlayers =
+    players.filter(
+      player =>
+        player.bestAchievement ===
+        "AotC"
+    ).length;
+
+  console.log(
+    `Created ${outputPath} with ` +
+    `${players.length} player profiles`
+  );
+
+  console.log(
+    `Linked characters: ` +
+    `${linkedCharacters}`
+  );
+
+  console.log(
+    `Players with current-season M+ score: ` +
+    `${playersWithMPlus}`
+  );
+
+  console.log(
+    `Venomous Abyss CE players: ` +
+    `${cePlayers}`
+  );
+
+  console.log(
+    `Venomous Abyss AotC players: ` +
+    `${aotcPlayers}`
   );
 }
 
-run();
+try {
+  run();
+} catch (error) {
+  console.error(
+    `Player build failed: ` +
+    error.message
+  );
+
+  process.exit(1);
+}
