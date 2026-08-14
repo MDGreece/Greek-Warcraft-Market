@@ -62,11 +62,7 @@ const BOSS_NAME_MAP = new Map(
 /*
  * Optional aliases for Warcraft Logs naming differences.
  */
-const BOSS_ALIASES = {
-  "vaelgor and ezzorak": "Vaelgor & Ezzorak",
-  "fallen king salhadaar": "Fallen-King Salhadaar",
-  "beloren child of alar": "Belo'ren, Child of Al'ar",
-  "midnight falls": "Midnight Falls"
+const BOSS_ALIASES = {};
 };
 
 for (const [alias, canonicalName] of Object.entries(BOSS_ALIASES)) {
@@ -648,7 +644,7 @@ async function updateGroup(
       getCompletionDetails(
         difficulty.fights
       ) || {
-        bestBoss: "Midnight Falls",
+        bestBoss: "Ula'tek",
         bossProg: "CE",
         latestReport: "",
         latestReportTitle: "",
@@ -706,9 +702,9 @@ async function updateGroup(
         bestBoss:
           group.bestBoss ||
           (
-            raidKills >= TOTAL_BOSSES
-              ? "Midnight Falls"
-              : ""
+raidKills >= TOTAL_BOSSES
+  ? "Ula'tek"
+  : ""
           ),
 
         bossProg:
@@ -746,7 +742,7 @@ async function updateGroup(
     progression = {
       bestBoss:
         group.bestBoss ||
-        "Midnight Falls",
+        "Ula'tek",
 
       bossProg: "CE",
 
