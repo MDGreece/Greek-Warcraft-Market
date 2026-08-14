@@ -4,9 +4,9 @@ const raiderPath = "data/guildsio.json";
 const logsPath = "data/warcraftlogs-groups.json";
 const outputPath = "data/leaderboard.json";
 
-const CURRENT_RAID = "tier-mn-1";
+const CURRENT_RAID = "the-venomous-abyss";
 const DEFAULT_WORLD_RANK = 999999;
-const TOTAL_BOSSES = 9;
+const TOTAL_BOSSES = 8;
 
 function readJson(filePath) {
   if (!fs.existsSync(filePath)) {
