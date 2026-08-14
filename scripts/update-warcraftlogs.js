@@ -6,7 +6,7 @@ const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
 const inputPath = "data/warcraftlogs-groups.json";
 const outputPath = "data/warcraftlogs-groups.json";
 
-const TOTAL_BOSSES = 9;
+const TOTAL_BOSSES = 8;
 const REPORT_LIMIT = 50;
 const CURRENT_RAID_KEY = "midnight-tier-1";
 
@@ -16,17 +16,15 @@ const CURRENT_RAID_KEY = "midnight-tier-1";
  * Kills are always counted from actual Warcraft Logs kill data.
  */
 const CURRENT_RAID_BOSSES = [
-  "Imperator Averzian",
-  "Vorasius",
-  "Vaelgor & Ezzorak",
-  "Fallen-King Salhadaar",
-  "Lightblinded Vanguard",
-  "Crown of the Cosmos",
-  "Chimaerus the Undreamt God",
-  "Belo'ren, Child of Al'ar",
-  "Midnight Falls"
+  "Nek'zali the Soulcoiler",
+  "Entombed Sentinels",
+  "Vashnik the Malignant",
+  "The Lost Explorers",
+  "Sszorak",
+  "The Twin Fangs",
+  "The Coiled Altar",
+  "Ula'tek"
 ];
-
 const DIFFICULTIES = [
   { id: 5, suffix: "M", name: "Mythic" },
   { id: 4, suffix: "H", name: "Heroic" },
