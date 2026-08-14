@@ -6,36 +6,20 @@ const outputPath = "data/characters/characters.json";
 
 const REQUEST_DELAY_MS = 350;
 const MAX_RETRIES = 4;
-const CURRENT_TIER_TOTAL_BOSSES = 9;
 
 /*
- * Known possible Raider.IO keys/names for the combined
- * Midnight launch tier: VS / DR / MQD.
+ * ============================================================
+ * CURRENT SEASON / RAID
+ * ============================================================
  *
- * The total-boss check provides an additional fallback if
- * Raider.IO changes the displayed name but still returns 9 bosses.
+ * Only The Venomous Abyss is considered current raid progress.
+ *
+ * Old Midnight T1 progress remains available from Raider.IO,
+ * but it is intentionally ignored here.
  */
-const CURRENT_TIER_KEYS = new Set([
-  "midnight-tier-1",
-  "tier-mn-1",
-  "mn-tier-1"
-]);
-
-const CURRENT_TIER_MARKERS = [
-  "vs / dr / mqd",
-  "vs/dr/mqd",
-  "voidspire",
-  "dreamrift",
-  "march on quel",
-  "midnight tier 1",
-  "midnight-tier-1",
-  "tier-mn-1"
-];
-
-const EXCLUDED_RAID_MARKERS = [
-  "sporefall",
-  "rotmire"
-];
+const CURRENT_RAID_KEY = "the-venomous-abyss";
+const CURRENT_RAID_NAME = "The Venomous Abyss";
+const CURRENT_TIER_TOTAL_BOSSES = 8;
 
 const REALM_ALIASES = {
   twistingnether: "twisting-nether",
@@ -103,15 +87,6 @@ function normalizeRealm(realm) {
     .replace(/^-|-$/g, "");
 }
 
-function normalizeText(value) {
-  return String(value || "")
-    .trim()
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[’']/g, "");
-}
-
 function encodePathPart(value) {
   return encodeURIComponent(
     String(value || "").trim()
@@ -156,6 +131,20 @@ function createWarcraftLogsUrl(character) {
   );
 }
 
+/*
+ * Request:
+ *
+ * - current guild
+ * - gear
+ * - raid progression
+ * - CURRENT Mythic+ season
+ *
+ * We deliberately use:
+ *
+ * mythic_plus_scores_by_season:current
+ *
+ * so a previous-season M+ score is not hardcoded.
+ */
 function createRaiderIoApiUrl(character) {
   const parameters = new URLSearchParams({
     region: normalizeRegion(
@@ -184,11 +173,15 @@ function createRaiderIoApiUrl(character) {
   );
 }
 
-async function fetchJson(url, attempt = 1) {
+async function fetchJson(
+  url,
+  attempt = 1
+) {
   const response = await fetch(url, {
     headers: {
       Accept: "application/json",
-      "User-Agent": "Greek-Warcraft-Market/1.0"
+      "User-Agent":
+        "Greek-Warcraft-Market/1.0"
     }
   });
 
@@ -208,13 +201,17 @@ async function fetchJson(url, attempt = 1) {
     attempt < MAX_RETRIES
   ) {
     const retryAfterHeader =
-      response.headers.get("retry-after");
+      response.headers.get(
+        "retry-after"
+      );
 
     const retryAfterSeconds =
       Number(retryAfterHeader);
 
     const retryDelay =
-      Number.isFinite(retryAfterSeconds) &&
+      Number.isFinite(
+        retryAfterSeconds
+      ) &&
       retryAfterSeconds > 0
         ? retryAfterSeconds * 1000
         : REQUEST_DELAY_MS *
@@ -243,6 +240,12 @@ async function fetchJson(url, attempt = 1) {
   throw error;
 }
 
+/*
+ * ============================================================
+ * MYTHIC+
+ * ============================================================
+ */
+
 function getCurrentSeasonScore(profile) {
   const seasons =
     profile.mythic_plus_scores_by_season;
@@ -261,10 +264,18 @@ function getCurrentSeasonScore(profile) {
     return null;
   }
 
-  return Math.round(score * 10) / 10;
+  return (
+    Math.round(score * 10) / 10
+  );
 }
 
-function getRaidEntries(profile) {
+/*
+ * ============================================================
+ * RAID PROGRESSION
+ * ============================================================
+ */
+
+function getCurrentRaid(profile) {
   const progression =
     profile.raid_progression;
 
@@ -272,226 +283,159 @@ function getRaidEntries(profile) {
     !progression ||
     typeof progression !== "object"
   ) {
-    return [];
-  }
-
-  return Object.entries(progression)
-    .map(([raidKey, raid]) => {
-      const totalBosses =
-        Number(raid?.total_bosses) || 0;
-
-      return {
-        raidKey,
-
-        raidName:
-          raid?.name ||
-          raid?.summary ||
-          raidKey,
-
-        totalBosses,
-
-        mythicKills:
-          Number(
-            raid?.mythic_bosses_killed
-          ) || 0,
-
-        heroicKills:
-          Number(
-            raid?.heroic_bosses_killed
-          ) || 0,
-
-        normalKills:
-          Number(
-            raid?.normal_bosses_killed
-          ) || 0
-      };
-    })
-    .filter(raid =>
-      raid.totalBosses > 0
-    );
-}
-
-function isExcludedRaid(raid) {
-  const searchableText = normalizeText(
-    `${raid.raidKey} ${raid.raidName}`
-  );
-
-  return EXCLUDED_RAID_MARKERS.some(
-    marker => searchableText.includes(marker)
-  );
-}
-
-function getCurrentTierMatchScore(raid) {
-  if (isExcludedRaid(raid)) {
-    return -1;
-  }
-
-  const normalizedKey =
-    normalizeText(raid.raidKey);
-
-  const searchableText =
-    normalizeText(
-      `${raid.raidKey} ${raid.raidName}`
-    );
-
-  let score = 0;
-
-  if (CURRENT_TIER_KEYS.has(normalizedKey)) {
-    score += 1000;
-  }
-
-  for (const marker of CURRENT_TIER_MARKERS) {
-    if (searchableText.includes(marker)) {
-      score += 200;
-    }
-  }
-
-  if (
-    raid.totalBosses ===
-    CURRENT_TIER_TOTAL_BOSSES
-  ) {
-    score += 100;
+    return null;
   }
 
   /*
-   * Avoid selecting unrelated older nine-boss raids solely
-   * because they also contain nine encounters.
+   * Exact match only.
    *
-   * A nine-boss fallback is accepted only when the raid has
-   * some current character progress.
+   * This prevents:
+   * - tier-mn-1
+   * - Sporefall
+   * - Tidebound Grotto
+   * - old raids
+   *
+   * from being selected.
    */
-  const hasProgress =
-    raid.mythicKills > 0 ||
-    raid.heroicKills > 0 ||
-    raid.normalKills > 0;
+  const raid =
+    progression[CURRENT_RAID_KEY];
 
-  if (
-    score === 100 &&
-    !hasProgress
-  ) {
-    return 0;
+  if (!raid) {
+    return null;
   }
 
-  return score;
-}
+  return {
+    raidKey:
+      CURRENT_RAID_KEY,
 
-function findCurrentTierRaid(profile) {
-  const raids = getRaidEntries(profile);
+    raidName:
+      raid.name ||
+      CURRENT_RAID_NAME,
 
-  const candidates = raids
-    .map(raid => ({
-      raid,
-      matchScore:
-        getCurrentTierMatchScore(raid)
-    }))
-    .filter(candidate =>
-      candidate.matchScore > 0
-    )
-    .sort((a, b) => {
-      if (
-        b.matchScore !==
-        a.matchScore
-      ) {
-        return (
-          b.matchScore -
-          a.matchScore
-        );
-      }
+    totalBosses:
+      Number(
+        raid.total_bosses
+      ) ||
+      CURRENT_TIER_TOTAL_BOSSES,
 
-      /*
-       * If duplicate representations of the same tier exist,
-       * prefer the entry with more Mythic, Heroic and Normal
-       * progress in that order.
-       */
-      if (
-        b.raid.mythicKills !==
-        a.raid.mythicKills
-      ) {
-        return (
-          b.raid.mythicKills -
-          a.raid.mythicKills
-        );
-      }
+    mythicKills:
+      Number(
+        raid.mythic_bosses_killed
+      ) || 0,
 
-      if (
-        b.raid.heroicKills !==
-        a.raid.heroicKills
-      ) {
-        return (
-          b.raid.heroicKills -
-          a.raid.heroicKills
-        );
-      }
+    heroicKills:
+      Number(
+        raid.heroic_bosses_killed
+      ) || 0,
 
-      return (
-        b.raid.normalKills -
-        a.raid.normalKills
-      );
-    });
-
-  return candidates[0]?.raid || null;
+    normalKills:
+      Number(
+        raid.normal_bosses_killed
+      ) || 0
+  };
 }
 
 function createEmptyRaidProgress() {
   return {
-    raidKey: "",
-    raidName: "",
-    raidProgress: "-",
-    achievement: "-",
-    difficulty: "",
-    kills: 0,
+    raidKey:
+      CURRENT_RAID_KEY,
+
+    raidName:
+      CURRENT_RAID_NAME,
+
+    raidProgress:
+      "-",
+
+    achievement:
+      "-",
+
+    difficulty:
+      "",
+
+    kills:
+      0,
+
     totalBosses:
       CURRENT_TIER_TOTAL_BOSSES
   };
 }
 
-function selectCurrentTierProgress(profile) {
+function selectCurrentRaidProgress(
+  profile
+) {
   const raid =
-    findCurrentTierRaid(profile);
+    getCurrentRaid(profile);
 
   if (!raid) {
     return createEmptyRaidProgress();
   }
 
-  const mythicKills = Math.min(
-    Math.max(raid.mythicKills, 0),
-    CURRENT_TIER_TOTAL_BOSSES
-  );
+  const mythicKills =
+    Math.min(
+      Math.max(
+        raid.mythicKills,
+        0
+      ),
+      CURRENT_TIER_TOTAL_BOSSES
+    );
 
-  const heroicKills = Math.min(
-    Math.max(raid.heroicKills, 0),
-    CURRENT_TIER_TOTAL_BOSSES
-  );
+  const heroicKills =
+    Math.min(
+      Math.max(
+        raid.heroicKills,
+        0
+      ),
+      CURRENT_TIER_TOTAL_BOSSES
+    );
 
-  const normalKills = Math.min(
-    Math.max(raid.normalKills, 0),
-    CURRENT_TIER_TOTAL_BOSSES
-  );
+  const normalKills =
+    Math.min(
+      Math.max(
+        raid.normalKills,
+        0
+      ),
+      CURRENT_TIER_TOTAL_BOSSES
+    );
 
   /*
-   * Always use the highest difficulty with at least one kill.
+   * Highest difficulty with at least
+   * one kill is displayed.
    *
-   * 5/9M plus 9/9H displays 5/9M.
-   * 0/9M plus 9/9H displays 9/9H and AotC.
+   * Example:
+   *
+   * 3/8M + 8/8H
+   * -> 3/8M
+   *
+   * 0/8M + 8/8H
+   * -> 8/8H + AotC
    */
+
   if (mythicKills > 0) {
-    const hasLuraKill =
+    const hasCE =
       mythicKills ===
       CURRENT_TIER_TOTAL_BOSSES;
 
     return {
-      raidKey: raid.raidKey,
-      raidName: raid.raidName,
+      raidKey:
+        CURRENT_RAID_KEY,
+
+      raidName:
+        raid.raidName,
 
       raidProgress:
         `${mythicKills}/` +
         `${CURRENT_TIER_TOTAL_BOSSES}M`,
 
       achievement:
-        hasLuraKill ? "CE" : "-",
+        hasCE
+          ? "CE"
+          : "-",
 
-      difficulty: "Mythic",
-      kills: mythicKills,
+      difficulty:
+        "Mythic",
+
+      kills:
+        mythicKills,
 
       totalBosses:
         CURRENT_TIER_TOTAL_BOSSES
@@ -504,18 +448,26 @@ function selectCurrentTierProgress(profile) {
       CURRENT_TIER_TOTAL_BOSSES;
 
     return {
-      raidKey: raid.raidKey,
-      raidName: raid.raidName,
+      raidKey:
+        CURRENT_RAID_KEY,
+
+      raidName:
+        raid.raidName,
 
       raidProgress:
         `${heroicKills}/` +
         `${CURRENT_TIER_TOTAL_BOSSES}H`,
 
       achievement:
-        hasAotC ? "AotC" : "-",
+        hasAotC
+          ? "AotC"
+          : "-",
 
-      difficulty: "Heroic",
-      kills: heroicKills,
+      difficulty:
+        "Heroic",
+
+      kills:
+        heroicKills,
 
       totalBosses:
         CURRENT_TIER_TOTAL_BOSSES
@@ -524,41 +476,47 @@ function selectCurrentTierProgress(profile) {
 
   if (normalKills > 0) {
     return {
-      raidKey: raid.raidKey,
-      raidName: raid.raidName,
+      raidKey:
+        CURRENT_RAID_KEY,
+
+      raidName:
+        raid.raidName,
 
       raidProgress:
         `${normalKills}/` +
         `${CURRENT_TIER_TOTAL_BOSSES}N`,
 
-      achievement: "-",
-      difficulty: "Normal",
-      kills: normalKills,
+      achievement:
+        "-",
+
+      difficulty:
+        "Normal",
+
+      kills:
+        normalKills,
 
       totalBosses:
         CURRENT_TIER_TOTAL_BOSSES
     };
   }
 
-  return {
-    raidKey: raid.raidKey,
-    raidName: raid.raidName,
-    raidProgress: "-",
-    achievement: "-",
-    difficulty: "",
-    kills: 0,
-
-    totalBosses:
-      CURRENT_TIER_TOTAL_BOSSES
-  };
+  return createEmptyRaidProgress();
 }
+
+/*
+ * ============================================================
+ * CURRENT GUILD
+ * ============================================================
+ */
 
 function getCurrentGuild(profile) {
   if (
     profile?.guild &&
     typeof profile.guild === "object"
   ) {
-    return profile.guild.name || "";
+    return (
+      profile.guild.name || ""
+    );
   }
 
   if (
@@ -571,9 +529,10 @@ function getCurrentGuild(profile) {
 }
 
 function normalizeRole(role) {
-  const normalized = String(role || "")
-    .trim()
-    .toLowerCase();
+  const normalized =
+    String(role || "")
+      .trim()
+      .toLowerCase();
 
   if (
     normalized === "tank" ||
@@ -586,12 +545,20 @@ function normalizeRole(role) {
   return normalized || "";
 }
 
+/*
+ * ============================================================
+ * BUILD CHARACTER
+ * ============================================================
+ */
+
 function buildUpdatedCharacter(
   character,
   profile
 ) {
   const raid =
-    selectCurrentTierProgress(profile);
+    selectCurrentRaidProgress(
+      profile
+    );
 
   const now =
     new Date().toISOString();
@@ -619,6 +586,7 @@ function buildUpdatedCharacter(
       character.name,
 
     realm,
+
     region,
 
     class:
@@ -638,13 +606,17 @@ function buildUpdatedCharacter(
       ),
 
     /*
-     * Current live guild from Raider.IO.
-     * This is used by build-free-agents.js.
+     * Current live guild according
+     * to Raider.IO.
+     *
+     * build-free-agents.js uses this.
      */
-    guild: currentGuild,
+    guild:
+      currentGuild,
 
     /*
-     * Preserve the original tracked roster guild separately.
+     * Preserve where we originally
+     * collected this character.
      */
     trackedGuild:
       character.trackedGuild ||
@@ -671,24 +643,38 @@ function buildUpdatedCharacter(
       "",
 
     achievementPoints:
-      typeof profile.achievement_points ===
-      "number"
+      typeof profile
+        .achievement_points ===
+        "number"
         ? profile.achievement_points
-        : character.achievementPoints ??
+        : character
+            .achievementPoints ??
           null,
 
     itemLevel:
       typeof profile.gear
         ?.item_level_equipped ===
-      "number"
+        "number"
         ? profile.gear
             .item_level_equipped
         : character.itemLevel ??
           null,
 
+    /*
+     * CURRENT Mythic+ season only.
+     *
+     * If Raider.IO has no current
+     * season score yet this becomes null,
+     * rather than preserving the old score.
+     */
     mythicPlusScore:
-      getCurrentSeasonScore(profile),
+      getCurrentSeasonScore(
+        profile
+      ),
 
+    /*
+     * CURRENT RAID ONLY.
+     */
     raidKey:
       raid.raidKey,
 
@@ -734,12 +720,25 @@ function buildUpdatedCharacter(
       profile.last_crawled_at ||
       "",
 
-    dataStatus: "found",
-    updateError: "",
-    lastSuccessfulUpdateAt: now,
-    updatedAt: now
+    dataStatus:
+      "found",
+
+    updateError:
+      "",
+
+    lastSuccessfulUpdateAt:
+      now,
+
+    updatedAt:
+      now
   };
 }
+
+/*
+ * ============================================================
+ * FAILED / MISSING CHARACTERS
+ * ============================================================
+ */
 
 function buildMissingCharacter(
   character,
@@ -752,16 +751,54 @@ function buildMissingCharacter(
     error?.status === 400 ||
     error?.status === 404;
 
+  /*
+   * IMPORTANT:
+   *
+   * Do not preserve old-season M+ / raid
+   * progression when Raider.IO cannot
+   * update the character.
+   *
+   * Identity/roster information is kept,
+   * but current-season statistics are reset.
+   */
   return {
     ...character,
 
+    mythicPlusScore:
+      null,
+
+    raidKey:
+      CURRENT_RAID_KEY,
+
+    raidName:
+      CURRENT_RAID_NAME,
+
+    raidProgress:
+      "-",
+
+    raidDifficulty:
+      "",
+
+    raidKills:
+      0,
+
+    raidTotalBosses:
+      CURRENT_TIER_TOTAL_BOSSES,
+
+    achievement:
+      "-",
+
     raiderIoUrl:
       character.raiderIoUrl ||
-      createRaiderIoUrl(character),
+      createRaiderIoUrl(
+        character
+      ),
 
     warcraftLogsUrl:
       character.warcraftLogsUrl ||
-      createWarcraftLogsUrl(character),
+      createWarcraftLogsUrl(
+        character
+      ),
 
     dataStatus:
       notFound
@@ -772,10 +809,19 @@ function buildMissingCharacter(
       error?.message ||
       "Unknown error",
 
-    lastFailedUpdateAt: now,
-    updatedAt: now
+    lastFailedUpdateAt:
+      now,
+
+    updatedAt:
+      now
   };
 }
+
+/*
+ * ============================================================
+ * UPDATE CHARACTER
+ * ============================================================
+ */
 
 async function updateCharacter(
   character,
@@ -783,7 +829,8 @@ async function updateCharacter(
   total
 ) {
   const label =
-    `${character.name}-${character.realm}`;
+    `${character.name}-` +
+    `${character.realm}`;
 
   console.log(
     `[${index + 1}/${total}] ` +
@@ -792,10 +839,14 @@ async function updateCharacter(
 
   try {
     const apiUrl =
-      createRaiderIoApiUrl(character);
+      createRaiderIoApiUrl(
+        character
+      );
 
     const profile =
-      await fetchJson(apiUrl);
+      await fetchJson(
+        apiUrl
+      );
 
     const updatedCharacter =
       buildUpdatedCharacter(
@@ -826,45 +877,92 @@ async function updateCharacter(
     );
   }
 }
-function normalizeCharacterKeyName(name) {
+
+/*
+ * ============================================================
+ * DEDUPLICATION
+ * ============================================================
+ */
+
+function normalizeCharacterKeyName(
+  name
+) {
   return String(name || "")
     .trim()
     .toLowerCase()
     .normalize("NFC");
 }
 
-function createCharacterKey(character) {
+function createCharacterKey(
+  character
+) {
   return [
-    normalizeRegion(character.region),
-    normalizeRealm(character.realm)
-      .replace(/[\s_-]+/g, ""),
-    normalizeCharacterKeyName(character.name)
+    normalizeRegion(
+      character.region
+    ),
+
+    normalizeRealm(
+      character.realm
+    ).replace(
+      /[\s_-]+/g,
+      ""
+    ),
+
+    normalizeCharacterKeyName(
+      character.name
+    )
   ].join(":");
 }
 
-function getLatestTimestamp(character) {
+function getLatestTimestamp(
+  character
+) {
   const dates = [
-    character.lastSuccessfulUpdateAt,
-    character.raiderIoUpdatedAt,
-    character.rosterUpdatedAt,
-    character.lastSeenInRosterAt,
-    character.updatedAt
+    character
+      .lastSuccessfulUpdateAt,
+
+    character
+      .raiderIoUpdatedAt,
+
+    character
+      .rosterUpdatedAt,
+
+    character
+      .lastSeenInRosterAt,
+
+    character
+      .updatedAt
   ];
 
   return Math.max(
     ...dates.map(value => {
-      const timestamp = Date.parse(value || "");
-      return Number.isFinite(timestamp) ? timestamp : 0;
+      const timestamp =
+        Date.parse(
+          value || ""
+        );
+
+      return Number.isFinite(
+        timestamp
+      )
+        ? timestamp
+        : 0;
     })
   );
 }
 
-function mergeDuplicateCharacters(first, second) {
-  const firstTimestamp = getLatestTimestamp(first);
-  const secondTimestamp = getLatestTimestamp(second);
+function mergeDuplicateCharacters(
+  first,
+  second
+) {
+  const firstTimestamp =
+    getLatestTimestamp(first);
+
+  const secondTimestamp =
+    getLatestTimestamp(second);
 
   const newest =
-    secondTimestamp > firstTimestamp
+    secondTimestamp >
+    firstTimestamp
       ? second
       : first;
 
@@ -958,19 +1056,36 @@ function mergeDuplicateCharacters(first, second) {
   };
 }
 
-function deduplicateCharacters(characters) {
-  const uniqueCharacters = new Map();
+function deduplicateCharacters(
+  characters
+) {
+  const uniqueCharacters =
+    new Map();
 
-  for (const character of characters) {
-    if (!character?.name || !character?.realm) {
+  for (
+    const character of characters
+  ) {
+    if (
+      !character?.name ||
+      !character?.realm
+    ) {
       continue;
     }
 
-    const key = createCharacterKey(character);
-    const existing = uniqueCharacters.get(key);
+    const key =
+      createCharacterKey(
+        character
+      );
+
+    const existing =
+      uniqueCharacters.get(key);
 
     if (!existing) {
-      uniqueCharacters.set(key, character);
+      uniqueCharacters.set(
+        key,
+        character
+      );
+
       continue;
     }
 
@@ -983,53 +1098,94 @@ function deduplicateCharacters(characters) {
     );
   }
 
-  return [...uniqueCharacters.values()];
+  return [
+    ...uniqueCharacters.values()
+  ];
 }
-function sortCharacters(characters) {
-  return characters.sort((a, b) => {
-    const nameDifference =
-      String(a.name || "")
-        .localeCompare(
-          String(b.name || ""),
-          undefined,
-          {
-            sensitivity: "base"
-          }
-        );
 
-    if (nameDifference !== 0) {
-      return nameDifference;
-    }
+function sortCharacters(
+  characters
+) {
+  return characters.sort(
+    (a, b) => {
+      const nameDifference =
+        String(a.name || "")
+          .localeCompare(
+            String(
+              b.name || ""
+            ),
+            undefined,
+            {
+              sensitivity:
+                "base"
+            }
+          );
 
-    return String(a.realm || "")
-      .localeCompare(
-        String(b.realm || ""),
+      if (
+        nameDifference !== 0
+      ) {
+        return nameDifference;
+      }
+
+      return String(
+        a.realm || ""
+      ).localeCompare(
+        String(
+          b.realm || ""
+        ),
         undefined,
         {
-          sensitivity: "base"
+          sensitivity:
+            "base"
         }
       );
-  });
+    }
+  );
 }
+
+/*
+ * ============================================================
+ * MAIN
+ * ============================================================
+ */
+
 async function run() {
   console.log(
     "Starting Raider.IO character updater"
   );
 
   console.log(
-    "Raid filter: current 9-boss Midnight tier only"
+    `Current raid: ${CURRENT_RAID_NAME}`
   );
 
-  const characters = readJson(inputPath);
+  console.log(
+    `Raid key: ${CURRENT_RAID_KEY}`
+  );
 
-  if (!Array.isArray(characters)) {
+  console.log(
+    `Raid bosses: ${CURRENT_TIER_TOTAL_BOSSES}`
+  );
+
+  console.log(
+    "Mythic+: Raider.IO current season"
+  );
+
+  const characters =
+    readJson(inputPath);
+
+  if (
+    !Array.isArray(
+      characters
+    )
+  ) {
     throw new Error(
       `${inputPath} must contain a JSON array`
     );
   }
 
   console.log(
-    `Characters to update: ${characters.length}`
+    `Characters to update: ` +
+    `${characters.length}`
   );
 
   const updatedCharacters = [];
@@ -1039,7 +1195,8 @@ async function run() {
     index < characters.length;
     index += 1
   ) {
-    const character = characters[index];
+    const character =
+      characters[index];
 
     if (
       !character?.name ||
@@ -1052,11 +1209,44 @@ async function run() {
 
       updatedCharacters.push({
         ...character,
-        dataStatus: "invalid",
+
+        /*
+         * Reset season-specific values
+         * even for invalid records.
+         */
+        mythicPlusScore:
+          null,
+
+        raidKey:
+          CURRENT_RAID_KEY,
+
+        raidName:
+          CURRENT_RAID_NAME,
+
+        raidProgress:
+          "-",
+
+        raidDifficulty:
+          "",
+
+        raidKills:
+          0,
+
+        raidTotalBosses:
+          CURRENT_TIER_TOTAL_BOSSES,
+
+        achievement:
+          "-",
+
+        dataStatus:
+          "invalid",
+
         updateError:
           "Missing character name or realm",
+
         updatedAt:
-          new Date().toISOString()
+          new Date()
+            .toISOString()
       });
 
       continue;
@@ -1093,7 +1283,9 @@ async function run() {
   );
 
   fs.mkdirSync(
-    path.dirname(outputPath),
+    path.dirname(
+      outputPath
+    ),
     {
       recursive: true
     }
@@ -1105,43 +1297,59 @@ async function run() {
       deduplicatedCharacters,
       null,
       2
-    )
+    ) + "\n"
   );
 
   const found =
     deduplicatedCharacters.filter(
       character =>
-        character.dataStatus === "found"
+        character.dataStatus ===
+        "found"
     ).length;
 
   const missing =
     deduplicatedCharacters.filter(
       character =>
-        character.dataStatus === "not-found"
+        character.dataStatus ===
+        "not-found"
     ).length;
 
   const failed =
     deduplicatedCharacters.filter(
       character =>
-        character.dataStatus === "error"
+        character.dataStatus ===
+        "error"
     ).length;
 
   const invalid =
     deduplicatedCharacters.filter(
       character =>
-        character.dataStatus === "invalid"
+        character.dataStatus ===
+        "invalid"
     ).length;
 
   const ceCount =
     deduplicatedCharacters.filter(
       character =>
-        character.achievement === "CE"
+        character.achievement ===
+        "CE"
     ).length;
 
   const aotcCount =
     deduplicatedCharacters.filter(
       character =>
-        character.achievement === "AotC"
+        character.achievement ===
+        "AotC"
+    ).length;
+
+  const scoredCharacters =
+    deduplicatedCharacters.filter(
+      character =>
+        typeof character
+          .mythicPlusScore ===
+          "number" &&
+        character
+          .mythicPlusScore > 0
     ).length;
 
   const duplicatesRemoved =
@@ -1154,11 +1362,13 @@ async function run() {
   );
 
   console.log(
-    `Total: ${deduplicatedCharacters.length}`
+    `Total: ` +
+    `${deduplicatedCharacters.length}`
   );
 
   console.log(
-    `Duplicates removed: ${duplicatesRemoved}`
+    `Duplicates removed: ` +
+    `${duplicatesRemoved}`
   );
 
   console.log(
@@ -1178,11 +1388,18 @@ async function run() {
   );
 
   console.log(
-    `CE characters: ${ceCount}`
+    `Current-season M+ scores: ` +
+    `${scoredCharacters}`
   );
 
   console.log(
-    `AotC characters: ${aotcCount}`
+    `Venomous Abyss CE characters: ` +
+    `${ceCount}`
+  );
+
+  console.log(
+    `Venomous Abyss AotC characters: ` +
+    `${aotcCount}`
   );
 
   console.log(
