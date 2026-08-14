@@ -1,58 +1,169 @@
 const fs = require("fs");
 const path = require("path");
 
-const guildsIOPath = "data/guildsio.json";
-const guildProfilesDirectory = "data/guilds";
+const guildsIOPath =
+  "data/guildsio.json";
+
+const guildProfilesDirectory =
+  "data/guilds";
 
 /*
- * Raider.IO tiers that should be updated automatically.
+ * ONLY the current raid is automatically updated.
  *
- * Historical/manual tiers already stored in the guild profile
- * are always preserved.
+ * Historical tiers are preserved exactly as they
+ * already exist in each guild JSON.
+ *
+ * That means:
+ *
+ * NP
+ * LoU
+ * MO
+ * T1 (DR, VS, MoQ)
+ *
+ * are historical/manual data from now on.
  */
 const RAID_NAMES = {
-  "tier-mn-1": "T1 (DR, VS, MoQ)"
-
-  // Future example:
-  // "tier-mn-2": "Midnight T2"
+  "the-venomous-abyss":
+    "The Venomous Abyss"
 };
 
 function readJson(filePath) {
+  if (!fs.existsSync(filePath)) {
+    throw new Error(
+      `Missing file: ${filePath}`
+    );
+  }
+
   return JSON.parse(
-    fs.readFileSync(filePath, "utf8")
+    fs.readFileSync(
+      filePath,
+      "utf8"
+    )
   );
 }
 
-function writeJson(filePath, data) {
+function writeJson(
+  filePath,
+  data
+) {
   fs.writeFileSync(
     filePath,
-    JSON.stringify(data, null, 2) + "\n"
+    JSON.stringify(
+      data,
+      null,
+      2
+    ) + "\n"
   );
 }
 
-function getBestRanking(raidRankings) {
+function normalizeProgressSummary(
+  summary
+) {
+  return String(
+    summary || "-"
+  )
+    .trim()
+    .replace(
+      /\s+/g,
+      " "
+    );
+}
+
+/*
+ * Select the highest meaningful
+ * Raider.IO world ranking.
+ */
+function getBestRanking(
+  raidRankings,
+  progression
+) {
   if (!raidRankings) {
     return null;
   }
 
-  if (raidRankings.mythic?.world > 0) {
+  const mythicKills =
+    Number(
+      progression
+        ?.mythic_bosses_killed
+    ) || 0;
+
+  const heroicKills =
+    Number(
+      progression
+        ?.heroic_bosses_killed
+    ) || 0;
+
+  const normalKills =
+    Number(
+      progression
+        ?.normal_bosses_killed
+    ) || 0;
+
+  /*
+   * Use Mythic rank when there
+   * is actual Mythic progress.
+   */
+  if (
+    mythicKills > 0 &&
+    Number(
+      raidRankings
+        .mythic?.world
+    ) > 0
+  ) {
     return {
-      difficulty: "M",
-      WR: raidRankings.mythic.world
+      difficulty:
+        "M",
+
+      WR:
+        Number(
+          raidRankings
+            .mythic.world
+        )
     };
   }
 
-  if (raidRankings.heroic?.world > 0) {
+  /*
+   * Otherwise Heroic.
+   */
+  if (
+    heroicKills > 0 &&
+    Number(
+      raidRankings
+        .heroic?.world
+    ) > 0
+  ) {
     return {
-      difficulty: "H",
-      WR: raidRankings.heroic.world
+      difficulty:
+        "H",
+
+      WR:
+        Number(
+          raidRankings
+            .heroic.world
+        )
     };
   }
 
-  if (raidRankings.normal?.world > 0) {
+  /*
+   * Normal remains available
+   * as a fallback.
+   */
+  if (
+    normalKills > 0 &&
+    Number(
+      raidRankings
+        .normal?.world
+    ) > 0
+  ) {
     return {
-      difficulty: "N",
-      WR: raidRankings.normal.world
+      difficulty:
+        "N",
+
+      WR:
+        Number(
+          raidRankings
+            .normal.world
+        )
     };
   }
 
@@ -64,61 +175,97 @@ function buildTierRanks(
   existingTierRanks = {}
 ) {
   /*
-   * Preserve every existing tier.
+   * IMPORTANT:
    *
-   * This includes:
-   * - NP
-   * - LoU
-   * - MO
-   * - older expansions
-   * - any other manually maintained raid history
+   * Copy every existing historical tier first.
+   *
+   * Nothing old is deleted.
    */
   const tierRanks = {
     ...existingTierRanks
   };
 
   /*
-   * Update only the Raider.IO tiers explicitly configured
+   * Only update raids explicitly listed
    * in RAID_NAMES.
+   *
+   * Currently that means ONLY
+   * The Venomous Abyss.
    */
   for (
-    const [raidSlug, displayName]
-    of Object.entries(RAID_NAMES)
+    const [
+      raidSlug,
+      displayName
+    ]
+    of Object.entries(
+      RAID_NAMES
+    )
   ) {
     const progression =
-      guildData.progress?.[raidSlug];
+      guildData
+        .progress?.[
+          raidSlug
+        ];
 
     const rankings =
-      guildData.rankings?.[raidSlug];
+      guildData
+        .rankings?.[
+          raidSlug
+        ];
 
     /*
-     * When Raider.IO does not return this tier, preserve the
-     * existing manual or previously fetched entry unchanged.
+     * Raider.IO hasn't returned the
+     * raid for this guild yet.
+     *
+     * Keep any existing entry untouched.
      */
-    if (!progression && !rankings) {
+    if (
+      !progression &&
+      !rankings
+    ) {
       continue;
     }
 
     const existingTier =
-      existingTierRanks[displayName] || {};
+      existingTierRanks[
+        displayName
+      ] || {};
 
     const bestRanking =
-      getBestRanking(rankings);
+      getBestRanking(
+        rankings,
+        progression
+      );
 
-    tierRanks[displayName] = {
+    /*
+     * Automatically create/update ONLY
+     * the current raid.
+     */
+    tierRanks[
+      displayName
+    ] = {
       progress:
-        progression?.summary ||
-        existingTier.progress ||
-        "-",
+        progression?.summary
+          ? normalizeProgressSummary(
+              progression.summary
+            )
+          : (
+              existingTier.progress ||
+              "-"
+            ),
 
       WR:
-        bestRanking?.WR?.toString() ||
-        existingTier.WR ||
-        "-",
+        bestRanking?.WR
+          ? String(
+              bestRanking.WR
+            )
+          : (
+              existingTier.WR ||
+              "-"
+            ),
 
       /*
-       * Raider.IO does not currently provide the Greek rank
-       * used by this site, so it stays manual.
+       * Greek Rank is still manual.
        */
       GR:
         existingTier.GR ||
@@ -129,53 +276,85 @@ function buildTierRanks(
   return tierRanks;
 }
 
-function updateGuildProfile(guildData) {
-  const profilePath = path.join(
-    guildProfilesDirectory,
-    `${guildData.id}.json`
-  );
+function updateGuildProfile(
+  guildData
+) {
+  const profilePath =
+    path.join(
+      guildProfilesDirectory,
+      `${guildData.id}.json`
+    );
 
-  if (!fs.existsSync(profilePath)) {
+  if (
+    !fs.existsSync(
+      profilePath
+    )
+  ) {
     console.log(
-      `Profile not found: ${profilePath}`
+      `Profile not found: ` +
+      profilePath
     );
 
     return;
   }
 
   const profile =
-    readJson(profilePath);
+    readJson(
+      profilePath
+    );
+
+  const oldTierRanks =
+    profile.tierRanks || {};
+
+  const newTierRanks =
+    buildTierRanks(
+      guildData,
+      oldTierRanks
+    );
 
   const updatedProfile = {
     ...profile,
 
+    /*
+     * Raider.IO connection data
+     * remains automatic.
+     */
     raiderIO: {
       profileUrl:
         guildData.profileUrl ||
-        profile.raiderIO?.profileUrl ||
+        profile.raiderIO
+          ?.profileUrl ||
         "",
 
       realm:
         guildData.realm ||
-        profile.raiderIO?.realm ||
+        profile.raiderIO
+          ?.realm ||
         "",
 
       region:
         guildData.region ||
-        profile.raiderIO?.region ||
+        profile.raiderIO
+          ?.region ||
         "",
 
       lastUpdated:
-        new Date().toISOString()
+        new Date()
+          .toISOString()
     },
 
-    tierRanks: buildTierRanks(
-      guildData,
-      profile.tierRanks || {}
-    ),
+    /*
+     * Historical entries stay.
+     *
+     * Only Venomous Abyss is automatically
+     * created/updated.
+     */
+    tierRanks:
+      newTierRanks,
 
     /*
-     * The separate Warcraft Logs updater manages this.
+     * Roster is handled by the separate
+     * Warcraft Logs roster updater.
      */
     roster:
       profile.roster || {
@@ -191,14 +370,35 @@ function updateGuildProfile(guildData) {
   );
 
   console.log(
-    `Updated profile: ${guildData.name}`
+    `Updated profile: ` +
+    `${guildData.name}`
   );
+
+  const venomousAbyss =
+    updatedProfile
+      .tierRanks?.[
+        "The Venomous Abyss"
+      ];
+
+  if (venomousAbyss) {
+    console.log(
+      `  Venomous Abyss: ` +
+      `${venomousAbyss.progress}, ` +
+      `WR ${venomousAbyss.WR}, ` +
+      `GR ${venomousAbyss.GR}`
+    );
+  }
 }
 
 function run() {
-  if (!fs.existsSync(guildsIOPath)) {
+  if (
+    !fs.existsSync(
+      guildsIOPath
+    )
+  ) {
     throw new Error(
-      `Missing file: ${guildsIOPath}`
+      `Missing file: ` +
+      guildsIOPath
     );
   }
 
@@ -208,29 +408,53 @@ function run() {
     )
   ) {
     throw new Error(
-      `Missing directory: ${guildProfilesDirectory}`
+      `Missing directory: ` +
+      guildProfilesDirectory
     );
   }
 
   const guilds =
-    readJson(guildsIOPath);
+    readJson(
+      guildsIOPath
+    );
 
-  if (!Array.isArray(guilds)) {
+  if (
+    !Array.isArray(
+      guilds
+    )
+  ) {
     throw new Error(
-      `${guildsIOPath} must contain an array`
+      `${guildsIOPath} ` +
+      `must contain an array`
     );
   }
 
   console.log(
-    `Found ${guilds.length} guilds to process.`
+    `Found ${guilds.length} ` +
+    `guilds to process.`
   );
 
-  for (const guild of guilds) {
+  console.log(
+    "Current automatic raid: " +
+    "The Venomous Abyss"
+  );
+
+  console.log(
+    "Historical raid entries " +
+    "will be preserved."
+  );
+
+  for (
+    const guild of guilds
+  ) {
     try {
-      updateGuildProfile(guild);
+      updateGuildProfile(
+        guild
+      );
     } catch (error) {
       console.error(
-        `Failed to update ${guild.name || guild.id}: ` +
+        `Failed to update ` +
+        `${guild.name || guild.id}: ` +
         error.message
       );
     }
@@ -244,6 +468,9 @@ function run() {
 try {
   run();
 } catch (error) {
-  console.error(error.message);
+  console.error(
+    error.message
+  );
+
   process.exit(1);
 }
