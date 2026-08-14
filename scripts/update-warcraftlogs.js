@@ -61,9 +61,21 @@ const BOSS_NAME_MAP = new Map(
 
 /*
  * Optional aliases for Warcraft Logs naming differences.
+ *
+ * Leave empty until we discover that Warcraft Logs uses
+ * a different spelling for a Venomous Abyss encounter.
  */
 const BOSS_ALIASES = {};
-};
+
+for (
+  const [alias, canonicalName]
+  of Object.entries(BOSS_ALIASES)
+) {
+  BOSS_NAME_MAP.set(
+    normalizeName(alias),
+    canonicalName
+  );
+}
 
 for (const [alias, canonicalName] of Object.entries(BOSS_ALIASES)) {
   BOSS_NAME_MAP.set(
