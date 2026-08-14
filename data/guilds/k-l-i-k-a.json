@@ -41,6 +41,13 @@
   "roster": {
     "tanks": [
       {
+        "name": "Babakita",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 5
+      },
+      {
         "name": "Chenkø",
         "realm": "TwistingNether",
         "class": "Monk",
@@ -52,21 +59,14 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Palarenas",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 6
-      },
-      {
-        "name": "Veloclap",
-        "realm": "Silvermoon",
-        "class": "Warrior",
-        "spec": "Protection",
-        "reports": 3
+        "reports": 4
       }
     ],
     "healers": [
@@ -75,65 +75,72 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 7
+        "reports": 5
+      },
+      {
+        "name": "Kigaru",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 2
       },
       {
         "name": "Mocchii",
         "realm": "Draenor",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Rikkisixx",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 3
       },
       {
         "name": "Yliko",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 1
+        "reports": 3
       }
     ],
     "dps": [
-      {
-        "name": "Babakiris",
-        "realm": "Silvermoon",
-        "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 1
-      },
-      {
-        "name": "Babakita",
-        "realm": "Silvermoon",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 6
-      },
       {
         "name": "Drepanis",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 7
+        "reports": 5
       },
       {
         "name": "Evôx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Felixshammy",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 6
+        "reports": 5
+      },
+      {
+        "name": "Jokersmiles",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 5
+      },
+      {
+        "name": "Kitecurse",
+        "realm": "Silvermoon",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
       },
       {
         "name": "Loxagòs",
@@ -147,77 +154,63 @@
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 6
+        "reports": 3
       },
       {
         "name": "Mørñîñgstårx",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 6
-      },
-      {
-        "name": "Napethaneis",
-        "realm": "TwistingNether",
-        "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 3
+        "reports": 5
       },
       {
         "name": "Primohunter",
         "realm": "TwistingNether",
         "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 5
-      },
-      {
-        "name": "Pullstomiden",
-        "realm": "Silvermoon",
-        "class": "Monk",
-        "spec": "Windwalker",
-        "reports": 1
-      },
-      {
-        "name": "Realpandh",
-        "realm": "Draenor",
-        "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 3
+        "spec": "Survival",
+        "reports": 2
       },
       {
         "name": "Rvivr",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Skullhunter",
         "realm": "TwistingNether",
         "class": "Hunter",
-        "spec": "Marksmanship",
-        "reports": 1
+        "spec": "BeastMastery",
+        "reports": 3
       },
       {
         "name": "Tigki",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 7
+        "reports": 5
       },
       {
         "name": "Tsamarella",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 5
+      },
+      {
+        "name": "Vovsin",
+        "realm": "Silvermoon",
+        "class": "Rogue",
+        "spec": "Assassination",
+        "reports": 2
       },
       {
         "name": "Yükí",
         "realm": "Ravencrest",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 3
+        "reports": 5
       }
     ]
   },
@@ -225,15 +218,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-05T18:18:58.756Z"
+    "lastUpdated": "2026-08-14T21:27:48.214Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:19:59.218Z",
+  "rosterUpdatedAt": "2026-08-14T21:28:35.577Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 7,
-    "verifiedGuildMembers": 157
+    "reportsChecked": 5,
+    "verifiedGuildMembers": 168
   }
 }

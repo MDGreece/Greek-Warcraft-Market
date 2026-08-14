@@ -45,31 +45,38 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 16
+        "reports": 13
       }
     ],
     "healers": [],
     "dps": [
       {
+        "name": "Eleleflip",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 13
+      },
+      {
         "name": "Meleron",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 17
+        "reports": 14
       },
       {
         "name": "Noxkan",
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 12
+        "reports": 13
       },
       {
         "name": "Pitaclub",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 17
+        "reports": 14
       }
     ]
   },
@@ -79,13 +86,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:19:38.797Z",
+  "rosterUpdatedAt": "2026-08-14T21:28:20.325Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 17,
-    "verifiedGuildMembers": 5
+    "reportsChecked": 14,
+    "verifiedGuildMembers": 7
   }
 }

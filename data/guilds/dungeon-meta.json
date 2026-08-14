@@ -34,27 +34,19 @@
     },
     "T1 (DR, VS, MoQ)": {
       "progress": "4/9 M",
-      "WR": "6392",
+      "WR": "6399",
       "GR": "16"
     }
   },
   "roster": {
-    "tanks": [
-      {
-        "name": "Stagram",
-        "realm": "TwistingNether",
-        "class": "DeathKnight",
-        "spec": "Blood",
-        "reports": 4
-      }
-    ],
+    "tanks": [],
     "healers": [
       {
         "name": "Rejuvas",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 1
       },
       {
         "name": "Sellian",
@@ -64,18 +56,11 @@
         "reports": 1
       },
       {
-        "name": "Shifoutelis",
-        "realm": "Silvermoon",
-        "class": "Monk",
-        "spec": "Mistweaver",
-        "reports": 4
-      },
-      {
         "name": "Tyxh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 5
+        "reports": 1
       }
     ],
     "dps": [
@@ -84,20 +69,13 @@
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 5
+        "reports": 1
       },
       {
         "name": "Kaiken",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 5
-      },
-      {
-        "name": "Kakoelf",
-        "realm": "Turalyon",
-        "class": "Warlock",
-        "spec": "Demonology",
         "reports": 1
       },
       {
@@ -105,14 +83,14 @@
         "realm": "Draenor",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 4
+        "reports": 1
       },
       {
         "name": "Marlonbrando",
         "realm": "Hellfire",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 5
+        "reports": 1
       },
       {
         "name": "Nemodr",
@@ -122,31 +100,31 @@
         "reports": 1
       },
       {
+        "name": "Stagram",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 1
+      },
+      {
         "name": "Trabakoulas",
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 5
+        "reports": 1
       },
       {
         "name": "Wolfel",
         "realm": "Ragnaros",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 5
+        "reports": 1
       },
       {
         "name": "Zell",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 5
-      },
-      {
-        "name": "Zellastrasza",
-        "realm": "Silvermoon",
-        "class": "Evoker",
-        "spec": "Devastation",
         "reports": 1
       }
     ]
@@ -155,15 +133,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-05T18:18:58.759Z"
+    "lastUpdated": "2026-08-14T21:27:48.217Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:19:54.541Z",
+  "rosterUpdatedAt": "2026-08-14T21:28:32.152Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 5,
-    "verifiedGuildMembers": 352
+    "reportsChecked": 1,
+    "verifiedGuildMembers": 354
   }
 }

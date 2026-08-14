@@ -33,8 +33,8 @@
       "GR": "-"
     },
     "T1 (DR, VS, MoQ)": {
-      "progress": "8/9 M",
-      "WR": "1980",
+      "progress": "9/9 M",
+      "WR": "1992",
       "GR": "9"
     }
   },
@@ -52,7 +52,7 @@
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 16
+        "reports": 13
       }
     ],
     "healers": [
@@ -82,21 +82,21 @@
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 10
+        "reports": 13
       },
       {
         "name": "Onlyham",
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 14
+        "reports": 12
       },
       {
         "name": "Shockolady",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 10
+        "reports": 9
       }
     ],
     "dps": [
@@ -105,7 +105,7 @@
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Outlaw",
-        "reports": 15
+        "reports": 16
       },
       {
         "name": "Bleedemm",
@@ -126,14 +126,7 @@
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 12
-      },
-      {
-        "name": "Hannaconda",
-        "realm": "TarrenMill",
-        "class": "Priest",
-        "spec": "Shadow",
-        "reports": 1
+        "reports": 10
       },
       {
         "name": "Joloré",
@@ -147,27 +140,20 @@
         "realm": "Aszune",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 15
+        "reports": 16
       },
       {
         "name": "Ksetsipotos",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 12
+        "reports": 10
       },
       {
         "name": "Maiav",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 16
-      },
-      {
-        "name": "Mergelos",
-        "realm": "Silvermoon",
-        "class": "Warlock",
-        "spec": "Demonology",
         "reports": 16
       },
       {
@@ -189,28 +175,28 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 10
+        "reports": 9
+      },
+      {
+        "name": "Notizio",
+        "realm": "Ravencrest",
+        "class": "Mage",
+        "spec": "Frost",
+        "reports": 1
       },
       {
         "name": "Rosfrost",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Roÿzdk",
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 7
-      },
-      {
-        "name": "Roÿzev",
-        "realm": "TwistingNether",
-        "class": "Evoker",
-        "spec": "Augmentation",
-        "reports": 1
+        "reports": 10
       },
       {
         "name": "Saffyrra",
@@ -232,15 +218,15 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Amargosa%20Crew",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-05T18:18:58.757Z"
+    "lastUpdated": "2026-08-14T21:27:48.215Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:19:08.262Z",
+  "rosterUpdatedAt": "2026-08-14T21:27:56.605Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 806903,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 16,
-    "verifiedGuildMembers": 183
+    "verifiedGuildMembers": 197
   }
 }

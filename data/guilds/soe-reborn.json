@@ -41,25 +41,11 @@
   "roster": {
     "tanks": [
       {
-        "name": "Iridadr",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Guardian",
-        "reports": 1
-      },
-      {
-        "name": "Pepedeath",
+        "name": "Ñorélia",
         "realm": "Draenor",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 16
-      },
-      {
-        "name": "Pepemoulis",
-        "realm": "Draenor",
-        "class": "Druid",
-        "spec": "Guardian",
-        "reports": 1
+        "reports": 4
       },
       {
         "name": "Pinwfix",
@@ -71,18 +57,18 @@
     ],
     "healers": [
       {
-        "name": "Aidsventura",
-        "realm": "Silvermoon",
-        "class": "Priest",
-        "spec": "Holy",
-        "reports": 11
-      },
-      {
         "name": "Drakoulinia",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 12
+        "reports": 13
+      },
+      {
+        "name": "Epifanios",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 8
       },
       {
         "name": "Fenrix",
@@ -103,7 +89,7 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 4
+        "reports": 1
       },
       {
         "name": "Ramelitsa",
@@ -115,13 +101,6 @@
     ],
     "dps": [
       {
-        "name": "Apollonus",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 15
-      },
-      {
         "name": "Arleighburke",
         "realm": "TwistingNether",
         "class": "Hunter",
@@ -129,74 +108,53 @@
         "reports": 15
       },
       {
-        "name": "Clarenadkz",
-        "realm": "TarrenMill",
-        "class": "DeathKnight",
-        "spec": "Frost",
-        "reports": 16
-      },
-      {
         "name": "Deathbagua",
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 9
+        "reports": 11
       },
       {
         "name": "Démian",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 15
+        "reports": 16
       },
       {
         "name": "Draksie",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 15
-      },
-      {
-        "name": "Draksiedh",
-        "realm": "TarrenMill",
-        "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 1
+        "reports": 16
       },
       {
         "name": "Falgidron",
         "realm": "Ragnaros",
         "class": "Mage",
         "spec": "Fire",
-        "reports": 9
+        "reports": 10
       },
       {
         "name": "Gothdor",
         "realm": "TarrenMill",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 14
+        "reports": 15
       },
       {
         "name": "Iridavoke",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 5
+        "reports": 3
       },
       {
         "name": "Kardasi",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 5
-      },
-      {
-        "name": "Mehiropoulos",
-        "realm": "Silvermoon",
-        "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 15
+        "reports": 3
       },
       {
         "name": "Mendorxd",
@@ -210,35 +168,21 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 11
+        "reports": 12
       },
       {
         "name": "Mokinha",
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 9
-      },
-      {
-        "name": "Pipetos",
-        "realm": "Ragnaros",
-        "class": "Mage",
-        "spec": "Fire",
-        "reports": 1
+        "reports": 7
       },
       {
         "name": "Salmold",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 14
-      },
-      {
-        "name": "Sheriffis",
-        "realm": "Silvermoon",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 1
+        "reports": 15
       },
       {
         "name": "Sofron",
@@ -252,14 +196,7 @@
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 3
-      },
-      {
-        "name": "Zaks",
-        "realm": "TarrenMill",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 12
+        "reports": 2
       }
     ]
   },
@@ -267,9 +204,9 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-05T18:18:58.757Z"
+    "lastUpdated": "2026-08-14T21:27:48.215Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:20:15.894Z",
+  "rosterUpdatedAt": "2026-08-14T21:28:49.959Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,
