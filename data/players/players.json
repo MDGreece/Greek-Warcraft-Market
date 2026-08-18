@@ -18,15 +18,15 @@
         "rosterUpdatedAt": "2026-08-14T21:57:56.255Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-18T13:24:45.693Z",
+        "lastSeenInRosterAt": "2026-08-18T19:07:41.836Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
-        "mythicPlusScore": 2803.5,
+        "mythicPlusScore": 0,
         "itemLevel": 293,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-08-18T13:25:06.272Z",
+        "updatedAt": "2026-08-18T19:07:51.699Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-08-15T18:35:01.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-18T13:25:06.272Z"
+        "lastSuccessfulUpdateAt": "2026-08-18T19:07:51.699Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -54,15 +54,15 @@
         "raidGroup": "Deny Everything",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anastrásza",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastr%C3%A1sza",
-        "mythicPlusScore": 1787.4,
+        "mythicPlusScore": 0,
         "raidProgress": "-",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
         "rosterUpdatedAt": "2026-08-14T21:57:56.255Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-18T13:24:45.693Z",
-        "updatedAt": "2026-08-18T13:25:07.676Z",
+        "lastSeenInRosterAt": "2026-08-18T19:07:41.836Z",
+        "updatedAt": "2026-08-18T19:07:53.360Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -78,18 +78,18 @@
         "raiderIoUpdatedAt": "2026-08-12T07:42:43.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-18T13:25:07.676Z"
+        "lastSuccessfulUpdateAt": "2026-08-18T19:07:53.360Z"
       }
     ],
     "characterCount": 2,
-    "highestMythicPlusScore": 2803.5,
+    "highestMythicPlusScore": 0,
     "bestRaidProgress": "-",
     "bestAchievement": "-",
     "currentRaidKey": "the-venomous-abyss",
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-18T13:30:29.260Z",
-    "updatedAt": "2026-08-18T13:30:29.260Z"
+    "createdAt": "2026-08-18T19:11:52.881Z",
+    "updatedAt": "2026-08-18T19:11:52.881Z"
   }
 ]
