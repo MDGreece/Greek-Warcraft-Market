@@ -77,13 +77,6 @@ for (
   );
 }
 
-for (const [alias, canonicalName] of Object.entries(BOSS_ALIASES)) {
-  BOSS_NAME_MAP.set(
-    normalizeName(alias),
-    canonicalName
-  );
-}
-
 function getCanonicalBossName(name) {
   return BOSS_NAME_MAP.get(normalizeName(name)) || "";
 }
@@ -642,7 +635,7 @@ async function updateGroup(
   let progression;
 
   /*
-   * When all nine Mythic bosses are found as kills,
+   * When all eight Mythic bosses are found as kills,
    * show CE and use the final kill report.
    */
   if (
@@ -824,8 +817,19 @@ raidKills >= TOTAL_BOSSES
       new Date().toISOString()
   };
 
-  delete updatedGroup.totalPulls;
-  delete updatedGroup.updateError;
+delete updatedGroup.totalPulls;
+delete updatedGroup.updateError;
+
+/*
+ * Old manual overrides are no longer used.
+ * All groups, including Disobedient Group II and III,
+ * are now updated automatically from Warcraft Logs.
+ */
+delete updatedGroup.manual;
+delete updatedGroup.fixedProgress;
+delete updatedGroup.fixedRank;
+delete updatedGroup.raceFinished;
+delete updatedGroup.worldRank;
 
   console.log(
     `${updatedGroup.name}: ` +
