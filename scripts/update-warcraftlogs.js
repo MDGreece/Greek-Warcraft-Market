@@ -8,7 +8,7 @@ const outputPath = "data/warcraftlogs-groups.json";
 
 const TOTAL_BOSSES = 8;
 const REPORT_LIMIT = 50;
-const CURRENT_RAID_KEY = "midnight-tier-1";
+const CURRENT_RAID_KEY = "venomous-abyss";
 
 /*
  * Canonical encounter order.
