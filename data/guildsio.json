@@ -201,7 +201,7 @@
           "realm": 24
         },
         "heroic": {
-          "world": 1021,
+          "world": 1022,
           "region": 368,
           "realm": 28
         },
@@ -522,8 +522,8 @@
           "realm": 18
         },
         "heroic": {
-          "world": 1124,
-          "region": 395,
+          "world": 1127,
+          "region": 396,
           "realm": 30
         },
         "mythic": {
@@ -624,7 +624,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 1495,
+          "world": 1505,
           "region": 642,
           "realm": 58
         },
@@ -731,7 +731,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 1444,
+          "world": 1453,
           "region": 613,
           "realm": 57
         },
@@ -945,7 +945,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2962,
+          "world": 2968,
           "region": 1339,
           "realm": 85
         },
@@ -1908,8 +1908,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 5062,
-          "region": 2232,
+          "world": 5075,
+          "region": 2233,
           "realm": 11
         },
         "heroic": {
@@ -2015,8 +2015,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 4934,
-          "region": 2178,
+          "world": 4947,
+          "region": 2179,
           "realm": 88
         },
         "heroic": {
@@ -2110,7 +2110,7 @@
           "realm": 10
         },
         "heroic": {
-          "world": 933,
+          "world": 934,
           "region": 311,
           "realm": 17
         },
@@ -2122,7 +2122,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 6004,
+          "world": 6028,
           "region": 2573,
           "realm": 163
         },
@@ -2336,7 +2336,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 6534,
+          "world": 6551,
           "region": 2792,
           "realm": 160
         },
