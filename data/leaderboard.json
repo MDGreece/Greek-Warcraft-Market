@@ -9,7 +9,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "1/8H",
     "bossProg": "CE",
-    "worldRank": 948,
+    "worldRank": 1008,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -17,6 +17,22 @@
   },
   {
     "rank": 2,
+    "id": "o-m-e-g-a",
+    "name": "O M E G A",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "8/8N",
+    "bossProg": "CE",
+    "worldRank": 499,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 3,
     "id": "provatina",
     "name": "Provatina",
     "type": "guild",
@@ -25,14 +41,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "8/8N",
     "bossProg": "-",
-    "worldRank": 698,
+    "worldRank": 704,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -41,14 +57,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "7/8N",
     "bossProg": "7.70% Midnight Falls",
-    "worldRank": 1387,
+    "worldRank": 1470,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "id": "amargosa-crew",
     "name": "Amargosa Crew",
     "type": "guild",
@@ -57,23 +73,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "7/8N",
     "bossProg": "15.49% Midnight Falls",
-    "worldRank": 1344,
-    "hasWorldRank": true,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 5,
-    "id": "o-m-e-g-a",
-    "name": "O M E G A",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "7/8N",
-    "bossProg": "CE",
-    "worldRank": 1131,
+    "worldRank": 1424,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -89,7 +89,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "6/8N",
     "bossProg": "-",
-    "worldRank": 2798,
+    "worldRank": 2907,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -105,7 +105,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "4/8N",
     "bossProg": "36.65% Chimaerus the Undreamt God",
-    "worldRank": 4762,
+    "worldRank": 4957,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -121,7 +121,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "4/8N",
     "bossProg": "-",
-    "worldRank": 4639,
+    "worldRank": 4832,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -137,7 +137,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "3/8N",
     "bossProg": "20.77% Imperator Averzian",
-    "worldRank": 5661,
+    "worldRank": 5880,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -145,6 +145,22 @@
   },
   {
     "rank": 10,
+    "id": "epsilon",
+    "name": "Epsilon",
+    "type": "guild",
+    "realm": "draenor",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "2/8N",
+    "bossProg": "-",
+    "worldRank": 6383,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 11,
     "id": "dungeon-meta",
     "name": "Dungeon Meta",
     "type": "guild",
@@ -160,7 +176,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "id": "the-haunted",
     "name": "The Haunted",
     "type": "guild",
@@ -176,7 +192,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -192,7 +208,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -210,7 +226,7 @@
     "latestReportTitle": ""
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "chthonic",
     "name": "Chthonic",
     "type": "guild",
@@ -226,7 +242,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "id": "crimson-thunder",
     "name": "Crimson Thunder",
     "type": "guild",
@@ -242,7 +258,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "id": "death-and-glory",
     "name": "Death and Glory",
     "type": "guild",
@@ -258,7 +274,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "id": "deny-everything",
     "name": "Deny Everything",
     "type": "guild",
@@ -274,7 +290,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "type": "raid-team",
@@ -290,22 +306,6 @@
     "source": "warcraftlogs",
     "latestReport": "",
     "latestReportTitle": ""
-  },
-  {
-    "rank": 19,
-    "id": "epsilon",
-    "name": "Epsilon",
-    "type": "guild",
-    "realm": "draenor",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
   },
   {
     "rank": 20,
