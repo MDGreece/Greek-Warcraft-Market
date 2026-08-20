@@ -5,14 +5,32 @@ const logsPath = "data/warcraftlogs-groups.json";
 const outputPath = "data/leaderboard.json";
 
 /*
+ * ========================================
  * CURRENT LIVE RAID
+ * ========================================
  *
- * Season 1 / tier-mn-1 is intentionally NOT used here.
- * It remains stored as historical data elsewhere.
+ * IMPORTANT:
+ * This must match the raidKey written by
+ * update-warcraftlogs.js and the Raider.IO
+ * raid key inside guildsio.json.
  */
 const CURRENT_RAID = "the-venomous-abyss";
+
 const DEFAULT_WORLD_RANK = 999999;
 const TOTAL_BOSSES = 8;
+
+/*
+ * These raid teams must always use the
+ * automatic Warcraft Logs data.
+ *
+ * Even if an old JSON entry still has
+ * "manual": true, build-leaderboard will
+ * treat these as automatic.
+ */
+const AUTOMATIC_LOG_GROUP_IDS = new Set([
+  "disobedient-group-ii",
+  "disobedient-group-iii"
+]);
 
 function readJson(filePath) {
   if (!fs.existsSync(filePath)) {
@@ -40,6 +58,25 @@ function normalizeProgress(progress) {
 
 /*
  * ========================================
+ * HELPERS
+ * ========================================
+ */
+
+function isAutomaticLogGroup(group) {
+  return AUTOMATIC_LOG_GROUP_IDS.has(
+    group?.id
+  );
+}
+
+function isCurrentRaidLogGroup(group) {
+  return (
+    group &&
+    group.raidKey === CURRENT_RAID
+  );
+}
+
+/*
+ * ========================================
  * RAIDER.IO
  * ========================================
  */
@@ -52,8 +89,7 @@ function getRaiderRaid(guild) {
 }
 
 function getRaiderProgress(guild) {
-  const raid =
-    getRaiderRaid(guild);
+  const raid = getRaiderRaid(guild);
 
   if (!raid) {
     return "-";
@@ -79,7 +115,7 @@ function getRaiderProgress(guild) {
     ) || 0;
 
   /*
-   * Mythic progression has priority.
+   * Mythic has priority.
    */
   if (mythicKills > 0) {
     return mythicKills >= totalBosses
@@ -88,16 +124,14 @@ function getRaiderProgress(guild) {
   }
 
   /*
-   * Heroic progression comes next.
+   * Heroic next.
    */
   if (heroicKills > 0) {
     return `${heroicKills}/${totalBosses}H`;
   }
 
   /*
-   * Normal is retained internally as a fallback.
-   * If you later want to hide Normal completely,
-   * this section can simply return "-".
+   * Normal fallback.
    */
   if (normalKills > 0) {
     return `${normalKills}/${totalBosses}N`;
@@ -114,12 +148,7 @@ function getRaiderWorldRank(guild) {
     return DEFAULT_WORLD_RANK;
   }
 
-  /*
-   * Prefer the ranking belonging to the highest
-   * meaningful current difficulty.
-   */
-  const raid =
-    getRaiderRaid(guild);
+  const raid = getRaiderRaid(guild);
 
   const mythicKills =
     Number(
@@ -172,17 +201,55 @@ function getRaiderWorldRank(guild) {
  * ========================================
  */
 
+/*
+ * IMPORTANT FIX:
+ *
+ * Boss progress is now raid-aware.
+ *
+ * Old bossProg / bestBoss information from
+ * the previous raid will NEVER be displayed
+ * if the group's raidKey does not equal
+ * CURRENT_RAID.
+ */
 function formatBossProgress(group) {
+  if (!group) {
+    return "-";
+  }
+
+  /*
+   * Never use boss data from an old tier.
+   */
   if (
-    group?.bossProg === "CE" ||
-    group?.progress === "CE"
+    group.raidKey !== CURRENT_RAID
+  ) {
+    return "-";
+  }
+
+  /*
+   * Current-raid CE.
+   */
+  if (
+    group.bossProg === "CE" ||
+    group.progress === "CE"
   ) {
     return "CE";
   }
 
+  /*
+   * Current progression boss.
+   *
+   * Examples:
+   *
+   * 36.6% P3
+   * 57.9% P2
+   * 12.4% Nexus-King Salhadaar
+   *
+   * Whatever update-warcraftlogs.js writes
+   * into bossProg + bestBoss will be used.
+   */
   if (
-    group?.bestBoss &&
-    group?.bossProg &&
+    group.bestBoss &&
+    group.bossProg &&
     group.bossProg !== "-"
   ) {
     return (
@@ -213,6 +280,22 @@ function findLogGroupForGuild(
       .toLowerCase();
 
   return logGroups.find(group => {
+    /*
+     * IMPORTANT:
+     * Only use a Warcraft Logs group
+     * belonging to the current raid.
+     *
+     * This prevents old-tier boss progress
+     * being attached to a current Raider.IO
+     * guild row.
+     */
+    if (
+      group.raidKey &&
+      group.raidKey !== CURRENT_RAID
+    ) {
+      return false;
+    }
+
     const groupId =
       group.id || "";
 
@@ -257,22 +340,23 @@ function findLogGroupForGuild(
 }
 
 /*
- * Manual fixed progress is now season-aware.
+ * Manual progress overrides are allowed
+ * ONLY if explicitly assigned to the
+ * current raid.
  *
- * This is important for the rollover:
- * an old Season 1 fixedProgress such as 8/9M
- * must NOT appear in the Venomous Abyss leaderboard.
- *
- * If you ever need a manual override for this raid,
- * use:
+ * Example:
  *
  * "fixedRaidKey": "the-venomous-abyss",
  * "fixedProgress": "3/8M"
  */
 function getLogProgress(group) {
+  /*
+   * Automatic groups must never use an old
+   * manual fixedProgress value.
+   */
   if (
-    group.fixedRaidKey ===
-      CURRENT_RAID &&
+    !isAutomaticLogGroup(group) &&
+    group.fixedRaidKey === CURRENT_RAID &&
     group.fixedProgress
   ) {
     return normalizeProgress(
@@ -281,10 +365,7 @@ function getLogProgress(group) {
   }
 
   /*
-   * Normal Warcraft Logs progress.
-   *
-   * update-warcraftlogs.js now writes the current
-   * Venomous Abyss result here.
+   * Normal current-raid Warcraft Logs data.
    */
   if (
     group.raidKey === CURRENT_RAID
@@ -295,10 +376,7 @@ function getLogProgress(group) {
   }
 
   /*
-   * Entry belongs to an older raid.
-   *
-   * Do not carry Season 1 progression into
-   * the new leaderboard.
+   * Old raid.
    */
   return "-";
 }
@@ -374,17 +452,18 @@ function getBossPercentValue(
 }
 
 /*
- * Manual fixed ranking is also season-aware.
+ * Manual fixed ranking is allowed only
+ * for the current raid.
  *
- * Old Season 1 fixedRank values will no longer
- * affect the new leaderboard.
- *
- * To use one for Venomous Abyss:
- *
- * "fixedRankRaidKey": "the-venomous-abyss",
- * "fixedRank": 2
+ * Automatic groups ignore fixedRank.
  */
 function getFixedRank(group) {
+  if (
+    isAutomaticLogGroup(group)
+  ) {
+    return null;
+  }
+
   if (
     group.fixedRankRaidKey !==
     CURRENT_RAID
@@ -450,6 +529,12 @@ function buildRaiderRow(
 
     progress,
 
+    /*
+     * CE guilds show their world rank.
+     *
+     * Non-CE guilds show ONLY current-tier
+     * Warcraft Logs boss progress.
+     */
     bossProg:
       isCE
         ? worldRank !==
@@ -484,11 +569,17 @@ function buildLogRow(group) {
   const isCE =
     progress === "CE";
 
+  /*
+   * World rank must also belong to the
+   * current raid.
+   */
   const suppliedWorldRank =
-    Number(
-      group.currentWorldRank ??
-      group.worldRank
-    );
+    group.raidKey === CURRENT_RAID
+      ? Number(
+          group.currentWorldRank ??
+          group.worldRank
+        )
+      : DEFAULT_WORLD_RANK;
 
   const hasWorldRank =
     Number.isInteger(
@@ -570,21 +661,31 @@ function getGuildId(guild) {
 }
 
 /*
- * Manual entries still override Raider.IO
- * when they are explicitly configured.
- *
- * Amargosa and manual raid groups continue
- * to work this way.
+ * ========================================
+ * MANUAL / AUTOMATIC LOG GROUPS
+ * ========================================
  */
+
 function getManualLogIds(
   logGroups
 ) {
   return new Set(
     logGroups
-      .filter(
-        group =>
+      .filter(group => {
+        /*
+         * Group II and III are explicitly
+         * automatic.
+         */
+        if (
+          isAutomaticLogGroup(group)
+        ) {
+          return false;
+        }
+
+        return (
           group.manual === true
-      )
+        );
+      })
       .map(
         group =>
           group.id
@@ -592,6 +693,12 @@ function getManualLogIds(
       .filter(Boolean)
   );
 }
+
+/*
+ * ========================================
+ * SORTING
+ * ========================================
+ */
 
 function sortLeaderboard(a, b) {
   const progressDifference =
@@ -609,7 +716,7 @@ function sortLeaderboard(a, b) {
     b.progress === "CE";
 
   /*
-   * Two CE guilds with official WR.
+   * CE: official WR decides.
    */
   if (
     bothCE &&
@@ -626,13 +733,12 @@ function sortLeaderboard(a, b) {
   }
 
   /*
-   * Official CE rank before an unranked
-   * Warcraft Logs-only CE team.
+   * Ranked CE before unranked CE.
    */
   if (
     bothCE &&
     a.hasWorldRank !==
-      b.hasWorldRank
+    b.hasWorldRank
   ) {
     return a.hasWorldRank
       ? -1
@@ -640,9 +746,9 @@ function sortLeaderboard(a, b) {
   }
 
   /*
-   * Progression boss percentage.
+   * Current boss percentage.
    *
-   * Lower percentage = better progress.
+   * Lower % = better.
    */
   const bossPercentageDifference =
     getBossPercentValue(
@@ -659,8 +765,8 @@ function sortLeaderboard(a, b) {
   }
 
   /*
-   * World rank as a tie-breaker
-   * for equal non-CE progression.
+   * World rank tie-breaker for
+   * equal non-CE progression.
    */
   if (
     !bothCE &&
@@ -679,7 +785,7 @@ function sortLeaderboard(a, b) {
   if (
     !bothCE &&
     a.hasWorldRank !==
-      b.hasWorldRank
+    b.hasWorldRank
   ) {
     return a.hasWorldRank
       ? -1
@@ -700,8 +806,8 @@ function sortLeaderboard(a, b) {
 }
 
 /*
- * Apply manual positions only AFTER
- * the normal leaderboard has been sorted.
+ * Apply manual positions AFTER the normal
+ * automatic sorting.
  */
 function applyFixedRanks(entries) {
   const normalEntries =
@@ -790,8 +896,11 @@ function run() {
   );
 
   /*
-   * Manual Warcraft Logs entries override
-   * Raider.IO entries with the same ID.
+   * Manual Warcraft Logs entries can
+   * override matching Raider.IO guilds.
+   *
+   * Group II and Group III are excluded
+   * from this set and stay automatic.
    */
   const manualLogIds =
     getManualLogIds(
@@ -828,17 +937,28 @@ function run() {
   /*
    * Include:
    *
-   * - manual Warcraft Logs entries
+   * - genuinely manual Warcraft Logs rows
    * - Warcraft Logs-only raid teams
+   * - automatic Disobedient Group II / III
    */
   const raidTeamRows =
     logGroups
       .filter(group => {
-        return (
-          group.manual === true ||
+        const automaticGroup =
+          isAutomaticLogGroup(group);
+
+        const genuinelyManual =
+          group.manual === true &&
+          !automaticGroup;
+
+        const logsOnly =
           !raiderIds.has(
             group.id
-          )
+          );
+
+        return (
+          genuinelyManual ||
+          logsOnly
         );
       })
       .map(
@@ -907,8 +1027,11 @@ function run() {
   );
 
   /*
-   * Useful manual-entry debugging.
+   * ========================================
+   * DEBUGGING
+   * ========================================
    */
+
   const amargosa =
     leaderboard.find(
       entry =>
@@ -920,6 +1043,7 @@ function run() {
     console.log(
       `Amargosa Crew: ` +
       `${amargosa.progress}, ` +
+      `boss=${amargosa.bossProg}, ` +
       `raid=${amargosa.raidKey}, ` +
       `source=${amargosa.source}`
     );
@@ -936,6 +1060,7 @@ function run() {
     console.log(
       `Disobedient Group II: ` +
       `${groupTwo.progress}, ` +
+      `boss=${groupTwo.bossProg}, ` +
       `raid=${groupTwo.raidKey}, ` +
       `source=${groupTwo.source}`
     );
@@ -952,6 +1077,7 @@ function run() {
     console.log(
       `Disobedient Group III: ` +
       `${groupThree.progress}, ` +
+      `boss=${groupThree.bossProg}, ` +
       `raid=${groupThree.raidKey}, ` +
       `source=${groupThree.source}`
     );
