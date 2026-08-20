@@ -841,3 +841,84 @@ delete updatedGroup.worldRank;
 
   return updatedGroup;
 }
+async function run() {
+  const groups = JSON.parse(
+    fs.readFileSync(inputPath, "utf8")
+  );
+
+  if (!Array.isArray(groups)) {
+    throw new Error(
+      `${inputPath} must contain an array`
+    );
+  }
+
+  const token = await getToken();
+
+  const updatedGroups = [];
+
+  for (const group of groups) {
+    try {
+      const updated =
+        await updateGroup(
+          token,
+          group
+        );
+
+      /*
+       * Group II and III are now automatic.
+       * Remove old manual overrides.
+       */
+      if (
+        updated.id === "disobedient-group-ii" ||
+        updated.id === "disobedient-group-iii"
+      ) {
+        delete updated.manual;
+        delete updated.fixedProgress;
+        delete updated.fixedRank;
+        delete updated.fixedRankRaidKey;
+        delete updated.fixedRaidKey;
+        delete updated.raceFinished;
+        delete updated.worldRank;
+      }
+
+      updatedGroups.push(updated);
+
+    } catch (error) {
+      console.error(
+        `${group.name}: update failed: ${error.message}`
+      );
+
+      updatedGroups.push({
+        ...group,
+        updateError: error.message,
+        updatedAt: new Date().toISOString()
+      });
+    }
+  }
+
+  fs.writeFileSync(
+    outputPath,
+    JSON.stringify(
+      updatedGroups,
+      null,
+      2
+    ) + "\n"
+  );
+
+  console.log("");
+  console.log(
+    `Updated ${updatedGroups.length} Warcraft Logs groups`
+  );
+
+  console.log(
+    `Saved ${outputPath}`
+  );
+}
+
+run().catch(error => {
+  console.error(
+    `Warcraft Logs update failed: ${error.message}`
+  );
+
+  process.exit(1);
+});
