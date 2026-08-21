@@ -1,6 +1,22 @@
 [
   {
     "rank": 1,
+    "id": "amargosa-crew",
+    "name": "Amargosa Crew",
+    "type": "guild",
+    "realm": "tarren-mill",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "1/8H",
+    "bossProg": "2.32% Entombed Sentinels",
+    "worldRank": 1174,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 2,
     "id": "disobedient",
     "name": "Disobedient",
     "type": "guild",
@@ -9,14 +25,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "1/8H",
     "bossProg": "-",
-    "worldRank": 1149,
+    "worldRank": 1708,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 2,
+    "rank": 3,
     "id": "disobedient-group-ii",
     "name": "Disobedient Group II",
     "type": "raid-team",
@@ -34,7 +50,7 @@
     "latestReportTitle": ""
   },
   {
-    "rank": 3,
+    "rank": 4,
     "id": "o-m-e-g-a",
     "name": "O M E G A",
     "type": "guild",
@@ -43,14 +59,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "8/8N",
     "bossProg": "5.54% Nek'zali the Soulcoiler",
-    "worldRank": 500,
+    "worldRank": 501,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "id": "provatina",
     "name": "Provatina",
     "type": "guild",
@@ -59,23 +75,7 @@
     "raidKey": "the-venomous-abyss",
     "progress": "8/8N",
     "bossProg": "-",
-    "worldRank": 705,
-    "hasWorldRank": true,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 5,
-    "id": "amargosa-crew",
-    "name": "Amargosa Crew",
-    "type": "guild",
-    "realm": "tarren-mill",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "7/8N",
-    "bossProg": "64.63% Ula'tek",
-    "worldRank": 1622,
+    "worldRank": 707,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
@@ -83,6 +83,22 @@
   },
   {
     "rank": 6,
+    "id": "deny-everything",
+    "name": "Deny Everything",
+    "type": "guild",
+    "realm": "tarren-mill",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "8/8N",
+    "bossProg": "-",
+    "worldRank": 1892,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 7,
     "id": "soe-reborn",
     "name": "SOE Reborn",
     "type": "guild",
@@ -91,14 +107,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "7/8N",
     "bossProg": "71.03% Ula'tek",
-    "worldRank": 1677,
+    "worldRank": 2361,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "id": "chillers",
     "name": "Chillers",
     "type": "guild",
@@ -107,14 +123,62 @@
     "raidKey": "the-venomous-abyss",
     "progress": "6/8N",
     "bossProg": "32.72% The Coiled Altar",
-    "worldRank": 3173,
+    "worldRank": 4077,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 8,
+    "rank": 9,
+    "id": "you-are-not-repaired",
+    "name": "You Are Not Repaired",
+    "type": "guild",
+    "realm": "silvermoon",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "6/8N",
+    "bossProg": "-",
+    "worldRank": 3311,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 10,
+    "id": "leontokardoi",
+    "name": "leontokardoi",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "6/8N",
+    "bossProg": "-",
+    "worldRank": 4877,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 11,
+    "id": "dungeon-meta",
+    "name": "Dungeon Meta",
+    "type": "guild",
+    "realm": "twisting-nether",
+    "parentGuild": "",
+    "raidKey": "the-venomous-abyss",
+    "progress": "5/8N",
+    "bossProg": "11.22% The Twin Fangs",
+    "worldRank": 5151,
+    "hasWorldRank": true,
+    "fixedRank": null,
+    "raceFinished": false,
+    "source": "raiderio"
+  },
+  {
+    "rank": 12,
     "id": "the-syndicate",
     "name": "The Syndicate",
     "type": "guild",
@@ -123,30 +187,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "4/8N",
     "bossProg": "65.65% Sszorak",
-    "worldRank": 5353,
+    "worldRank": 6549,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 9,
-    "id": "leontokardoi",
-    "name": "leontokardoi",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "4/8N",
-    "bossProg": "-",
-    "worldRank": 5182,
-    "hasWorldRank": true,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 10,
+    "rank": 13,
     "id": "a-n-a-l-o-s-o-i-m-o-i",
     "name": "A N A L O S O I M O I",
     "type": "guild",
@@ -155,14 +203,14 @@
     "raidKey": "the-venomous-abyss",
     "progress": "3/8N",
     "bossProg": "-",
-    "worldRank": 6384,
+    "worldRank": 7487,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 11,
+    "rank": 14,
     "id": "epsilon",
     "name": "Epsilon",
     "type": "guild",
@@ -171,30 +219,30 @@
     "raidKey": "the-venomous-abyss",
     "progress": "2/8N",
     "bossProg": "-",
-    "worldRank": 7000,
+    "worldRank": 8018,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 12,
-    "id": "dungeon-meta",
-    "name": "Dungeon Meta",
+    "rank": 15,
+    "id": "unique-legacy",
+    "name": "UNIQUE LEGACY",
     "type": "guild",
     "realm": "twisting-nether",
     "parentGuild": "",
     "raidKey": "the-venomous-abyss",
-    "progress": "1/8N",
+    "progress": "2/8N",
     "bossProg": "-",
-    "worldRank": 7532,
+    "worldRank": 8149,
     "hasWorldRank": true,
     "fixedRank": null,
     "raceFinished": false,
     "source": "raiderio"
   },
   {
-    "rank": 13,
+    "rank": 16,
     "id": "chthonic",
     "name": "Chthonic",
     "type": "guild",
@@ -210,7 +258,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 14,
+    "rank": 17,
     "id": "crimson-thunder",
     "name": "Crimson Thunder",
     "type": "guild",
@@ -226,7 +274,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 15,
+    "rank": 18,
     "id": "death-and-glory",
     "name": "Death and Glory",
     "type": "guild",
@@ -242,23 +290,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 16,
-    "id": "deny-everything",
-    "name": "Deny Everything",
-    "type": "guild",
-    "realm": "tarren-mill",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 17,
+    "rank": 19,
     "id": "disobedient-group-iii",
     "name": "Disobedient Group III",
     "type": "raid-team",
@@ -276,7 +308,7 @@
     "latestReportTitle": ""
   },
   {
-    "rank": 18,
+    "rank": 20,
     "id": "elegance",
     "name": "Elegance",
     "type": "guild",
@@ -292,7 +324,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 19,
+    "rank": 21,
     "id": "irriducibili",
     "name": "Irriducibili",
     "type": "guild",
@@ -308,7 +340,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 20,
+    "rank": 22,
     "id": "k-l-i-k-a",
     "name": "K L I K A",
     "type": "guild",
@@ -324,7 +356,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 21,
+    "rank": 23,
     "id": "myrmidones",
     "name": "Myrmidones",
     "type": "guild",
@@ -340,7 +372,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 22,
+    "rank": 24,
     "id": "not-forgotten",
     "name": "Not Forgotten",
     "type": "guild",
@@ -356,7 +388,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 23,
+    "rank": 25,
     "id": "nyxborn",
     "name": "Nyxborn",
     "type": "guild",
@@ -372,7 +404,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 24,
+    "rank": 26,
     "id": "t-h-e-o-r-y",
     "name": "T H E O R Y",
     "type": "guild",
@@ -388,7 +420,7 @@
     "source": "raiderio"
   },
   {
-    "rank": 25,
+    "rank": 27,
     "id": "the-haunted",
     "name": "The Haunted",
     "type": "guild",
@@ -404,41 +436,9 @@
     "source": "raiderio"
   },
   {
-    "rank": 26,
+    "rank": 28,
     "id": "u-t-o-p-i-a",
     "name": "U T O P I A",
-    "type": "guild",
-    "realm": "silvermoon",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 27,
-    "id": "unique-legacy",
-    "name": "UNIQUE LEGACY",
-    "type": "guild",
-    "realm": "twisting-nether",
-    "parentGuild": "",
-    "raidKey": "the-venomous-abyss",
-    "progress": "-",
-    "bossProg": "-",
-    "worldRank": 999999,
-    "hasWorldRank": false,
-    "fixedRank": null,
-    "raceFinished": false,
-    "source": "raiderio"
-  },
-  {
-    "rank": 28,
-    "id": "you-are-not-repaired",
-    "name": "You Are Not Repaired",
     "type": "guild",
     "realm": "silvermoon",
     "parentGuild": "",
