@@ -15,7 +15,7 @@
     "bestBoss": "The Twin Fangs",
     "latestReport": "2DGdh31Mg7tZRwQL",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-22T12:31:42.554Z",
+    "updatedAt": "2026-08-22T18:23:52.543Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss"
@@ -38,7 +38,7 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-08-22T12:32:00.786Z",
+    "updatedAt": "2026-08-22T18:24:10.715Z",
     "raidKey": "the-venomous-abyss",
     "currentRaidReports": 4
   },
@@ -58,7 +58,7 @@
     "bestBoss": "The Coiled Altar",
     "latestReport": "ADgGTRa3pnm4H8Wy",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-22T12:32:17.844Z",
+    "updatedAt": "2026-08-22T18:24:26.121Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -79,7 +79,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:32:21.353Z",
+    "updatedAt": "2026-08-22T18:24:29.482Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -100,7 +100,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:32:40.032Z",
+    "updatedAt": "2026-08-22T18:24:49.502Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -121,7 +121,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:32:57.745Z",
+    "updatedAt": "2026-08-22T18:25:06.864Z",
     "raidZone": "",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -142,9 +142,9 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:33:18.289Z",
+    "updatedAt": "2026-08-22T18:25:27.035Z",
     "raidZone": "",
-    "currentRaidReports": 3,
+    "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss"
   },
   {
@@ -166,7 +166,7 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-08-22T12:33:35.913Z"
+    "updatedAt": "2026-08-22T18:25:44.991Z"
   },
   {
     "id": "disobedient-group-iii",
@@ -176,18 +176,18 @@
     "warcraftLogsGuildId": 730932,
     "autoFound": true,
     "raidKey": "the-venomous-abyss",
-    "progress": "-",
-    "raidDifficulty": "",
-    "raidDifficultySuffix": "",
-    "raidKills": 0,
+    "progress": "7/8N",
+    "raidDifficulty": "Normal",
+    "raidDifficultySuffix": "N",
+    "raidKills": 7,
     "totalReports": 50,
-    "currentRaidReports": 0,
+    "currentRaidReports": 1,
     "bossProg": "-",
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-08-22T12:33:53.393Z"
+    "updatedAt": "2026-08-22T18:26:02.821Z"
   },
   {
     "id": "dungeon-meta",
@@ -205,7 +205,7 @@
     "bestBoss": "The Twin Fangs",
     "latestReport": "RrG9pqJPYgW3DLxX",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-22T12:34:11.783Z",
+    "updatedAt": "2026-08-22T18:26:20.449Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss"
@@ -226,7 +226,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:34:29.753Z",
+    "updatedAt": "2026-08-22T18:26:38.589Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -247,7 +247,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:34:46.007Z",
+    "updatedAt": "2026-08-22T18:26:55.251Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -268,7 +268,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:34:51.921Z",
+    "updatedAt": "2026-08-22T18:27:01.711Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -289,7 +289,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:35:11.173Z",
+    "updatedAt": "2026-08-22T18:27:21.777Z",
     "raidZone": "",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -310,7 +310,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:35:26.532Z",
+    "updatedAt": "2026-08-22T18:27:36.991Z",
     "raidZone": "",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss"
@@ -331,7 +331,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:35:45.142Z",
+    "updatedAt": "2026-08-22T18:27:55.802Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -352,7 +352,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:35:45.257Z",
+    "updatedAt": "2026-08-22T18:27:55.924Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -373,7 +373,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:35:45.361Z",
+    "updatedAt": "2026-08-22T18:27:56.043Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -394,7 +394,7 @@
     "bestBoss": "Nek'zali the Soulcoiler",
     "latestReport": "ajk3gFLNAmzRWbJG",
     "latestReportTitle": "19/8/26",
-    "updatedAt": "2026-08-22T12:36:05.067Z",
+    "updatedAt": "2026-08-22T18:28:15.389Z",
     "raidZone": "Mythic+ Season 2",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -415,7 +415,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:36:20.260Z",
+    "updatedAt": "2026-08-22T18:28:30.735Z",
     "raidZone": "",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -436,7 +436,7 @@
     "bestBoss": "Ula'tek",
     "latestReport": "cdfHXtWZMJpgYLKR",
     "latestReportTitle": "new season same goals",
-    "updatedAt": "2026-08-22T12:36:38.797Z",
+    "updatedAt": "2026-08-22T18:28:49.274Z",
     "raidZone": "Mythic+ Season 2",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
@@ -457,7 +457,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:36:57.817Z",
+    "updatedAt": "2026-08-22T18:29:07.523Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -478,7 +478,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:37:15.520Z",
+    "updatedAt": "2026-08-22T18:29:23.921Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -499,7 +499,7 @@
     "bestBoss": "The Coiled Altar",
     "latestReport": "GPdVa2n9cJbq6kfr",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-22T12:37:22.841Z",
+    "updatedAt": "2026-08-22T18:29:31.009Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss"
@@ -520,7 +520,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:37:33.057Z",
+    "updatedAt": "2026-08-22T18:29:41.088Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss"
@@ -541,7 +541,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-22T12:37:48.680Z",
+    "updatedAt": "2026-08-22T18:29:57.413Z",
     "raidZone": "",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss"
