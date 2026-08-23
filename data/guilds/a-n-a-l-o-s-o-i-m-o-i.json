@@ -38,13 +38,21 @@
       "GR": "20"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "5/8 N",
+      "WR": "9145",
       "GR": "-"
     }
   },
   "roster": {
-    "tanks": [],
+    "tanks": [
+      {
+        "name": "Sephblades",
+        "realm": "Stormscale",
+        "class": "Warrior",
+        "spec": "Protection",
+        "reports": 2
+      }
+    ],
     "healers": [],
     "dps": []
   },
@@ -52,15 +60,17 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/A%20N%20A%20L%20O%20S%20O%20I%20M%20O%20I",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.174Z"
+    "lastUpdated": "2026-08-23T14:12:58.524Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterUpdatedAt": "2026-08-23T14:13:00.342Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 769674,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
-    "verifiedGuildMembers": 650
+    "reportsChecked": 2,
+    "verifiedGuildMembers": 1,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "A N A L O S O I M O I"
   }
 }

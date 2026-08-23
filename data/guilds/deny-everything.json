@@ -38,8 +38,8 @@
       "GR": "4"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "8/8 N",
+      "WR": "2253",
       "GR": "-"
     }
   },
@@ -50,14 +50,14 @@
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Deghinsea",
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 8
+        "reports": 7
       }
     ],
     "healers": [
@@ -66,27 +66,34 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 5
       },
       {
         "name": "Anadín",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 4
+        "reports": 3
       },
       {
         "name": "Anastrásza",
         "realm": "Silvermoon",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Anekfrastos",
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Mistweaver",
+        "reports": 2
+      },
+      {
+        "name": "Darkfàiry",
+        "realm": "TarrenMill",
+        "class": "Priest",
+        "spec": "Holy",
         "reports": 1
       },
       {
@@ -94,26 +101,33 @@
         "realm": "Stormscale",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Elgatzol",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Okeanios",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 4
       },
       {
         "name": "Oxtavoltos",
         "realm": "TarrenMill",
         "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
+      },
+      {
+        "name": "Zohas",
+        "realm": "TarrenMill",
+        "class": "Druid",
         "spec": "Restoration",
         "reports": 1
       }
@@ -131,7 +145,7 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Ator",
@@ -145,14 +159,14 @@
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Belicita",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Brbwc",
@@ -162,11 +176,25 @@
         "reports": 1
       },
       {
+        "name": "Clarena",
+        "realm": "TarrenMill",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 2
+      },
+      {
+        "name": "Clarenadkz",
+        "realm": "TarrenMill",
+        "class": "DeathKnight",
+        "spec": "Frost",
+        "reports": 1
+      },
+      {
         "name": "Darkmatterdh",
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Doomlord",
@@ -176,11 +204,25 @@
         "reports": 1
       },
       {
+        "name": "Dormina",
+        "realm": "TwistingNether",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
+      },
+      {
+        "name": "Fistheaven",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 1
+      },
+      {
         "name": "Fotinator",
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Geronimos",
@@ -194,35 +236,35 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Grandpanic",
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Johnisplay",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 4
+        "reports": 3
       },
       {
         "name": "Kapptech",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Kavleè",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 5
+        "reports": 4
       },
       {
         "name": "Ksapladin",
@@ -250,14 +292,14 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Synodus",
         "realm": "Quel'Thalas",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Tidalburner",
@@ -267,25 +309,32 @@
         "reports": 1
       },
       {
+        "name": "Voidblink",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
+      },
+      {
         "name": "Xabock",
         "realm": "Dentarg",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 7
+        "reports": 6
       },
       {
         "name": "Xitzaaz",
         "realm": "TarrenMill",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 5
+        "reports": 3
       },
       {
         "name": "Zenlimiter",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 1
+        "reports": 2
       }
     ]
   },
@@ -293,15 +342,17 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.171Z"
+    "lastUpdated": "2026-08-23T14:12:58.521Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:57:56.255Z",
+  "rosterUpdatedAt": "2026-08-23T14:13:27.227Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 805922,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 8,
-    "verifiedGuildMembers": 274
+    "reportsChecked": 7,
+    "verifiedGuildMembers": 308,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "Deny Everything"
   }
 }

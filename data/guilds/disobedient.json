@@ -38,35 +38,49 @@
       "GR": "2"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "1/8 H",
+      "WR": "2822",
       "GR": "-"
     }
   },
   "roster": {
     "tanks": [
       {
-        "name": "Dartharis",
+        "name": "Akaluptos",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 3
+        "reports": 2
       },
       {
-        "name": "Finiarell",
+        "name": "Cutewalker",
         "realm": "TwistingNether",
-        "class": "Paladin",
-        "spec": "Protection",
-        "reports": 3
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 2
+      },
+      {
+        "name": "Mimozha",
+        "realm": "Kazzak",
+        "class": "Druid",
+        "spec": "Guardian",
+        "reports": 1
       }
     ],
     "healers": [
       {
-        "name": "Blazefist",
+        "name": "Aidsventura",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Blazepala",
         "realm": "TwistingNether",
-        "class": "Monk",
-        "spec": "Mistweaver",
-        "reports": 3
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 2
       },
       {
         "name": "Jeicore",
@@ -80,13 +94,6 @@
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 3
-      },
-      {
-        "name": "Seridna",
-        "realm": "TwistingNether",
-        "class": "Evoker",
-        "spec": "Preservation",
         "reports": 2
       }
     ],
@@ -96,112 +103,105 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 3
+        "reports": 2
       },
       {
-        "name": "Balnados",
+        "name": "Babodin",
         "realm": "TwistingNether",
-        "class": "Hunter",
-        "spec": "Marksmanship",
-        "reports": 3
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 2
       },
       {
         "name": "Bòbba",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 3
+        "reports": 2
       },
       {
-        "name": "Chaykovsky",
+        "name": "Chay",
         "realm": "TwistingNether",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 3
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 2
       },
       {
-        "name": "Checkdragoon",
+        "name": "Deipa",
         "realm": "TwistingNether",
-        "class": "Evoker",
-        "spec": "Augmentation",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 2
+      },
+      {
+        "name": "Jpc",
+        "realm": "TwistingNether",
+        "class": "Rogue",
+        "spec": "Subtlety",
         "reports": 2
       },
       {
         "name": "Karanthirr",
         "realm": "TwistingNether",
         "class": "Mage",
-        "spec": "Frost",
-        "reports": 1
-      },
-      {
-        "name": "Kardioklefti",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Balance",
-        "reports": 1
-      },
-      {
-        "name": "Mimozha",
-        "realm": "Kazzak",
-        "class": "Druid",
-        "spec": "Balance",
+        "spec": "Arcane",
         "reports": 2
       },
       {
-        "name": "Moirane",
-        "realm": "TwistingNether",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 3
+        "name": "Mergelos",
+        "realm": "Silvermoon",
+        "class": "Warlock",
+        "spec": "Destruction",
+        "reports": 2
       },
       {
-        "name": "Navvaldrag",
+        "name": "Mnolomafiozo",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 1
+        "reports": 2
+      },
+      {
+        "name": "Narisil",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 2
       },
       {
         "name": "Raziee",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 3
+        "reports": 2
       },
       {
-        "name": "Shalash",
-        "realm": "TwistingNether",
-        "class": "Mage",
-        "spec": "Frost",
-        "reports": 3
+        "name": "Shirako",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 2
       },
       {
         "name": "Sizor",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 3
+        "reports": 2
       },
       {
-        "name": "Soulsx",
-        "realm": "TwistingNether",
-        "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 3
-      },
-      {
-        "name": "Trinkyxcute",
+        "name": "Trampoukoss",
         "realm": "TwistingNether",
         "class": "Warrior",
-        "spec": "Fury",
-        "reports": 3
+        "spec": "Arms",
+        "reports": 2
       },
       {
         "name": "Yureih",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 2
       }
     ]
   },
@@ -209,15 +209,17 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.170Z"
+    "lastUpdated": "2026-08-23T14:12:58.520Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:58:06.989Z",
+  "rosterUpdatedAt": "2026-08-23T14:13:42.194Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 3,
-    "verifiedGuildMembers": 896
+    "reportsChecked": 2,
+    "verifiedGuildMembers": 855,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "Disobedient"
   }
 }

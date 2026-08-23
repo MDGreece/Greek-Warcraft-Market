@@ -38,34 +38,63 @@
       "GR": "16"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "5/8 N",
+      "WR": "8943",
       "GR": "-"
     }
   },
   "roster": {
-    "tanks": [],
-    "healers": [
+    "tanks": [
       {
-        "name": "Rejuvas",
+        "name": "Barkayal",
         "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Restoration",
-        "reports": 1
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 2
       },
       {
-        "name": "Sellian",
-        "realm": "Ravencrest",
+        "name": "Deathrip",
+        "realm": "ArgentDawn",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 2
+      },
+      {
+        "name": "Zell",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 2
+      }
+    ],
+    "healers": [
+      {
+        "name": "Jumaru",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 2
+      },
+      {
+        "name": "Sellynna",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Totemkin",
+        "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Tyxh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 1
+        "reports": 2
       }
     ],
     "dps": [
@@ -74,63 +103,70 @@
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 1
+        "reports": 2
+      },
+      {
+        "name": "Iirene",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 2
       },
       {
         "name": "Kaiken",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Lethalwalker",
         "realm": "Draenor",
         "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 1
+        "spec": "Destruction",
+        "reports": 2
       },
       {
         "name": "Marlonbrando",
         "realm": "Hellfire",
         "class": "Hunter",
-        "spec": "Survival",
-        "reports": 1
+        "spec": "BeastMastery",
+        "reports": 2
+      },
+      {
+        "name": "Naidala",
+        "realm": "Karazhan",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 2
+      },
+      {
+        "name": "Necral",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Affliction",
+        "reports": 2
       },
       {
         "name": "Nemodr",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 1
+        "reports": 2
       },
       {
-        "name": "Stagram",
-        "realm": "TwistingNether",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 1
+        "name": "Nimprethil",
+        "realm": "BronzeDragonflight",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 2
       },
       {
         "name": "Trabakoulas",
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 1
-      },
-      {
-        "name": "Wolfel",
-        "realm": "Ragnaros",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 1
-      },
-      {
-        "name": "Zell",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 1
+        "reports": 2
       }
     ]
   },
@@ -138,15 +174,17 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.174Z"
+    "lastUpdated": "2026-08-23T14:12:58.524Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:58:08.500Z",
+  "rosterUpdatedAt": "2026-08-23T14:13:43.777Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 1,
-    "verifiedGuildMembers": 354
+    "reportsChecked": 2,
+    "verifiedGuildMembers": 353,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "Dungeon Meta"
   }
 }

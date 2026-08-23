@@ -38,13 +38,20 @@
       "GR": "9"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "7/8 N",
+      "WR": "4570",
       "GR": "-"
     }
   },
   "roster": {
     "tanks": [
+      {
+        "name": "Noodlegrip",
+        "realm": "Ravencrest",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 1
+      },
       {
         "name": "Ñorélia",
         "realm": "Draenor",
@@ -57,30 +64,30 @@
         "realm": "Stormscale",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 16
+        "reports": 15
       }
     ],
     "healers": [
+      {
+        "name": "Darthveigar",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 1
+      },
       {
         "name": "Drakoulinia",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Epifanios",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Discipline",
-        "reports": 8
-      },
-      {
-        "name": "Fenrix",
-        "realm": "TarrenMill",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "reports": 16
+        "reports": 9
       },
       {
         "name": "Filtráki",
@@ -101,7 +108,7 @@
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 16
+        "reports": 14
       }
     ],
     "dps": [
@@ -124,14 +131,14 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Draksie",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 16
+        "reports": 14
       },
       {
         "name": "Falgidron",
@@ -141,39 +148,46 @@
         "reports": 10
       },
       {
+        "name": "Fenrix",
+        "realm": "TarrenMill",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 15
+      },
+      {
         "name": "Gothdor",
         "realm": "TarrenMill",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 15
+        "reports": 14
       },
       {
         "name": "Iridavoke",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 3
+        "reports": 1
       },
       {
         "name": "Kardasi",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 3
+        "reports": 4
       },
       {
         "name": "Mendorxd",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Metabatt",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 12
+        "reports": 11
       },
       {
         "name": "Mokinha",
@@ -183,25 +197,39 @@
         "reports": 7
       },
       {
+        "name": "Recrucified",
+        "realm": "Ragnaros",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
         "name": "Salmold",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 15
+        "reports": 14
+      },
+      {
+        "name": "Servium",
+        "realm": "Thrall",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "reports": 1
+      },
+      {
+        "name": "Shockìra",
+        "realm": "Kazzak",
+        "class": "Shaman",
+        "spec": "Enhancement",
+        "reports": 1
       },
       {
         "name": "Sofron",
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 15
-      },
-      {
-        "name": "Vanilegg",
-        "realm": "Silvermoon",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 2
+        "reports": 14
       }
     ]
   },
@@ -209,15 +237,17 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.172Z"
+    "lastUpdated": "2026-08-23T14:12:58.522Z"
   },
-  "rosterUpdatedAt": "2026-08-14T21:58:20.648Z",
+  "rosterUpdatedAt": "2026-08-23T14:13:59.572Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 16,
-    "verifiedGuildMembers": 547
+    "reportsChecked": 15,
+    "verifiedGuildMembers": 540,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "SOE Reborn"
   }
 }

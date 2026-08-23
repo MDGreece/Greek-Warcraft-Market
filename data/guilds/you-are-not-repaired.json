@@ -38,29 +38,167 @@
       "GR": "-"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "6/8 N",
+      "WR": "6119",
       "GR": "-"
     }
   },
   "roster": {
-    "tanks": [],
-    "healers": [],
-    "dps": []
+    "tanks": [
+      {
+        "name": "Manouvras",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 1
+      },
+      {
+        "name": "Vitsa",
+        "realm": "DefiasBrotherhood",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 1
+      }
+    ],
+    "healers": [
+      {
+        "name": "Lignadiss",
+        "realm": "Stormscale",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
+      },
+      {
+        "name": "Mpelantona",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Discipline",
+        "reports": 1
+      },
+      {
+        "name": "Nuantan",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
+      },
+      {
+        "name": "Sindonnir",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
+      }
+    ],
+    "dps": [
+      {
+        "name": "Androctonus",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 1
+      },
+      {
+        "name": "Angeldeath",
+        "realm": "TarrenMill",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 1
+      },
+      {
+        "name": "Apollonus",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
+      },
+      {
+        "name": "Coldviper",
+        "realm": "TwistingNether",
+        "class": "Rogue",
+        "spec": "Assassination",
+        "reports": 1
+      },
+      {
+        "name": "Daemondayz",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Draizer",
+        "realm": "Outland",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 1
+      },
+      {
+        "name": "Haterade",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 1
+      },
+      {
+        "name": "Hellrodan",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 1
+      },
+      {
+        "name": "Kaserisdh",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 1
+      },
+      {
+        "name": "Øurihill",
+        "realm": "Ravencrest",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 1
+      },
+      {
+        "name": "Thaldoc",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
+      },
+      {
+        "name": "Thunderer",
+        "realm": "Dragonblight",
+        "class": "Shaman",
+        "spec": "Enhancement",
+        "reports": 1
+      },
+      {
+        "name": "Tokalopaidi",
+        "realm": "TarrenMill",
+        "class": "Evoker",
+        "spec": "Devastation",
+        "reports": 1
+      }
+    ]
   },
   "raiderIO": {
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/You%20Are%20Not%20Repaired",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-14T21:57:38.175Z"
+    "lastUpdated": "2026-08-23T14:12:58.524Z"
   },
-  "rosterUpdatedAt": "2026-08-02T11:37:50.606Z",
+  "rosterUpdatedAt": "2026-08-23T14:14:04.084Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 597404,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
-    "verifiedGuildMembers": 650
+    "reportsChecked": 1,
+    "verifiedGuildMembers": 716,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "You Are Not Repaired"
   }
 }
