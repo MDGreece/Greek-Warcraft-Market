@@ -1,0 +1,35 @@
+name: Update Twitch Streams
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Update Greek WoW streams
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: node scripts/update-twitch-streams.js
+
+      - name: Commit updated stream data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Greek Twitch streams
+          file_pattern: data/twitch-streams.json
