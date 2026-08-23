@@ -2307,3 +2307,239 @@ a.mythic-plus-score:hover {
   }
 
 }
+/* =========================================
+   TWITCH STREAMS
+   ========================================= */
+
+.streams-page {
+  width: min(1400px, 94%);
+  margin: 0 auto;
+  padding: 32px 0 60px;
+}
+
+.streams-hero {
+  margin-bottom: 28px;
+}
+
+.streams-hero h1 {
+  margin: 6px 0 10px;
+}
+
+.stream-player-section {
+  margin-bottom: 32px;
+
+  padding: 16px;
+
+  background: #08111f;
+
+  border: 1px solid rgba(245, 185, 66, 0.4);
+  border-radius: 12px;
+}
+
+.stream-player {
+  overflow: hidden;
+
+  border-radius: 9px;
+
+  background: #000;
+}
+
+.stream-player iframe {
+  display: block;
+}
+
+.stream-player-info {
+  padding: 14px 4px 2px;
+}
+
+.stream-player-info h2 {
+  margin: 0 0 6px;
+}
+
+.stream-player-info p {
+  margin: 0;
+  color: #a9b4c7;
+}
+
+
+/* GRID */
+
+.streams-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(290px, 1fr)
+    );
+
+  gap: 20px;
+}
+
+
+/* CARD */
+
+.stream-card {
+  overflow: hidden;
+
+  background: #0b1728;
+
+  border: 1px solid rgba(120, 150, 180, 0.3);
+  border-radius: 12px;
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.stream-card:hover {
+  transform: translateY(-3px);
+
+  border-color:
+    rgba(245, 185, 66, 0.65);
+}
+
+
+/* THUMBNAIL */
+
+.stream-thumbnail-wrapper {
+  position: relative;
+
+  aspect-ratio: 16 / 9;
+
+  overflow: hidden;
+
+  background: #050812;
+}
+
+.stream-thumbnail {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+.stream-live-badge {
+  position: absolute;
+
+  top: 10px;
+  left: 10px;
+
+  padding: 5px 8px;
+
+  border-radius: 5px;
+
+  background: rgba(140, 0, 0, 0.9);
+
+  color: white;
+
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.stream-viewers {
+  position: absolute;
+
+  right: 10px;
+  bottom: 10px;
+
+  padding: 5px 8px;
+
+  border-radius: 5px;
+
+  background: rgba(0, 0, 0, 0.8);
+
+  color: white;
+
+  font-size: 0.76rem;
+}
+
+
+/* DETAILS */
+
+.stream-card-content {
+  padding: 15px;
+}
+
+.stream-card-content h2 {
+  margin: 0 0 8px;
+
+  font-size: 1.05rem;
+}
+
+.stream-title {
+  min-height: 42px;
+
+  margin: 0 0 14px;
+
+  color: #a9b4c7;
+
+  line-height: 1.4;
+}
+
+
+/* BUTTONS */
+
+.stream-actions {
+  display: flex;
+  gap: 9px;
+}
+
+.stream-watch-btn,
+.stream-twitch-btn {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 12px;
+
+  border-radius: 6px;
+
+  font-weight: 700;
+  font-size: 0.82rem;
+
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.stream-watch-btn {
+  border: 1px solid #f5b942;
+
+  background: #f5b942;
+
+  color: #08111f;
+}
+
+.stream-twitch-btn {
+  border: 1px solid #9146ff;
+
+  background: rgba(145, 70, 255, 0.12);
+
+  color: #b98cff;
+}
+
+
+/* EMPTY */
+
+.streams-empty {
+  grid-column: 1 / -1;
+
+  padding: 40px;
+
+  text-align: center;
+
+  color: #a9b4c7;
+}
+
+
+@media (max-width: 700px) {
+
+  .stream-player iframe {
+    height: 320px;
+  }
+
+}
