@@ -9,7 +9,7 @@ const CLIENT_SECRET =
 /*
  * Disobedient Group III
  */
-const GUILD_ID = 730932;
+const GUILD_ID = 555159;
 
 async function getToken() {
   if (!CLIENT_ID || !CLIENT_SECRET) {
