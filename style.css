@@ -2110,3 +2110,200 @@ a.mythic-plus-score:hover {
   color: #ef5350;
   border-bottom: 2px solid #ef5350;
 }
+/* =========================================================
+   CHARACTERS + FREE AGENTS SEARCH BAR
+   ========================================================= */
+
+.characters-hero-main {
+  flex: 1;
+  min-width: 0;
+}
+
+
+/* Search container */
+
+.characters-search {
+  position: relative;
+
+  width: 100%;
+  max-width: 680px;
+
+  margin-top: 22px;
+}
+
+
+/* Search icon */
+
+.characters-search-icon {
+  position: absolute;
+
+  left: 17px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1rem;
+
+  pointer-events: none;
+
+  opacity: 0.8;
+}
+
+
+/* Search input */
+
+.characters-search input {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding:
+    14px
+    18px
+    14px
+    48px;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  color: #f5f7fb;
+
+  background:
+    rgba(10, 20, 32, 0.88);
+
+  border:
+    1px solid
+    rgba(120, 150, 180, 0.35);
+
+  border-radius: 9px;
+
+  outline: none;
+
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
+}
+
+
+/* Placeholder */
+
+.characters-search input::placeholder {
+  color: #77869a;
+  opacity: 1;
+}
+
+
+/* Hover */
+
+.characters-search input:hover {
+  border-color:
+    rgba(85, 166, 255, 0.6);
+
+  background:
+    rgba(12, 24, 39, 0.92);
+}
+
+
+/* Focus */
+
+.characters-search input:focus {
+  border-color: #55a6ff;
+
+  background:
+    rgba(12, 25, 42, 0.98);
+
+  box-shadow:
+    0 0 0 3px
+    rgba(85, 166, 255, 0.12);
+}
+
+
+/* =========================================================
+   HERO LAYOUT
+   Keeps counter card aligned nicely with the text/search
+   ========================================================= */
+
+.characters-hero {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.characters-count-card {
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   FILTER AREA
+   ========================================================= */
+
+.characters-controls {
+  margin-top: 24px;
+}
+
+
+/* =========================================================
+   TABLE SPACING
+   ========================================================= */
+
+.characters-table-card {
+  margin-top: 20px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .characters-hero {
+    flex-direction: column;
+  }
+
+  .characters-hero-main {
+    width: 100%;
+  }
+
+  .characters-search {
+    max-width: 100%;
+  }
+
+  .characters-count-card {
+    align-self: flex-start;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .characters-search {
+    margin-top: 18px;
+  }
+
+  .characters-search input {
+    padding:
+      13px
+      14px
+      13px
+      44px;
+
+    font-size: 0.9rem;
+  }
+
+  .characters-search-icon {
+    left: 15px;
+  }
+
+}
