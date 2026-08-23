@@ -700,17 +700,41 @@ function createGuildMemberMatcher(
       realm
     );
 
+    /*
+     * First try exact character + realm.
+     */
     if (membersByFullKey.has(fullKey)) {
       return true;
     }
 
-  /*
+    /*
+     * Fallback to name-only matching when
+     * the character name occurs exactly once
+     * in the roster.
+     *
+     * This helps when Warcraft Logs and
+     * Raider.IO format realm names differently.
+     */
+    const normalizedName =
+      normalize(name);
+
+    const matchingMembers =
+      membersByName.get(normalizedName);
+
+    return (
+      matchingMembers?.size === 1
+    );
+  };
+}
+
+
+/*
  * Require a player to pass EVERY supplied
  * membership matcher.
  *
- * For Group II / III this means:
+ * Group II / III:
  *
- * specific WCL team member
+ * WCL team member
  * AND
  * Raider.IO Disobedient member
  */
@@ -731,15 +755,13 @@ function combineMemberMatchers(
   };
 }
 
+
 /*
- * Start with one roster and remove characters
- * belonging to any of the excluded rosters.
+ * Main Disobedient:
  *
- * For main Disobedient:
- *
- * main WCL member
- * AND NOT Group II member
- * AND NOT Group III member
+ * Main WCL member
+ * AND NOT Group II
+ * AND NOT Group III
  */
 function excludeMemberMatchers(
   includeMatcher,
@@ -766,69 +788,7 @@ function excludeMemberMatchers(
         )
     );
   };
-}  
-  
-    const normalizedName =
-      normalize(name);
-
-    const matchingMembers =
-      membersByName.get(normalizedName);
-
-    return (
-      matchingMembers?.size === 1
-    );
-  };
 }
-
-/*
- * Find the guild members who participated in
- * encounters in one report.
- *
- * A character is counted only once per report,
- * regardless of how many pulls they joined.
- */
-function combineMemberMatchers(
-  ...matchers
-) {
-  return function combinedMatcher(
-    name,
-    realm
-  ) {
-    return matchers.every(
-      matcher =>
-        matcher(
-          name,
-          realm
-        )
-    );
-  };
-}
-
-function excludeMemberMatchers(
-  includeMatcher,
-  ...excludeMatchers
-) {
-  return function filteredMatcher(
-    name,
-    realm
-  ) {
-    if (
-      !includeMatcher(
-        name,
-        realm
-      )
-    ) {
-      return false;
-    }
-
-    return !excludeMatchers.some(
-      matcher =>
-        matcher(
-          name,
-          realm
-        )
-    );
-  };
 }
 function collectReportPlayers(
   report,
