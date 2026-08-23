@@ -7,7 +7,7 @@ const CLIENT_SECRET =
   process.env.WARCRAFTLOGS_CLIENT_SECRET;
 
 /*
- * Disobedient Group III
+ * Parent Disobedient guild
  */
 const GUILD_ID = 555159;
 
@@ -44,13 +44,23 @@ async function getToken() {
     );
 
   if (!response.ok) {
+    const errorText =
+      await response.text();
+
     throw new Error(
-      `Token request failed: ${response.status}`
+      "Token request failed: " +
+      `${response.status} ${errorText}`
     );
   }
 
   const data =
     await response.json();
+
+  if (!data.access_token) {
+    throw new Error(
+      "Warcraft Logs did not return an access token"
+    );
+  }
 
   return data.access_token;
 }
@@ -83,10 +93,20 @@ async function queryWarcraftLogs(
       }
     );
 
+  if (!response.ok) {
+    const errorText =
+      await response.text();
+
+    throw new Error(
+      "Warcraft Logs API request failed: " +
+      `${response.status} ${errorText}`
+    );
+  }
+
   const result =
     await response.json();
 
-  if (result.errors) {
+  if (result.errors?.length) {
     console.error(
       JSON.stringify(
         result.errors,
@@ -109,16 +129,19 @@ async function run() {
     await getToken();
 
   /*
-   * First test:
+   * Inspect the parent Disobedient guild.
    *
-   * Ask Warcraft Logs for the Group III
-   * attendance table.
+   * We want to see:
    *
-   * PlayerAttendance officially exposes:
+   * - guild tags / raid teams
+   * - attendance reports
+   * - report codes
+   * - players in each attendance entry
    *
-   * name
-   * type
-   * presence
+   * The main goal is to determine whether
+   * Group II and Group III can be identified
+   * through tags while untagged attendance
+   * represents Group I.
    */
   const query = `
     query InspectAttendance(
@@ -181,7 +204,7 @@ async function run() {
 
   console.log("");
   console.log(
-    "=== GROUP III ATTENDANCE INSPECTION ==="
+    "=== DISOBEDIENT PARENT ATTENDANCE INSPECTION ==="
   );
 
   console.log(
@@ -193,7 +216,7 @@ async function run() {
   );
 
   fs.writeFileSync(
-    "data/wcl-group3-attendance.json",
+    "data/wcl-disobedient-attendance.json",
     JSON.stringify(
       data,
       null,
@@ -203,7 +226,7 @@ async function run() {
 
   console.log("");
   console.log(
-    "Saved data/wcl-group3-attendance.json"
+    "Saved data/wcl-disobedient-attendance.json"
   );
 }
 
