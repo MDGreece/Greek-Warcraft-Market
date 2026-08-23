@@ -945,14 +945,8 @@ async function updateGuildRoster(
   );
 
   /*
-   * getGuildId() now automatically uses
-   * settings.guildId when one is configured.
-   *
-   * Group II  -> 705280
-   * Group III -> 730932
-   *
-   * Normal guilds still fall back to
-   * name / realm / region lookup.
+   * Use configured WCL ID when present.
+   * Otherwise resolve normally.
    */
   const guildId =
     await getGuildId(
@@ -960,56 +954,218 @@ async function updateGuildRoster(
       settings
     );
 
+  let isGuildMember;
+  let verificationProvider = "";
+  let verificationGuild = "";
+  let verifiedMemberCount = 0;
+
   /*
    * ========================================
-   * MEMBERSHIP VERIFICATION
+   * DISOBEDIENT GROUP II / III
    * ========================================
    *
-   * Normal guild:
-   *   Warcraft Logs guild members
+   * Player must:
    *
-   * Special raid group:
-   *   Raider.IO parent guild members
-   *
-   * This allows Group II / III reports to
-   * stay separated while still requiring
-   * every character to belong to Disobedient.
+   * 1. be registered in the specific WCL team
+   * 2. belong to Disobedient according to Raider.IO
+   * 3. actually appear in that team's reports
    */
-  let guildMemberData;
-  let verificationProvider;
-  let verificationGuild = "";
-
   if (
-    profile.rosterVerification?.provider ===
-    "raiderio"
+    profile.id === "disobedient-group-ii" ||
+    profile.id === "disobedient-group-iii"
   ) {
+    console.log(
+      `Using strict Disobedient raid-team verification.`
+    );
+
+    /*
+     * Specific WCL raid-team roster.
+     */
+    const teamMemberData =
+      await getGuildMembers(
+        token,
+        guildId
+      );
+
+    const teamMemberMatcher =
+      createGuildMemberMatcher(
+        teamMemberData
+      );
+
+    console.log(
+      `WCL team roster contains ` +
+      `${teamMemberData.membersByFullKey.size} members.`
+    );
+
+    /*
+     * Parent guild membership from Raider.IO.
+     */
     const verification =
       profile.rosterVerification;
 
-    console.log(
-      `Using Raider.IO membership verification: ` +
-      `${verification.guildName}`
-    );
+    if (
+      !verification ||
+      verification.provider !== "raiderio"
+    ) {
+      throw new Error(
+        `${profile.name} requires Raider.IO rosterVerification`
+      );
+    }
 
-    guildMemberData =
+    const raiderMemberData =
       await getRaiderIOMembers(
         verification
       );
 
+    const raiderMemberMatcher =
+      createGuildMemberMatcher(
+        raiderMemberData
+      );
+
+    console.log(
+      `Raider.IO Disobedient roster contains ` +
+      `${raiderMemberData.membersByFullKey.size} members.`
+    );
+
+    /*
+     * Must pass BOTH checks.
+     */
+    isGuildMember =
+      combineMemberMatchers(
+        teamMemberMatcher,
+        raiderMemberMatcher
+      );
+
+    verifiedMemberCount =
+      teamMemberData.membersByFullKey.size;
+
     verificationProvider =
-      "Raider.IO";
+      "Warcraft Logs team + Raider.IO guild";
 
     verificationGuild =
-      verification.guildName || "";
-  } else {
+      verification.guildName || "Disobedient";
+  }
+
+  /*
+   * ========================================
+   * MAIN DISOBEDIENT GROUP
+   * ========================================
+   *
+   * Main Disobedient roster:
+   *
+   * - must belong to the main WCL guild
+   * - must NOT be registered in Group II
+   * - must NOT be registered in Group III
+   */
+  else if (
+    profile.id === "disobedient"
+  ) {
+    console.log(
+      `Using exclusive main Disobedient roster verification.`
+    );
+
+    const mainMemberData =
+      await getGuildMembers(
+        token,
+        DISOBEDIENT_MAIN_ID
+      );
+
+    const mainMatcher =
+      createGuildMemberMatcher(
+        mainMemberData
+      );
+
+    /*
+     * Group II membership.
+     */
+    const groupTwoMemberData =
+      await getGuildMembers(
+        token,
+        DISOBEDIENT_TEAM_IDS[
+          "disobedient-group-ii"
+        ]
+      );
+
+    const groupTwoMatcher =
+      createGuildMemberMatcher(
+        groupTwoMemberData
+      );
+
+    /*
+     * Group III membership.
+     */
+    const groupThreeMemberData =
+      await getGuildMembers(
+        token,
+        DISOBEDIENT_TEAM_IDS[
+          "disobedient-group-iii"
+        ]
+      );
+
+    const groupThreeMatcher =
+      createGuildMemberMatcher(
+        groupThreeMemberData
+      );
+
+    /*
+     * Main roster, minus Group II and III.
+     */
+    isGuildMember =
+      excludeMemberMatchers(
+        mainMatcher,
+        groupTwoMatcher,
+        groupThreeMatcher
+      );
+
+    verifiedMemberCount =
+      mainMemberData.membersByFullKey.size;
+
+    verificationProvider =
+      "Warcraft Logs main guild excluding Group II/III";
+
+    verificationGuild =
+      "Disobedient";
+
+    console.log(
+      `Main WCL roster: ` +
+      `${mainMemberData.membersByFullKey.size}`
+    );
+
+    console.log(
+      `Group II WCL roster: ` +
+      `${groupTwoMemberData.membersByFullKey.size}`
+    );
+
+    console.log(
+      `Group III WCL roster: ` +
+      `${groupThreeMemberData.membersByFullKey.size}`
+    );
+  }
+
+  /*
+   * ========================================
+   * EVERY OTHER GUILD
+   * ========================================
+   *
+   * Keep your existing behaviour unchanged.
+   */
+  else {
     console.log(
       "Using Warcraft Logs guild-member verification."
     );
 
-    guildMemberData =
+    const guildMemberData =
       await getGuildMembers(
         token,
         guildId
+      );
+
+    verifiedMemberCount =
+      guildMemberData.membersByFullKey.size;
+
+    isGuildMember =
+      createGuildMemberMatcher(
+        guildMemberData
       );
 
     verificationProvider =
@@ -1019,39 +1175,14 @@ async function updateGuildRoster(
       settings.guildName || "";
   }
 
-  const verifiedMemberCount =
-    guildMemberData.membersByFullKey.size;
-
   console.log(
-    `Found ${verifiedMemberCount} verified guild members ` +
-    `using ${verificationProvider}.`
+    `Membership verification: ${verificationProvider}`
   );
 
   /*
-   * Safety:
-   * Never destroy an existing roster because
-   * the membership API unexpectedly returned 0.
-   */
-  if (verifiedMemberCount === 0) {
-    console.log(
-      "No verified guild members were returned. " +
-      "Existing roster was preserved."
-    );
-
-    return;
-  }
-
-  /*
    * ========================================
-   * WARCRAFT LOGS REPORTS
+   * REPORTS
    * ========================================
-   *
-   * These reports come from the WCL guild/group ID.
-   *
-   * Therefore:
-   *
-   * Group II  -> reports from 705280
-   * Group III -> reports from 730932
    */
   const reports =
     await getRecentReports(
@@ -1073,24 +1204,11 @@ async function updateGuildRoster(
     return;
   }
 
-  /*
-   * createGuildMemberMatcher() works with
-   * either Warcraft Logs or Raider.IO because
-   * both helpers return:
-   *
-   * membersByFullKey
-   * membersByName
-   */
-  const isGuildMember =
-    createGuildMemberMatcher(
-      guildMemberData
-    );
-
   const reportRosters = [];
 
   /*
    * ========================================
-   * PROCESS REPORTS
+   * PROCESS REPORT PARTICIPANTS
    * ========================================
    */
   for (const report of reports) {
@@ -1114,10 +1232,19 @@ async function updateGuildRoster(
     }
 
     /*
-     * collectReportPlayers() takes the people
-     * who actually participated in encounters
-     * and checks each one against the selected
-     * membership verification source.
+     * This now uses the appropriate matcher:
+     *
+     * Group II:
+     * WCL Group II AND Raider.IO Disobedient
+     *
+     * Group III:
+     * WCL Group III AND Raider.IO Disobedient
+     *
+     * Main:
+     * main WCL roster MINUS Group II/III
+     *
+     * Other guilds:
+     * original WCL guild roster
      */
     const players =
       collectReportPlayers(
@@ -1126,16 +1253,18 @@ async function updateGuildRoster(
       );
 
     console.log(
-      `${players.length} verified players found ` +
-      `in this report.`
+      `${players.length} qualifying players ` +
+      `found in this report.`
     );
 
-    reportRosters.push(players);
+    reportRosters.push(
+      players
+    );
   }
 
   /*
    * ========================================
-   * BUILD ACTIVE ROSTER
+   * BUILD ROSTER
    * ========================================
    */
   const roster =
@@ -1154,10 +1283,9 @@ async function updateGuildRoster(
   );
 
   /*
-   * Safety rule:
-   *
-   * Never erase an existing roster because
-   * of an empty or unexpected API response.
+   * Safety:
+   * never erase an existing roster because
+   * of an API problem or empty result.
    */
   if (totalPlayers === 0) {
     console.log(
@@ -1170,7 +1298,7 @@ async function updateGuildRoster(
 
   /*
    * ========================================
-   * SAVE ROSTER
+   * SAVE
    * ========================================
    */
   profile.roster =
@@ -1200,8 +1328,7 @@ async function updateGuildRoster(
     membershipVerification:
       verificationProvider,
 
-    verificationGuild:
-      verificationGuild
+    verificationGuild
   };
 
   writeJson(
