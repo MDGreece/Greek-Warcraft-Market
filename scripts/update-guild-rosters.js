@@ -787,6 +787,49 @@ function excludeMemberMatchers(
  * A character is counted only once per report,
  * regardless of how many pulls they joined.
  */
+function combineMemberMatchers(
+  ...matchers
+) {
+  return function combinedMatcher(
+    name,
+    realm
+  ) {
+    return matchers.every(
+      matcher =>
+        matcher(
+          name,
+          realm
+        )
+    );
+  };
+}
+
+function excludeMemberMatchers(
+  includeMatcher,
+  ...excludeMatchers
+) {
+  return function filteredMatcher(
+    name,
+    realm
+  ) {
+    if (
+      !includeMatcher(
+        name,
+        realm
+      )
+    ) {
+      return false;
+    }
+
+    return !excludeMatchers.some(
+      matcher =>
+        matcher(
+          name,
+          realm
+        )
+    );
+  };
+}
 function collectReportPlayers(
   report,
   isGuildMember
