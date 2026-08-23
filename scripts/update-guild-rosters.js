@@ -160,6 +160,33 @@ async function getGuildId(
   token,
   guildSettings
 ) {
+  /*
+   * If a numeric Warcraft Logs guild/group ID
+   * is explicitly configured, use it directly.
+   *
+   * This is important for raid groups such as:
+   *
+   * Disobedient Group II  -> 705280
+   * Disobedient Group III -> 730932
+   */
+  const configuredGuildId =
+    Number(guildSettings?.guildId);
+
+  if (
+    Number.isInteger(configuredGuildId) &&
+    configuredGuildId > 0
+  ) {
+    console.log(
+      `Using configured Warcraft Logs guild ID ${configuredGuildId}.`
+    );
+
+    return configuredGuildId;
+  }
+
+  /*
+   * Normal guilds continue using the existing
+   * name / realm / region lookup.
+   */
   const query = `
     query FindGuild(
       $name: String!,
@@ -197,7 +224,8 @@ async function getGuildId(
     }
   );
 
-  const guild = data.guildData?.guild;
+  const guild =
+    data.guildData?.guild;
 
   if (!guild) {
     throw new Error(
@@ -216,7 +244,11 @@ async function getGuildId(
 }
 
 /*
- * Download every verified current guild member.
+ * Download every verified current Warcraft Logs
+ * guild member.
+ *
+ * This remains the default verification source
+ * for normal guild profiles.
  */
 async function getGuildMembers(
   token,
@@ -251,26 +283,30 @@ async function getGuildMembers(
     }
   `;
 
-  const membersByFullKey = new Set();
-  const membersByName = new Map();
+  const membersByFullKey =
+    new Set();
+
+  const membersByName =
+    new Map();
 
   let page = 1;
   let hasMorePages = true;
 
   while (hasMorePages) {
     console.log(
-      `Reading guild-member page ${page}...`
+      `Reading Warcraft Logs guild-member page ${page}...`
     );
 
-    const data = await queryWarcraftLogs(
-      token,
-      query,
-      {
-        guildId,
-        page,
-        limit: MEMBERS_PER_PAGE
-      }
-    );
+    const data =
+      await queryWarcraftLogs(
+        token,
+        query,
+        {
+          guildId,
+          page,
+          limit: MEMBERS_PER_PAGE
+        }
+      );
 
     const members =
       data.guildData?.guild?.members;
@@ -282,7 +318,10 @@ async function getGuildMembers(
       );
     }
 
-    for (const character of members.data || []) {
+    for (
+      const character
+      of members.data || []
+    ) {
       if (!character?.name) {
         continue;
       }
@@ -292,17 +331,26 @@ async function getGuildMembers(
         character.server?.normalizedName ||
         "";
 
-      const fullKey = makePlayerKey(
-        character.name,
-        realm
+      const fullKey =
+        makePlayerKey(
+          character.name,
+          realm
+        );
+
+      membersByFullKey.add(
+        fullKey
       );
 
-      membersByFullKey.add(fullKey);
-
       const normalizedName =
-        normalize(character.name);
+        normalize(
+          character.name
+        );
 
-      if (!membersByName.has(normalizedName)) {
+      if (
+        !membersByName.has(
+          normalizedName
+        )
+      ) {
         membersByName.set(
           normalizedName,
           new Set()
@@ -326,6 +374,159 @@ async function getGuildMembers(
       );
     }
   }
+
+  return {
+    membersByFullKey,
+    membersByName
+  };
+}
+
+/*
+ * Download the current guild roster from Raider.IO.
+ *
+ * Used only when the guild profile contains:
+ *
+ * "rosterVerification": {
+ *   "provider": "raiderio",
+ *   "guildName": "...",
+ *   "realm": "...",
+ *   "region": "..."
+ * }
+ *
+ * Example:
+ *
+ * Group II / III pull their raid participants from
+ * their own Warcraft Logs group IDs, but membership
+ * is verified against the parent Disobedient guild.
+ */
+async function getRaiderIOMembers(
+  verificationSettings
+) {
+  if (
+    !verificationSettings?.guildName ||
+    !verificationSettings?.realm ||
+    !verificationSettings?.region
+  ) {
+    throw new Error(
+      "Missing Raider.IO roster verification settings"
+    );
+  }
+
+  const params =
+    new URLSearchParams({
+      region:
+        verificationSettings.region,
+
+      realm:
+        verificationSettings.realm,
+
+      name:
+        verificationSettings.guildName,
+
+      fields:
+        "members"
+    });
+
+  const url =
+    "https://raider.io/api/v1/guilds/profile?" +
+    params.toString();
+
+  console.log(
+    `Reading Raider.IO guild members for ` +
+    `${verificationSettings.guildName}...`
+  );
+
+  const response =
+    await fetch(
+      url,
+      {
+        headers: {
+          Accept:
+            "application/json"
+        }
+      }
+    );
+
+  if (!response.ok) {
+    const text =
+      await response.text();
+
+    throw new Error(
+      "Raider.IO guild-member request failed: " +
+      `${response.status} ${text}`
+    );
+  }
+
+  const data =
+    await response.json();
+
+  const members =
+    Array.isArray(data.members)
+      ? data.members
+      : [];
+
+  const membersByFullKey =
+    new Set();
+
+  const membersByName =
+    new Map();
+
+  for (const member of members) {
+    /*
+     * Raider.IO normally returns each entry with
+     * a nested character object.
+     *
+     * The fallback allows the function to tolerate
+     * slightly different member structures.
+     */
+    const character =
+      member?.character ||
+      member;
+
+    if (!character?.name) {
+      continue;
+    }
+
+    const realm =
+      character.realm ||
+      character.realm_slug ||
+      character.realmSlug ||
+      "";
+
+    const fullKey =
+      makePlayerKey(
+        character.name,
+        realm
+      );
+
+    membersByFullKey.add(
+      fullKey
+    );
+
+    const normalizedName =
+      normalize(
+        character.name
+      );
+
+    if (
+      !membersByName.has(
+        normalizedName
+      )
+    ) {
+      membersByName.set(
+        normalizedName,
+        new Set()
+      );
+    }
+
+    membersByName
+      .get(normalizedName)
+      .add(fullKey);
+  }
+
+  console.log(
+    `Raider.IO returned ${membersByFullKey.size} guild members.`
+  );
 
   return {
     membersByFullKey,
