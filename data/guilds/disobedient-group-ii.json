@@ -11,11 +11,21 @@
   "established": "2020 Group Date 2026",
   "weeklySchedule": "Δευτέρα - Τετάρτη",
   "RaidTimes": "21:30-00:30 Ελλάδας",
+
   "warcraftLogs": {
     "guildName": "Disobedient Group II",
     "realm": "twisting-nether",
+    "region": "eu",
+    "guildId": 705280
+  },
+
+  "rosterVerification": {
+    "provider": "raiderio",
+    "guildName": "Disobedient",
+    "realm": "twisting-nether",
     "region": "eu"
   },
+
   "tierRanks": {
     "NP": {
       "progress": "N/A",
@@ -38,6 +48,7 @@
       "GR": "6"
     }
   },
+
   "roster": {
     "tanks": [
       {
@@ -80,13 +91,17 @@
       }
     ]
   },
+
   "raiderIO": {
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
+    "guildName": "Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
+
   "rosterUpdatedAt": "2026-08-14T21:57:59.848Z",
+
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
