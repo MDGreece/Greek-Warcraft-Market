@@ -17,12 +17,16 @@ const CLASS_COLORS = {
   Warrior: "#C69B6D"
 };
 
-function getClassColor(className) {
-  const normalizedClass = String(className || "")
+function normalizeClassName(className) {
+  return String(className || "")
     .trim()
     .replace(/\s+/g, "");
+}
 
-  return CLASS_COLORS[normalizedClass] || "#FFFFFF";
+function getClassColor(className) {
+  return CLASS_COLORS[
+    normalizeClassName(className)
+  ] || "#FFFFFF";
 }
 
 function getProgressClass(progress) {
@@ -31,7 +35,10 @@ function getProgressClass(progress) {
     .replace(/\s+/g, "")
     .toUpperCase();
 
-  if (!normalizedProgress || normalizedProgress === "-") {
+  if (
+    !normalizedProgress ||
+    normalizedProgress === "-"
+  ) {
     return "";
   }
 
@@ -58,102 +65,281 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
+function normalizeText(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "");
+}
+
+function normalizeRealm(value) {
+  return normalizeText(value)
+    .replace(/-/g, "");
+}
+
+function createCharacterKey(
+  name,
+  realm
+) {
+  return (
+    normalizeText(name) +
+    "|" +
+    normalizeRealm(realm)
+  );
+}
+
+function createExternalLink(
+  url,
+  label,
+  className
+) {
+  if (!url) {
+    return "";
+  }
+
+  return `
+    <a
+      class="${className}"
+      href="${escapeHtml(url)}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ${escapeHtml(label)}
+    </a>
+  `;
+}
+
 function normalizeRosterPlayer(player) {
   if (typeof player === "string") {
     return {
       name: player,
       realm: "",
       class: "",
-      spec: "",
-      reports: null
+      spec: ""
     };
   }
 
   return {
-    name: player?.name || "Unknown Player",
-    realm: player?.realm || "",
-    class: player?.class || "",
-    spec: player?.spec || "",
-    reports:
-      typeof player?.reports === "number"
-        ? player.reports
-        : null
+    name:
+      player?.name ||
+      "Unknown Player",
+
+    realm:
+      player?.realm ||
+      "",
+
+    class:
+      player?.class ||
+      "",
+
+    spec:
+      player?.spec ||
+      ""
   };
 }
 
-function createRosterPlayerElement(player) {
-  const normalizedPlayer =
+function createCharacterLookup(characters) {
+  const lookup = new Map();
+
+  for (const character of characters) {
+    const key =
+      createCharacterKey(
+        character.name,
+        character.realm
+      );
+
+    lookup.set(
+      key,
+      character
+    );
+  }
+
+  return lookup;
+}
+
+function findCharacter(
+  rosterPlayer,
+  characterLookup,
+  characters
+) {
+  const exactKey =
+    createCharacterKey(
+      rosterPlayer.name,
+      rosterPlayer.realm
+    );
+
+  const exactMatch =
+    characterLookup.get(exactKey);
+
+  if (exactMatch) {
+    return exactMatch;
+  }
+
+  /*
+   * Fallback:
+   * try unique name match if realm formatting differs.
+   */
+  const normalizedName =
+    normalizeText(
+      rosterPlayer.name
+    );
+
+  const matches =
+    characters.filter(
+      character =>
+        normalizeText(character.name) ===
+        normalizedName
+    );
+
+  if (matches.length === 1) {
+    return matches[0];
+  }
+
+  return null;
+}
+
+function createRosterPlayerElement(
+  player,
+  characterLookup,
+  characters
+) {
+  const rosterPlayer =
     normalizeRosterPlayer(player);
+
+  const character =
+    findCharacter(
+      rosterPlayer,
+      characterLookup,
+      characters
+    );
+
+  /*
+   * Prefer characters.json data.
+   * Fall back to guild roster JSON.
+   */
+  const name =
+    character?.name ||
+    rosterPlayer.name;
+
+  const className =
+    character?.class ||
+    rosterPlayer.class;
+
+  const spec =
+    character?.spec ||
+    rosterPlayer.spec;
+
+  const thumbnailUrl =
+    character?.thumbnailUrl ||
+    "";
+
+  const raiderIoUrl =
+    character?.raiderIoUrl ||
+    "";
+
+  const warcraftLogsUrl =
+    character?.warcraftLogsUrl ||
+    "";
+
+  const classColor =
+    getClassColor(
+      className
+    );
+
+  const raiderIoLink =
+    createExternalLink(
+      raiderIoUrl,
+      "Raider.IO",
+      "character-link character-link-raiderio"
+    );
+
+  const warcraftLogsLink =
+    createExternalLink(
+      warcraftLogsUrl,
+      "Warcraft Logs",
+      "character-link character-link-warcraftlogs"
+    );
+
+  const links =
+    [
+      raiderIoLink,
+      warcraftLogsLink
+    ]
+      .filter(Boolean)
+      .join("");
 
   const listItem =
     document.createElement("li");
 
-  listItem.className = "roster-player";
-
-  const classColor =
-    getClassColor(normalizedPlayer.class);
-
-  const details = [];
-
-  if (normalizedPlayer.spec) {
-    details.push(normalizedPlayer.spec);
-  }
-
-  if (normalizedPlayer.class) {
-    details.push(normalizedPlayer.class);
-  }
-
-  if (normalizedPlayer.realm) {
-    details.push(normalizedPlayer.realm);
-  }
-
-  const detailText =
-    details.join(" · ");
-
-  const reportText =
-    normalizedPlayer.reports !== null
-      ? `${normalizedPlayer.reports} report${
-          normalizedPlayer.reports === 1 ? "" : "s"
-        }`
-      : "";
+  listItem.className =
+    "guild-roster-character";
 
   listItem.innerHTML = `
-    <div class="roster-player-main">
-      <span
-        class="roster-player-name"
-        style="color: ${classColor};"
-      >
-        ${escapeHtml(normalizedPlayer.name)}
-      </span>
+    <div class="guild-roster-character-row">
 
-      ${
-        detailText
-          ? `
-            <span class="roster-player-details">
-              ${escapeHtml(detailText)}
-            </span>
-          `
-          : ""
-      }
+      <div class="character-name-cell">
+
+        ${
+          thumbnailUrl
+            ? `
+              <img
+                class="character-thumbnail"
+                src="${escapeHtml(thumbnailUrl)}"
+                alt="${escapeHtml(name)}"
+                loading="lazy"
+              >
+            `
+            : `
+              <div
+                class="character-thumbnail character-thumbnail-placeholder"
+              ></div>
+            `
+        }
+
+        <strong
+          class="character-name"
+          style="color: ${classColor};"
+        >
+          ${escapeHtml(name)}
+        </strong>
+
+      </div>
+
+      <div class="character-class-spec">
+
+        <span>
+          ${escapeHtml(spec || "-")}
+        </span>
+
+        <small>
+          ${escapeHtml(className || "-")}
+        </small>
+
+      </div>
+
+      <div class="character-links">
+        ${
+          links ||
+          `<span class="roster-no-links">-</span>`
+        }
+      </div>
+
     </div>
-
-    ${
-      reportText
-        ? `
-          <span class="roster-player-reports">
-            ${escapeHtml(reportText)}
-          </span>
-        `
-        : ""
-    }
   `;
 
   return listItem;
 }
 
-function renderRosterList(elementId, players) {
+function renderRosterList(
+  elementId,
+  players,
+  characterLookup,
+  characters
+) {
   const rosterList =
-    document.getElementById(elementId);
+    document.getElementById(
+      elementId
+    );
 
   if (!rosterList) {
     return;
@@ -168,43 +354,74 @@ function renderRosterList(elementId, players) {
     const emptyItem =
       document.createElement("li");
 
-    emptyItem.className = "roster-empty";
+    emptyItem.className =
+      "roster-empty";
+
     emptyItem.textContent =
       "No active players found";
 
-    rosterList.appendChild(emptyItem);
+    rosterList.appendChild(
+      emptyItem
+    );
+
     return;
   }
 
   players.forEach(player => {
     rosterList.appendChild(
-      createRosterPlayerElement(player)
+      createRosterPlayerElement(
+        player,
+        characterLookup,
+        characters
+      )
     );
   });
 }
 
-function renderRoster(roster) {
-  const safeRoster = roster || {};
+function renderRoster(
+  roster,
+  characters
+) {
+  const safeRoster =
+    roster || {};
+
+  const safeCharacters =
+    Array.isArray(characters)
+      ? characters
+      : [];
+
+  const characterLookup =
+    createCharacterLookup(
+      safeCharacters
+    );
 
   renderRosterList(
     "tankRoster",
-    safeRoster.tanks || []
+    safeRoster.tanks || [],
+    characterLookup,
+    safeCharacters
   );
 
   renderRosterList(
     "healerRoster",
-    safeRoster.healers || []
+    safeRoster.healers || [],
+    characterLookup,
+    safeCharacters
   );
 
   renderRosterList(
     "dpsRoster",
-    safeRoster.dps || []
+    safeRoster.dps || [],
+    characterLookup,
+    safeCharacters
   );
 }
 
 function showGuildNotFound() {
   const guildName =
-    document.getElementById("guildName");
+    document.getElementById(
+      "guildName"
+    );
 
   const breadcrumb =
     document.getElementById(
@@ -221,18 +438,27 @@ function showGuildNotFound() {
       "Guild Not Found";
   }
 
-  renderRoster({
-    tanks: [],
-    healers: [],
-    dps: []
-  });
+  renderRoster(
+    {
+      tanks: [],
+      healers: [],
+      dps: []
+    },
+    []
+  );
 }
 
 if (!guildId) {
+
   showGuildNotFound();
+
 } else {
+
   Promise.all([
-    fetch(`./data/guilds/${guildId}.json`)
+
+    fetch(
+      `./data/guilds/${guildId}.json?v=${Date.now()}`
+    )
       .then(response => {
         if (!response.ok) {
           throw new Error(
@@ -243,7 +469,9 @@ if (!guildId) {
         return response.json();
       }),
 
-    fetch("./data/raid-tiers.json")
+    fetch(
+      `./data/raid-tiers.json?v=${Date.now()}`
+    )
       .then(response => {
         if (!response.ok) {
           throw new Error(
@@ -252,147 +480,202 @@ if (!guildId) {
         }
 
         return response.json();
+      }),
+
+    /*
+     * Same character database used
+     * by the Characters page.
+     */
+    fetch(
+      `./data/characters/characters.json?v=${Date.now()}`
+    )
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(
+            "characters.json not found"
+          );
+        }
+
+        return response.json();
       })
+
   ])
-    .then(([guild, raidTiers]) => {
-      document.getElementById(
-        "guildName"
-      ).textContent = guild.name;
+    .then(
+      ([
+        guild,
+        raidTiers,
+        characters
+      ]) => {
 
-      document.getElementById(
-        "guildNameBreadcrumb"
-      ).textContent = guild.name;
-
-      document.getElementById(
-        "rank1Wins"
-      ).textContent =
-        guild.rank1Wins ?? 0;
-
-      document.getElementById(
-        "rank2Wins"
-      ).textContent =
-        guild.rank2Wins ?? 0;
-
-      document.getElementById(
-        "rank3Wins"
-      ).textContent =
-        guild.rank3Wins ?? 0;
-
-      document.getElementById(
-        "guildEstablished"
-      ).textContent =
-        guild.established ||
-        "Date placeholder";
-
-      document.getElementById(
-        "weeklySchedule"
-      ).textContent =
-        guild.weeklySchedule ||
-        "Days placeholder";
-
-      document.getElementById(
-        "RaidTimes"
-      ).textContent =
-        guild.RaidTimes ||
-        "Time placeholder";
-
-      const logoBox =
         document.getElementById(
-          "guildLogo"
-        );
+          "guildName"
+        ).textContent =
+          guild.name;
 
-      if (guild.logo && logoBox) {
-        logoBox.innerHTML = `
-          <img
-            src="${escapeHtml(guild.logo)}"
-            alt="${escapeHtml(guild.name)} logo"
-          >
-        `;
-      }
-
-      const expansionGrid =
         document.getElementById(
-          "expansionGrid"
-        );
+          "guildNameBreadcrumb"
+        ).textContent =
+          guild.name;
 
-      if (expansionGrid) {
-        expansionGrid.innerHTML = "";
+        document.getElementById(
+          "rank1Wins"
+        ).textContent =
+          guild.rank1Wins ?? 0;
 
-        raidTiers.forEach(expansion => {
-          const card =
-            document.createElement("div");
+        document.getElementById(
+          "rank2Wins"
+        ).textContent =
+          guild.rank2Wins ?? 0;
 
-          card.className =
-            "expansion-card";
+        document.getElementById(
+          "rank3Wins"
+        ).textContent =
+          guild.rank3Wins ?? 0;
 
-          let tierRows = "";
+        document.getElementById(
+          "guildEstablished"
+        ).textContent =
+          guild.established ||
+          "Date placeholder";
 
-          expansion.tiers.forEach(tier => {
-            const tierRank =
-              guild.tierRanks &&
-              guild.tierRanks[tier]
-                ? guild.tierRanks[tier]
-                : {
-                    progress: "-",
-                    WR: "-",
-                    GR: "-"
-                  };
+        document.getElementById(
+          "weeklySchedule"
+        ).textContent =
+          guild.weeklySchedule ||
+          "Days placeholder";
 
-            const progress =
-              tierRank.progress || "-";
+        document.getElementById(
+          "RaidTimes"
+        ).textContent =
+          guild.RaidTimes ||
+          "Time placeholder";
 
-            tierRows += `
-              <div class="raid-history-row">
-                <span class="raid-history-name">
-                  ${escapeHtml(tier)}
-                </span>
+        const logoBox =
+          document.getElementById(
+            "guildLogo"
+          );
 
-                <span
-                  class="raid-history-progress ${getProgressClass(progress)}"
-                >
-                  ${escapeHtml(progress)}
-                </span>
-
-                <span class="raid-history-rank">
-                  ${escapeHtml(tierRank.WR)}
-                </span>
-
-                <span class="raid-history-rank">
-                  ${escapeHtml(tierRank.GR)}
-                </span>
-              </div>
-            `;
-          });
-
-          card.innerHTML = `
-            <h3>
-              ${escapeHtml(expansion.title)}
-            </h3>
-
-            <div class="raid-history-table">
-              <div class="raid-history-header">
-                <span>Raid</span>
-                <span>Progress</span>
-                <span>WR</span>
-                <span>GR</span>
-              </div>
-
-              ${tierRows}
-            </div>
+        if (
+          guild.logo &&
+          logoBox
+        ) {
+          logoBox.innerHTML = `
+            <img
+              src="${escapeHtml(guild.logo)}"
+              alt="${escapeHtml(guild.name)} logo"
+            >
           `;
+        }
 
-          expansionGrid.appendChild(card);
-        });
+        const expansionGrid =
+          document.getElementById(
+            "expansionGrid"
+          );
+
+        if (expansionGrid) {
+          expansionGrid.innerHTML = "";
+
+          raidTiers.forEach(
+            expansion => {
+
+              const card =
+                document.createElement(
+                  "div"
+                );
+
+              card.className =
+                "expansion-card";
+
+              let tierRows = "";
+
+              expansion.tiers.forEach(
+                tier => {
+
+                  const tierRank =
+                    guild.tierRanks &&
+                    guild.tierRanks[tier]
+                      ? guild.tierRanks[tier]
+                      : {
+                          progress: "-",
+                          WR: "-",
+                          GR: "-"
+                        };
+
+                  const progress =
+                    tierRank.progress ||
+                    "-";
+
+                  tierRows += `
+                    <div class="raid-history-row">
+
+                      <span class="raid-history-name">
+                        ${escapeHtml(tier)}
+                      </span>
+
+                      <span
+                        class="raid-history-progress ${getProgressClass(progress)}"
+                      >
+                        ${escapeHtml(progress)}
+                      </span>
+
+                      <span class="raid-history-rank">
+                        ${escapeHtml(tierRank.WR)}
+                      </span>
+
+                      <span class="raid-history-rank">
+                        ${escapeHtml(tierRank.GR)}
+                      </span>
+
+                    </div>
+                  `;
+                }
+              );
+
+              card.innerHTML = `
+                <h3>
+                  ${escapeHtml(expansion.title)}
+                </h3>
+
+                <div class="raid-history-table">
+
+                  <div class="raid-history-header">
+                    <span>Raid</span>
+                    <span>Progress</span>
+                    <span>WR</span>
+                    <span>GR</span>
+                  </div>
+
+                  ${tierRows}
+
+                </div>
+              `;
+
+              expansionGrid.appendChild(
+                card
+              );
+            }
+          );
+        }
+
+        /*
+         * Roster now receives the same
+         * characters.json data used by
+         * the Characters page.
+         */
+        renderRoster(
+          guild.roster,
+          characters
+        );
       }
-
-      renderRoster(guild.roster);
-    })
+    )
     .catch(error => {
+
       console.error(
         "Could not load guild profile:",
         error
       );
 
       showGuildNotFound();
+
     });
 }
