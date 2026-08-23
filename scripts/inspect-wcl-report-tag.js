@@ -7,9 +7,10 @@ const CLIENT_SECRET =
   process.env.WARCRAFTLOGS_CLIENT_SECRET;
 
 /*
- * Parent Disobedient guild
+ * Use a report that you know belongs
+ * to Disobedient Group III.
  */
-const GUILD_ID = 555159;
+const REPORT_CODE = "RfDVH8rwyFWx6dG3";
 
 async function getToken() {
   if (!CLIENT_ID || !CLIENT_SECRET) {
@@ -29,15 +30,12 @@ async function getToken() {
       "https://www.warcraftlogs.com/oauth/token",
       {
         method: "POST",
-
         headers: {
           Authorization:
             `Basic ${credentials}`,
-
           "Content-Type":
             "application/x-www-form-urlencoded"
         },
-
         body:
           "grant_type=client_credentials"
       }
@@ -56,15 +54,8 @@ async function getToken() {
   const data =
     await response.json();
 
-  if (!data.access_token) {
-    throw new Error(
-      "Warcraft Logs did not return an access token"
-    );
-  }
-
   return data.access_token;
 }
-
 
 async function queryWarcraftLogs(
   token,
@@ -76,32 +67,18 @@ async function queryWarcraftLogs(
       "https://www.warcraftlogs.com/api/v2/client",
       {
         method: "POST",
-
         headers: {
           Authorization:
             `Bearer ${token}`,
-
           "Content-Type":
             "application/json"
         },
-
-        body:
-          JSON.stringify({
-            query,
-            variables
-          })
+        body: JSON.stringify({
+          query,
+          variables
+        })
       }
     );
-
-  if (!response.ok) {
-    const errorText =
-      await response.text();
-
-    throw new Error(
-      "Warcraft Logs API request failed: " +
-      `${response.status} ${errorText}`
-    );
-  }
 
   const result =
     await response.json();
@@ -123,69 +100,39 @@ async function queryWarcraftLogs(
   return result.data;
 }
 
-
 async function run() {
   const token =
     await getToken();
 
-  /*
-   * Inspect the parent Disobedient guild.
-   *
-   * We want to see:
-   *
-   * - guild tags / raid teams
-   * - attendance reports
-   * - report codes
-   * - players in each attendance entry
-   *
-   * The main goal is to determine whether
-   * Group II and Group III can be identified
-   * through tags while untagged attendance
-   * represents Group I.
-   */
   const query = `
-    query InspectAttendance(
-      $guildId: Int!
+    query InspectReport(
+      $code: String!
     ) {
-      guildData {
-        guild(id: $guildId) {
-          id
-          name
-          type
+      reportData {
+        report(code: $code) {
+          code
+          title
+          startTime
+          endTime
 
-          parentGuild {
+          zone {
             id
             name
           }
 
-          tags {
+          guild {
             id
             name
-          }
+            type
 
-          attendance(
-            limit: 25,
-            page: 1
-          ) {
-            current_page
-            last_page
-            has_more_pages
-            total
+            parentGuild {
+              id
+              name
+            }
 
-            data {
-              code
-              startTime
-
-              zone {
-                id
-                name
-              }
-
-              players {
-                name
-                type
-                presence
-              }
+            tags {
+              id
+              name
             }
           }
         }
@@ -198,13 +145,13 @@ async function run() {
       token,
       query,
       {
-        guildId: GUILD_ID
+        code: REPORT_CODE
       }
     );
 
   console.log("");
   console.log(
-    "=== DISOBEDIENT PARENT ATTENDANCE INSPECTION ==="
+    "=== REPORT TAG INSPECTION ==="
   );
 
   console.log(
@@ -216,7 +163,7 @@ async function run() {
   );
 
   fs.writeFileSync(
-    "data/wcl-disobedient-attendance.json",
+    "data/wcl-report-tag.json",
     JSON.stringify(
       data,
       null,
@@ -226,10 +173,9 @@ async function run() {
 
   console.log("");
   console.log(
-    "Saved data/wcl-disobedient-attendance.json"
+    "Saved data/wcl-report-tag.json"
   );
 }
-
 
 run().catch(error => {
   console.error("");
