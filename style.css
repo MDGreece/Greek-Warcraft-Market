@@ -1814,25 +1814,43 @@ a.mythic-plus-score:hover {
   }
 }
 /* =========================================
-   GUILD PROFILE ROSTER
-   Character-page style
+   GUILD ROSTER - POLISHED 3 COLUMN LAYOUT
    ========================================= */
+
+.guild-box {
+  margin-top: 30px;
+}
+
+.guild-box > h2 {
+  margin-bottom: 18px;
+  font-size: 1.6rem;
+}
 
 .roster-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
   align-items: start;
 }
 
 .roster-column {
   min-width: 0;
+  padding: 18px;
+
+  background: rgba(10, 20, 32, 0.72);
+
+  border: 1px solid rgba(120, 150, 180, 0.28);
+  border-radius: 12px;
 }
 
 .roster-column h3 {
-  margin-top: 0;
-  margin-bottom: 14px;
-  font-size: 1.15rem;
+  margin: 0 0 14px 0;
+  padding-bottom: 12px;
+
+  font-size: 1.2rem;
+  font-weight: 800;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .roster-column ul {
@@ -1841,81 +1859,124 @@ a.mythic-plus-score:hover {
   padding: 0;
 }
 
+
+/* =========================
+   PLAYER ROW
+   ========================= */
+
 .guild-roster-character {
   list-style: none;
-  margin: 0 0 10px 0;
+  margin: 0;
   padding: 0;
+}
+
+.guild-roster-character + .guild-roster-character {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .guild-roster-character-row {
   display: grid;
-  grid-template-columns: minmax(150px, 1.3fr) minmax(95px, 0.8fr);
-  gap: 12px 18px;
+
+  grid-template-columns:
+    minmax(150px, 1.4fr)
+    minmax(95px, 0.8fr)
+    auto;
+
   align-items: center;
 
-  padding: 12px;
+  gap: 14px;
 
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 8px;
-
-  background: rgba(255,255,255,0.025);
+  min-height: 72px;
+  padding: 12px 0;
 }
+
+
+/* =========================
+   ICON + NAME
+   ========================= */
 
 .guild-roster-character-row .character-name-cell {
   display: flex;
   align-items: center;
-  gap: 10px;
+
+  gap: 11px;
+
   min-width: 0;
 }
 
 .guild-roster-character-row .character-thumbnail {
-  width: 38px;
-  height: 38px;
-  min-width: 38px;
+  width: 46px;
+  height: 46px;
 
-  border-radius: 5px;
+  min-width: 46px;
 
   object-fit: cover;
 
-  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 50%;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.character-thumbnail-placeholder {
-  background: rgba(255,255,255,0.06);
+.guild-roster-character-row .character-thumbnail-placeholder {
+  width: 46px;
+  height: 46px;
+
+  min-width: 46px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .guild-roster-character-row .character-name {
-  font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  font-weight: 800;
 
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
+
+
+/* =========================
+   SPEC / CLASS
+   ========================= */
 
 .guild-roster-character-row .character-class-spec {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+
+  gap: 3px;
+
+  min-width: 0;
 }
 
 .guild-roster-character-row .character-class-spec span {
-  font-weight: 600;
-  color: #f5f7fb;
+  font-size: 0.96rem;
+  font-weight: 700;
+
+  color: #f4f7fb;
 }
 
 .guild-roster-character-row .character-class-spec small {
-  color: #a9b4c7;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
+
+  color: #9caabd;
 }
 
+
+/* =========================
+   LINKS
+   ========================= */
+
 .guild-roster-character-row .character-links {
-  grid-column: 1 / -1;
-
   display: flex;
-  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
 
-  padding-left: 48px;
+  gap: 7px;
+
+  white-space: nowrap;
 }
 
 .guild-roster-character-row .character-link {
@@ -1923,60 +1984,112 @@ a.mythic-plus-score:hover {
   align-items: center;
   justify-content: center;
 
+  min-height: 28px;
+
   padding: 5px 9px;
 
-  border-radius: 5px;
+  border-radius: 6px;
 
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 800;
 
   text-decoration: none;
 
   transition:
     transform 0.15s ease,
-    opacity 0.15s ease;
+    opacity 0.15s ease,
+    border-color 0.15s ease;
 }
 
 .guild-roster-character-row .character-link:hover {
   transform: translateY(-1px);
-  opacity: 0.9;
 }
 
 .guild-roster-character-row .character-link-raiderio {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  color: #62b7ff;
+
+  background: rgba(33, 132, 207, 0.12);
+
+  border: 1px solid rgba(66, 164, 235, 0.5);
 }
 
 .guild-roster-character-row .character-link-warcraftlogs {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  color: #ffb21a;
+
+  background: rgba(207, 139, 0, 0.12);
+
+  border: 1px solid rgba(207, 139, 0, 0.5);
+}
+
+.roster-no-links {
+  color: #738095;
 }
 
 .roster-empty {
-  padding: 14px;
-  color: #a9b4c7;
+  padding: 15px 0;
+
+  color: #8997aa;
+
   font-style: italic;
 }
 
-/* Tablet */
-@media (max-width: 1000px) {
-  .roster-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+
+/* =========================================
+   ROLE ACCENTS
+   ========================================= */
+
+.roster-column:nth-child(1) h3 {
+  color: #d9dfe8;
 }
 
-/* Mobile */
-@media (max-width: 700px) {
+.roster-column:nth-child(2) h3 {
+  color: #4ade80;
+}
+
+.roster-column:nth-child(3) h3 {
+  color: #f5b942;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 1200px) {
+
   .roster-grid {
     grid-template-columns: 1fr;
   }
 
   .guild-roster-character-row {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      minmax(180px, 1.3fr)
+      minmax(120px, 0.8fr)
+      auto;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  .guild-roster-character-row {
+    grid-template-columns:
+      minmax(0, 1fr)
+      auto;
+
+    gap: 8px 12px;
+  }
+
+  .guild-roster-character-row .character-class-spec {
+    grid-column: 1;
+    padding-left: 57px;
   }
 
   .guild-roster-character-row .character-links {
-    grid-column: auto;
-    padding-left: 48px;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+
+    flex-direction: column;
+    align-items: stretch;
   }
 }
