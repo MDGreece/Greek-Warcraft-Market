@@ -1,4 +1,4 @@
-name: Inspect WCL Parent Attendance
+name: Inspect WCL Report Tag
 
 on:
   workflow_dispatch:
@@ -16,14 +16,14 @@ jobs:
         with:
           node-version: 24
 
-      - name: Inspect Disobedient parent attendance
+      - name: Inspect report tag
         env:
           WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
           WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
-        run: node scripts/inspect-wcl-composition.js
+        run: node scripts/inspect-wcl-report-tag.js
 
       - name: Upload inspection result
         uses: actions/upload-artifact@v4
         with:
-          name: wcl-disobedient-attendance
-          path: data/wcl-disobedient-attendance.json
+          name: wcl-report-tag
+          path: data/wcl-report-tag.json
