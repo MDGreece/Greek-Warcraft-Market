@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
 
@@ -19,8 +20,12 @@
 <body>
 
 <header>
+
   <div class="top-header">
+
+    <!-- LOGO -->
     <div class="logo">
+
       <a href="./index.html">
         <img
           src="./assets/tmglogo.png"
@@ -29,12 +34,25 @@
       </a>
 
       <div class="logo-text">
-        <span class="logo-top">Greek</span>
-        <span class="logo-main">Warcraft</span>
-        <span class="logo-bottom">Market</span>
+        <span class="logo-top">
+          Greek
+        </span>
+
+        <span class="logo-main">
+          Warcraft
+        </span>
+
+        <span class="logo-bottom">
+          Market
+        </span>
       </div>
 
+    </div>
+
+
+    <!-- HEADER BUTTONS -->
     <div class="header-links">
+
       <a
         href="#"
         class="discord-btn"
@@ -57,10 +75,15 @@
       >
         🛡 MDG
       </a>
+
     </div>
+
   </div>
 
+
+  <!-- NAVIGATION -->
   <nav>
+
     <a
       href="index.html"
       class="active"
@@ -88,34 +111,65 @@
       🏆 MDG Teams
     </a>
 
-     <a href="m+.html">
+    <a href="m+.html">
       ⚔️ Mythic+ Rankings
     </a>
 
     <a href="news.html">
       📰 News
     </a>
+
   </nav>
 
+
+  <!-- BREAKING NEWS -->
   <div class="ticker">
+
     <div class="ticker-title">
       🔥 Breaking News
     </div>
 
     <div class="ticker-content">
-      <span>📰 Επιστροφή You are not Repaired!</span>
-      <span>📰 MDG Season 2: Έρχεται σύντομα!</span>
-      <span>📰 Συγχαρητήρια στους Death and Glory για ένα ακόμη Greek First!</span>
-      <span>📰 Συγχαρητήρια στο Disobedient Group 3 για το CE!</span>
-      <span>📰 Οι Disobedient G1 ψάχνουν για Druids, DKs, Rogues & Warlocks!</span>
-      <span>📰 Οι UNIQUE LEGACY ψάχνουν για Shaman DPS, Druid/Priest Healer!</span>
+
+      <span>
+        📰 Επιστροφή You are not Repaired!
+      </span>
+
+      <span>
+        📰 MDG Season 2: Έρχεται σύντομα!
+      </span>
+
+      <span>
+        📰 Συγχαρητήρια στους Death and Glory για ένα ακόμη Greek First!
+      </span>
+
+      <span>
+        📰 Συγχαρητήρια στο Disobedient Group 3 για το CE!
+      </span>
+
+      <span>
+        📰 Οι Disobedient G1 ψάχνουν για Druids, DKs, Rogues & Warlocks!
+      </span>
+
+      <span>
+        📰 Οι UNIQUE LEGACY ψάχνουν για Shaman DPS, Druid/Priest Healer!
+      </span>
+
     </div>
+
   </div>
+
 </header>
 
+
 <main>
+
+
+  <!-- HERO -->
   <section class="hero">
+
     <div class="hero-content">
+
       <h2>
         Βρες στοιχεία για Ελληνικά guilds, characters & Free Agents
       </h2>
@@ -125,6 +179,7 @@
       </p>
 
       <div class="hero-buttons">
+
         <a href="characters.html">
           🔍 Search Characters
         </a>
@@ -132,15 +187,24 @@
         <a href="guilds.html">
           🛡 Browse Guilds
         </a>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- STATS -->
   <section class="stats">
+
+
+    <!-- GUILDS -->
     <a
       href="guilds.html"
       class="stat-card"
     >
+
       <div
         id="guildCount"
         class="stat-number"
@@ -151,12 +215,16 @@
       <div class="stat-label">
         Guilds
       </div>
+
     </a>
 
+
+    <!-- CHARACTERS -->
     <a
       href="characters.html"
       class="stat-card"
     >
+
       <div
         id="characterCount"
         class="stat-number"
@@ -167,12 +235,16 @@
       <div class="stat-label">
         Characters
       </div>
+
     </a>
 
+
+    <!-- FREE AGENTS -->
     <a
       href="free-agents.html"
       class="stat-card"
     >
+
       <div
         id="freeAgentCount"
         class="stat-number"
@@ -183,12 +255,16 @@
       <div class="stat-label">
         Free Agents
       </div>
+
     </a>
 
+
+    <!-- MDG TEAMS -->
     <a
       href="mdg-teams.html"
       class="stat-card"
     >
+
       <div class="stat-number">
         8
       </div>
@@ -196,106 +272,160 @@
       <div class="stat-label">
         MDG Teams
       </div>
+
     </a>
+
+
   </section>
+
 </main>
 
+
 <script>
+
   async function loadJson(path) {
+
     const response = await fetch(
       `${path}?v=${Date.now()}`
     );
 
     if (!response.ok) {
+
       throw new Error(
         `Could not load ${path}: ${response.status}`
       );
+
     }
 
     return response.json();
+
   }
 
-  async function loadGuildCount() {
-    const element =
-      document.getElementById("guildCount");
 
-    try {
-      const leaderboard = await loadJson(
-        "./data/leaderboard.json"
+  async function loadGuildCount() {
+
+    const element =
+      document.getElementById(
+        "guildCount"
       );
 
-      const guildCount = Array.isArray(leaderboard)
-        ? leaderboard.filter(entry =>
-            entry.type === "guild"
-          ).length
-        : 0;
+    try {
 
-      element.textContent = guildCount;
+      const leaderboard =
+        await loadJson(
+          "./data/leaderboard.json"
+        );
+
+      const guildCount =
+        Array.isArray(leaderboard)
+          ? leaderboard.filter(
+              entry =>
+                entry.type === "guild"
+            ).length
+          : 0;
+
+      element.textContent =
+        guildCount;
+
     } catch (error) {
+
       console.error(
         "Could not load guild count:",
         error
       );
 
-      element.textContent = "-";
+      element.textContent =
+        "-";
+
     }
+
   }
 
+
   async function loadCharacterCount() {
+
     const element =
-      document.getElementById("characterCount");
+      document.getElementById(
+        "characterCount"
+      );
 
     try {
-      const characters = await loadJson(
-        "./data/characters/characters.json"
-      );
+
+      const characters =
+        await loadJson(
+          "./data/characters/characters.json"
+        );
 
       element.textContent =
         Array.isArray(characters)
           ? characters.length
           : 0;
+
     } catch (error) {
+
       console.error(
         "Could not load character count:",
         error
       );
 
-      element.textContent = "-";
+      element.textContent =
+        "-";
+
     }
+
   }
 
+
   async function loadFreeAgentCount() {
+
     const element =
-      document.getElementById("freeAgentCount");
+      document.getElementById(
+        "freeAgentCount"
+      );
 
     try {
-      const freeAgents = await loadJson(
-        "./data/free-agents.json"
-      );
+
+      const freeAgents =
+        await loadJson(
+          "./data/free-agents.json"
+        );
 
       element.textContent =
         Array.isArray(freeAgents)
           ? freeAgents.length
           : 0;
+
     } catch (error) {
+
       console.error(
         "Could not load free-agent count:",
         error
       );
 
-      element.textContent = "-";
+      element.textContent =
+        "-";
+
     }
+
   }
+
 
   document.addEventListener(
     "DOMContentLoaded",
     () => {
+
       loadGuildCount();
+
       loadCharacterCount();
+
       loadFreeAgentCount();
+
     }
   );
+
 </script>
 
+
 </body>
+
 </html>
