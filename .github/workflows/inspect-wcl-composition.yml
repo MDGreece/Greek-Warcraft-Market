@@ -1,4 +1,4 @@
-name: Inspect WCL Composition
+name: Inspect WCL Parent Attendance
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 24
 
-      - name: Inspect Group III composition
+      - name: Inspect Disobedient parent attendance
         env:
           WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
           WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
@@ -25,5 +25,5 @@ jobs:
       - name: Upload inspection result
         uses: actions/upload-artifact@v4
         with:
-          name: wcl-group3-attendance
-          path: data/wcl-group3-attendance.json
+          name: wcl-disobedient-attendance
+          path: data/wcl-disobedient-attendance.json
