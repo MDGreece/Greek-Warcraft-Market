@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Characters - Greek Warcraft Market</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
-<script src="./characters.js?v=1"></script>
-  
 <body>
 
 <header>
+
   <div class="top-header">
+
     <div class="logo">
       <img
         src="./assets/tmglogo.png"
@@ -28,16 +32,13 @@
       </div>
     </div>
 
-    <div class="search">
-      <input
-        id="characterSearch"
-        type="text"
-        placeholder="Search characters, guilds, realms..."
-      >
-    </div>
 
     <div class="header-links">
-      <a href="#" class="discord-btn">
+
+      <a
+        href="#"
+        class="discord-btn"
+      >
         💬 Discord
       </a>
 
@@ -50,40 +51,109 @@
         🏆 Guild Rankings
       </a>
 
-      <a href="#" class="mdg-btn">
+      <a
+        href="#"
+        class="mdg-btn"
+      >
         🛡 MDG
       </a>
+
     </div>
+
   </div>
 
+
   <nav class="main-nav">
-    <a href="index.html">🏠 Home</a>
-    <a href="guilds.html">🏰 Guilds</a>
-    <a href="players.html">👤 Players</a>
-    <a href="free-agents.html">💼 Free Agents</a>
-    <a href="characters.html" class="active">⚔️ Characters</a>
-    <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="m+.html">⚔️ M+ Rankings</a>
-    <a href="news.html">📰 News</a>
+
+    <a href="index.html">
+      🏠 Home
+    </a>
+
+    <a href="guilds.html">
+      🏰 Guilds
+    </a>
+
+    <a href="players.html">
+      👤 Players
+    </a>
+
+    <a href="free-agents.html">
+      💼 Free Agents
+    </a>
+
+    <a
+      href="characters.html"
+      class="active"
+    >
+      ⚔️ Characters
+    </a>
+
+    <a href="mdg-teams.html">
+      🏆 MDG Teams
+    </a>
+
+    <a href="m+.html">
+      ⚔️ M+ Rankings
+    </a>
+
+    <a href="news.html">
+      📰 News
+    </a>
+
   </nav>
+
 </header>
 
+
 <main class="characters-page">
+
+
+  <!-- =========================
+       CHARACTERS HEADER
+       ========================= -->
+
   <section class="characters-hero">
-    <div>
+
+    <div class="characters-hero-main">
+
       <p class="section-kicker">
         Greek World of Warcraft Community
       </p>
 
-      <h1>Characters</h1>
+      <h1>
+        Characters
+      </h1>
 
       <p class="characters-intro">
         Browse active characters collected from Greek guild rosters and
         enriched with Raider.IO data.
       </p>
+
+
+      <!-- SEARCH -->
+
+      <div class="characters-search">
+
+        <span class="characters-search-icon">
+          🔍
+        </span>
+
+        <input
+          id="characterSearch"
+          type="text"
+          placeholder="Search character, guild, realm, class or spec..."
+          autocomplete="off"
+        >
+
+      </div>
+
     </div>
 
+
+    <!-- CHARACTER COUNT -->
+
     <div class="characters-count-card">
+
       <span class="characters-count-label">
         Characters
       </span>
@@ -91,40 +161,61 @@
       <strong id="characterCount">
         0
       </strong>
+
     </div>
+
   </section>
 
+
+  <!-- =========================
+       FILTERS
+       ========================= -->
+
   <section class="characters-controls">
+
+
     <div class="character-filter-group">
+
       <label for="guildFilter">
         Guild
       </label>
 
       <select id="guildFilter">
+
         <option value="">
           All guilds
         </option>
+
       </select>
+
     </div>
 
+
     <div class="character-filter-group">
+
       <label for="classFilter">
         Class
       </label>
 
       <select id="classFilter">
+
         <option value="">
           All classes
         </option>
+
       </select>
+
     </div>
 
+
     <div class="character-filter-group">
+
       <label for="sortCharacters">
         Sort
       </label>
 
       <select id="sortCharacters">
+
         <option value="alphabetical">
           Alphabetical
         </option>
@@ -140,40 +231,97 @@
         <option value="item-level">
           Item level
         </option>
+
       </select>
+
     </div>
+
+
   </section>
+
+
+  <!-- =========================
+       CHARACTERS TABLE
+       ========================= -->
 
   <section class="characters-table-card">
+
     <div class="characters-table-wrapper">
+
       <table class="characters-table">
+
         <thead>
+
           <tr>
-            <th>Character</th>
-            <th>Class / Spec</th>
-            <th>Realm</th>
-            <th>Guild</th>
-            <th>Item Level</th>
-            <th>Mythic+</th>
-            <th>Raid Progress</th>
-            <th>Achievement</th>
-            <th>Links</th>
+
+            <th>
+              Character
+            </th>
+
+            <th>
+              Class / Spec
+            </th>
+
+            <th>
+              Realm
+            </th>
+
+            <th>
+              Guild
+            </th>
+
+            <th>
+              Item Level
+            </th>
+
+            <th>
+              Mythic+
+            </th>
+
+            <th>
+              Raid Progress
+            </th>
+
+            <th>
+              Achievement
+            </th>
+
+            <th>
+              Links
+            </th>
+
           </tr>
+
         </thead>
 
+
         <tbody id="charactersTableBody">
+
           <tr>
-            <td colspan="9" class="characters-loading">
+
+            <td
+              colspan="9"
+              class="characters-loading"
+            >
               Loading characters...
             </td>
+
           </tr>
+
         </tbody>
+
       </table>
+
     </div>
+
   </section>
+
+
 </main>
+
 
 <script src="characters.js"></script>
 
 </body>
+
 </html>
