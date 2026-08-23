@@ -3,15 +3,25 @@ const path = require("path");
 
 const GUILD_DIRECTORY = "data/guilds";
 
-const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
-const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;
-
 /*
+ * Warcraft Logs IDs for the three Disobedient
+ * raid groups.
+ */
+const DISOBEDIENT_MAIN_ID = 555159;
+
+const DISOBEDIENT_TEAM_IDS = {
+  "disobedient-group-ii": 705280,
+  "disobedient-group-iii": 730932
+};
+
+const CLIENT_ID = process.env.WARCRAFTLOGS_CLIENT_ID;
+const CLIENT_SECRET = process.env.WARCRAFTLOGS_CLIENT_SECRET;/*
  * Active-raider settings
  *
  * A character must appear in at least MIN_REPORTS
  * separate reports during the last ACTIVE_DAYS.
  */
+
 const ACTIVE_DAYS = 45;
 const MIN_REPORTS = 1;
 const MAX_REPORTS = 18;
@@ -694,6 +704,70 @@ function createGuildMemberMatcher(
       return true;
     }
 
+  /*
+ * Require a player to pass EVERY supplied
+ * membership matcher.
+ *
+ * For Group II / III this means:
+ *
+ * specific WCL team member
+ * AND
+ * Raider.IO Disobedient member
+ */
+function combineMemberMatchers(
+  ...matchers
+) {
+  return function combinedMatcher(
+    name,
+    realm
+  ) {
+    return matchers.every(
+      matcher =>
+        matcher(
+          name,
+          realm
+        )
+    );
+  };
+}
+
+/*
+ * Start with one roster and remove characters
+ * belonging to any of the excluded rosters.
+ *
+ * For main Disobedient:
+ *
+ * main WCL member
+ * AND NOT Group II member
+ * AND NOT Group III member
+ */
+function excludeMemberMatchers(
+  includeMatcher,
+  ...excludeMatchers
+) {
+  return function filteredMatcher(
+    name,
+    realm
+  ) {
+    if (
+      !includeMatcher(
+        name,
+        realm
+      )
+    ) {
+      return false;
+    }
+
+    return !excludeMatchers.some(
+      matcher =>
+        matcher(
+          name,
+          realm
+        )
+    );
+  };
+}  
+  
     const normalizedName =
       normalize(name);
 
