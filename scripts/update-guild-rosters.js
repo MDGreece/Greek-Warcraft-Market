@@ -789,7 +789,7 @@ function excludeMemberMatchers(
     );
   };
 }
-}
+
 function collectReportPlayers(
   report,
   isGuildMember
