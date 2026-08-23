@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
@@ -17,17 +19,23 @@
   >
 </head>
 
+
 <body>
 
+
 <header>
+
   <div class="top-header">
+
     <div class="logo">
+
       <img
         src="./assets/tmglogo.png"
         alt="Greek Warcraft Market Logo"
       >
 
       <div class="logo-text">
+
         <span class="logo-top">
           Greek
         </span>
@@ -39,17 +47,14 @@
         <span class="logo-bottom">
           Market
         </span>
+
       </div>
+
     </div>
 
-    <div class="search">
-      <input
-        type="text"
-        placeholder="Search characters, guilds, realms..."
-      >
-    </div>
 
     <div class="header-links">
+
       <a
         href="#"
         class="discord-btn"
@@ -72,26 +77,60 @@
       >
         🛡 MDG
       </a>
+
     </div>
+
   </div>
 
+
   <nav>
-    <a href="index.html">🏠 Home</a>
-    <a href="guilds.html">🏰 Guilds</a>
-    <a href="players.html">👤 Players</a>
-    <a href="free-agents.html"  class="active">💼 Free Agents</a>
-    <a href="characters.html">⚔️ Characters</a>
-    <a href="mdg-teams.html">🏆 MDG Teams</a>
-    <a href="m+.html">⚔️ M+ Rankings</a>
-    <a href="news.html">📰 News</a>
+
+    <a href="index.html">
+      🏠 Home
+    </a>
+
+    <a href="guilds.html">
+      🏰 Guilds
+    </a>
+
+    <a href="players.html">
+      👤 Players
+    </a>
+
+    <a
+      href="free-agents.html"
+      class="active"
+    >
+      💼 Free Agents
+    </a>
+
+    <a href="characters.html">
+      ⚔️ Characters
+    </a>
+
+    <a href="mdg-teams.html">
+      🏆 MDG Teams
+    </a>
+
+    <a href="m+.html">
+      ⚔️ M+ Rankings
+    </a>
+
+    <a href="news.html">
+      📰 News
+    </a>
+
   </nav>
 
+
   <div class="ticker">
+
     <div class="ticker-title">
       🔥 Breaking News
     </div>
 
     <div class="ticker-content">
+
       <span>
         📰 Επιστροφή You are not Repaired!
       </span>
@@ -111,13 +150,25 @@
       <span>
         🔥 Rumor • Hunter σε ελληνικό raid group έφαγε server mute!
       </span>
+
     </div>
+
   </div>
+
 </header>
 
+
 <main class="characters-page">
+
+
+  <!-- =========================
+       FREE AGENTS HEADER
+       ========================= -->
+
   <section class="characters-hero">
-    <div>
+
+    <div class="characters-hero-main">
+
       <p class="section-kicker">
         Greek World of Warcraft Community
       </p>
@@ -130,9 +181,32 @@
         Browse characters currently without a Greek guild or playing
         outside the Greek leaderboard.
       </p>
+
+
+      <!-- SEARCH -->
+
+      <div class="characters-search">
+
+        <span class="characters-search-icon">
+          🔍
+        </span>
+
+        <input
+          id="freeAgentSearch"
+          type="text"
+          placeholder="Search character, realm, class, spec or guild..."
+          autocomplete="off"
+        >
+
+      </div>
+
     </div>
 
+
+    <!-- FREE AGENT COUNT -->
+
     <div class="characters-count-card">
+
       <span class="characters-count-label">
         Free Agents
       </span>
@@ -140,28 +214,44 @@
       <strong id="freeAgentCount">
         0
       </strong>
+
     </div>
+
   </section>
 
+
+  <!-- =========================
+       FILTERS
+       ========================= -->
+
   <section class="characters-controls">
+
+
     <div class="character-filter-group">
+
       <label for="classFilter">
         Class
       </label>
 
       <select id="classFilter">
+
         <option value="">
           All Classes
         </option>
+
       </select>
+
     </div>
 
+
     <div class="character-filter-group">
+
       <label for="sortFreeAgents">
         Sort
       </label>
 
       <select id="sortFreeAgents">
+
         <option value="alphabetical">
           Alphabetical
         </option>
@@ -177,43 +267,97 @@
         <option value="item-level">
           Item Level
         </option>
+
       </select>
+
     </div>
+
   </section>
 
+
+  <!-- =========================
+       FREE AGENTS TABLE
+       ========================= -->
+
   <section class="characters-table-card">
+
     <div class="characters-table-wrapper">
+
       <table class="characters-table">
+
         <thead>
+
           <tr>
-            <th>Character</th>
-            <th>Class / Spec</th>
-            <th>Realm</th>
-            <th>Guild</th>
-            <th>Item Level</th>
-            <th>Mythic+</th>
-            <th>Raid Progress</th>
-            <th>Achievement</th>
-            <th>Links</th>
+
+            <th>
+              Character
+            </th>
+
+            <th>
+              Class / Spec
+            </th>
+
+            <th>
+              Realm
+            </th>
+
+            <th>
+              Guild
+            </th>
+
+            <th>
+              Item Level
+            </th>
+
+            <th>
+              Mythic+
+            </th>
+
+            <th>
+              Raid Progress
+            </th>
+
+            <th>
+              Achievement
+            </th>
+
+            <th>
+              Links
+            </th>
+
           </tr>
+
         </thead>
 
+
         <tbody id="freeAgentsTableBody">
+
           <tr>
+
             <td
               colspan="9"
               class="characters-loading"
             >
               Loading free agents...
             </td>
+
           </tr>
+
         </tbody>
+
       </table>
+
     </div>
+
   </section>
+
+
 </main>
+
 
 <script src="./free-agents.js"></script>
 
+
 </body>
+
 </html>
