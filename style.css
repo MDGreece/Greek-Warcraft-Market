@@ -2093,3 +2093,20 @@ a.mythic-plus-score:hover {
     align-items: stretch;
   }
 }
+/* Tank heading */
+.roster-tanks h3 {
+  color: #f5b942;
+  border-bottom: 2px solid #f5b942;
+}
+
+/* Healer heading */
+.roster-healers h3 {
+  color: #4ade80;
+  border-bottom: 2px solid #4ade80;
+}
+
+/* DPS heading */
+.roster-dps h3 {
+  color: #ef5350;
+  border-bottom: 2px solid #ef5350;
+}
