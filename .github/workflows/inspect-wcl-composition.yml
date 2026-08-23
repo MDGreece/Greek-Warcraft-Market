@@ -1,0 +1,29 @@
+name: Inspect WCL Composition
+
+on:
+  workflow_dispatch:
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Inspect Group III composition
+        env:
+          WARCRAFTLOGS_CLIENT_ID: ${{ secrets.WARCRAFTLOGS_CLIENT_ID }}
+          WARCRAFTLOGS_CLIENT_SECRET: ${{ secrets.WARCRAFTLOGS_CLIENT_SECRET }}
+        run: node scripts/inspect-wcl-composition.js
+
+      - name: Upload inspection result
+        uses: actions/upload-artifact@v4
+        with:
+          name: wcl-group3-attendance
+          path: data/wcl-group3-attendance.json
