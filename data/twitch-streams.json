@@ -1,35 +1,21 @@
 {
-  "updatedAt": "2026-08-24T11:31:32.167Z",
+  "updatedAt": "2026-08-24T11:59:55.553Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318341979365",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
+      "id": "318407526758",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "🟦NEW DROPS🟦  m+ Raid 8/8 Normal  🔥Blood DK ✅-DH-GUARDIAN-brewmaster)",
-      "viewerCount": 17,
-      "startedAt": "2026-08-24T07:41:54Z",
+      "title": "DROPS ON!! [GR/EN] -Yuki- | Κλειδια και αντικλειδια | GREEK GOD WARR Gameplay | Keys and Heroic Raid Later |",
+      "viewerCount": 18,
+      "startedAt": "2026-08-24T11:31:39Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
-    },
-    {
-      "id": "318341257829",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Filling the Vault on Alts!",
-      "viewerCount": 5,
-      "startedAt": "2026-08-24T04:28:14Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
       "id": "318341918693",
