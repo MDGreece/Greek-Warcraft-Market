@@ -41,7 +41,10 @@ function readJson(filePath) {
   return JSON.parse(
     fs.readFileSync(filePath, "utf8")
   );
-  function getGuildLogo(id) {
+}
+
+
+function getGuildLogo(id) {
   if (!id) {
     return "";
   }
@@ -66,7 +69,6 @@ function readJson(filePath) {
 
     return "";
   }
-}
 }
 
 function slugifyId(name) {
