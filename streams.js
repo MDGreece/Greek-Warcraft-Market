@@ -9,22 +9,19 @@ function escapeHtml(value) {
 
 
 function getTwitchParent() {
-  /*
-   * Twitch requires the actual host/domain
-   * embedding the player.
-   *
-   * On GitHub Pages this will automatically
-   * become mdgreece.github.io.
-   */
   return window.location.hostname;
 }
 
 
-function playStream(
-  login,
-  displayName,
-  title
-) {
+function formatViewerCount(value) {
+  const number =
+    Number(value || 0);
+
+  return number.toLocaleString();
+}
+
+
+function playStream(stream) {
   const playerSection =
     document.getElementById(
       "streamPlayerSection"
@@ -40,32 +37,78 @@ function playStream(
       "activeStreamer"
     );
 
-  const streamTitle =
+  const title =
     document.getElementById(
       "activeStreamTitle"
+    );
+
+  const viewers =
+    document.getElementById(
+      "activeViewerCount"
+    );
+
+  const twitchLink =
+    document.getElementById(
+      "activeTwitchLink"
     );
 
   const parent =
     getTwitchParent();
 
+
   player.innerHTML = `
     <iframe
-      src="https://player.twitch.tv/?channel=${encodeURIComponent(login)}&parent=${encodeURIComponent(parent)}&autoplay=true"
+      src="https://player.twitch.tv/?channel=${encodeURIComponent(stream.userLogin)}&parent=${encodeURIComponent(parent)}&autoplay=true"
       width="100%"
-      height="520"
+      height="560"
       allowfullscreen
       frameborder="0"
     ></iframe>
   `;
 
-  streamer.textContent =
-    displayName;
 
-  streamTitle.textContent =
-    title;
+  streamer.textContent =
+    stream.userName;
+
+
+  title.textContent =
+    stream.title;
+
+
+  viewers.textContent =
+    `👁 ${formatViewerCount(stream.viewerCount)} viewers`;
+
+
+  twitchLink.href =
+    stream.twitchUrl;
+
 
   playerSection.hidden =
     false;
+
+
+  document
+    .querySelectorAll(
+      ".stream-card"
+    )
+    .forEach(card => {
+      card.classList.remove(
+        "stream-card-active"
+      );
+    });
+
+
+  const activeCard =
+    document.querySelector(
+      `[data-stream-login="${CSS.escape(stream.userLogin)}"]`
+    );
+
+  if (activeCard) {
+    activeCard.classList.add(
+      "stream-card-active"
+    );
+  }
+
 
   playerSection.scrollIntoView({
     behavior: "smooth",
@@ -74,20 +117,154 @@ function playStream(
 }
 
 
-function renderStreams(streams) {
+function createStreamCard(stream) {
+  const card =
+    document.createElement(
+      "article"
+    );
+
+  card.className =
+    "stream-card";
+
+  card.dataset.streamLogin =
+    stream.userLogin;
+
+
+  card.innerHTML = `
+
+    <div class="stream-thumbnail-wrapper">
+
+      <img
+        class="stream-thumbnail"
+        src="${escapeHtml(stream.thumbnailUrl)}"
+        alt="${escapeHtml(stream.userName)} live stream"
+        loading="lazy"
+      >
+
+      <span class="stream-live-badge">
+        LIVE
+      </span>
+
+      <span class="stream-viewers">
+        👁 ${formatViewerCount(stream.viewerCount)}
+      </span>
+
+    </div>
+
+
+    <div class="stream-card-body">
+
+      <div class="stream-card-top">
+
+        <h3>
+          ${escapeHtml(stream.userName)}
+        </h3>
+
+        <span class="stream-language">
+          GR
+        </span>
+
+      </div>
+
+
+      <p class="stream-card-title">
+        ${escapeHtml(stream.title)}
+      </p>
+
+
+      <div class="stream-card-footer">
+
+        <button
+          type="button"
+          class="stream-watch-btn"
+        >
+          ▶ Watch Live
+        </button>
+
+        <a
+          href="${escapeHtml(stream.twitchUrl)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="stream-twitch-btn"
+        >
+          Twitch
+        </a>
+
+      </div>
+
+    </div>
+  `;
+
+
+  const watchButton =
+    card.querySelector(
+      ".stream-watch-btn"
+    );
+
+
+  watchButton.addEventListener(
+    "click",
+    () => {
+      playStream(stream);
+    }
+  );
+
+
+  return card;
+}
+
+
+function renderStreams(data) {
+  const streams =
+    Array.isArray(data.streams)
+      ? data.streams
+      : [];
+
+
   const grid =
     document.getElementById(
       "streamsGrid"
     );
 
+
+  const count =
+    document.getElementById(
+      "liveStreamCount"
+    );
+
+
+  const updatedAt =
+    document.getElementById(
+      "streamsUpdatedAt"
+    );
+
+
+  count.textContent =
+    streams.length;
+
+
+  if (data.updatedAt) {
+    const date =
+      new Date(
+        data.updatedAt
+      );
+
+    updatedAt.textContent =
+      `Updated ${date.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+      })}`;
+  }
+
+
   grid.innerHTML = "";
 
-  if (
-    !Array.isArray(streams) ||
-    streams.length === 0
-  ) {
+
+  if (streams.length === 0) {
+
     grid.innerHTML = `
       <div class="streams-empty">
+
         <h2>
           No Greek WoW streams are live right now.
         </h2>
@@ -95,95 +272,22 @@ function renderStreams(streams) {
         <p>
           Check again later.
         </p>
+
       </div>
     `;
 
     return;
   }
 
+
   streams.forEach(stream => {
 
-    const card =
-      document.createElement(
-        "article"
-      );
-
-    card.className =
-      "stream-card";
-
-    card.innerHTML = `
-      <div class="stream-thumbnail-wrapper">
-
-        <img
-          class="stream-thumbnail"
-          src="${escapeHtml(stream.thumbnailUrl)}"
-          alt="${escapeHtml(stream.userName)}"
-          loading="lazy"
-        >
-
-        <span class="stream-live-badge">
-          🔴 LIVE
-        </span>
-
-        <span class="stream-viewers">
-          👁 ${Number(stream.viewerCount || 0).toLocaleString()}
-        </span>
-
-      </div>
-
-
-      <div class="stream-card-content">
-
-        <h2>
-          ${escapeHtml(stream.userName)}
-        </h2>
-
-        <p class="stream-title">
-          ${escapeHtml(stream.title)}
-        </p>
-
-        <div class="stream-actions">
-
-          <button
-            type="button"
-            class="stream-watch-btn"
-          >
-            ▶ Watch Live
-          </button>
-
-          <a
-            href="${escapeHtml(stream.twitchUrl)}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="stream-twitch-btn"
-          >
-            Twitch
-          </a>
-
-        </div>
-
-      </div>
-    `;
-
-    const watchButton =
-      card.querySelector(
-        ".stream-watch-btn"
-      );
-
-    watchButton.addEventListener(
-      "click",
-      () => {
-        playStream(
-          stream.userLogin,
-          stream.userName,
-          stream.title
-        );
-      }
-    );
-
     grid.appendChild(
-      card
+      createStreamCard(
+        stream
+      )
     );
+
   });
 }
 
@@ -194,6 +298,7 @@ async function loadStreams() {
       "streamsGrid"
     );
 
+
   try {
 
     const response =
@@ -201,17 +306,20 @@ async function loadStreams() {
         `./data/twitch-streams.json?v=${Date.now()}`
       );
 
+
     if (!response.ok) {
       throw new Error(
         `Could not load streams: ${response.status}`
       );
     }
 
+
     const data =
       await response.json();
 
+
     renderStreams(
-      data.streams || []
+      data
     );
 
   } catch (error) {
@@ -221,9 +329,14 @@ async function loadStreams() {
       error
     );
 
+
     grid.innerHTML = `
       <div class="streams-empty">
-        Could not load live streams.
+
+        <h2>
+          Could not load Twitch streams.
+        </h2>
+
       </div>
     `;
 
