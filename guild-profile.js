@@ -42,10 +42,11 @@ function getProgressClass(progress) {
     return "";
   }
 
-  if (
-    normalizedProgress === "CE" ||
-    normalizedProgress.endsWith("M")
-  ) {
+  if (normalizedProgress === "CE") {
+    return "progress-ce";
+  }
+
+  if (normalizedProgress.endsWith("M")) {
     return "progress-mythic";
   }
 
@@ -53,7 +54,49 @@ function getProgressClass(progress) {
     return "progress-heroic";
   }
 
+  if (normalizedProgress.endsWith("N")) {
+    return "progress-normal";
+  }
+
   return "";
+}
+
+function getProgressPercent(progress) {
+  if (!progress || progress === "-") {
+    return 0;
+  }
+
+  if (progress === "CE") {
+    return 100;
+  }
+
+  const match =
+    String(progress)
+      .trim()
+      .toUpperCase()
+      .match(/^(\d+)\/(\d+)[MNH]$/);
+
+  if (!match) {
+    return 0;
+  }
+
+  const kills =
+    Number(match[1]);
+
+  const total =
+    Number(match[2]);
+
+  if (!total) {
+    return 0;
+  }
+
+  return Math.min(
+    100,
+    Math.max(
+      0,
+      (kills / total) * 100
+    )
+  );
 }
 
 function escapeHtml(value) {
@@ -497,15 +540,28 @@ if (!guildId) {
         }
 
         return response.json();
-      })
+      }),
 
+fetch(
+  `./data/leaderboard.json?v=${Date.now()}`
+)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(
+        "leaderboard.json not found"
+      );
+    }
+
+    return response.json();
+  })
   ])
-    .then(
-      ([
-        guild,
-        raidTiers,
-        characters
-      ]) => {
+.then(
+  ([
+    guild,
+    raidTiers,
+    characters,
+    leaderboard
+  ]) => {
 
         document.getElementById(
           "guildName"
@@ -549,6 +605,184 @@ if (!guildId) {
         ).textContent =
           guild.RaidTimes ||
           "Time placeholder";
+    /*
+ * ========================================
+ * NEW COMPACT GUILD PROFILE DATA
+ * ========================================
+ */
+
+const leaderboardEntry =
+  Array.isArray(leaderboard)
+    ? leaderboard.find(
+        entry =>
+          entry.id === guildId
+      )
+    : null;
+
+
+/*
+ * Realm / Region
+ */
+
+const guildRealmElement =
+  document.getElementById(
+    "guildRealm"
+  );
+
+const guildRegionElement =
+  document.getElementById(
+    "guildRegion"
+  );
+
+const realm =
+  guild.realm ||
+  leaderboardEntry?.realm ||
+  "-";
+
+if (guildRealmElement) {
+  guildRealmElement.textContent =
+    realm;
+}
+
+if (guildRegionElement) {
+  guildRegionElement.textContent =
+    "EU";
+}
+
+
+/*
+ * Current raid progression
+ */
+
+const currentProgress =
+  leaderboardEntry?.progress ||
+  "-";
+
+const progressElement =
+  document.getElementById(
+    "currentProgress"
+  );
+
+if (progressElement) {
+  progressElement.textContent =
+    currentProgress;
+
+  progressElement.className =
+    "guild-current-progress-number " +
+    getProgressClass(
+      currentProgress
+    );
+}
+
+
+/*
+ * World Rank
+ */
+
+const worldRankElement =
+  document.getElementById(
+    "currentWorldRank"
+  );
+
+if (worldRankElement) {
+  const worldRank =
+    Number(
+      leaderboardEntry?.worldRank
+    );
+
+  worldRankElement.textContent =
+    Number.isInteger(worldRank) &&
+    worldRank > 0 &&
+    worldRank < 999999
+      ? `#${worldRank}`
+      : "—";
+}
+
+
+/*
+ * Greek Rank
+ *
+ * leaderboard rank = current Greek
+ * leaderboard position.
+ */
+
+const greekRankElement =
+  document.getElementById(
+    "currentGreekRank"
+  );
+
+if (greekRankElement) {
+  const greekRank =
+    Number(
+      leaderboardEntry?.rank
+    );
+
+  greekRankElement.textContent =
+    Number.isInteger(greekRank) &&
+    greekRank > 0
+      ? `#${greekRank}`
+      : "—";
+}
+
+
+/*
+ * Progression Pulls
+ *
+ * Information only.
+ * Does NOT affect rankings.
+ */
+
+const pullsElement =
+  document.getElementById(
+    "currentProgressionPulls"
+  );
+
+if (pullsElement) {
+  const pulls =
+    Number(
+      leaderboardEntry?.pulls
+    );
+
+  pullsElement.textContent =
+    Number.isFinite(pulls) &&
+    pulls > 0
+      ? pulls
+      : "—";
+}
+
+
+/*
+ * Progress bar
+ */
+
+const progressPercent =
+  getProgressPercent(
+    currentProgress
+  );
+
+const progressBar =
+  document.getElementById(
+    "currentProgressBar"
+  );
+
+const progressPercentElement =
+  document.getElementById(
+    "currentProgressPercent"
+  );
+
+if (progressBar) {
+  progressBar.style.width =
+    `${progressPercent}%`;
+}
+
+if (progressPercentElement) {
+  progressPercentElement.textContent =
+    `${progressPercent.toFixed(
+      progressPercent % 1 === 0
+        ? 0
+        : 1
+    )}%`;
+}
 
         const logoBox =
           document.getElementById(
