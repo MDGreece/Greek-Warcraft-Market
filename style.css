@@ -704,154 +704,970 @@ nav a.active {
   }
 
 }
-.guild-profile-top {
-  text-align: center;
-  padding: 45px 20px;
+/* =========================================================
+   GUILD PROFILE
+   Compact Raider.IO-inspired layout
+   ========================================================= */
+
+.guild-profile-page {
+  width: min(1500px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 26px 0 70px;
 }
 
-.guild-profile-top h1 {
-  font-size: 58px;
-  color: #f0b90b;
-  margin-bottom: 25px;
-  text-shadow: 0 4px 10px #000;
+
+/* =========================================================
+   BACK TO RANKINGS
+   ========================================================= */
+
+.guild-profile-back {
+  margin-bottom: 14px;
 }
 
-.guild-logo-placeholder {
-  width: 260px;
-  height: 260px;
-  margin: 0 auto 35px;
-  border: 2px solid #d4af37;
-  background: #101820;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.guild-logo-placeholder img {
-  max-width: 90%;
-  max-height: 90%;
-  object-fit: contain;
-}
-
-/* ========================= */
-/* Guild Awards */
-/* ========================= */
-
-.guild-awards {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 80px;
-
-    width: 100%;
-    margin: 40px auto 50px;
-}
-
-.award-card {
-    width: 220px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.award-card img {
-    width: 180px;      /* Increase this */
-    height: 180px;     /* Increase this */
-
-    object-fit: contain;
-    display: block;
-}
-
-.award-count {
-    margin-top: 12px;
-
-    font-size: 42px;
-    font-weight: bold;
-
-    color: #f0b90b;
-    text-align: center;
-  }
-
-.guild-info-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  margin: 30px 0;
-}
-
-.info-card,
-.expansion-card,
-.guild-box {
-  background: #101820;
-  border: 1px solid #d4af37;
-  border-radius: 10px;
-  padding: 24px;
-}
-
-.info-card {
-  text-align: center;
-}
-
-.info-card h3,
-.expansions-section h2,
-.guild-box h2 {
-  color: #f0b90b;
+.guild-profile-back a {
+  color: #6db8ff;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
+.guild-profile-back a:hover {
+  color: #9bd0ff;
+}
+
+
+/* =========================================================
+   MAIN GUILD HEADER
+   ========================================================= */
+
+.guild-profile-header {
+  display: grid;
+
+  grid-template-columns:
+    150px
+    minmax(280px, 1.3fr)
+    minmax(220px, 0.8fr)
+    minmax(200px, 0.65fr);
+
+  align-items: center;
+
+  gap: 24px;
+
+  padding: 24px 26px;
+  margin-bottom: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(14, 30, 50, 0.98),
+      rgba(7, 18, 32, 0.98)
+    );
+
+  border: 1px solid rgba(80, 155, 220, 0.30);
+  border-radius: 14px;
+
+  box-shadow:
+    0 16px 38px rgba(0, 0, 0, 0.24);
+}
+
+
+/* =========================================================
+   GUILD LOGO
+   ========================================================= */
+
+.guild-profile-logo {
+  display: grid;
+
+  width: 132px;
+  height: 132px;
+
+  place-items: center;
+
+  overflow: hidden;
+
+  background:
+    rgba(4, 12, 22, 0.72);
+
+  border:
+    1px solid rgba(245, 185, 66, 0.55);
+
+  border-radius: 12px;
+
+  box-shadow:
+    inset 0 0 25px rgba(0, 0, 0, 0.34);
+}
+
+.guild-profile-logo img {
+  width: 100%;
+  height: 100%;
+
+  padding: 8px;
+
+  box-sizing: border-box;
+
+  object-fit: contain;
+}
+
+.guild-profile-logo .placeholder-icon {
+  font-size: 3rem;
+}
+
+
+/* =========================================================
+   GUILD IDENTITY
+   ========================================================= */
+
+.guild-profile-identity {
+  min-width: 0;
+}
+
+.guild-profile-identity h1 {
+  margin: 0 0 6px;
+
+  color: #ffffff;
+
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 900;
+
+  line-height: 1;
+
+  letter-spacing: -0.025em;
+}
+
+.guild-profile-realm {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  color: #8ea2b8;
+
+  font-size: 0.86rem;
+}
+
+.guild-profile-dot {
+  color: #f5b942;
+}
+
+
+/* =========================================================
+   EXTERNAL LINKS
+   ========================================================= */
+
+.guild-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: 13px;
+}
+
+.guild-external-link {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 30px;
+
+  padding: 5px 11px;
+
+  border-radius: 6px;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.16s ease,
+    filter 0.16s ease,
+    border-color 0.16s ease;
+}
+
+.guild-external-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.15);
+}
+
+.guild-raiderio-link {
+  color: #73c1ff;
+
+  background:
+    rgba(69, 151, 216, 0.12);
+
+  border:
+    1px solid rgba(89, 174, 238, 0.42);
+}
+
+.guild-wowprogress-link {
+  color: #f7c75e;
+
+  background:
+    rgba(245, 185, 66, 0.09);
+
+  border:
+    1px solid rgba(245, 185, 66, 0.38);
+}
+
+
+/* =========================================================
+   MEDALS
+   ========================================================= */
+
+.guild-profile-header .guild-awards {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 12px;
+
+  width: auto;
+
+  margin: 15px 0 0;
+}
+
+.guild-profile-header .award-card {
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 5px;
+
+  width: auto;
+}
+
+.guild-profile-header .award-card img {
+  width: 42px;
+  height: 42px;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+.guild-profile-header .award-count {
+  margin: 0;
+
+  color: #d7e0eb;
+
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   GUILD INFORMATION
+   ========================================================= */
+
+.guild-profile-info {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+  padding-left: 22px;
+
+  border-left:
+    1px solid rgba(255, 255, 255, 0.08);
+}
+
+.guild-profile-info-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+}
+
+.guild-profile-info-icon {
+  display: grid;
+
+  width: 32px;
+  height: 32px;
+
+  flex: 0 0 32px;
+
+  place-items: center;
+
+  color: #71baff;
+
+  background:
+    rgba(70, 150, 220, 0.10);
+
+  border:
+    1px solid rgba(80, 160, 230, 0.18);
+
+  border-radius: 7px;
+}
+
+.guild-profile-info-label {
+  margin-bottom: 2px;
+
+  color: #71859b;
+
+  font-size: 0.66rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.guild-profile-info-value {
+  color: #e7edf5;
+
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   RECRUITMENT PLACEHOLDER
+   ========================================================= */
+
+.guild-recruitment-card {
+  align-self: stretch;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  min-height: 105px;
+
+  padding: 17px 18px;
+
+  background:
+    rgba(5, 15, 28, 0.72);
+
+  border:
+    1px solid rgba(245, 185, 66, 0.32);
+
+  border-radius: 10px;
+}
+
+.guild-recruitment-title {
+  color: #f5b942;
+
+  font-size: 0.7rem;
+  font-weight: 900;
+
+  letter-spacing: 0.09em;
+
+  text-transform: uppercase;
+}
+
+.guild-recruitment-content {
+  margin-top: 9px;
+
+  color: #ffffff;
+
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.guild-recruitment-placeholder {
+  margin-top: 4px;
+
+  color: #66798e;
+
+  font-size: 0.7rem;
+}
+
+
+/* =========================================================
+   DASHBOARD GRID
+   ========================================================= */
+
+.guild-dashboard-grid {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 0.9fr)
+    minmax(0, 1.35fr);
+
+  gap: 18px;
+
+  align-items: stretch;
+
+  margin-bottom: 18px;
+}
+
+.guild-dashboard-card {
+  min-width: 0;
+
+  padding: 20px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(13, 27, 45, 0.96),
+      rgba(7, 17, 30, 0.98)
+    );
+
+  border:
+    1px solid rgba(70, 145, 210, 0.24);
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.20);
+}
+
+.guild-dashboard-card > h2 {
+  margin: 0 0 16px;
+
+  color: #f5b942;
+
+  font-size: 0.75rem;
+  font-weight: 900;
+
+  letter-spacing: 0.10em;
+
+  text-transform: uppercase;
+}
+
+
+/* =========================================================
+   CURRENT RAID PROGRESSION
+   ========================================================= */
+
+.guild-current-progress-inner h3 {
+  margin: 0 0 16px;
+
+  color: #ffffff;
+
+  font-size: 1.15rem;
+}
+
+.guild-progress-summary {
+  display: grid;
+
+  grid-template-columns:
+    1.15fr
+    repeat(3, minmax(80px, 1fr));
+
+  gap: 10px;
+
+  align-items: stretch;
+}
+
+.guild-progress-main,
+.guild-progress-stat {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  min-height: 72px;
+
+  padding: 10px 12px;
+
+  background:
+    rgba(2, 10, 20, 0.48);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065);
+
+  border-radius: 8px;
+}
+
+.guild-current-progress-number {
+  color: #56e873;
+
+  font-size: 1.55rem;
+  font-weight: 900;
+}
+
+.guild-progress-stat span {
+  color: #718399;
+
+  font-size: 0.62rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+.guild-progress-stat strong {
+  margin-top: 5px;
+
+  color: #ffffff;
+
+  font-size: 1rem;
+}
+
+.guild-current-progress-bar {
+  width: 100%;
+  height: 8px;
+
+  margin-top: 16px;
+
+  overflow: hidden;
+
+  background:
+    rgba(255, 255, 255, 0.08);
+
+  border-radius: 999px;
+}
+
+.guild-current-progress-bar-fill {
+  width: 0%;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      90deg,
+      #2fcc55,
+      #64ea7e
+    );
+
+  border-radius: inherit;
+
+  transition:
+    width 0.35s ease;
+}
+
+.guild-current-progress-percent {
+  margin-top: 7px;
+
+  color: #73869c;
+
+  font-size: 0.72rem;
+
+  text-align: right;
+}
+
+
+/* =========================================================
+   RAID HISTORY
+   ========================================================= */
+
 .expansion-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 22px;
+
+  grid-template-columns: 1fr;
+
+  gap: 10px;
+}
+
+.expansion-card {
+  padding: 13px 14px;
+
+  background:
+    rgba(3, 12, 23, 0.46);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.065);
+
+  border-radius: 8px;
 }
 
 .expansion-card h3 {
-  color: #f0b90b;
+  margin: 0 0 8px;
+
+  color: #dfe8f3;
+
+  font-size: 0.76rem;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+
+  text-transform: uppercase;
+}
+
+.raid-history-table {
+  width: 100%;
+}
+
+.raid-history-header,
+.raid-history-row {
+  display: grid;
+
+  grid-template-columns:
+    minmax(150px, 1fr)
+    90px
+    70px
+    70px;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.raid-history-header {
+  padding: 6px 5px;
+
+  color: #677b91;
+
+  font-size: 0.61rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+}
+
+.raid-history-header span:nth-child(n + 2) {
+  text-align: center;
+}
+
+.raid-history-row {
+  min-height: 36px;
+
+  padding: 6px 5px;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.055);
+}
+
+.raid-history-name {
+  color: #dfe7f0;
+
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.raid-history-progress {
+  text-align: center;
+
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.raid-history-rank {
+  color: #f5b942;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   ROSTER
+   ========================================================= */
+
+.guild-box {
   margin-top: 0;
 }
 
-.raid-tier {
-    display: grid;
-    grid-template-columns: 1fr 90px 90px 90px;
-    align-items: center;
-    gap: 12px;
+.guild-box .roster-grid {
+  display: grid;
 
-    padding: 12px 0;
-    border-top: 1px solid rgba(255,255,255,.08);
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 14px;
 }
 
-.raid-name{
-    text-align:left;
+.guild-box .roster-column {
+  min-width: 0;
+
+  padding: 13px;
+
+  background:
+    rgba(3, 12, 23, 0.42);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.06);
+
+  border-radius: 9px;
 }
 
-.raid-progress{
-    text-align:center;
-    font-weight:700;
+.guild-box .roster-column h3 {
+  margin: 0 0 11px;
+
+  color: #dfe7f2;
+
+  font-size: 0.78rem;
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+
+  text-transform: uppercase;
 }
 
-.raid-rank{
-    text-align:right;
-    font-weight:600;
-}
-.breadcrumb {
-    max-width: 1200px;
-    margin: 20px auto 10px;
-    color: #b8c2cc;
-    font-size: 15px;
+.guild-box .roster-column ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
-.breadcrumb a {
-    color: #f0b90b;
-    text-decoration: none;
+
+/* =========================================================
+   ROSTER CHARACTER CARD
+   ========================================================= */
+
+.guild-box .guild-roster-character {
+  margin-bottom: 7px;
+
+  list-style: none;
 }
 
-.breadcrumb a:hover {
-    text-decoration: none;
+.guild-box .guild-roster-character:last-child {
+  margin-bottom: 0;
 }
 
-.breadcrumb span {
-    margin: 0 6px;
+.guild-box .guild-roster-character-row {
+  display: grid;
+
+  grid-template-columns:
+    minmax(130px, 1.25fr)
+    minmax(85px, 0.8fr)
+    auto;
+
+  align-items: center;
+
+  gap: 10px;
+
+  min-height: 54px;
+
+  padding: 7px 9px;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.045);
+
+  border-radius: 7px;
+
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.guild-box .guild-roster-character-row:hover {
+  transform: translateY(-2px);
+
+  background:
+    rgba(65, 145, 215, 0.07);
+
+  border-color:
+    rgba(85, 166, 255, 0.18);
+}
+
+.guild-box .character-name-cell {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  min-width: 0;
+}
+
+.guild-box .character-thumbnail {
+  width: 38px;
+  height: 38px;
+
+  flex: 0 0 38px;
+
+  padding: 0;
+
+  border-radius: 7px;
+
+  object-fit: cover;
+}
+
+.guild-box .character-thumbnail-placeholder {
+  background: #101b2a;
+}
+
+.guild-box .character-name {
+  overflow: hidden;
+
+  font-size: 0.83rem;
+  font-weight: 900;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+.guild-box .character-class-spec {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2px;
+
+  min-width: 0;
+}
+
+.guild-box .character-class-spec span {
+  overflow: hidden;
+
+  color: #d8e1eb;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.guild-box .character-class-spec small {
+  overflow: hidden;
+
+  color: #687c92;
+
+  font-size: 0.65rem;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.guild-box .character-links {
+  display: flex;
+
+  gap: 5px;
+
+  flex-wrap: nowrap;
+}
+
+.guild-box .character-link {
+  min-height: auto;
+
+  padding: 4px 6px;
+
+  border-radius: 5px;
+
+  font-size: 0.58rem;
+}
+
+.guild-box .roster-no-links {
+  color: #586b7e;
+}
+
+.guild-box .roster-empty {
+  padding: 12px 8px;
+
+  color: #687c91;
+
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+
+/* =========================================================
+   PROGRESS COLORS
+   ========================================================= */
+
+.progress-ce {
+  color: #ffad22;
+}
+
+.progress-mythic {
+  color: #b366ff;
+}
+
+.progress-heroic {
+  color: #4aa3ff;
+}
+
+.progress-normal {
+  color: #32e94d;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1150px) {
+
+  .guild-profile-header {
+    grid-template-columns:
+      130px
+      1fr
+      1fr;
+  }
+
+  .guild-recruitment-card {
+    grid-column: 2 / -1;
+  }
+
+  .guild-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+
+  .guild-profile-page {
+    width: min(100% - 22px, 1500px);
+  }
+
+  .guild-profile-header {
+    grid-template-columns: 1fr;
+  }
+
+  .guild-profile-logo {
+    width: 105px;
+    height: 105px;
+  }
+
+  .guild-profile-info {
+    padding-left: 0;
+
+    border-left: 0;
+    border-top:
+      1px solid rgba(255, 255, 255, 0.08);
+
+    padding-top: 16px;
+  }
+
+  .guild-recruitment-card {
+    grid-column: auto;
+  }
+
+  .guild-progress-summary {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .guild-box .roster-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 560px) {
+
+  .guild-profile-header {
+    padding: 18px;
+  }
+
+  .guild-progress-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .raid-history-header,
+  .raid-history-row {
+    grid-template-columns:
+      minmax(110px, 1fr)
+      65px
+      48px
+      48px;
+
+    gap: 5px;
+  }
+
 }
 .news-page {
   max-width: 1000px;
@@ -898,159 +1714,7 @@ nav a.active {
   font-size: 17px;
   line-height: 1.6;
 }
-/* Force award logo size */
-.guild-profile-top .award-card img {
-  width: 280px !important;
-  height: 280px !important;
-  max-width: none !important;
-  max-height: none !important;
-  object-fit: cover !important;
-}
 
-.guild-profile-top .award-card {
-  width: 280px !important;
-}
-
-.guild-profile-top .guild-awards {
-  gap: 40px !important;
-}
-
-}
-.roster-player {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 10px 12px;
-  margin-bottom: 8px;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.roster-player-main {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.roster-player-name {
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.2;
-}
-
-.roster-player-details {
-  margin-top: 3px;
-  color: #aeb8c7;
-  font-size: 0.8rem;
-}
-
-.roster-player-reports {
-  flex-shrink: 0;
-  color: #8f9bad;
-  font-size: 0.75rem;
-  white-space: nowrap;
-}
-
-.roster-empty {
-  padding: 10px 12px;
-  color: #8f9bad;
-  font-style: italic;
-}
-
-.roster-column ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.raid-progress {
-  font-weight: 700;
-  margin-left: 8px;
-}
-
-.progress-mythic {
-  color: #b366ff;
-}
-
-.progress-heroic {
-  color: #4aa3ff;
-}
-.raid-history-table {
-  width: 100%;
-  margin-top: 14px;
-}
-
-.raid-history-header,
-.raid-history-row {
-  display: grid;
-  grid-template-columns:
-    minmax(150px, 1fr)
-    110px
-    80px
-    80px;
-  align-items: center;
-  gap: 16px;
-}
-
-.raid-history-header {
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(255, 204, 0, 0.35);
-  color: #ffcc00;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.raid-history-header span:nth-child(n + 2) {
-  text-align: center;
-}
-
-.raid-history-row {
-  min-height: 48px;
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.raid-history-row:last-child {
-  border-bottom: none;
-}
-
-.raid-history-name {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.raid-history-progress {
-  text-align: center;
-  font-weight: 700;
-}
-
-.raid-history-rank {
-  text-align: center;
-  color: #ffcc00;
-  font-weight: 700;
-}
-
-.progress-mythic {
-  color: #b366ff;
-}
-
-.progress-heroic {
-  color: #4aa3ff;
-}
-
-@media (max-width: 700px) {
-  .raid-history-header,
-  .raid-history-row {
-    grid-template-columns:
-      minmax(110px, 1fr)
-      80px
-      55px
-      55px;
-    gap: 8px;
-    font-size: 0.82rem;
-  }
-}
 /* =========================================================
    PLAYERS PAGE
    ========================================================= */
