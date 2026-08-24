@@ -614,12 +614,11 @@ function getProgressionPulls(fights) {
     of bossAttempts.values()
   ) {
 
-    attempts.sort(
-      (a, b) =>
-        Number(a.absoluteStartTime || 0) -
-        Number(b.absoluteStartTime || 0)
-    );
-
+attempts.sort(
+  (a, b) =>
+    getFightTimestamp(a) -
+    getFightTimestamp(b)
+);
 
     for (const attempt of attempts) {
 
