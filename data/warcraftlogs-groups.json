@@ -15,12 +15,11 @@
     "bestBoss": "The Twin Fangs",
     "latestReport": "2DGdh31Mg7tZRwQL",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-24T19:32:36.959Z",
+    "updatedAt": "2026-08-24T19:38:00.412Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 12,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 12
   },
   {
     "id": "amargosa-crew",
@@ -40,11 +39,10 @@
     "latestReport": "d16cGZzXxqPLrf2J",
     "latestReportTitle": "mezz run",
     "raidZone": "The Venomous Abyss",
-    "updatedAt": "2026-08-24T19:32:37.050Z",
+    "updatedAt": "2026-08-24T19:38:21.511Z",
     "raidKey": "the-venomous-abyss",
     "currentRaidReports": 7,
-    "progressionPulls": 60,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 60
   },
   {
     "id": "chillers",
@@ -58,16 +56,15 @@
     "raidDifficultySuffix": "H",
     "raidKills": 1,
     "totalReports": 50,
-    "bossProg": "58.52%",
+    "bossProg": "32.56%",
     "bestBoss": "Entombed Sentinels",
     "latestReport": "6kQ2bKZDT9fdhjyP",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-24T19:32:37.134Z",
+    "updatedAt": "2026-08-24T19:38:43.595Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 5,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 11
   },
   {
     "id": "crimson-thunder",
@@ -85,12 +82,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.225Z",
+    "updatedAt": "2026-08-24T19:38:47.374Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "death-and-glory",
@@ -99,21 +95,20 @@
     "realm": "silvermoon",
     "warcraftLogsGuildId": 312193,
     "autoFound": true,
-    "progress": "8/8N",
-    "raidDifficulty": "Normal",
-    "raidDifficultySuffix": "N",
-    "raidKills": 8,
+    "progress": "2/8H",
+    "raidDifficulty": "Heroic",
+    "raidDifficultySuffix": "H",
+    "raidKills": 2,
     "totalReports": 50,
-    "bossProg": "-",
-    "bestBoss": "",
-    "latestReport": "",
-    "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.312Z",
-    "raidZone": "",
+    "bossProg": "56.47%",
+    "bestBoss": "Entombed Sentinels",
+    "latestReport": "JPhfbtR2M3TCxgHZ",
+    "latestReportTitle": "prwto raid tou season, na mas mpei kala",
+    "updatedAt": "2026-08-24T19:39:13.292Z",
+    "raidZone": "The Venomous Abyss",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 10,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 5
   },
   {
     "id": "deny-everything",
@@ -131,12 +126,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.397Z",
+    "updatedAt": "2026-08-24T19:39:36.078Z",
     "raidZone": "",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 15,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 15
   },
   {
     "id": "disobedient",
@@ -145,21 +139,20 @@
     "realm": "twisting-nether",
     "warcraftLogsGuildId": 555159,
     "autoFound": true,
-    "progress": "1/8H",
+    "progress": "3/8H",
     "raidDifficulty": "Heroic",
     "raidDifficultySuffix": "H",
-    "raidKills": 1,
+    "raidKills": 3,
     "totalReports": 50,
     "bossProg": "-",
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.488Z",
+    "updatedAt": "2026-08-24T19:39:59.392Z",
     "raidZone": "",
-    "currentRaidReports": 3,
+    "currentRaidReports": 4,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 3,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 8
   },
   {
     "id": "disobedient-group-ii",
@@ -174,15 +167,14 @@
     "raidDifficultySuffix": "H",
     "raidKills": 1,
     "totalReports": 50,
-    "currentRaidReports": 2,
+    "currentRaidReports": 3,
     "bossProg": "-",
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-08-24T19:32:37.589Z",
-    "progressionPulls": 3,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "updatedAt": "2026-08-24T19:40:23.989Z",
+    "progressionPulls": 3
   },
   {
     "id": "disobedient-group-iii",
@@ -192,10 +184,10 @@
     "warcraftLogsGuildId": 730932,
     "autoFound": true,
     "raidKey": "the-venomous-abyss",
-    "progress": "8/8N",
-    "raidDifficulty": "Normal",
-    "raidDifficultySuffix": "N",
-    "raidKills": 8,
+    "progress": "1/8H",
+    "raidDifficulty": "Heroic",
+    "raidDifficultySuffix": "H",
+    "raidKills": 1,
     "totalReports": 50,
     "currentRaidReports": 2,
     "bossProg": "-",
@@ -203,9 +195,8 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-08-24T19:32:37.675Z",
-    "progressionPulls": 13,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "updatedAt": "2026-08-24T19:40:46.530Z",
+    "progressionPulls": 2
   },
   {
     "id": "dungeon-meta",
@@ -223,12 +214,11 @@
     "bestBoss": "Ula'tek",
     "latestReport": "jy2f6Hp3kvmrcx8A",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-24T19:32:37.765Z",
+    "updatedAt": "2026-08-24T19:41:07.522Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 4,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 61,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 61
   },
   {
     "id": "elegance",
@@ -246,12 +236,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.853Z",
+    "updatedAt": "2026-08-24T19:41:30.011Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "epsilon",
@@ -269,12 +258,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:37.942Z",
+    "updatedAt": "2026-08-24T19:41:53.405Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "irriducibili",
@@ -292,12 +280,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.037Z",
+    "updatedAt": "2026-08-24T19:42:02.238Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "k-l-i-k-a",
@@ -306,21 +293,20 @@
     "realm": "twisting-nether",
     "warcraftLogsGuildId": 818058,
     "autoFound": true,
-    "progress": "5/8H",
+    "progress": "6/8H",
     "raidDifficulty": "Heroic",
     "raidDifficultySuffix": "H",
-    "raidKills": 5,
+    "raidKills": 6,
     "totalReports": 50,
-    "bossProg": "-",
-    "bestBoss": "",
-    "latestReport": "",
-    "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.134Z",
-    "raidZone": "",
+    "bossProg": "46.11%",
+    "bestBoss": "The Coiled Altar",
+    "latestReport": "T3FHdAz7ZDPwcqyN",
+    "latestReportTitle": "The Venomous Abyss",
+    "updatedAt": "2026-08-24T19:42:28.067Z",
+    "raidZone": "The Venomous Abyss",
     "currentRaidReports": 3,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 17,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 20
   },
   {
     "id": "leontokardoi",
@@ -338,12 +324,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.218Z",
+    "updatedAt": "2026-08-24T19:42:47.448Z",
     "raidZone": "",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 6,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 6
   },
   {
     "id": "myrmidones",
@@ -361,12 +346,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.306Z",
+    "updatedAt": "2026-08-24T19:43:09.912Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "not-forgotten",
@@ -384,12 +368,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.388Z",
+    "updatedAt": "2026-08-24T19:43:10.028Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "nyxborn",
@@ -407,12 +390,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.475Z",
+    "updatedAt": "2026-08-24T19:43:10.164Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "o-m-e-g-a",
@@ -426,16 +408,15 @@
     "raidDifficultySuffix": "H",
     "raidKills": 4,
     "totalReports": 50,
-    "bossProg": "-",
-    "bestBoss": "",
-    "latestReport": "",
-    "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.563Z",
-    "raidZone": "",
+    "bossProg": "77.07%",
+    "bestBoss": "Sszorak",
+    "latestReport": "arKgJvH6wWPkxyDn",
+    "latestReportTitle": "24/8/26",
+    "updatedAt": "2026-08-24T19:43:37.036Z",
+    "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 18,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 25
   },
   {
     "id": "provatina",
@@ -444,21 +425,20 @@
     "realm": "twisting-nether",
     "warcraftLogsGuildId": 713386,
     "autoFound": true,
-    "progress": "4/8H",
+    "progress": "5/8H",
     "raidDifficulty": "Heroic",
     "raidDifficultySuffix": "H",
-    "raidKills": 4,
+    "raidKills": 5,
     "totalReports": 50,
-    "bossProg": "60.85%",
-    "bestBoss": "Sszorak",
-    "latestReport": "ADjJngaFmRrKPWQC",
-    "latestReportTitle": "deutera 24",
-    "updatedAt": "2026-08-24T19:32:38.653Z",
-    "raidZone": "The Venomous Abyss",
-    "currentRaidReports": 4,
+    "bossProg": "-",
+    "bestBoss": "",
+    "latestReport": "",
+    "latestReportTitle": "",
+    "updatedAt": "2026-08-24T19:43:58.843Z",
+    "raidZone": "",
+    "currentRaidReports": 5,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 26,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 35
   },
   {
     "id": "soe-reborn",
@@ -476,12 +456,11 @@
     "bestBoss": "Ula'tek",
     "latestReport": "cdfHXtWZMJpgYLKR",
     "latestReportTitle": "new season same goals",
-    "updatedAt": "2026-08-24T19:32:38.745Z",
+    "updatedAt": "2026-08-24T19:44:22.140Z",
     "raidZone": "Mythic+ Season 2",
     "currentRaidReports": 1,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 21,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 21
   },
   {
     "id": "t-h-e-o-r-y",
@@ -499,12 +478,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.836Z",
+    "updatedAt": "2026-08-24T19:44:45.271Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "the-haunted",
@@ -522,12 +500,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:38.920Z",
+    "updatedAt": "2026-08-24T19:45:07.331Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "the-syndicate",
@@ -545,12 +522,11 @@
     "bestBoss": "The Coiled Altar",
     "latestReport": "GPdVa2n9cJbq6kfr",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-08-24T19:32:39.027Z",
+    "updatedAt": "2026-08-24T19:45:17.186Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 25,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 25
   },
   {
     "id": "u-t-o-p-i-a",
@@ -568,12 +544,11 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:39.108Z",
+    "updatedAt": "2026-08-24T19:45:30.669Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 0
   },
   {
     "id": "unique-legacy",
@@ -582,20 +557,19 @@
     "realm": "twisting-nether",
     "warcraftLogsGuildId": 694677,
     "autoFound": true,
-    "progress": "4/8N",
-    "raidDifficulty": "Normal",
-    "raidDifficultySuffix": "N",
-    "raidKills": 4,
+    "progress": "1/8H",
+    "raidDifficulty": "Heroic",
+    "raidDifficultySuffix": "H",
+    "raidKills": 1,
     "totalReports": 50,
-    "bossProg": "-",
-    "bestBoss": "",
-    "latestReport": "",
-    "latestReportTitle": "",
-    "updatedAt": "2026-08-24T19:32:39.224Z",
-    "raidZone": "",
+    "bossProg": "78.22%",
+    "bestBoss": "Entombed Sentinels",
+    "latestReport": "GnpcmFMYryg96RQk",
+    "latestReportTitle": "Normal / HC 24/08/2026",
+    "updatedAt": "2026-08-24T19:45:50.356Z",
+    "raidZone": "The Venomous Abyss",
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 14,
-    "updateError": "Warcraft Logs HTTP error: 429 {\"status\":429,\"error\":\"Too many requests. The owner of this API key can subscribe on Patreon to increase their request limit.\"}"
+    "progressionPulls": 3
   }
 ]
