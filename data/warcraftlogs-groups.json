@@ -571,5 +571,17 @@
     "currentRaidReports": 2,
     "raidKey": "the-venomous-abyss",
     "progressionPulls": 19
-  }
+  },
+  {
+  "id": "you-are-not-repaired",
+  "name": "You are not Repaired",
+  "parentGuild": "You are not Repaired",
+  "realm": "twisting-nether",
+  "warcraftLogsGuildId": 597404,
+  "autoFound": true,
+  "progress": "-",
+  "bossProg": "-",
+  "worldRank": 999999,
+  "progressionPulls": 0
+}
 ]
