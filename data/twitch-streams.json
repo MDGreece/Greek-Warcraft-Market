@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-08-24T04:31:19.595Z",
+  "updatedAt": "2026-08-24T05:23:40.525Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318341257829",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Filling the Vault on Alts!",
+      "viewerCount": 6,
+      "startedAt": "2026-08-24T04:28:14Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    }
+  ]
 }
