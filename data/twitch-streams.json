@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T14:01:23.832Z",
+  "updatedAt": "2026-08-24T14:57:08.855Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -18,6 +18,20 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
+      "id": "317542266978",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "M+ Pugs mexri to raid",
+      "viewerCount": 10,
+      "startedAt": "2026-08-24T13:52:55Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
       "id": "318209730791",
       "userId": "249586523",
       "userLogin": "naggboi",
@@ -30,6 +44,20 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_naggboi-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/naggboi"
+    },
+    {
+      "id": "318210494311",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Καλημέρα!. Τι θα γίνει θα κάνουμε κανά κλειδί;;! (new drop active) (montly target active)",
+      "viewerCount": 3,
+      "startedAt": "2026-08-24T14:25:08Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
     },
     {
       "id": "318341918693",
