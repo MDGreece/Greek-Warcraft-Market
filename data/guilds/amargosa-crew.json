@@ -39,7 +39,7 @@
     },
     "The Venomous Abyss": {
       "progress": "3/8 H",
-      "WR": "1569",
+      "WR": "2743",
       "GR": "-"
     }
   },
@@ -50,7 +50,14 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Protection",
-        "reports": 4
+        "reports": 5
+      },
+      {
+        "name": "Klampanis",
+        "realm": "Silvermoon",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
       },
       {
         "name": "Scargath",
@@ -64,7 +71,7 @@
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 8
+        "reports": 7
       }
     ],
     "healers": [
@@ -80,14 +87,14 @@
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Eskacerd",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Discipline",
-        "reports": 11
+        "reports": 10
       },
       {
         "name": "Eskandar",
@@ -108,14 +115,28 @@
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 9
+        "reports": 8
+      },
+      {
+        "name": "Pargalatsøs",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Rôôkie",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 4
+        "reports": 5
+      },
+      {
+        "name": "Samielth",
+        "realm": "Draenor",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Shockolady",
@@ -138,14 +159,21 @@
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 9
+        "reports": 8
       },
       {
         "name": "Caeldeth",
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 2
+        "reports": 3
+      },
+      {
+        "name": "Cheerebom",
+        "realm": "Silvermoon",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 1
       },
       {
         "name": "Diïo",
@@ -159,7 +187,7 @@
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Ezkeropoulos",
@@ -173,14 +201,14 @@
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Heralus",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Heyitstony",
@@ -194,7 +222,7 @@
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Joloré",
@@ -222,7 +250,7 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 11
+        "reports": 10
       },
       {
         "name": "Mehiropoulos",
@@ -236,7 +264,7 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 14
+        "reports": 13
       },
       {
         "name": "Moigun",
@@ -250,27 +278,34 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 8
+        "reports": 9
       },
       {
         "name": "Notizio",
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Proxypala",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Psolomouris",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
+        "reports": 2
+      },
+      {
+        "name": "Ramnusia",
+        "realm": "TarrenMill",
+        "class": "DeathKnight",
+        "spec": "Unholy",
         "reports": 1
       },
       {
@@ -281,18 +316,32 @@
         "reports": 4
       },
       {
+        "name": "Reddrragen",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Devastation",
+        "reports": 1
+      },
+      {
         "name": "Rosfrost",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 14
+        "reports": 13
+      },
+      {
+        "name": "Roÿzdk",
+        "realm": "TarrenMill",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 10
       },
       {
         "name": "Runestars",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Saffyrra",
@@ -306,7 +355,7 @@
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Soulsbinder",
@@ -321,16 +370,16 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Amargosa%20Crew",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-23T15:27:11.770Z"
+    "lastUpdated": "2026-08-24T20:54:41.837Z"
   },
-  "rosterUpdatedAt": "2026-08-23T15:27:21.075Z",
+  "rosterUpdatedAt": "2026-08-24T20:54:56.323Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 806903,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 201,
+    "verifiedGuildMembers": 205,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Amargosa Crew"
   }

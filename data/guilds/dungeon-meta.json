@@ -38,8 +38,8 @@
       "GR": "16"
     },
     "The Venomous Abyss": {
-      "progress": "5/8 N",
-      "WR": "8943",
+      "progress": "7/8 N",
+      "WR": "5874",
       "GR": "-"
     }
   },
@@ -50,21 +50,14 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Deathrip",
         "realm": "ArgentDawn",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 2
-      },
-      {
-        "name": "Zell",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Protection",
-        "reports": 2
+        "reports": 4
       }
     ],
     "healers": [
@@ -80,30 +73,37 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Totemkin",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Tyxh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 2
+        "reports": 4
       }
     ],
     "dps": [
+      {
+        "name": "Depon",
+        "realm": "Genjuros",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 2
+      },
       {
         "name": "Gornivor",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Iirene",
@@ -117,6 +117,13 @@
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
+        "reports": 4
+      },
+      {
+        "name": "Kalokoh",
+        "realm": "TarrenMill",
+        "class": "Mage",
+        "spec": "Arcane",
         "reports": 2
       },
       {
@@ -124,6 +131,13 @@
         "realm": "Draenor",
         "class": "Warlock",
         "spec": "Destruction",
+        "reports": 4
+      },
+      {
+        "name": "Loxagoula",
+        "realm": "Kazzak",
+        "class": "DeathKnight",
+        "spec": "Unholy",
         "reports": 2
       },
       {
@@ -138,7 +152,7 @@
         "realm": "Karazhan",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Necral",
@@ -155,18 +169,25 @@
         "reports": 2
       },
       {
-        "name": "Nimprethil",
-        "realm": "BronzeDragonflight",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 2
-      },
-      {
         "name": "Trabakoulas",
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
+        "reports": 4
+      },
+      {
+        "name": "Wolfel",
+        "realm": "Ragnaros",
+        "class": "Hunter",
+        "spec": "BeastMastery",
         "reports": 2
+      },
+      {
+        "name": "Zell",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 4
       }
     ]
   },
@@ -174,15 +195,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-23T15:27:11.772Z"
+    "lastUpdated": "2026-08-24T20:54:41.839Z"
   },
-  "rosterUpdatedAt": "2026-08-23T15:27:51.327Z",
+  "rosterUpdatedAt": "2026-08-24T20:55:39.781Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 2,
+    "reportsChecked": 4,
     "verifiedGuildMembers": 353,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Dungeon Meta"

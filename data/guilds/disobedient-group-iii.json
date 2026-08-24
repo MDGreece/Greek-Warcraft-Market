@@ -52,10 +52,17 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 12
+        "reports": 11
       }
     ],
     "healers": [
+      {
+        "name": "Fakecastt",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
+      },
       {
         "name": "Hugepenances",
         "realm": "TwistingNether",
@@ -77,14 +84,28 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 1
+        "reports": 2
+      },
+      {
+        "name": "Deyaneira",
+        "realm": "Stormscale",
+        "class": "Evoker",
+        "spec": "Augmentation",
+        "reports": 11
       },
       {
         "name": "Foúska",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 12
+        "reports": 11
+      },
+      {
+        "name": "Gredush",
+        "realm": "Ragnaros",
+        "class": "Hunter",
+        "spec": "Survival",
+        "reports": 13
       },
       {
         "name": "Nerewarrior",
@@ -116,14 +137,14 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-23T15:27:44.999Z",
+  "rosterUpdatedAt": "2026-08-24T20:55:29.710Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 13,
-    "verifiedGuildMembers": 21,
+    "verifiedGuildMembers": 13,
     "membershipVerification": "Warcraft Logs team + Raider.IO guild",
     "verificationGuild": "Disobedient"
   }

@@ -38,13 +38,20 @@
       "GR": "11"
     },
     "The Venomous Abyss": {
-      "progress": "6/8 N",
-      "WR": "7027",
+      "progress": "1/8 H",
+      "WR": "4008",
       "GR": "-"
     }
   },
   "roster": {
     "tanks": [
+      {
+        "name": "Mojontin",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 2
+      },
       {
         "name": "Therolir",
         "realm": "Sylvanas",
@@ -66,28 +73,21 @@
         "realm": "Silvermoon",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Jisalia",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 1
-      },
-      {
-        "name": "Mojontin",
-        "realm": "Kazzak",
-        "class": "Paladin",
-        "spec": "Holy",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Nantina",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Plutonas",
@@ -108,7 +108,7 @@
         "realm": "ArgentDawn",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Sneakakos",
@@ -122,7 +122,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 4
+        "reports": 5
       }
     ],
     "dps": [
@@ -131,28 +131,28 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Akeginu",
         "realm": "Kazzak",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 3
+        "reports": 4
       },
       {
         "name": "Asimaroth",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Bórk",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Deecayed",
@@ -172,8 +172,8 @@
         "name": "Ephydatia",
         "realm": "TwistingNether",
         "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 1
+        "spec": "Frost",
+        "reports": 2
       },
       {
         "name": "Faemon",
@@ -187,35 +187,35 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Heavyshade",
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Melenelol",
         "realm": "Ravenholdt",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Morfesa",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Mythbreaker",
         "realm": "Stormscale",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Mythotsinos",
@@ -229,7 +229,7 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Panoramíx",
@@ -243,13 +243,20 @@
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Raspie",
         "realm": "Silvermoon",
         "class": "Warlock",
-        "spec": "Demonology",
+        "spec": "Destruction",
+        "reports": 2
+      },
+      {
+        "name": "Raynzen",
+        "realm": "Silvermoon",
+        "class": "Warrior",
+        "spec": "Arms",
         "reports": 1
       },
       {
@@ -257,14 +264,14 @@
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Simidouklas",
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 6
+        "reports": 7
       },
       {
         "name": "Tsourdini",
@@ -277,15 +284,15 @@
         "name": "Xamelleon",
         "realm": "Silvermoon",
         "class": "Druid",
-        "spec": "Feral",
-        "reports": 1
+        "spec": "Balance",
+        "reports": 2
       },
       {
         "name": "Xlimitzouras",
         "realm": "Ravenholdt",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Yakionigiri",
@@ -300,6 +307,13 @@
         "class": "Warlock",
         "spec": "Destruction",
         "reports": 3
+      },
+      {
+        "name": "Zeromagus",
+        "realm": "Kazzak",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 1
       }
     ]
   },
@@ -307,16 +321,16 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-23T15:27:11.771Z"
+    "lastUpdated": "2026-08-24T20:54:41.838Z"
   },
-  "rosterUpdatedAt": "2026-08-23T15:27:24.846Z",
+  "rosterUpdatedAt": "2026-08-24T20:55:02.572Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 713880,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 8,
-    "verifiedGuildMembers": 833,
+    "reportsChecked": 9,
+    "verifiedGuildMembers": 835,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Chillers"
   }

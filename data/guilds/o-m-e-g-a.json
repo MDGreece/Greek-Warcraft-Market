@@ -38,8 +38,8 @@
       "GR": "5"
     },
     "The Venomous Abyss": {
-      "progress": "8/8 N",
-      "WR": "508",
+      "progress": "4/8 H",
+      "WR": "2037",
       "GR": "-"
     }
   },
@@ -50,21 +50,21 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Iliovasilema",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Tanchao",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 4
+        "reports": 5
       }
     ],
     "healers": [
@@ -73,7 +73,7 @@
         "realm": "Ravencrest",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Dmentor",
@@ -87,21 +87,21 @@
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Sreclar",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Toolowpala",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 5
+        "reports": 6
       }
     ],
     "dps": [
@@ -110,27 +110,34 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Astaeer",
         "realm": "Lightning'sBlade",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Bananabelf",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Ciradae",
         "realm": "Frostmane",
         "class": "DemonHunter",
         "spec": "Havoc",
+        "reports": 1
+      },
+      {
+        "name": "Dratnosdk",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
         "reports": 1
       },
       {
@@ -141,31 +148,45 @@
         "reports": 4
       },
       {
+        "name": "Ezman",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 1
+      },
+      {
         "name": "Gaby",
         "realm": "Al'Akir",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Highcurse",
         "realm": "Kazzak",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Jithvar",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Lastdrop",
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Arcane",
+        "reports": 2
+      },
+      {
+        "name": "Locksteel",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Destruction",
         "reports": 1
       },
       {
@@ -173,7 +194,7 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Maralyn",
@@ -194,14 +215,14 @@
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Onlybuffs",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 3
+        "reports": 4
       },
       {
         "name": "Øuaøua",
@@ -215,14 +236,14 @@
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Partneas",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 3
+        "reports": 4
       },
       {
         "name": "Pataugia",
@@ -236,14 +257,14 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Richiie",
         "realm": "Stormscale",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Tubobanned",
@@ -258,15 +279,15 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-23T15:27:11.769Z"
+    "lastUpdated": "2026-08-24T20:54:41.836Z"
   },
-  "rosterUpdatedAt": "2026-08-23T15:27:57.714Z",
+  "rosterUpdatedAt": "2026-08-24T20:55:49.102Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 97688,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 5,
+    "reportsChecked": 6,
     "verifiedGuildMembers": 658,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "O M E G A"
