@@ -99,6 +99,72 @@ function getProgressPercent(progress) {
   );
 }
 
+function buildRaiderIoGuildUrl(
+  region,
+  realm,
+  guildName
+) {
+  if (
+    !region ||
+    !realm ||
+    !guildName
+  ) {
+    return "";
+  }
+
+  return (
+    "https://raider.io/guilds/" +
+    encodeURIComponent(
+      String(region).toLowerCase()
+    ) +
+    "/" +
+    encodeURIComponent(
+      String(realm)
+        .trim()
+        .toLowerCase()
+    ) +
+    "/" +
+    encodeURIComponent(
+      String(guildName).trim()
+    )
+  );
+}
+
+
+function buildWowprogressGuildUrl(
+  region,
+  realm,
+  guildName
+) {
+  if (
+    !region ||
+    !realm ||
+    !guildName
+  ) {
+    return "";
+  }
+
+  const wowprogressGuildName =
+    encodeURIComponent(
+      String(guildName).trim()
+    ).replace(/%20/g, "+");
+
+  return (
+    "https://www.wowprogress.com/guild/" +
+    encodeURIComponent(
+      String(region).toLowerCase()
+    ) +
+    "/" +
+    encodeURIComponent(
+      String(realm)
+        .trim()
+        .toLowerCase()
+    ) +
+    "/" +
+    wowprogressGuildName
+  );
+}
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -648,7 +714,66 @@ if (guildRegionElement) {
   guildRegionElement.textContent =
     "EU";
 }
+/*
+ * External guild profile links
+ */
 
+const raiderIoButton =
+  document.getElementById(
+    "guildRaiderIoLink"
+  );
+
+const wowprogressButton =
+  document.getElementById(
+    "guildWowprogressLink"
+  );
+
+const guildRegion =
+  "eu";
+
+const guildRealm =
+  guild.realm ||
+  leaderboardEntry?.realm ||
+  "";
+
+const guildNameForLinks =
+  guild.name || "";
+
+
+if (raiderIoButton) {
+  const raiderIoUrl =
+    buildRaiderIoGuildUrl(
+      guildRegion,
+      guildRealm,
+      guildNameForLinks
+    );
+
+  if (raiderIoUrl) {
+    raiderIoButton.href =
+      raiderIoUrl;
+  } else {
+    raiderIoButton.style.display =
+      "none";
+  }
+}
+
+
+if (wowprogressButton) {
+  const wowprogressUrl =
+    buildWowprogressGuildUrl(
+      guildRegion,
+      guildRealm,
+      guildNameForLinks
+    );
+
+  if (wowprogressUrl) {
+    wowprogressButton.href =
+      wowprogressUrl;
+  } else {
+    wowprogressButton.style.display =
+      "none";
+  }
+}
 
 /*
  * Current raid progression
