@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T20:52:42.771Z",
+  "updatedAt": "2026-08-24T21:31:56.951Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Race to Greek First Marathon - KLIKA Heroic",
-      "viewerCount": 69,
+      "viewerCount": 84,
       "startedAt": "2026-08-24T16:32:02Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
-    {
-      "id": "318411224166",
-      "userId": "219637144",
-      "userLogin": "fountas_4",
-      "userName": "fountas_4",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<Cursed Gifts> Season 2 The Venomous Abyss Splits HC into Mythic?",
-      "viewerCount": 13,
-      "startedAt": "2026-08-24T17:34:55Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fountas_4"
     },
     {
       "id": "318407526758",
@@ -39,39 +25,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | Κλειδια και αντικλειδια | GREEK GOD WARR Gameplay | Keys and Heroic Raid Later |",
-      "viewerCount": 12,
+      "viewerCount": 16,
       "startedAt": "2026-08-24T11:31:39Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "318346797669",
-      "userId": "124321891",
-      "userLogin": "dmentor21",
-      "userName": "Dmentor21",
+      "id": "318347504101",
+      "userId": "499700108",
+      "userLogin": "somacruzztv",
+      "userName": "SomaCruzzTv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "<O M E G A> - Mythic Season 2 Midnight Heroic Raid",
-      "viewerCount": 12,
-      "startedAt": "2026-08-24T16:55:37Z",
+      "title": "Disobedient G3 Ο ΔΡΟΜΟΣ ΕΙΝΑΙ ΕΥΘΕΙΑ",
+      "viewerCount": 13,
+      "startedAt": "2026-08-24T17:46:41Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/dmentor21"
-    },
-    {
-      "id": "318213136999",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GR | <Disobedient> | Day 2 Heroic Raid | Aidsventura | Holy PoV",
-      "viewerCount": 11,
-      "startedAt": "2026-08-24T18:10:33Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_somacruzztv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/somacruzztv"
     },
     {
       "id": "318411823462",
@@ -88,20 +60,6 @@
       "twitchUrl": "https://www.twitch.tv/gredush"
     },
     {
-      "id": "317542266978",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "\"K L I K A\" Raid Deadgetogether",
-      "viewerCount": 9,
-      "startedAt": "2026-08-24T13:52:55Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
-    },
-    {
       "id": "318213332455",
       "userId": "152091492",
       "userLogin": "nok_kan",
@@ -114,48 +72,6 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318409273062",
-      "userId": "476358726",
-      "userLogin": "chainburned",
-      "userName": "chainburned",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "(ENG/GR) |🔥 ΕΜ ΠΛΑΣ 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 4,
-      "startedAt": "2026-08-24T14:57:43Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chainburned"
-    },
-    {
-      "id": "318213576295",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ela kalispera file!",
-      "viewerCount": 4,
-      "startedAt": "2026-08-24T18:44:28Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318347504101",
-      "userId": "499700108",
-      "userLogin": "somacruzztv",
-      "userName": "SomaCruzzTv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Disobedient G3 Ο ΔΡΟΜΟΣ ΕΙΝΑΙ ΕΥΘΕΙΑ",
-      "viewerCount": 3,
-      "startedAt": "2026-08-24T17:46:41Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_somacruzztv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/somacruzztv"
     },
     {
       "id": "318213463655",
@@ -172,46 +88,18 @@
       "twitchUrl": "https://www.twitch.tv/etheriel7"
     },
     {
-      "id": "318211929191",
-      "userId": "135725735",
-      "userLogin": "tanchao",
-      "userName": "Tanchao",
+      "id": "318213576295",
+      "userId": "146179989",
+      "userLogin": "tellostv",
+      "userName": "Tellostv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[!DROPS] Heroic Venomous Abyss | O M E G A | Tank POV",
+      "title": "Ela kalispera file!",
       "viewerCount": 2,
-      "startedAt": "2026-08-24T16:43:06Z",
+      "startedAt": "2026-08-24T18:44:28Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tanchao"
-    },
-    {
-      "id": "318212089703",
-      "userId": "42401887",
-      "userLogin": "eragek",
-      "userName": "erageK",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<OMEGA> Raid Prog Heroic AOTC Πρωτο week inc?? | Ο χειρότερος enha της ομαδας",
-      "viewerCount": 1,
-      "startedAt": "2026-08-24T16:55:51Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/eragek"
-    },
-    {
-      "id": "317579823971",
-      "userId": "69437255",
-      "userLogin": "mipolol",
-      "userName": "Mipolol",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
-      "viewerCount": 1,
-      "startedAt": "2026-08-24T18:04:30Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mipolol"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tellostv"
     }
   ]
 }
