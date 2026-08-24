@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-08-24T07:17:54.187Z",
+  "updatedAt": "2026-08-24T08:08:34.465Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
+    {
+      "id": "318341979365",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🟦NEW DROPS🟦  m+ Raid 8/8 Normal  🔥Blood DK ✅-DH-GUARDIAN-brewmaster)",
+      "viewerCount": 10,
+      "startedAt": "2026-08-24T07:41:54Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
     {
       "id": "318341257829",
       "userId": "41801202",
@@ -16,6 +30,20 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318341918693",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "ss noob games",
+      "viewerCount": 3,
+      "startedAt": "2026-08-24T07:29:24Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
     }
   ]
 }
