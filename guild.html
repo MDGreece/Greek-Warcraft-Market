@@ -1,99 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Guild Profile - Greek Warcraft Market</title>
-  <link rel="stylesheet" href="style.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Guild Profile - Greek Warcraft Market
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 </head>
+
 
 <body>
 
+
 <header>
-  <!-- You can copy your full header from index.html here later -->
+  <!-- Full site header can be copied here later -->
 </header>
-<div class="breadcrumb">
-    <a href="index.html">Home</a>
-    <span>›</span>
-    <a href="guilds.html">Guilds</a>
-    <span>›</span>
-    <span id="guildNameBreadcrumb">Loading...</span>
-</div>
+
+
 <main class="guild-profile-page">
 
-  <section class="guild-profile-top">
-    <h1 id="guildName">Loading guild...</h1>
 
-    <div class="guild-logo-placeholder" id="guildLogo">
-      <div class="placeholder-icon">🛡️</div>
-      <p>Logo Placeholder</p>
-    </div>
+  <!-- =========================================
+       BACK LINK
+       ========================================= -->
 
-    <div class="guild-awards">
-      <div class="award-card">
-        <img src="./assets/medals/rank1.png" alt="Rank 1">
-        <div class="award-count">x<span id="rank1Wins">0</span></div>
+  <div class="guild-profile-back">
+
+    <a href="guilds.html">
+      ‹ Back to Rankings
+    </a>
+
+  </div>
+
+
+  <!-- =========================================
+       COMPACT GUILD HEADER
+       ========================================= -->
+
+  <section class="guild-profile-header">
+
+
+    <!-- LEFT: LOGO -->
+
+    <div
+      class="guild-profile-logo"
+      id="guildLogo"
+    >
+
+      <div class="placeholder-icon">
+        🛡️
       </div>
 
-      <div class="award-card">
-        <img src="./assets/medals/rank2.png" alt="Rank 2">
-        <div class="award-count">x<span id="rank2Wins">0</span></div>
+    </div>
+
+
+    <!-- CENTER: IDENTITY -->
+
+    <div class="guild-profile-identity">
+
+
+      <h1 id="guildName">
+        Loading guild...
+      </h1>
+
+
+      <div class="guild-profile-realm">
+
+        <span id="guildRealm">
+          Realm
+        </span>
+
+        <span class="guild-profile-dot">
+          •
+        </span>
+
+        <span id="guildRegion">
+          EU
+        </span>
+
       </div>
 
-      <div class="award-card">
-        <img src="./assets/medals/rank3.png" alt="Rank 3">
-        <div class="award-count">x<span id="rank3Wins">0</span></div>
+
+      <!-- EXTERNAL LINKS -->
+
+      <div class="guild-profile-links">
+
+        <a
+          id="guildRaiderIoLink"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="guild-external-link guild-raiderio-link"
+        >
+          Raider.IO
+        </a>
+
+
+        <a
+          id="guildWowprogressLink"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="guild-external-link guild-wowprogress-link"
+        >
+          Wowprogress
+        </a>
+
       </div>
+
+
+      <!-- MEDALS -->
+
+      <div class="guild-awards">
+
+
+        <div class="award-card">
+
+          <img
+            src="./assets/medals/rank1.png"
+            alt="Rank 1"
+          >
+
+          <div class="award-count">
+            x<span id="rank1Wins">0</span>
+          </div>
+
+        </div>
+
+
+        <div class="award-card">
+
+          <img
+            src="./assets/medals/rank2.png"
+            alt="Rank 2"
+          >
+
+          <div class="award-count">
+            x<span id="rank2Wins">0</span>
+          </div>
+
+        </div>
+
+
+        <div class="award-card">
+
+          <img
+            src="./assets/medals/rank3.png"
+            alt="Rank 3"
+          >
+
+          <div class="award-count">
+            x<span id="rank3Wins">0</span>
+          </div>
+
+        </div>
+
+
+      </div>
+
     </div>
+
+
+    <!-- RIGHT: GUILD INFO -->
+
+    <div class="guild-profile-info">
+
+
+      <div class="guild-profile-info-item">
+
+        <div class="guild-profile-info-icon">
+          ⚑
+        </div>
+
+        <div>
+
+          <div class="guild-profile-info-label">
+            Established
+          </div>
+
+          <div
+            class="guild-profile-info-value"
+            id="guildEstablished"
+          >
+            -
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="guild-profile-info-item">
+
+        <div class="guild-profile-info-icon">
+          ▣
+        </div>
+
+        <div>
+
+          <div class="guild-profile-info-label">
+            Weekly Schedule
+          </div>
+
+          <div
+            class="guild-profile-info-value"
+            id="weeklySchedule"
+          >
+            -
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="guild-profile-info-item">
+
+        <div class="guild-profile-info-icon">
+          ◷
+        </div>
+
+        <div>
+
+          <div class="guild-profile-info-label">
+            Raid Times
+          </div>
+
+          <div
+            class="guild-profile-info-value"
+            id="RaidTimes"
+          >
+            -
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- RECRUITMENT -->
+
+    <div class="guild-recruitment-card">
+
+      <div class="guild-recruitment-title">
+        Recruitment
+      </div>
+
+      <div
+        class="guild-recruitment-content"
+        id="guildRecruitment"
+      >
+        —
+      </div>
+
+      <div class="guild-recruitment-placeholder">
+        coming soon
+      </div>
+
+    </div>
+
+
   </section>
 
-  <section class="guild-info-grid">
-    <div class="info-card">
-      <h3>Est.</h3>
-      <p id="guildEstablished">Date placeholder</p>
-    </div>
 
-    <div class="info-card">
-      <h3>Weekly Schedule</h3>
-      <p id="weeklySchedule">Days placeholder</p>
-    </div>
+  <!-- Hidden breadcrumb text kept for current JS compatibility -->
 
-    <div class="info-card">
-      <h3>Raid Times</h3>
-      <p id="RaidTimes">Time placeholder</p>
-    </div>
-  </section>
+  <span
+    id="guildNameBreadcrumb"
+    hidden
+  >
+    Loading...
+  </span>
 
-  <section class="expansions-section">
-    <h2>Raid History</h2>
 
-    <div class="expansion-grid" id="expansionGrid">
-      <!-- Expansion boxes will load here -->
-    </div>
-  </section>
+  <!-- =========================================
+       MAIN GUILD DASHBOARD
+       ========================================= -->
 
-  <section class="guild-box">
-    <h2>Roster</h2>
+  <div class="guild-dashboard-grid">
+
+
+    <!-- =========================================
+         RAID PROGRESSION
+         ========================================= -->
+
+    <section class="guild-dashboard-card guild-current-progress">
+
+      <h2>
+        Raid Progression
+      </h2>
+
+
+      <div class="guild-current-progress-inner">
+
+
+        <h3 id="currentRaidName">
+          The Venomous Abyss
+        </h3>
+
+
+        <div class="guild-progress-summary">
+
+
+          <div class="guild-progress-main">
+
+            <div
+              class="guild-current-progress-number"
+              id="currentProgress"
+            >
+              -
+            </div>
+
+          </div>
+
+
+          <div class="guild-progress-stat">
+
+            <span>
+              World Rank
+            </span>
+
+            <strong id="currentWorldRank">
+              —
+            </strong>
+
+          </div>
+
+
+          <div class="guild-progress-stat">
+
+            <span>
+              Greek Rank
+            </span>
+
+            <strong id="currentGreekRank">
+              —
+            </strong>
+
+          </div>
+
+
+          <div class="guild-progress-stat">
+
+            <span>
+              Progression Pulls
+            </span>
+
+            <strong id="currentProgressionPulls">
+              —
+            </strong>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="guild-current-progress-bar">
+
+          <div
+            class="guild-current-progress-bar-fill"
+            id="currentProgressBar"
+          >
+          </div>
+
+        </div>
+
+
+        <div
+          class="guild-current-progress-percent"
+          id="currentProgressPercent"
+        >
+          0%
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         RAID HISTORY
+         ========================================= -->
+
+    <section class="guild-dashboard-card expansions-section">
+
+      <h2>
+        Raid History
+      </h2>
+
+
+      <div
+        class="expansion-grid"
+        id="expansionGrid"
+      >
+        <!-- Existing guild-profile.js loads raid history here -->
+      </div>
+
+    </section>
+
+
+  </div>
+
+
+  <!-- =========================================
+       ROSTER
+       ========================================= -->
+
+  <section class="guild-dashboard-card guild-box">
+
+    <h2>
+      Roster
+    </h2>
+
 
     <div class="roster-grid">
-      <div class="roster-column">
-        <h3>🛡️Tanks</h3>
-        <ul id="tankRoster"></ul>
-      </div>
+
+
+      <!-- TANKS -->
 
       <div class="roster-column">
-        <h3>✚Healers</h3>
-        <ul id="healerRoster"></ul>
+
+        <h3>
+          🛡️ Tanks
+        </h3>
+
+        <ul id="tankRoster">
+        </ul>
+
       </div>
 
+
+      <!-- HEALERS -->
+
       <div class="roster-column">
-        <h3>⚔️DPS</h3>
-        <ul id="dpsRoster"></ul>
+
+        <h3>
+          ✚ Healers
+        </h3>
+
+        <ul id="healerRoster">
+        </ul>
+
       </div>
+
+
+      <!-- DPS -->
+
+      <div class="roster-column">
+
+        <h3>
+          ⚔️ DPS
+        </h3>
+
+        <ul id="dpsRoster">
+        </ul>
+
+      </div>
+
+
     </div>
+
   </section>
 
+
 </main>
+
+
 <script src="guild-profile.js"></script>
 
+
 </body>
+
 </html>
