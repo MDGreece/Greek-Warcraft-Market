@@ -2,6 +2,7 @@ const fs = require("fs");
 
 const raiderPath = "data/guildsio.json";
 const logsPath = "data/warcraftlogs-groups.json";
+const guildProfilesDir = "data/guilds";
 const outputPath = "data/leaderboard.json";
 
 /*
@@ -40,6 +41,32 @@ function readJson(filePath) {
   return JSON.parse(
     fs.readFileSync(filePath, "utf8")
   );
+  function getGuildLogo(id) {
+  if (!id) {
+    return "";
+  }
+
+  const profilePath =
+    `${guildProfilesDir}/${id}.json`;
+
+  if (!fs.existsSync(profilePath)) {
+    return "";
+  }
+
+  try {
+    const profile =
+      readJson(profilePath);
+
+    return profile.logo || "";
+  } catch (error) {
+    console.warn(
+      `Could not read guild logo for ${id}: ` +
+      error.message
+    );
+
+    return "";
+  }
+}
 }
 
 function slugifyId(name) {
@@ -507,16 +534,21 @@ function buildRaiderRow(
   const isCE =
     progress === "CE";
 
-  return {
-    id:
-      guild.id ||
-      slugifyId(guild.name),
+const id =
+  guild.id ||
+  slugifyId(guild.name);
 
-    name:
-      guild.name,
+return {
+  id,
 
-    type:
-      "guild",
+  name:
+    guild.name,
+
+  logo:
+    getGuildLogo(id),
+
+  type:
+    "guild",
 
     realm:
       guild.realm || "",
@@ -599,16 +631,21 @@ function buildLogRow(group) {
       ? suppliedWorldRank
       : DEFAULT_WORLD_RANK;
 
-  return {
-    id:
-      group.id,
+return {
+  id:
+    group.id,
 
-    name:
-      group.name,
+  name:
+    group.name,
 
-    type:
-      group.type ||
-      "raid-team",
+  logo:
+    getGuildLogo(
+      group.id
+    ),
+
+  type:
+    group.type ||
+    "raid-team",
 
     realm:
       group.realm || "",
