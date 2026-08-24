@@ -529,6 +529,11 @@ function buildRaiderRow(
 
     progress,
 
+    pulls:
+  Number(
+    logGroup?.progressionPulls || 0
+  ),
+
     /*
      * CE guilds show their world rank.
      *
@@ -615,6 +620,11 @@ function buildLogRow(group) {
       CURRENT_RAID,
 
     progress,
+
+  pulls:
+  Number(
+    group.progressionPulls || 0
+  ),
 
     bossProg:
       isCE
