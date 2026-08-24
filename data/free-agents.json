@@ -19,7 +19,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
     "lastSeenInRosterAt": "2026-08-23T13:11:13.645Z",
-    "updatedAt": "2026-08-24T02:09:39.244Z",
+    "updatedAt": "2026-08-24T07:39:46.878Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Night Elf",
@@ -35,12 +35,12 @@
     "raiderIoUpdatedAt": "2026-08-23T17:44:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:09:39.244Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:39:46.878Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "kazzak-elloon",
@@ -64,7 +64,7 @@
     "itemLevel": 305.125,
     "raidProgress": "4/8H",
     "achievement": "-",
-    "updatedAt": "2026-08-24T02:09:55.851Z",
+    "updatedAt": "2026-08-24T07:40:04.674Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -78,12 +78,12 @@
     "raidKills": 4,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-08-23T22:57:41.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:09:55.851Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:40:04.674Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "O M E G A",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "twistingnether-madmak",
@@ -105,7 +105,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:11:27.821Z",
+    "updatedAt": "2026-08-24T07:41:34.938Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Orc",
@@ -121,12 +121,12 @@
     "raiderIoUpdatedAt": "2026-08-23T14:34:25.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:11:27.821Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:41:34.938Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "O M E G A",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "draenor-necros",
@@ -148,7 +148,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:12:06.128Z",
+    "updatedAt": "2026-08-24T07:42:10.290Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Orc",
@@ -164,12 +164,12 @@
     "raiderIoUpdatedAt": "2026-08-23T22:04:02.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:12:06.128Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:42:10.290Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "bronzedragonflight-nimprethil",
@@ -185,8 +185,8 @@
     "rosterUpdatedAt": "2026-08-23T15:27:51.327Z",
     "inCurrentRoster": true,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
-    "lastSeenInRosterAt": "2026-08-24T02:08:09.730Z",
-    "updatedAt": "2026-08-24T02:12:11.673Z",
+    "lastSeenInRosterAt": "2026-08-24T07:38:21.091Z",
+    "updatedAt": "2026-08-24T07:42:14.263Z",
     "guild": "Aurora XV",
     "raiderIoUrl": "https://raider.io/characters/eu/bronze-dragonflight/Nimprethil",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/bronze-dragonflight/Nimprethil",
@@ -207,12 +207,12 @@
     "raidKills": 6,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-08-24T00:17:36.000Z",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:12:11.673Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:42:14.263Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Dungeon Meta",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "twistingnether-pastillia",
@@ -234,7 +234,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:12:30.788Z",
+    "updatedAt": "2026-08-24T07:42:33.810Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -250,12 +250,12 @@
     "raiderIoUpdatedAt": "2026-08-16T03:09:01.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:12:30.788Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:42:33.810Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "twistingnether-swmatemporos",
@@ -277,7 +277,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:13:43.809Z",
+    "updatedAt": "2026-08-24T07:43:44.861Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -293,12 +293,12 @@
     "raiderIoUpdatedAt": "2026-08-23T13:09:15.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:13:43.809Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:43:44.861Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "draenor-thanatos",
@@ -320,7 +320,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:13:48.637Z",
+    "updatedAt": "2026-08-24T07:43:49.331Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -336,12 +336,12 @@
     "raiderIoUpdatedAt": "2026-08-20T15:06:10.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:13:48.637Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:43:49.331Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "ravencrest-voras",
@@ -363,7 +363,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
     "lastSeenInRosterAt": "2026-08-23T13:11:13.645Z",
-    "updatedAt": "2026-08-24T02:14:13.471Z",
+    "updatedAt": "2026-08-24T07:44:12.997Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -379,12 +379,12 @@
     "raiderIoUpdatedAt": "2026-08-17T23:48:58.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:14:13.471Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:44:12.997Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   },
   {
     "id": "tarrenmill-zaks",
@@ -406,7 +406,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-08-24T02:14:30.294Z",
+    "updatedAt": "2026-08-24T07:44:32.360Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -422,11 +422,11 @@
     "raiderIoUpdatedAt": "2026-08-20T15:17:09.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-08-24T02:14:30.294Z",
+    "lastSuccessfulUpdateAt": "2026-08-24T07:44:32.360Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "SOE Reborn",
-    "freeAgentSince": "2026-08-24T02:14:36.126Z",
-    "freeAgentUpdatedAt": "2026-08-24T02:14:36.126Z"
+    "freeAgentSince": "2026-08-24T07:44:37.839Z",
+    "freeAgentUpdatedAt": "2026-08-24T07:44:37.839Z"
   }
 ]
