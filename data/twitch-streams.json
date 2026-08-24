@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T21:58:42.320Z",
+  "updatedAt": "2026-08-24T22:36:32.353Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Race to Greek First Marathon - KLIKA Heroic",
-      "viewerCount": 79,
+      "viewerCount": 66,
       "startedAt": "2026-08-24T16:32:02Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
-    {
-      "id": "318407526758",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | Κλειδια και αντικλειδια | GREEK GOD WARR Gameplay | Keys and Heroic Raid Later |",
-      "viewerCount": 14,
-      "startedAt": "2026-08-24T11:31:39Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     }
   ]
 }
