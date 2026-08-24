@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-08-24T23:00:07.519Z",
+  "updatedAt": "2026-08-24T23:32:35.982Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318410366182",
-      "userId": "166949280",
-      "userLogin": "jokersmiles",
-      "userName": "jokersmiles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Race to Greek First Marathon - KLIKA Heroic",
-      "viewerCount": 60,
-      "startedAt": "2026-08-24T16:32:02Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    }
-  ]
+  "streams": []
 }
