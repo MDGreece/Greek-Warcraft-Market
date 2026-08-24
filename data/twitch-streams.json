@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T21:31:56.951Z",
+  "updatedAt": "2026-08-24T21:58:42.320Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,7 +11,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Race to Greek First Marathon - KLIKA Heroic",
-      "viewerCount": 84,
+      "viewerCount": 79,
       "startedAt": "2026-08-24T16:32:02Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
@@ -25,81 +25,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | Κλειδια και αντικλειδια | GREEK GOD WARR Gameplay | Keys and Heroic Raid Later |",
-      "viewerCount": 16,
+      "viewerCount": 14,
       "startedAt": "2026-08-24T11:31:39Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318347504101",
-      "userId": "499700108",
-      "userLogin": "somacruzztv",
-      "userName": "SomaCruzzTv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Disobedient G3 Ο ΔΡΟΜΟΣ ΕΙΝΑΙ ΕΥΘΕΙΑ",
-      "viewerCount": 13,
-      "startedAt": "2026-08-24T17:46:41Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_somacruzztv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/somacruzztv"
-    },
-    {
-      "id": "318411823462",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Raid time.",
-      "viewerCount": 9,
-      "startedAt": "2026-08-24T18:17:01Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
-    },
-    {
-      "id": "318213332455",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "φιδιαφιδιαφιδιαφιδιαφιδιαφιδιαφιδιαφιδια",
-      "viewerCount": 5,
-      "startedAt": "2026-08-24T18:25:27Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318213463655",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> Back home! HC raid!",
-      "viewerCount": 2,
-      "startedAt": "2026-08-24T18:35:08Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
-    },
-    {
-      "id": "318213576295",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ela kalispera file!",
-      "viewerCount": 2,
-      "startedAt": "2026-08-24T18:44:28Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
     }
   ]
 }
