@@ -567,6 +567,84 @@ function getCurrentProgressionBoss(fights) {
   };
 }
 
+function getProgressionPulls(fights) {
+  /*
+   * Count only progression pulls for the selected difficulty.
+   *
+   * For every boss:
+   *
+   * 1. Sort attempts chronologically.
+   * 2. Count every attempt until the FIRST kill.
+   * 3. Count the first kill itself as a pull.
+   * 4. Ignore every reclear attempt after that first kill.
+   *
+   * If the boss has not been killed yet,
+   * every attempt counts as progression.
+   */
+
+  const bossAttempts =
+    new Map();
+
+  for (const fight of fights) {
+    const bossName =
+      fight.canonicalBossName;
+
+    if (!bossName) {
+      continue;
+    }
+
+    if (!bossAttempts.has(bossName)) {
+      bossAttempts.set(
+        bossName,
+        []
+      );
+    }
+
+    bossAttempts
+      .get(bossName)
+      .push(fight);
+  }
+
+
+  let totalPulls = 0;
+
+
+  for (
+    const attempts
+    of bossAttempts.values()
+  ) {
+
+    attempts.sort(
+      (a, b) =>
+        Number(a.absoluteStartTime || 0) -
+        Number(b.absoluteStartTime || 0)
+    );
+
+
+    for (const attempt of attempts) {
+
+      totalPulls += 1;
+
+
+      /*
+       * First kill ends progression
+       * for this boss.
+       *
+       * Everything after this is a
+       * reclear and is ignored.
+       */
+      if (attempt.kill) {
+        break;
+      }
+
+    }
+
+  }
+
+
+  return totalPulls;
+}
+
 function countCurrentRaidReports(fights) {
   return new Set(
     fights
@@ -632,6 +710,31 @@ async function updateGroup(
   let raidKills =
     difficulty.kills;
 
+  let progressionPulls =
+  getProgressionPulls(
+    difficulty.fights
+  );
+
+  const storedProgressionPulls =
+  (
+    group.raidKey === CURRENT_RAID_KEY &&
+    group.raidDifficultySuffix ===
+      difficulty.suffix
+  )
+    ? Number(
+        group.progressionPulls || 0
+      )
+    : 0;
+
+
+if (
+  storedProgressionPulls >
+  progressionPulls
+) {
+  progressionPulls =
+    storedProgressionPulls;
+}
+  
   let progression;
 
   /*
@@ -790,6 +893,8 @@ raidKills >= TOTAL_BOSSES
 
     raidKills,
 
+    progressionPulls,
+    
     totalReports:
       reports.length,
 
