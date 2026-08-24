@@ -232,44 +232,368 @@ nav a.active {
   font-weight: bold;
   text-transform: uppercase;
 }
+/* =========================================================
+   GREEK GUILD LEADERBOARD
+   Raider.IO inspired layout
+   ========================================================= */
+
 .guild-table {
-  max-width: 1400px;
-  margin: 40px auto;
-  padding: 20px;
+  width: min(1500px, calc(100% - 40px));
+  margin: 38px auto 70px;
+  padding: 0;
 }
 
 .guild-table h1 {
+  margin: 0 0 24px;
+
   color: #f0b90b;
-  margin-bottom: 25px;
+
+  font-size: 2rem;
+  font-weight: 900;
 }
+
+
+/* =========================
+   TABLE
+   ========================= */
 
 .guild-table table {
   width: 100%;
-  border-collapse: collapse;
-  background: #101820;
+
+  border-collapse: separate;
+  border-spacing: 0 8px;
+
+  background: transparent;
 }
 
-.guild-table th {
-  background: #d4af37;
-  color: #07111f;
-  padding: 18px;
-  font-size: 18px;
+
+/* =========================
+   HEADER
+   ========================= */
+
+.guild-table thead th {
+  padding: 12px 18px;
+
+  color: #8fa3b9;
+
+  background: transparent;
+
+  font-size: 0.75rem;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-align: left;
+  text-transform: uppercase;
 }
 
-.guild-table td {
-  padding: 16px;
-  border-bottom: 1px solid #263a59;
-}
 
-.guild-table tr:hover {
-  background: #1b2b45;
-}
+/* Rank */
 
-.guild-table td:first-child {
+.guild-table thead th:nth-child(1) {
+  width: 70px;
   text-align: center;
-  width: 80px;
-  font-size: 24px;
-  font-weight: bold;
+}
+
+
+/* Guild */
+
+.guild-table thead th:nth-child(2) {
+  width: 34%;
+}
+
+
+/* Progress */
+
+.guild-table thead th:nth-child(3) {
+  width: 18%;
+}
+
+
+/* Boss progress */
+
+.guild-table thead th:nth-child(4) {
+  width: 28%;
+}
+
+
+/* Pulls */
+
+.guild-table thead th:nth-child(5) {
+  width: 120px;
+  text-align: right;
+}
+
+
+/* =========================
+   GUILD ROW
+   ========================= */
+
+.guild-table tbody tr {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(13, 26, 43, 0.96),
+      rgba(9, 19, 33, 0.96)
+    );
+
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+
+/*
+ * Floating / colour-change effect
+ * when the mouse is over a guild.
+ */
+
+.guild-table tbody tr:hover {
+  transform: translateY(-3px);
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(19, 42, 70, 0.98),
+      rgba(12, 30, 52, 0.98)
+    );
+
+  box-shadow:
+    0 10px 26px
+    rgba(0, 0, 0, 0.32);
+}
+
+
+/* =========================
+   CELLS
+   ========================= */
+
+.guild-table tbody td {
+  padding: 15px 18px;
+
+  color: #dce5ef;
+
+  border-top:
+    1px solid rgba(90, 130, 170, 0.22);
+
+  border-bottom:
+    1px solid rgba(90, 130, 170, 0.22);
+
+  font-size: 0.95rem;
+
+  vertical-align: middle;
+}
+
+
+/* Left rounded edge */
+
+.guild-table tbody td:first-child {
+  border-left:
+    1px solid rgba(90, 130, 170, 0.22);
+
+  border-radius: 9px 0 0 9px;
+
+  text-align: center;
+
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+
+/* Right rounded edge */
+
+.guild-table tbody td:last-child {
+  border-right:
+    1px solid rgba(90, 130, 170, 0.22);
+
+  border-radius: 0 9px 9px 0;
+}
+
+
+/* =========================
+   RANK
+   ========================= */
+
+.guild-rank {
+  display: inline-grid;
+
+  width: 34px;
+  height: 34px;
+
+  place-items: center;
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, 0.055);
+
+  color: #c5d1df;
+
+  font-weight: 900;
+}
+
+
+/* =========================
+   GUILD
+   ========================= */
+
+.guild-ranking-name {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  min-width: 0;
+}
+
+
+/* Guild logo if one exists */
+
+.guild-ranking-logo {
+  width: 46px;
+  height: 46px;
+
+  flex: 0 0 46px;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+
+  background:
+    rgba(5, 12, 22, 0.65);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.1);
+
+  transition:
+    transform 0.18s ease,
+    filter 0.18s ease;
+}
+
+
+/*
+ * Logo grows slightly when
+ * hovering over the guild row.
+ */
+
+.guild-table tbody tr:hover
+.guild-ranking-logo {
+  transform: scale(1.10);
+
+  filter: brightness(1.12);
+}
+
+
+.guild-link {
+  color: #4d9aff;
+
+  text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 800;
+
+  transition:
+    color 0.18s ease;
+}
+
+
+.guild-table tbody tr:hover
+.guild-link {
+  color: #73b7ff;
+}
+
+
+/* =========================
+   PROGRESS
+   ========================= */
+
+.guild-progress {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+
+/* Cutting Edge */
+
+.progress-ce {
+  color: #ffad22;
+}
+
+
+/* Mythic */
+
+.progress-mythic {
+  color: #b366ff;
+}
+
+
+/* Heroic */
+
+.progress-heroic {
+  color: #4aa3ff;
+}
+
+
+/* Normal */
+
+.progress-normal {
+  color: #32e94d;
+}
+
+
+/* =========================
+   BOSS PROGRESS
+   ========================= */
+
+.guild-boss-progress {
+  color: #d7e0eb;
+
+  font-size: 0.9rem;
+}
+
+
+.guild-boss-progress strong {
+  color: #ffffff;
+
+  font-weight: 800;
+}
+
+
+/* =========================
+   PULLS
+   Information only.
+   Does NOT affect ranking.
+   ========================= */
+
+.guild-pulls {
+  color: #8fa3b9;
+
+  font-size: 0.9rem;
+
+  text-align: right;
+
+  white-space: nowrap;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+  .guild-table {
+    width: calc(100% - 18px);
+
+    overflow-x: auto;
+  }
+
+  .guild-table table {
+    min-width: 850px;
+  }
+
 }
 .guild-profile-top {
   text-align: center;
@@ -481,69 +805,7 @@ nav a.active {
 .guild-profile-top .guild-awards {
   gap: 40px !important;
 }
-.guild-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.2s;
-}
 
-.guild-link:hover {
-    color: #f0b90b;
-}
-.guild-table table {
-  width: 100%;
-  border-collapse: collapse;
-  background: rgba(7, 17, 31, 0.85);
-}
-
-.guild-table th {
-  color: white;
-  padding: 22px;
-  font-size: 22px;
-  text-align: center;
-  background: transparent;
-}
-
-.guild-table td {
-  padding: 22px;
-  font-size: 22px;
-  text-align: center;
-  border-bottom: none;
-}
-
-.guild-link {
-  color: #4d8cff;
-  text-decoration: none;
-}
-
-.guild-link:hover {
-  color: #f0b90b;
-}
-
-.progress-ce {
-  color: #ff9800;
-  font-weight: bold;
-}
-
-.progress-ce {
-    color: #ffb100;
-    font-weight: bold;
-}
-
-.progress-mythic {
-    color: #a335ee;
-    font-weight: bold;
-}
-
-.progress-heroic {
-    color: #3b82f6;
-    font-weight: bold;
-}
-
-.progress-normal {
-    color: #1eff00;
-    font-weight: bold;
 }
 .roster-player {
   display: flex;
