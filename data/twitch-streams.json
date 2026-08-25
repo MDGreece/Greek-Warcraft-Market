@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T19:50:52.343Z",
+  "updatedAt": "2026-08-25T20:31:52.842Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,7 +11,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DNG | Savra healer day 2",
-      "viewerCount": 30,
+      "viewerCount": 36,
       "startedAt": "2026-08-25T16:59:32Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
@@ -25,7 +25,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "<O M E G A> - The Venomous Abyss 5/8Hc",
-      "viewerCount": 18,
+      "viewerCount": 21,
       "startedAt": "2026-08-25T16:45:19Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
@@ -39,7 +39,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "The Venomous Abyss HC",
-      "viewerCount": 12,
+      "viewerCount": 15,
       "startedAt": "2026-08-25T19:01:18Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
@@ -53,7 +53,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
-      "viewerCount": 7,
+      "viewerCount": 8,
       "startedAt": "2026-08-25T18:00:50Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
@@ -67,7 +67,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR/EN]Ele Shaman-Pugging Heroic Ulatek",
-      "viewerCount": 3,
+      "viewerCount": 5,
       "startedAt": "2026-08-25T17:35:02Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
@@ -86,20 +86,6 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_senpaya_-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/senpaya_"
-    },
-    {
-      "id": "318421039206",
-      "userId": "476358726",
-      "userLogin": "chainburned",
-      "userName": "chainburned",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 2,
-      "startedAt": "2026-08-25T15:50:23Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chainburned"
     },
     {
       "id": "318357119973",
@@ -128,6 +114,20 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/eragek"
+    },
+    {
+      "id": "318225307495",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "late short stream",
+      "viewerCount": 1,
+      "startedAt": "2026-08-25T19:54:12Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
     }
   ]
 }
