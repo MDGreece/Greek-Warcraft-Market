@@ -1,21 +1,49 @@
 {
-  "updatedAt": "2026-08-25T15:01:34.993Z",
+  "updatedAt": "2026-08-25T15:56:55.056Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318419507814",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
+      "id": "317587155939",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Καλημέρα!. Κανά κλειδί πριν το reset θα κάνουμε τι λέει;;!! {Road to 3.5io}",
-      "viewerCount": 16,
-      "startedAt": "2026-08-25T13:15:51Z",
+      "title": "M+ PUGs, Chill & High Keys 💀",
+      "viewerCount": 14,
+      "startedAt": "2026-08-25T14:53:24Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318420726246",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🟦NEW DROPS🟦 Τελικα θα πατησουμε ?? 🔥Blood DK ✅-DH-GUARDIAN-brewmaster)",
+      "viewerCount": 10,
+      "startedAt": "2026-08-25T15:22:29Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318221720167",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "kalispera! balte kafe kai arakste!",
+      "viewerCount": 5,
+      "startedAt": "2026-08-25T15:44:46Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
     }
   ]
 }
