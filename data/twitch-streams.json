@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-08-25T07:15:35.250Z",
+  "updatedAt": "2026-08-25T08:03:13.390Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "317584150627",
+      "userId": "40831722",
+      "userLogin": "stefpfour",
+      "userName": "Stefpfour",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "New season new Class? !personaltraining EN/GR",
+      "viewerCount": 1,
+      "startedAt": "2026-08-25T07:06:22Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stefpfour-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/stefpfour"
+    }
+  ]
 }
