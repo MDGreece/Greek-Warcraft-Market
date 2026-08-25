@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-08-25T20:31:52.842Z",
+  "updatedAt": "2026-08-25T21:00:58.414Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318358043109",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DNG | Savra healer day 2",
-      "viewerCount": 36,
-      "startedAt": "2026-08-25T16:59:32Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
-    },
     {
       "id": "318222463719",
       "userId": "124321891",
@@ -25,7 +11,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "<O M E G A> - The Venomous Abyss 5/8Hc",
-      "viewerCount": 21,
+      "viewerCount": 32,
       "startedAt": "2026-08-25T16:45:19Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
@@ -39,25 +25,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "The Venomous Abyss HC",
-      "viewerCount": 15,
+      "viewerCount": 16,
       "startedAt": "2026-08-25T19:01:18Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/deghinseatm"
-    },
-    {
-      "id": "317553605602",
-      "userId": "69437255",
-      "userLogin": "mipolol",
-      "userName": "Mipolol",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
-      "viewerCount": 8,
-      "startedAt": "2026-08-25T18:00:50Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mipolol"
     },
     {
       "id": "318358569573",
@@ -67,11 +39,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR/EN]Ele Shaman-Pugging Heroic Ulatek",
-      "viewerCount": 5,
+      "viewerCount": 9,
       "startedAt": "2026-08-25T17:35:02Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "317553605602",
+      "userId": "69437255",
+      "userLogin": "mipolol",
+      "userName": "Mipolol",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
+      "viewerCount": 5,
+      "startedAt": "2026-08-25T18:00:50Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mipolol"
     },
     {
       "id": "318223680231",
@@ -81,25 +67,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "HC raid progress. Kakos arcane mage",
-      "viewerCount": 2,
+      "viewerCount": 5,
       "startedAt": "2026-08-25T18:02:59Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_senpaya_-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/senpaya_"
-    },
-    {
-      "id": "318357119973",
-      "userId": "248154515",
-      "userLogin": "hellachilles",
-      "userName": "Hellachilles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DE/GR/ENG/ DOT-Lock FTW, only meta chasers we dont find groups",
-      "viewerCount": 2,
-      "startedAt": "2026-08-25T15:48:24Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hellachilles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/hellachilles"
     },
     {
       "id": "318222555751",
