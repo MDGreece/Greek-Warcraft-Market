@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T16:46:56.951Z",
+  "updatedAt": "2026-08-25T17:19:36.680Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,11 +11,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "kalispera! balte kafe kai arakste!",
-      "viewerCount": 10,
+      "viewerCount": 16,
       "startedAt": "2026-08-25T15:44:46Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318222463719",
+      "userId": "124321891",
+      "userLogin": "dmentor21",
+      "userName": "Dmentor21",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<O M E G A> - The Venomous Abyss 5/8Hc",
+      "viewerCount": 14,
+      "startedAt": "2026-08-25T16:45:19Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/dmentor21"
     },
     {
       "id": "318420726246",
@@ -25,11 +39,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "🟦NEW DROPS🟦 Τελικα θα πατησουμε ?? 🔥Blood DK ✅-DH-GUARDIAN-brewmaster)",
-      "viewerCount": 9,
+      "viewerCount": 12,
       "startedAt": "2026-08-25T15:22:29Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318358043109",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Savra healer day 2",
+      "viewerCount": 5,
+      "startedAt": "2026-08-25T16:59:32Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
     },
     {
       "id": "318421039206",
@@ -39,7 +67,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 8,
+      "viewerCount": 3,
       "startedAt": "2026-08-25T15:50:23Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
@@ -53,11 +81,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DE/GR/ENG/ DOT-Lock FTW, only meta chasers we dont find groups",
-      "viewerCount": 3,
+      "viewerCount": 2,
       "startedAt": "2026-08-25T15:48:24Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hellachilles-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/hellachilles"
+    },
+    {
+      "id": "318222555751",
+      "userId": "42401887",
+      "userLogin": "eragek",
+      "userName": "erageK",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<O M E G A> Raid Prog Day 2 Heroic | AOTC Πρωτο week inc?? | Ο χειρότερος enha της ομαδας",
+      "viewerCount": 1,
+      "startedAt": "2026-08-25T16:51:46Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/eragek"
     }
   ]
 }
