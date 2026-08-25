@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T14:04:10.283Z",
+  "updatedAt": "2026-08-25T15:01:34.993Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -10,26 +10,12 @@
       "userName": "vroxovatis",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Καλημέρα!. Κανά κλειδί πριν το reset θα κάνουμε τι λέει;;!!  (new drop active) (montly target active)",
-      "viewerCount": 15,
+      "title": "Καλημέρα!. Κανά κλειδί πριν το reset θα κάνουμε τι λέει;;!! {Road to 3.5io}",
+      "viewerCount": 16,
       "startedAt": "2026-08-25T13:15:51Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/vroxovatis"
-    },
-    {
-      "id": "318219060327",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>Filling the Vault on Alts!<<",
-      "viewerCount": 8,
-      "startedAt": "2026-08-25T10:43:37Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
     }
   ]
 }
