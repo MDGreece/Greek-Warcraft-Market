@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-08-25T21:00:58.414Z",
+  "updatedAt": "2026-08-25T21:40:35.610Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318222463719",
-      "userId": "124321891",
-      "userLogin": "dmentor21",
-      "userName": "Dmentor21",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<O M E G A> - The Venomous Abyss 5/8Hc",
-      "viewerCount": 32,
-      "startedAt": "2026-08-25T16:45:19Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/dmentor21"
-    },
     {
       "id": "318423740006",
       "userId": "748432922",
@@ -25,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "The Venomous Abyss HC",
-      "viewerCount": 16,
+      "viewerCount": 17,
       "startedAt": "2026-08-25T19:01:18Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/deghinseatm"
-    },
-    {
-      "id": "318358569573",
-      "userId": "121649091",
-      "userLogin": "necrosgr",
-      "userName": "necrosgr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN]Ele Shaman-Pugging Heroic Ulatek",
-      "viewerCount": 9,
-      "startedAt": "2026-08-25T17:35:02Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/necrosgr"
     },
     {
       "id": "317553605602",
@@ -53,53 +25,39 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
-      "viewerCount": 5,
+      "viewerCount": 8,
       "startedAt": "2026-08-25T18:00:50Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/mipolol"
     },
     {
-      "id": "318223680231",
-      "userId": "58482045",
-      "userLogin": "senpaya_",
-      "userName": "senpaya_",
+      "id": "318358569573",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "HC raid progress. Kakos arcane mage",
-      "viewerCount": 5,
-      "startedAt": "2026-08-25T18:02:59Z",
+      "title": "[GR/EN]Ele Shaman-Pugging Heroic Ulatek",
+      "viewerCount": 8,
+      "startedAt": "2026-08-25T17:35:02Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_senpaya_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/senpaya_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
     },
     {
-      "id": "318222555751",
-      "userId": "42401887",
-      "userLogin": "eragek",
-      "userName": "erageK",
+      "id": "318361306853",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "<O M E G A> Raid Prog Day 2 Heroic | AOTC Πρωτο week inc?? | Ο χειρότερος enha της ομαδας",
-      "viewerCount": 2,
-      "startedAt": "2026-08-25T16:51:46Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/eragek"
-    },
-    {
-      "id": "318225307495",
-      "userId": "95567479",
-      "userLogin": "anacronz",
-      "userName": "anacronz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "late short stream",
+      "title": "Γίνεται της Καλό9γριας",
       "viewerCount": 1,
-      "startedAt": "2026-08-25T19:54:12Z",
+      "startedAt": "2026-08-25T21:11:39Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/anacronz"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
