@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-08-25T08:03:13.390Z",
+  "updatedAt": "2026-08-25T08:57:22.089Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "317584150627",
-      "userId": "40831722",
-      "userLogin": "stefpfour",
-      "userName": "Stefpfour",
+      "id": "318417524070",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "New season new Class? !personaltraining EN/GR",
-      "viewerCount": 1,
-      "startedAt": "2026-08-25T07:06:22Z",
+      "title": "DROPS ON!! [GR/EN] -Yuki- | Λιγο Content Πριν το Reset | GREEK GOD WARR Gameplay |",
+      "viewerCount": 9,
+      "startedAt": "2026-08-25T08:43:36Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stefpfour-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/stefpfour"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+    },
+    {
+      "id": "318417354854",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>Filling the Vault on Alts!<<",
+      "viewerCount": 6,
+      "startedAt": "2026-08-25T08:18:14Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
     }
   ]
 }
