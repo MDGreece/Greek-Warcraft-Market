@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-08-26T13:13:35.323Z",
+  "updatedAt": "2026-08-26T14:08:35.572Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318365828325",
-      "userId": "476358726",
-      "userLogin": "chainburned",
-      "userName": "chainburned",
+      "id": "318366271205",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 8,
-      "startedAt": "2026-08-26T12:09:09Z",
+      "title": "New Week Start. Mythic+ keys PoV (Holy Pala)  {Road to 3.5io}",
+      "viewerCount": 12,
+      "startedAt": "2026-08-26T13:01:17Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chainburned"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
     },
     {
       "id": "318364454117",
@@ -25,25 +25,39 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>RESET DAY.Let the Grind Begin!<<",
-      "viewerCount": 4,
+      "viewerCount": 5,
       "startedAt": "2026-08-26T09:17:43Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/maniacx95"
     },
     {
-      "id": "318366271205",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
+      "id": "318365828325",
+      "userId": "476358726",
+      "userLogin": "chainburned",
+      "userName": "chainburned",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "New Week Start. Καλό ταξίδι φωνή της νιώτης μας!!  {Road to 3.5io}",
-      "viewerCount": 4,
-      "startedAt": "2026-08-26T13:01:17Z",
+      "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
+      "viewerCount": 3,
+      "startedAt": "2026-08-26T12:09:09Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/chainburned"
+    },
+    {
+      "id": "318430765030",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Main/Alt keys",
+      "viewerCount": 2,
+      "startedAt": "2026-08-26T13:47:12Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
     }
   ]
 }
