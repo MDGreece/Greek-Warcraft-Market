@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-08-26T15:53:40.442Z",
+  "updatedAt": "2026-08-26T16:49:33.228Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318366271205",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
+      "id": "318368483941",
+      "userId": "166949280",
+      "userLogin": "jokersmiles",
+      "userName": "jokersmiles",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "New Week Start. Mythic+ keys PoV (Holy Pala)  {Road to 3.5io}",
-      "viewerCount": 17,
-      "startedAt": "2026-08-26T13:01:17Z",
+      "title": "Race to Greek First Marathon - KLIKA Heroic - MM Day",
+      "viewerCount": 11,
+      "startedAt": "2026-08-26T16:11:57Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jokersmiles"
+    },
+    {
+      "id": "317596818915",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Χαλαρά M+ με τους φίλους 😎 | Μετά RAID! 🔥",
+      "viewerCount": 9,
+      "startedAt": "2026-08-26T15:47:30Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
     },
     {
       "id": "318365828325",
@@ -25,11 +39,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 4,
+      "viewerCount": 7,
       "startedAt": "2026-08-26T12:09:09Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/chainburned"
+    },
+    {
+      "id": "318368627813",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🟦NEW DROPS🟦  Δεν εχω ιδεα  που παταω Weekly Reset  m+ get  the weekly🔥Blood DK ✅",
+      "viewerCount": 5,
+      "startedAt": "2026-08-26T16:23:47Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
     },
     {
       "id": "318430765030",
@@ -44,20 +72,6 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/necrosgr"
-    },
-    {
-      "id": "317596818915",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Χαλαρά M+ με τους φίλους 😎 | Μετά RAID! 🔥",
-      "viewerCount": 1,
-      "startedAt": "2026-08-26T15:47:30Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
     }
   ]
 }
