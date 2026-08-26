@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-08-26T08:54:12.855Z",
+  "updatedAt": "2026-08-26T09:44:30.033Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318364454117",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>RESET DAY.Let the Grind Begin!<<",
+      "viewerCount": 4,
+      "startedAt": "2026-08-26T09:17:43Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    }
+  ]
 }
