@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T14:08:35.572Z",
+  "updatedAt": "2026-08-26T15:53:40.442Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "New Week Start. Mythic+ keys PoV (Holy Pala)  {Road to 3.5io}",
-      "viewerCount": 12,
+      "viewerCount": 17,
       "startedAt": "2026-08-26T13:01:17Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/vroxovatis"
-    },
-    {
-      "id": "318364454117",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>RESET DAY.Let the Grind Begin!<<",
-      "viewerCount": 5,
-      "startedAt": "2026-08-26T09:17:43Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
     },
     {
       "id": "318365828325",
@@ -39,7 +25,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "(ENG/GR) |🔥 Live από Δρομοκαΐτειο 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 3,
+      "viewerCount": 4,
       "startedAt": "2026-08-26T12:09:09Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
@@ -58,6 +44,20 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "317596818915",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Χαλαρά M+ με τους φίλους 😎 | Μετά RAID! 🔥",
+      "viewerCount": 1,
+      "startedAt": "2026-08-26T15:47:30Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
     }
   ]
 }
