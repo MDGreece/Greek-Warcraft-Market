@@ -1,49 +1,6 @@
 {
-  "updatedAt": "2026-08-26T00:03:01.183Z",
+  "updatedAt": "2026-08-26T01:56:11.952Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318361510245",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | Ειμαι DEAD TIRED λιγα keys πριν τον υπνο NO MIC | GREEK GOD WARR Gameplay |",
-      "viewerCount": 11,
-      "startedAt": "2026-08-25T21:36:03Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318423740006",
-      "userId": "748432922",
-      "userLogin": "deghinseatm",
-      "userName": "DeghinseaTM",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "The Venomous Abyss HC",
-      "viewerCount": 4,
-      "startedAt": "2026-08-25T19:01:18Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/deghinseatm"
-    },
-    {
-      "id": "318358569573",
-      "userId": "121649091",
-      "userLogin": "necrosgr",
-      "userName": "necrosgr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN]Ele Shaman-Pugging Heroic Ulatek",
-      "viewerCount": 3,
-      "startedAt": "2026-08-25T17:35:02Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/necrosgr"
-    }
-  ]
+  "streams": []
 }
