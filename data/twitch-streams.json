@@ -1,8 +1,22 @@
 {
-  "updatedAt": "2026-08-26T04:54:18.060Z",
+  "updatedAt": "2026-08-26T05:36:39.559Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
+    {
+      "id": "318228240743",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🟦NEW DROPS🟦 Weekly Reset  Here it begins Heroics🔥Blood DK ✅-DH-GUARDIAN-brewmaster)",
+      "viewerCount": 8,
+      "startedAt": "2026-08-26T05:08:11Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
     {
       "id": "318363234277",
       "userId": "41801202",
@@ -11,7 +25,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>RESET DAY.Let the Grind Begin!<<",
-      "viewerCount": 5,
+      "viewerCount": 7,
       "startedAt": "2026-08-26T04:41:00Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
