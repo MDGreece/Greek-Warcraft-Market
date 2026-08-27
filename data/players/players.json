@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-24T20:55:14.928Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-08-26T20:38:54.238Z",
+        "lastSeenInRosterAt": "2026-08-27T10:09:33.405Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-08-26T20:39:10.326Z",
+        "updatedAt": "2026-08-27T10:09:51.458Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-08-15T18:35:01.000Z",
-        "lastSuccessfulUpdateAt": "2026-08-26T20:39:10.326Z"
+        "lastSuccessfulUpdateAt": "2026-08-27T10:09:51.458Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -48,8 +48,8 @@
         "realm": "silvermoon",
         "region": "eu",
         "class": "Evoker",
-        "spec": "Preservation",
-        "role": "healing",
+        "spec": "Devastation",
+        "role": "dps",
         "guild": "Deny Everything",
         "raidGroup": "Deny Everything",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anastrásza",
@@ -61,24 +61,24 @@
         "rosterUpdatedAt": "2026-08-24T20:55:14.928Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-08-26T20:38:54.238Z",
-        "updatedAt": "2026-08-26T20:39:11.817Z",
+        "lastSeenInRosterAt": "2026-08-27T10:09:33.405Z",
+        "updatedAt": "2026-08-27T10:09:52.940Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
-        "achievementPoints": 35000,
-        "itemLevel": 292.562,
+        "achievementPoints": 35070,
+        "itemLevel": 288,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Normal",
         "raidKills": 8,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-08-20T01:16:55.000Z",
+        "raiderIoUpdatedAt": "2026-08-27T08:32:01.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-08-26T20:39:11.817Z"
+        "lastSuccessfulUpdateAt": "2026-08-27T10:09:52.940Z"
       }
     ],
     "characterCount": 2,
@@ -89,7 +89,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-08-26T20:46:10.803Z",
-    "updatedAt": "2026-08-26T20:46:10.803Z"
+    "createdAt": "2026-08-27T10:16:52.530Z",
+    "updatedAt": "2026-08-27T10:16:52.530Z"
   }
 ]
