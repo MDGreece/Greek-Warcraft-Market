@@ -1,63 +1,35 @@
 {
-  "updatedAt": "2026-08-27T10:59:30.775Z",
+  "updatedAt": "2026-08-27T20:58:51.144Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318240417255",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
+      "id": "318445330022",
+      "userId": "748432922",
+      "userLogin": "deghinseatm",
+      "userName": "DeghinseaTM",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  \"Ah shit, here we go again\"",
-      "viewerCount": 8,
-      "startedAt": "2026-08-27T08:28:15Z",
+      "title": "The Venomous Abyss Normal/HC",
+      "viewerCount": 14,
+      "startedAt": "2026-08-27T18:56:19Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/deghinseatm"
     },
     {
-      "id": "318375703141",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
+      "id": "317607072227",
+      "userId": "69437255",
+      "userLogin": "mipolol",
+      "userName": "Mipolol",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "SSDD- keys and gear grind- mistweaver monk pov",
-      "viewerCount": 2,
-      "startedAt": "2026-08-27T08:52:11Z",
+      "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
+      "viewerCount": 1,
+      "startedAt": "2026-08-27T18:05:38Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    },
-    {
-      "id": "318439009894",
-      "userId": "121649091",
-      "userLogin": "necrosgr",
-      "userName": "necrosgr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN]Main/Alt things",
-      "viewerCount": 2,
-      "startedAt": "2026-08-27T08:13:58Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/necrosgr"
-    },
-    {
-      "id": "318375456485",
-      "userId": "40831722",
-      "userLogin": "stefpfour",
-      "userName": "Stefpfour",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "New season new Class? !personaltraining EN/GR",
-      "viewerCount": 2,
-      "startedAt": "2026-08-27T08:15:36Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stefpfour-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/stefpfour"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mipolol"
     }
   ]
 }
