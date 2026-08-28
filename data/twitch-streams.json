@@ -1,35 +1,6 @@
 {
-  "updatedAt": "2026-08-27T20:58:51.144Z",
+  "updatedAt": "2026-08-28T05:17:10.329Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318445330022",
-      "userId": "748432922",
-      "userLogin": "deghinseatm",
-      "userName": "DeghinseaTM",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "The Venomous Abyss Normal/HC",
-      "viewerCount": 14,
-      "startedAt": "2026-08-27T18:56:19Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_deghinseatm-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/deghinseatm"
-    },
-    {
-      "id": "317607072227",
-      "userId": "69437255",
-      "userLogin": "mipolol",
-      "userName": "Mipolol",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[EN/GR] <Retired Extremely Bad> split 7 average ilvl 367",
-      "viewerCount": 1,
-      "startedAt": "2026-08-27T18:05:38Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mipolol-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mipolol"
-    }
-  ]
+  "streams": []
 }
