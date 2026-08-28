@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-08-28T05:17:10.329Z",
+  "updatedAt": "2026-08-28T17:29:41.841Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318255111399",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "kalispera!! balte fredo, parte koyloyri kai arakste!",
+      "viewerCount": 15,
+      "startedAt": "2026-08-28T15:48:59Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318454086630",
+      "userId": "161969527",
+      "userLogin": "bon_giannisfpl",
+      "userName": "bon_giannisfpl",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Hyjal/BT no cam, maybe mic.",
+      "viewerCount": 13,
+      "startedAt": "2026-08-28T16:31:24Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bon_giannisfpl-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/bon_giannisfpl"
+    },
+    {
+      "id": "318386043493",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🟦NEW DROPS🟦  Morning Push m+ Παρτε καφεδακι energy drink και παω για πονο🔥Blood DK  3247 I.O✅",
+      "viewerCount": 12,
+      "startedAt": "2026-08-28T06:37:49Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318385824229",
+      "userId": "86551436",
+      "userLogin": "monsaliv",
+      "userName": "monsaliv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Method RWF",
+      "viewerCount": 10,
+      "startedAt": "2026-08-28T05:45:32Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monsaliv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/monsaliv"
+    },
+    {
+      "id": "318453324518",
+      "userId": "476358726",
+      "userLogin": "chainburned",
+      "userName": "chainburned",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "(ENG/GR) | 🔥 [3035io] GIVE ME THE LOOT 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
+      "viewerCount": 3,
+      "startedAt": "2026-08-28T15:20:12Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/chainburned"
+    },
+    {
+      "id": "318391876197",
+      "userId": "27162477",
+      "userLogin": "humanxii",
+      "userName": "HumanXII",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Holy Priest 2v2 • 3v3 • Solo Shuffle | “Don’t hate the player. Hate the game.”",
+      "viewerCount": 1,
+      "startedAt": "2026-08-28T17:08:03Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_humanxii-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/humanxii"
+    },
+    {
+      "id": "318452910438",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "best tittle to get viewers",
+      "viewerCount": 1,
+      "startedAt": "2026-08-28T14:40:35Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
+    }
+  ]
 }
