@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-08-29T07:52:43.120Z",
+  "updatedAt": "2026-08-29T13:41:45.515Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318397814629",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "New Class Tuning 🫨🫨😲Balance Warlock  DH(NAH) ?? Πρωινες αγγαριες Push keys Μεχρι να κουραστω 🔥Blood DK  3304 I.O✅",
-      "viewerCount": 11,
-      "startedAt": "2026-08-29T04:23:45Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
-    },
     {
       "id": "318397800677",
       "userId": "41801202",
@@ -32,7 +18,35 @@
       "twitchUrl": "https://www.twitch.tv/maniacx95"
     },
     {
-      "id": "318460507110",
+      "id": "318397814629",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "New Class Tuning 🫨🫨😲Balance Warlock  DH(NAH) ?? Πρωινες αγγαριες Push keys Μεχρι να κουραστω 🔥Blood DK  3320 I.O✅",
+      "viewerCount": 4,
+      "startedAt": "2026-08-29T04:23:45Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318264245735",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "worst streamer on platform",
+      "viewerCount": 2,
+      "startedAt": "2026-08-29T11:01:35Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
+    },
+    {
+      "id": "318401183845",
       "userId": "61891909",
       "userLogin": "jeckos",
       "userName": "Jeckos",
@@ -40,10 +54,24 @@
       "gameName": "World of Warcraft",
       "title": "Catch up on the Midnight | Noob Warlock | Quests | Lore",
       "viewerCount": 1,
-      "startedAt": "2026-08-29T06:17:43Z",
+      "startedAt": "2026-08-29T12:56:25Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/jeckos"
+    },
+    {
+      "id": "318461346022",
+      "userId": "40831722",
+      "userLogin": "stefpfour",
+      "userName": "Stefpfour",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Rogue M+? !personaltraining EN/GR",
+      "viewerCount": 1,
+      "startedAt": "2026-08-29T08:47:50Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stefpfour-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/stefpfour"
     }
   ]
 }
