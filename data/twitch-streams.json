@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-08-29T01:08:07.061Z",
+  "updatedAt": "2026-08-29T07:52:43.120Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318397814629",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "New Class Tuning 🫨🫨😲Balance Warlock  DH(NAH) ?? Πρωινες αγγαριες Push keys Μεχρι να κουραστω 🔥Blood DK  3304 I.O✅",
+      "viewerCount": 11,
+      "startedAt": "2026-08-29T04:23:45Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318397800677",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  \"Ah shit, here we go again\"",
+      "viewerCount": 4,
+      "startedAt": "2026-08-29T04:19:47Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318460507110",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Catch up on the Midnight | Noob Warlock | Quests | Lore",
+      "viewerCount": 1,
+      "startedAt": "2026-08-29T06:17:43Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
+    }
+  ]
 }
