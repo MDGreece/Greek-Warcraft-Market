@@ -1,35 +1,6 @@
 {
-  "updatedAt": "2026-08-29T22:29:43.736Z",
+  "updatedAt": "2026-08-30T00:38:13.277Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318465798374",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | Arms Slayer Rapid Fire Guide is out do !guide to check it out | Keys 17-20 3.5 warr | GREEK GOD WARR Gameplay |",
-      "viewerCount": 16,
-      "startedAt": "2026-08-29T16:22:29Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "317591826146",
-      "userId": "38058513",
-      "userLogin": "discoteque_real",
-      "userName": "discoteque_real",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Solo q M+ / Music streamerino",
-      "viewerCount": 2,
-      "startedAt": "2026-08-29T21:30:47Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_discoteque_real-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/discoteque_real"
-    }
-  ]
+  "streams": []
 }
