@@ -1,6 +1,63 @@
 {
-  "updatedAt": "2026-08-30T05:50:44.914Z",
+  "updatedAt": "2026-08-30T11:30:14.942Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318473368422",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Greek Tank  Sunday and Prefect time For Push Just Pressing Buttons🔥Blood DK  3350 I.O✅",
+      "viewerCount": 21,
+      "startedAt": "2026-08-30T08:13:20Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318410090085",
+      "userId": "476358726",
+      "userLogin": "chainburned",
+      "userName": "chainburned",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "(ENG/GR) | 🔥 [3198io] 5 BiS left m+ grind 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
+      "viewerCount": 3,
+      "startedAt": "2026-08-30T07:07:51Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/chainburned"
+    },
+    {
+      "id": "317619609316",
+      "userId": "145158646",
+      "userLogin": "peterak1s",
+      "userName": "Peterak1s",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "BDK M+ 15-16 first stream of season 2, wassuuuup [Radio Stream]",
+      "viewerCount": 1,
+      "startedAt": "2026-08-30T09:50:53Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_peterak1s-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/peterak1s"
+    },
+    {
+      "id": "318474842726",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>Finishing Vaults with Alts<<<",
+      "viewerCount": 0,
+      "startedAt": "2026-08-30T11:13:10Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    }
+  ]
 }
