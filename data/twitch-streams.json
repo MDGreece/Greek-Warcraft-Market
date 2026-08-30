@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T21:38:41.393Z",
+  "updatedAt": "2026-08-30T23:53:59.040Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -16,20 +16,6 @@
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318480334182",
-      "userId": "30399596",
-      "userLogin": "zell_the_redeemer",
-      "userName": "Zell_The_Redeemer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Chilling and sharing my screen.",
-      "viewerCount": 3,
-      "startedAt": "2026-08-30T18:33:40Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
     }
   ]
 }
