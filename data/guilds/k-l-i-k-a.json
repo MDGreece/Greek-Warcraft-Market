@@ -38,8 +38,8 @@
       "GR": "3"
     },
     "The Venomous Abyss": {
-      "progress": "6/8 H",
-      "WR": "1156",
+      "progress": "2/8 M",
+      "WR": "568",
       "GR": "-"
     }
   },
@@ -64,79 +64,93 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 6
+        "reports": 9
       },
       {
         "name": "Rikkisixx",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Guardian",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Starbss",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 3
+        "reports": 4
       }
     ],
     "healers": [
+      {
+        "name": "Azamina",
+        "realm": "TarrenMill",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 3
+      },
       {
         "name": "Bihla",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Darkllinè",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 5
+        "reports": 8
       },
       {
         "name": "Darkllìnè",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 3
+        "reports": 6
+      },
+      {
+        "name": "Jaqk",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Kigaru",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Mocchii",
         "realm": "Draenor",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Mochiibunnii",
         "realm": "Draenor",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Toutem",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Yliko",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 5
+        "reports": 6
       }
     ],
     "dps": [
@@ -145,21 +159,21 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Ahrilia",
         "realm": "Silvermoon",
         "class": "Warlock",
         "spec": "Destruction",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Aladindin",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Alícia",
@@ -169,11 +183,25 @@
         "reports": 1
       },
       {
+        "name": "Apollyøn",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 2
+      },
+      {
         "name": "Babakiris",
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 3
+        "reports": 6
+      },
+      {
+        "name": "Babamagûs",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 1
       },
       {
         "name": "Babaswarrior",
@@ -187,84 +215,91 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Coronakis",
         "realm": "TwistingNether",
         "class": "Warlock",
-        "spec": "Destruction",
-        "reports": 3
+        "spec": "Demonology",
+        "reports": 6
       },
       {
         "name": "Drepanis",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 6
+        "reports": 9
       },
       {
         "name": "Eneruswag",
         "realm": "Draenor",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Evôx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 4
+        "reports": 7
+      },
+      {
+        "name": "Èvox",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Feral",
+        "reports": 1
       },
       {
         "name": "Felixpriest",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Felixshammy",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Flickl",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Frostmanic",
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Havov",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Jokersmiles",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 9
       },
       {
         "name": "Kartampoui",
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Kitecurse",
@@ -278,7 +313,7 @@
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Kitestar",
@@ -292,14 +327,14 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Lilìana",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Luminay",
@@ -320,7 +355,7 @@
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 4
+        "reports": 5
       },
       {
         "name": "Realpandh",
@@ -334,49 +369,49 @@
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 6
+        "reports": 7
       },
       {
         "name": "Skullhunter",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 9
       },
       {
         "name": "Tigki",
         "realm": "TwistingNether",
         "class": "Hunter",
-        "spec": "Survival",
-        "reports": 5
+        "spec": "BeastMastery",
+        "reports": 6
       },
       {
         "name": "Tsamarella",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Tsigoleleta",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 3
+        "reports": 5
       },
       {
         "name": "Vovsin",
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 5
+        "reports": 7
       },
       {
         "name": "Yükí",
         "realm": "Ravencrest",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 6
+        "reports": 9
       }
     ]
   },
@@ -384,16 +419,16 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-24T20:54:41.835Z"
+    "lastUpdated": "2026-08-31T21:32:14.347Z"
   },
-  "rosterUpdatedAt": "2026-08-24T20:55:44.852Z",
+  "rosterUpdatedAt": "2026-08-31T21:33:11.512Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 818058,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 6,
-    "verifiedGuildMembers": 172,
+    "reportsChecked": 9,
+    "verifiedGuildMembers": 176,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "K L I K A"
   }

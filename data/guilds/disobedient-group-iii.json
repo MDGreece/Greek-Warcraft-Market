@@ -52,7 +52,7 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 11
+        "reports": 8
       }
     ],
     "healers": [
@@ -61,14 +61,14 @@
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Hugepenances",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 12
+        "reports": 11
       }
     ],
     "dps": [
@@ -77,41 +77,48 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Bersercker",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Deyaneira",
         "realm": "Stormscale",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 11
+        "reports": 10
       },
       {
         "name": "Foúska",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 11
+        "reports": 8
+      },
+      {
+        "name": "Goriillaz",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Devastation",
+        "reports": 1
       },
       {
         "name": "Gredush",
         "realm": "Ragnaros",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Nerewarrior",
         "realm": "Silvermoon",
         "class": "Warrior",
-        "spec": "Fury",
+        "spec": "Arms",
         "reports": 8
       },
       {
@@ -126,7 +133,14 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 12
+        "reports": 11
+      },
+      {
+        "name": "Xgodlike",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
       }
     ]
   },
@@ -137,13 +151,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-24T20:55:29.710Z",
+  "rosterUpdatedAt": "2026-08-31T21:32:54.624Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 13,
+    "reportsChecked": 12,
     "verifiedGuildMembers": 13,
     "membershipVerification": "Warcraft Logs team + Raider.IO guild",
     "verificationGuild": "Disobedient"

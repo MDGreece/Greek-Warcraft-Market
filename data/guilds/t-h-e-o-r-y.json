@@ -38,8 +38,8 @@
       "GR": "15"
     },
     "The Venomous Abyss": {
-      "progress": "0/8 N",
-      "WR": "-",
+      "progress": "1/8 H",
+      "WR": "8400",
       "GR": "-"
     }
   },
@@ -50,14 +50,7 @@
         "realm": "Ravencrest",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 1
-      },
-      {
-        "name": "Irìdin",
-        "realm": "TwistingNether",
-        "class": "Paladin",
-        "spec": "Protection",
-        "reports": 1
+        "reports": 2
       }
     ],
     "healers": [
@@ -66,6 +59,13 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
+        "reports": 2
+      },
+      {
+        "name": "Castiga",
+        "realm": "Hellscream",
+        "class": "Druid",
+        "spec": "Restoration",
         "reports": 1
       },
       {
@@ -73,50 +73,71 @@
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 1
+        "reports": 2
       },
       {
-        "name": "Mainwen",
-        "realm": "TarrenMill",
-        "class": "Paladin",
-        "spec": "Holy",
-        "reports": 1
-      },
-      {
-        "name": "Moutsikaki",
-        "realm": "Ravencrest",
+        "name": "Màrci",
+        "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
+        "reports": 2
+      },
+      {
+        "name": "Sakhmis",
+        "realm": "Aggramar",
+        "class": "Paladin",
+        "spec": "Holy",
         "reports": 1
       },
       {
-        "name": "Zozefin",
-        "realm": "Stormscale",
-        "class": "Paladin",
-        "spec": "Holy",
+        "name": "Sayad",
+        "realm": "Hellscream",
+        "class": "Shaman",
+        "spec": "Restoration",
         "reports": 1
       }
     ],
     "dps": [
       {
-        "name": "Aizen",
+        "name": "Amaterrassu",
         "realm": "Ravencrest",
-        "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 1
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 2
       },
       {
         "name": "Auxcord",
         "realm": "Draenor",
         "class": "Evoker",
-        "spec": "Augmentation",
+        "spec": "Devastation",
+        "reports": 1
+      },
+      {
+        "name": "Cyprusangler",
+        "realm": "Karazhan",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 1
+      },
+      {
+        "name": "Demondoodler",
+        "realm": "Ravencrest",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Elfwin",
+        "realm": "Ravencrest",
+        "class": "Hunter",
+        "spec": "BeastMastery",
         "reports": 1
       },
       {
         "name": "Exghst",
         "realm": "Doomhammer",
         "class": "Warlock",
-        "spec": "Demonology",
+        "spec": "Destruction",
         "reports": 1
       },
       {
@@ -124,7 +145,7 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Gouzi",
@@ -134,39 +155,39 @@
         "reports": 1
       },
       {
-        "name": "Helluvakilla",
-        "realm": "Draenor",
-        "class": "Warrior",
-        "spec": "Fury",
-        "reports": 1
-      },
-      {
-        "name": "Hyperamagus",
+        "name": "Irìdin",
         "realm": "TwistingNether",
-        "class": "Mage",
-        "spec": "Frost",
-        "reports": 1
-      },
-      {
-        "name": "Kourkoutas",
-        "realm": "Kazzak",
         "class": "Paladin",
         "spec": "Retribution",
         "reports": 1
+      },
+      {
+        "name": "Jinsou",
+        "realm": "Ravencrest",
+        "class": "Rogue",
+        "spec": "Outlaw",
+        "reports": 2
+      },
+      {
+        "name": "Løbø",
+        "realm": "TarrenMill",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 2
       },
       {
         "name": "Lockdotdem",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 1
+        "reports": 2
       },
       {
-        "name": "Mijuli",
-        "realm": "Kazzak",
-        "class": "Evoker",
-        "spec": "Devastation",
-        "reports": 1
+        "name": "Lygon",
+        "realm": "Sylvanas",
+        "class": "Rogue",
+        "spec": "Assassination",
+        "reports": 2
       },
       {
         "name": "Rakariss",
@@ -176,10 +197,38 @@
         "reports": 1
       },
       {
+        "name": "Sappücino",
+        "realm": "Ravencrest",
+        "class": "Rogue",
+        "spec": "Assassination",
+        "reports": 2
+      },
+      {
         "name": "Sçárlet",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
+        "reports": 2
+      },
+      {
+        "name": "Tsikibriki",
+        "realm": "TwistingNether",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "reports": 1
+      },
+      {
+        "name": "Xcelsiorbane",
+        "realm": "Silvermoon",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
+      },
+      {
+        "name": "Zephyros",
+        "realm": "Ravencrest",
+        "class": "Mage",
+        "spec": "Arcane",
         "reports": 1
       },
       {
@@ -195,15 +244,17 @@
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-08-24T20:54:41.838Z"
+    "lastUpdated": "2026-08-31T21:32:14.349Z"
   },
-  "rosterUpdatedAt": "2026-08-05T18:20:18.252Z",
+  "rosterUpdatedAt": "2026-08-31T21:33:34.350Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 436691,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 1,
-    "verifiedGuildMembers": 936
+    "reportsChecked": 2,
+    "verifiedGuildMembers": 934,
+    "membershipVerification": "Warcraft Logs",
+    "verificationGuild": "T H E O R Y"
   }
 }

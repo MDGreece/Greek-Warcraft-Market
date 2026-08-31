@@ -52,14 +52,7 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 8
-      },
-      {
-        "name": "Purobolitis",
-        "realm": "TwistingNether",
-        "class": "Monk",
-        "spec": "Brewmaster",
-        "reports": 3
+        "reports": 10
       }
     ],
     "healers": [
@@ -68,7 +61,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Nirain",
@@ -76,6 +69,13 @@
         "class": "Druid",
         "spec": "Restoration",
         "reports": 11
+      },
+      {
+        "name": "Purobolitis",
+        "realm": "TwistingNether",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 6
       },
       {
         "name": "Slásh",
@@ -91,7 +91,7 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 3
+        "reports": 5
       },
       {
         "name": "Capsizer",
@@ -105,14 +105,14 @@
         "realm": "Twilight'sHammer",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Eleléf",
         "realm": "TwistingNether",
         "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 2
+        "spec": "Marksmanship",
+        "reports": 4
       },
       {
         "name": "Ephyra",
@@ -125,22 +125,22 @@
         "name": "Ibreakstuff",
         "realm": "TheMaelstrom",
         "class": "Warrior",
-        "spec": "Arms",
-        "reports": 1
+        "spec": "Fury",
+        "reports": 2
       },
       {
         "name": "Jeroh",
         "realm": "Sylvanas",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Karaglizzy",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Loumeria",
@@ -175,7 +175,7 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 9
+        "reports": 7
       },
       {
         "name": "Qleon",
@@ -189,7 +189,7 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Shufferz",
@@ -203,7 +203,7 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 4
       }
     ]
   },
@@ -214,13 +214,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-08-24T20:55:22.787Z",
+  "rosterUpdatedAt": "2026-08-31T21:32:47.999Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
+    "reportsChecked": 14,
     "verifiedGuildMembers": 22,
     "membershipVerification": "Warcraft Logs team + Raider.IO guild",
     "verificationGuild": "Disobedient"
