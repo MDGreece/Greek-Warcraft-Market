@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-08-30T23:53:59.040Z",
+  "updatedAt": "2026-08-31T04:28:57.341Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318479543398",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | Arms/Fury Slayer Rapid Fire Guides are out do !guide to check them out | Raid & Keys | GREEK GOD WARR Gameplay |",
-      "viewerCount": 18,
-      "startedAt": "2026-08-30T17:42:28Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    }
-  ]
+  "streams": []
 }
