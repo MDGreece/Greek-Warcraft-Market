@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-08-31T04:28:57.341Z",
+  "updatedAt": "2026-08-31T11:05:45.063Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318485309926",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Greek Tank M+  time For Push Just Pressing Buttons🔥Blood DK  3390I.O✅",
+      "viewerCount": 20,
+      "startedAt": "2026-08-31T08:33:19Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318286597735",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Alt keyss",
+      "viewerCount": 5,
+      "startedAt": "2026-08-31T09:59:52Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "318421190885",
+      "userId": "86551436",
+      "userLogin": "monsaliv",
+      "userName": "monsaliv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Method RWF",
+      "viewerCount": 3,
+      "startedAt": "2026-08-31T06:58:58Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monsaliv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/monsaliv"
+    }
+  ]
 }
