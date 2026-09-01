@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-09-01T01:26:16.196Z",
+  "updatedAt": "2026-09-01T06:41:29.717Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318490442982",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "318296597223",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | Arms/Fury Slayer Rapid Fire Guides are out do !guide to check them out | Raid & Keys | GREEK GOD WARR Gameplay |",
-      "viewerCount": 7,
-      "startedAt": "2026-08-31T17:46:46Z",
+      "title": "Greek Tank M+ Pugs  High Keys  Just Pressing Buttons  Any 17+ ??? 🔥Blood DK  3474 I.O✅",
+      "viewerCount": 11,
+      "startedAt": "2026-09-01T06:15:31Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318495157606",
+      "userId": "86551436",
+      "userLogin": "monsaliv",
+      "userName": "monsaliv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Method RWF Ulatek",
+      "viewerCount": 2,
+      "startedAt": "2026-09-01T05:07:49Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monsaliv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/monsaliv"
     }
   ]
 }
