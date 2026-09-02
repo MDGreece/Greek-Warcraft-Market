@@ -1,21 +1,77 @@
 {
-  "updatedAt": "2026-09-02T09:00:56.152Z",
+  "updatedAt": "2026-09-02T13:36:00.650Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318441462117",
+      "id": "318308877799",
+      "userId": "102886337",
+      "userLogin": "spinustv",
+      "userName": "SpinusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🔥VAULT DAY , ΑΝΤΕ ΚΑΙ ΚΑΛΗ ΜΑΣ🔥",
+      "viewerCount": 139,
+      "startedAt": "2026-09-02T10:59:49Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/spinustv"
+    },
+    {
+      "id": "318444580325",
       "userId": "1100010133",
       "userLogin": "k1llatvv",
       "userName": "k1llatvv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Weekly Reset Raid Normal/heroic Greek Tank M+ Pugs  High Keys  Just Pressing Buttons  Any 17+ ??? 🔥Blood DK  3474 I.O✅",
-      "viewerCount": 13,
-      "startedAt": "2026-09-02T04:24:02Z",
+      "viewerCount": 11,
+      "startedAt": "2026-09-02T12:52:30Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318309252071",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>Reset Day! Lets Goooo!<<<",
+      "viewerCount": 4,
+      "startedAt": "2026-09-02T11:47:05Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318309212135",
+      "userId": "92151154",
+      "userLogin": "bakayokoqq",
+      "userName": "Bakayokoqq",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Disobedient GRP3 Babangida/Bakayoko  The kids are sick , farming TRINKET",
+      "viewerCount": 2,
+      "startedAt": "2026-09-02T11:41:57Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
+    },
+    {
+      "id": "318309925223",
+      "userId": "476358726",
+      "userLogin": "chainburned",
+      "userName": "chainburned",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "(ENG/GR) | 🔥 [3310io] VAULT IS UP m+ farm 🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
+      "viewerCount": 2,
+      "startedAt": "2026-09-02T13:05:39Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/chainburned"
     }
   ]
 }
