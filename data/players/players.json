@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-09-01T21:14:15.195Z",
+        "lastSeenInRosterAt": "2026-09-02T04:56:16.174Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-01T21:14:36.169Z",
+        "updatedAt": "2026-09-02T04:56:33.801Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-08-15T18:35:01.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-01T21:14:36.169Z"
+        "lastSuccessfulUpdateAt": "2026-09-02T04:56:33.801Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -55,14 +55,14 @@
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anastrásza",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastr%C3%A1sza",
         "mythicPlusScore": 1239.3,
-        "raidProgress": "5/8H",
+        "raidProgress": "6/8H",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-01T21:14:15.195Z",
-        "updatedAt": "2026-09-01T21:14:37.585Z",
+        "lastSeenInRosterAt": "2026-09-02T04:56:16.174Z",
+        "updatedAt": "2026-09-02T04:56:35.276Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -72,24 +72,24 @@
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Heroic",
-        "raidKills": 5,
+        "raidKills": 6,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
         "raiderIoUpdatedAt": "2026-08-27T08:32:01.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-01T21:14:37.585Z"
+        "lastSuccessfulUpdateAt": "2026-09-02T04:56:35.276Z"
       }
     ],
     "characterCount": 2,
     "highestMythicPlusScore": 1239.3,
-    "bestRaidProgress": "5/8H",
+    "bestRaidProgress": "6/8H",
     "bestAchievement": "-",
     "currentRaidKey": "the-venomous-abyss",
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-01T21:22:36.855Z",
-    "updatedAt": "2026-09-01T21:22:36.855Z"
+    "createdAt": "2026-09-02T05:04:19.202Z",
+    "updatedAt": "2026-09-02T05:04:19.202Z"
   }
 ]
