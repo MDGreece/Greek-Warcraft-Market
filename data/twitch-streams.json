@@ -1,6 +1,63 @@
 {
-  "updatedAt": "2026-09-03T05:05:02.611Z",
+  "updatedAt": "2026-09-03T09:43:24.434Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318319133159",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Καλημέρα. Χαλαρά. Εναν καφέ παρακαλώ!",
+      "viewerCount": 12,
+      "startedAt": "2026-09-03T08:24:16Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "317665885923",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Zero to Hero: Mistweaver 🥋 | Chill Grind 🎵 | PUGs & Declines 💀",
+      "viewerCount": 4,
+      "startedAt": "2026-09-03T09:07:22Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318453700453",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Chilling and sharing my screen.",
+      "viewerCount": 4,
+      "startedAt": "2026-09-03T08:13:49Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
+    },
+    {
+      "id": "318453545957",
+      "userId": "86551436",
+      "userLogin": "monsaliv",
+      "userName": "monsaliv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Method RWF Ulatek",
+      "viewerCount": 4,
+      "startedAt": "2026-09-03T07:41:58Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monsaliv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/monsaliv"
+    }
+  ]
 }
