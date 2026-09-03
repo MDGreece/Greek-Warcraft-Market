@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-09-02T22:35:52.413Z",
+  "updatedAt": "2026-09-03T00:38:56.480Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318515935206",
-      "userId": "558928790",
-      "userLogin": "mr_tomtv",
-      "userName": "Mr_TomTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Χαλαρό βραδινό WoW  Παρέα και κουβέντα",
-      "viewerCount": 20,
-      "startedAt": "2026-09-02T21:22:43Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mr_tomtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mr_tomtv"
-    },
     {
       "id": "318513071974",
       "userId": "45818286",
@@ -25,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Short Stream | GREEK GOD WARR Gameplay |",
-      "viewerCount": 15,
+      "viewerCount": 12,
       "startedAt": "2026-09-02T17:44:29Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318513922278",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "pushing keys",
-      "viewerCount": 1,
-      "startedAt": "2026-09-02T18:34:39Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
