@@ -1,6 +1,49 @@
 {
-  "updatedAt": "2026-09-04T04:57:19.824Z",
+  "updatedAt": "2026-09-04T09:29:06.866Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318464648293",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Καλημέρα!!! Birthday stream today!! Χρόνια πολλά noobopaladin!! :D",
+      "viewerCount": 12,
+      "startedAt": "2026-09-04T08:13:28Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "318464635749",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Ele Shaman Keys",
+      "viewerCount": 1,
+      "startedAt": "2026-09-04T08:11:40Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "318529569766",
+      "userId": "167369818",
+      "userLogin": "iliasanth",
+      "userName": "IliasAnth",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Morning",
+      "viewerCount": 1,
+      "startedAt": "2026-09-04T08:40:15Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iliasanth-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/iliasanth"
+    }
+  ]
 }
