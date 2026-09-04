@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-09-04T19:36:13.353Z",
+  "updatedAt": "2026-09-04T21:48:44.092Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318470414437",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Καλησπέρα!!! Birthday stream today!! Χρόνια πολλά noobopaladin!! :D",
-      "viewerCount": 23,
-      "startedAt": "2026-09-04T17:44:26Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
-    },
     {
       "id": "318333492711",
       "userId": "219637144",
@@ -25,81 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Keys",
-      "viewerCount": 22,
+      "viewerCount": 42,
       "startedAt": "2026-09-04T14:55:42Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/fountas_4"
-    },
-    {
-      "id": "317640205538",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Mistweaver | 3661 RIO 🔥 | M+ Push with the Bros 🗝️",
-      "viewerCount": 18,
-      "startedAt": "2026-09-04T14:01:35Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
-    },
-    {
-      "id": "318470229989",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>VAULTS<<<",
-      "viewerCount": 7,
-      "startedAt": "2026-09-04T17:31:48Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
-    },
-    {
-      "id": "318534887398",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Γιγα push UH DK. Climb to 1% begins",
-      "viewerCount": 6,
-      "startedAt": "2026-09-04T17:50:28Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318471065445",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "THE SYNDICATE - VENOMOUS ABYSS HC Day 2",
-      "viewerCount": 6,
-      "startedAt": "2026-09-04T18:22:29Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    },
-    {
-      "id": "318534455270",
-      "userId": "27162477",
-      "userLogin": "humanxii",
-      "userName": "HumanXII",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Arena 2vs2/3vs3 What’s Next for WoW?! 12 Sept BlizzCon 2026",
-      "viewerCount": 1,
-      "startedAt": "2026-09-04T17:19:38Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_humanxii-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/humanxii"
     }
   ]
 }
