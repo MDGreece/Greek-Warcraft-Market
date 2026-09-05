@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-09-05T10:11:32.539Z",
+  "updatedAt": "2026-09-05T13:28:13.303Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318342115431",
-      "userId": "117165318",
-      "userLogin": "blackjareth_gr",
-      "userName": "blackjareth_gr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "kalimera! kafes tsek , koyloyri tsek, wow tsek mployza?",
-      "viewerCount": 27,
-      "startedAt": "2026-09-05T08:23:48Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
-    },
     {
       "id": "318477244517",
       "userId": "219637144",
@@ -25,11 +11,39 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Diving into 19s? Warlock gaming !ui !coaching !talents",
-      "viewerCount": 7,
+      "viewerCount": 26,
       "startedAt": "2026-09-05T09:59:14Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/fountas_4"
+    },
+    {
+      "id": "318344447719",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DROPS ON!! [GR/EN] -Yuki- | 3733io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | GREEK GOD WARR Gameplay |",
+      "viewerCount": 15,
+      "startedAt": "2026-09-05T12:45:03Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+    },
+    {
+      "id": "318543586150",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>VAULTS<<<",
+      "viewerCount": 4,
+      "startedAt": "2026-09-05T13:18:44Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
     }
   ]
 }
