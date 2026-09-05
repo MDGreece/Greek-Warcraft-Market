@@ -1,6 +1,35 @@
 {
-  "updatedAt": "2026-09-05T05:53:06.945Z",
+  "updatedAt": "2026-09-05T10:11:32.539Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318342115431",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "kalimera! kafes tsek , koyloyri tsek, wow tsek mployza?",
+      "viewerCount": 27,
+      "startedAt": "2026-09-05T08:23:48Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318477244517",
+      "userId": "219637144",
+      "userLogin": "fountas_4",
+      "userName": "fountas_4",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Diving into 19s? Warlock gaming !ui !coaching !talents",
+      "viewerCount": 7,
+      "startedAt": "2026-09-05T09:59:14Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fountas_4"
+    }
+  ]
 }
