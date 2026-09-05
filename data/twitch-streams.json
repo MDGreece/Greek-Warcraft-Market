@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-09-04T23:26:56.210Z",
+  "updatedAt": "2026-09-05T01:19:03.061Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318333492711",
-      "userId": "219637144",
-      "userLogin": "fountas_4",
-      "userName": "fountas_4",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Keys",
-      "viewerCount": 58,
-      "startedAt": "2026-09-04T14:55:42Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fountas_4"
-    }
-  ]
+  "streams": []
 }
