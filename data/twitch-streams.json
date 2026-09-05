@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:28:13.303Z",
+  "updatedAt": "2026-09-05T16:12:47.733Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
@@ -11,7 +11,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Diving into 19s? Warlock gaming !ui !coaching !talents",
-      "viewerCount": 26,
+      "viewerCount": 41,
       "startedAt": "2026-09-05T09:59:14Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
@@ -25,7 +25,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | 3733io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | GREEK GOD WARR Gameplay |",
-      "viewerCount": 15,
+      "viewerCount": 24,
       "startedAt": "2026-09-05T12:45:03Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
@@ -38,12 +38,54 @@
       "userName": "MaNiaCx95",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>VAULTS<<<",
-      "viewerCount": 4,
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>Keyss<<<",
+      "viewerCount": 7,
       "startedAt": "2026-09-05T13:18:44Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "317650697954",
+      "userId": "17888361",
+      "userLogin": "sephbladesgaminggr",
+      "userName": "SephBladesGamingGR",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Keys!! PoE2??  - !commands !youtube",
+      "viewerCount": 4,
+      "startedAt": "2026-09-05T15:58:29Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
+    },
+    {
+      "id": "318480403045",
+      "userId": "167369818",
+      "userLogin": "iliasanth",
+      "userName": "IliasAnth",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Let's gooo",
+      "viewerCount": 1,
+      "startedAt": "2026-09-05T15:09:12Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iliasanth-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/iliasanth"
+    },
+    {
+      "id": "318544882662",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
+      "viewerCount": 1,
+      "startedAt": "2026-09-05T15:16:47Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
     }
   ]
 }
