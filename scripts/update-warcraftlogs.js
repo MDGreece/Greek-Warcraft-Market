@@ -84,12 +84,15 @@ function getCanonicalBossName(name) {
 
 function isCurrentRaidBoss(name) {
   return Boolean(getCanonicalBossName(name));
-  function isCurrentRaidFight(fight) {
+}
+
+function isCurrentRaidFight(fight) {
   return (
     Boolean(fight.canonicalBossName) &&
     normalizeName(fight.zoneName) ===
       normalizeName(CURRENT_RAID_NAME)
   );
+}
 }
 }
 
