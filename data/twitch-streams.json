@@ -1,50 +1,8 @@
 {
-  "updatedAt": "2026-09-05T22:16:55.475Z",
+  "updatedAt": "2026-09-06T00:00:07.514Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318350610279",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GR | Late Night Show | Aidsventura | Holy PoV",
-      "viewerCount": 13,
-      "startedAt": "2026-09-05T21:00:34Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
-    },
-    {
-      "id": "318482638821",
-      "userId": "742014117",
-      "userLogin": "alloudtv",
-      "userName": "AlloudTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "S2 Greek VDH On Fire! 🔥🔥🔥 Road to Rank   ( 1 ) VDH !!⚡",
-      "viewerCount": 5,
-      "startedAt": "2026-09-05T18:12:10Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_alloudtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/alloudtv"
-    },
-    {
-      "id": "318348681575",
-      "userId": "476358726",
-      "userLogin": "chainburned",
-      "userName": "chainburned",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "(ENG/GR) | 🔥 [3466io] PUG RAIDIN'🔥| Sub button ON ✅ | HAVOC OTP ⚔️ | LAST PULL 👑",
-      "viewerCount": 3,
-      "startedAt": "2026-09-05T18:33:52Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chainburned"
-    },
     {
       "id": "318484685925",
       "userId": "152091492",
@@ -53,25 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Γιγα push UH DK. Climb to 1% begins",
-      "viewerCount": 1,
+      "viewerCount": 12,
       "startedAt": "2026-09-05T20:41:04Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318548904678",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "S.S.D.D. - ΤΟ ΣΥΝΔΙΚΑΤΟ ΤΩΝ ΚΛΕΙΔΑΡΑΔΩΝ :p",
-      "viewerCount": 1,
-      "startedAt": "2026-09-05T20:28:11Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
