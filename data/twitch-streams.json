@@ -1,8 +1,36 @@
 {
-  "updatedAt": "2026-09-06T04:26:09.402Z",
+  "updatedAt": "2026-09-06T08:48:13.466Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
+    {
+      "id": "318552429158",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "kalimera! balte kafe kai arakste!",
+      "viewerCount": 26,
+      "startedAt": "2026-09-06T08:07:10Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318353973735",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Ανώνυμοι Τικετάκηδες",
+      "viewerCount": 12,
+      "startedAt": "2026-09-06T07:59:18Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
     {
       "id": "318352854631",
       "userId": "41801202",
@@ -11,7 +39,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!!  >>>Proffs > Keys & Raid <<<",
-      "viewerCount": 4,
+      "viewerCount": 7,
       "startedAt": "2026-09-06T04:01:15Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
