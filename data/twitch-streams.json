@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-09-06T21:42:40.668Z",
+  "updatedAt": "2026-09-06T23:15:49.659Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
-    {
-      "id": "318358856295",
-      "userId": "166949280",
-      "userLogin": "jokersmiles",
-      "userName": "jokersmiles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Race to Greek First Marathon - KLIKA 2/8 Mythic",
-      "viewerCount": 40,
-      "startedAt": "2026-09-06T16:12:57Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
     {
       "id": "318558721894",
       "userId": "1322829066",
@@ -25,53 +11,11 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "MAOU MAOU kai shenanigans // +18 !zaxari !asmr !socials",
-      "viewerCount": 12,
+      "viewerCount": 25,
       "startedAt": "2026-09-06T18:01:52Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukoumakicore-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/loukoumakicore"
-    },
-    {
-      "id": "318359999975",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | 3758io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | GREEK GOD WARR Gameplay |",
-      "viewerCount": 11,
-      "startedAt": "2026-09-06T17:39:22Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318560362598",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "5,15,25,35!! Κλειδιά με φίλους. Το content συνεχίζεται!! Pala?! Τι θα γίνει θα πατήσεις κανένα κουμπί;;!! Πεθαίνουμε!",
-      "viewerCount": 9,
-      "startedAt": "2026-09-06T20:19:03Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
-    },
-    {
-      "id": "318495035493",
-      "userId": "30399596",
-      "userLogin": "zell_the_redeemer",
-      "userName": "Zell_The_Redeemer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Chill time",
-      "viewerCount": 4,
-      "startedAt": "2026-09-06T18:12:51Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
     }
   ]
 }
