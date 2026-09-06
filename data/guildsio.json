@@ -99,8 +99,8 @@
           "realm": 23
         },
         "mythic": {
-          "world": 747,
-          "region": 377,
+          "world": 783,
+          "region": 413,
           "realm": 15
         }
       }
@@ -206,9 +206,9 @@
           "realm": 44
         },
         "mythic": {
-          "world": 878,
-          "region": 445,
-          "realm": 33
+          "world": 937,
+          "region": 503,
+          "realm": 35
         }
       }
     }
@@ -242,11 +242,11 @@
         "mythic_bosses_killed": 1
       },
       "the-venomous-abyss": {
-        "summary": "2/8 M",
+        "summary": "3/8 M",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
         "heroic_bosses_killed": 8,
-        "mythic_bosses_killed": 2
+        "mythic_bosses_killed": 3
       }
     },
     "rankings": {
@@ -313,9 +313,9 @@
           "realm": 29
         },
         "mythic": {
-          "world": 966,
-          "region": 479,
-          "realm": 34
+          "world": 654,
+          "region": 343,
+          "realm": 30
         }
       }
     }
@@ -415,9 +415,9 @@
           "realm": 97
         },
         "heroic": {
-          "world": 3351,
-          "region": 1437,
-          "realm": 125
+          "world": 3420,
+          "region": 1505,
+          "realm": 130
         },
         "mythic": {
           "world": 0,
@@ -522,9 +522,9 @@
           "realm": 20
         },
         "heroic": {
-          "world": 2037,
-          "region": 924,
-          "realm": 64
+          "world": 2099,
+          "region": 981,
+          "realm": 66
         },
         "mythic": {
           "world": 0,
@@ -629,9 +629,9 @@
           "realm": 176
         },
         "heroic": {
-          "world": 3257,
-          "region": 1411,
-          "realm": 122
+          "world": 3330,
+          "region": 1482,
+          "realm": 128
         },
         "mythic": {
           "world": 0,
@@ -736,9 +736,9 @@
           "realm": 78
         },
         "heroic": {
-          "world": 2318,
-          "region": 1052,
-          "realm": 102
+          "world": 2388,
+          "region": 1117,
+          "realm": 110
         },
         "mythic": {
           "world": 0,
@@ -843,9 +843,9 @@
           "realm": 117
         },
         "heroic": {
-          "world": 4327,
-          "region": 1811,
-          "realm": 98
+          "world": 4478,
+          "region": 1951,
+          "realm": 107
         },
         "mythic": {
           "world": 0,
@@ -950,9 +950,9 @@
           "realm": 232
         },
         "heroic": {
-          "world": 6130,
-          "region": 2398,
-          "realm": 139
+          "world": 6299,
+          "region": 2556,
+          "realm": 155
         },
         "mythic": {
           "world": 0,
@@ -1164,9 +1164,9 @@
           "realm": 35
         },
         "heroic": {
-          "world": 2924,
-          "region": 1349,
-          "realm": 73
+          "world": 3013,
+          "region": 1433,
+          "realm": 78
         },
         "mythic": {
           "world": 0,
@@ -1378,9 +1378,9 @@
           "realm": 98
         },
         "heroic": {
-          "world": 10803,
-          "region": 4157,
-          "realm": 110
+          "world": 10922,
+          "region": 4262,
+          "realm": 111
         },
         "mythic": {
           "world": 0,
@@ -1485,9 +1485,9 @@
           "realm": 237
         },
         "heroic": {
-          "world": 11224,
-          "region": 4333,
-          "realm": 250
+          "world": 11332,
+          "region": 4430,
+          "realm": 257
         },
         "mythic": {
           "world": 0,
@@ -1526,10 +1526,10 @@
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
-        "summary": "3/8 H",
+        "summary": "4/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 3,
+        "heroic_bosses_killed": 4,
         "mythic_bosses_killed": 0
       }
     },
@@ -1592,9 +1592,9 @@
           "realm": 142
         },
         "heroic": {
-          "world": 8922,
-          "region": 3353,
-          "realm": 143
+          "world": 7809,
+          "region": 3148,
+          "realm": 141
         },
         "mythic": {
           "world": 0,
@@ -1694,8 +1694,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15237,
-          "region": 5981,
+          "world": 15239,
+          "region": 5982,
           "realm": 72
         },
         "heroic": {
@@ -1760,8 +1760,8 @@
           "realm": 147
         },
         "mythic": {
-          "world": 8498,
-          "region": 3596,
+          "world": 8499,
+          "region": 3597,
           "realm": 163
         }
       },
@@ -1867,8 +1867,8 @@
           "realm": 19
         },
         "mythic": {
-          "world": 8995,
-          "region": 3779,
+          "world": 8996,
+          "region": 3780,
           "realm": 8
         }
       },
@@ -1913,9 +1913,9 @@
           "realm": 18
         },
         "heroic": {
-          "world": 9716,
-          "region": 3698,
-          "realm": 17
+          "world": 9847,
+          "region": 3817,
+          "realm": 18
         },
         "mythic": {
           "world": 0,
@@ -2020,9 +2020,9 @@
           "realm": 132
         },
         "heroic": {
-          "world": 6971,
-          "region": 2668,
-          "realm": 133
+          "world": 7136,
+          "region": 2821,
+          "realm": 136
         },
         "mythic": {
           "world": 0,
@@ -2081,8 +2081,8 @@
           "realm": 234
         },
         "mythic": {
-          "world": 8928,
-          "region": 3751,
+          "world": 8929,
+          "region": 3752,
           "realm": 215
         }
       },
@@ -2110,9 +2110,9 @@
           "realm": 12
         },
         "heroic": {
-          "world": 9661,
-          "region": 3792,
-          "realm": 212
+          "world": 9724,
+          "region": 3850,
+          "realm": 216
         },
         "mythic": {
           "world": 0,
@@ -2127,9 +2127,9 @@
           "realm": 200
         },
         "heroic": {
-          "world": 10485,
-          "region": 4027,
-          "realm": 232
+          "world": 10583,
+          "region": 4114,
+          "realm": 241
         },
         "mythic": {
           "world": 0,
@@ -2188,8 +2188,8 @@
           "realm": 256
         },
         "mythic": {
-          "world": 9224,
-          "region": 3872,
+          "world": 9225,
+          "region": 3873,
           "realm": 226
         }
       },
@@ -2229,8 +2229,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15397,
-          "region": 6036,
+          "world": 15400,
+          "region": 6038,
           "realm": 297
         },
         "heroic": {
@@ -2295,8 +2295,8 @@
           "realm": 232
         },
         "mythic": {
-          "world": 8921,
-          "region": 3746,
+          "world": 8922,
+          "region": 3747,
           "realm": 219
         }
       },
@@ -2336,9 +2336,9 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 12243,
-          "region": 4831,
-          "realm": 268
+          "world": 12311,
+          "region": 4898,
+          "realm": 271
         },
         "heroic": {
           "world": 0,
@@ -2555,9 +2555,9 @@
           "realm": 0
         },
         "heroic": {
-          "world": 11788,
-          "region": 4541,
-          "realm": 159
+          "world": 11807,
+          "region": 4596,
+          "realm": 161
         },
         "mythic": {
           "world": 0,
@@ -2769,9 +2769,9 @@
           "realm": 151
         },
         "heroic": {
-          "world": 3199,
-          "region": 1401,
-          "realm": 82
+          "world": 3273,
+          "region": 1473,
+          "realm": 88
         },
         "mythic": {
           "world": 0,
