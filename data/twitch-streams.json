@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-09-06T15:39:50.932Z",
+  "updatedAt": "2026-09-06T17:43:08.807Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318555294822",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
+      "id": "318358856295",
+      "userId": "166949280",
+      "userLogin": "jokersmiles",
+      "userName": "jokersmiles",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Καλησπέρα! Let the best healer wins... EvO Vs Pala..",
-      "viewerCount": 33,
-      "startedAt": "2026-09-06T13:10:36Z",
+      "title": "Race to Greek First Marathon - KLIKA 2/8 Mythic",
+      "viewerCount": 52,
+      "startedAt": "2026-09-06T16:12:57Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jokersmiles"
     },
     {
-      "id": "318357748327",
-      "userId": "742014117",
-      "userLogin": "alloudtv",
-      "userName": "AlloudTV",
+      "id": "317693865187",
+      "userId": "17888361",
+      "userLogin": "sephbladesgaminggr",
+      "userName": "SephBladesGamingGR",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "S2 Greek VDH On Fire! 🔥🔥🔥 Road to Rank   ( 1 ) VDH !!⚡",
-      "viewerCount": 4,
-      "startedAt": "2026-09-06T14:36:55Z",
+      "title": "PoE2 / M+/ Social Raid απόψε!  - !commands !youtube",
+      "viewerCount": 24,
+      "startedAt": "2026-09-06T14:27:36Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_alloudtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/alloudtv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
     },
     {
       "id": "318556513894",
@@ -39,25 +39,25 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Raid time :  Black temple",
-      "viewerCount": 2,
+      "viewerCount": 4,
       "startedAt": "2026-09-06T15:05:13Z",
       "language": "el",
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darksaiko-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/darksaiko"
     },
     {
-      "id": "318355960679",
-      "userId": "167369818",
-      "userLogin": "iliasanth",
-      "userName": "IliasAnth",
+      "id": "318558315750",
+      "userId": "476358726",
+      "userLogin": "chainburned",
+      "userName": "chainburned",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Let's gooo",
-      "viewerCount": 2,
-      "startedAt": "2026-09-06T11:49:28Z",
+      "title": "(ENG/GR) | 🔥 [3536io] pug raidin'🔥| RESIL +17 🔐 | HAVOC OTP ⚔️ | LAST PULL 👑",
+      "viewerCount": 1,
+      "startedAt": "2026-09-06T17:32:55Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iliasanth-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/iliasanth"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chainburned-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/chainburned"
     }
   ]
 }
