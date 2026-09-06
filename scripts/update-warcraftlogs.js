@@ -9,6 +9,7 @@ const outputPath = "data/warcraftlogs-groups.json";
 const TOTAL_BOSSES = 8;
 const REPORT_LIMIT = 50;
 const CURRENT_RAID_KEY = "the-venomous-abyss";
+const CURRENT_RAID_NAME = "The Venomous Abyss";
 
 /*
  * Canonical encounter order.
@@ -83,6 +84,13 @@ function getCanonicalBossName(name) {
 
 function isCurrentRaidBoss(name) {
   return Boolean(getCanonicalBossName(name));
+  function isCurrentRaidFight(fight) {
+  return (
+    Boolean(fight.canonicalBossName) &&
+    normalizeName(fight.zoneName) ===
+      normalizeName(CURRENT_RAID_NAME)
+  );
+}
 }
 
 async function getToken() {
@@ -323,7 +331,7 @@ function getDifficultySummary(allFights) {
   const currentRaidFights =
     allFights.filter(
       fight =>
-        Boolean(fight.canonicalBossName)
+        isCurrentRaidFight(fight)
     );
 
   const summaries =
@@ -454,7 +462,7 @@ function getCurrentProgressionBoss(fights) {
   const currentRaidFights =
     fights.filter(
       fight =>
-        Boolean(fight.canonicalBossName)
+        isCurrentRaidFight(fight)
     );
 
   const killedBosses =
@@ -649,7 +657,7 @@ function countCurrentRaidReports(fights) {
     fights
       .filter(
         fight =>
-          Boolean(fight.canonicalBossName)
+          isCurrentRaidFight(fight)
       )
       .map(
         fight =>
