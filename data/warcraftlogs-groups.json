@@ -15,11 +15,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T19:57:20.688Z",
+    "updatedAt": "2026-09-06T22:09:26.083Z",
     "raidZone": "",
     "currentRaidReports": 7,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 12
+    "progressionPulls": 12,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "amargosa-crew",
@@ -39,10 +40,11 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-09-06T19:57:40.435Z",
+    "updatedAt": "2026-09-06T22:09:42.457Z",
     "raidKey": "the-venomous-abyss",
     "currentRaidReports": 22,
-    "progressionPulls": 111
+    "progressionPulls": 111,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "chillers",
@@ -60,11 +62,12 @@
     "bestBoss": "The Twin Fangs",
     "latestReport": "aKFtTgbkDzpNHhGC",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T19:57:58.337Z",
+    "updatedAt": "2026-09-06T22:09:58.550Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 6,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 61
+    "progressionPulls": 61,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "crimson-thunder",
@@ -82,11 +85,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T19:58:01.852Z",
+    "updatedAt": "2026-09-06T22:10:01.856Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0
+    "progressionPulls": 0,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "death-and-glory",
@@ -104,11 +108,12 @@
     "bestBoss": "Entombed Sentinels",
     "latestReport": "Xy8acAPQGBRm6nN9",
     "latestReportTitle": "kai twra? ti ginetai twra?",
-    "updatedAt": "2026-09-06T19:58:25.136Z",
+    "updatedAt": "2026-09-06T22:10:22.126Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 6,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 42
+    "progressionPulls": 42,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "deny-everything",
@@ -126,11 +131,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T19:58:46.005Z",
+    "updatedAt": "2026-09-06T22:10:40.628Z",
     "raidZone": "",
     "currentRaidReports": 7,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 59
+    "progressionPulls": 59,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "disobedient",
@@ -148,11 +154,12 @@
     "bestBoss": "Entombed Sentinels",
     "latestReport": "qQDrtBbxn8WHaXy4",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T19:59:07.166Z",
+    "updatedAt": "2026-09-06T22:11:00.161Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 9,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 11
+    "progressionPulls": 11,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "disobedient-group-ii",
@@ -173,8 +180,9 @@
     "latestReport": "KqD3zJXFZbjwgMkv",
     "latestReportTitle": "Heroic",
     "raidZone": "Mythic+ Season 2",
-    "updatedAt": "2026-09-06T19:59:26.690Z",
-    "progressionPulls": 45
+    "updatedAt": "2026-09-06T22:11:18.972Z",
+    "progressionPulls": 45,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "disobedient-group-iii",
@@ -195,8 +203,9 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-09-06T19:59:46.315Z",
-    "progressionPulls": 62
+    "updatedAt": "2026-09-06T22:11:36.797Z",
+    "progressionPulls": 62,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "dungeon-meta",
@@ -214,11 +223,12 @@
     "bestBoss": "Sszorak",
     "latestReport": "9Mh4Q8xjKfkLVqyG",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T20:00:08.080Z",
+    "updatedAt": "2026-09-06T22:11:55.552Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 12,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 64
+    "progressionPulls": 64,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "elegance",
@@ -236,11 +246,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:00:30.468Z",
+    "updatedAt": "2026-09-06T22:12:13.902Z",
     "raidZone": "",
     "currentRaidReports": 4,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 5
+    "progressionPulls": 5,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "epsilon",
@@ -258,11 +269,12 @@
     "bestBoss": "Ula'tek",
     "latestReport": "krvQxTVPWHdNXKh9",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T20:00:52.841Z",
+    "updatedAt": "2026-09-06T22:12:34.957Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 4,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 37
+    "progressionPulls": 37,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "irriducibili",
@@ -280,11 +292,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:01:00.697Z",
+    "updatedAt": "2026-09-06T22:12:43.328Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0
+    "progressionPulls": 0,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "k-l-i-k-a",
@@ -302,11 +315,12 @@
     "bestBoss": "Nek'zali the Soulcoiler",
     "latestReport": "x4f19WAqtYTpgDKX",
     "latestReportTitle": "Emerald Nightmare",
-    "updatedAt": "2026-09-06T20:01:23.495Z",
+    "updatedAt": "2026-09-06T22:13:20.983Z",
     "raidZone": "Emerald Nightmare",
     "currentRaidReports": 7,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 25
+    "progressionPulls": 25,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "leontokardoi",
@@ -324,11 +338,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:01:43.290Z",
+    "updatedAt": "2026-09-06T22:14:01.086Z",
     "raidZone": "",
     "currentRaidReports": 5,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 4
+    "progressionPulls": 4,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "myrmidones",
@@ -346,11 +361,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:02:04.170Z",
+    "updatedAt": "2026-09-06T22:15:11.390Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0
+    "progressionPulls": 0,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "not-forgotten",
@@ -368,7 +384,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:02:04.323Z",
+    "updatedAt": "2026-09-06T22:15:11.511Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
@@ -390,7 +406,7 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:02:04.493Z",
+    "updatedAt": "2026-09-06T22:15:11.622Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
@@ -412,11 +428,12 @@
     "bestBoss": "Ula'tek",
     "latestReport": "8DJm2YfgdAZCyaPr",
     "latestReportTitle": "2/9/26 Reclear",
-    "updatedAt": "2026-09-06T20:02:29.720Z",
+    "updatedAt": "2026-09-06T22:15:43.041Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 8,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 147
+    "progressionPulls": 147,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "provatina",
@@ -434,11 +451,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:02:54.937Z",
+    "updatedAt": "2026-09-06T22:16:08.018Z",
     "raidZone": "",
     "currentRaidReports": 12,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 97
+    "progressionPulls": 97,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "soe-reborn",
@@ -456,11 +474,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:03:16.234Z",
+    "updatedAt": "2026-09-06T22:16:29.420Z",
     "raidZone": "",
     "currentRaidReports": 7,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 68
+    "progressionPulls": 68,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "t-h-e-o-r-y",
@@ -478,11 +497,12 @@
     "bestBoss": "Entombed Sentinels",
     "latestReport": "3JBj4wC68MrHzVf7",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T20:03:41.381Z",
+    "updatedAt": "2026-09-06T22:16:53.744Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 3,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 17
+    "progressionPulls": 17,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "the-haunted",
@@ -500,11 +520,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:04:04.630Z",
+    "updatedAt": "2026-09-06T22:18:25.194Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0
+    "progressionPulls": 0,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "the-syndicate",
@@ -522,11 +543,12 @@
     "bestBoss": "The Lost Explorers",
     "latestReport": "17m9bzZr3X2f6PdT",
     "latestReportTitle": "The Venomous Abyss",
-    "updatedAt": "2026-09-06T20:04:16.024Z",
+    "updatedAt": "2026-09-06T22:18:33.964Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 6,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 40
+    "progressionPulls": 40,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "u-t-o-p-i-a",
@@ -544,11 +566,12 @@
     "bestBoss": "",
     "latestReport": "",
     "latestReportTitle": "",
-    "updatedAt": "2026-09-06T20:04:29.240Z",
+    "updatedAt": "2026-09-06T22:18:44.130Z",
     "raidZone": "",
     "currentRaidReports": 0,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 0
+    "progressionPulls": 0,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "unique-legacy",
@@ -566,11 +589,12 @@
     "bestBoss": "The Twin Fangs",
     "latestReport": "kJTbgrvyVRwAf9N1",
     "latestReportTitle": "HC 31/08/2026",
-    "updatedAt": "2026-09-06T20:04:49.275Z",
+    "updatedAt": "2026-09-06T22:19:01.646Z",
     "raidZone": "The Venomous Abyss",
     "currentRaidReports": 4,
     "raidKey": "the-venomous-abyss",
-    "progressionPulls": 45
+    "progressionPulls": 45,
+    "updateError": "isCurrentRaidFight is not defined"
   },
   {
     "id": "you-are-not-repaired",
@@ -592,6 +616,7 @@
     "latestReport": "",
     "latestReportTitle": "",
     "raidZone": "",
-    "updatedAt": "2026-09-06T20:05:10.324Z"
+    "updatedAt": "2026-09-06T22:19:10.515Z",
+    "updateError": "isCurrentRaidFight is not defined"
   }
 ]
