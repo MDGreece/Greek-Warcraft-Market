@@ -255,14 +255,17 @@ function formatBossProgress(group) {
   }
 
   /*
-   * Current-raid CE.
-   */
-  if (
-    group.bossProg === "CE" ||
-    group.progress === "CE"
-  ) {
-    return "CE";
-  }
+/*
+ * Only bossProg itself may declare CE here.
+ *
+ * Do NOT use group.progress === "CE".
+ * Raider.IO is the source of truth for guild
+ * progression, while Warcraft Logs is used
+ * here only for current boss progress.
+ */
+if (group.bossProg === "CE") {
+  return "CE";
+}
 
   /*
    * Current progression boss.
