@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-09-07T12:24:13.211Z",
+  "updatedAt": "2026-09-07T14:54:46.406Z",
   "game": "World of Warcraft",
   "language": "el",
   "streams": [
     {
-      "id": "318366280039",
-      "userId": "121649091",
-      "userLogin": "necrosgr",
-      "userName": "necrosgr",
+      "id": "318565554790",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[GR/EN]Havoc keyss",
-      "viewerCount": 4,
-      "startedAt": "2026-09-07T11:19:57Z",
+      "title": "5,15,25,35!! Το content συνεχίζεται!! Pala?! Τι θα γίνει θα πατήσεις κανένα κουμπί;;!! Πεθαίνουμε!",
+      "viewerCount": 18,
+      "startedAt": "2026-09-07T12:56:13Z",
       "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/necrosgr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
     }
   ]
 }
