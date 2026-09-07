@@ -93,7 +93,8 @@ function isCurrentRaidFight(fight) {
       normalizeName(CURRENT_RAID_NAME)
   );
 }
-}
+
+async function getToken() {
 }
 
 async function getToken() {
