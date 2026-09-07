@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-09-07T06:04:25.454Z",
+  "updatedAt": "2026-09-07T12:24:13.211Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": []
+  "streams": [
+    {
+      "id": "318366280039",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Havoc keyss",
+      "viewerCount": 4,
+      "startedAt": "2026-09-07T11:19:57Z",
+      "language": "el",
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    }
+  ]
 }
