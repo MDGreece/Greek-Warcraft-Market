@@ -10,16 +10,91 @@ const OUTPUT_FILE =
   "data/twitch-streams.json";
 
 /*
- * Twitch language code for Greek.
+ * Official Twitch language code for Greek.
  */
 const LANGUAGE = "el";
 
 /*
- * World of Warcraft.
+ * Tags that we also consider Greek.
  *
- * We look this up automatically instead
- * of hard-coding the game ID.
+ * Matching is case-insensitive and accents
+ * are normalized, so these will match:
+ *
+ * Greek
+ * greek
+ * GREEK
+ * Ελληνικά
+ * Ελληνικα
+ * ΕΛΛΗΝΙΚΑ
  */
+const GREEK_TAGS = [
+  "greek",
+  "ελληνικα"
+];
+
+
+/*
+ * Normalize text for tag comparison.
+ *
+ * Examples:
+ *
+ * "Greek"     -> "greek"
+ * "GREEK"     -> "greek"
+ * "Ελληνικά"  -> "ελληνικα"
+ * "Ελληνικα"  -> "ελληνικα"
+ */
+function normalizeTag(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim()
+    .toLowerCase();
+}
+
+
+/*
+ * Decide whether a Twitch stream should
+ * be considered Greek.
+ *
+ * A stream is Greek if:
+ *
+ * 1. Twitch reports language = "el"
+ *
+ * OR
+ *
+ * 2. It has a Greek-related tag.
+ */
+function isGreekStream(stream) {
+  /*
+   * First check Twitch's official
+   * broadcast-language field.
+   */
+  if (
+    String(stream.language || "")
+      .toLowerCase() === LANGUAGE
+  ) {
+    return true;
+  }
+
+
+  /*
+   * Then check Twitch tags.
+   */
+  const tags =
+    Array.isArray(stream.tags)
+      ? stream.tags
+      : [];
+
+
+  return tags.some(tag => {
+    const normalized =
+      normalizeTag(tag);
+
+    return GREEK_TAGS.includes(
+      normalized
+    );
+  });
+}
 
 
 async function getAccessToken() {
@@ -41,10 +116,12 @@ async function getAccessToken() {
       "https://id.twitch.tv/oauth2/token",
       {
         method: "POST",
+
         headers: {
           "Content-Type":
             "application/x-www-form-urlencoded"
         },
+
         body
       }
     );
@@ -72,6 +149,7 @@ async function twitchRequest(
       {
         headers: {
           "Client-Id": CLIENT_ID,
+
           "Authorization":
             `Bearer ${token}`
         }
@@ -120,35 +198,155 @@ async function getWorldOfWarcraftId(
 }
 
 
+/*
+ * Fetch ALL live World of Warcraft streams.
+ *
+ * Previously we requested:
+ *
+ * language=el
+ *
+ * directly from Twitch.
+ *
+ * That meant Twitch completely excluded
+ * streams whose broadcast language metadata
+ * was not "el", even if they had a Greek tag.
+ *
+ * We now fetch WoW streams first and perform
+ * the Greek detection ourselves.
+ */
+async function getAllWoWStreams(
+  token,
+  gameId
+) {
+  const allStreams = [];
+
+  let cursor = "";
+  let page = 1;
+
+
+  while (true) {
+    const params =
+      new URLSearchParams();
+
+    params.set(
+      "game_id",
+      gameId
+    );
+
+    params.set(
+      "first",
+      "100"
+    );
+
+
+    if (cursor) {
+      params.set(
+        "after",
+        cursor
+      );
+    }
+
+
+    console.log(
+      `Fetching WoW streams page ${page}...`
+    );
+
+
+    const data =
+      await twitchRequest(
+        `/streams?${params.toString()}`,
+        token
+      );
+
+
+    const streams =
+      data.data || [];
+
+
+    allStreams.push(
+      ...streams
+    );
+
+
+    console.log(
+      `Page ${page}: ${streams.length} streams`
+    );
+
+
+    /*
+     * Twitch provides a cursor when another
+     * page of results exists.
+     */
+    cursor =
+      data.pagination?.cursor || "";
+
+
+    if (!cursor || streams.length === 0) {
+      break;
+    }
+
+
+    page += 1;
+  }
+
+
+  console.log(
+    `Found ${allStreams.length} total live WoW streams`
+  );
+
+
+  return allStreams;
+}
+
+
+/*
+ * Find Greek WoW streams using both:
+ *
+ * Twitch broadcast language
+ *
+ * AND
+ *
+ * Twitch stream tags.
+ */
 async function getGreekWoWStreams(
   token,
   gameId
 ) {
-  const params =
-    new URLSearchParams();
-
-  params.set(
-    "game_id",
-    gameId
-  );
-
-  params.set(
-    "language",
-    LANGUAGE
-  );
-
-  params.set(
-    "first",
-    "100"
-  );
-
-  const data =
-    await twitchRequest(
-      `/streams?${params.toString()}`,
-      token
+  const allStreams =
+    await getAllWoWStreams(
+      token,
+      gameId
     );
 
-  return data.data || [];
+
+  const greekStreams =
+    allStreams.filter(
+      stream =>
+        isGreekStream(stream)
+    );
+
+
+  console.log(
+    `Found ${greekStreams.length} Greek WoW streams`
+  );
+
+
+  /*
+   * Helpful GitHub Actions debugging.
+   *
+   * This lets us see exactly WHY each
+   * detected stream was accepted.
+   */
+  for (const stream of greekStreams) {
+    console.log(
+      `${stream.user_name}: ` +
+      `language=${stream.language || "-"}, ` +
+      `tags=${JSON.stringify(stream.tags || [])}`
+    );
+  }
+
+
+  return greekStreams;
 }
 
 
@@ -157,13 +355,16 @@ async function run() {
     "Updating Greek WoW Twitch streams..."
   );
 
+
   const token =
     await getAccessToken();
+
 
   const gameId =
     await getWorldOfWarcraftId(
       token
     );
+
 
   const streams =
     await getGreekWoWStreams(
@@ -171,16 +372,18 @@ async function run() {
       gameId
     );
 
+
   /*
-   * Twitch already normally returns streams
-   * ordered by viewer count, but sorting again
-   * keeps our JSON deterministic.
+   * Twitch normally returns streams ordered
+   * by viewer count, but sort again so our
+   * JSON remains deterministic.
    */
   streams.sort(
     (a, b) =>
       Number(b.viewer_count || 0) -
       Number(a.viewer_count || 0)
   );
+
 
   const output =
     streams.map(stream => ({
@@ -214,6 +417,11 @@ async function run() {
       language:
         stream.language,
 
+      tags:
+        Array.isArray(stream.tags)
+          ? stream.tags
+          : [],
+
       thumbnailUrl:
         String(
           stream.thumbnail_url || ""
@@ -231,6 +439,7 @@ async function run() {
         `https://www.twitch.tv/${stream.user_login}`
     }));
 
+
   fs.mkdirSync(
     "data",
     {
@@ -238,8 +447,10 @@ async function run() {
     }
   );
 
+
   fs.writeFileSync(
     OUTPUT_FILE,
+
     JSON.stringify(
       {
         updatedAt:
@@ -248,16 +459,25 @@ async function run() {
         game:
           "World of Warcraft",
 
+        /*
+         * We now use both Twitch language
+         * and Greek tags.
+         */
         language:
           LANGUAGE,
+
+        detection:
+          "language-or-greek-tag",
 
         streams:
           output
       },
+
       null,
       2
     ) + "\n"
   );
+
 
   console.log(
     `Saved ${output.length} live streams to ${OUTPUT_FILE}`
