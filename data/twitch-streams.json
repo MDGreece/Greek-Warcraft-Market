@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-09-07T20:56:30.583Z",
+  "updatedAt": "2026-09-07T21:16:19.652Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318500002149",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "+23RESIL TODAY. ALSO I KNOW THE META COMP !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 204,
-      "startedAt": "2026-09-07T08:56:17Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "DropsEnabled",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "318369486055",
       "userId": "166949280",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Race to Greek First Marathon - KLIKA 4/8 Mythic ΤΩΡΑ ΞΕΚΙΝΑΕΙ Η ΠΑΡΑΣΤΑΣΗ ΚΥΡΙΟΙ",
-      "viewerCount": 58,
+      "viewerCount": 52,
       "startedAt": "2026-09-07T16:41:03Z",
       "language": "el",
       "tags": [
@@ -49,6 +23,32 @@
       "twitchUrl": "https://www.twitch.tv/jokersmiles"
     },
     {
+      "id": "318568602598",
+      "userId": "219637144",
+      "userLogin": "fountas_4",
+      "userName": "fountas_4",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<Cursed Gifts> 5/8 Mythic The Venomous Abyss Twin Fangs prog?",
+      "viewerCount": 17,
+      "startedAt": "2026-09-07T17:31:07Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Greece",
+        "Ελληνικά",
+        "English",
+        "WorldfofWarcraft",
+        "midnight",
+        "beta",
+        "highkeys",
+        "warlock",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fountas_4-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fountas_4"
+    },
+    {
       "id": "318505772133",
       "userId": "40562225",
       "userLogin": "gredush",
@@ -56,7 +56,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Η χαρά του raiding :)",
-      "viewerCount": 16,
+      "viewerCount": 15,
       "startedAt": "2026-09-07T18:05:44Z",
       "language": "el",
       "tags": [
@@ -82,7 +82,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Να πανε κατω τα φαρμακια",
-      "viewerCount": 12,
+      "viewerCount": 14,
       "startedAt": "2026-09-07T18:29:45Z",
       "language": "el",
       "tags": [
@@ -100,6 +100,71 @@
       "twitchUrl": "https://www.twitch.tv/nok_kan"
     },
     {
+      "id": "318569280998",
+      "userId": "51768418",
+      "userLogin": "3dns",
+      "userName": "3Dns",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "GR | <Disobedient> | Venomous Abyss 4/8M / Vashnik | Aidsventura | Holy PoV",
+      "viewerCount": 12,
+      "startedAt": "2026-09-07T18:17:36Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/3dns"
+    },
+    {
+      "id": "318371728487",
+      "userId": "36830103",
+      "userLogin": "demian_gr",
+      "userName": "Demian_GR",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Abyssos ksana tha exei polla episodia i season..",
+      "viewerCount": 10,
+      "startedAt": "2026-09-07T18:59:15Z",
+      "language": "el",
+      "tags": [
+        "warrior",
+        "mythic",
+        "raid",
+        "Arms",
+        "Heroic",
+        "Progress",
+        "Greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_demian_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/demian_gr"
+    },
+    {
+      "id": "320132612958",
+      "userId": "40934863",
+      "userLogin": "evenstartv",
+      "userName": "EvenstarTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "ULA'TEK! ULA'TEK!! ULA'TEEEEEEEK!!!!!!!! (Down today?)",
+      "viewerCount": 9,
+      "startedAt": "2026-09-07T17:55:19Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Raid",
+        "WorldfofWarcraft",
+        "Hunter",
+        "gameplay",
+        "greek",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evenstartv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/evenstartv"
+    },
+    {
       "id": "318370357223",
       "userId": "45818286",
       "userLogin": "giorgosyuki",
@@ -107,7 +172,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | 3758io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Mythic Raid Into Keys |",
-      "viewerCount": 10,
+      "viewerCount": 8,
       "startedAt": "2026-09-07T17:36:35Z",
       "language": "el",
       "tags": [
@@ -126,72 +191,6 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "318369564263",
-      "userId": "135725735",
-      "userLogin": "tanchao",
-      "userName": "Tanchao",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "O M E G A | Πάμε Mythic!  | Blood DK Tank POV",
-      "viewerCount": 10,
-      "startedAt": "2026-09-07T16:46:47Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "PvE",
-        "WorldofWarcaft",
-        "HeroicRaid",
-        "tank",
-        "BloodDK",
-        "Raiding",
-        "tank",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tanchao"
-    },
-    {
-      "id": "320132612958",
-      "userId": "40934863",
-      "userLogin": "evenstartv",
-      "userName": "EvenstarTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "ULA'TEK! ULA'TEK!! ULA'TEEEEEEEK!!!!!!!! (Down today?)",
-      "viewerCount": 8,
-      "startedAt": "2026-09-07T17:55:19Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Raid",
-        "WorldfofWarcraft",
-        "Hunter",
-        "gameplay",
-        "greek",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evenstartv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/evenstartv"
-    },
-    {
-      "id": "318568991846",
-      "userId": "102736580",
-      "userLogin": "kiraboom",
-      "userName": "Kiraboom",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "two snakes prog",
-      "viewerCount": 8,
-      "startedAt": "2026-09-07T17:59:08Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kiraboom-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kiraboom"
-    },
-    {
       "id": "318569927654",
       "userId": "146179989",
       "userLogin": "tellostv",
@@ -199,7 +198,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Ulalatek HC kai meta Mythic ?",
-      "viewerCount": 7,
+      "viewerCount": 4,
       "startedAt": "2026-09-07T19:02:27Z",
       "language": "el",
       "tags": [
@@ -215,31 +214,6 @@
       "twitchUrl": "https://www.twitch.tv/tellostv"
     },
     {
-      "id": "318371728487",
-      "userId": "36830103",
-      "userLogin": "demian_gr",
-      "userName": "Demian_GR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Abyssos ksana tha exei polla episodia i season..",
-      "viewerCount": 6,
-      "startedAt": "2026-09-07T18:59:15Z",
-      "language": "el",
-      "tags": [
-        "warrior",
-        "mythic",
-        "raid",
-        "Arms",
-        "Heroic",
-        "Progress",
-        "Greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_demian_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/demian_gr"
-    },
-    {
       "id": "318371577703",
       "userId": "144485185",
       "userLogin": "ramelitsa_eu",
@@ -247,7 +221,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR] 🧿 Raid | Holy Paladin | Soe Reborn | #Greek",
-      "viewerCount": 4,
+      "viewerCount": 3,
       "startedAt": "2026-09-07T18:49:52Z",
       "language": "el",
       "tags": [
@@ -293,7 +267,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR/ENG] <Provatina> Ula'tek HC!",
-      "viewerCount": 1,
+      "viewerCount": 2,
       "startedAt": "2026-09-07T18:14:24Z",
       "language": "el",
       "tags": [
@@ -304,49 +278,42 @@
       "twitchUrl": "https://www.twitch.tv/etheriel7"
     },
     {
-      "id": "317691341668",
-      "userId": "185568570",
-      "userLogin": "vlimecy",
-      "userName": "vlimecy",
+      "id": "318506277605",
+      "userId": "161857231",
+      "userLogin": "killerunarg",
+      "userName": "KillerunaRG",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[ DH PoV ] Mythic Raid",
+      "title": "< S.O.E. REBORN > Ticket Raid Night.NO MIC I AM POOR STFU",
       "viewerCount": 1,
-      "startedAt": "2026-09-07T16:49:12Z",
-      "language": "ru",
-      "tags": [
-        "Русский",
-        "English",
-        "Greek",
-        "MMORPG",
-        "Warrior",
-        "Raid",
-        "MythicPlus",
-        "MythicPlusKeys",
-        "Ultrawide",
-        "DropsВключены"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vlimecy"
-    },
-    {
-      "id": "318568933734",
-      "userId": "31405382",
-      "userLogin": "darksaiko",
-      "userName": "Darksaiko",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Raid time :  Venomous Abyss!",
-      "viewerCount": 1,
-      "startedAt": "2026-09-07T17:55:42Z",
+      "startedAt": "2026-09-07T18:38:26Z",
       "language": "el",
       "tags": [
         "Ελληνικά",
-        "Engisih",
+        "English",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darksaiko-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darksaiko"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_killerunarg-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/killerunarg"
+    },
+    {
+      "id": "318506277605",
+      "userId": "161857231",
+      "userLogin": "killerunarg",
+      "userName": "KillerunaRG",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "< S.O.E. REBORN > Ticket Raid Night.NO MIC I AM POOR STFU",
+      "viewerCount": 1,
+      "startedAt": "2026-09-07T18:38:26Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_killerunarg-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/killerunarg"
     },
     {
       "id": "318570139750",
@@ -365,24 +332,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_proedros_ul-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/proedros_ul"
-    },
-    {
-      "id": "318371007079",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> Ula'tek HC!",
-      "viewerCount": 1,
-      "startedAt": "2026-09-07T18:14:24Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
     }
   ]
 }
