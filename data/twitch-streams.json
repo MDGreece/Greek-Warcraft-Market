@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-09-07T01:06:30.825Z",
+  "updatedAt": "2026-09-07T06:04:25.454Z",
   "game": "World of Warcraft",
   "language": "el",
-  "streams": [
-    {
-      "id": "318558721894",
-      "userId": "1322829066",
-      "userLogin": "loukoumakicore",
-      "userName": "loukoumakicore",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "MAOU MAOU kai shenanigans // +18 !zaxari !asmr !socials",
-      "viewerCount": 60,
-      "startedAt": "2026-09-06T18:01:52Z",
-      "language": "el",
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukoumakicore-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/loukoumakicore"
-    }
-  ]
+  "streams": []
 }
