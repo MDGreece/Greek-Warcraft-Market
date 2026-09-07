@@ -1,8 +1,35 @@
 {
-  "updatedAt": "2026-09-07T14:54:46.406Z",
+  "updatedAt": "2026-09-07T15:17:46.465Z",
   "game": "World of Warcraft",
   "language": "el",
+  "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "318500002149",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "+23RESIL TODAY. ALSO I KNOW THE META COMP !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 684,
+      "startedAt": "2026-09-07T08:56:17Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "DropsEnabled",
+        "Radio",
+        "music",
+        "musicplaylist"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
     {
       "id": "318565554790",
       "userId": "126713901",
@@ -11,11 +38,47 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "5,15,25,35!! Το content συνεχίζεται!! Pala?! Τι θα γίνει θα πατήσεις κανένα κουμπί;;!! Πεθαίνουμε!",
-      "viewerCount": 18,
+      "viewerCount": 20,
       "startedAt": "2026-09-07T12:56:13Z",
       "language": "el",
+      "tags": [
+        "BlizzardEntertainment",
+        "MythicPlusKeys",
+        "Season2",
+        "WorldofWarcaft",
+        "18pluschannel",
+        "Paladin",
+        "ΤαDropΕνεργοποιήθηκαν",
+        "greek"
+      ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "318502126437",
+      "userId": "161731907",
+      "userLogin": "andrikatsgames",
+      "userName": "AndriKatsGames",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!drops LAST DAYS 🎉🎉 !SUBtember 30% OFF Goldmaking & Chatting before I leave for Greece🔥BlizzCon Hype 🔥 LET'S GOOO!",
+      "viewerCount": 18,
+      "startedAt": "2026-09-07T13:13:40Z",
+      "language": "en",
+      "tags": [
+        "warcraft",
+        "wow",
+        "English",
+        "greek",
+        "worldofwarcraft",
+        "Ελληνικά",
+        "RetailWOW",
+        "casual",
+        "streamergirl",
+        "cozy"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
     }
   ]
 }
