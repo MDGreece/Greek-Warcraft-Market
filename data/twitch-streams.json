@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T15:18:46.948Z",
+  "updatedAt": "2026-09-08T18:49:31.560Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "NEW ROGUE BUILD AGAIN? WHAT IS THIS GUY COOKING ?? !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 712,
+      "viewerCount": 616,
       "startedAt": "2026-09-08T09:06:56Z",
       "language": "en",
       "tags": [
@@ -22,7 +22,6 @@
         "mmorpg",
         "WorldfofWarcraft",
         "drops",
-        "DropsEnabled",
         "Radio",
         "music",
         "musicplaylist"
@@ -31,25 +30,29 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "318513453157",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
+      "id": "317700690148",
+      "userId": "185568570",
+      "userLogin": "vlimecy",
+      "userName": "vlimecy",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DNG | Keys me evoker",
-      "viewerCount": 13,
-      "startedAt": "2026-09-08T13:55:50Z",
-      "language": "el",
+      "title": "[ DH PoV ] Mythic Raid",
+      "viewerCount": 1,
+      "startedAt": "2026-09-08T17:54:49Z",
+      "language": "ru",
       "tags": [
-        "Ελληνικά",
-        "greek",
-        "healing",
-        "evoker",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "Русский",
+        "English",
+        "Greek",
+        "MMORPG",
+        "Warrior",
+        "Raid",
+        "MythicPlus",
+        "MythicPlusKeys",
+        "Ultrawide"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vlimecy"
     }
   ]
 }
