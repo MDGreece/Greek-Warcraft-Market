@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-09-08T01:23:16.280Z",
+  "updatedAt": "2026-09-08T06:22:14.872Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318370357223",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "318573462886",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!! [GR/EN] -Yuki- | 3758io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Mythic Raid Into Keys |",
-      "viewerCount": 22,
-      "startedAt": "2026-09-07T17:36:35Z",
+      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
+      "viewerCount": 0,
+      "startedAt": "2026-09-08T05:41:33Z",
       "language": "el",
       "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "relax",
+        "chill",
+        "eng",
+        "gr",
+        "fun",
+        "drops",
+        "wow",
+        "midnight",
+        "lore",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
     }
   ]
 }
