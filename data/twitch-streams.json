@@ -1,59 +1,7 @@
 {
-  "updatedAt": "2026-09-08T21:29:43.249Z",
+  "updatedAt": "2026-09-08T23:37:16.789Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318580605670",
-      "userId": "61891909",
-      "userLogin": "jeckos",
-      "userName": "Jeckos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
-      "viewerCount": 2,
-      "startedAt": "2026-09-08T18:48:21Z",
-      "language": "el",
-      "tags": [
-        "relax",
-        "chill",
-        "eng",
-        "gr",
-        "fun",
-        "drops",
-        "wow",
-        "midnight",
-        "lore",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jeckos"
-    },
-    {
-      "id": "317700690148",
-      "userId": "185568570",
-      "userLogin": "vlimecy",
-      "userName": "vlimecy",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[ DH PoV ] Mythic Raid",
-      "viewerCount": 1,
-      "startedAt": "2026-09-08T17:54:49Z",
-      "language": "ru",
-      "tags": [
-        "Русский",
-        "English",
-        "Greek",
-        "MMORPG",
-        "Warrior",
-        "Raid",
-        "MythicPlus",
-        "MythicPlusKeys",
-        "Ultrawide"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vlimecy"
-    }
-  ]
+  "streams": []
 }
