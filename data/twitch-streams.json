@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T23:35:11.419Z",
+  "updatedAt": "2026-09-08T01:23:16.280Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!! [GR/EN] -Yuki- | 3758io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Mythic Raid Into Keys |",
-      "viewerCount": 13,
+      "viewerCount": 22,
       "startedAt": "2026-09-07T17:36:35Z",
       "language": "el",
       "tags": [
@@ -29,46 +29,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318508577893",
-      "userId": "178568481",
-      "userLogin": "chocosssss",
-      "userName": "chocosssss",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "keys",
-      "viewerCount": 4,
-      "startedAt": "2026-09-07T22:17:19Z",
-      "language": "el",
-      "tags": [
-        "Greece",
-        "greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chocosssss-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chocosssss"
-    },
-    {
-      "id": "318508577893",
-      "userId": "178568481",
-      "userLogin": "chocosssss",
-      "userName": "chocosssss",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "keys",
-      "viewerCount": 4,
-      "startedAt": "2026-09-07T22:17:19Z",
-      "language": "el",
-      "tags": [
-        "Greece",
-        "greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chocosssss-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chocosssss"
     }
   ]
 }
