@@ -1,34 +1,74 @@
 {
-  "updatedAt": "2026-09-08T06:22:14.872Z",
+  "updatedAt": "2026-09-08T11:37:28.820Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318573462886",
-      "userId": "61891909",
-      "userLogin": "jeckos",
-      "userName": "Jeckos",
+      "id": "318574497638",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
-      "viewerCount": 0,
-      "startedAt": "2026-09-08T05:41:33Z",
+      "title": "NEW ROGUE BUILD AGAIN? WHAT IS THIS GUY COOKING ?? !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 489,
+      "startedAt": "2026-09-08T09:06:56Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "DropsEnabled",
+        "Radio",
+        "music",
+        "musicplaylist"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318575367782",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Ele shaman/Alt keys",
+      "viewerCount": 6,
+      "startedAt": "2026-09-08T11:21:16Z",
       "language": "el",
       "tags": [
-        "relax",
-        "chill",
-        "eng",
-        "gr",
-        "fun",
-        "drops",
-        "wow",
-        "midnight",
-        "lore",
-        "Ελληνικά"
+        "Ελληνικά",
+        "English",
+        "chillingstream",
+        "WarlockMain",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jeckos"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "318575086054",
+      "userId": "187906532",
+      "userLogin": "stormgaming___",
+      "userName": "StormGaming___",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN] Καλησπέραα, grab a coffee and chill",
+      "viewerCount": 3,
+      "startedAt": "2026-09-08T10:41:28Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_stormgaming___-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/stormgaming___"
     }
   ]
 }
