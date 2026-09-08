@@ -1,33 +1,34 @@
 {
-  "updatedAt": "2026-09-08T18:49:31.560Z",
+  "updatedAt": "2026-09-08T21:29:43.249Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318574497638",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "318580605670",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "NEW ROGUE BUILD AGAIN? WHAT IS THIS GUY COOKING ?? !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 616,
-      "startedAt": "2026-09-08T09:06:56Z",
-      "language": "en",
+      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
+      "viewerCount": 2,
+      "startedAt": "2026-09-08T18:48:21Z",
+      "language": "el",
       "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
+        "relax",
+        "chill",
+        "eng",
+        "gr",
+        "fun",
         "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
+        "wow",
+        "midnight",
+        "lore",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
     },
     {
       "id": "317700690148",
