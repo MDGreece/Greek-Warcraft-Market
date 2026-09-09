@@ -1,60 +1,92 @@
 {
-  "updatedAt": "2026-09-09T06:40:04.940Z",
+  "updatedAt": "2026-09-09T11:53:45.131Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318386258407",
-      "userId": "61891909",
-      "userLogin": "jeckos",
-      "userName": "Jeckos",
+      "id": "318523104101",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T06:05:37Z",
-      "language": "el",
+      "title": "OK MAYBE WE HAVE NEW METACOMP !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 374,
+      "startedAt": "2026-09-09T10:53:08Z",
+      "language": "en",
       "tags": [
-        "relax",
-        "chill",
-        "eng",
-        "gr",
-        "fun",
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
         "drops",
-        "wow",
-        "midnight",
-        "lore",
-        "raids"
+        "Radio",
+        "music",
+        "musicplaylist"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jeckos"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "318386258407",
-      "userId": "61891909",
-      "userLogin": "jeckos",
-      "userName": "Jeckos",
+      "id": "318521294949",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T06:05:37Z",
+      "title": "[GR/EN]Vaults/Raids/Keys",
+      "viewerCount": 9,
+      "startedAt": "2026-09-09T06:14:24Z",
       "language": "el",
       "tags": [
-        "relax",
-        "chill",
-        "eng",
-        "gr",
-        "fun",
-        "drops",
-        "wow",
-        "midnight",
-        "lore",
-        "raids"
+        "Ελληνικά",
+        "English",
+        "chillingstream",
+        "WarlockMain",
+        "ElementalShaman"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jeckos"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    },
+    {
+      "id": "318523375461",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Chill time",
+      "viewerCount": 1,
+      "startedAt": "2026-09-09T11:23:58Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
+    },
+    {
+      "id": "318387623143",
+      "userId": "56756630",
+      "userLogin": "dangdalftfm",
+      "userName": "DangdalfTFM",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Doing Keys for 3k rating",
+      "viewerCount": 1,
+      "startedAt": "2026-09-09T10:23:51Z",
+      "language": "en",
+      "tags": [
+        "mage",
+        "wow",
+        "Greek",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dangdalftfm-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/dangdalftfm"
     }
   ]
 }
