@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-09-08T16:47:55.825Z",
+        "lastSeenInRosterAt": "2026-09-09T05:02:13.494Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 293,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-08T16:49:20.290Z",
+        "updatedAt": "2026-09-09T05:02:49.357Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-08-15T18:35:01.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-08T16:49:20.290Z"
+        "lastSuccessfulUpdateAt": "2026-09-09T05:02:49.357Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -54,21 +54,21 @@
         "raidGroup": "Deny Everything",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anastrásza",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastr%C3%A1sza",
-        "mythicPlusScore": 1655.2,
+        "mythicPlusScore": 1764.1,
         "raidProgress": "6/8H",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-08T16:47:55.825Z",
-        "updatedAt": "2026-09-08T16:49:24.562Z",
+        "lastSeenInRosterAt": "2026-09-09T05:02:13.494Z",
+        "updatedAt": "2026-09-09T05:02:51.736Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 35110,
-        "itemLevel": 303.125,
+        "itemLevel": 307.812,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Heroic",
@@ -78,18 +78,18 @@
         "raiderIoUpdatedAt": "2026-09-08T03:59:21.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-08T16:49:24.562Z"
+        "lastSuccessfulUpdateAt": "2026-09-09T05:02:51.736Z"
       }
     ],
     "characterCount": 2,
-    "highestMythicPlusScore": 1655.2,
+    "highestMythicPlusScore": 1764.1,
     "bestRaidProgress": "6/8H",
     "bestAchievement": "-",
     "currentRaidKey": "the-venomous-abyss",
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-08T17:15:53.120Z",
-    "updatedAt": "2026-09-08T17:15:53.120Z"
+    "createdAt": "2026-09-09T05:15:34.098Z",
+    "updatedAt": "2026-09-09T05:15:34.098Z"
   }
 ]
