@@ -1,7 +1,60 @@
 {
-  "updatedAt": "2026-09-09T01:32:04.614Z",
+  "updatedAt": "2026-09-09T06:40:04.940Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318386258407",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
+      "viewerCount": 1,
+      "startedAt": "2026-09-09T06:05:37Z",
+      "language": "el",
+      "tags": [
+        "relax",
+        "chill",
+        "eng",
+        "gr",
+        "fun",
+        "drops",
+        "wow",
+        "midnight",
+        "lore",
+        "raids"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
+    },
+    {
+      "id": "318386258407",
+      "userId": "61891909",
+      "userLogin": "jeckos",
+      "userName": "Jeckos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
+      "viewerCount": 1,
+      "startedAt": "2026-09-09T06:05:37Z",
+      "language": "el",
+      "tags": [
+        "relax",
+        "chill",
+        "eng",
+        "gr",
+        "fun",
+        "drops",
+        "wow",
+        "midnight",
+        "lore",
+        "raids"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jeckos"
+    }
+  ]
 }
