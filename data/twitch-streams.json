@@ -1,150 +1,32 @@
 {
-  "updatedAt": "2026-09-09T19:17:36.786Z",
+  "updatedAt": "2026-09-09T21:46:10.901Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318523104101",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "318591302630",
+      "userId": "152091492",
+      "userLogin": "nok_kan",
+      "userName": "nok_kan",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "OK MAYBE WE HAVE NEW METACOMP !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 199,
-      "startedAt": "2026-09-09T10:53:08Z",
-      "language": "en",
+      "title": "Εισαι μια κομπρα",
+      "viewerCount": 29,
+      "startedAt": "2026-09-09T18:22:16Z",
+      "language": "el",
       "tags": [
-        "English",
-        "rogue",
+        "WoWGreece",
+        "wow",
         "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
-    {
-      "id": "318391132519",
-      "userId": "166949280",
-      "userLogin": "jokersmiles",
-      "userName": "jokersmiles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Race to Greek First Marathon - KLIKA 4/8 Mythic ΤΩΡΑ ΞΕΚΙΝΑΕΙ Η ΠΑΡΑΣΤΑΣΗ ΚΥΡΙΟΙ",
-      "viewerCount": 38,
-      "startedAt": "2026-09-09T16:20:05Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
-    {
-      "id": "318526907493",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DNG | raid day meta apo 6 meres",
-      "viewerCount": 27,
-      "startedAt": "2026-09-09T16:53:47Z",
-      "language": "el",
-      "tags": [
         "Ελληνικά",
-        "greek",
-        "healing",
-        "evoker"
+        "warcraft",
+        "hardcoreclassicwow",
+        "midnight",
+        "wowmidnight"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
-    },
-    {
-      "id": "318391727719",
-      "userId": "124321891",
-      "userLogin": "dmentor21",
-      "userName": "Dmentor21",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<O M E G A> - The Venomous Abyss 8/8 Hc 1/8 Mythic",
-      "viewerCount": 21,
-      "startedAt": "2026-09-09T17:00:42Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dmentor21-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/dmentor21"
-    },
-    {
-      "id": "318527157349",
-      "userId": "501386295",
-      "userLogin": "zaxstv",
-      "userName": "ZaxsTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Rank 1 Demo Lock PvP --- 3S Tonight",
-      "viewerCount": 13,
-      "startedAt": "2026-09-09T17:06:16Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PｖP",
-        "warlock",
-        "Arena",
-        "Demonology",
-        "greek",
-        "Retail"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaxstv"
-    },
-    {
-      "id": "318527157349",
-      "userId": "501386295",
-      "userLogin": "zaxstv",
-      "userName": "ZaxsTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Rank 1 Demo Lock PvP --- 3S Tonight",
-      "viewerCount": 13,
-      "startedAt": "2026-09-09T17:06:16Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PｖP",
-        "warlock",
-        "Arena",
-        "Demonology",
-        "greek",
-        "Retail"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaxstv"
-    },
-    {
-      "id": "318393077095",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GR | <Disobedient> | Reclear - Venomous Abyss 3/8M / Vashnik | Aidsventura | Holy PoV | Mazonakis Tribute Stream",
-      "viewerCount": 10,
-      "startedAt": "2026-09-09T18:24:16Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nok_kan"
     },
     {
       "id": "318525066597",
@@ -154,7 +36,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR/EN] -Yuki- | 3776io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Mythic Raid Into Keys |",
-      "viewerCount": 9,
+      "viewerCount": 17,
       "startedAt": "2026-09-09T14:23:54Z",
       "language": "el",
       "tags": [
@@ -172,80 +54,6 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "318528466277",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ulalatek HC kai meta Mythic ?",
-      "viewerCount": 6,
-      "startedAt": "2026-09-09T18:25:35Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318391254119",
-      "userId": "135725735",
-      "userLogin": "tanchao",
-      "userName": "Tanchao",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "HC Reclear και Mythic Progression | Tank PoV | O M E G A",
-      "viewerCount": 4,
-      "startedAt": "2026-09-09T16:28:55Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "PvE",
-        "WorldofWarcaft",
-        "HeroicRaid",
-        "tank",
-        "BloodDK",
-        "Raiding",
-        "tank",
-        "Ελληνικά",
-        "mythicraid"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tanchao"
-    },
-    {
-      "id": "318391254119",
-      "userId": "135725735",
-      "userLogin": "tanchao",
-      "userName": "Tanchao",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "HC Reclear και Mythic Progression | Tank PoV | O M E G A",
-      "viewerCount": 4,
-      "startedAt": "2026-09-09T16:28:55Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "PvE",
-        "WorldofWarcaft",
-        "HeroicRaid",
-        "tank",
-        "BloodDK",
-        "Raiding",
-        "tank",
-        "Ελληνικά",
-        "mythicraid"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tanchao"
-    },
-    {
       "id": "318591655398",
       "userId": "144485185",
       "userLogin": "ramelitsa_eu",
@@ -253,7 +61,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR] 🧿 Raid | Holy Paladin | Soe Reborn | #Greek",
-      "viewerCount": 3,
+      "viewerCount": 6,
       "startedAt": "2026-09-09T18:47:23Z",
       "language": "el",
       "tags": [
@@ -272,23 +80,6 @@
       "twitchUrl": "https://www.twitch.tv/ramelitsa_eu"
     },
     {
-      "id": "318527941861",
-      "userId": "102736580",
-      "userLogin": "kiraboom",
-      "userName": "Kiraboom",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "reclear",
-      "viewerCount": 3,
-      "startedAt": "2026-09-09T17:55:35Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kiraboom-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kiraboom"
-    },
-    {
       "id": "318528054629",
       "userId": "62197567",
       "userLogin": "thundah619",
@@ -296,7 +87,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Another day Another try for my Glaives <3",
-      "viewerCount": 1,
+      "viewerCount": 6,
       "startedAt": "2026-09-09T18:00:59Z",
       "language": "en",
       "tags": [
@@ -313,134 +104,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thundah619-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/thundah619"
-    },
-    {
-      "id": "317683578850",
-      "userId": "185568570",
-      "userLogin": "vlimecy",
-      "userName": "vlimecy",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[Druid | DH PoV ] Среда, день чудес",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T16:52:16Z",
-      "language": "ru",
-      "tags": [
-        "Русский",
-        "English",
-        "Greek",
-        "MMORPG",
-        "Warrior",
-        "Raid",
-        "MythicPlus",
-        "MythicPlusKeys",
-        "Ultrawide"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vlimecy"
-    },
-    {
-      "id": "318393555047",
-      "userId": "36830103",
-      "userLogin": "demian_gr",
-      "userName": "Demian_GR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Abyssos ksana tha exei polla episodia i season..",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T18:54:11Z",
-      "language": "el",
-      "tags": [
-        "warrior",
-        "mythic",
-        "raid",
-        "Arms",
-        "Heroic",
-        "Progress",
-        "Greek",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_demian_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/demian_gr"
-    },
-    {
-      "id": "318590194662",
-      "userId": "42401887",
-      "userLogin": "eragek",
-      "userName": "erageK",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<O M E G A> Raid reclear + prog Day| Ο χειρότερος enha της ομαδας, αρνητής ele",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T17:04:08Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "entertainment",
-        "EngIish",
-        "midnight",
-        "classicplus",
-        "wowmidnight",
-        "wow",
-        "Guild",
-        "WorldofWarcaft"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/eragek"
-    },
-    {
-      "id": "318591282918",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "THE SYNDICATE - Venomous Abyss - HC",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T18:20:52Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    },
-    {
-      "id": "317720249059",
-      "userId": "31742358",
-      "userLogin": "kxursed_",
-      "userName": "kxursed_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T17:22:52Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kxursed_"
-    },
-    {
-      "id": "318390589671",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] RIP megale Mazw!!",
-      "viewerCount": 1,
-      "startedAt": "2026-09-09T15:37:55Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
     }
   ]
 }
