@@ -1,27 +1,33 @@
 {
-  "updatedAt": "2026-09-10T06:33:58.878Z",
+  "updatedAt": "2026-09-10T11:48:13.800Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318532793445",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
+      "id": "318596342374",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "S.S.D.D. - M+ Mistweaver Monk PoV",
-      "viewerCount": 0,
-      "startedAt": "2026-09-10T06:11:03Z",
-      "language": "el",
+      "title": "I PLAY HUNTER BECAUSE NO BLOODLUST IN GROUP ROGUE IS STILL META DONT WORRY !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 425,
+      "startedAt": "2026-09-10T09:12:06Z",
+      "language": "en",
       "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
     }
   ]
 }
