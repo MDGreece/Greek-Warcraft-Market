@@ -1,146 +1,57 @@
 {
-  "updatedAt": "2026-09-10T21:11:05.304Z",
+  "updatedAt": "2026-09-10T23:14:12.943Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318603013350",
-      "userId": "102886337",
-      "userLogin": "spinustv",
-      "userName": "SpinusTV",
+      "id": "318407335399",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "🔥ΜΑΖΩ NIGHT ΜΕ FARM KAI KOYBENTA🔥",
-      "viewerCount": 180,
-      "startedAt": "2026-09-10T19:33:23Z",
+      "title": "[GR/EN] -Yuki- | 3776io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Short Stream keys 19-20s |",
+      "viewerCount": 16,
+      "startedAt": "2026-09-10T22:34:04Z",
       "language": "el",
       "tags": [
+        "English",
+        "Competitive",
         "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/spinustv"
-    },
-    {
-      "id": "318539017957",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Group 3 raiding",
-      "viewerCount": 40,
-      "startedAt": "2026-09-10T18:00:13Z",
-      "language": "el",
-      "tags": [
-        "BeginnerPlayers",
-        "AMA",
-        "Greece",
-        "Ελληνικά",
-        "ADHD",
         "MMORPG",
-        "EndgameContent",
-        "English",
-        "AskMeAnyhting",
-        "Greek"
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "320172276062",
-      "userId": "40934863",
-      "userLogin": "evenstartv",
-      "userName": "EvenstarTV",
+      "id": "318542215781",
+      "userId": "152091492",
+      "userLogin": "nok_kan",
+      "userName": "nok_kan",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "ULA'TEK! ULA'TEK!! ULA'TEEEEEEEK!!!!!!!! Άντε να πέσει! ΠΑΜΕ!!!!",
-      "viewerCount": 10,
-      "startedAt": "2026-09-10T18:15:45Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Raid",
-        "WorldfofWarcraft",
-        "Hunter",
-        "gameplay",
-        "greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evenstartv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/evenstartv"
-    },
-    {
-      "id": "318404175335",
-      "userId": "178568481",
-      "userLogin": "chocosssss",
-      "userName": "chocosssss",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Arcane mage Keys",
-      "viewerCount": 5,
-      "startedAt": "2026-09-10T18:09:21Z",
+      "title": "ΜΗΝ ΜΕ ΠΑΙΡΝΕΤΕ ΣΕ ΚΛΕΙΔΙΑ",
+      "viewerCount": 1,
+      "startedAt": "2026-09-10T23:02:39Z",
       "language": "el",
       "tags": [
-        "Greece",
+        "WoWGreece",
+        "wow",
         "greek",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chocosssss-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chocosssss"
-    },
-    {
-      "id": "318403627111",
-      "userId": "161969527",
-      "userLogin": "bon_giannisfpl",
-      "userName": "bon_giannisfpl",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Hyjal/BT",
-      "viewerCount": 4,
-      "startedAt": "2026-09-10T17:39:39Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bon_giannisfpl-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bon_giannisfpl"
-    },
-    {
-      "id": "318403627111",
-      "userId": "161969527",
-      "userLogin": "bon_giannisfpl",
-      "userName": "bon_giannisfpl",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Hyjal/BT",
-      "viewerCount": 4,
-      "startedAt": "2026-09-10T17:39:39Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bon_giannisfpl-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bon_giannisfpl"
-    },
-    {
-      "id": "318405882727",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "S.S.D.D. - M+ Mistweaver Monk PoV",
-      "viewerCount": 0,
-      "startedAt": "2026-09-10T19:57:11Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
         "Ελληνικά",
-        "English"
+        "warcraft",
+        "hardcoreclassicwow",
+        "midnight",
+        "wowmidnight"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nok_kan"
     }
   ]
 }
