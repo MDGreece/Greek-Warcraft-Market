@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-09-10T01:26:50.779Z",
+  "updatedAt": "2026-09-10T06:33:58.878Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318532793445",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "S.S.D.D. - M+ Mistweaver Monk PoV",
+      "viewerCount": 0,
+      "startedAt": "2026-09-10T06:11:03Z",
+      "language": "el",
+      "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+    }
+  ]
 }
