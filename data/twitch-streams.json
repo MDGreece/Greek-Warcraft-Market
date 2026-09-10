@@ -1,52 +1,7 @@
 {
-  "updatedAt": "2026-09-09T23:33:03.709Z",
+  "updatedAt": "2026-09-10T01:26:50.779Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318525066597",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 3776io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Mythic Raid Into Keys |",
-      "viewerCount": 24,
-      "startedAt": "2026-09-09T14:23:54Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318529323493",
-      "userId": "178568481",
-      "userLogin": "chocosssss",
-      "userName": "chocosssss",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "raid or keys",
-      "viewerCount": 3,
-      "startedAt": "2026-09-09T19:22:18Z",
-      "language": "el",
-      "tags": [
-        "Greece",
-        "greek",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chocosssss-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chocosssss"
-    }
-  ]
+  "streams": []
 }
