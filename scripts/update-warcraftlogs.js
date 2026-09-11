@@ -95,9 +95,6 @@ function isCurrentRaidFight(fight) {
 }
 
 async function getToken() {
-}
-
-async function getToken() {
   if (!CLIENT_ID || !CLIENT_SECRET) {
     throw new Error(
       "Missing WARCRAFTLOGS_CLIENT_ID or WARCRAFTLOGS_CLIENT_SECRET"
@@ -774,106 +771,6 @@ if (
       getCurrentProgressionBoss(
         difficulty.fights
       );
-  }
-
-  /*
-   * Preserve the highest stored Mythic kill count
-   * during the same raid tier.
-   *
-   * This prevents an older kill from disappearing when
-   * it falls outside the current Warcraft Logs report limit.
-   */
-  const storedRaidKills =
-    group.raidKey === CURRENT_RAID_KEY
-      ? Number(group.raidKills || 0)
-      : 0;
-
-  const currentSuffix =
-    difficulty.suffix ||
-    group.raidDifficultySuffix ||
-    "M";
-
-  if (
-    currentSuffix === "M" &&
-    storedRaidKills > raidKills
-  ) {
-    console.warn(
-      `${group.name}: preserving ${storedRaidKills} stored Mythic kills ` +
-      `instead of downgrading to ${raidKills}.`
-    );
-
-    raidKills = storedRaidKills;
-
-    progress =
-      raidKills >= TOTAL_BOSSES
-        ? "CE"
-        : `${raidKills}/${TOTAL_BOSSES}M`;
-
-    /*
-     * Preserve the previous progression details when the
-     * current API result contains less complete information.
-     */
-    if (
-      !progression.bestBoss ||
-      progression.bossProg === "-"
-    ) {
-      progression = {
-        bestBoss:
-          group.bestBoss ||
-          (
-raidKills >= TOTAL_BOSSES
-  ? "Ula'tek"
-  : ""
-          ),
-
-        bossProg:
-          raidKills >= TOTAL_BOSSES
-            ? "CE"
-            : group.bossProg || "-",
-
-        latestReport:
-          group.latestReport || "",
-
-        latestReportTitle:
-          group.latestReportTitle || "",
-
-        zoneName:
-          group.raidZone || ""
-      };
-    }
-  }
-
-  /*
-   * Preserve an already confirmed CE result.
-   */
-  if (
-    group.raidKey === CURRENT_RAID_KEY &&
-    group.progress === "CE" &&
-    progress !== "CE"
-  ) {
-    console.warn(
-      `${group.name}: preserving stored CE result.`
-    );
-
-    progress = "CE";
-    raidKills = TOTAL_BOSSES;
-
-    progression = {
-      bestBoss:
-        group.bestBoss ||
-        "Ula'tek",
-
-      bossProg: "CE",
-
-      latestReport:
-        group.latestReport || "",
-
-      latestReportTitle:
-        group.latestReportTitle || "",
-
-      zoneName:
-        group.raidZone || ""
-    };
   }
 
   /*
