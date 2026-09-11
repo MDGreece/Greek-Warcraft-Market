@@ -1,29 +1,164 @@
 {
-  "updatedAt": "2026-09-11T11:17:10.381Z",
+  "updatedAt": "2026-09-11T15:05:22.519Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "317733381859",
-      "userId": "38058513",
-      "userLogin": "discoteque_real",
-      "userName": "discoteque_real",
+      "id": "318411087719",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Solo q M+ / Music streamerino / Mini-stream",
-      "viewerCount": 3,
-      "startedAt": "2026-09-11T10:17:33Z",
+      "title": "HIGH KEYS at 14:00CEST !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 417,
+      "startedAt": "2026-09-11T11:31:06Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318609516390",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 22,
+      "startedAt": "2026-09-11T14:05:21Z",
+      "language": "cs",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
+    },
+    {
+      "id": "318546165349",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN] -Yuki- | 3783io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Ενα κλειδι θα βγει λογικα KAPPA |",
+      "viewerCount": 19,
+      "startedAt": "2026-09-11T12:16:11Z",
       "language": "el",
       "tags": [
+        "English",
+        "Competitive",
+        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+    },
+    {
+      "id": "318546165349",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN] -Yuki- | 3783io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Ενα κλειδι θα βγει λογικα KAPPA |",
+      "viewerCount": 19,
+      "startedAt": "2026-09-11T12:16:11Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Competitive",
+        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+    },
+    {
+      "id": "318412904423",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Keys... just keys.. Ο πιο ύποπτος Paladin της Azeroth.. {channel target active sub/bits}",
+      "viewerCount": 13,
+      "startedAt": "2026-09-11T14:33:18Z",
+      "language": "el",
+      "tags": [
+        "BlizzardEntertainment",
+        "MythicPlusKeys",
+        "Season2",
+        "WorldofWarcaft",
+        "18pluschannel",
+        "Paladin",
         "greek",
-        "dungeon",
-        "music",
-        "warcraft",
         "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_discoteque_real-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/discoteque_real"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "317722885476",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Mistweaver | 3793 RIO 🔥 | M+ Push",
+      "viewerCount": 9,
+      "startedAt": "2026-09-11T14:28:50Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318412539751",
+      "userId": "553475734",
+      "userLogin": "flickshot_yomayo",
+      "userName": "flickshot_yomayo",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "SOMEWHAT TOXIC KEY SESSION",
+      "viewerCount": 5,
+      "startedAt": "2026-09-11T14:01:24Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_flickshot_yomayo-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/flickshot_yomayo"
     }
   ]
 }
