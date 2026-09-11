@@ -720,8 +720,12 @@ async function updateGroup(
 
 const progressionPulls =
   getProgressionPulls(
-    allFights,
-    difficulty.suffix
+    difficulty.fights
+  );
+
+const currentRaidReports =
+  countCurrentRaidReports(
+    allFights
   );
   
   let progression;
