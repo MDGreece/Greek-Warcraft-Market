@@ -758,10 +758,10 @@ const currentRaidReports =
       );
   }
 
-  /*
-   * Preserve stored difficulty information when the current
-   * API response does not return a useful difficulty.
-   */
+/*
+ * Current raid data is valid only when at least one
+ * Venomous Abyss report was actually detected.
+ */
 const hasCurrentRaidData =
   currentRaidReports > 0;
 
@@ -778,8 +778,10 @@ const raidDifficultySuffix =
   const updatedGroup = {
     ...group,
 
-    raidKey:
-      CURRENT_RAID_KEY,
+raidKey:
+  hasCurrentRaidData
+    ? CURRENT_RAID_KEY
+    : "",
 
     progress,
 
