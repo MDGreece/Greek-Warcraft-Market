@@ -1,27 +1,29 @@
 {
-  "updatedAt": "2026-09-11T06:06:48.282Z",
+  "updatedAt": "2026-09-11T11:17:10.381Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318543530469",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
+      "id": "317733381859",
+      "userId": "38058513",
+      "userLogin": "discoteque_real",
+      "userName": "discoteque_real",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "S.S.D.D. - M+ Mistweaver Monk PoV",
-      "viewerCount": 1,
-      "startedAt": "2026-09-11T05:18:10Z",
+      "title": "Solo q M+ / Music streamerino / Mini-stream",
+      "viewerCount": 3,
+      "startedAt": "2026-09-11T10:17:33Z",
       "language": "el",
       "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
+        "greek",
+        "dungeon",
+        "music",
+        "warcraft",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_discoteque_real-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/discoteque_real"
     }
   ]
 }
