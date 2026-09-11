@@ -313,16 +313,10 @@ function findLogGroupForGuild(
 
   return logGroups.find(group => {
     /*
-     * IMPORTANT:
-     * Only use a Warcraft Logs group
+     * Only use Warcraft Logs data
      * belonging to the current raid.
-     *
-     * This prevents old-tier boss progress
-     * being attached to a current Raider.IO
-     * guild row.
      */
     if (
-      group.raidKey &&
       group.raidKey !== CURRENT_RAID
     ) {
       return false;
@@ -333,11 +327,6 @@ function findLogGroupForGuild(
 
     const groupName =
       String(group.name || "")
-        .trim()
-        .toLowerCase();
-
-    const parentGuild =
-      String(group.parentGuild || "")
         .trim()
         .toLowerCase();
 
@@ -352,20 +341,25 @@ function findLogGroupForGuild(
     const sameName =
       groupName === guildName;
 
-    const sameParent =
-      parentGuild === guildName;
-
     const sameRealm =
       !guildRealm ||
       !groupRealm ||
       guildRealm === groupRealm;
 
+    /*
+     * IMPORTANT:
+     *
+     * parentGuild is intentionally NOT used.
+     *
+     * Disobedient Group II / III must never
+     * supply Warcraft Logs data to the main
+     * Disobedient guild.
+     */
     return (
       sameRealm &&
       (
         sameId ||
-        sameName ||
-        sameParent
+        sameName
       )
     );
   });
