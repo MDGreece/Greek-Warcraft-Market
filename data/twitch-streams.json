@@ -1,87 +1,18 @@
 {
-  "updatedAt": "2026-09-11T21:12:39.180Z",
+  "updatedAt": "2026-09-11T23:21:00.689Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318411087719",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "HIGH KEYS at 14:00CEST !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 288,
-      "startedAt": "2026-09-11T11:31:06Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
-    {
-      "id": "318551633253",
-      "userId": "144485185",
-      "userLogin": "ramelitsa_eu",
-      "userName": "Ramelitsa_eu",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR] 🧿 Raid | Holy Paladin | Soe Reborn | #Greek",
-      "viewerCount": 23,
-      "startedAt": "2026-09-11T19:12:07Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "wow",
-        "worldofwarcraft",
-        "mplus",
-        "retripaladin",
-        "holypaladin",
-        "dicipline",
-        "priest",
-        "soereborn",
-        "midnight"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ramelitsa_eu-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/ramelitsa_eu"
-    },
-    {
-      "id": "317725468388",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Some High Keys 🔥 | 3810 RIO Mistweaver 🥋 | M+ Push",
-      "viewerCount": 23,
-      "startedAt": "2026-09-11T18:55:36Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
-    },
-    {
       "id": "318417870183",
       "userId": "45818286",
       "userLogin": "giorgosyuki",
       "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 3797io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Ενα κλειδι θα βγει λογικα KAPPA |",
-      "viewerCount": 18,
+      "title": "[GR/EN] -Yuki- | 3825io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Ενα κλειδι θα βγει λογικα KAPPA |",
+      "viewerCount": 23,
       "startedAt": "2026-09-11T19:59:29Z",
       "language": "el",
       "tags": [
@@ -97,86 +28,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318417870183",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 3797io 19-20s | Arms/Fury Slayer Rapid Fire Guides are out do !guide check them out | Ενα κλειδι θα βγει λογικα KAPPA |",
-      "viewerCount": 18,
-      "startedAt": "2026-09-11T19:59:29Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318552864613",
-      "userId": "553475734",
-      "userLogin": "flickshot_yomayo",
-      "userName": "flickshot_yomayo",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "SOMEWHAT TOXIC KEY SESSION",
-      "viewerCount": 10,
-      "startedAt": "2026-09-11T20:43:38Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_flickshot_yomayo-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/flickshot_yomayo"
-    },
-    {
-      "id": "318613082854",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "THE SYNDICATE - VENOMOUS ABYSS HC - Mistweaver Monk PoV",
-      "viewerCount": 3,
-      "startedAt": "2026-09-11T18:22:43Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    },
-    {
-      "id": "318613082854",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "THE SYNDICATE - VENOMOUS ABYSS HC - Mistweaver Monk PoV",
-      "viewerCount": 3,
-      "startedAt": "2026-09-11T18:22:43Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
