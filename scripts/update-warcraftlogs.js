@@ -718,30 +718,11 @@ async function updateGroup(
   let raidKills =
     difficulty.kills;
 
-  let progressionPulls =
+const progressionPulls =
   getProgressionPulls(
-    difficulty.fights
+    allFights,
+    difficulty.suffix
   );
-
-  const storedProgressionPulls =
-  (
-    group.raidKey === CURRENT_RAID_KEY &&
-    group.raidDifficultySuffix ===
-      difficulty.suffix
-  )
-    ? Number(
-        group.progressionPulls || 0
-      )
-    : 0;
-
-
-if (
-  storedProgressionPulls >
-  progressionPulls
-) {
-  progressionPulls =
-    storedProgressionPulls;
-}
   
   let progression;
 
