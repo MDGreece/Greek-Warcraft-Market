@@ -777,16 +777,19 @@ if (
    * Preserve stored difficulty information when the current
    * API response does not return a useful difficulty.
    */
-  const raidDifficulty =
-    difficulty.name ||
-    group.raidDifficulty ||
-    "";
+const hasCurrentRaidData =
+  currentRaidReports > 0;
 
-  const raidDifficultySuffix =
-    difficulty.suffix ||
-    group.raidDifficultySuffix ||
-    "";
+const raidDifficulty =
+  hasCurrentRaidData
+    ? difficulty.name || ""
+    : "";
 
+const raidDifficultySuffix =
+  hasCurrentRaidData
+    ? difficulty.suffix || ""
+    : "";
+  
   const updatedGroup = {
     ...group,
 
@@ -806,10 +809,7 @@ if (
     totalReports:
       reports.length,
 
-    currentRaidReports:
-      countCurrentRaidReports(
-        allFights
-      ),
+    currentRaidReports,
 
     bossProg:
       progression.bossProg,
