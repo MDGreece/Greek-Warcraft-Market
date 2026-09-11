@@ -675,20 +675,31 @@ async function updateGroup(
     `Fetching Warcraft Logs for ${group.name}...`
   );
 
-  if (!group.warcraftLogsGuildId) {
-    console.log(
-      `${group.name}: no Warcraft Logs guild ID`
-    );
+return {
+  ...group,
 
-    return {
-      ...group,
-      progress: group.progress || "-",
-      bossProg: group.bossProg || "-",
-      bestBoss: group.bestBoss || "",
-      totalReports: 0,
-      currentRaidReports: 0,
-      updatedAt: new Date().toISOString()
-    };
+  raidKey: "",
+  progress: "-",
+
+  raidDifficulty: "",
+  raidDifficultySuffix: "",
+
+  raidKills: 0,
+  progressionPulls: 0,
+
+  bossProg: "-",
+  bestBoss: "",
+
+  latestReport: "",
+  latestReportTitle: "",
+  raidZone: "",
+
+  totalReports: 0,
+  currentRaidReports: 0,
+
+  updatedAt:
+    new Date().toISOString()
+};
   }
 
   const reports =
