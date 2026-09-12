@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:09:25.745Z",
+  "updatedAt": "2026-09-12T21:26:35.589Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "BLizzcon oeo!!!",
-      "viewerCount": 9,
+      "viewerCount": 14,
       "startedAt": "2026-09-12T17:24:12Z",
       "language": "el",
       "tags": [
@@ -27,24 +27,24 @@
       "twitchUrl": "https://www.twitch.tv/tyrantfeller"
     },
     {
-      "id": "318624871782",
-      "userId": "38122142",
-      "userLogin": "baddream2",
-      "userName": "baddream2",
+      "id": "318626089318",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "RAID ROGUE POV GO!",
-      "viewerCount": 2,
-      "startedAt": "2026-09-12T17:53:51Z",
-      "language": "en",
+      "title": "{DROPS} Pushing keys - Mistweaver Monk PoV",
+      "viewerCount": 5,
+      "startedAt": "2026-09-12T19:11:32Z",
+      "language": "el",
       "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
         "English",
-        "DropsEnabled",
-        "greek",
-        "Rogue"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/baddream2"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
