@@ -1,50 +1,7 @@
 {
-  "updatedAt": "2026-09-12T21:26:35.589Z",
+  "updatedAt": "2026-09-12T23:13:01.374Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318428124135",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "BLizzcon oeo!!!",
-      "viewerCount": 14,
-      "startedAt": "2026-09-12T17:24:12Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "Greece",
-        "English",
-        "MMO",
-        "DuneAwakening",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "318626089318",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "{DROPS} Pushing keys - Mistweaver Monk PoV",
-      "viewerCount": 5,
-      "startedAt": "2026-09-12T19:11:32Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    }
-  ]
+  "streams": []
 }
