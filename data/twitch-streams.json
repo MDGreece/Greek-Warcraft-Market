@@ -1,7 +1,34 @@
 {
-  "updatedAt": "2026-09-12T06:15:49.110Z",
+  "updatedAt": "2026-09-12T10:57:00.760Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318556632805",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Τί even κάνουμε;",
+      "viewerCount": 23,
+      "startedAt": "2026-09-12T08:57:47Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    }
+  ]
 }
