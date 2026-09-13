@@ -1,34 +1,73 @@
 {
-  "updatedAt": "2026-09-13T15:49:21.592Z",
+  "updatedAt": "2026-09-13T18:22:42.168Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318631832166",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "318441736423",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "HIGH KEYS into BLIZZCON LOVE WATCH !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 563,
-      "startedAt": "2026-09-13T10:29:15Z",
+      "title": "BLIZZCON FINALS AWC & WoW FOREVER HUGE NEWS☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
+      "viewerCount": 104,
+      "startedAt": "2026-09-13T17:30:49Z",
       "language": "en",
       "tags": [
         "English",
-        "rogue",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
         "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
+        "Cozy",
+        "Priest",
+        "pve",
         "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318574960997",
+      "userId": "166949280",
+      "userLogin": "jokersmiles",
+      "userName": "jokersmiles",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Race to Greek First Marathon - KLIKA 4/8 Mythic ΤΩΡΑ ΞΕΚΙΝΑΕΙ Η ΠΑΡΑΣΤΑΣΗ ΚΥΡΙΟΙ",
+      "viewerCount": 62,
+      "startedAt": "2026-09-13T16:31:14Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jokersmiles"
+    },
+    {
+      "id": "318636596966",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Ksekiname xoris arxigo shmera",
+      "viewerCount": 32,
+      "startedAt": "2026-09-13T17:01:11Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
     },
     {
       "id": "318574019429",
@@ -38,7 +77,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 23,
+      "viewerCount": 24,
       "startedAt": "2026-09-13T15:29:04Z",
       "language": "de",
       "tags": [
@@ -54,73 +93,6 @@
       "twitchUrl": "https://www.twitch.tv/woopwoop7"
     },
     {
-      "id": "318439488231",
-      "userId": "133719137",
-      "userLogin": "basiliasjulian",
-      "userName": "BasiliasJulian",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR,EN] τι γινεττταιι , τι καααανεις?! day 23  zeg zeg keys!!!",
-      "viewerCount": 14,
-      "startedAt": "2026-09-13T14:55:01Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greece",
-        "English",
-        "Loulides",
-        "Hearhstone",
-        "cards",
-        "πουδρα",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_basiliasjulian-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/basiliasjulian"
-    },
-    {
-      "id": "318435135335",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!! >>Filling the Vaults<<+14 RLP",
-      "viewerCount": 13,
-      "startedAt": "2026-09-13T07:41:52Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
-    },
-    {
-      "id": "318438618343",
-      "userId": "742014117",
-      "userLogin": "alloudtv",
-      "userName": "AlloudTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "S2 Greek VDH On Fire! 🔥🔥🔥 Road to Rank   ( 1 ) VDH !!⚡",
-      "viewerCount": 6,
-      "startedAt": "2026-09-13T13:48:03Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "EngIish",
-        "ＰＵＢＧ",
-        "pubg",
-        "greekstreamer",
-        "Greece",
-        "worldofwarcraft",
-        "wow",
-        "Επανάληψη",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_alloudtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/alloudtv"
-    },
-    {
       "id": "318573448677",
       "userId": "195497262",
       "userLogin": "bazak88",
@@ -128,7 +100,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "!Drops lets go 3000 rating & Raid?",
-      "viewerCount": 3,
+      "viewerCount": 14,
       "startedAt": "2026-09-13T14:49:49Z",
       "language": "el",
       "tags": [
@@ -140,6 +112,156 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bazak88-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/bazak88"
+    },
+    {
+      "id": "318435135335",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!! >>Filling the Vaults<< >>HC Pug!!<<",
+      "viewerCount": 12,
+      "startedAt": "2026-09-13T07:41:52Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318574239717",
+      "userId": "81696814",
+      "userLogin": "tyrantfeller",
+      "userName": "Tyrantfeller",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "BlizzCon day 2",
+      "viewerCount": 8,
+      "startedAt": "2026-09-13T15:44:26Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Greece",
+        "English",
+        "MMO",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
+    },
+    {
+      "id": "318441824615",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Welcome mortals... Social Raid today and maybe more content",
+      "viewerCount": 7,
+      "startedAt": "2026-09-13T17:37:21Z",
+      "language": "el",
+      "tags": [
+        "BlizzardEntertainment",
+        "MythicPlusKeys",
+        "Season2",
+        "WorldofWarcaft",
+        "18pluschannel",
+        "Paladin",
+        "greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "318441824615",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Welcome mortals... Social Raid today and maybe more content",
+      "viewerCount": 7,
+      "startedAt": "2026-09-13T17:37:21Z",
+      "language": "el",
+      "tags": [
+        "BlizzardEntertainment",
+        "MythicPlusKeys",
+        "Season2",
+        "WorldofWarcaft",
+        "18pluschannel",
+        "Paladin",
+        "greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "318637084902",
+      "userId": "149160294",
+      "userLogin": "fatarixd",
+      "userName": "fatarixd",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "im stressed, im bad, im hype.",
+      "viewerCount": 7,
+      "startedAt": "2026-09-13T17:33:04Z",
+      "language": "en",
+      "tags": [
+        "wow",
+        "worldofwarcraft",
+        "tbc",
+        "greek",
+        "english",
+        "balast",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fatarixd-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fatarixd"
+    },
+    {
+      "id": "317754893411",
+      "userId": "31742358",
+      "userLogin": "kxursed_",
+      "userName": "kxursed_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "viewerCount": 4,
+      "startedAt": "2026-09-13T17:21:21Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kxursed_"
+    },
+    {
+      "id": "318442098279",
+      "userId": "38122142",
+      "userLogin": "baddream2",
+      "userName": "baddream2",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "RAID ROGUE POV GO!",
+      "viewerCount": 2,
+      "startedAt": "2026-09-13T17:57:29Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "DropsEnabled",
+        "greek",
+        "Rogue"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/baddream2"
     },
     {
       "id": "317739961316",
@@ -166,6 +288,25 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/vlimecy"
+    },
+    {
+      "id": "318637819494",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Raid time with the Gang!",
+      "viewerCount": 0,
+      "startedAt": "2026-09-13T18:16:39Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
     }
   ]
 }
