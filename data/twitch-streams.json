@@ -1,7 +1,123 @@
 {
-  "updatedAt": "2026-09-13T06:08:10.405Z",
+  "updatedAt": "2026-09-13T11:50:33.737Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318631832166",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "HIGH KEYS into BLIZZCON LOVE WATCH !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 497,
+      "startedAt": "2026-09-13T10:29:15Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318630906342",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "drops! kalimera! balte kafe kai arakste!",
+      "viewerCount": 47,
+      "startedAt": "2026-09-13T08:37:59Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Ελληνικά",
+        "DropsEnabeled",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318435135335",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 DROPS ENABLED 📦!!MULTICLASS GAMEPLAY!! >>Filling the Vaults<<",
+      "viewerCount": 10,
+      "startedAt": "2026-09-13T07:41:52Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318570789989",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "learning to tank m+ with druid",
+      "viewerCount": 2,
+      "startedAt": "2026-09-13T11:19:23Z",
+      "language": "el",
+      "tags": [
+        "PVP",
+        "PVE",
+        "depresion",
+        "ExtractionShooter",
+        "fps",
+        "old",
+        "foreveralone",
+        "Ελληνικά",
+        "Επανάληψη",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
+    },
+    {
+      "id": "317739961316",
+      "userId": "185568570",
+      "userLogin": "vlimecy",
+      "userName": "vlimecy",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[Druid | DH PoV ] Looking for group simulator",
+      "viewerCount": 1,
+      "startedAt": "2026-09-13T11:39:47Z",
+      "language": "ru",
+      "tags": [
+        "Русский",
+        "English",
+        "Greek",
+        "MMORPG",
+        "Warrior",
+        "Raid",
+        "MythicPlus",
+        "MythicPlusKeys",
+        "Ultrawide",
+        "DropsВключены"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vlimecy"
+    }
+  ]
 }
