@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-09-13T21:02:49.053Z",
+  "updatedAt": "2026-09-13T23:06:50.619Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318631832166",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<Mental Apocalypse> 6/8M Altar Mythic Progress !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 218,
-      "startedAt": "2026-09-13T10:29:15Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "318441736423",
       "userId": "69183831",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "BLIZZCON FINALS AWC & WoW FOREVER HUGE NEWS☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
-      "viewerCount": 130,
+      "viewerCount": 134,
       "startedAt": "2026-09-13T17:30:49Z",
       "language": "en",
       "tags": [
@@ -57,55 +31,14 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318574960997",
-      "userId": "166949280",
-      "userLogin": "jokersmiles",
-      "userName": "jokersmiles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Race to Greek First Marathon - KLIKA 4/8 Mythic ΤΩΡΑ ΞΕΚΙΝΑΕΙ Η ΠΑΡΑΣΤΑΣΗ ΚΥΡΙΟΙ",
-      "viewerCount": 96,
-      "startedAt": "2026-09-13T16:31:14Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
-    {
-      "id": "318574019429",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 23,
-      "startedAt": "2026-09-13T15:29:04Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "PovolenéDrops"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
       "id": "318576892133",
       "userId": "146179989",
       "userLogin": "tellostv",
       "userName": "Tellostv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Provatina Mythic Prog!",
-      "viewerCount": 16,
+      "title": "Myth crest farm me ta AMEA Provatinas!",
+      "viewerCount": 6,
       "startedAt": "2026-09-13T18:33:15Z",
       "language": "el",
       "tags": [
@@ -119,93 +52,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318576892133",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Provatina Mythic Prog!",
-      "viewerCount": 16,
-      "startedAt": "2026-09-13T18:33:15Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318637819494",
-      "userId": "30399596",
-      "userLogin": "zell_the_redeemer",
-      "userName": "Zell_The_Redeemer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Raid time with the Gang!",
-      "viewerCount": 4,
-      "startedAt": "2026-09-13T18:16:39Z",
-      "language": "el",
-      "tags": [
-        "Greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
-    },
-    {
-      "id": "318637819494",
-      "userId": "30399596",
-      "userLogin": "zell_the_redeemer",
-      "userName": "Zell_The_Redeemer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Raid time with the Gang!",
-      "viewerCount": 4,
-      "startedAt": "2026-09-13T18:16:39Z",
-      "language": "el",
-      "tags": [
-        "Greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
-    },
-    {
-      "id": "318639491814",
-      "userId": "61891909",
-      "userLogin": "jeckos",
-      "userName": "Jeckos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Catch up on the Midnight | Dungeon | Quests | Lore",
-      "viewerCount": 1,
-      "startedAt": "2026-09-13T20:24:26Z",
-      "language": "el",
-      "tags": [
-        "relax",
-        "chill",
-        "eng",
-        "gr",
-        "fun",
-        "drops",
-        "wow",
-        "midnight",
-        "lore",
-        "raids"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jeckos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jeckos"
     }
   ]
 }
