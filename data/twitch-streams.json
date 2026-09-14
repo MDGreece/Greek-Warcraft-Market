@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:06:50.619Z",
+  "updatedAt": "2026-09-14T01:02:30.264Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "BLIZZCON FINALS AWC & WoW FOREVER HUGE NEWS☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
-      "viewerCount": 134,
+      "viewerCount": 80,
       "startedAt": "2026-09-13T17:30:49Z",
       "language": "en",
       "tags": [
@@ -29,29 +29,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318576892133",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Myth crest farm me ta AMEA Provatinas!",
-      "viewerCount": 6,
-      "startedAt": "2026-09-13T18:33:15Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
     }
   ]
 }
