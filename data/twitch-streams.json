@@ -1,7 +1,52 @@
 {
-  "updatedAt": "2026-09-15T05:20:10.294Z",
+  "updatedAt": "2026-09-15T10:19:00.668Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318457872615",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Greetings..... Keys.. just keys.. 3326io and try to growing up..",
+      "viewerCount": 24,
+      "startedAt": "2026-09-15T08:11:19Z",
+      "language": "el",
+      "tags": [
+        "BlizzardEntertainment",
+        "MythicPlusKeys",
+        "Season2",
+        "WorldofWarcaft",
+        "18pluschannel",
+        "Paladin",
+        "greek",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "317755458020",
+      "userId": "999359775",
+      "userLogin": "loukasidtv",
+      "userName": "LoukasIDtv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "PVP TIME :)",
+      "viewerCount": 2,
+      "startedAt": "2026-09-15T09:18:55Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "cyprus",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+    }
+  ]
 }
