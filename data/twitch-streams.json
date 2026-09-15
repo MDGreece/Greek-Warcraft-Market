@@ -1,43 +1,88 @@
 {
-  "updatedAt": "2026-09-15T10:19:00.668Z",
+  "updatedAt": "2026-09-15T15:06:20.678Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318457872615",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
+      "id": "318458849511",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Greetings..... Keys.. just keys.. 3326io and try to growing up..",
-      "viewerCount": 24,
-      "startedAt": "2026-09-15T08:11:19Z",
-      "language": "el",
+      "title": "BLASTING HIGH KEYS !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 634,
+      "startedAt": "2026-09-15T11:02:51Z",
+      "language": "en",
       "tags": [
-        "BlizzardEntertainment",
-        "MythicPlusKeys",
-        "Season2",
-        "WorldofWarcaft",
-        "18pluschannel",
-        "Paladin",
+        "English",
+        "rogue",
         "greek",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "317755458020",
+      "id": "317733359458",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "3850 RIO 🔥 | Mistweaver M+ Push 🥋🗝️",
+      "viewerCount": 29,
+      "startedAt": "2026-09-15T14:23:57Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318460280423",
+      "userId": "767953380",
+      "userLogin": "phantomx94",
+      "userName": "Phantomx94",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "✌︎㋡ | Boomie / Dh - Blitzo & alt rogue gearing[EU] |",
+      "viewerCount": 2,
+      "startedAt": "2026-09-15T14:00:36Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "Pvp",
+        "Ranked",
+        "Season2",
+        "Midnight",
+        "Blitz",
+        "Ratedbattlegrounds"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/phantomx94"
+    },
+    {
+      "id": "317757254244",
       "userId": "999359775",
       "userLogin": "loukasidtv",
       "userName": "LoukasIDtv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "PVP TIME :)",
-      "viewerCount": 2,
-      "startedAt": "2026-09-15T09:18:55Z",
+      "viewerCount": 1,
+      "startedAt": "2026-09-15T14:34:08Z",
       "language": "el",
       "tags": [
         "greek",
@@ -47,6 +92,26 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/loukasidtv"
+    },
+    {
+      "id": "318459980263",
+      "userId": "173254032",
+      "userLogin": "razzeu",
+      "userName": "Razzeu",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Keys before last 2 bosses HC",
+      "viewerCount": 1,
+      "startedAt": "2026-09-15T13:29:23Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_razzeu-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/razzeu"
     }
   ]
 }
