@@ -18,17 +18,17 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-09-14T13:12:46.907Z",
+        "lastSeenInRosterAt": "2026-09-15T11:59:56.545Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
-        "mythicPlusScore": 0,
+        "mythicPlusScore": null,
         "itemLevel": 293,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-14T13:13:10.321Z",
-        "dataStatus": "found",
-        "updateError": "",
+        "updatedAt": "2026-09-15T12:08:10.203Z",
+        "dataStatus": "error",
+        "updateError": "Raider.IO request failed: 502 <html>\n\n<head>\n  <style type=\"text/css\">body{background-color:#111;color:#fff;font-family:Roboto,sans-serif;font-size:1rem;height:100%;width:100%}.arrow{cursor:pointer;float:right;font-size:.75rem;height:22px;margin-left:2px;position:relative;top:5px;width:16px}h1{font-size:1.75rem}div+div{margin-top:20px}.always_online>h1,.cf-error-details>h1{text-align:center}.always_online,.cf-error-details{border:1px solid #444;border-radius:3px;padding:1rem;text-align:left}.rio-logo{margin-top:20px;text-align:center}.rio-error-details{margin:0 auto;text-align:center;width:450px}a,a:link,a:visited{color:#ffd800;text-decoration:none}a:hover{color:#fff;text-decoration:underline}hr{border-color:#444;color:#444;margin:2rem 0}</style>\n</head>\n\n<body>\n  <div class=\"rio-logo\">\n    <a href=\"https://raider.io\"><img src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTQ4IDMwNiI+PHRpdGxlPkxvZ29fMkNvbG9yV2hpdGU8L3RpdGxlPjxnIGlkPSJMb2dvXzJDb2xvcldoaXRlIj48cGF0aCBkPSJNNDYwLjI1LDQ0LjI2SDQwMC44NFYyNjIuNmgzMi41OHYtNzZoMjYuODNjMTguODEsMCwyNi44Myw1LjEzLDI2LjgzLDE1LjgxdjYwLjJoMzIuNTlWMjAyLjRjMC0xOC40NS04Ljc1LTI3LjQxLTE1Ljc1LTMxLjE3LDctMy44NSwxNS43NS0xMC4zMSwxNS43NS0yOC43NVY5MC40MUM1MTkuNjcsNjkuMzYsNTA5LjM2LDQ0LjI2LDQ2MC4yNSw0NC4yNlptMjYuODMsOTguMjJjMCwxMC42Ny04LDEzLjE4LTI2LjgzLDEzLjE4SDQzMy40MlY3NS4xOWgyNi44M2MxOC44MSwwLDI2LjgzLDQuNTQsMjYuODMsMTUuMjJaIiBzdHlsZT0iZmlsbDojZmZmIi8+PHBhdGggZD0iTTYxNC44NCw0MUM1NzUsNDEsNTUyLjExLDU5LDU1Mi4xMSw5MC40MVYyNjIuNmgzMi41OHYtNzZINjQ1djc2aDMyLjU4VjkwLjQxQzY3Ny41Nyw1OSw2NTQuNyw0MSw2MTQuODQsNDFaTTY0NSwxNTUuNjVoLTYwLjNWOTAuNDFjMC0xMyw5LTE4LjU0LDMwLjE1LTE4LjU0UzY0NSw3Ny40MSw2NDUsOTAuNDFaIiBzdHlsZT0iZmlsbDojZmZmIi8+PHBvbHlnb24gcG9pbnRzPSI3MTAuMTIgNzUuMTkgNzIzLjM5IDc1LjE5IDcyMy4zOSAyMzEuNjcgNzEwLjEyIDIzMS42NyA3MTAuMTIgMjYyLjYgNzY5LjI0IDI2Mi42IDc2OS4yNCAyMzEuNjcgNzU1Ljk3IDIzMS42NyA3NTUuOTcgNzUuMTkgNzY5LjI0IDc1LjE5IDc2OS4yNCA0NC4yNiA3MTAuMTIgNDQuMjYgNzEwLjEyIDc1LjE5IiBzdHlsZT0iZmlsbDojZmZmIi8+PHBhdGggZD0iTTg2NC45MSw0NC4yNkg4MDIuMThWMjYyLjZoNjIuNzNjMzkuODcsMCw2Mi43NC0xOCw2Mi43NC00OS40NlY5My43MkM5MjcuNjUsNjIuMyw5MDQuNzgsNDQuMjYsODY0LjkxLDQ0LjI2Wm0zMC4xNCwxNjguODhjMCwxMy05LDE4LjUzLTMwLjE0LDE4LjUzSDgzNC43N1Y3NS4xOWgzMC4xNGMyMS4xNCwwLDMwLjE0LDUuNTQsMzAuMTQsMTguNTNaIiBzdHlsZT0iZmlsbDojZmZmIi8+PHBhdGggZD0iTTk2MC43Nyw5My43MlYyMTMuMTRjMCwzMS40MiwyMi44Nyw0OS40Niw2Mi43NCw0OS40NkgxMDczVjIzMS42N2gtNDkuNDVjLTIxLjE0LDAtMzAuMTYtNS41NC0zMC4xNi0xOC41M1YxNzIuNDloNzNWMTQxLjU2aC03M1Y5My43MmMwLTEzLDktMTguNTMsMzAuMTYtMTguNTNIMTA3M1Y0NC4yNmgtNDkuNDVDOTgzLjY0LDQ0LjI2LDk2MC43Nyw2Mi4zLDk2MC43Nyw5My43MloiIHN0eWxlPSJmaWxsOiNmZmYiLz48cGF0aCBkPSJNMTE2NS40OCw0NC4zMWgtNTkuNDJWMjYyLjY1aDMyLjZWMTg2LjI5aDI2LjgyYzE4LjgxLDAsMjYuODQsNC41NSwyNi44NCwxNS4yMnY2MS4xNGgzMi41OFYyMDEuNTFjMC0xOC40NC04Ljc1LTI2LjgyLTE1Ljc0LTMwLjU3LDctMy44NSwxNS43NC0xMi4zNSwxNS43NC0zMC43OVY5MC40NkMxMjI0LjksNjkuNDEsMTIxNC41OCw0NC4zMSwxMTY1LjQ4LDQ0LjMxWm0yNi44NCw5NS44NGMwLDEwLjY3LTgsMTUuMjItMjYuODQsMTUuMjJoLTI2LjgyVjc1LjI0aDI2LjgyYzE4LjgxLDAsMjYuODQsNC41NCwyNi44NCwxNS4yMloiIHN0eWxlPSJmaWxsOiNmZmYiLz48cmVjdCB4PSIxMjU3LjUzIiB5PSIyMDMuNDgiIHdpZHRoPSIzMi41OCIgaGVpZ2h0PSI1OS4xMiIgc3R5bGU9ImZpbGw6I2ZmZiIvPjxwb2x5Z29uIHBvaW50cz0iMTMyMy4wNyA3NS4xOSAxMzM2LjMzIDc1LjE5IDEzMzYuMzMgMjMxLjY3IDEzMjMuMDcgMjMxLjY3IDEzMjMuMDcgMjYyLjYgMTM4Mi4xOCAyNjIuNiAxMzgyLjE4IDIzMS42NyAxMzY4LjkyIDIzMS42NyAxMzY4LjkyIDc1LjE5IDEzODIuMTggNzUuMTkgMTM4Mi4xOCA0NC4yNiAxMzIzLjA3IDQ0LjI2IDEzMjMuMDcgNzUuMTkiIHN0eWxlPSJmaWxsOiNmZmYiLz48cGF0aCBkPSJNMTQ3OCw0MWMtMzkuODUsMC02Mi43MiwxOC02Mi43Miw0OS40NlYyMTYuNDZjMCwzMS40MywyMi44Nyw0OS40NSw2Mi43Miw0OS40NXM2Mi43NC0xOCw2Mi43NC00OS40NXYtMTI2QzE1NDAuNzEsNTksMTUxNy44NCw0MSwxNDc4LDQxWm0zMC4xNSwxNzUuNTFjMCwxMy05LDE4LjUzLTMwLjE1LDE4LjUzcy0zMC4xNC01LjU0LTMwLjE0LTE4LjUzdi0xMjZjMC0xMyw5LTE4LjU0LDMwLjE0LTE4LjU0czMwLjE1LDUuNTQsMzAuMTUsMTguNTRaIiBzdHlsZT0iZmlsbDojZmZmIi8+PHBhdGggZD0iTTMwMCwxMTkuNzhhOSw5LDAsMCwwLDIuMjMtNy40M2MtLjIxLS44MS0uNDEtMS42My0uNjMtMi40NGE5LDksMCwwLDAtNS43LTUuNDJsLTI4LTguNDVhMTMuNzQsMTMuNzQsMCwwLDEtOS4zOS0xNi4yOGw2LjY3LTI4LjQ3YTkuMjEsOS4yMSwwLDAsMC0xLTYuODMsOS40Niw5LjQ2LDAsMCwwLTMuMzMtMy4zMiw5LjE4LDkuMTgsMCwwLDAtNi44Mi0xbC0yOC40Nyw2LjY3YTEzLjcyLDEzLjcyLDAsMCwxLTE2LjI3LTkuMzlsLTguNDYtMjhhOSw5LDAsMCwwLTUuMjgtNS42M2MtLjkxLS4yNS0xLjgzLS40Ni0yLjc0LS43YTksOSwwLDAsMC03LjI3LDIuMjNsLTIxLjMyLDIwYTEzLjcyLDEzLjcyLDAsMCwxLTE4Ljc5LDBsLTIxLjMyLTIwYTksOSwwLDAsMC03LjI3LTIuMjNjLS45MS4yNC0xLjgzLjQ1LTIuNzMuN2E5LDksMCwwLDAtNS4yOSw1LjYzbC04LjQ2LDI4YTEzLjcxLDEzLjcxLDAsMCwxLTE2LjI3LDkuMzlMNTUuNjIsNDAuMWE5LjIxLDkuMjEsMCwwLDAtNi44MywxLDkuNDYsOS40NiwwLDAsMC0zLjMzLDMuMzIsOS4yMSw5LjIxLDAsMCwwLTEsNi44M2w2LjY3LDI4LjQ4QTEzLjczLDEzLjczLDAsMCwxLDQxLjcsOTZsLTI4LDguNDVBOSw5LDAsMCwwLDgsMTA5LjkxYy0uMjIuODEtLjQyLDEuNjMtLjYzLDIuNDRhOSw5LDAsMCwwLDIuMjMsNy40M2wyMCwyMS4zMmExMy43MiwxMy43MiwwLDAsMSwwLDE4Ljc5bC0yMCwyMS4zMmE5LDksMCwwLDAtMi4yMyw3LjU1Yy4yLjc0LjM4LDEuNDkuNTgsMi4yM2E5LDksMCwwLDAsNS43NSw1LjUxbDI4LDguNDZhMTMuNzIsMTMuNzIsMCwwLDEsOS4zOSwxNi4yN0w0NC40MiwyNDkuN2E5LjEyLDkuMTIsMCwwLDAsMS40Niw3LjM5LDkuMzUsOS4zNSwwLDAsMCw5Ljc0LDMuOGw0Ny4wOC01LjFhNC4zOSw0LjM5LDAsMCwwLDMuOTMtNC43NmMtMS41Ny0xNy4yNy05LTgxLjg0LTExLjczLTEwNS45NGExOCwxOCwwLDAsMSw1LjgtMTUuMzlsNDYuMTEtNDJhMTEuODcsMTEuODcsMCwwLDEsMTYsMGw0Ni4wNSw0MmExOCwxOCwwLDAsMSw1Ljc5LDE1LjM3Yy0yLjc1LDI0LjA4LTEwLjA5LDg4LjY4LTExLjY1LDEwNmE0LjM5LDQuMzksMCwwLDAsMy45Myw0Ljc1bDQ3LjA5LDUuMWE5LjExLDkuMTEsMCwwLDAsNy40My0xLjQ5LDkuMzEsOS4zMSwwLDAsMCwyLjMtMi4zLDkuMTUsOS4xNSwwLDAsMCwxLjQ2LTcuNGwtNi42Ny0yOC40N0ExMy43MiwxMy43MiwwLDAsMSwyNjcuOTMsMjA1bDI4LTguNDZhOSw5LDAsMCwwLDUuNzUtNS41MWMuMi0uNzQuMzgtMS40OS41OC0yLjI0YTksOSwwLDAsMC0yLjIzLTcuNTRsLTIwLTIxLjMyYTEzLjcyLDEzLjcyLDAsMCwxLDAtMTguNzlaIiBzdHlsZT0iZmlsbDojZTVhMDI0Ii8+PHBhdGggZD0iTTE1OS4zOCwxMjYuNTZhNiw2LDAsMCwwLTkuMTIsMGwtMTUuODEsMTguMThhMTguNDEsMTguNDEsMCwwLDAtNC40OSwxMy4ybDgsMTM1Ljg3YTkuNjYsOS42NiwwLDAsMCw5LjI1LDlxMy43NS4xOSw3LjU2LjJ0Ny42LS4yYTkuNjQsOS42NCwwLDAsMCw5LjI1LTlMMTc5LjczLDE1OGExOC41NCwxOC41NCwwLDAsMC00LjUxLTEzLjIyWiIgc3R5bGU9ImZpbGw6I2ZmZiIvPjwvZz48L3N2Zz4=\" height=\"80\" /></a>\n  </div>\n  <div class=\"rio-error-details\">\n    <h1>Uh Oh... Something Went Wrong</h1>\n    <p>\n      Our team has been alerted of the problem and will be investigating. Please check our Twitter or Discord for more\n      details.\n    </p>\n    <p>\n      <a href=\"https://twitter.com/RaiderIO_WoW\">Twitter</a> &bull; <a href=\"https://discord.gg/raider\">Discord</a>\n      &bull; <a href=\"https://www.instagram.com/raiderio_wow/\">Instagram</a> &bull; <a\n        href=\"https://facebook.com/raider.io\">Facebook</a>\n    </p>\n    <div style=\"color: #999; margin-top: 40px; display: flex; justify-content: center; align-items: center; cursor: pointer; text-decoration: underline\" id=\"error-details-toggle\">\n      CLOUDFLARE ERROR DETAILS<span id=\"arrow\" class=\"arrow\">&#9654;</span>\n    </div>\n    <div id=\"error-details-content\" style=\"margin-top: 10px; text-align: left; display: none;\">\n      <div class=\"cf-error-details cf-error-502\">\n  <h1>Bad gateway</h1>\n  <p>The web server reported a bad gateway error.</p>\n  <ul>\n    <li>Ray ID: a3b783e77c61f824</li>\n    <li>Your IP address: 64.236.193.27</li>\n    <li>Error reference number: 502</li>\n    <li>Cloudflare Location: Chicago</li>\n  </ul>\n</div>\n    </div>\n  </div>\n</body>\n\n</html>\n\n<script>const toggleButton=document.getElementById(\"error-details-toggle\"),detailsContent=document.getElementById(\"error-details-content\"),arrow=document.getElementById(\"arrow\");toggleButton.addEventListener(\"click\",(()=>{\"none\"===detailsContent.style.display?(detailsContent.style.display=\"block\",arrow.innerHTML=\"&#9660;\"):(detailsContent.style.display=\"none\",arrow.innerHTML=\"&#9654;\")}));</script>\n",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Human",
@@ -40,7 +40,8 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-08-15T18:35:01.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-14T13:13:10.321Z"
+        "lastSuccessfulUpdateAt": "2026-09-14T13:13:10.321Z",
+        "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
         "id": "silvermoon-anastrasza",
@@ -61,24 +62,24 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-14T13:12:46.907Z",
-        "updatedAt": "2026-09-14T13:13:11.923Z",
+        "lastSeenInRosterAt": "2026-09-15T11:59:56.545Z",
+        "updatedAt": "2026-09-15T12:09:29.002Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 35120,
-        "itemLevel": 316,
+        "itemLevel": 317,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Heroic",
         "raidKills": 7,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-09-14T12:08:00.000Z",
+        "raiderIoUpdatedAt": "2026-09-15T00:41:41.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-14T13:13:11.923Z"
+        "lastSuccessfulUpdateAt": "2026-09-15T12:09:29.002Z"
       }
     ],
     "characterCount": 2,
@@ -89,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-14T13:23:08.602Z",
-    "updatedAt": "2026-09-14T13:23:08.602Z"
+    "createdAt": "2026-09-15T13:26:22.719Z",
+    "updatedAt": "2026-09-15T13:26:22.719Z"
   }
 ]
