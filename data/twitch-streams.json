@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T15:06:20.678Z",
+  "updatedAt": "2026-09-15T18:57:40.603Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "BLASTING HIGH KEYS !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 634,
+      "viewerCount": 504,
       "startedAt": "2026-09-15T11:02:51Z",
       "language": "en",
       "tags": [
@@ -31,67 +31,82 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "317733359458",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
+      "id": "318598432229",
+      "userId": "135725735",
+      "userLogin": "tanchao",
+      "userName": "Tanchao",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "3850 RIO 🔥 | Mistweaver M+ Push 🥋🗝️",
-      "viewerCount": 29,
-      "startedAt": "2026-09-15T14:23:57Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
-    },
-    {
-      "id": "318460280423",
-      "userId": "767953380",
-      "userLogin": "phantomx94",
-      "userName": "Phantomx94",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "✌︎㋡ | Boomie / Dh - Blitzo & alt rogue gearing[EU] |",
-      "viewerCount": 2,
-      "startedAt": "2026-09-15T14:00:36Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "Pvp",
-        "Ranked",
-        "Season2",
-        "Midnight",
-        "Blitz",
-        "Ratedbattlegrounds"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/phantomx94"
-    },
-    {
-      "id": "317757254244",
-      "userId": "999359775",
-      "userLogin": "loukasidtv",
-      "userName": "LoukasIDtv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "PVP TIME :)",
-      "viewerCount": 1,
-      "startedAt": "2026-09-15T14:34:08Z",
+      "title": "Extra raid γιατί δεν βάλαμε μυαλό 😂  | Tank PoV | O M E G A",
+      "viewerCount": 20,
+      "startedAt": "2026-09-15T16:48:52Z",
       "language": "el",
       "tags": [
         "greek",
-        "greece",
-        "cyprus",
-        "Ελληνικά"
+        "PvE",
+        "WorldofWarcaft",
+        "tank",
+        "BloodDK",
+        "Raiding",
+        "tank",
+        "Ελληνικά",
+        "mythicraid",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tanchao"
+    },
+    {
+      "id": "318598432229",
+      "userId": "135725735",
+      "userLogin": "tanchao",
+      "userName": "Tanchao",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Extra raid γιατί δεν βάλαμε μυαλό 😂  | Tank PoV | O M E G A",
+      "viewerCount": 20,
+      "startedAt": "2026-09-15T16:48:52Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "PvE",
+        "WorldofWarcaft",
+        "tank",
+        "BloodDK",
+        "Raiding",
+        "tank",
+        "Ελληνικά",
+        "mythicraid",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tanchao"
+    },
+    {
+      "id": "318597867877",
+      "userId": "742014117",
+      "userLogin": "alloudtv",
+      "userName": "AlloudTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "S2 Greek VDH Grind +16 +17",
+      "viewerCount": 12,
+      "startedAt": "2026-09-15T16:05:22Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "EngIish",
+        "ＰＵＢＧ",
+        "pubg",
+        "greekstreamer",
+        "Greece",
+        "worldofwarcraft",
+        "wow",
+        "Επανάληψη",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_alloudtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/alloudtv"
     },
     {
       "id": "318459980263",
@@ -101,7 +116,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Keys before last 2 bosses HC",
-      "viewerCount": 1,
+      "viewerCount": 9,
       "startedAt": "2026-09-15T13:29:23Z",
       "language": "en",
       "tags": [
@@ -112,6 +127,139 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_razzeu-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/razzeu"
+    },
+    {
+      "id": "318462367591",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": ">>📦 Drops Enabled 📦<<>>MULTICLASS GAMEPLAY<<>>Filling the Vaults<<",
+      "viewerCount": 4,
+      "startedAt": "2026-09-15T17:01:30Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318462357479",
+      "userId": "42401887",
+      "userLogin": "eragek",
+      "userName": "erageK",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<O M E G A> prog Day| Ο χειρότερος enha της ομαδας, αρνητής ele",
+      "viewerCount": 2,
+      "startedAt": "2026-09-15T17:01:03Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "entertainment",
+        "EngIish",
+        "midnight",
+        "classicplus",
+        "wowmidnight",
+        "wow",
+        "Guild",
+        "WorldofWarcaft",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/eragek"
+    },
+    {
+      "id": "318462357479",
+      "userId": "42401887",
+      "userLogin": "eragek",
+      "userName": "erageK",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<O M E G A> prog Day| Ο χειρότερος enha της ομαδας, αρνητής ele",
+      "viewerCount": 2,
+      "startedAt": "2026-09-15T17:01:03Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "entertainment",
+        "EngIish",
+        "midnight",
+        "classicplus",
+        "wowmidnight",
+        "wow",
+        "Guild",
+        "WorldofWarcaft",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eragek-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/eragek"
+    },
+    {
+      "id": "318463582695",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Raid",
+      "viewerCount": 1,
+      "startedAt": "2026-09-15T18:21:43Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
+    },
+    {
+      "id": "317769552611",
+      "userId": "185568570",
+      "userLogin": "vlimecy",
+      "userName": "vlimecy",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[Druid | DH PoV ] Mythic Raid",
+      "viewerCount": 1,
+      "startedAt": "2026-09-15T16:54:35Z",
+      "language": "ru",
+      "tags": [
+        "Русский",
+        "English",
+        "Greek",
+        "MMORPG",
+        "Warrior",
+        "Raid",
+        "MythicPlus",
+        "MythicPlusKeys",
+        "Ultrawide",
+        "DropsВключены"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vlimecy"
+    },
+    {
+      "id": "318463582695",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Raid",
+      "viewerCount": 1,
+      "startedAt": "2026-09-15T18:21:43Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
     }
   ]
 }
