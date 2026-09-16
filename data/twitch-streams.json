@@ -1,7 +1,73 @@
 {
-  "updatedAt": "2026-09-16T04:57:49.502Z",
+  "updatedAt": "2026-09-16T09:49:55.537Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318663490150",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[!DROPS] NEW BLEEDS WEAKAURA POG !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 468,
+      "startedAt": "2026-09-16T06:58:17Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318604209893",
+      "userId": "51768418",
+      "userLogin": "3dns",
+      "userName": "3Dns",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "GR | Πρωινός Καφές | Ανακοίνωση μεταγραφής ? Stream marathon ?",
+      "viewerCount": 14,
+      "startedAt": "2026-09-16T06:01:03Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/3dns"
+    },
+    {
+      "id": "318663395046",
+      "userId": "121649091",
+      "userLogin": "necrosgr",
+      "userName": "necrosgr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR/EN]Vaults/Raids/Keys",
+      "viewerCount": 7,
+      "startedAt": "2026-09-16T06:36:54Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "chillingstream",
+        "WarlockMain",
+        "ElementalShaman",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/necrosgr"
+    }
+  ]
 }
