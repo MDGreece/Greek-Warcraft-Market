@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-09-16T05:06:11.070Z",
+        "lastSeenInRosterAt": "2026-09-16T11:56:57.814Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 294,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-16T05:06:38.311Z",
+        "updatedAt": "2026-09-16T11:57:20.887Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-09-16T01:08:24.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-16T05:06:38.311Z",
+        "lastSuccessfulUpdateAt": "2026-09-16T11:57:20.887Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,14 +62,14 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-16T05:06:11.070Z",
-        "updatedAt": "2026-09-16T05:06:39.919Z",
+        "lastSeenInRosterAt": "2026-09-16T11:56:57.814Z",
+        "updatedAt": "2026-09-16T11:57:22.753Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 35120,
-        "itemLevel": 317.75,
+        "itemLevel": 318.188,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-09-15T12:35:08.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-16T05:06:39.919Z"
+        "lastSuccessfulUpdateAt": "2026-09-16T11:57:22.753Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-16T05:15:28.169Z",
-    "updatedAt": "2026-09-16T05:15:28.169Z"
+    "createdAt": "2026-09-16T12:07:07.984Z",
+    "updatedAt": "2026-09-16T12:07:07.984Z"
   }
 ]
