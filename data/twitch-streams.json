@@ -1,49 +1,9 @@
 {
-  "updatedAt": "2026-09-16T21:33:17.696Z",
+  "updatedAt": "2026-09-16T23:49:32.456Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318611180517",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GR | <Disobedient> | Reclear - Venomous Abyss 4/8M / Sszorak | Aidsventura | Holy PoV |",
-      "viewerCount": 33,
-      "startedAt": "2026-09-16T18:18:30Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
-    },
-    {
-      "id": "318671930982",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 21,
-      "startedAt": "2026-09-16T21:03:48Z",
-      "language": "ru",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "PovolenéDrops"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
     {
       "id": "318669119974",
       "userId": "45818286",
@@ -52,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "DROPS ON!!! [GR/EN] -Yuki- | 3867io 19-20s | We got OUR SPARKS BACK, PRAY FOR MYTH WEAPON | Myth Raid into maybe some keys 19-21s |",
-      "viewerCount": 14,
+      "viewerCount": 12,
       "startedAt": "2026-09-16T17:36:50Z",
       "language": "el",
       "tags": [
@@ -71,147 +31,30 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "318611350629",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
+      "id": "318669119974",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Snakes in a raid",
-      "viewerCount": 10,
-      "startedAt": "2026-09-16T18:29:04Z",
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3867io 19-20s | We got OUR SPARKS BACK, PRAY FOR MYTH WEAPON | Myth Raid into maybe some keys 19-21s |",
+      "viewerCount": 12,
+      "startedAt": "2026-09-16T17:36:50Z",
       "language": "el",
       "tags": [
-        "WoWGreece",
-        "wow",
-        "greek",
-        "Ελληνικά",
-        "warcraft",
-        "hardcoreclassicwow",
-        "midnight",
-        "wowmidnight",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318611350629",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Snakes in a raid",
-      "viewerCount": 10,
-      "startedAt": "2026-09-16T18:29:04Z",
-      "language": "el",
-      "tags": [
-        "WoWGreece",
-        "wow",
-        "greek",
-        "Ελληνικά",
-        "warcraft",
-        "hardcoreclassicwow",
-        "midnight",
-        "wowmidnight",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318670450790",
-      "userId": "36830103",
-      "userLogin": "demian_gr",
-      "userName": "Demian_GR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Gia pame resetaki zesto zesto..",
-      "viewerCount": 7,
-      "startedAt": "2026-09-16T19:00:42Z",
-      "language": "el",
-      "tags": [
-        "warrior",
-        "mythic",
-        "raid",
-        "Arms",
-        "Heroic",
-        "Progress",
-        "Greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_demian_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/demian_gr"
-    },
-    {
-      "id": "318670450790",
-      "userId": "36830103",
-      "userLogin": "demian_gr",
-      "userName": "Demian_GR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Gia pame resetaki zesto zesto..",
-      "viewerCount": 7,
-      "startedAt": "2026-09-16T19:00:42Z",
-      "language": "el",
-      "tags": [
-        "warrior",
-        "mythic",
-        "raid",
-        "Arms",
-        "Heroic",
-        "Progress",
-        "Greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_demian_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/demian_gr"
-    },
-    {
-      "id": "318474109799",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> 3/8M Reclear!",
-      "viewerCount": 2,
-      "startedAt": "2026-09-16T18:20:35Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
-    },
-    {
-      "id": "318611228645",
-      "userId": "71431876",
-      "userLogin": "g_tam",
-      "userName": "G_Tam",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Heroic Raid Mage POV",
-      "viewerCount": 1,
-      "startedAt": "2026-09-16T18:21:21Z",
-      "language": "en",
-      "tags": [
-        "Ελληνικά",
-        "Keys",
-        "Keystones",
-        "key",
-        "PvE",
         "English",
-        "EU",
-        "raid",
-        "DropsEnabled"
+        "Competitive",
+        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_g_tam-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/g_tam"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     }
   ]
 }
