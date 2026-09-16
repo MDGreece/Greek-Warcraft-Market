@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T09:49:55.537Z",
+  "updatedAt": "2026-09-16T14:25:53.448Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[!DROPS] NEW BLEEDS WEAKAURA POG !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 468,
+      "viewerCount": 387,
       "startedAt": "2026-09-16T06:58:17Z",
       "language": "en",
       "tags": [
@@ -31,43 +31,90 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "318604209893",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
+      "id": "318469464807",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "GR | Πρωινός Καφές | Ανακοίνωση μεταγραφής ? Stream marathon ?",
-      "viewerCount": 14,
-      "startedAt": "2026-09-16T06:01:03Z",
+      "title": "WoW FOREVER BETA TOMOROW✅!DROPS TOP DESTRUCTION GAMEPLAY☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
+      "viewerCount": 199,
+      "startedAt": "2026-09-16T11:03:58Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "Cozy",
+        "Priest",
+        "pve",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318606313701",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 Drops Enabled 📦>>MULTICLASS GAMEPLAY<< RE$ET DAYY",
+      "viewerCount": 3,
+      "startedAt": "2026-09-16T12:12:23Z",
       "language": "el",
       "tags": [
         "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
     },
     {
-      "id": "318663395046",
-      "userId": "121649091",
-      "userLogin": "necrosgr",
-      "userName": "necrosgr",
+      "id": "318470479719",
+      "userId": "173254032",
+      "userLogin": "razzeu",
+      "userName": "Razzeu",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[GR/EN]Vaults/Raids/Keys",
-      "viewerCount": 7,
-      "startedAt": "2026-09-16T06:36:54Z",
-      "language": "el",
+      "title": "vaults into raid",
+      "viewerCount": 3,
+      "startedAt": "2026-09-16T13:17:34Z",
+      "language": "en",
       "tags": [
-        "Ελληνικά",
         "English",
-        "chillingstream",
-        "WarlockMain",
-        "ElementalShaman",
+        "Greek",
+        "Ελληνικά",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_necrosgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/necrosgr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_razzeu-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/razzeu"
+    },
+    {
+      "id": "318470917351",
+      "userId": "158257894",
+      "userLogin": "abyssus101",
+      "userName": "Abyssus101",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Tank/Healing POV με υπερτροφικές διάνοιες",
+      "viewerCount": 1,
+      "startedAt": "2026-09-16T14:04:12Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Cyprus",
+        "WorldfofWarcraft",
+        "wow",
+        "drops",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_abyssus101-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/abyssus101"
     }
   ]
 }
