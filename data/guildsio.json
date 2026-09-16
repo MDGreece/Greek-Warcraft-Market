@@ -99,8 +99,8 @@
           "realm": 23
         },
         "mythic": {
-          "world": 396,
-          "region": 240,
+          "world": 397,
+          "region": 241,
           "realm": 7
         }
       }
@@ -206,9 +206,9 @@
           "realm": 44
         },
         "mythic": {
-          "world": 602,
-          "region": 340,
-          "realm": 28
+          "world": 608,
+          "region": 346,
+          "realm": 30
         }
       }
     }
@@ -286,8 +286,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 5830,
-          "region": 2031,
+          "world": 5831,
+          "region": 2032,
           "realm": 76
         },
         "heroic": {
@@ -313,8 +313,8 @@
           "realm": 29
         },
         "mythic": {
-          "world": 450,
-          "region": 271,
+          "world": 452,
+          "region": 273,
           "realm": 24
         }
       }
@@ -393,8 +393,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3384,
-          "region": 1526,
+          "world": 3385,
+          "region": 1527,
           "realm": 98
         },
         "heroic": {
@@ -415,14 +415,14 @@
           "realm": 97
         },
         "heroic": {
-          "world": 3498,
+          "world": 3502,
           "region": 1416,
           "realm": 130
         },
         "mythic": {
-          "world": 3111,
-          "region": 1391,
-          "realm": 125
+          "world": 3134,
+          "region": 1401,
+          "realm": 126
         }
       }
     }
@@ -510,7 +510,7 @@
           "realm": 86
         },
         "mythic": {
-          "world": 1599,
+          "world": 1616,
           "region": 749,
           "realm": 51
         }
@@ -527,8 +527,8 @@
           "realm": 62
         },
         "mythic": {
-          "world": 2388,
-          "region": 1100,
+          "world": 2398,
+          "region": 1105,
           "realm": 71
         }
       }
@@ -607,8 +607,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7012,
-          "region": 2737,
+          "world": 7013,
+          "region": 2738,
           "realm": 158
         },
         "heroic": {
@@ -634,9 +634,9 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2684,
-          "region": 1256,
-          "realm": 120
+          "world": 2713,
+          "region": 1270,
+          "realm": 121
         }
       }
     }
@@ -741,9 +741,9 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1814,
-          "region": 926,
-          "realm": 96
+          "world": 1838,
+          "region": 932,
+          "realm": 97
         }
       }
     }
@@ -821,8 +821,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7169,
-          "region": 2894,
+          "world": 7170,
+          "region": 2895,
           "realm": 95
         },
         "heroic": {
@@ -831,9 +831,9 @@
           "realm": 115
         },
         "mythic": {
-          "world": 1933,
-          "region": 926,
-          "realm": 59
+          "world": 1972,
+          "region": 949,
+          "realm": 60
         }
       },
       "the-venomous-abyss": {
@@ -928,8 +928,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 6257,
-          "region": 2445,
+          "world": 6258,
+          "region": 2446,
           "realm": 139
         },
         "heroic": {
@@ -945,14 +945,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 10043,
+          "world": 10044,
           "region": 3995,
           "realm": 232
         },
         "heroic": {
-          "world": 6773,
-          "region": 2733,
-          "realm": 154
+          "world": 6837,
+          "region": 2786,
+          "realm": 157
         },
         "mythic": {
           "world": 0,
@@ -1152,7 +1152,7 @@
           "realm": 9
         },
         "mythic": {
-          "world": 1402,
+          "world": 1404,
           "region": 639,
           "realm": 42
         }
@@ -1169,9 +1169,9 @@
           "realm": 70
         },
         "mythic": {
-          "world": 1492,
-          "region": 755,
-          "realm": 54
+          "world": 1503,
+          "region": 758,
+          "realm": 55
         }
       }
     }
@@ -1373,13 +1373,13 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 8173,
+          "world": 8174,
           "region": 3440,
           "realm": 98
         },
         "heroic": {
-          "world": 10538,
-          "region": 4163,
+          "world": 10601,
+          "region": 4216,
           "realm": 110
         },
         "mythic": {
@@ -1463,8 +1463,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 8881,
-          "region": 3545,
+          "world": 8882,
+          "region": 3546,
           "realm": 193
         },
         "heroic": {
@@ -1480,14 +1480,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 10174,
+          "world": 10175,
           "region": 4126,
           "realm": 237
         },
         "heroic": {
-          "world": 8906,
-          "region": 3540,
-          "realm": 199
+          "world": 8942,
+          "region": 3571,
+          "realm": 202
         },
         "mythic": {
           "world": 0,
@@ -1587,14 +1587,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 9486,
+          "world": 9487,
           "region": 3646,
           "realm": 142
         },
         "heroic": {
-          "world": 7059,
-          "region": 2878,
-          "realm": 128
+          "world": 7131,
+          "region": 2937,
+          "realm": 131
         },
         "mythic": {
           "world": 0,
@@ -1694,8 +1694,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15447,
-          "region": 6049,
+          "world": 15460,
+          "region": 6060,
           "realm": 69
         },
         "heroic": {
@@ -1740,9 +1740,9 @@
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
-        "summary": "0/8 N",
+        "summary": "7/8 N",
         "total_bosses": 8,
-        "normal_bosses_killed": 0,
+        "normal_bosses_killed": 7,
         "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       }
@@ -1801,9 +1801,9 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
+          "world": 13854,
+          "region": 5509,
+          "realm": 165
         },
         "heroic": {
           "world": 0,
@@ -1908,13 +1908,13 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 8821,
+          "world": 8822,
           "region": 3516,
           "realm": 18
         },
         "heroic": {
-          "world": 10235,
-          "region": 4024,
+          "world": 10260,
+          "region": 4060,
           "realm": 20
         },
         "mythic": {
@@ -2008,21 +2008,21 @@
           "realm": 122
         },
         "mythic": {
-          "world": 1937,
-          "region": 929,
-          "realm": 60
+          "world": 1976,
+          "region": 952,
+          "realm": 61
         }
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 7905,
+          "world": 7906,
           "region": 3172,
           "realm": 132
         },
         "heroic": {
-          "world": 7000,
-          "region": 2856,
-          "realm": 127
+          "world": 7069,
+          "region": 2914,
+          "realm": 130
         },
         "mythic": {
           "world": 0,
@@ -2061,10 +2061,10 @@
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
-        "summary": "3/8 H",
+        "summary": "4/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 3,
+        "heroic_bosses_killed": 4,
         "mythic_bosses_killed": 0
       }
     },
@@ -2110,8 +2110,8 @@
           "realm": 12
         },
         "heroic": {
-          "world": 11432,
-          "region": 4464,
+          "world": 11474,
+          "region": 4500,
           "realm": 242
         },
         "mythic": {
@@ -2122,14 +2122,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 8771,
+          "world": 8772,
           "region": 3467,
           "realm": 200
         },
         "heroic": {
-          "world": 12038,
-          "region": 4653,
-          "realm": 271
+          "world": 10361,
+          "region": 4097,
+          "realm": 236
         },
         "mythic": {
           "world": 0,
@@ -2229,8 +2229,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15776,
-          "region": 6165,
+          "world": 15792,
+          "region": 6178,
           "realm": 302
         },
         "heroic": {
@@ -2336,13 +2336,13 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 12117,
+          "world": 12118,
           "region": 4808,
           "realm": 264
         },
         "heroic": {
-          "world": 10304,
-          "region": 4045,
+          "world": 10373,
+          "region": 4103,
           "realm": 252
         },
         "mythic": {
@@ -2555,8 +2555,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 10186,
-          "region": 4004,
+          "world": 10249,
+          "region": 4056,
           "realm": 155
         },
         "mythic": {
@@ -2747,8 +2747,8 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7060,
-          "region": 2785,
+          "world": 7061,
+          "region": 2786,
           "realm": 154
         },
         "heroic": {
@@ -2774,9 +2774,9 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2714,
-          "region": 1272,
-          "realm": 71
+          "world": 2747,
+          "region": 1290,
+          "realm": 74
         }
       }
     }
