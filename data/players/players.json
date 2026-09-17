@@ -18,7 +18,7 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
-        "lastSeenInRosterAt": "2026-09-16T21:33:47.798Z",
+        "lastSeenInRosterAt": "2026-09-17T05:09:06.348Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
@@ -26,7 +26,7 @@
         "itemLevel": 294,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-16T21:34:09.611Z",
+        "updatedAt": "2026-09-17T05:09:26.730Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-09-16T18:51:24.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-16T21:34:09.611Z",
+        "lastSuccessfulUpdateAt": "2026-09-17T05:09:26.730Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,24 +62,24 @@
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-16T21:33:47.798Z",
-        "updatedAt": "2026-09-16T21:34:11.875Z",
+        "lastSeenInRosterAt": "2026-09-17T05:09:06.348Z",
+        "updatedAt": "2026-09-17T05:09:28.057Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
-        "achievementPoints": 35120,
-        "itemLevel": 318.188,
+        "achievementPoints": 35140,
+        "itemLevel": 318,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
         "raidKills": 1,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-09-15T12:35:08.000Z",
+        "raiderIoUpdatedAt": "2026-09-17T05:07:03.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-16T21:34:11.875Z"
+        "lastSuccessfulUpdateAt": "2026-09-17T05:09:28.057Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-16T21:43:15.160Z",
-    "updatedAt": "2026-09-16T21:43:15.160Z"
+    "createdAt": "2026-09-17T05:17:44.427Z",
+    "updatedAt": "2026-09-17T05:17:44.427Z"
   }
 ]
