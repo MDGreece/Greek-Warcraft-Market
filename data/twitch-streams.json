@@ -1,60 +1,7 @@
 {
-  "updatedAt": "2026-09-16T23:49:32.456Z",
+  "updatedAt": "2026-09-17T01:59:43.491Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318669119974",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3867io 19-20s | We got OUR SPARKS BACK, PRAY FOR MYTH WEAPON | Myth Raid into maybe some keys 19-21s |",
-      "viewerCount": 12,
-      "startedAt": "2026-09-16T17:36:50Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318669119974",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3867io 19-20s | We got OUR SPARKS BACK, PRAY FOR MYTH WEAPON | Myth Raid into maybe some keys 19-21s |",
-      "viewerCount": 12,
-      "startedAt": "2026-09-16T17:36:50Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    }
-  ]
+  "streams": []
 }
