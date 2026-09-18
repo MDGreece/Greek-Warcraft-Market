@@ -1,26 +1,172 @@
 {
-  "updatedAt": "2026-09-18T06:00:52.505Z",
+  "updatedAt": "2026-09-18T11:08:21.959Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318626964453",
-      "userId": "225525061",
-      "userLogin": "glore0th",
-      "userName": "GLORE0TH",
+      "id": "318628648165",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW forever EU hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-09-18T05:42:24Z",
+      "title": "WOW FOREVER WARLOCK🎁 !wowforever !GIVEAWAY ✅!DROPS ☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
+      "viewerCount": 87,
+      "startedAt": "2026-09-18T10:31:02Z",
       "language": "en",
       "tags": [
         "English",
-        "greek"
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "Cozy",
+        "Priest",
+        "pve",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_glore0th-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/glore0th"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318688071654",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[!DROPS] CLASS TUNING LATER TODAY \"ROGUE WANTED: DEAD OR ALIVE\"  !!! !rogue !misery !coaching !ui !warrior",
+      "viewerCount": 53,
+      "startedAt": "2026-09-18T10:53:43Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318688071654",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[!DROPS] CLASS TUNING LATER TODAY \"ROGUE WANTED: DEAD OR ALIVE\"  !!! !rogue !misery !coaching !ui !warrior",
+      "viewerCount": 53,
+      "startedAt": "2026-09-18T10:53:43Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318491287143",
+      "userId": "65817736",
+      "userLogin": "vegagrc",
+      "userName": "VegaGRC",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "✅ !DROPS | ✨WoW Forever Beta | Tryharding for 20lvl",
+      "viewerCount": 11,
+      "startedAt": "2026-09-18T10:18:43Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά",
+        "RPG",
+        "wow",
+        "Forever",
+        "Adventure",
+        "Quest",
+        "Leveling",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vegagrc-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vegagrc"
+    },
+    {
+      "id": "318686931814",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 2,
+      "startedAt": "2026-09-18T07:50:26Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "318686931814",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 2,
+      "startedAt": "2026-09-18T07:50:26Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "317791153251",
+      "userId": "1517272478",
+      "userLogin": "prim_zase",
+      "userName": "prim_zase",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WOW CLASSIC FOREVER BETA (Affliction warlock leveling) PVP server !talents !info",
+      "viewerCount": 2,
+      "startedAt": "2026-09-18T09:34:48Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_prim_zase-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/prim_zase"
     }
   ]
 }
