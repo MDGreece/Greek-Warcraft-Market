@@ -1,115 +1,29 @@
 {
-  "updatedAt": "2026-09-17T22:59:19.046Z",
+  "updatedAt": "2026-09-18T01:13:13.390Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318624574693",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
+      "id": "318625892837",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 26,
-      "startedAt": "2026-09-17T21:13:30Z",
-      "language": "ru",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "PovolenéDrops"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "318488028903",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW forever BETA",
-      "viewerCount": 14,
-      "startedAt": "2026-09-17T21:53:28Z",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 0,
+      "startedAt": "2026-09-18T00:31:16Z",
       "language": "el",
       "tags": [
         "greek",
-        "greece",
-        "fps",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
-    },
-    {
-      "id": "318488028903",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW forever BETA",
-      "viewerCount": 14,
-      "startedAt": "2026-09-17T21:53:28Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "greece",
-        "fps",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
-    },
-    {
-      "id": "318487146343",
-      "userId": "192297848",
-      "userLogin": "nimprethil",
-      "userName": "Nimprethil",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever - Day 1 Beta",
-      "viewerCount": 8,
-      "startedAt": "2026-09-17T20:20:04Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "WorldofWarcaft",
         "English",
-        "worldofwarcraftforever",
+        "Englísh",
+        "Ελληνικά",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nimprethil"
-    },
-    {
-      "id": "318487786983",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Checking out World of Waiting Forever / Classic+",
-      "viewerCount": 8,
-      "startedAt": "2026-09-17T21:23:00Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
     }
   ]
 }
