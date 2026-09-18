@@ -1,29 +1,26 @@
 {
-  "updatedAt": "2026-09-18T01:13:13.390Z",
+  "updatedAt": "2026-09-18T06:00:52.505Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318625892837",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318626964453",
+      "userId": "225525061",
+      "userLogin": "glore0th",
+      "userName": "GLORE0TH",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 0,
-      "startedAt": "2026-09-18T00:31:16Z",
-      "language": "el",
+      "title": "WoW forever EU hunter",
+      "viewerCount": 1,
+      "startedAt": "2026-09-18T05:42:24Z",
+      "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_glore0th-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/glore0th"
     }
   ]
 }
