@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-18T11:08:21.959Z",
+  "updatedAt": "2026-09-18T14:59:02.508Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318628648165",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WOW FOREVER WARLOCK🎁 !wowforever !GIVEAWAY ✅!DROPS ☕SUBTEMBER 30% OFF SUBS☕COFFEE THERAPY☕⚔️R1 3605+ @JAZGGZ🔥COFFEE VIBES & CHILL☕🔥",
-      "viewerCount": 87,
-      "startedAt": "2026-09-18T10:31:02Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "Cozy",
-        "Priest",
-        "pve",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
       "id": "318688071654",
       "userId": "85310009",
       "userLogin": "casualaddict_",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[!DROPS] CLASS TUNING LATER TODAY \"ROGUE WANTED: DEAD OR ALIVE\"  !!! !rogue !misery !coaching !ui !warrior",
-      "viewerCount": 53,
+      "viewerCount": 372,
       "startedAt": "2026-09-18T10:53:43Z",
       "language": "en",
       "tags": [
@@ -57,41 +31,72 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "318688071654",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "317758438882",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[!DROPS] CLASS TUNING LATER TODAY \"ROGUE WANTED: DEAD OR ALIVE\"  !!! !rogue !misery !coaching !ui !warrior",
-      "viewerCount": 53,
-      "startedAt": "2026-09-18T10:53:43Z",
-      "language": "en",
+      "title": "3923 RIO 🔥 | Mistweaver M+ Push 🥋🗝️",
+      "viewerCount": 6,
+      "startedAt": "2026-09-18T14:10:46Z",
+      "language": "el",
       "tags": [
+        "Ελληνικά",
         "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
     },
     {
-      "id": "318491287143",
+      "id": "317758438882",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "3923 RIO 🔥 | Mistweaver M+ Push 🥋🗝️",
+      "viewerCount": 6,
+      "startedAt": "2026-09-18T14:10:46Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "317758438882",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "3923 RIO 🔥 | Mistweaver M+ Push 🥋🗝️",
+      "viewerCount": 6,
+      "startedAt": "2026-09-18T14:10:46Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318493784167",
       "userId": "65817736",
       "userLogin": "vegagrc",
       "userName": "VegaGRC",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "✅ !DROPS | ✨WoW Forever Beta | Tryharding for 20lvl",
-      "viewerCount": 11,
-      "startedAt": "2026-09-18T10:18:43Z",
+      "title": "✅ !DROPS | ✨WoW Forever Beta | Handheld | Controller | Tryharding for 20lvl",
+      "viewerCount": 4,
+      "startedAt": "2026-09-18T14:53:31Z",
       "language": "el",
       "tags": [
         "Greek",
@@ -108,65 +113,47 @@
       "twitchUrl": "https://www.twitch.tv/vegagrc"
     },
     {
-      "id": "318686931814",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318630448101",
+      "userId": "767953380",
+      "userLogin": "phantomx94",
+      "userName": "Phantomx94",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
+      "title": "✌︎㋡ Blitzo for ever [EU] | DH + ROGUE + BOOMIE |",
       "viewerCount": 2,
-      "startedAt": "2026-09-18T07:50:26Z",
-      "language": "el",
+      "startedAt": "2026-09-18T13:56:30Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "Pvp",
+        "Ranked",
+        "Season2",
+        "Midnight",
+        "Blitz",
+        "Ratedbattlegrounds"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/phantomx94"
+    },
+    {
+      "id": "318689534054",
+      "userId": "84443046",
+      "userLogin": "jigsaw_gr",
+      "userName": "Jigsaw_GR",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Another Day, Another Key??",
+      "viewerCount": 1,
+      "startedAt": "2026-09-18T13:41:58Z",
+      "language": "en",
       "tags": [
         "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "wow"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
-    },
-    {
-      "id": "318686931814",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 2,
-      "startedAt": "2026-09-18T07:50:26Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "English",
-        "Englísh",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
-    },
-    {
-      "id": "317791153251",
-      "userId": "1517272478",
-      "userLogin": "prim_zase",
-      "userName": "prim_zase",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WOW CLASSIC FOREVER BETA (Affliction warlock leveling) PVP server !talents !info",
-      "viewerCount": 2,
-      "startedAt": "2026-09-18T09:34:48Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_prim_zase-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/prim_zase"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jigsaw_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jigsaw_gr"
     }
   ]
 }
