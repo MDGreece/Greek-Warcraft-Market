@@ -1,29 +1,164 @@
 {
-  "updatedAt": "2026-09-19T06:01:19.095Z",
+  "updatedAt": "2026-09-19T10:52:50.019Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318698429542",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318502251879",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 1,
-      "startedAt": "2026-09-19T03:36:35Z",
+      "title": "[!DROPS] DODGED NERFS , ROGUE FINALLY META !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 428,
+      "startedAt": "2026-09-19T07:21:56Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318503331687",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "drops! kalimera! balte kafe kai arakste!",
+      "viewerCount": 18,
+      "startedAt": "2026-09-19T09:44:10Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Ελληνικά",
+        "DropsEnabeled",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318640995685",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Yo",
+      "viewerCount": 10,
+      "startedAt": "2026-09-19T09:13:46Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
+    {
+      "id": "318699728102",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 Drops Enabled 📦>>MULTICLASS GAMEPLAY<<",
+      "viewerCount": 6,
+      "startedAt": "2026-09-19T08:29:50Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318502709863",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "boring stream. forever and retail",
+      "viewerCount": 4,
+      "startedAt": "2026-09-19T08:24:33Z",
+      "language": "el",
+      "tags": [
+        "PVP",
+        "PVE",
+        "depresion",
+        "ExtractionShooter",
+        "fps",
+        "old",
+        "foreveralone",
+        "Ελληνικά",
+        "Επανάληψη",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
+    },
+    {
+      "id": "318503109735",
+      "userId": "622594478",
+      "userLogin": "soskleros",
+      "userName": "Soskleros",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Cypriot Stream - WoW - Midnight S2 Keystones",
+      "viewerCount": 2,
+      "startedAt": "2026-09-19T09:16:06Z",
+      "language": "el",
+      "tags": [
         "Ελληνικά",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_soskleros-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/soskleros"
+    },
+    {
+      "id": "318700634598",
+      "userId": "167369818",
+      "userLogin": "iliasanth",
+      "userName": "IliasAnth",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Another day in the office",
+      "viewerCount": 0,
+      "startedAt": "2026-09-19T10:24:46Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "apex",
+        "apexlegends",
+        "Ελληνικά",
+        "Horror",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_iliasanth-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/iliasanth"
     }
   ]
 }
