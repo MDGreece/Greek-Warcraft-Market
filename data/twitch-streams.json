@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-09-19T19:23:42.046Z",
+  "updatedAt": "2026-09-19T21:37:26.449Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318644572645",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WOW FOREVER WARLOCK🎁 !wowforever !giveaway ✅!DROPS",
-      "viewerCount": 159,
-      "startedAt": "2026-09-19T14:53:25Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "Cozy",
-        "Priest",
-        "pve",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
     {
       "id": "318507482471",
       "userId": "166949280",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "GreekCraft - ANASKOPA - MDG - WOW FOREVER",
-      "viewerCount": 112,
+      "viewerCount": 96,
       "startedAt": "2026-09-19T15:58:42Z",
       "language": "el",
       "tags": [
@@ -72,40 +46,14 @@
       "twitchUrl": "https://www.twitch.tv/woopwoop7"
     },
     {
-      "id": "317793712228",
-      "userId": "17888361",
-      "userLogin": "sephbladesgaminggr",
-      "userName": "SephBladesGamingGR",
+      "id": "318704088678",
+      "userId": "81696814",
+      "userLogin": "tyrantfeller",
+      "userName": "Tyrantfeller",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "FAK! Τί πατάω για heal?!  - !commands !youtube",
+      "title": "🔴  Ξανά Όπως Παλιά...WOW FOREVER BETA",
       "viewerCount": 11,
-      "startedAt": "2026-09-19T16:18:40Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "cyprus",
-        "coop",
-        "PvE",
-        "boomer",
-        "RPG",
-        "Ελληνικά",
-        "Karaflas",
-        "wow",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
-    },
-    {
-      "id": "318704088678",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔴  Ξανά Όπως Παλιά...WOW FOREVER BETA",
-      "viewerCount": 10,
       "startedAt": "2026-09-19T15:58:22Z",
       "language": "el",
       "tags": [
@@ -119,46 +67,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "318704088678",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔴  Ξανά Όπως Παλιά...WOW FOREVER BETA",
-      "viewerCount": 10,
-      "startedAt": "2026-09-19T15:58:22Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "Greece",
-        "English",
-        "MMO",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "wow",
-        "wowforever"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "318704286054",
-      "userId": "41801202",
-      "userLogin": "maniacx95",
-      "userName": "MaNiaCx95",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "📦 Drops Enabled 📦>>MULTICLASS GAMEPLAY<<>>HC PUG<<",
-      "viewerCount": 7,
-      "startedAt": "2026-09-19T16:14:30Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/maniacx95"
     },
     {
       "id": "317794032740",
@@ -185,6 +93,29 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/vlimecy"
+    },
+    {
+      "id": "318506694759",
+      "userId": "37754304",
+      "userLogin": "privatemanos",
+      "userName": "Privatemanos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever Beta - Hunter",
+      "viewerCount": 1,
+      "startedAt": "2026-09-19T14:55:52Z",
+      "language": "el",
+      "tags": [
+        "AskMeAnyhting",
+        "English",
+        "Ελληνικά",
+        "Veterangamer",
+        "Hunter",
+        "PvE",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/privatemanos"
     }
   ]
 }
