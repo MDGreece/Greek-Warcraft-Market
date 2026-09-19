@@ -16,7 +16,7 @@
         "raidGroup": "Deny Everything",
         "sourceGuildFile": "deny-everything.json",
         "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
-        "inCurrentRoster": true,
+        "inCurrentRoster": false,
         "firstSeenAt": "2026-08-01T18:46:29.181Z",
         "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anadín",
@@ -26,7 +26,7 @@
         "itemLevel": 294,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-09-19T16:00:54.623Z",
+        "updatedAt": "2026-09-19T19:33:27.956Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-09-16T18:51:24.000Z",
-        "lastSuccessfulUpdateAt": "2026-09-19T16:00:54.623Z",
+        "lastSuccessfulUpdateAt": "2026-09-19T19:33:27.956Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -59,11 +59,11 @@
         "raidProgress": "2/8M",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
-        "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
+        "rosterUpdatedAt": "2026-09-19T19:29:45.419Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-        "updatedAt": "2026-09-19T16:00:57.414Z",
+        "lastSeenInRosterAt": "2026-09-19T19:33:02.099Z",
+        "updatedAt": "2026-09-19T19:33:30.425Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-09-17T18:00:09.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-09-19T16:00:57.414Z"
+        "lastSuccessfulUpdateAt": "2026-09-19T19:33:30.425Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-09-19T16:09:43.586Z",
-    "updatedAt": "2026-09-19T16:09:43.586Z"
+    "createdAt": "2026-09-19T19:44:30.911Z",
+    "updatedAt": "2026-09-19T19:44:30.911Z"
   }
 ]
