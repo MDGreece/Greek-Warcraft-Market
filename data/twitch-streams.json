@@ -1,71 +1,7 @@
 {
-  "updatedAt": "2026-09-18T23:15:46.120Z",
+  "updatedAt": "2026-09-19T01:17:03.892Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318634820325",
-      "userId": "63832292",
-      "userLogin": "zaboulef",
-      "userName": "zaboulef",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[EN/GR]WoW Forever Beta | New Races, New Combos, Classic Vibes 🔥  @corinthiansclan Raids : @ioannisgutevas @mr_pappasmurf @kinigouliss",
-      "viewerCount": 20,
-      "startedAt": "2026-09-18T18:52:09Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaboulef-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaboulef"
-    },
-    {
-      "id": "318692307686",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Continuing the \"forever\" journey!",
-      "viewerCount": 3,
-      "startedAt": "2026-09-18T17:26:45Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "318630310885",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-09-18T13:43:11Z",
-      "language": "el",
-      "tags": [
-        "AskMeAnyhting",
-        "English",
-        "Ελληνικά",
-        "Veterangamer",
-        "Hunter",
-        "PvE",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
-    }
-  ]
+  "streams": []
 }
