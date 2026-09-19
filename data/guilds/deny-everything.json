@@ -38,8 +38,8 @@
       "GR": "4"
     },
     "The Venomous Abyss": {
-      "progress": "4/8 H",
-      "WR": "4972",
+      "progress": "2/8 M",
+      "WR": "2218",
       "GR": "-"
     }
   },
@@ -50,14 +50,14 @@
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 5
+        "reports": 8
       },
       {
         "name": "Deghinsea",
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 5
+        "reports": 9
       },
       {
         "name": "Saeroth",
@@ -71,7 +71,7 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Guardian",
-        "reports": 1
+        "reports": 2
       }
     ],
     "healers": [
@@ -80,13 +80,6 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 2
-      },
-      {
-        "name": "Anadín",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Holy",
         "reports": 1
       },
       {
@@ -94,106 +87,92 @@
         "realm": "Silvermoon",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Anekfrastos",
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 4
+        "reports": 7
       },
       {
         "name": "Darkfàiry",
         "realm": "TarrenMill",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Darkfäiry",
         "realm": "Stormscale",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 5
+        "reports": 8
       },
       {
-        "name": "Elgatzol",
-        "realm": "Silvermoon",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "reports": 2
+        "name": "Deadlylady",
+        "realm": "TarrenMill",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Kavleè",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 2
+        "reports": 1
       },
       {
         "name": "Okeanios",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 2
-      },
-      {
-        "name": "Oxtavoltos",
-        "realm": "TarrenMill",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Zohas",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 3
+        "reports": 7
       }
     ],
     "dps": [
-      {
-        "name": "Aktina",
-        "realm": "TarrenMill",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 1
-      },
       {
         "name": "Anáftra",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 5
-      },
-      {
-        "name": "Ator",
-        "realm": "Dentarg",
-        "class": "Priest",
-        "spec": "Shadow",
-        "reports": 1
+        "reports": 7
       },
       {
         "name": "Balthour",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 4
+        "reports": 8
       },
       {
         "name": "Belicita",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 5
+        "reports": 9
       },
       {
-        "name": "Brbwc",
-        "realm": "Silvermoon",
-        "class": "Evoker",
-        "spec": "Augmentation",
+        "name": "Blinkoz",
+        "realm": "TwistingNether",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 6
+      },
+      {
+        "name": "Bonescrash",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
         "reports": 1
       },
       {
@@ -201,13 +180,13 @@
         "realm": "TarrenMill",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 4
+        "reports": 9
       },
       {
-        "name": "Clarenadkz",
+        "name": "Copperfild",
         "realm": "TarrenMill",
-        "class": "DeathKnight",
-        "spec": "Frost",
+        "class": "Mage",
+        "spec": "Arcane",
         "reports": 1
       },
       {
@@ -215,13 +194,13 @@
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 8
       },
       {
         "name": "Doomlord",
         "realm": "TarrenMill",
         "class": "Warlock",
-        "spec": "Destruction",
+        "spec": "Demonology",
         "reports": 2
       },
       {
@@ -229,49 +208,42 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 4
       },
       {
         "name": "Fistheaven",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 3
+        "reports": 8
       },
       {
         "name": "Flyingbeast",
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Fotinator",
         "realm": "Silvermoon",
         "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 4
-      },
-      {
-        "name": "Geronimos",
-        "realm": "Silvermoon",
-        "class": "Druid",
-        "spec": "Balance",
-        "reports": 1
+        "spec": "Marksmanship",
+        "reports": 8
       },
       {
         "name": "Gnolis",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 3
+        "reports": 7
       },
       {
         "name": "Grandpanic",
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 5
+        "reports": 8
       },
       {
         "name": "Guccineck",
@@ -285,63 +257,56 @@
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Kapptech",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 4
+        "reports": 8
+      },
+      {
+        "name": "Koukieheal",
+        "realm": "Auchindoun",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
       },
       {
         "name": "Koukies",
         "realm": "Auchindoun",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 1
-      },
-      {
-        "name": "Ksapladin",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 1
-      },
-      {
-        "name": "Lengolas",
-        "realm": "Stormscale",
-        "class": "Hunter",
-        "spec": "Marksmanship",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Mitsiru",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Nitrøgen",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Phatdmgg",
         "realm": "TarrenMill",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 4
       },
       {
         "name": "Pioupiouu",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 5
+        "reports": 8
       },
       {
         "name": "Pswlina",
@@ -355,7 +320,7 @@
         "realm": "Turalyon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Rozmagos",
@@ -369,21 +334,21 @@
         "realm": "Quel'Thalas",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 5
+        "reports": 8
       },
       {
-        "name": "Tidalburner",
+        "name": "Taverniarhs",
         "realm": "TwistingNether",
-        "class": "DemonHunter",
-        "spec": "Devourer",
+        "class": "Monk",
+        "spec": "Windwalker",
         "reports": 1
       },
       {
-        "name": "Voidblink",
+        "name": "Tipakos",
         "realm": "TwistingNether",
-        "class": "Priest",
-        "spec": "Shadow",
-        "reports": 2
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
       },
       {
         "name": "Weirdanomaly",
@@ -393,18 +358,25 @@
         "reports": 1
       },
       {
+        "name": "Wowmaniacc",
+        "realm": "TarrenMill",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 1
+      },
+      {
         "name": "Xabock",
         "realm": "Dentarg",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 4
+        "reports": 8
       },
       {
         "name": "Zenlimiter",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 4
+        "reports": 8
       }
     ]
   },
@@ -412,16 +384,16 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/Deny%20Everything",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-08-31T21:32:14.347Z"
+    "lastUpdated": "2026-09-19T19:29:14.637Z"
   },
-  "rosterUpdatedAt": "2026-08-31T21:32:41.010Z",
+  "rosterUpdatedAt": "2026-09-19T19:29:45.419Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 805922,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 6,
-    "verifiedGuildMembers": 313,
+    "reportsChecked": 10,
+    "verifiedGuildMembers": 324,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Deny Everything"
   }

@@ -38,19 +38,33 @@
       "GR": "15"
     },
     "The Venomous Abyss": {
-      "progress": "1/8 H",
-      "WR": "8400",
+      "progress": "4/8 H",
+      "WR": "11362",
       "GR": "-"
     }
   },
   "roster": {
     "tanks": [
       {
+        "name": "Elniron",
+        "realm": "Ravencrest",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
+      },
+      {
         "name": "Gobei",
         "realm": "Ravencrest",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 2
+        "reports": 7
+      },
+      {
+        "name": "Irìdin",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 6
       }
     ],
     "healers": [
@@ -59,7 +73,14 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 2
+        "reports": 7
+      },
+      {
+        "name": "Auxcord",
+        "realm": "Draenor",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 6
       },
       {
         "name": "Castiga",
@@ -73,50 +94,78 @@
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 2
+        "reports": 5
+      },
+      {
+        "name": "Emelaith",
+        "realm": "Bloodhoof",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Màrci",
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 2
+        "reports": 7
+      },
+      {
+        "name": "Nofaith",
+        "realm": "Ravencrest",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Sakhmis",
         "realm": "Aggramar",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 1
+        "reports": 6
       },
       {
         "name": "Sayad",
         "realm": "Hellscream",
         "class": "Shaman",
         "spec": "Restoration",
+        "reports": 3
+      },
+      {
+        "name": "Selyndia",
+        "realm": "TwistingNether",
+        "class": "Paladin",
+        "spec": "Holy",
         "reports": 1
       }
     ],
     "dps": [
       {
+        "name": "Alcänder",
+        "realm": "Ravencrest",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 3
+      },
+      {
         "name": "Amaterrassu",
         "realm": "Ravencrest",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 2
+        "reports": 6
       },
       {
-        "name": "Auxcord",
-        "realm": "Draenor",
-        "class": "Evoker",
-        "spec": "Devastation",
+        "name": "Chaosreign",
+        "realm": "Ravencrest",
+        "class": "Druid",
+        "spec": "Balance",
         "reports": 1
       },
       {
-        "name": "Cyprusangler",
-        "realm": "Karazhan",
-        "class": "DemonHunter",
-        "spec": "Havoc",
+        "name": "Chaotonic",
+        "realm": "Ravencrest",
+        "class": "Warlock",
+        "spec": "Affliction",
         "reports": 1
       },
       {
@@ -127,66 +176,94 @@
         "reports": 1
       },
       {
+        "name": "Dpsjin",
+        "realm": "Ravencrest",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 1
+      },
+      {
         "name": "Elfwin",
         "realm": "Ravencrest",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 1
+        "reports": 6
+      },
+      {
+        "name": "Evangelios",
+        "realm": "Ravencrest",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 3
       },
       {
         "name": "Exghst",
         "realm": "Doomhammer",
         "class": "Warlock",
-        "spec": "Destruction",
-        "reports": 1
+        "spec": "Demonology",
+        "reports": 5
       },
       {
         "name": "Glikouli",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 2
+        "reports": 7
       },
       {
         "name": "Gouzi",
         "realm": "Kazzak",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 1
+        "reports": 4
       },
       {
-        "name": "Irìdin",
+        "name": "Helluvakilla",
+        "realm": "Draenor",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 4
+      },
+      {
+        "name": "Hyperamagus",
         "realm": "TwistingNether",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 1
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 2
       },
       {
         "name": "Jinsou",
         "realm": "Ravencrest",
         "class": "Rogue",
         "spec": "Outlaw",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Løbø",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 2
+        "reports": 7
       },
       {
         "name": "Lockdotdem",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 2
+        "reports": 7
       },
       {
         "name": "Lygon",
         "realm": "Sylvanas",
         "class": "Rogue",
         "spec": "Assassination",
+        "reports": 3
+      },
+      {
+        "name": "Mijuli",
+        "realm": "Kazzak",
+        "class": "Evoker",
+        "spec": "Devastation",
         "reports": 2
       },
       {
@@ -194,6 +271,13 @@
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Frost",
+        "reports": 6
+      },
+      {
+        "name": "Rayel",
+        "realm": "Ravencrest",
+        "class": "Paladin",
+        "spec": "Retribution",
         "reports": 1
       },
       {
@@ -201,21 +285,28 @@
         "realm": "Ravencrest",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 2
+        "reports": 6
       },
       {
         "name": "Sçárlet",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
+        "reports": 7
+      },
+      {
+        "name": "Sfaxtis",
+        "realm": "Aggramar",
+        "class": "DeathKnight",
+        "spec": "Frost",
         "reports": 2
       },
       {
         "name": "Tsikibriki",
         "realm": "TwistingNether",
         "class": "Rogue",
-        "spec": "Subtlety",
-        "reports": 1
+        "spec": "Assassination",
+        "reports": 4
       },
       {
         "name": "Xcelsiorbane",
@@ -229,13 +320,20 @@
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Zerglolpray",
         "realm": "ArgentDawn",
         "class": "Priest",
         "spec": "Shadow",
+        "reports": 1
+      },
+      {
+        "name": "Zéthe",
+        "realm": "Stormscale",
+        "class": "Warrior",
+        "spec": "Arms",
         "reports": 1
       }
     ]
@@ -244,16 +342,16 @@
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-08-31T21:32:14.349Z"
+    "lastUpdated": "2026-09-19T19:29:14.640Z"
   },
-  "rosterUpdatedAt": "2026-08-31T21:33:34.350Z",
+  "rosterUpdatedAt": "2026-09-19T19:30:50.668Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 436691,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 2,
-    "verifiedGuildMembers": 934,
+    "reportsChecked": 7,
+    "verifiedGuildMembers": 942,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "T H E O R Y"
   }

@@ -38,8 +38,8 @@
       "GR": "16"
     },
     "The Venomous Abyss": {
-      "progress": "2/8 H",
-      "WR": "7193",
+      "progress": "6/8 H",
+      "WR": "7675",
       "GR": "-"
     }
   },
@@ -50,7 +50,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 8
+        "reports": 9
       },
       {
         "name": "Deathrip",
@@ -58,6 +58,13 @@
         "class": "DeathKnight",
         "spec": "Blood",
         "reports": 8
+      },
+      {
+        "name": "Shìnìgamì",
+        "realm": "Silvermoon",
+        "class": "DeathKnight",
+        "spec": "Blood",
+        "reports": 4
       }
     ],
     "healers": [
@@ -66,93 +73,100 @@
         "realm": "Kazzak",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 2
+        "reports": 5
       },
       {
         "name": "Jumaru",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 6
+        "reports": 4
       },
       {
-        "name": "Sellynna",
-        "realm": "Silvermoon",
-        "class": "Priest",
-        "spec": "Holy",
-        "reports": 8
+        "name": "Lacktaki",
+        "realm": "Hellfire",
+        "class": "Monk",
+        "spec": "Mistweaver",
+        "reports": 1
       },
       {
-        "name": "Totemkin",
+        "name": "Orcdeath",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
         "reports": 9
       },
       {
+        "name": "Sellynna",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 11
+      },
+      {
+        "name": "Totemkin",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 10
+      },
+      {
         "name": "Tyxh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 8
+        "reports": 7
+      },
+      {
+        "name": "Zellastrasza",
+        "realm": "Silvermoon",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 1
       }
     ],
     "dps": [
-      {
-        "name": "Axlreight",
-        "realm": "TwistingNether",
-        "class": "Warrior",
-        "spec": "Arms",
-        "reports": 4
-      },
-      {
-        "name": "Depon",
-        "realm": "Genjuros",
-        "class": "Priest",
-        "spec": "Shadow",
-        "reports": 2
-      },
       {
         "name": "Ephydatia",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 4
+        "reports": 11
       },
       {
         "name": "Finer",
         "realm": "TarrenMill",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 4
+        "reports": 7
       },
       {
         "name": "Gornivor",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 8
+        "reports": 4
       },
       {
         "name": "Hoekgrall",
         "realm": "ShatteredHalls",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 2
+        "reports": 11
       },
       {
         "name": "Iirene",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 6
+        "reports": 4
       },
       {
         "name": "Kaiken",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 8
+        "reports": 11
       },
       {
         "name": "Kalokoh",
@@ -162,46 +176,74 @@
         "reports": 2
       },
       {
+        "name": "Katãra",
+        "realm": "Nagrand",
+        "class": "Warlock",
+        "spec": "Affliction",
+        "reports": 1
+      },
+      {
         "name": "Lethalwalker",
         "realm": "Draenor",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 8
-      },
-      {
-        "name": "Loxagoula",
-        "realm": "Kazzak",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 2
+        "reports": 11
       },
       {
         "name": "Marlonbrando",
         "realm": "Hellfire",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 7
+      },
+      {
+        "name": "Montexinakos",
+        "realm": "TarrenMill",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 7
+      },
+      {
+        "name": "Montexinas",
+        "realm": "TarrenMill",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 1
       },
       {
         "name": "Naidala",
         "realm": "Karazhan",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 8
-      },
-      {
-        "name": "Necral",
-        "realm": "TwistingNether",
-        "class": "Warlock",
-        "spec": "Affliction",
-        "reports": 2
+        "reports": 6
       },
       {
         "name": "Nemodr",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 6
+        "reports": 7
+      },
+      {
+        "name": "Prutanhs",
+        "realm": "Genjuros",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 7
+      },
+      {
+        "name": "Ripmancer",
+        "realm": "ArgentDawn",
+        "class": "Warlock",
+        "spec": "Destruction",
+        "reports": 1
+      },
+      {
+        "name": "Teemosatan",
+        "realm": "TarrenMill",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
       },
       {
         "name": "Thanadir",
@@ -215,21 +257,28 @@
         "realm": "Kazzak",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 8
+        "reports": 11
+      },
+      {
+        "name": "Tronboss",
+        "realm": "Hellfire",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 3
       },
       {
         "name": "Wolfel",
         "realm": "Ragnaros",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 7
       },
       {
         "name": "Zell",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 8
+        "reports": 14
       }
     ]
   },
@@ -237,16 +286,16 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Dungeon%20Meta",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-08-31T21:32:14.349Z"
+    "lastUpdated": "2026-09-19T19:29:14.640Z"
   },
-  "rosterUpdatedAt": "2026-08-31T21:33:06.321Z",
+  "rosterUpdatedAt": "2026-09-19T19:30:13.069Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 782331,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 10,
-    "verifiedGuildMembers": 355,
+    "reportsChecked": 18,
+    "verifiedGuildMembers": 361,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Dungeon Meta"
   }

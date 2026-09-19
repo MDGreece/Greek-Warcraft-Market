@@ -38,8 +38,8 @@
       "GR": "20"
     },
     "The Venomous Abyss": {
-      "progress": "8/8 N",
-      "WR": "8743",
+      "progress": "5/8 H",
+      "WR": "9861",
       "GR": "-"
     }
   },
@@ -50,7 +50,7 @@
         "realm": "Stormscale",
         "class": "Warrior",
         "spec": "Protection",
-        "reports": 4
+        "reports": 10
       }
     ],
     "healers": [],
@@ -60,15 +60,15 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/A%20N%20A%20L%20O%20S%20O%20I%20M%20O%20I",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-08-31T21:32:14.350Z"
+    "lastUpdated": "2026-09-19T19:29:14.640Z"
   },
-  "rosterUpdatedAt": "2026-08-31T21:32:17.593Z",
+  "rosterUpdatedAt": "2026-09-19T19:29:20.058Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 769674,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 4,
+    "reportsChecked": 12,
     "verifiedGuildMembers": 1,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "A N A L O S O I M O I"
