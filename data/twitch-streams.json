@@ -1,75 +1,9 @@
 {
-  "updatedAt": "2026-09-20T21:15:38.078Z",
+  "updatedAt": "2026-09-20T23:18:17.382Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318521952999",
-      "userId": "54731675",
-      "userLogin": "artie_kaye",
-      "userName": "Artie_Kaye",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "King Cobra",
-      "viewerCount": 28,
-      "startedAt": "2026-09-20T17:37:18Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "wow",
-        "WorldfofWarcraft",
-        "worldofwarcraft",
-        "English",
-        "Greece",
-        "Κύπρος",
-        "Κυπριακά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_artie_kaye-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/artie_kaye"
-    },
-    {
-      "id": "318522567655",
-      "userId": "51768418",
-      "userLogin": "3dns",
-      "userName": "3Dns",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GR | <Disobedient> | Reclear - Venomous Abyss 5/8M / Twin Fangs ? | Aidsventura | Holy PoV |",
-      "viewerCount": 23,
-      "startedAt": "2026-09-20T18:21:02Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_3dns-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/3dns"
-    },
-    {
-      "id": "318522759015",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "RDruid Prison. Yidra gamiesai!",
-      "viewerCount": 10,
-      "startedAt": "2026-09-20T18:35:58Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
     {
       "id": "317812739427",
       "userId": "465449515",
@@ -78,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "NEW DUNGEON! WOW FOREVER LETS GO!",
-      "viewerCount": 5,
+      "viewerCount": 8,
       "startedAt": "2026-09-20T17:05:28Z",
       "language": "el",
       "tags": [
@@ -88,107 +22,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
-    },
-    {
-      "id": "318522590695",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> 3/8M is recruiting! Mythic Vashnik!",
-      "viewerCount": 5,
-      "startedAt": "2026-09-20T18:22:55Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
-    },
-    {
-      "id": "318716016230",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "The journey continues - forever in beta",
-      "viewerCount": 4,
-      "startedAt": "2026-09-20T14:50:21Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "318661060325",
-      "userId": "745162972",
-      "userLogin": "lightkinng",
-      "userName": "Lightkinng",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Twin Fangs? Disobedient Group 1(Kakos sp varaei)",
-      "viewerCount": 3,
-      "startedAt": "2026-09-20T18:41:48Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "WorldofWarcraft",
-        "shadowpriest",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lightkinng-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/lightkinng"
-    },
-    {
-      "id": "318661060325",
-      "userId": "745162972",
-      "userLogin": "lightkinng",
-      "userName": "Lightkinng",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Twin Fangs? Disobedient Group 1(Kakos sp varaei)",
-      "viewerCount": 3,
-      "startedAt": "2026-09-20T18:41:48Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "WorldofWarcraft",
-        "shadowpriest",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lightkinng-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/lightkinng"
-    },
-    {
-      "id": "318520857447",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-09-20T16:18:03Z",
-      "language": "el",
-      "tags": [
-        "AskMeAnyhting",
-        "English",
-        "Ελληνικά",
-        "Veterangamer",
-        "Hunter",
-        "PvE",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
     }
   ]
 }
