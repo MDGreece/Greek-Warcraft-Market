@@ -1,29 +1,72 @@
 {
-  "updatedAt": "2026-09-21T06:30:33.376Z",
+  "updatedAt": "2026-09-21T13:19:36.793Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318722683494",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318527120615",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 1,
-      "startedAt": "2026-09-21T06:00:20Z",
+      "title": "[!DROPS] HIGH KEYS POLICE !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 358,
+      "startedAt": "2026-09-21T08:22:54Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "317785506274",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "3958 RIO Mistweaver 🥋  M+ Push 🔥",
+      "viewerCount": 16,
+      "startedAt": "2026-09-21T11:57:44Z",
+      "language": "el",
+      "tags": [
         "Ελληνικά",
+        "English",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "317818517347",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NEW DUNGEON! WOW FOREVER LETS GO!",
+      "viewerCount": 3,
+      "startedAt": "2026-09-21T13:06:49Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
     }
   ]
 }
