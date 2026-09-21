@@ -1,27 +1,7 @@
 {
-  "updatedAt": "2026-09-20T23:18:17.382Z",
+  "updatedAt": "2026-09-21T01:15:22.560Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "317812739427",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NEW DUNGEON! WOW FOREVER LETS GO!",
-      "viewerCount": 8,
-      "startedAt": "2026-09-20T17:05:28Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
-    }
-  ]
+  "streams": []
 }
