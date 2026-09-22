@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-09-22T11:38:56.422Z",
+  "updatedAt": "2026-09-22T15:43:01.861Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318537773415",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[!DROPS] HIGH KEYS POLICE !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 382,
-      "startedAt": "2026-09-22T07:55:09Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "318539141607",
       "userId": "69183831",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "♾️WOW FOREVER WARLOCK♾️🎁 !wowforever #WoW_Partner ✅!DROPS",
-      "viewerCount": 74,
+      "viewerCount": 138,
       "startedAt": "2026-09-22T11:21:40Z",
       "language": "en",
       "tags": [
@@ -55,6 +29,123 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318539141607",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️WOW FOREVER WARLOCK♾️🎁 !wowforever #WoW_Partner ✅!DROPS",
+      "viewerCount": 138,
+      "startedAt": "2026-09-22T11:21:40Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "Cozy",
+        "Priest",
+        "pve",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318679042661",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 27,
+      "startedAt": "2026-09-22T14:05:35Z",
+      "language": "ru",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "تم・تمكين・Drops"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
+    },
+    {
+      "id": "318539615847",
+      "userId": "160656304",
+      "userLogin": "starscream4711",
+      "userName": "starscream4711",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "⭐WoW Forever first time playing ti forever mou les (no mic just chill)⭐",
+      "viewerCount": 7,
+      "startedAt": "2026-09-22T12:20:26Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "greek",
+        "Français",
+        "junkrat",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_starscream4711-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/starscream4711"
+    },
+    {
+      "id": "317827091939",
+      "userId": "999359775",
+      "userLogin": "loukasidtv",
+      "userName": "LoukasIDtv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Περιμένω το World of Warcraft Forever PVP Server (LF Healer Retail ARENA)",
+      "viewerCount": 6,
+      "startedAt": "2026-09-22T14:58:46Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "cyprus",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+    },
+    {
+      "id": "318679573733",
+      "userId": "767953380",
+      "userLogin": "phantomx94",
+      "userName": "Phantomx94",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "✌︎㋡ 3k mmr exp | Blitzo for ever [EU] | DH + ROGUE + BOOMIE |",
+      "viewerCount": 2,
+      "startedAt": "2026-09-22T14:57:59Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "Pvp",
+        "Ranked",
+        "Season2",
+        "Midnight",
+        "Blitz",
+        "Ratedbattlegrounds",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/phantomx94"
     }
   ]
 }
