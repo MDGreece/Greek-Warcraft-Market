@@ -1,29 +1,60 @@
 {
-  "updatedAt": "2026-09-22T06:09:18.141Z",
+  "updatedAt": "2026-09-22T11:38:56.422Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318675587685",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318537773415",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 1,
-      "startedAt": "2026-09-22T04:37:39Z",
+      "title": "[!DROPS] HIGH KEYS POLICE !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 382,
+      "startedAt": "2026-09-22T07:55:09Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318539141607",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️WOW FOREVER WARLOCK♾️🎁 !wowforever #WoW_Partner ✅!DROPS",
+      "viewerCount": 74,
+      "startedAt": "2026-09-22T11:21:40Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "Cozy",
+        "Priest",
+        "pve",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
     }
   ]
 }
