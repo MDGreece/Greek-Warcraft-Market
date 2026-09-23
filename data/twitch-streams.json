@@ -1,55 +1,29 @@
 {
-  "updatedAt": "2026-09-23T00:44:07.305Z",
+  "updatedAt": "2026-09-23T05:16:07.725Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "321491461081",
-      "userId": "151069962",
-      "userLogin": "ozzymadnius",
-      "userName": "Ozzymadnius",
+      "id": "318686471909",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "🍜RIP Ascension.. Thanks Blizz!🍜",
-      "viewerCount": 1,
-      "startedAt": "2026-09-22T23:16:23Z",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 0,
+      "startedAt": "2026-09-23T04:59:44Z",
       "language": "en",
       "tags": [
-        "Greek",
-        "ADHD",
-        "RPG",
-        "Vtuber",
-        "English",
-        "Roleplay",
-        "WorldOfWarcraft",
-        "MMORPG",
-        "Classic",
-        "MistsOfPandaria"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ozzymadnius-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/ozzymadnius"
-    },
-    {
-      "id": "318545817959",
-      "userId": "957878935",
-      "userLogin": "niemal_dev",
-      "userName": "niemal_dev",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "3720 M+ mage or weekly chores",
-      "viewerCount": 1,
-      "startedAt": "2026-09-22T20:19:26Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Greece",
         "greek",
+        "English",
+        "Englísh",
         "Ελληνικά",
-        "DropsEnabled"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_niemal_dev-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/niemal_dev"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
     }
   ]
 }
