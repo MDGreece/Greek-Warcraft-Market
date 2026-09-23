@@ -1,9 +1,35 @@
 {
-  "updatedAt": "2026-09-23T05:16:07.725Z",
+  "updatedAt": "2026-09-23T10:05:56.919Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "318687220709",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[!DROPS] HIGH KEYS POLICE !!! !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 291,
+      "startedAt": "2026-09-23T07:51:57Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
     {
       "id": "318686471909",
       "userId": "112793047",
@@ -12,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 0,
+      "viewerCount": 1,
       "startedAt": "2026-09-23T04:59:44Z",
       "language": "en",
       "tags": [
