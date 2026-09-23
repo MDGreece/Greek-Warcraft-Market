@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T10:05:56.919Z",
+  "updatedAt": "2026-09-23T14:59:22.003Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[!DROPS] HIGH KEYS POLICE !!! !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 291,
+      "viewerCount": 277,
       "startedAt": "2026-09-23T07:51:57Z",
       "language": "en",
       "tags": [
@@ -31,25 +31,117 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "318686471909",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318747047526",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 1,
-      "startedAt": "2026-09-23T04:59:44Z",
+      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 23,
+      "startedAt": "2026-09-23T13:52:05Z",
+      "language": "ru",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "تم・تمكين・Drops"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
+    },
+    {
+      "id": "318689615333",
+      "userId": "161731907",
+      "userLogin": "andrikatsgames",
+      "userName": "AndriKatsGames",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!drops 🎁 I'M BACK! 🥳🥳 yapping & farming gold 💰 2.6M/5M Hyped for WoW FOREVER & Blizzcon News 🤩🤩 !SUBtember 30% OFF",
+      "viewerCount": 9,
+      "startedAt": "2026-09-23T13:17:35Z",
       "language": "en",
       "tags": [
-        "greek",
+        "warcraft",
+        "wow",
         "English",
-        "Englísh",
+        "greek",
+        "worldofwarcraft",
         "Ελληνικά",
+        "RetailWOW",
+        "casual",
+        "streamergirl",
+        "cozy"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
+    },
+    {
+      "id": "317834423011",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️NEW SKYBORNE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 5,
+      "startedAt": "2026-09-23T12:36:09Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "318552006375",
+      "userId": "1442082541",
+      "userLogin": "thalvyr_",
+      "userName": "thalvyr_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "THALVYR — A Quiet Journey Through Azeroth -HC hardcore",
+      "viewerCount": 3,
+      "startedAt": "2026-09-23T14:03:17Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "greek",
+        "Ελληνικά",
+        "wowhardcore",
+        "wowhardcoreclassic",
+        "chill"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thalvyr_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/thalvyr_"
+    },
+    {
+      "id": "318552006375",
+      "userId": "1442082541",
+      "userLogin": "thalvyr_",
+      "userName": "thalvyr_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "THALVYR — A Quiet Journey Through Azeroth -HC hardcore",
+      "viewerCount": 3,
+      "startedAt": "2026-09-23T14:03:17Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "greek",
+        "Ελληνικά",
+        "wowhardcore",
+        "wowhardcoreclassic",
+        "chill"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thalvyr_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/thalvyr_"
     }
   ]
 }
