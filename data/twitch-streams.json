@@ -1,72 +1,72 @@
 {
-  "updatedAt": "2026-09-24T10:22:49.361Z",
+  "updatedAt": "2026-09-24T15:24:38.597Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "317834109412",
-      "userId": "1517272478",
-      "userLogin": "prim_zase",
-      "userName": "prim_zase",
+      "id": "318561789159",
+      "userId": "102886337",
+      "userLogin": "spinustv",
+      "userName": "SpinusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WOW CLASSIC FOREVER BETA hunter lvling (Affliction warlock max lvl) PVP server !info",
-      "viewerCount": 3,
-      "startedAt": "2026-09-24T08:49:46Z",
+      "title": "🔥ηρθε ο κολλητος🔥13:00-19:00 Σημερα",
+      "viewerCount": 214,
+      "startedAt": "2026-09-24T10:46:06Z",
       "language": "el",
       "tags": [
         "Ελληνικά",
         "English",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_prim_zase-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/prim_zase"
-    },
-    {
-      "id": "318754772326",
-      "userId": "767953380",
-      "userLogin": "phantomx94",
-      "userName": "Phantomx94",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "✌︎㋡ 3k mmr exp | Blitzo for ever [EU] | DH + ROGUE + BOOMIE | WPVP+BLITZ+LVLING ALT",
-      "viewerCount": 2,
-      "startedAt": "2026-09-24T06:29:34Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "Pvp",
-        "Ranked",
-        "Season2",
-        "Midnight",
-        "Blitz",
-        "Ratedbattlegrounds"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/phantomx94"
-    },
-    {
-      "id": "318698388325",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "CLASSIC+ beta eng/gr",
-      "viewerCount": 1,
-      "startedAt": "2026-09-24T05:11:15Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "English",
-        "Englísh",
-        "Ελληνικά",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/spinustv"
+    },
+    {
+      "id": "317842829027",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "3972 RIO Mistweaver 🥋  M+ Push 🔥",
+      "viewerCount": 30,
+      "startedAt": "2026-09-24T12:51:11Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318757630566",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3911io 20-21s | Got Mythic Weapon TIME TO ATTACK KEYS | 4k io soon ?! |",
+      "viewerCount": 17,
+      "startedAt": "2026-09-24T13:36:34Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Competitive",
+        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     }
   ]
 }
