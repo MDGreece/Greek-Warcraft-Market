@@ -1,29 +1,50 @@
 {
-  "updatedAt": "2026-09-24T00:34:03.971Z",
+  "updatedAt": "2026-09-24T05:22:33.596Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318694608613",
-      "userId": "192297848",
-      "userLogin": "nimprethil",
-      "userName": "Nimprethil",
+      "id": "318698388325",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever - Beta",
-      "viewerCount": 4,
-      "startedAt": "2026-09-23T19:06:08Z",
-      "language": "el",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 2,
+      "startedAt": "2026-09-24T05:11:15Z",
+      "language": "en",
       "tags": [
-        "Ελληνικά",
-        "WorldofWarcaft",
+        "greek",
         "English",
-        "worldofwarcraftforever",
+        "Englísh",
+        "Ελληνικά",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nimprethil"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "318698388325",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "CLASSIC+ beta eng/gr",
+      "viewerCount": 2,
+      "startedAt": "2026-09-24T05:11:15Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
     }
   ]
 }
