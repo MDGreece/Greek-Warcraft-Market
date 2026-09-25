@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T22:39:31.684Z",
+  "updatedAt": "2026-09-25T00:52:30.131Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -11,8 +11,8 @@
       "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3914io 20-21s | Got Mythic Weapon TIME TO ATTACK KEYS | 4k io soon ?! |",
-      "viewerCount": 15,
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3926io 20-21s | Got Mythic Weapon TIME TO ATTACK KEYS | 4k io soon ?! |",
+      "viewerCount": 16,
       "startedAt": "2026-09-24T21:47:39Z",
       "language": "el",
       "tags": [
@@ -31,23 +31,30 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "317846630499",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
+      "id": "320374115806",
+      "userId": "151069962",
+      "userLogin": "ozzymadnius",
+      "userName": "Ozzymadnius",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
-      "viewerCount": 2,
-      "startedAt": "2026-09-24T19:12:24Z",
-      "language": "el",
+      "title": "🍜Back To Classic MoP!🍜",
+      "viewerCount": 1,
+      "startedAt": "2026-09-25T00:30:09Z",
+      "language": "en",
       "tags": [
-        "Ελληνικά",
-        "greek",
-        "ΤαDropΕνεργοποιήθηκαν"
+        "Greek",
+        "ADHD",
+        "RPG",
+        "Vtuber",
+        "English",
+        "Roleplay",
+        "WorldOfWarcraft",
+        "MistsOfPandaria",
+        "Goblin",
+        "Goblinmode"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ozzymadnius-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/ozzymadnius"
     }
   ]
 }
