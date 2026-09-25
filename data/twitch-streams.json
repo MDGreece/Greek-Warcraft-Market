@@ -1,60 +1,29 @@
 {
-  "updatedAt": "2026-09-25T00:52:30.131Z",
+  "updatedAt": "2026-09-25T05:57:18.142Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318707772517",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "318571701479",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 3926io 20-21s | Got Mythic Weapon TIME TO ATTACK KEYS | 4k io soon ?! |",
-      "viewerCount": 16,
-      "startedAt": "2026-09-24T21:47:39Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "320374115806",
-      "userId": "151069962",
-      "userLogin": "ozzymadnius",
-      "userName": "Ozzymadnius",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🍜Back To Classic MoP!🍜",
+      "title": "Warcraft Forever Beta eng/gr",
       "viewerCount": 1,
-      "startedAt": "2026-09-25T00:30:09Z",
+      "startedAt": "2026-09-25T05:18:02Z",
       "language": "en",
       "tags": [
-        "Greek",
-        "ADHD",
-        "RPG",
-        "Vtuber",
+        "greek",
         "English",
-        "Roleplay",
-        "WorldOfWarcraft",
-        "MistsOfPandaria",
-        "Goblin",
-        "Goblinmode"
+        "Englísh",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ozzymadnius-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/ozzymadnius"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
     }
   ]
 }
