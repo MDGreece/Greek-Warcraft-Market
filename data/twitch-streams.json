@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-26T01:39:59.093Z",
+  "updatedAt": "2026-09-26T06:38:58.285Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318584203111",
+      "userId": "31553092",
+      "userLogin": "msscrtv",
+      "userName": "MsscrTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "FOREVER BETA. GAMER POV.",
+      "viewerCount": 1,
+      "startedAt": "2026-09-26T05:53:01Z",
+      "language": "en",
+      "tags": [
+        "english",
+        "greek",
+        "forever",
+        "classic",
+        "wowclassic",
+        "wowforever",
+        "hc",
+        "warrior",
+        "tank",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_msscrtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/msscrtv"
+    },
+    {
+      "id": "318584362215",
+      "userId": "957878935",
+      "userLogin": "niemal_dev",
+      "userName": "niemal_dev",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "M+ 17-20s mage/warrior/dk",
+      "viewerCount": 0,
+      "startedAt": "2026-09-26T06:28:09Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Greece",
+        "greek",
+        "Ελληνικά",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_niemal_dev-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/niemal_dev"
+    }
+  ]
 }
