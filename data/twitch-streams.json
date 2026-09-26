@@ -1,114 +1,54 @@
 {
-  "updatedAt": "2026-09-26T21:34:33.427Z",
+  "updatedAt": "2026-09-26T23:52:49.604Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318589616231",
-      "userId": "132840623",
-      "userLogin": "zakos_gg",
-      "userName": "zakos_gg",
+      "id": "318732262245",
+      "userId": "152091492",
+      "userLogin": "nok_kan",
+      "userName": "nok_kan",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "SE THELW MESA HREMAAA#FC",
-      "viewerCount": 27,
-      "startedAt": "2026-09-26T15:57:13Z",
+      "title": "Ο ΣΩΤΗΡΗΣ ΛΕΕΙ ΟΤΙ Ο ΜΑΚΤΖΙΝ ΓΑΜΙΕΤΑΙ",
+      "viewerCount": 9,
+      "startedAt": "2026-09-26T21:23:39Z",
       "language": "el",
       "tags": [
-        "Ελληνικά",
-        "EngIish",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zakos_gg-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zakos_gg"
-    },
-    {
-      "id": "318587557735",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔴  Ξανά Όπως Παλιά...WOW FOREVER BETA",
-      "viewerCount": 13,
-      "startedAt": "2026-09-26T13:02:12Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "Greece",
-        "English",
-        "MMO",
-        "ΤαDropΕνεργοποιήθηκαν",
+        "WoWGreece",
         "wow",
-        "wowforever"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "318785808742",
-      "userId": "1390286931",
-      "userLogin": "reniamt",
-      "userName": "reniamt",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Live September 26",
-      "viewerCount": 1,
-      "startedAt": "2026-09-26T19:26:08Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "greekstreamer",
-        "wowstreamer",
-        "wow",
-        "wowforeverbeta",
-        "wowforever",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_reniamt-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/reniamt"
-    },
-    {
-      "id": "318594251879",
-      "userId": "134551867",
-      "userLogin": "herkthedrummer",
-      "userName": "herkthedrummer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "skyborn warrior  lvling in wow forever",
-      "viewerCount": 1,
-      "startedAt": "2026-09-26T20:52:31Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "forfun",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_herkthedrummer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/herkthedrummer"
-    },
-    {
-      "id": "318593893735",
-      "userId": "37110732",
-      "userLogin": "zeuslnts",
-      "userName": "zeuslnts",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🪶Leveling the New Skyborne Race from Level 1! [WoW: Forever Beta]",
-      "viewerCount": 1,
-      "startedAt": "2026-09-26T20:24:19Z",
-      "language": "el",
-      "tags": [
-        "English",
         "greek",
         "Ελληνικά",
+        "warcraft",
+        "hardcoreclassicwow",
+        "midnight",
+        "wowmidnight",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zeuslnts-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zeuslnts"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nok_kan"
+    },
+    {
+      "id": "318786991462",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "The forever experience is here",
+      "viewerCount": 1,
+      "startedAt": "2026-09-26T20:49:37Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "english",
+        "drops",
+        "English",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
     }
   ]
 }
