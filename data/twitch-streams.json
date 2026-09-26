@@ -1,9 +1,129 @@
 {
-  "updatedAt": "2026-09-26T06:38:58.285Z",
+  "updatedAt": "2026-09-26T11:48:39.950Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "318722928613",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️WOW FOREVER ♾️ LEVEL 30 SOON  🎁GIFTED SUBS EVENT LIVE🎁WARLOCK TOURNAMENT PREP 🎁 ✅!DROPS !rxp",
+      "viewerCount": 216,
+      "startedAt": "2026-09-26T08:16:43Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "DropsEnabled",
+        "wowforever",
+        "MMORPG"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318723105125",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "drops! kalimera! balte kafe kai arakste!",
+      "viewerCount": 19,
+      "startedAt": "2026-09-26T08:40:12Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Ελληνικά",
+        "DropsEnabeled",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    },
+    {
+      "id": "318723664485",
+      "userId": "501386295",
+      "userLogin": "zaxstv",
+      "userName": "ZaxsTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Rank 1 Demo Lock PvP ---RETAIL PVP 2S/Solo Que",
+      "viewerCount": 16,
+      "startedAt": "2026-09-26T09:48:02Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PｖP",
+        "warlock",
+        "Arena",
+        "Demonology",
+        "greek",
+        "Retail",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zaxstv"
+    },
+    {
+      "id": "318723664485",
+      "userId": "501386295",
+      "userLogin": "zaxstv",
+      "userName": "ZaxsTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Rank 1 Demo Lock PvP ---RETAIL PVP 2S/Solo Que",
+      "viewerCount": 16,
+      "startedAt": "2026-09-26T09:48:02Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PｖP",
+        "warlock",
+        "Arena",
+        "Demonology",
+        "greek",
+        "Retail",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zaxstv"
+    },
+    {
+      "id": "318586346727",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Chilling Saturdays",
+      "viewerCount": 10,
+      "startedAt": "2026-09-26T11:03:28Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
     {
       "id": "318584203111",
       "userId": "31553092",
@@ -12,7 +132,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "FOREVER BETA. GAMER POV.",
-      "viewerCount": 1,
+      "viewerCount": 4,
       "startedAt": "2026-09-26T05:53:01Z",
       "language": "en",
       "tags": [
@@ -31,25 +151,51 @@
       "twitchUrl": "https://www.twitch.tv/msscrtv"
     },
     {
-      "id": "318584362215",
-      "userId": "957878935",
-      "userLogin": "niemal_dev",
-      "userName": "niemal_dev",
+      "id": "318722737125",
+      "userId": "38032056",
+      "userLogin": "nikosggaming",
+      "userName": "NikosGGaming",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "M+ 17-20s mage/warrior/dk",
-      "viewerCount": 0,
-      "startedAt": "2026-09-26T06:28:09Z",
+      "title": "WOW FOREVER BETA|🗑️WARRIOR ALLIANCE|",
+      "viewerCount": 4,
+      "startedAt": "2026-09-26T07:51:12Z",
+      "language": "el",
+      "tags": [
+        "Variety",
+        "Cozy",
+        "Playthrough",
+        "RPG",
+        "Memes",
+        "English",
+        "Greek",
+        "ASMR",
+        "Flute",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nikosggaming-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nikosggaming"
+    },
+    {
+      "id": "318585139815",
+      "userId": "70614964",
+      "userLogin": "kons1g",
+      "userName": "Kons1G",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Just a CHILL stream |WoW Forever | trying to reach 20 LVL with a rogue today",
+      "viewerCount": 1,
+      "startedAt": "2026-09-26T08:39:23Z",
       "language": "en",
       "tags": [
+        "Greek",
+        "mmorpg",
         "English",
-        "Greece",
-        "greek",
-        "Ελληνικά",
+        "german",
         "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_niemal_dev-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/niemal_dev"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kons1g-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kons1g"
     }
   ]
 }
