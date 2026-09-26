@@ -206,7 +206,7 @@
           "realm": 44
         },
         "mythic": {
-          "world": 647,
+          "world": 648,
           "region": 341,
           "realm": 27
         }
@@ -313,7 +313,7 @@
           "realm": 29
         },
         "mythic": {
-          "world": 487,
+          "world": 490,
           "region": 275,
           "realm": 25
         }
@@ -415,12 +415,12 @@
           "realm": 97
         },
         "heroic": {
-          "world": 3525,
+          "world": 3526,
           "region": 1418,
           "realm": 130
         },
         "mythic": {
-          "world": 2169,
+          "world": 2172,
           "region": 997,
           "realm": 99
         }
@@ -527,7 +527,7 @@
           "realm": 62
         },
         "mythic": {
-          "world": 1845,
+          "world": 1849,
           "region": 862,
           "realm": 58
         }
@@ -617,7 +617,7 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2140,
+          "world": 2141,
           "region": 958,
           "realm": 92
         }
@@ -629,14 +629,14 @@
           "realm": 176
         },
         "heroic": {
-          "world": 3357,
+          "world": 3358,
           "region": 1347,
           "realm": 125
         },
         "mythic": {
-          "world": 2826,
-          "region": 1313,
-          "realm": 121
+          "world": 2830,
+          "region": 1314,
+          "realm": 122
         }
       }
     }
@@ -724,8 +724,8 @@
           "realm": 36
         },
         "mythic": {
-          "world": 2497,
-          "region": 1093,
+          "world": 2503,
+          "region": 1094,
           "realm": 99
         }
       },
@@ -741,7 +741,7 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1859,
+          "world": 1863,
           "region": 876,
           "realm": 95
         }
@@ -831,8 +831,8 @@
           "realm": 115
         },
         "mythic": {
-          "world": 2819,
-          "region": 1266,
+          "world": 2826,
+          "region": 1267,
           "realm": 74
         }
       },
@@ -843,13 +843,13 @@
           "realm": 117
         },
         "heroic": {
-          "world": 3382,
+          "world": 3383,
           "region": 1372,
           "realm": 84
         },
         "mythic": {
-          "world": 3270,
-          "region": 1424,
+          "world": 3277,
+          "region": 1425,
           "realm": 80
         }
       }
@@ -916,7 +916,7 @@
           "realm": 0
         },
         "heroic": {
-          "world": 12992,
+          "world": 12993,
           "region": 5072,
           "realm": 267
         },
@@ -950,8 +950,8 @@
           "realm": 232
         },
         "heroic": {
-          "world": 6602,
-          "region": 2687,
+          "world": 6640,
+          "region": 2691,
           "realm": 164
         },
         "mythic": {
@@ -1169,8 +1169,8 @@
           "realm": 70
         },
         "mythic": {
-          "world": 1506,
-          "region": 756,
+          "world": 1516,
+          "region": 757,
           "realm": 51
         }
       }
@@ -1349,7 +1349,7 @@
           "realm": 51
         },
         "mythic": {
-          "world": 6923,
+          "world": 6924,
           "region": 2799,
           "realm": 76
         }
@@ -1378,8 +1378,8 @@
           "realm": 98
         },
         "heroic": {
-          "world": 10638,
-          "region": 4148,
+          "world": 10664,
+          "region": 4150,
           "realm": 109
         },
         "mythic": {
@@ -1485,8 +1485,8 @@
           "realm": 237
         },
         "heroic": {
-          "world": 7073,
-          "region": 2899,
+          "world": 7108,
+          "region": 2902,
           "realm": 173
         },
         "mythic": {
@@ -1592,8 +1592,8 @@
           "realm": 142
         },
         "heroic": {
-          "world": 6528,
-          "region": 2658,
+          "world": 6563,
+          "region": 2661,
           "realm": 128
         },
         "mythic": {
@@ -1694,9 +1694,9 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15646,
-          "region": 6136,
-          "realm": 70
+          "world": 15654,
+          "region": 6138,
+          "realm": 71
         },
         "heroic": {
           "world": 0,
@@ -1789,8 +1789,8 @@
           "realm": 106
         },
         "heroic": {
-          "world": 11601,
-          "region": 4511,
+          "world": 11605,
+          "region": 4512,
           "realm": 141
         },
         "mythic": {
@@ -1806,8 +1806,8 @@
           "realm": 156
         },
         "heroic": {
-          "world": 12865,
-          "region": 4990,
+          "world": 12909,
+          "region": 4999,
           "realm": 167
         },
         "mythic": {
@@ -1884,7 +1884,7 @@
           "realm": 10
         },
         "mythic": {
-          "world": 7018,
+          "world": 7019,
           "region": 2855,
           "realm": 6
         }
@@ -1913,8 +1913,8 @@
           "realm": 18
         },
         "heroic": {
-          "world": 9323,
-          "region": 3663,
+          "world": 8912,
+          "region": 3462,
           "realm": 19
         },
         "mythic": {
@@ -2008,8 +2008,8 @@
           "realm": 122
         },
         "mythic": {
-          "world": 2827,
-          "region": 1270,
+          "world": 2834,
+          "region": 1271,
           "realm": 75
         }
       },
@@ -2020,8 +2020,8 @@
           "realm": 132
         },
         "heroic": {
-          "world": 6798,
-          "region": 2771,
+          "world": 6834,
+          "region": 2775,
           "realm": 132
         },
         "mythic": {
@@ -2098,7 +2098,7 @@
           "realm": 43
         },
         "mythic": {
-          "world": 7185,
+          "world": 7186,
           "region": 2937,
           "realm": 160
         }
@@ -2110,8 +2110,8 @@
           "realm": 12
         },
         "heroic": {
-          "world": 12177,
-          "region": 4758,
+          "world": 12200,
+          "region": 4761,
           "realm": 257
         },
         "mythic": {
@@ -2127,8 +2127,8 @@
           "realm": 200
         },
         "heroic": {
-          "world": 9639,
-          "region": 3814,
+          "world": 9673,
+          "region": 3817,
           "realm": 222
         },
         "mythic": {
@@ -2229,8 +2229,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15967,
-          "region": 6243,
+          "world": 15975,
+          "region": 6245,
           "realm": 302
         },
         "heroic": {
@@ -2341,8 +2341,8 @@
           "realm": 264
         },
         "heroic": {
-          "world": 11419,
-          "region": 4449,
+          "world": 11456,
+          "region": 4455,
           "realm": 261
         },
         "mythic": {
@@ -2555,8 +2555,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 12546,
-          "region": 4843,
+          "world": 12593,
+          "region": 4853,
           "realm": 165
         },
         "mythic": {
@@ -2774,7 +2774,7 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2438,
+          "world": 2442,
           "region": 1104,
           "realm": 61
         }
