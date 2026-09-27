@@ -1,54 +1,7 @@
 {
-  "updatedAt": "2026-09-26T23:52:49.604Z",
+  "updatedAt": "2026-09-27T04:22:49.523Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318732262245",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ο ΣΩΤΗΡΗΣ ΛΕΕΙ ΟΤΙ Ο ΜΑΚΤΖΙΝ ΓΑΜΙΕΤΑΙ",
-      "viewerCount": 9,
-      "startedAt": "2026-09-26T21:23:39Z",
-      "language": "el",
-      "tags": [
-        "WoWGreece",
-        "wow",
-        "greek",
-        "Ελληνικά",
-        "warcraft",
-        "hardcoreclassicwow",
-        "midnight",
-        "wowmidnight",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
-    },
-    {
-      "id": "318786991462",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "The forever experience is here",
-      "viewerCount": 1,
-      "startedAt": "2026-09-26T20:49:37Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
-    }
-  ]
+  "streams": []
 }
