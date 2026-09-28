@@ -1,73 +1,26 @@
 {
-  "updatedAt": "2026-09-27T22:00:50.014Z",
+  "updatedAt": "2026-09-28T00:40:48.456Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318606441447",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "318799162470",
+      "userId": "102886337",
+      "userLogin": "spinustv",
+      "userName": "SpinusTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4009io 20-21s | Raid Canceled so i do Keys?! |",
-      "viewerCount": 21,
-      "startedAt": "2026-09-27T19:54:29Z",
+      "title": "🔥ΛΙΓΟ ΕΘΝΙΚΗ ΚΑΙ NIGHT STREAM 🔥",
+      "viewerCount": 162,
+      "startedAt": "2026-09-27T20:18:11Z",
       "language": "el",
       "tags": [
-        "English",
-        "Competitive",
         "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318743981157",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Beta forever",
-      "viewerCount": 18,
-      "startedAt": "2026-09-27T20:37:15Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "greece",
-        "fps",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
-    },
-    {
-      "id": "318799357798",
-      "userId": "86551436",
-      "userLogin": "monsaliv",
-      "userName": "monsaliv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Method Keys",
-      "viewerCount": 4,
-      "startedAt": "2026-09-27T20:35:24Z",
-      "language": "el",
-      "tags": [
-        "Greece",
-        "Ελληνικά",
-        "EN",
         "English"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monsaliv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/monsaliv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/spinustv"
     },
     {
       "id": "318602181607",
@@ -77,7 +30,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Forever Beta - Hunter",
-      "viewerCount": 2,
+      "viewerCount": 1,
       "startedAt": "2026-09-27T14:40:44Z",
       "language": "el",
       "tags": [
