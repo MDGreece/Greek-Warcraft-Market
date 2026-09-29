@@ -1,28 +1,75 @@
 {
-  "updatedAt": "2026-09-29T00:25:15.856Z",
+  "updatedAt": "2026-09-29T06:00:53.533Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318755156837",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
+      "id": "320526206300",
+      "userId": "151069962",
+      "userLogin": "ozzymadnius",
+      "userName": "Ozzymadnius",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW forever 2nd char",
-      "viewerCount": 14,
-      "startedAt": "2026-09-28T21:01:00Z",
-      "language": "el",
+      "title": "🍜Let's chill with some WoW~!🍜",
+      "viewerCount": 2,
+      "startedAt": "2026-09-28T21:55:12Z",
+      "language": "en",
       "tags": [
-        "greek",
-        "greece",
-        "fps",
-        "Ελληνικά"
+        "Greek",
+        "ADHD",
+        "RPG",
+        "Vtuber",
+        "English",
+        "Roleplay",
+        "Worldofwarcraft",
+        "WoW",
+        "Classic",
+        "Alliance"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ozzymadnius-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/ozzymadnius"
+    },
+    {
+      "id": "318757197925",
+      "userId": "225525061",
+      "userLogin": "glore0th",
+      "userName": "GLORE0TH",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW FOREVER//Hunter POV//Dad Gamer",
+      "viewerCount": 1,
+      "startedAt": "2026-09-29T05:38:54Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "greek",
+        "DadGamer",
+        "ｃｈｉｌｌ"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_glore0th-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/glore0th"
+    },
+    {
+      "id": "318756932837",
+      "userId": "1442082541",
+      "userLogin": "thalvyr_",
+      "userName": "thalvyr_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "World of Warcraft Hardcore Adventure Gameplay with In-Game Music Only",
+      "viewerCount": 1,
+      "startedAt": "2026-09-29T04:16:52Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "wowhardcore",
+        "wowhardcoreclassic",
+        "chill"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_thalvyr_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/thalvyr_"
     }
   ]
 }
