@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-09-30T13:54:58.520Z",
+  "updatedAt": "2026-09-30T18:54:00.684Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318825943782",
+      "id": "318830549350",
       "userId": "85310009",
       "userLogin": "casualaddict_",
       "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "HIGH KEYS POLICE !rogue !misery !coaching !ui !metacomp",
-      "viewerCount": 186,
-      "startedAt": "2026-09-30T09:06:49Z",
+      "title": "MYTHIC ULATEK ROGUE POV <Mental Apocalypse> !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 193,
+      "startedAt": "2026-09-30T16:48:21Z",
       "language": "en",
       "tags": [
         "English",
@@ -36,8 +36,8 @@
       "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DUEL TOUR PREP ♾️WARLOCK/PRIEST DAY🎁LAST DAY GIFT SUB EVENT LIVE🎁WARLOCK  🎁 ✅!DROPS !rxp",
-      "viewerCount": 133,
+      "title": "DUEL TOUR PREP ♾️WARLOCK🎁LAST DAY GIFT SUB EVENT LIVE🎁WARLOCK  🎁 ✅!DROPS !rxp",
+      "viewerCount": 84,
       "startedAt": "2026-09-30T10:53:15Z",
       "language": "en",
       "tags": [
@@ -55,23 +55,110 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318827084006",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
+      "id": "318831899622",
+      "userId": "154498873",
+      "userLogin": "simidouklas",
+      "userName": "Simidouklas",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "It's about time we WoWed! | Midnight Level Up",
-      "viewerCount": 5,
-      "startedAt": "2026-09-30T11:53:32Z",
+      "title": "Pets Giveaway \"CHILLERS-SILVERMOON ULATEK Curved\" Drops on !giveaway to enter",
+      "viewerCount": 18,
+      "startedAt": "2026-09-30T18:01:58Z",
       "language": "el",
       "tags": [
-        "English",
-        "Ελληνικά",
-        "levelup"
+        "Chillers",
+        "wowgreece",
+        "worldofwarcraft",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_simidouklas-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/simidouklas"
+    },
+    {
+      "id": "318774131813",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Reclear se jail day 5.5",
+      "viewerCount": 18,
+      "startedAt": "2026-09-30T16:58:09Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+    },
+    {
+      "id": "318774976101",
+      "userId": "54731675",
+      "userLogin": "artie_kaye",
+      "userName": "Artie_Kaye",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "teleutaio??? reclear",
+      "viewerCount": 10,
+      "startedAt": "2026-09-30T17:42:29Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "wow",
+        "WorldfofWarcraft",
+        "worldofwarcraft",
+        "English",
+        "Greece",
+        "Κύπρος",
+        "Κυπριακά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_artie_kaye-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/artie_kaye"
+    },
+    {
+      "id": "318775399525",
+      "userId": "102736580",
+      "userLogin": "kiraboom",
+      "userName": "Kiraboom",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "nym into coiled prog",
+      "viewerCount": 8,
+      "startedAt": "2026-09-30T18:04:27Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kiraboom-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kiraboom"
+    },
+    {
+      "id": "318775722085",
+      "userId": "152091492",
+      "userLogin": "nok_kan",
+      "userName": "nok_kan",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "ΡΑΙΔ!!!!!!!",
+      "viewerCount": 8,
+      "startedAt": "2026-09-30T18:22:53Z",
+      "language": "el",
+      "tags": [
+        "WoWGreece",
+        "wow",
+        "greek",
+        "Ελληνικά",
+        "warcraft",
+        "hardcoreclassicwow",
+        "midnight",
+        "wowmidnight"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nok_kan"
     },
     {
       "id": "317888587620",
@@ -81,7 +168,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
-      "viewerCount": 3,
+      "viewerCount": 5,
       "startedAt": "2026-09-30T13:08:17Z",
       "language": "el",
       "tags": [
@@ -90,6 +177,152 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "317888587620",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 5,
+      "startedAt": "2026-09-30T13:08:17Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "317888587620",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 5,
+      "startedAt": "2026-09-30T13:08:17Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "317867178594",
+      "userId": "729769477",
+      "userLogin": "z0gra",
+      "userName": "z0gra",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!Drops, chill wow",
+      "viewerCount": 5,
+      "startedAt": "2026-09-30T16:46:29Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "wow",
+        "wowstreamer"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/z0gra"
+    },
+    {
+      "id": "318832677990",
+      "userId": "144485185",
+      "userLogin": "ramelitsa_eu",
+      "userName": "Ramelitsa_eu",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[GR] 🧿 Raid | Holy Paladin | Soe Reborn | #Greek",
+      "viewerCount": 4,
+      "startedAt": "2026-09-30T18:46:02Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "wow",
+        "worldofwarcraft",
+        "mplus",
+        "retripaladin",
+        "holypaladin",
+        "dicipline",
+        "priest",
+        "soereborn",
+        "midnight"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ramelitsa_eu-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/ramelitsa_eu"
+    },
+    {
+      "id": "317901411299",
+      "userId": "31742358",
+      "userLogin": "kxursed_",
+      "userName": "kxursed_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "viewerCount": 2,
+      "startedAt": "2026-09-30T17:25:00Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kxursed_"
+    },
+    {
+      "id": "317901120739",
+      "userId": "185568570",
+      "userLogin": "vlimecy",
+      "userName": "vlimecy",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[Druid | DH PoV ] Mythic re-clear ALDRACHI hype",
+      "viewerCount": 1,
+      "startedAt": "2026-09-30T16:55:40Z",
+      "language": "ru",
+      "tags": [
+        "Русский",
+        "English",
+        "Greek",
+        "MMORPG",
+        "Warrior",
+        "Raid",
+        "MythicPlus",
+        "MythicPlusKeys",
+        "Ultrawide"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vlimecy"
+    },
+    {
+      "id": "318832320230",
+      "userId": "146179989",
+      "userLogin": "tellostv",
+      "userName": "Tellostv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Air Force !",
+      "viewerCount": 1,
+      "startedAt": "2026-09-30T18:24:31Z",
+      "language": "el",
+      "tags": [
+        "Raid",
+        "Ελληνικά",
+        "English",
+        "greek",
+        "MMORPG",
+        "terli"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tellostv"
     }
   ]
 }
