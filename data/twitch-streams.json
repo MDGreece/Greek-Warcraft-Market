@@ -1,28 +1,95 @@
 {
-  "updatedAt": "2026-09-30T07:17:07.780Z",
+  "updatedAt": "2026-09-30T13:54:58.520Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318768242917",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318825943782",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Warcraft Forever Beta – Adventure in Azeroth ( DAY 12)",
-      "viewerCount": 1,
-      "startedAt": "2026-09-30T04:31:04Z",
+      "title": "HIGH KEYS POLICE !rogue !misery !coaching !ui !metacomp",
+      "viewerCount": 186,
+      "startedAt": "2026-09-30T09:06:49Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά"
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318770211301",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DUEL TOUR PREP ♾️WARLOCK/PRIEST DAY🎁LAST DAY GIFT SUB EVENT LIVE🎁WARLOCK  🎁 ✅!DROPS !rxp",
+      "viewerCount": 133,
+      "startedAt": "2026-09-30T10:53:15Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318827084006",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "It's about time we WoWed! | Midnight Level Up",
+      "viewerCount": 5,
+      "startedAt": "2026-09-30T11:53:32Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "levelup"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "317888587620",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 3,
+      "startedAt": "2026-09-30T13:08:17Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
     }
   ]
 }
