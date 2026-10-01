@@ -1,73 +1,195 @@
 {
-  "updatedAt": "2026-10-01T15:39:15.736Z",
+  "updatedAt": "2026-10-01T20:31:28.343Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318838991206",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
+      "id": "318843673318",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DUEL TOUR PREP ♾️WARLOCK🎁LAST DAY GIFT SUB EVENT LIVE🎁WARLOCK  🎁 ✅!DROPS !rxp",
-      "viewerCount": 73,
-      "startedAt": "2026-10-01T12:20:41Z",
+      "title": "Tonight, we raid",
+      "viewerCount": 22,
+      "startedAt": "2026-10-01T18:17:54Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
+    {
+      "id": "318842365926",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Jail altar day 6",
+      "viewerCount": 18,
+      "startedAt": "2026-10-01T16:59:40Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+    },
+    {
+      "id": "318787081957",
+      "userId": "102736580",
+      "userLogin": "kiraboom",
+      "userName": "Kiraboom",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "coiled prog",
+      "viewerCount": 17,
+      "startedAt": "2026-10-01T18:04:49Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kiraboom-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kiraboom"
+    },
+    {
+      "id": "320468519774",
+      "userId": "40934863",
+      "userLogin": "evenstartv",
+      "userName": "EvenstarTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "(UL) Πάμε πάμε!!!!!",
+      "viewerCount": 3,
+      "startedAt": "2026-10-01T18:19:52Z",
       "language": "en",
       "tags": [
         "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "317908270947",
-      "userId": "65821261",
-      "userLogin": "darklline",
-      "userName": "Darklline",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "4029 RIO | Mistweaver Keys 🥋",
-      "viewerCount": 23,
-      "startedAt": "2026-10-01T14:48:28Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/darklline"
-    },
-    {
-      "id": "318644303463",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-10-01T07:32:19Z",
-      "language": "el",
-      "tags": [
-        "AskMeAnyhting",
-        "English",
-        "Ελληνικά",
-        "Veterangamer",
+        "Raid",
+        "WorldfofWarcraft",
         "Hunter",
-        "PvE"
+        "gameplay",
+        "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evenstartv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/evenstartv"
+    },
+    {
+      "id": "320468519774",
+      "userId": "40934863",
+      "userLogin": "evenstartv",
+      "userName": "EvenstarTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "(UL) Πάμε πάμε!!!!!",
+      "viewerCount": 3,
+      "startedAt": "2026-10-01T18:19:52Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Raid",
+        "WorldfofWarcraft",
+        "Hunter",
+        "gameplay",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evenstartv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/evenstartv"
+    },
+    {
+      "id": "317899447652",
+      "userId": "185568570",
+      "userLogin": "vlimecy",
+      "userName": "vlimecy",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[Druid | DH PoV ] Mythic Ula'tek ALDRACHI hype",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T16:50:39Z",
+      "language": "ru",
+      "tags": [
+        "Русский",
+        "English",
+        "Greek",
+        "MMORPG",
+        "Warrior",
+        "Raid",
+        "MythicPlus",
+        "MythicPlusKeys",
+        "Ultrawide"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vlimecy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vlimecy"
+    },
+    {
+      "id": "318651041767",
+      "userId": "30399596",
+      "userLogin": "zell_the_redeemer",
+      "userName": "Zell_The_Redeemer",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Raid Time",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T18:22:59Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
+    },
+    {
+      "id": "317911671651",
+      "userId": "729769477",
+      "userLogin": "z0gra",
+      "userName": "z0gra",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!Drops, chill wow",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T20:23:25Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "wow",
+        "wowstreamer"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/z0gra"
+    },
+    {
+      "id": "317876101986",
+      "userId": "31742358",
+      "userLogin": "kxursed_",
+      "userName": "kxursed_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T17:20:56Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kxursed_"
     }
   ]
 }
