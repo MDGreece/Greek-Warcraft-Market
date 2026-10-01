@@ -1,51 +1,51 @@
 {
-  "updatedAt": "2026-10-01T08:31:15.048Z",
+  "updatedAt": "2026-10-01T15:39:15.736Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318780919269",
-      "userId": "235705329",
-      "userLogin": "raskousx",
-      "userName": "Raskousx",
+      "id": "318838991206",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Midnight Warlock Mythic",
-      "viewerCount": 2,
-      "startedAt": "2026-10-01T07:58:36Z",
-      "language": "el",
+      "title": "DUEL TOUR PREP ♾️WARLOCK🎁LAST DAY GIFT SUB EVENT LIVE🎁WARLOCK  🎁 ✅!DROPS !rxp",
+      "viewerCount": 73,
+      "startedAt": "2026-10-01T12:20:41Z",
+      "language": "en",
       "tags": [
-        "wow",
-        "Hardcore",
-        "MIdnight",
-        "Warlockmain",
-        "Dungeons",
+        "English",
         "PvP",
-        "Ελληνικά"
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_raskousx-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/raskousx"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "317906197347",
-      "userId": "999359775",
-      "userLogin": "loukasidtv",
-      "userName": "LoukasIDtv",
+      "id": "317908270947",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Περιμένω το World of Warcraft Forever PVP Server",
-      "viewerCount": 1,
-      "startedAt": "2026-10-01T08:06:25Z",
+      "title": "4029 RIO | Mistweaver Keys 🥋",
+      "viewerCount": 23,
+      "startedAt": "2026-10-01T14:48:28Z",
       "language": "el",
       "tags": [
-        "greek",
-        "greece",
-        "cyprus",
-        "Ελληνικά"
+        "Ελληνικά",
+        "English"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
     },
     {
       "id": "318644303463",
@@ -68,26 +68,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/privatemanos"
-    },
-    {
-      "id": "318780778981",
-      "userId": "49622012",
-      "userLogin": "rootsleuth",
-      "userName": "RootSleuth",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World Of Warcraft Forever Beta | Trying Stuff on stream | Slowest leveler NA / EU",
-      "viewerCount": 1,
-      "startedAt": "2026-10-01T07:38:41Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "WorldofWarcaft",
-        "wowforever",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rootsleuth-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/rootsleuth"
     }
   ]
 }
