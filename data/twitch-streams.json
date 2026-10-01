@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-30T22:51:30.480Z",
+  "updatedAt": "2026-10-01T01:51:44.587Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318640916199",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
+      "id": "319411622999",
+      "userId": "118464086",
+      "userLogin": "sg_world",
+      "userName": "SG_World",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Forever",
-      "viewerCount": 20,
-      "startedAt": "2026-09-30T20:25:14Z",
-      "language": "el",
+      "title": "raiding",
+      "viewerCount": 4,
+      "startedAt": "2026-10-01T00:03:16Z",
+      "language": "en",
       "tags": [
         "greek",
-        "greece",
-        "fps",
-        "Ελληνικά"
+        "jazz",
+        "relaxing",
+        "English"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sg_world-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sg_world"
     }
   ]
 }
