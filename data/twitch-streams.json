@@ -1,28 +1,93 @@
 {
-  "updatedAt": "2026-10-01T01:51:44.587Z",
+  "updatedAt": "2026-10-01T08:31:15.048Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "319411622999",
-      "userId": "118464086",
-      "userLogin": "sg_world",
-      "userName": "SG_World",
+      "id": "318780919269",
+      "userId": "235705329",
+      "userLogin": "raskousx",
+      "userName": "Raskousx",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "raiding",
-      "viewerCount": 4,
-      "startedAt": "2026-10-01T00:03:16Z",
-      "language": "en",
+      "title": "Midnight Warlock Mythic",
+      "viewerCount": 2,
+      "startedAt": "2026-10-01T07:58:36Z",
+      "language": "el",
+      "tags": [
+        "wow",
+        "Hardcore",
+        "MIdnight",
+        "Warlockmain",
+        "Dungeons",
+        "PvP",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_raskousx-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/raskousx"
+    },
+    {
+      "id": "317906197347",
+      "userId": "999359775",
+      "userLogin": "loukasidtv",
+      "userName": "LoukasIDtv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Περιμένω το World of Warcraft Forever PVP Server",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T08:06:25Z",
+      "language": "el",
       "tags": [
         "greek",
-        "jazz",
-        "relaxing",
-        "English"
+        "greece",
+        "cyprus",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sg_world-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sg_world"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+    },
+    {
+      "id": "318644303463",
+      "userId": "37754304",
+      "userLogin": "privatemanos",
+      "userName": "Privatemanos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever Beta - Hunter",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T07:32:19Z",
+      "language": "el",
+      "tags": [
+        "AskMeAnyhting",
+        "English",
+        "Ελληνικά",
+        "Veterangamer",
+        "Hunter",
+        "PvE"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/privatemanos"
+    },
+    {
+      "id": "318780778981",
+      "userId": "49622012",
+      "userLogin": "rootsleuth",
+      "userName": "RootSleuth",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "World Of Warcraft Forever Beta | Trying Stuff on stream | Slowest leveler NA / EU",
+      "viewerCount": 1,
+      "startedAt": "2026-10-01T07:38:41Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "WorldofWarcaft",
+        "wowforever",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rootsleuth-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/rootsleuth"
     }
   ]
 }
