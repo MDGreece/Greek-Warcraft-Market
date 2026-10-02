@@ -1,79 +1,9 @@
 {
-  "updatedAt": "2026-10-02T00:12:05.207Z",
+  "updatedAt": "2026-10-02T05:51:30.731Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318650603111",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4026io 21-22s | Very Short Stream Prob |",
-      "viewerCount": 20,
-      "startedAt": "2026-10-01T17:57:44Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318650603111",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4026io 21-22s | Very Short Stream Prob |",
-      "viewerCount": 20,
-      "startedAt": "2026-10-01T17:57:44Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "319422192087",
-      "userId": "118464086",
-      "userLogin": "sg_world",
-      "userName": "SG_World",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "raiding heroic",
-      "viewerCount": 3,
-      "startedAt": "2026-10-01T23:29:28Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "jazz",
-        "relaxing",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sg_world-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sg_world"
-    },
     {
       "id": "318846773606",
       "userId": "37754304",
@@ -95,25 +25,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/privatemanos"
-    },
-    {
-      "id": "318790668261",
-      "userId": "1385645851",
-      "userLogin": "browlee_44",
-      "userName": "browlee_44",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "♾️late night farm keys♾️",
-      "viewerCount": 1,
-      "startedAt": "2026-10-01T23:43:44Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "WorldofWarcaft",
-        "greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_browlee_44-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/browlee_44"
     }
   ]
 }
