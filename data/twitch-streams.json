@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T11:58:03.071Z",
+  "updatedAt": "2026-10-03T16:07:35.407Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "+26 RESIL TODAY FR !rogue !misery !coaching !ui",
-      "viewerCount": 533,
+      "viewerCount": 349,
       "startedAt": "2026-10-03T08:39:20Z",
       "language": "en",
       "tags": [
@@ -36,8 +36,8 @@
       "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WARLOCK LVL 30 GRIND ♾️ DUELTOUR PREP ♾️ ✅!DROPS !rxp",
-      "viewerCount": 77,
+      "title": "WARLOCK LVL 30 GRIND ♾️ DUEL TOUR PREP ♾️ ✅!DROPS !rxp",
+      "viewerCount": 159,
       "startedAt": "2026-10-03T11:13:44Z",
       "language": "en",
       "tags": [
@@ -55,71 +55,155 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318861903206",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
+      "id": "318672314087",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "The Return Of The King SEASON 2 OFFICIAL Started Now Ποιος Επεστρεψε BAN ?? ΠΟΙΟΣ Ο ΒΑΣΙΛΙΑ ΣΑΣ  One to Bring them All",
-      "viewerCount": 22,
-      "startedAt": "2026-10-03T08:21:13Z",
+      "title": "[GR/EN] -Yuki- | 4026io 21-22s | As usual Short stream maybe |",
+      "viewerCount": 17,
+      "startedAt": "2026-10-03T13:56:27Z",
       "language": "el",
       "tags": [
-        "Greek",
-        "Dropsenabled",
         "English",
-        "Ελληνικα",
-        "fps",
-        "Warfare",
-        "suport",
+        "Competitive",
+        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
+    },
+    {
+      "id": "318866309862",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Will we get to 90? | Midnight Level Up",
+      "viewerCount": 8,
+      "startedAt": "2026-10-03T15:00:24Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "levelup"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "318672629991",
+      "userId": "92151154",
+      "userLogin": "bakayokoqq",
+      "userName": "Bakayokoqq",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Disobedient GRP3 Babangida/Bakayoko  keys με Filippo !!",
+      "viewerCount": 6,
+      "startedAt": "2026-10-03T14:24:58Z",
+      "language": "el",
+      "tags": [
         "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
     },
     {
-      "id": "318669929191",
-      "userId": "160656304",
-      "userLogin": "starscream4711",
-      "userName": "starscream4711",
+      "id": "318809727205",
+      "userId": "152091492",
+      "userLogin": "nok_kan",
+      "userName": "nok_kan",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "⭐Ας νταφ ζνταφαδα φγηξκ ιοπ⭐",
-      "viewerCount": 5,
-      "startedAt": "2026-10-03T10:11:02Z",
+      "title": "SUPER PUSH ΚΛΕΙΔΑΚΙΑ",
+      "viewerCount": 3,
+      "startedAt": "2026-10-03T15:25:14Z",
       "language": "el",
       "tags": [
-        "Ελληνικά",
-        "English",
+        "WoWGreece",
+        "wow",
         "greek",
-        "Français",
-        "junkrat"
+        "Ελληνικά",
+        "warcraft",
+        "hardcoreclassicwow",
+        "midnight",
+        "wowmidnight"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_starscream4711-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/starscream4711"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nok_kan"
     },
     {
-      "id": "318804735589",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
+      "id": "318865193830",
+      "userId": "31553092",
+      "userLogin": "msscrtv",
+      "userName": "MsscrTV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
+      "title": "FOREVER BETA. GAMER POV. LOCKED IN.",
+      "viewerCount": 3,
+      "startedAt": "2026-10-03T13:24:48Z",
+      "language": "en",
+      "tags": [
+        "english",
+        "greek",
+        "warrior",
+        "tank",
+        "dps",
+        "forever",
+        "wow",
+        "wowclassic",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_msscrtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/msscrtv"
+    },
+    {
+      "id": "317917181028",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
       "viewerCount": 2,
-      "startedAt": "2026-10-03T07:09:32Z",
+      "startedAt": "2026-10-03T15:51:26Z",
       "language": "el",
       "tags": [
-        "AskMeAnyhting",
-        "English",
         "Ελληνικά",
-        "Veterangamer",
-        "Hunter",
-        "PvE"
+        "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "318673808999",
+      "userId": "501386295",
+      "userLogin": "zaxstv",
+      "userName": "ZaxsTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Rank 1 Demo Lock PvP ---RETAIL PVP 2S/Solo Que Short stream",
+      "viewerCount": 1,
+      "startedAt": "2026-10-03T15:59:48Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PｖP",
+        "warlock",
+        "Arena",
+        "Demonology",
+        "greek",
+        "Retail"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zaxstv"
     }
   ]
 }
