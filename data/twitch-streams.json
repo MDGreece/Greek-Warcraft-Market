@@ -1,84 +1,9 @@
 {
-  "updatedAt": "2026-10-03T16:07:35.407Z",
+  "updatedAt": "2026-10-03T19:12:41.590Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318669092967",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "+26 RESIL TODAY FR !rogue !misery !coaching !ui",
-      "viewerCount": 349,
-      "startedAt": "2026-10-03T08:39:20Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
-    {
-      "id": "318806789989",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WARLOCK LVL 30 GRIND ♾️ DUEL TOUR PREP ♾️ ✅!DROPS !rxp",
-      "viewerCount": 159,
-      "startedAt": "2026-10-03T11:13:44Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318672314087",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4026io 21-22s | As usual Short stream maybe |",
-      "viewerCount": 17,
-      "startedAt": "2026-10-03T13:56:27Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
     {
       "id": "318866309862",
       "userId": "1349726258",
@@ -87,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Will we get to 90? | Midnight Level Up",
-      "viewerCount": 8,
+      "viewerCount": 9,
       "startedAt": "2026-10-03T15:00:24Z",
       "language": "el",
       "tags": [
@@ -99,45 +24,22 @@
       "twitchUrl": "https://www.twitch.tv/mal__ditto"
     },
     {
-      "id": "318672629991",
-      "userId": "92151154",
-      "userLogin": "bakayokoqq",
-      "userName": "Bakayokoqq",
+      "id": "317917181028",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Disobedient GRP3 Babangida/Bakayoko  keys με Filippo !!",
+      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
       "viewerCount": 6,
-      "startedAt": "2026-10-03T14:24:58Z",
+      "startedAt": "2026-10-03T15:51:26Z",
       "language": "el",
       "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
-    },
-    {
-      "id": "318809727205",
-      "userId": "152091492",
-      "userLogin": "nok_kan",
-      "userName": "nok_kan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "SUPER PUSH ΚΛΕΙΔΑΚΙΑ",
-      "viewerCount": 3,
-      "startedAt": "2026-10-03T15:25:14Z",
-      "language": "el",
-      "tags": [
-        "WoWGreece",
-        "wow",
-        "greek",
         "Ελληνικά",
-        "warcraft",
-        "hardcoreclassicwow",
-        "midnight",
-        "wowmidnight"
+        "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nok_kan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nok_kan"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
     },
     {
       "id": "318865193830",
@@ -165,45 +67,43 @@
       "twitchUrl": "https://www.twitch.tv/msscrtv"
     },
     {
-      "id": "317917181028",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
+      "id": "318812822885",
+      "userId": "38122142",
+      "userLogin": "baddream2",
+      "userName": "baddream2",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
-      "viewerCount": 2,
-      "startedAt": "2026-10-03T15:51:26Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
-    },
-    {
-      "id": "318673808999",
-      "userId": "501386295",
-      "userLogin": "zaxstv",
-      "userName": "ZaxsTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Rank 1 Demo Lock PvP ---RETAIL PVP 2S/Solo Que Short stream",
-      "viewerCount": 1,
-      "startedAt": "2026-10-03T15:59:48Z",
+      "title": "RAID ROGUE POV GO!",
+      "viewerCount": 3,
+      "startedAt": "2026-10-03T18:46:31Z",
       "language": "en",
       "tags": [
         "English",
-        "PｖP",
-        "warlock",
-        "Arena",
-        "Demonology",
         "greek",
-        "Retail"
+        "Rogue"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaxstv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/baddream2"
+    },
+    {
+      "id": "318809751141",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "A bunch of malakes on the grind",
+      "viewerCount": 1,
+      "startedAt": "2026-10-03T15:27:03Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "english",
+        "drops",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
     }
   ]
 }
