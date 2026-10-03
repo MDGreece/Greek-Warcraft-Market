@@ -1,136 +1,33 @@
 {
-  "updatedAt": "2026-10-02T21:57:21.551Z",
+  "updatedAt": "2026-10-03T01:02:38.545Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318849163878",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
+      "id": "318802780133",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DUEL TOUR PREP ♾️LEVEL 30 GRIND WARLOCK ✅!DROPS !rxp",
-      "viewerCount": 81,
-      "startedAt": "2026-10-02T09:16:12Z",
-      "language": "en",
+      "title": "[GR/EN] -Yuki- | 4026io 21-22s | As usual Short stream |",
+      "viewerCount": 18,
+      "startedAt": "2026-10-02T22:55:30Z",
+      "language": "el",
       "tags": [
         "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318856361830",
-      "userId": "63832292",
-      "userLogin": "zaboulef",
-      "userName": "zaboulef",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[EN/GR]💀 Νεκρός αλλά… Paladin; ⚔️ |  @corinthiansclan RAID: @krokodeilakiasgr @akinios_tv @tavoulis @ioannisgutevas @noplangamers",
-      "viewerCount": 49,
-      "startedAt": "2026-10-02T19:24:10Z",
-      "language": "el",
-      "tags": [
+        "Competitive",
         "Ελληνικά",
-        "greek",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaboulef-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaboulef"
-    },
-    {
-      "id": "318857569510",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "FOREVER chill",
-      "viewerCount": 22,
-      "startedAt": "2026-10-02T20:49:17Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "greece",
-        "fps",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
-    },
-    {
-      "id": "318853288038",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 5,
-      "startedAt": "2026-10-02T16:27:19Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "318855972582",
-      "userId": "192297848",
-      "userLogin": "nimprethil",
-      "userName": "Nimprethil",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever - Beta 35 Days Pre Launch",
-      "viewerCount": 2,
-      "startedAt": "2026-10-02T19:01:41Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
         "WorldofWarcaft",
-        "English",
-        "worldofwarcraftforever"
+        "EarlyAccess"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nimprethil"
-    },
-    {
-      "id": "318660677735",
-      "userId": "160656304",
-      "userLogin": "starscream4711",
-      "userName": "starscream4711",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "⭐εjαιρετικά cozy σημερα⭐",
-      "viewerCount": 2,
-      "startedAt": "2026-10-02T16:04:49Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "greek",
-        "Français",
-        "junkrat"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_starscream4711-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/starscream4711"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
       "id": "318856016870",
@@ -140,7 +37,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Chill grind to 30 - no sleep?",
-      "viewerCount": 2,
+      "viewerCount": 1,
       "startedAt": "2026-10-02T19:04:09Z",
       "language": "en",
       "tags": [
@@ -151,46 +48,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "318854531558",
-      "userId": "72368888",
-      "userLogin": "m1poka",
-      "userName": "m1poka",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft",
-      "viewerCount": 1,
-      "startedAt": "2026-10-02T17:44:17Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_m1poka-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/m1poka"
-    },
-    {
-      "id": "318856971494",
-      "userId": "475218448",
-      "userLogin": "inanimate23",
-      "userName": "Inanimate23",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WOW FOREVER BETA IS HERE!",
-      "viewerCount": 1,
-      "startedAt": "2026-10-02T20:04:24Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "WorldofWarcaft",
-        "chattingwithviewers",
-        "wowclassic",
-        "greek",
-        "Ελληνικά",
-        "hearthstone"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_inanimate23-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/inanimate23"
     }
   ]
 }
