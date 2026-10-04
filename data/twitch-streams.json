@@ -1,281 +1,9 @@
 {
-  "updatedAt": "2026-10-04T20:09:05.145Z",
+  "updatedAt": "2026-10-04T23:10:32.964Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318877942886",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "LVL 30 WARLOCK FULL BIS GRIND ♾️ DUEL TOUR PREP ♾️ ✅!DROPS !rxp",
-      "viewerCount": 158,
-      "startedAt": "2026-10-04T12:55:48Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318880853606",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "ULATEK MYTHIC ROGUE POV <Mental Apocalypse> !rogue !misery !coaching !ui",
-      "viewerCount": 123,
-      "startedAt": "2026-10-04T16:47:17Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
-    {
-      "id": "318881057894",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DNG | Jail altar day 7",
-      "viewerCount": 29,
-      "startedAt": "2026-10-04T17:00:38Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "healing",
-        "evoker"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
-    },
-    {
-      "id": "318876244326",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Campaign Quests and Sousou | Midnight Level Up",
-      "viewerCount": 11,
-      "startedAt": "2026-10-04T10:07:31Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "levelup"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
-    },
-    {
-      "id": "318826927717",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NAI GEIA SAS",
-      "viewerCount": 6,
-      "startedAt": "2026-10-04T18:36:06Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318826927717",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NAI GEIA SAS",
-      "viewerCount": 6,
-      "startedAt": "2026-10-04T18:36:06Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318826927717",
-      "userId": "146179989",
-      "userLogin": "tellostv",
-      "userName": "Tellostv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NAI GEIA SAS",
-      "viewerCount": 6,
-      "startedAt": "2026-10-04T18:36:06Z",
-      "language": "el",
-      "tags": [
-        "Raid",
-        "Ελληνικά",
-        "English",
-        "greek",
-        "MMORPG",
-        "terli"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tellostv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tellostv"
-    },
-    {
-      "id": "318688988007",
-      "userId": "30399596",
-      "userLogin": "zell_the_redeemer",
-      "userName": "Zell_The_Redeemer",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Raid Time",
-      "viewerCount": 5,
-      "startedAt": "2026-10-04T18:08:34Z",
-      "language": "el",
-      "tags": [
-        "Greek",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zell_the_redeemer-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zell_the_redeemer"
-    },
-    {
-      "id": "317928889060",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "♾️ROGUE ON PVP SERVER!♾️ WOW FOREVER LETS GO!♾️",
-      "viewerCount": 5,
-      "startedAt": "2026-10-04T19:47:50Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
-    },
-    {
-      "id": "318688708071",
-      "userId": "38122142",
-      "userLogin": "baddream2",
-      "userName": "baddream2",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "RAID ROGUE POV GO!",
-      "viewerCount": 3,
-      "startedAt": "2026-10-04T17:54:03Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "greek",
-        "Rogue"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/baddream2"
-    },
-    {
-      "id": "318688708071",
-      "userId": "38122142",
-      "userLogin": "baddream2",
-      "userName": "baddream2",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "RAID ROGUE POV GO!",
-      "viewerCount": 3,
-      "startedAt": "2026-10-04T17:54:03Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "greek",
-        "Rogue"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/baddream2"
-    },
-    {
-      "id": "318824728293",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 2,
-      "startedAt": "2026-10-04T16:19:08Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "318826878053",
-      "userId": "49622012",
-      "userLogin": "rootsleuth",
-      "userName": "RootSleuth",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever Beta | trying warrior.",
-      "viewerCount": 2,
-      "startedAt": "2026-10-04T18:32:53Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "WorldofWarcaft",
-        "wowforever",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rootsleuth-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/rootsleuth"
-    },
     {
       "id": "318878667494",
       "userId": "37754304",
@@ -286,7 +14,7 @@
       "title": "Forever Beta - Hunter",
       "viewerCount": 1,
       "startedAt": "2026-10-04T13:58:03Z",
-      "language": "en",
+      "language": "el",
       "tags": [
         "AskMeAnyhting",
         "English",
@@ -299,22 +27,46 @@
       "twitchUrl": "https://www.twitch.tv/privatemanos"
     },
     {
-      "id": "317937694051",
-      "userId": "31742358",
-      "userLogin": "kxursed_",
-      "userName": "kxursed_",
+      "id": "318878667494",
+      "userId": "37754304",
+      "userLogin": "privatemanos",
+      "userName": "Privatemanos",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "title": "Forever Beta - Hunter",
       "viewerCount": 1,
-      "startedAt": "2026-10-04T17:23:27Z",
+      "startedAt": "2026-10-04T13:58:03Z",
+      "language": "el",
+      "tags": [
+        "AskMeAnyhting",
+        "English",
+        "Ελληνικά",
+        "Veterangamer",
+        "Hunter",
+        "PvE"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/privatemanos"
+    },
+    {
+      "id": "318826878053",
+      "userId": "49622012",
+      "userLogin": "rootsleuth",
+      "userName": "RootSleuth",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "World of Warcraft Forever Beta | trying warrior.",
+      "viewerCount": 1,
+      "startedAt": "2026-10-04T18:32:53Z",
       "language": "en",
       "tags": [
         "English",
+        "WorldofWarcaft",
+        "wowforever",
         "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kxursed_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rootsleuth-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/rootsleuth"
     }
   ]
 }
