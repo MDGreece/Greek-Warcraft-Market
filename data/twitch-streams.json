@@ -1,28 +1,52 @@
 {
-  "updatedAt": "2026-10-04T00:44:49.071Z",
+  "updatedAt": "2026-10-04T06:25:33.083Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318809751141",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
+      "id": "318817242085",
+      "userId": "37754304",
+      "userLogin": "privatemanos",
+      "userName": "Privatemanos",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "A bunch of malakes on the grind",
+      "title": "Forever Beta - Hunter",
       "viewerCount": 1,
-      "startedAt": "2026-10-03T15:27:03Z",
-      "language": "en",
+      "startedAt": "2026-10-04T02:48:15Z",
+      "language": "el",
       "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
+        "AskMeAnyhting",
+        "English",
+        "Ελληνικά",
+        "Veterangamer",
+        "Hunter",
+        "PvE"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/privatemanos"
+    },
+    {
+      "id": "318817242085",
+      "userId": "37754304",
+      "userLogin": "privatemanos",
+      "userName": "Privatemanos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever Beta - Hunter",
+      "viewerCount": 1,
+      "startedAt": "2026-10-04T02:48:15Z",
+      "language": "el",
+      "tags": [
+        "AskMeAnyhting",
+        "English",
+        "Ελληνικά",
+        "Veterangamer",
+        "Hunter",
+        "PvE"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/privatemanos"
     }
   ]
 }
