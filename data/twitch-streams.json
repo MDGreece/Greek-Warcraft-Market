@@ -1,122 +1,9 @@
 {
-  "updatedAt": "2026-10-03T22:12:01.817Z",
+  "updatedAt": "2026-10-04T00:44:49.071Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318677835751",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4028io 21-22s | Υποτιθεται θα βγαλουμε κλειδια σαν καλοι παικτες που ειμαστε KAPPA με κεφαλαιο Κ |",
-      "viewerCount": 18,
-      "startedAt": "2026-10-03T20:21:50Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318678840167",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "FOREVER chill",
-      "viewerCount": 7,
-      "startedAt": "2026-10-03T21:49:15Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "greece",
-        "fps",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
-    },
-    {
-      "id": "318677351527",
-      "userId": "1540811426",
-      "userLogin": "vistalock",
-      "userName": "vistalock",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Late night leveling .",
-      "viewerCount": 5,
-      "startedAt": "2026-10-03T19:48:07Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "greek",
-        "WorldofWarcaft",
-        "Chıll",
-        "Casual",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vistalock-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vistalock"
-    },
-    {
-      "id": "318870751334",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 5,
-      "startedAt": "2026-10-03T19:45:00Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "318870751334",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 5,
-      "startedAt": "2026-10-03T19:45:00Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
     {
       "id": "318809751141",
       "userId": "43494331",
@@ -125,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "A bunch of malakes on the grind",
-      "viewerCount": 2,
+      "viewerCount": 1,
       "startedAt": "2026-10-03T15:27:03Z",
       "language": "en",
       "tags": [
