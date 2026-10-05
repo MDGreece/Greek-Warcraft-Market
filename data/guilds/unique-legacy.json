@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/UNIQUE%20LEGACY",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-09-19T19:29:14.638Z"
+    "lastUpdated": "2026-10-05T22:00:06.573Z"
   },
   "warcraftLogs": {
     "guildName": "UNIQUE LEGACY",
@@ -44,8 +44,8 @@
       "GR": "10"
     },
     "The Venomous Abyss": {
-      "progress": "8/8 H",
-      "WR": "3381",
+      "progress": "2/8 M",
+      "WR": "3305",
       "GR": "-"
     }
   },
@@ -56,7 +56,14 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 7
+        "reports": 11
+      },
+      {
+        "name": "Niaouritsa",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Guardian",
+        "reports": 4
       }
     ],
     "healers": [
@@ -65,25 +72,39 @@
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 11
+      },
+      {
+        "name": "Azmedin",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Holy",
+        "reports": 1
       },
       {
         "name": "Consumerism",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 7
+        "reports": 10
       },
       {
         "name": "Deova",
         "realm": "Ravencrest",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 8
       },
       {
-        "name": "Fruhorn",
-        "realm": "Kazzak",
+        "name": "Gòdrîc",
+        "realm": "Stormscale",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 1
+      },
+      {
+        "name": "Holysterini",
+        "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
         "reports": 1
@@ -100,7 +121,14 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 12
+      },
+      {
+        "name": "Smaugme",
+        "realm": "TwistingNether",
+        "class": "Evoker",
+        "spec": "Preservation",
+        "reports": 4
       },
       {
         "name": "Vascania",
@@ -116,7 +144,14 @@
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 7
+        "reports": 9
+      },
+      {
+        "name": "Bartdude",
+        "realm": "Draenor",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 1
       },
       {
         "name": "Dimunter",
@@ -130,7 +165,7 @@
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 6
+        "reports": 9
       },
       {
         "name": "Evalynthe",
@@ -144,116 +179,151 @@
         "realm": "Ravencrest",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 10
       },
       {
         "name": "Fedrin",
         "realm": "TarrenMill",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 7
+        "reports": 10
+      },
+      {
+        "name": "Fotitsos",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 2
+      },
+      {
+        "name": "Fruhorn",
+        "realm": "Kazzak",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 1
       },
       {
         "name": "Golkonda",
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 7
+        "reports": 11
       },
       {
         "name": "Jarllaxlle",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 7
+        "reports": 10
       },
       {
         "name": "Kapittagød",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 7
+        "reports": 9
       },
       {
         "name": "Kott",
         "realm": "Genjuros",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 7
+        "reports": 11
       },
       {
         "name": "Lavadelrey",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 6
+        "reports": 10
+      },
+      {
+        "name": "Liontwo",
+        "realm": "TwistingNether",
+        "class": "Warlock",
+        "spec": "Destruction",
+        "reports": 2
+      },
+      {
+        "name": "Ntunette",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Frost",
+        "reports": 1
       },
       {
         "name": "Obiclapz",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 6
+        "reports": 11
       },
       {
         "name": "Omychron",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 11
       },
       {
         "name": "Ravanaa",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 2
+        "reports": 1
       },
       {
         "name": "Scotusmage",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 5
+        "reports": 10
       },
       {
         "name": "Shiróe",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 3
+        "reports": 8
+      },
+      {
+        "name": "Vaelkris",
+        "realm": "Draenor",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 2
       },
       {
         "name": "Vashedan",
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Weeyz",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 6
+        "reports": 7
       },
       {
         "name": "Xaxades",
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Feral",
-        "reports": 7
+        "reports": 10
       }
     ]
   },
-  "rosterUpdatedAt": "2026-09-19T19:30:54.606Z",
+  "rosterUpdatedAt": "2026-10-05T22:02:29.474Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 694677,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 7,
-    "verifiedGuildMembers": 326,
+    "reportsChecked": 12,
+    "verifiedGuildMembers": 331,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "UNIQUE LEGACY"
   }

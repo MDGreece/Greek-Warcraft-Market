@@ -38,8 +38,8 @@
       "GR": "-"
     },
     "The Venomous Abyss": {
-      "progress": "1/8 M",
-      "WR": "3061",
+      "progress": "4/8 M",
+      "WR": "2060",
       "GR": "-"
     }
   },
@@ -50,38 +50,31 @@
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 3
+        "reports": 5
       },
       {
         "name": "Meraleph",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 13
+        "reports": 10
       },
       {
-        "name": "Meralephdru",
+        "name": "Meralephdh",
         "realm": "Silvermoon",
-        "class": "Druid",
-        "spec": "Guardian",
-        "reports": 1
+        "class": "DemonHunter",
+        "spec": "Vengeance",
+        "reports": 3
       },
       {
         "name": "Vitsa",
         "realm": "DefiasBrotherhood",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 12
+        "reports": 13
       }
     ],
     "healers": [
-      {
-        "name": "Drakogiatros",
-        "realm": "TarrenMill",
-        "class": "Evoker",
-        "spec": "Preservation",
-        "reports": 1
-      },
       {
         "name": "Drakover",
         "realm": "Ravencrest",
@@ -94,10 +87,10 @@
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 11
+        "reports": 12
       },
       {
-        "name": "Laterna",
+        "name": "Jadix",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Holy",
@@ -115,28 +108,28 @@
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 4
+        "reports": 1
       },
       {
         "name": "Mpelantona",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 13
+        "reports": 14
       },
       {
-        "name": "Nuantan",
-        "realm": "TwistingNether",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "reports": 11
+        "name": "Stassy",
+        "realm": "Ravencrest",
+        "class": "Priest",
+        "spec": "Holy",
+        "reports": 6
       },
       {
         "name": "Varanthian",
         "realm": "Silvermoon",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 8
+        "reports": 11
       }
     ],
     "dps": [
@@ -152,21 +145,21 @@
         "realm": "TarrenMill",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 8
+        "reports": 10
       },
       {
         "name": "Apollonus",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 13
+        "reports": 11
       },
       {
         "name": "Aszuma",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Feral",
-        "reports": 5
+        "reports": 11
       },
       {
         "name": "Blazenar",
@@ -176,24 +169,24 @@
         "reports": 13
       },
       {
+        "name": "Caeldeth",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 2
+      },
+      {
         "name": "Chacona",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 10
+        "reports": 13
       },
       {
-        "name": "Coldviper",
-        "realm": "TwistingNether",
-        "class": "Rogue",
-        "spec": "Subtlety",
-        "reports": 11
-      },
-      {
-        "name": "Defyled",
-        "realm": "Silvermoon",
-        "class": "Priest",
-        "spec": "Shadow",
+        "name": "Darakshu",
+        "realm": "Ragnaros",
+        "class": "Warrior",
+        "spec": "Arms",
         "reports": 1
       },
       {
@@ -204,24 +197,10 @@
         "reports": 11
       },
       {
-        "name": "Hammerench",
-        "realm": "Silvermoon",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 1
-      },
-      {
         "name": "Haterade",
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 12
-      },
-      {
-        "name": "Hellrodan",
-        "realm": "TwistingNether",
-        "class": "Warrior",
-        "spec": "Arms",
         "reports": 13
       },
       {
@@ -229,7 +208,7 @@
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 12
       },
       {
         "name": "Howimetmypet",
@@ -237,6 +216,20 @@
         "class": "Hunter",
         "spec": "Marksmanship",
         "reports": 13
+      },
+      {
+        "name": "Iobolos",
+        "realm": "Lightbringer",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 5
+      },
+      {
+        "name": "Jiklaspower",
+        "realm": "Draenor",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 6
       },
       {
         "name": "Juvis",
@@ -250,28 +243,28 @@
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 7
-      },
-      {
-        "name": "Lignadiss",
-        "realm": "Stormscale",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 6
-      },
-      {
-        "name": "Liukang",
-        "realm": "Emeriss",
-        "class": "Monk",
-        "spec": "Windwalker",
-        "reports": 6
+        "reports": 8
       },
       {
         "name": "Manouvras",
         "realm": "Silvermoon",
         "class": "DeathKnight",
-        "spec": "Frost",
-        "reports": 12
+        "spec": "Unholy",
+        "reports": 10
+      },
+      {
+        "name": "Ninjaknight",
+        "realm": "Draenor",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 2
+      },
+      {
+        "name": "Nissim",
+        "realm": "Stormscale",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 5
       },
       {
         "name": "Okàmi",
@@ -281,60 +274,32 @@
         "reports": 12
       },
       {
-        "name": "Øurihill",
-        "realm": "Ravencrest",
-        "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 6
-      },
-      {
-        "name": "Ourihillx",
-        "realm": "Ravencrest",
-        "class": "Monk",
-        "spec": "Windwalker",
-        "reports": 2
-      },
-      {
         "name": "Squadraxxus",
         "realm": "Silvermoon",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 9
+        "reports": 7
       },
       {
         "name": "Thaldoc",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 7
-      },
-      {
-        "name": "Thunderer",
-        "realm": "Dragonblight",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 8
+        "reports": 3
       },
       {
         "name": "Tokalopaidi",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 11
-      },
-      {
-        "name": "Vicent",
-        "realm": "TwistingNether",
-        "class": "Mage",
-        "spec": "Arcane",
-        "reports": 8
+        "reports": 13
       },
       {
         "name": "Vokolos",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 3
+        "reports": 1
       }
     ]
   },
@@ -342,16 +307,16 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/You%20Are%20Not%20Repaired",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-09-19T19:29:14.641Z"
+    "lastUpdated": "2026-10-05T22:00:06.576Z"
   },
-  "rosterUpdatedAt": "2026-09-19T19:31:02.706Z",
+  "rosterUpdatedAt": "2026-10-05T22:02:37.782Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 597404,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 750,
+    "verifiedGuildMembers": 753,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "You Are Not Repaired"
   }

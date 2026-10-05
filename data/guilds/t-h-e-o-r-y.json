@@ -38,8 +38,8 @@
       "GR": "15"
     },
     "The Venomous Abyss": {
-      "progress": "4/8 H",
-      "WR": "11362",
+      "progress": "7/8 H",
+      "WR": "8322",
       "GR": "-"
     }
   },
@@ -57,14 +57,21 @@
         "realm": "Ravencrest",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Irìdin",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 6
+        "reports": 11
+      },
+      {
+        "name": "Katakáïka",
+        "realm": "Ravencrest",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
       }
     ],
     "healers": [
@@ -73,14 +80,14 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Auxcord",
         "realm": "Draenor",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 6
+        "reports": 12
       },
       {
         "name": "Castiga",
@@ -94,7 +101,7 @@
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 11
       },
       {
         "name": "Emelaith",
@@ -108,7 +115,7 @@
         "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Nofaith",
@@ -122,7 +129,7 @@
         "realm": "Aggramar",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 6
+        "reports": 12
       },
       {
         "name": "Sayad",
@@ -145,14 +152,7 @@
         "realm": "Ravencrest",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 3
-      },
-      {
-        "name": "Amaterrassu",
-        "realm": "Ravencrest",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 6
+        "reports": 4
       },
       {
         "name": "Chaosreign",
@@ -180,49 +180,49 @@
         "realm": "Ravencrest",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Elfwin",
         "realm": "Ravencrest",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 6
+        "reports": 12
       },
       {
         "name": "Evangelios",
         "realm": "Ravencrest",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 3
+        "reports": 9
       },
       {
         "name": "Exghst",
         "realm": "Doomhammer",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 5
+        "reports": 10
       },
       {
         "name": "Glikouli",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Gouzi",
         "realm": "Kazzak",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 4
+        "reports": 10
       },
       {
         "name": "Helluvakilla",
         "realm": "Draenor",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 4
+        "reports": 10
       },
       {
         "name": "Hyperamagus",
@@ -236,21 +236,28 @@
         "realm": "Ravencrest",
         "class": "Rogue",
         "spec": "Outlaw",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Løbø",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Lockdotdem",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 7
+        "reports": 12
+      },
+      {
+        "name": "Lyeu",
+        "realm": "Ravencrest",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
       },
       {
         "name": "Lygon",
@@ -264,14 +271,21 @@
         "realm": "Kazzak",
         "class": "Evoker",
         "spec": "Devastation",
-        "reports": 2
+        "reports": 8
+      },
+      {
+        "name": "Mugetsuu",
+        "realm": "Ravencrest",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 3
       },
       {
         "name": "Rakariss",
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Frost",
-        "reports": 6
+        "reports": 12
       },
       {
         "name": "Rayel",
@@ -285,28 +299,28 @@
         "realm": "Ravencrest",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 6
+        "reports": 10
       },
       {
         "name": "Sçárlet",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Sfaxtis",
         "realm": "Aggramar",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 2
+        "reports": 7
       },
       {
         "name": "Tsikibriki",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 4
+        "reports": 8
       },
       {
         "name": "Xcelsiorbane",
@@ -333,8 +347,8 @@
         "name": "Zéthe",
         "realm": "Stormscale",
         "class": "Warrior",
-        "spec": "Arms",
-        "reports": 1
+        "spec": "Fury",
+        "reports": 7
       }
     ]
   },
@@ -342,16 +356,16 @@
     "profileUrl": "https://raider.io/guilds/eu/ravencrest/T%20H%20E%20O%20R%20Y",
     "realm": "ravencrest",
     "region": "eu",
-    "lastUpdated": "2026-09-19T19:29:14.640Z"
+    "lastUpdated": "2026-10-05T22:00:06.575Z"
   },
-  "rosterUpdatedAt": "2026-09-19T19:30:50.668Z",
+  "rosterUpdatedAt": "2026-10-05T22:02:21.267Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 436691,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 7,
-    "verifiedGuildMembers": 942,
+    "reportsChecked": 13,
+    "verifiedGuildMembers": 950,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "T H E O R Y"
   }

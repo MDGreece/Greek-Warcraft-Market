@@ -48,25 +48,18 @@
   "roster": {
     "tanks": [
       {
-        "name": "Mightykhal",
-        "realm": "TwistingNether",
-        "class": "DeathKnight",
-        "spec": "Blood",
-        "reports": 1
-      },
-      {
         "name": "Tigermonk",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Tigerpal",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 8
+        "reports": 10
       }
     ],
     "healers": [
@@ -82,49 +75,35 @@
         "realm": "Stormscale",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 11
-      },
-      {
-        "name": "Drakomalakas",
-        "realm": "TwistingNether",
-        "class": "Evoker",
-        "spec": "Preservation",
-        "reports": 1
+        "reports": 17
       },
       {
         "name": "Fakecastt",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 9
       },
       {
         "name": "Hugepenances",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 12
-      },
-      {
-        "name": "Madjekyl",
-        "realm": "TarrenMill",
-        "class": "Priest",
-        "spec": "Discipline",
-        "reports": 1
+        "reports": 17
       },
       {
         "name": "Owleda",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 10
+        "reports": 9
       },
       {
         "name": "Skasekariola",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 9
+        "reports": 14
       },
       {
         "name": "Themechanixx",
@@ -138,7 +117,7 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 11
+        "reports": 17
       }
     ],
     "dps": [
@@ -147,14 +126,14 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 7
+        "reports": 13
       },
       {
         "name": "Babangîda",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 12
+        "reports": 16
       },
       {
         "name": "Bacayoko",
@@ -168,21 +147,21 @@
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Bersercker",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 9
+        "reports": 13
       },
       {
         "name": "Cenu",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 11
+        "reports": 17
       },
       {
         "name": "Checkraiser",
@@ -196,56 +175,56 @@
         "realm": "Kazzak",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 11
+        "reports": 17
       },
       {
         "name": "Fàlsè",
         "realm": "Sylvanas",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 8
+        "reports": 9
       },
       {
         "name": "Fanourgias",
         "realm": "TarrenMill",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 11
+        "reports": 17
       },
       {
         "name": "Ffls",
         "realm": "Kazzak",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 12
-      },
-      {
-        "name": "Foúska",
-        "realm": "TwistingNether",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 1
+        "reports": 17
       },
       {
         "name": "Goriillaz",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Devastation",
-        "reports": 7
+        "reports": 14
       },
       {
         "name": "Gredush",
         "realm": "Ragnaros",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 12
+        "reports": 17
+      },
+      {
+        "name": "Llilliith",
+        "realm": "TwistingNether",
+        "class": "DemonHunter",
+        "spec": "Devourer",
+        "reports": 2
       },
       {
         "name": "Madalee",
         "realm": "TarrenMill",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 11
+        "reports": 16
       },
       {
         "name": "Mådnéss",
@@ -255,25 +234,32 @@
         "reports": 10
       },
       {
+        "name": "Mightykhal",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 3
+      },
+      {
         "name": "Nerewarrior",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 12
+        "reports": 16
       },
       {
         "name": "Qavla",
         "realm": "Ragnaros",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 11
+        "reports": 13
       },
       {
         "name": "Rowéna",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 10
+        "reports": 17
       },
       {
         "name": "Senux",
@@ -287,28 +273,28 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 11
+        "reports": 15
       },
       {
         "name": "Wtiger",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 11
+        "reports": 17
       },
       {
         "name": "Xgodlike",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 8
+        "reports": 13
       },
       {
         "name": "Yordel",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 11
+        "reports": 10
       }
     ]
   },
@@ -319,13 +305,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-09-19T19:29:57.099Z",
+  "rosterUpdatedAt": "2026-10-05T22:01:12.304Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 730932,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 12,
+    "reportsChecked": 17,
     "verifiedGuildMembers": 54,
     "membershipVerification": "Warcraft Logs team + Raider.IO guild",
     "verificationGuild": "Disobedient"
