@@ -1,72 +1,7 @@
 {
-  "updatedAt": "2026-10-04T23:10:32.964Z",
+  "updatedAt": "2026-10-05T02:05:08.130Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318878667494",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-10-04T13:58:03Z",
-      "language": "el",
-      "tags": [
-        "AskMeAnyhting",
-        "English",
-        "Ελληνικά",
-        "Veterangamer",
-        "Hunter",
-        "PvE"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
-    },
-    {
-      "id": "318878667494",
-      "userId": "37754304",
-      "userLogin": "privatemanos",
-      "userName": "Privatemanos",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Forever Beta - Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-10-04T13:58:03Z",
-      "language": "el",
-      "tags": [
-        "AskMeAnyhting",
-        "English",
-        "Ελληνικά",
-        "Veterangamer",
-        "Hunter",
-        "PvE"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_privatemanos-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/privatemanos"
-    },
-    {
-      "id": "318826878053",
-      "userId": "49622012",
-      "userLogin": "rootsleuth",
-      "userName": "RootSleuth",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever Beta | trying warrior.",
-      "viewerCount": 1,
-      "startedAt": "2026-10-04T18:32:53Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "WorldofWarcaft",
-        "wowforever",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_rootsleuth-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/rootsleuth"
-    }
-  ]
+  "streams": []
 }
