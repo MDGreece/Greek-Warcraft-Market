@@ -27,6 +27,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "6/8 M",
         "total_bosses": 8,
@@ -87,6 +94,23 @@
           "realm": 17
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 5987,
@@ -99,8 +123,8 @@
           "realm": 23
         },
         "mythic": {
-          "world": 361,
-          "region": 206,
+          "world": 366,
+          "region": 210,
           "realm": 7
         }
       }
@@ -133,6 +157,13 @@
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "6/8 M",
@@ -194,6 +225,23 @@
           "realm": 35
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 612,
@@ -206,8 +254,8 @@
           "realm": 44
         },
         "mythic": {
-          "world": 630,
-          "region": 367,
+          "world": 637,
+          "region": 371,
           "realm": 32
         }
       }
@@ -241,6 +289,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "6/8 M",
         "total_bosses": 8,
@@ -252,7 +307,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15595,
+          "world": 15596,
           "region": 6861,
           "realm": 178
         },
@@ -301,6 +356,23 @@
           "realm": 24
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 3315,
@@ -313,8 +385,8 @@
           "realm": 29
         },
         "mythic": {
-          "world": 582,
-          "region": 336,
+          "world": 588,
+          "region": 341,
           "realm": 28
         }
       }
@@ -347,6 +419,13 @@
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "4/8 M",
@@ -408,6 +487,23 @@
           "realm": 101
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 2275,
@@ -420,9 +516,9 @@
           "realm": 130
         },
         "mythic": {
-          "world": 2574,
-          "region": 1209,
-          "realm": 116
+          "world": 1938,
+          "region": 975,
+          "realm": 105
         }
       }
     }
@@ -455,6 +551,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "5/8 M",
         "total_bosses": 8,
@@ -466,7 +569,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15640,
+          "world": 15641,
           "region": 6906,
           "realm": 183
         },
@@ -515,6 +618,23 @@
           "realm": 51
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 515,
@@ -527,9 +647,9 @@
           "realm": 62
         },
         "mythic": {
-          "world": 1632,
-          "region": 814,
-          "realm": 52
+          "world": 1644,
+          "region": 823,
+          "realm": 53
         }
       }
     }
@@ -562,6 +682,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "4/8 M",
         "total_bosses": 8,
@@ -573,7 +700,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 16573,
+          "world": 16575,
           "region": 7106,
           "realm": 333
         },
@@ -622,6 +749,23 @@
           "realm": 92
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 6175,
@@ -634,9 +778,9 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2007,
-          "region": 1007,
-          "realm": 106
+          "world": 2027,
+          "region": 1024,
+          "realm": 108
         }
       }
     }
@@ -668,6 +812,13 @@
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "4/8 M",
@@ -729,6 +880,23 @@
           "realm": 103
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 2017,
@@ -741,9 +909,9 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1699,
-          "region": 852,
-          "realm": 96
+          "world": 1718,
+          "region": 866,
+          "realm": 97
         }
       }
     }
@@ -774,6 +942,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -831,9 +1006,26 @@
           "realm": 115
         },
         "mythic": {
-          "world": 3549,
-          "region": 1620,
-          "realm": 91
+          "world": 3570,
+          "region": 1635,
+          "realm": 90
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       },
       "the-venomous-abyss": {
@@ -848,8 +1040,8 @@
           "realm": 84
         },
         "mythic": {
-          "world": 2877,
-          "region": 1369,
+          "world": 2899,
+          "region": 1386,
           "realm": 76
         }
       }
@@ -883,6 +1075,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 0
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "1/8 M",
         "total_bosses": 8,
@@ -894,7 +1093,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 17108,
+          "world": 17110,
           "region": 7286,
           "realm": 356
         },
@@ -943,20 +1142,37 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 10047,
+          "world": 10048,
           "region": 3995,
           "realm": 232
         },
         "heroic": {
-          "world": 6839,
-          "region": 2687,
+          "world": 6877,
+          "region": 2713,
           "realm": 161
         },
         "mythic": {
-          "world": 4158,
-          "region": 1833,
+          "world": 4178,
+          "region": 1843,
           "realm": 109
         }
       }
@@ -984,6 +1200,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -1050,6 +1273,23 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 0,
@@ -1096,6 +1336,13 @@
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
         "summary": "5/8 M",
@@ -1157,6 +1404,23 @@
           "realm": 42
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 722,
@@ -1169,8 +1433,8 @@
           "realm": 70
         },
         "mythic": {
-          "world": 1011,
-          "region": 522,
+          "world": 1023,
+          "region": 533,
           "realm": 42
         }
       }
@@ -1204,6 +1468,13 @@
         "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "0/8 N",
         "total_bosses": 8,
@@ -1215,7 +1486,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 15665,
+          "world": 15666,
           "region": 6931,
           "realm": 339
         },
@@ -1248,6 +1519,23 @@
         }
       },
       "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
         "normal": {
           "world": 0,
           "region": 0,
@@ -1311,6 +1599,13 @@
         "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 0
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "7/8 H",
         "total_bosses": 8,
@@ -1371,6 +1666,23 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 8177,
@@ -1378,9 +1690,9 @@
           "realm": 98
         },
         "heroic": {
-          "world": 7801,
-          "region": 3163,
-          "realm": 89
+          "world": 7837,
+          "region": 3188,
+          "realm": 90
         },
         "mythic": {
           "world": 0,
@@ -1416,6 +1728,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -1478,15 +1797,32 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 10178,
+          "world": 10179,
           "region": 4126,
           "realm": 237
         },
         "heroic": {
-          "world": 6449,
-          "region": 2498,
+          "world": 6458,
+          "region": 2502,
           "realm": 153
         },
         "mythic": {
@@ -1519,6 +1855,13 @@
         "mythic_bosses_killed": 1
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -1585,16 +1928,33 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 9490,
+          "world": 9491,
           "region": 3646,
           "realm": 142
         },
         "heroic": {
-          "world": 6722,
-          "region": 2623,
-          "realm": 118
+          "world": 6761,
+          "region": 2649,
+          "realm": 119
         },
         "mythic": {
           "world": 0,
@@ -1626,6 +1986,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -1692,10 +2059,27 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15763,
-          "region": 6181,
+          "world": 15765,
+          "region": 6182,
           "realm": 71
         },
         "heroic": {
@@ -1737,6 +2121,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -1799,15 +2190,32 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 13135,
+          "world": 13136,
           "region": 5256,
           "realm": 156
         },
         "heroic": {
-          "world": 12757,
-          "region": 4935,
+          "world": 12786,
+          "region": 4955,
           "realm": 166
         },
         "mythic": {
@@ -1840,6 +2248,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -1906,15 +2321,32 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 8825,
+          "world": 8826,
           "region": 3516,
           "realm": 18
         },
         "heroic": {
-          "world": 10483,
-          "region": 4106,
+          "world": 10518,
+          "region": 4131,
           "realm": 19
         },
         "mythic": {
@@ -1951,6 +2383,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -2008,9 +2447,26 @@
           "realm": 122
         },
         "mythic": {
-          "world": 3561,
-          "region": 1627,
-          "realm": 92
+          "world": 3582,
+          "region": 1642,
+          "realm": 91
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       },
       "the-venomous-abyss": {
@@ -2020,9 +2476,9 @@
           "realm": 132
         },
         "heroic": {
-          "world": 7949,
-          "region": 3228,
-          "realm": 135
+          "world": 7984,
+          "region": 3252,
+          "realm": 137
         },
         "mythic": {
           "world": 0,
@@ -2057,6 +2513,13 @@
         "summary": "1/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
         "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
@@ -2110,9 +2573,26 @@
           "realm": 12
         },
         "heroic": {
-          "world": 12672,
-          "region": 4940,
-          "realm": 265
+          "world": 12675,
+          "region": 4943,
+          "realm": 266
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         },
         "mythic": {
           "world": 0,
@@ -2122,14 +2602,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 8775,
+          "world": 8776,
           "region": 3467,
           "realm": 200
         },
         "heroic": {
-          "world": 10854,
-          "region": 4287,
-          "realm": 247
+          "world": 10892,
+          "region": 4315,
+          "realm": 248
         },
         "mythic": {
           "world": 0,
@@ -2161,6 +2641,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -2227,10 +2714,27 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 16089,
-          "region": 6293,
+          "world": 16093,
+          "region": 6294,
           "realm": 304
         },
         "heroic": {
@@ -2271,6 +2775,13 @@
         "summary": "1/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
         "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
@@ -2334,15 +2845,32 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
-          "world": 12125,
+          "world": 12126,
           "region": 4810,
           "realm": 264
         },
         "heroic": {
-          "world": 11482,
-          "region": 4543,
+          "world": 11517,
+          "region": 4569,
           "realm": 268
         },
         "mythic": {
@@ -2381,6 +2909,13 @@
         "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
       "the-venomous-abyss": {
         "summary": "0/8 N",
         "total_bosses": 8,
@@ -2392,7 +2927,7 @@
     "rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 17037,
+          "world": 17039,
           "region": 7216,
           "realm": 205
         },
@@ -2425,6 +2960,23 @@
         }
       },
       "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
         "normal": {
           "world": 0,
           "region": 0,
@@ -2482,6 +3034,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -2548,6 +3107,23 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 0,
@@ -2555,8 +3131,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 13741,
-          "region": 5277,
+          "world": 13764,
+          "region": 5294,
           "realm": 169
         },
         "mythic": {
@@ -2589,6 +3165,13 @@
         "mythic_bosses_killed": 0
       },
       "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
         "summary": "0/1 N",
         "total_bosses": 1,
         "normal_bosses_killed": 0,
@@ -2655,6 +3238,23 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 0,
@@ -2700,6 +3300,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -2762,6 +3369,23 @@
           "realm": 0
         }
       },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
       "the-venomous-abyss": {
         "normal": {
           "world": 6066,
@@ -2774,8 +3398,8 @@
           "realm": 55
         },
         "mythic": {
-          "world": 1902,
-          "region": 955,
+          "world": 1918,
+          "region": 966,
           "realm": 46
         }
       }
