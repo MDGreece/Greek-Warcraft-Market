@@ -14,7 +14,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-24T21:45:07.733Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:15:16.596Z",
+    "updatedAt": "2026-10-06T06:44:34.302Z",
     "guild": "Casuals with Standards",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Akãmé",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Ak%C3%A3m%C3%A9",
@@ -35,12 +35,12 @@
     "raidKills": 1,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-04T20:27:50.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:15:16.596Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:44:34.302Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "UNIQUE LEGACY",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "draenor-aundron",
@@ -57,7 +57,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:16:10.963Z",
+    "updatedAt": "2026-10-06T06:45:36.127Z",
     "guild": "Reclear",
     "raiderIoUrl": "https://raider.io/characters/eu/draenor/Aundron",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/draenor/Aundron",
@@ -78,13 +78,13 @@
     "raidKills": 4,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-05T15:12:12.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:16:10.963Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:45:36.127Z",
     "lastFailedUpdateAt": "2026-09-15T12:15:29.565Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Provatina",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-bork",
@@ -101,7 +101,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:17:06.475Z",
+    "updatedAt": "2026-10-06T06:46:37.981Z",
     "guild": "Eternally Condemned",
     "raiderIoUrl": "https://raider.io/characters/eu/twisting-nether/Bórk",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/twisting-nether/B%C3%B3rk",
@@ -122,13 +122,13 @@
     "raidKills": 8,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-02T22:00:57.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:17:06.475Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:46:37.981Z",
     "lastFailedUpdateAt": "2026-09-15T12:29:55.337Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Chillers",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "karazhan-cyprusangler",
@@ -145,7 +145,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-31T22:58:42.385Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:17:57.661Z",
+    "updatedAt": "2026-10-06T06:47:37.059Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/karazhan/Cyprusangler",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/karazhan/Cyprusangler",
@@ -166,12 +166,12 @@
     "raidKills": 3,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-09-30T17:39:12.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:17:57.661Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:47:37.059Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "T H E O R Y",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "silvermoon-diablalup",
@@ -193,7 +193,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
     "lastSeenInRosterAt": "2026-08-23T13:11:13.645Z",
-    "updatedAt": "2026-10-06T00:18:56.832Z",
+    "updatedAt": "2026-10-06T06:48:10.175Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Night Elf",
@@ -209,12 +209,12 @@
     "raiderIoUpdatedAt": "2026-10-04T21:14:15.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:18:56.832Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:48:10.175Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "tarrenmill-drakogiatros",
@@ -231,7 +231,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-09-19T19:33:02.099Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:19:18.531Z",
+    "updatedAt": "2026-10-06T06:48:30.876Z",
     "guild": "Vibranium Gaming",
     "raiderIoUrl": "https://raider.io/characters/eu/tarren-mill/Drakogiatros",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/tarren-mill/Drakogiatros",
@@ -252,12 +252,12 @@
     "raidKills": 2,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-03T07:47:04.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:19:18.531Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:48:30.876Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "kazzak-drnick",
@@ -274,7 +274,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:19:31.768Z",
+    "updatedAt": "2026-10-06T06:48:46.588Z",
     "guild": "Impasse",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Drnick",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Drnick",
@@ -295,13 +295,13 @@
     "raidKills": 8,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-05T23:11:59.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:19:31.768Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:48:46.588Z",
     "lastFailedUpdateAt": "2026-09-15T12:55:56.043Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "UNIQUE LEGACY",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "kazzak-elloon",
@@ -325,7 +325,7 @@
     "itemLevel": 326,
     "raidProgress": "4/8M",
     "achievement": "-",
-    "updatedAt": "2026-10-06T00:19:47.031Z",
+    "updatedAt": "2026-10-06T06:48:57.108Z",
     "dataStatus": "found",
     "updateError": "",
     "trackedGuild": "O M E G A",
@@ -339,13 +339,13 @@
     "raidKills": 4,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-02T12:35:00.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:19:47.031Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:48:57.108Z",
     "lastFailedUpdateAt": "2026-09-15T12:58:19.501Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "O M E G A",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-hellrodan",
@@ -362,7 +362,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:22:16.071Z",
+    "updatedAt": "2026-10-06T06:50:59.571Z",
     "guild": "Cadre",
     "raiderIoUrl": "https://raider.io/characters/eu/twisting-nether/Hellrodan",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/twisting-nether/Hellrodan",
@@ -383,12 +383,12 @@
     "raidKills": 4,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-05T00:50:10.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:22:16.071Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:50:59.571Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "stormscale-lignadiss",
@@ -405,7 +405,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:24:43.884Z",
+    "updatedAt": "2026-10-06T06:53:07.978Z",
     "guild": "The Repair Bill",
     "raiderIoUrl": "https://raider.io/characters/eu/stormscale/Lignadiss",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/stormscale/Lignadiss",
@@ -426,12 +426,12 @@
     "raidKills": 8,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-03T07:15:13.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:24:43.884Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:53:07.978Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-madmak",
@@ -453,7 +453,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:25:11.159Z",
+    "updatedAt": "2026-10-06T06:53:51.018Z",
     "trackedGuild": "O M E G A",
     "faction": "horde",
     "race": "Orc",
@@ -469,12 +469,12 @@
     "raiderIoUpdatedAt": "2026-10-05T19:20:28.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:25:11.159Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:53:51.018Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "O M E G A",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "tarrenmill-mainwen",
@@ -496,7 +496,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
     "lastSeenInRosterAt": "2026-08-31T14:18:28.931Z",
-    "updatedAt": "2026-10-06T00:25:16.058Z",
+    "updatedAt": "2026-10-06T06:53:59.968Z",
     "trackedGuild": "T H E O R Y",
     "faction": "horde",
     "race": "Blood Elf",
@@ -512,12 +512,12 @@
     "raiderIoUpdatedAt": "2026-10-05T20:08:12.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:25:16.058Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:53:59.968Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "T H E O R Y",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "draenor-necros",
@@ -539,7 +539,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:26:36.095Z",
+    "updatedAt": "2026-10-06T06:56:02.415Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "horde",
     "race": "Orc",
@@ -555,12 +555,12 @@
     "raiderIoUpdatedAt": "2026-10-04T21:14:15.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:26:36.095Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:56:02.415Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "bronzedragonflight-nimprethil",
@@ -577,7 +577,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-08-24T13:31:25.551Z",
-    "updatedAt": "2026-10-06T00:26:45.631Z",
+    "updatedAt": "2026-10-06T06:56:14.718Z",
     "guild": "Aurora XV",
     "raiderIoUrl": "https://raider.io/characters/eu/bronze-dragonflight/Nimprethil",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/bronze-dragonflight/Nimprethil",
@@ -598,12 +598,12 @@
     "raidKills": 8,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-01T17:40:17.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:26:45.631Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:56:14.718Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Dungeon Meta",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "ravencrest-urihill",
@@ -620,7 +620,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:27:36.099Z",
+    "updatedAt": "2026-10-06T06:56:51.759Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Øurihill",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/%C3%98urihill",
@@ -641,12 +641,12 @@
     "raidKills": 7,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-09-25T07:20:30.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:27:36.099Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:56:51.759Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "ravencrest-ourihillx",
@@ -663,7 +663,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-09-19T19:33:02.099Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:27:37.238Z",
+    "updatedAt": "2026-10-06T06:56:54.466Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Ourihillx",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Ourihillx",
@@ -684,12 +684,12 @@
     "raidKills": 2,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-01T19:10:53.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:27:37.238Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:56:54.466Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-pastillia",
@@ -711,7 +711,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:27:50.425Z",
+    "updatedAt": "2026-10-06T06:57:08.452Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Orc",
@@ -727,12 +727,12 @@
     "raiderIoUpdatedAt": "2026-09-16T18:04:56.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:27:50.425Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:57:08.452Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "silvermoon-restogenji",
@@ -749,7 +749,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-31T22:58:42.385Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:29:13.290Z",
+    "updatedAt": "2026-10-06T06:58:36.902Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Restogenji",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Restogenji",
@@ -771,12 +771,12 @@
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2017-01-19T00:00:00.000Z",
     "lastSuccessfulUpdateAt": "2026-09-17T12:06:06.547Z",
-    "lastFailedUpdateAt": "2026-10-06T00:29:13.290Z",
+    "lastFailedUpdateAt": "2026-10-06T06:58:36.902Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Chillers",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "ravencrest-sellian",
@@ -793,7 +793,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-04T17:50:01.592Z",
     "lastSeenInRosterAt": "2026-08-23T13:11:13.645Z",
-    "updatedAt": "2026-10-06T00:30:04.287Z",
+    "updatedAt": "2026-10-06T06:59:16.307Z",
     "guild": "Twilight Vengeance",
     "raiderIoUrl": "https://raider.io/characters/eu/ravencrest/Sellian",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/ravencrest/Sellian",
@@ -814,12 +814,12 @@
     "raidKills": 8,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-05T19:27:21.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:30:04.287Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:59:16.307Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Dungeon Meta",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-sindonnir",
@@ -836,7 +836,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-23T18:58:16.281Z",
     "lastSeenInRosterAt": "2026-09-19T16:00:31.768Z",
-    "updatedAt": "2026-10-06T00:30:52.297Z",
+    "updatedAt": "2026-10-06T06:59:56.892Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/twisting-nether/Sindonnir",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/twisting-nether/Sindonnir",
@@ -857,12 +857,12 @@
     "raidKills": 3,
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2026-10-04T12:27:13.000Z",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:30:52.297Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T06:59:56.892Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "You Are Not Repaired",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-stalitsa",
@@ -884,7 +884,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-03T20:13:05.261Z",
     "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-    "updatedAt": "2026-10-06T00:31:35.130Z",
+    "updatedAt": "2026-10-06T07:00:35.711Z",
     "trackedGuild": "Chillers",
     "faction": "horde",
     "race": "Blood Elf",
@@ -900,12 +900,12 @@
     "raiderIoUpdatedAt": "2026-10-05T16:15:45.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:31:35.130Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T07:00:35.711Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Chillers",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "twistingnether-swmatemporos",
@@ -927,7 +927,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:31:44.719Z",
+    "updatedAt": "2026-10-06T07:00:42.805Z",
     "trackedGuild": "Disobedient",
     "faction": "horde",
     "race": "Dracthyr",
@@ -943,12 +943,12 @@
     "raiderIoUpdatedAt": "2026-09-16T15:29:04.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:31:44.719Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T07:00:42.805Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "draenor-thanatos",
@@ -970,7 +970,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T14:09:18.254Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:32:12.462Z",
+    "updatedAt": "2026-10-06T07:01:06.804Z",
     "trackedGuild": "Disobedient",
     "faction": "alliance",
     "race": "Night Elf",
@@ -986,12 +986,12 @@
     "raiderIoUpdatedAt": "2026-10-04T21:14:14.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:32:12.462Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T07:01:06.804Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "ravencrest-voras",
@@ -1013,7 +1013,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-02T10:29:48.407Z",
     "lastSeenInRosterAt": "2026-08-23T13:11:13.645Z",
-    "updatedAt": "2026-10-06T00:33:22.507Z",
+    "updatedAt": "2026-10-06T07:02:07.410Z",
     "trackedGuild": "Disobedient Group III",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1029,12 +1029,12 @@
     "raiderIoUpdatedAt": "2026-10-04T04:47:20.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:33:22.507Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T07:02:07.410Z",
     "freeAgent": true,
     "freeAgentReason": "guild-not-on-greek-leaderboard",
     "previousTrackedGuild": "Disobedient Group III",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "tarrenmill-zaks",
@@ -1056,7 +1056,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-01T20:16:15.679Z",
     "lastSeenInRosterAt": "2026-08-14T19:29:27.260Z",
-    "updatedAt": "2026-10-06T00:34:07.091Z",
+    "updatedAt": "2026-10-06T07:02:44.139Z",
     "trackedGuild": "SOE Reborn",
     "faction": "alliance",
     "race": "Dwarf",
@@ -1072,12 +1072,12 @@
     "raiderIoUpdatedAt": "2026-10-01T15:28:51.000Z",
     "dataStatus": "found",
     "updateError": "",
-    "lastSuccessfulUpdateAt": "2026-10-06T00:34:07.091Z",
+    "lastSuccessfulUpdateAt": "2026-10-06T07:02:44.139Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "SOE Reborn",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   },
   {
     "id": "kazzak-zeromagus",
@@ -1094,7 +1094,7 @@
     "inCurrentRoster": false,
     "firstSeenAt": "2026-08-24T21:45:07.733Z",
     "lastSeenInRosterAt": "2026-08-31T14:18:28.931Z",
-    "updatedAt": "2026-10-06T00:34:18.358Z",
+    "updatedAt": "2026-10-06T07:02:58.180Z",
     "guild": "",
     "raiderIoUrl": "https://raider.io/characters/eu/kazzak/Zeromagus",
     "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/kazzak/Zeromagus",
@@ -1116,11 +1116,11 @@
     "raidTotalBosses": 8,
     "raiderIoUpdatedAt": "2017-01-19T00:00:00.000Z",
     "lastSuccessfulUpdateAt": "2026-09-22T05:26:44.672Z",
-    "lastFailedUpdateAt": "2026-10-06T00:34:18.358Z",
+    "lastFailedUpdateAt": "2026-10-06T07:02:58.180Z",
     "freeAgent": true,
     "freeAgentReason": "guildless",
     "previousTrackedGuild": "Chillers",
-    "freeAgentSince": "2026-10-06T00:34:23.986Z",
-    "freeAgentUpdatedAt": "2026-10-06T00:34:23.986Z"
+    "freeAgentSince": "2026-10-06T07:03:03.133Z",
+    "freeAgentUpdatedAt": "2026-10-06T07:03:03.133Z"
   }
 ]
