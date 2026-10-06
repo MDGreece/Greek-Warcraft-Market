@@ -26,7 +26,7 @@
         "itemLevel": 294,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-10-05T15:12:35.049Z",
+        "updatedAt": "2026-10-06T00:15:33.327Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-09-24T09:34:02.000Z",
-        "lastSuccessfulUpdateAt": "2026-10-05T15:12:35.049Z",
+        "lastSuccessfulUpdateAt": "2026-10-06T00:15:33.327Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -59,17 +59,17 @@
         "raidProgress": "4/8M",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
-        "rosterUpdatedAt": "2026-09-19T19:29:45.419Z",
+        "rosterUpdatedAt": "2026-10-05T22:00:52.856Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-10-05T15:09:53.575Z",
-        "updatedAt": "2026-10-05T15:12:41.784Z",
+        "lastSeenInRosterAt": "2026-10-06T00:14:52.970Z",
+        "updatedAt": "2026-10-06T00:15:39.257Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 35270,
-        "itemLevel": 324,
+        "itemLevel": 323.875,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-10-05T09:33:45.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-10-05T15:12:41.784Z"
+        "lastSuccessfulUpdateAt": "2026-10-06T00:15:39.257Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-10-05T15:24:41.941Z",
-    "updatedAt": "2026-10-05T15:24:41.941Z"
+    "createdAt": "2026-10-06T00:34:23.930Z",
+    "updatedAt": "2026-10-06T00:34:23.930Z"
   }
 ]
