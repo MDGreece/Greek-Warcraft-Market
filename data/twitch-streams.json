@@ -1,83 +1,88 @@
 {
-  "updatedAt": "2026-10-07T08:57:02.595Z",
+  "updatedAt": "2026-10-07T16:18:47.404Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318717703783",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "318719612135",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "ROGUE BUFFS , GOOD OR MEH?? !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 97,
-      "startedAt": "2026-10-07T08:36:41Z",
+      "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️ PREP FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
+      "viewerCount": 148,
+      "startedAt": "2026-10-07T13:07:35Z",
       "language": "en",
       "tags": [
         "English",
-        "rogue",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
         "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
+        "pve",
+        "wowforever",
+        "MMORPG"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318717188583",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
+      "id": "318914228582",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Season 2 King is Here Πρωινο Farm ελατε να αραξαμουμε με μουσικαρες",
-      "viewerCount": 19,
-      "startedAt": "2026-10-07T07:11:18Z",
+      "title": "My dad is bullying me | Midnight Expansion",
+      "viewerCount": 18,
+      "startedAt": "2026-10-07T15:20:28Z",
       "language": "el",
       "tags": [
-        "Greek",
-        "Dropsenabled",
         "English",
-        "Ελληνικα",
-        "fps",
-        "Warfare",
-        "suport",
-        "Ελληνικά"
+        "Ελληνικά",
+        "levelup"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
     },
     {
-      "id": "318910661478",
-      "userId": "46695153",
-      "userLogin": "xionistrasgr",
-      "userName": "xionistrasgr",
+      "id": "317960684771",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW Activities PvP / Raid / Farming",
-      "viewerCount": 1,
-      "startedAt": "2026-10-07T07:59:22Z",
-      "language": "en",
+      "title": "♾️NEW DUNGEON!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 4,
+      "startedAt": "2026-10-07T13:20:43Z",
+      "language": "el",
       "tags": [
-        "WorldofWarcaft",
-        "streamnow",
-        "pcgamer",
-        "pcgames",
-        "gamer",
-        "console",
-        "greek",
-        "Newgames",
-        "PC",
-        "English"
+        "Ελληνικά",
+        "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xionistrasgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/xionistrasgr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "317960684771",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️NEW DUNGEON!♾️ WOW FOREVER LETS GO!♾️",
+      "viewerCount": 4,
+      "startedAt": "2026-10-07T13:20:43Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
     }
   ]
 }
