@@ -1,33 +1,7 @@
 {
-  "updatedAt": "2026-10-06T23:00:49.621Z",
+  "updatedAt": "2026-10-07T02:19:42.205Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318714245991",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4028io 21-22s | Ανοιξα Στριμ για να δειτε FLOOR POV σε Μεγαλα Κλειδια Εξωπορτας |",
-      "viewerCount": 10,
-      "startedAt": "2026-10-06T20:44:12Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    }
-  ]
+  "streams": []
 }
