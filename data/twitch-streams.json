@@ -1,32 +1,33 @@
 {
-  "updatedAt": "2026-10-08T07:30:31.338Z",
+  "updatedAt": "2026-10-08T14:55:32.666Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318728089575",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
+      "id": "318868207461",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Season 2 King is Here Πρωινο Push day 4 gear ✅ Coffe ☕✅ Music 🎶 ✅ Let'ss Rideee",
-      "viewerCount": 21,
-      "startedAt": "2026-10-08T05:52:01Z",
-      "language": "el",
+      "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️ PREP FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
+      "viewerCount": 154,
+      "startedAt": "2026-10-08T09:43:41Z",
+      "language": "en",
       "tags": [
-        "Greek",
-        "Dropsenabled",
         "English",
-        "Ελληνικα",
-        "fps",
-        "Warfare",
-        "suport",
-        "Ελληνικά"
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
     }
   ]
 }
