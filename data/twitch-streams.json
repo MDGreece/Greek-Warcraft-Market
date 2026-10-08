@@ -1,7 +1,32 @@
 {
-  "updatedAt": "2026-10-08T01:12:16.115Z",
+  "updatedAt": "2026-10-08T07:30:31.338Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318728089575",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Season 2 King is Here Πρωινο Push day 4 gear ✅ Coffe ☕✅ Music 🎶 ✅ Let'ss Rideee",
+      "viewerCount": 21,
+      "startedAt": "2026-10-08T05:52:01Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "fps",
+        "Warfare",
+        "suport",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    }
+  ]
 }
