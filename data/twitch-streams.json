@@ -1,7 +1,80 @@
 {
-  "updatedAt": "2026-10-09T00:38:01.235Z",
+  "updatedAt": "2026-10-09T06:43:59.007Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318878109925",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Season 2  ο ΒΑΣΙΛΙΑ ΣΑΣ PUGING KEYS θα κανουμε  PUSH KEYS    day 4 gear ✅ Coffe ☕✅ Music 🎶 ✅ Let'ss Rideee",
+      "viewerCount": 10,
+      "startedAt": "2026-10-09T05:57:36Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "suport",
+        "Ελληνικά",
+        "MMORPG",
+        "WorldfofWarcraft",
+        "MythicPlus",
+        "drama"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318878013413",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Warcraft Forever Beta – Adventure in Azeroth ( DAY 12)",
+      "viewerCount": 1,
+      "startedAt": "2026-10-09T05:30:47Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "320580525662",
+      "userId": "151069962",
+      "userLogin": "ozzymadnius",
+      "userName": "Ozzymadnius",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🍜Let's Chill and Play some WoW🍜",
+      "viewerCount": 1,
+      "startedAt": "2026-10-09T05:52:48Z",
+      "language": "en",
+      "tags": [
+        "Greek",
+        "ADHD",
+        "RPG",
+        "Vtuber",
+        "English",
+        "Roleplay",
+        "MMORPG",
+        "WorldOfWarcraft",
+        "Classic",
+        "MistsOfPandaria"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ozzymadnius-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/ozzymadnius"
+    }
+  ]
 }
