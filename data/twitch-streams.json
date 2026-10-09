@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T13:50:51.615Z",
+  "updatedAt": "2026-10-09T19:19:39.373Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️LEGACY UNLOCKED FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
-      "viewerCount": 174,
+      "viewerCount": 181,
       "startedAt": "2026-10-09T09:25:38Z",
       "language": "en",
       "tags": [
@@ -30,22 +30,173 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "317978773347",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
+      "id": "318939788774",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "♾️ NEW DALARAN DUNGEON♾️LVL 30 ROGUE PVP♾️",
+      "title": "Γεια!",
+      "viewerCount": 24,
+      "startedAt": "2026-10-09T17:32:39Z",
+      "language": "el",
+      "tags": [
+        "18pluschannel",
+        "greek",
+        "MythicPlus",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "318939788774",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Γεια!",
+      "viewerCount": 24,
+      "startedAt": "2026-10-09T17:32:39Z",
+      "language": "el",
+      "tags": [
+        "18pluschannel",
+        "greek",
+        "MythicPlus",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "317969147620",
+      "userId": "17888361",
+      "userLogin": "sephbladesgaminggr",
+      "userName": "SephBladesGamingGR",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Coiled Altar HC progress kill??  - !commands !youtube",
+      "viewerCount": 12,
+      "startedAt": "2026-10-09T16:50:19Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "cyprus",
+        "coop",
+        "PvE",
+        "boomer",
+        "RPG",
+        "Ελληνικά",
+        "Karaflas",
+        "wow"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
+    },
+    {
+      "id": "318939220454",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Am I the problem? | Midnight Expansion",
+      "viewerCount": 10,
+      "startedAt": "2026-10-09T16:58:08Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "levelup"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "318746717799",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "THE SYNDICATE",
       "viewerCount": 5,
-      "startedAt": "2026-10-09T12:52:42Z",
+      "startedAt": "2026-10-09T17:31:27Z",
+      "language": "el",
+      "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+    },
+    {
+      "id": "318941373670",
+      "userId": "192297848",
+      "userLogin": "nimprethil",
+      "userName": "Nimprethil",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "World of Warcraft Forever - Beta 26 Days Pre Launch",
+      "viewerCount": 2,
+      "startedAt": "2026-10-09T19:02:35Z",
       "language": "el",
       "tags": [
         "Ελληνικά",
+        "WorldofWarcaft",
+        "English",
+        "worldofwarcraftforever"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nimprethil"
+    },
+    {
+      "id": "318940420198",
+      "userId": "501592583",
+      "userLogin": "biowow",
+      "userName": "biowow",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "forever beta",
+      "viewerCount": 2,
+      "startedAt": "2026-10-09T18:07:40Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Greek",
+        "Ελληνικά",
+        "Greece"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_biowow-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/biowow"
+    },
+    {
+      "id": "318885970533",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "no gear rogue trying pvp",
+      "viewerCount": 1,
+      "startedAt": "2026-10-09T19:07:49Z",
+      "language": "el",
+      "tags": [
+        "PVP",
+        "PVE",
+        "depresion",
+        "ExtractionShooter",
+        "fps",
+        "old",
+        "foreveralone",
+        "Ελληνικά",
+        "Επανάληψη",
         "greek"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
     }
   ]
 }
