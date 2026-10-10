@@ -1,77 +1,7 @@
 {
-  "updatedAt": "2026-10-09T23:21:23.253Z",
+  "updatedAt": "2026-10-10T02:35:11.152Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318942076518",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4028io 21-22s | Το Team Μαζευτηκε για μια ακομη γυρα Κλειδιων |",
-      "viewerCount": 18,
-      "startedAt": "2026-10-09T19:46:38Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318942076518",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4028io 21-22s | Το Team Μαζευτηκε για μια ακομη γυρα Κλειδιων |",
-      "viewerCount": 18,
-      "startedAt": "2026-10-09T19:46:38Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318943725158",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "S.S.D.D.",
-      "viewerCount": 1,
-      "startedAt": "2026-10-09T22:04:22Z",
-      "language": "el",
-      "tags": [
-        "MythicPlusKeys",
-        "Ελληνικά",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
-    }
-  ]
+  "streams": []
 }
