@@ -1,7 +1,129 @@
 {
-  "updatedAt": "2026-10-10T02:35:11.152Z",
+  "updatedAt": "2026-10-10T08:58:58.992Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318891581413",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "HIGHKEYSMAXXING !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 258,
+      "startedAt": "2026-10-10T08:22:55Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318890634085",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 Drops Enabled 📦>MULTICLASS GAMEPLAY< Morning Pugs >> Daily Crafts >> ETC !!",
+      "viewerCount": 5,
+      "startedAt": "2026-10-10T05:21:53Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Επανάληψη"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318890634085",
+      "userId": "41801202",
+      "userLogin": "maniacx95",
+      "userName": "MaNiaCx95",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "📦 Drops Enabled 📦>MULTICLASS GAMEPLAY< Morning Pugs >> Daily Crafts >> ETC !!",
+      "viewerCount": 5,
+      "startedAt": "2026-10-10T05:21:53Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Επανάληψη"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_maniacx95-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/maniacx95"
+    },
+    {
+      "id": "318891285989",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "☕ Morning coffee gaming - testing out stuff",
+      "viewerCount": 1,
+      "startedAt": "2026-10-10T07:39:24Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "english",
+        "drops",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
+    },
+    {
+      "id": "318891173349",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Warcraft Forever Beta – Adventure in Azeroth ( DAY 12)",
+      "viewerCount": 1,
+      "startedAt": "2026-10-10T07:19:11Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "318891285989",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "☕ Morning coffee gaming - testing out stuff",
+      "viewerCount": 1,
+      "startedAt": "2026-10-10T07:39:24Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "english",
+        "drops",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
+    }
+  ]
 }
