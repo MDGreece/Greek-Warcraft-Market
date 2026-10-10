@@ -1,34 +1,9 @@
 {
-  "updatedAt": "2026-10-10T15:14:04.501Z",
+  "updatedAt": "2026-10-10T19:20:41.159Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318891581413",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "HIGHKEYSMAXXING !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 265,
-      "startedAt": "2026-10-10T08:22:55Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "318894418021",
       "userId": "69183831",
@@ -37,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️LEGACY UNLOCKED FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
-      "viewerCount": 158,
+      "viewerCount": 149,
       "startedAt": "2026-10-10T13:16:39Z",
       "language": "en",
       "tags": [
@@ -55,108 +30,54 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318949419878",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "318897735653",
+      "userId": "38122142",
+      "userLogin": "baddream2",
+      "userName": "baddream2",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4028io 21-22s | Το Team Μαζευτηκε για μια ακομη γυρα Κλειδιων |",
-      "viewerCount": 20,
-      "startedAt": "2026-10-10T12:57:04Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318950066790",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "apalo lousimo",
-      "viewerCount": 16,
-      "startedAt": "2026-10-10T13:54:17Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "levelup"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
-    },
-    {
-      "id": "318755375463",
-      "userId": "92151154",
-      "userLogin": "bakayokoqq",
-      "userName": "Bakayokoqq",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Disobedient GRP3 Babangida/Bakayoko Pushing low keys on alt",
-      "viewerCount": 11,
-      "startedAt": "2026-10-10T10:46:41Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
-    },
-    {
-      "id": "318891285989",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "☕ Morning coffee gaming - testing out stuff",
-      "viewerCount": 3,
-      "startedAt": "2026-10-10T07:39:24Z",
+      "title": "Vashnik prog into kill into something",
+      "viewerCount": 2,
+      "startedAt": "2026-10-10T17:43:57Z",
       "language": "en",
       "tags": [
+        "English",
         "greek",
-        "english",
-        "drops",
-        "English"
+        "Rogue",
+        "Chinese中文",
+        "Rogue",
+        "gamer",
+        "uncle",
+        "bald"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baddream2-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/baddream2"
     },
     {
-      "id": "318757496167",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
+      "id": "318761250663",
+      "userId": "767953380",
+      "userLogin": "phantomx94",
+      "userName": "Phantomx94",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 1,
-      "startedAt": "2026-10-10T13:57:26Z",
-      "language": "de",
+      "title": "| ✌︎㋡  Assasin grind till 2.1 | 0 swipes |",
+      "viewerCount": 2,
+      "startedAt": "2026-10-10T18:16:59Z",
+      "language": "en",
       "tags": [
+        "English",
         "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
+        "Pvp",
+        "Ranked",
+        "Season2",
+        "Midnight",
+        "Blitz",
+        "Ratedbattlegrounds",
+        "Aion2",
+        "Mmo"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_phantomx94-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/phantomx94"
     }
   ]
 }
