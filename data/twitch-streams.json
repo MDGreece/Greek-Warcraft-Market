@@ -1,29 +1,99 @@
 {
-  "updatedAt": "2026-10-11T07:49:44.272Z",
+  "updatedAt": "2026-10-11T14:27:10.505Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "317997112931",
-      "userId": "999359775",
-      "userLogin": "loukasidtv",
-      "userName": "LoukasIDtv",
+      "id": "318908012901",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Περιμένω το World of Warcraft Forever PVP Server",
-      "viewerCount": 1,
-      "startedAt": "2026-10-11T07:08:53Z",
+      "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️LEGACY UNLOCKED FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
+      "viewerCount": 138,
+      "startedAt": "2026-10-11T14:00:40Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318907611877",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "soar throat is killing me, giatrosophia are welcome",
+      "viewerCount": 14,
+      "startedAt": "2026-10-11T13:28:51Z",
       "language": "el",
       "tags": [
-        "greek",
-        "greece",
-        "cyprus",
-        "english",
-        "Ελληνικά"
+        "English",
+        "Ελληνικά",
+        "levelup"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "318962555238",
+      "userId": "155671911",
+      "userLogin": "skplead_r",
+      "userName": "SkpleaD_R",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Chill Stream playing some WoW Forever Beta LvLing up getting ready for my hunter",
+      "viewerCount": 2,
+      "startedAt": "2026-10-11T12:45:57Z",
+      "language": "en",
+      "tags": [
+        "Ελληνικά",
+        "PC",
+        "fps",
+        "greek",
+        "English",
+        "gamer",
+        "Shooter",
+        "RPG"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_skplead_r-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/skplead_r"
+    },
+    {
+      "id": "318963529446",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 1,
+      "startedAt": "2026-10-11T13:59:26Z",
+      "language": "de",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
     }
   ]
 }
