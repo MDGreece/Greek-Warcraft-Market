@@ -1,60 +1,9 @@
 {
-  "updatedAt": "2026-10-10T22:50:20.757Z",
+  "updatedAt": "2026-10-11T01:38:29.740Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318894418021",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "LVL 30 WARLOCK DUEL TOURNAMENT♾️LEGACY UNLOCKED FULL BIS GRIND ♾️  ♾️ ✅!DROPS !rxp",
-      "viewerCount": 201,
-      "startedAt": "2026-10-10T13:16:39Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318899367653",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Παίζουμε ηλεκτρονικά παιχνίδια;",
-      "viewerCount": 23,
-      "startedAt": "2026-10-10T19:31:58Z",
-      "language": "el",
-      "tags": [
-        "BeginnerPlayers",
-        "AMA",
-        "Greece",
-        "Ελληνικά",
-        "ADHD",
-        "MMORPG",
-        "EndgameContent",
-        "English",
-        "AskMeAnyhting",
-        "Greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
-    },
     {
       "id": "318891285989",
       "userId": "43494331",
@@ -63,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Enjoying the fog",
-      "viewerCount": 3,
+      "viewerCount": 1,
       "startedAt": "2026-10-10T07:39:24Z",
       "language": "en",
       "tags": [
@@ -74,48 +23,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "318764395367",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 2,
-      "startedAt": "2026-10-10T22:11:13Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "317995434979",
-      "userId": "729769477",
-      "userLogin": "z0gra",
-      "userName": "z0gra",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "!Drops, WoW Ordo Hellenicus Guild",
-      "viewerCount": 1,
-      "startedAt": "2026-10-10T22:43:15Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "wow",
-        "wowstreamer"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/z0gra"
     }
   ]
 }
