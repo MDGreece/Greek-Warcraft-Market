@@ -1,28 +1,29 @@
 {
-  "updatedAt": "2026-10-11T01:38:29.740Z",
+  "updatedAt": "2026-10-11T07:49:44.272Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318891285989",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
+      "id": "317997112931",
+      "userId": "999359775",
+      "userLogin": "loukasidtv",
+      "userName": "LoukasIDtv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Enjoying the fog",
+      "title": "Περιμένω το World of Warcraft Forever PVP Server",
       "viewerCount": 1,
-      "startedAt": "2026-10-10T07:39:24Z",
-      "language": "en",
+      "startedAt": "2026-10-11T07:08:53Z",
+      "language": "el",
       "tags": [
         "greek",
+        "greece",
+        "cyprus",
         "english",
-        "drops",
-        "English"
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/loukasidtv"
     }
   ]
 }
