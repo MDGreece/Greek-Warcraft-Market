@@ -10,8 +10,8 @@
         "realm": "silvermoon",
         "region": "eu",
         "class": "Paladin",
-        "spec": "Holy",
-        "role": "healing",
+        "spec": "Protection",
+        "role": "tank",
         "guild": "Deny Everything",
         "raidGroup": "Deny Everything",
         "sourceGuildFile": "deny-everything.json",
@@ -23,24 +23,24 @@
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anad%C3%ADn",
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/201/206411465-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
         "mythicPlusScore": 530.5,
-        "itemLevel": 294,
+        "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-10-13T00:55:35.056Z",
+        "updatedAt": "2026-10-13T14:30:17.076Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Human",
         "gender": "female",
-        "achievementPoints": 35200,
+        "achievementPoints": 35280,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "",
         "raidKills": 0,
         "raidTotalBosses": 8,
-        "raiderIoUpdatedAt": "2026-09-24T09:34:02.000Z",
-        "lastSuccessfulUpdateAt": "2026-10-13T00:55:35.056Z",
+        "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
+        "lastSuccessfulUpdateAt": "2026-10-13T14:30:17.076Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,8 +62,8 @@
         "rosterUpdatedAt": "2026-10-05T22:00:52.856Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-10-13T00:54:57.478Z",
-        "updatedAt": "2026-10-13T00:55:40.937Z",
+        "lastSeenInRosterAt": "2026-10-13T14:29:12.972Z",
+        "updatedAt": "2026-10-13T14:30:22.426Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-10-08T22:11:11.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-10-13T00:55:40.937Z"
+        "lastSuccessfulUpdateAt": "2026-10-13T14:30:22.426Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-10-13T01:14:00.288Z",
-    "updatedAt": "2026-10-13T01:14:00.288Z"
+    "createdAt": "2026-10-13T15:05:44.456Z",
+    "updatedAt": "2026-10-13T15:05:44.456Z"
   }
 ]
