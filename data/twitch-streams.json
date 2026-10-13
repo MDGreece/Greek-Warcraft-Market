@@ -1,26 +1,58 @@
 {
-  "updatedAt": "2026-10-13T01:20:20.586Z",
+  "updatedAt": "2026-10-13T08:12:07.678Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318925754469",
-      "userId": "102886337",
-      "userLogin": "spinustv",
-      "userName": "SpinusTV",
+      "id": "318927767653",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "🔥ΕΝΑ ΚΛΕΙΔΙ ΝΑ ΒΓΕΙ ΝΑ ΧΑΡΩ ΚΑΙ ΕΓΩ🔥",
-      "viewerCount": 134,
-      "startedAt": "2026-10-12T22:50:02Z",
-      "language": "el",
+      "title": "LAST DAY OF SUPER LOW GEAR HIGH KEYS !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 95,
+      "startedAt": "2026-10-13T07:59:50Z",
+      "language": "en",
       "tags": [
-        "Ελληνικά",
-        "English"
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/spinustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318927767653",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "LAST DAY OF SUPER LOW GEAR HIGH KEYS !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 95,
+      "startedAt": "2026-10-13T07:59:50Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
     }
   ]
 }
