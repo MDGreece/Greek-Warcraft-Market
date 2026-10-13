@@ -1,136 +1,70 @@
 {
-  "updatedAt": "2026-10-13T16:06:30.896Z",
+  "updatedAt": "2026-10-13T21:12:54.702Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318987103462",
-      "userId": "161731907",
-      "userLogin": "andrikatsgames",
-      "userName": "AndriKatsGames",
+      "id": "318796384871",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Patch 12.1.5 HYPE! HAPPY NA LAUNCH DAY! Goldmaking for Bruto LET'S GOOO 🔥🔥",
-      "viewerCount": 6,
-      "startedAt": "2026-10-13T13:52:32Z",
-      "language": "en",
-      "tags": [
-        "wow",
-        "English",
-        "greek",
-        "Ελληνικά",
-        "casual",
-        "streamergirl",
-        "cozy",
-        "wow",
-        "wowretail",
-        "wowforever"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
-    },
-    {
-      "id": "318985796454",
-      "userId": "1379235840",
-      "userLogin": "monomachousx",
-      "userName": "monomachousx",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "“WoW Forever | Farm & Leveling | Chiling”",
-      "viewerCount": 3,
-      "startedAt": "2026-10-13T11:13:36Z",
-      "language": "el",
-      "tags": [
-        "Rust",
-        "fps",
-        "survival",
-        "PvP",
-        "Shooter",
-        "BaseBuilding",
-        "gaming",
-        "Action",
-        "latenight",
-        "greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monomachousx-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/monomachousx"
-    },
-    {
-      "id": "318987157222",
-      "userId": "1524103812",
-      "userLogin": "arc_gaming_gr",
-      "userName": "arc_gaming_gr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW Forever Beta",
-      "viewerCount": 3,
-      "startedAt": "2026-10-13T13:57:46Z",
+      "title": "[GR/EN] -Yuki- | 4047io 21-22s | Κλειδια με ομαδα που υποτιθεται αγαπιομαστε αναμεταξυ μας |",
+      "viewerCount": 14,
+      "startedAt": "2026-10-13T16:32:51Z",
       "language": "el",
       "tags": [
         "English",
+        "Competitive",
         "Ελληνικά",
-        "hearthstonebattlegrounds"
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_arc_gaming_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/arc_gaming_gr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "318987157222",
-      "userId": "1524103812",
-      "userLogin": "arc_gaming_gr",
-      "userName": "arc_gaming_gr",
+      "id": "318935012197",
+      "userId": "134219640",
+      "userLogin": "luxxord_tv",
+      "userName": "luxxord_tv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW Forever Beta",
-      "viewerCount": 3,
-      "startedAt": "2026-10-13T13:57:46Z",
+      "title": "AZEROTH SURVIVORS - NEW WOW ROGUELIKE GAME - FREE ON BROWSER",
+      "viewerCount": 10,
+      "startedAt": "2026-10-13T19:21:51Z",
       "language": "el",
       "tags": [
-        "English",
         "Ελληνικά",
-        "hearthstonebattlegrounds"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_arc_gaming_gr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/arc_gaming_gr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
     },
     {
-      "id": "318987692262",
-      "userId": "837871492",
-      "userLogin": "freevoltv",
-      "userName": "FreevolTv",
+      "id": "318798348519",
+      "userId": "92151154",
+      "userLogin": "bakayokoqq",
+      "userName": "Bakayokoqq",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "classic Era Hardcore Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-10-13T14:47:27Z",
+      "title": "Disobedient GRP3 Babangida/Bakayoko Twin Fangs Mythic",
+      "viewerCount": 2,
+      "startedAt": "2026-10-13T18:39:42Z",
       "language": "el",
       "tags": [
-        "English",
         "Ελληνικά",
-        "hardcore"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/freevoltv"
-    },
-    {
-      "id": "318987692262",
-      "userId": "837871492",
-      "userLogin": "freevoltv",
-      "userName": "FreevolTv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "classic Era Hardcore Hunter",
-      "viewerCount": 1,
-      "startedAt": "2026-10-13T14:47:27Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "hardcore"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/freevoltv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
     }
   ]
 }
