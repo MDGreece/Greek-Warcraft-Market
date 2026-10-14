@@ -26,7 +26,7 @@
         "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-10-14T17:30:32.111Z",
+        "updatedAt": "2026-10-14T21:53:46.496Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
-        "lastSuccessfulUpdateAt": "2026-10-14T17:30:32.111Z",
+        "lastSuccessfulUpdateAt": "2026-10-14T21:53:46.496Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,8 +62,8 @@
         "rosterUpdatedAt": "2026-10-05T22:00:52.856Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-10-14T17:29:40.708Z",
-        "updatedAt": "2026-10-14T17:30:36.100Z",
+        "lastSeenInRosterAt": "2026-10-14T21:53:00.819Z",
+        "updatedAt": "2026-10-14T21:53:51.890Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-10-08T22:11:11.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-10-14T17:30:36.100Z"
+        "lastSuccessfulUpdateAt": "2026-10-14T21:53:51.890Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-10-14T17:55:18.060Z",
-    "updatedAt": "2026-10-14T17:55:18.060Z"
+    "createdAt": "2026-10-14T22:18:18.754Z",
+    "updatedAt": "2026-10-14T22:18:18.754Z"
   }
 ]
