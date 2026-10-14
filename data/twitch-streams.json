@@ -1,28 +1,7 @@
 {
-  "updatedAt": "2026-10-14T00:21:51.866Z",
+  "updatedAt": "2026-10-14T05:13:44.213Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318024038499",
-      "userId": "729769477",
-      "userLogin": "z0gra",
-      "userName": "z0gra",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "!Drops, chill wow",
-      "viewerCount": 4,
-      "startedAt": "2026-10-13T20:43:13Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "wow",
-        "wowstreamer",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/z0gra"
-    }
-  ]
+  "streams": []
 }
