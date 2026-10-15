@@ -1,65 +1,7 @@
 {
-  "updatedAt": "2026-10-14T22:32:54.044Z",
+  "updatedAt": "2026-10-15T00:50:26.141Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318947968741",
-      "userId": "134219640",
-      "userLogin": "luxxord_tv",
-      "userName": "luxxord_tv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "IM ADDICTED - AZEROTH SURVIVORS - NEW WOW ROGUELIKE GAME",
-      "viewerCount": 7,
-      "startedAt": "2026-10-14T20:23:19Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
-    },
-    {
-      "id": "318947968741",
-      "userId": "134219640",
-      "userLogin": "luxxord_tv",
-      "userName": "luxxord_tv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "IM ADDICTED - AZEROTH SURVIVORS - NEW WOW ROGUELIKE GAME",
-      "viewerCount": 7,
-      "startedAt": "2026-10-14T20:23:19Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
-    },
-    {
-      "id": "319002996710",
-      "userId": "192297848",
-      "userLogin": "nimprethil",
-      "userName": "Nimprethil",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever - Beta 21 Days Pre Launch",
-      "viewerCount": 5,
-      "startedAt": "2026-10-14T18:59:00Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "WorldofWarcaft",
-        "English",
-        "worldofwarcraftforever",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nimprethil"
-    }
-  ]
+  "streams": []
 }
