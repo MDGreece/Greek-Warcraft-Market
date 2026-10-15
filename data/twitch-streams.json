@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-10-15T19:07:08.901Z",
+  "updatedAt": "2026-10-15T22:14:34.236Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318955166309",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[DROPS] NEW ROGUE BUILDS NEW META TRUST NO CAP !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 483,
-      "startedAt": "2026-10-15T15:41:57Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "319012998886",
       "userId": "166949280",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "MINI GreekCraft μετα το Raid",
-      "viewerCount": 42,
+      "viewerCount": 54,
       "startedAt": "2026-10-15T17:13:53Z",
       "language": "el",
       "tags": [
@@ -49,79 +23,6 @@
       "twitchUrl": "https://www.twitch.tv/jokersmiles"
     },
     {
-      "id": "318820243175",
-      "userId": "725239966",
-      "userLogin": "streil_",
-      "userName": "streil_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Δοκιμάζω για πρώτη φορά WoW Forever | BETA",
-      "viewerCount": 18,
-      "startedAt": "2026-10-15T17:01:19Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "Greece",
-        "Cyprus",
-        "wow",
-        "WorldfofWarcraft",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_streil_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/streil_"
-    },
-    {
-      "id": "318956002021",
-      "userId": "501386295",
-      "userLogin": "zaxstv",
-      "userName": "ZaxsTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Last Demo Lock in game - RETAIL PVP 3S",
-      "viewerCount": 16,
-      "startedAt": "2026-10-15T16:43:43Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PｖP",
-        "warlock",
-        "Arena",
-        "Demonology",
-        "greek",
-        "Retail",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/zaxstv"
-    },
-    {
-      "id": "318024697828",
-      "userId": "17888361",
-      "userLogin": "sephbladesgaminggr",
-      "userName": "SephBladesGamingGR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Full Labyrinth και Boomers!  - !commands !youtube",
-      "viewerCount": 16,
-      "startedAt": "2026-10-15T16:51:06Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "cyprus",
-        "coop",
-        "PvE",
-        "boomer",
-        "RPG",
-        "Ελληνικά",
-        "Karaflas",
-        "wow",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
-    },
-    {
       "id": "318954839525",
       "userId": "1349726258",
       "userLogin": "mal__ditto",
@@ -129,7 +30,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Is Devourer finally worth it? | Kante kafe exoume analisi",
-      "viewerCount": 11,
+      "viewerCount": 6,
       "startedAt": "2026-10-15T15:13:29Z",
       "language": "el",
       "tags": [
@@ -142,130 +43,24 @@
       "twitchUrl": "https://www.twitch.tv/mal__ditto"
     },
     {
-      "id": "318821026919",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
+      "id": "318042266979",
+      "userId": "729769477",
+      "userLogin": "z0gra",
+      "userName": "z0gra",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Φυλακόβιος ημέρα 1η",
-      "viewerCount": 10,
-      "startedAt": "2026-10-15T17:49:30Z",
-      "language": "el",
-      "tags": [
-        "BeginnerPlayers",
-        "AMA",
-        "Greece",
-        "Ελληνικά",
-        "ADHD",
-        "MMORPG",
-        "EndgameContent",
-        "English",
-        "AskMeAnyhting",
-        "Greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
-    },
-    {
-      "id": "318956238565",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DNG | ULATEK PROG ✅ NO DC ✅ BBC ✅ FULL FOCUS ✅",
-      "viewerCount": 9,
-      "startedAt": "2026-10-15T16:59:38Z",
+      "title": "!Drops, chill wow",
+      "viewerCount": 3,
+      "startedAt": "2026-10-15T20:51:09Z",
       "language": "el",
       "tags": [
         "Ελληνικά",
-        "greek",
-        "healing",
-        "evoker",
+        "wow",
+        "wowstreamer",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
-    },
-    {
-      "id": "319014821606",
-      "userId": "837871492",
-      "userLogin": "freevoltv",
-      "userName": "FreevolTv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "classic Era Hardcore Hunter!",
-      "viewerCount": 1,
-      "startedAt": "2026-10-15T19:03:49Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "hardcore",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/freevoltv"
-    },
-    {
-      "id": "318957847653",
-      "userId": "1551601373",
-      "userLogin": "kameno_pixel",
-      "userName": "kameno_pixel",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Σημερινό QUEST: Να φτάσω level10+ !",
-      "viewerCount": 1,
-      "startedAt": "2026-10-15T18:31:23Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "rpg",
-        "loot",
-        "pve",
-        "pvp",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kameno_pixel-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kameno_pixel"
-    },
-    {
-      "id": "318821586663",
-      "userId": "92151154",
-      "userLogin": "bakayokoqq",
-      "userName": "Bakayokoqq",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Disobedient GRP3 Babangida/Bakayoko Kithix into Mythic Coiled Altar",
-      "viewerCount": 1,
-      "startedAt": "2026-10-15T18:21:02Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakayokoqq-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bakayokoqq"
-    },
-    {
-      "id": "318039700195",
-      "userId": "31742358",
-      "userLogin": "kxursed_",
-      "userName": "kxursed_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
-      "viewerCount": 1,
-      "startedAt": "2026-10-15T17:27:30Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kxursed_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/z0gra"
     }
   ]
 }
