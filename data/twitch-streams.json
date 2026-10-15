@@ -1,7 +1,76 @@
 {
-  "updatedAt": "2026-10-15T05:39:08.576Z",
+  "updatedAt": "2026-10-15T10:19:33.587Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318951931365",
+      "userId": "65817736",
+      "userLogin": "vegagrc",
+      "userName": "VegaGRC",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "✅ !DROPS | ✨WoW Forever Beta | Handheld | Controller | Tryharding for 20lvl",
+      "viewerCount": 26,
+      "startedAt": "2026-10-15T09:32:59Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Ελληνικά",
+        "RPG",
+        "wow",
+        "Forever",
+        "Adventure",
+        "Leveling",
+        "RP",
+        "fivem",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vegagrc-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vegagrc"
+    },
+    {
+      "id": "319008016358",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Season 2  GreekWow King Day 10 Ξεκιναμε το πραγματικο M+ push τωρα ξεκιναει  πραγματα Γκραπαου   ✅ Coffe ☕✅ Music 🎶 ✅ Let'ss Rideee",
+      "viewerCount": 18,
+      "startedAt": "2026-10-15T09:10:38Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "suport",
+        "worldofwarcraft",
+        "tank",
+        "Mythicplus",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318814840167",
+      "userId": "109089803",
+      "userLogin": "xhellyox",
+      "userName": "xhellyox",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Azeroth Survivors",
+      "viewerCount": 4,
+      "startedAt": "2026-10-15T06:32:14Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xhellyox-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/xhellyox"
+    }
+  ]
 }
