@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T18:10:00.154Z",
+  "updatedAt": "2026-10-16T21:10:04.472Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "BIGGEST LAST MINUTE CHANGES DUEL TOURNAMENT TOMORROW WARLOCK♾️ ✅!DROPS !rxp",
-      "viewerCount": 329,
+      "viewerCount": 315,
       "startedAt": "2026-10-16T16:25:29Z",
       "language": "en",
       "tags": [
@@ -31,54 +31,6 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318048093283",
-      "userId": "17888361",
-      "userLogin": "sephbladesgaminggr",
-      "userName": "SephBladesGamingGR",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ula'tek!! Ula'tek!! Ula'tek!!  - !commands !youtube",
-      "viewerCount": 21,
-      "startedAt": "2026-10-16T17:22:20Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "cyprus",
-        "coop",
-        "PvE",
-        "boomer",
-        "RPG",
-        "Ελληνικά",
-        "Karaflas",
-        "wow",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
-    },
-    {
-      "id": "319025825254",
-      "userId": "126713901",
-      "userLogin": "vroxovatis",
-      "userName": "vroxovatis",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ahoy...(drops active)",
-      "viewerCount": 13,
-      "startedAt": "2026-10-16T17:29:21Z",
-      "language": "el",
-      "tags": [
-        "18pluschannel",
-        "greekstreamer",
-        "greek",
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "MythicPlusKeys"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vroxovatis"
-    },
-    {
       "id": "318968798821",
       "userId": "81696814",
       "userLogin": "tyrantfeller",
@@ -86,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[Drop]💥We Are Back | 19 Days for The Forever Release!!!!💥",
-      "viewerCount": 12,
+      "viewerCount": 9,
       "startedAt": "2026-10-16T17:19:30Z",
       "language": "el",
       "tags": [
@@ -102,85 +54,45 @@
       "twitchUrl": "https://www.twitch.tv/tyrantfeller"
     },
     {
-      "id": "318829534439",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
+      "id": "319027525350",
+      "userId": "192297848",
+      "userLogin": "nimprethil",
+      "userName": "Nimprethil",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW thriskeia disleksia",
-      "viewerCount": 6,
-      "startedAt": "2026-10-16T13:10:44Z",
+      "title": "World of Warcraft Forever - Beta 19 Days Pre Launch",
+      "viewerCount": 8,
+      "startedAt": "2026-10-16T18:56:54Z",
       "language": "el",
       "tags": [
+        "Ελληνικά",
+        "WorldofWarcaft",
         "English",
-        "Ελληνικά",
-        "levelup",
+        "worldofwarcraftforever",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nimprethil-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nimprethil"
     },
     {
-      "id": "318047961827",
-      "userId": "729769477",
-      "userLogin": "z0gra",
-      "userName": "z0gra",
+      "id": "318969995877",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "!Drops, chill wow",
-      "viewerCount": 3,
-      "startedAt": "2026-10-16T17:10:11Z",
+      "title": "THE SYNDICATE",
+      "viewerCount": 4,
+      "startedAt": "2026-10-16T18:21:00Z",
       "language": "el",
       "tags": [
+        "MythicPlusKeys",
         "Ελληνικά",
-        "wow",
-        "wowstreamer",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/z0gra"
-    },
-    {
-      "id": "318831118951",
-      "userId": "837871492",
-      "userLogin": "freevoltv",
-      "userName": "FreevolTv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Hardocore classic Hunter died",
-      "viewerCount": 2,
-      "startedAt": "2026-10-16T15:32:50Z",
-      "language": "el",
-      "tags": [
         "English",
-        "Ελληνικά",
-        "hardcore",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/freevoltv"
-    },
-    {
-      "id": "318017922274",
-      "userId": "999359775",
-      "userLogin": "loukasidtv",
-      "userName": "LoukasIDtv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Περιμένω το World of Warcraft Forever PVP Server",
-      "viewerCount": 2,
-      "startedAt": "2026-10-16T17:52:05Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "greece",
-        "cyprus",
-        "english",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_loukasidtv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/loukasidtv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
