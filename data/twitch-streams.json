@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-10-16T21:10:04.472Z",
+  "updatedAt": "2026-10-16T23:36:48.885Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318831808743",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
+      "id": "319030551270",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "BIGGEST LAST MINUTE CHANGES DUEL TOURNAMENT TOMORROW WARLOCK♾️ ✅!DROPS !rxp",
-      "viewerCount": 315,
-      "startedAt": "2026-10-16T16:25:29Z",
-      "language": "en",
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4075io 21-22s | Ναι ναι το Καθημερινο Radio Night Stream με κλειδια πρωτης παραγωγης |",
+      "viewerCount": 11,
+      "startedAt": "2026-10-16T22:40:10Z",
+      "language": "el",
       "tags": [
         "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
+        "Competitive",
+        "Ελληνικά",
         "MMORPG",
-        "DropsEnabled"
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
       "id": "318968798821",
@@ -38,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[Drop]💥We Are Back | 19 Days for The Forever Release!!!!💥",
-      "viewerCount": 9,
+      "viewerCount": 8,
       "startedAt": "2026-10-16T17:19:30Z",
       "language": "el",
       "tags": [
@@ -61,7 +61,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "World of Warcraft Forever - Beta 19 Days Pre Launch",
-      "viewerCount": 8,
+      "viewerCount": 6,
       "startedAt": "2026-10-16T18:56:54Z",
       "language": "el",
       "tags": [
@@ -75,15 +75,15 @@
       "twitchUrl": "https://www.twitch.tv/nimprethil"
     },
     {
-      "id": "318969995877",
+      "id": "318973645285",
       "userId": "121154475",
       "userLogin": "blindgeekiness",
       "userName": "BlindGeekiness",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "THE SYNDICATE",
-      "viewerCount": 4,
-      "startedAt": "2026-10-16T18:21:00Z",
+      "title": "PUG FEST",
+      "viewerCount": 1,
+      "startedAt": "2026-10-16T22:21:16Z",
       "language": "el",
       "tags": [
         "MythicPlusKeys",
