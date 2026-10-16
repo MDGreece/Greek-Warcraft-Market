@@ -26,7 +26,7 @@
         "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-10-16T11:48:37.423Z",
+        "updatedAt": "2026-10-16T16:52:44.550Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
-        "lastSuccessfulUpdateAt": "2026-10-16T11:48:37.423Z",
+        "lastSuccessfulUpdateAt": "2026-10-16T16:52:44.550Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,24 +62,24 @@
         "rosterUpdatedAt": "2026-10-05T22:00:52.856Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-10-16T11:47:27.248Z",
-        "updatedAt": "2026-10-16T11:49:01.814Z",
+        "lastSeenInRosterAt": "2026-10-16T16:52:05.653Z",
+        "updatedAt": "2026-10-16T16:52:54.565Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
-        "achievementPoints": 35280,
-        "itemLevel": 328.75,
+        "achievementPoints": 35315,
+        "itemLevel": 328,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
         "raidKills": 6,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-10-08T22:11:11.000Z",
+        "raiderIoUpdatedAt": "2026-10-16T15:47:30.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-10-16T11:49:01.814Z"
+        "lastSuccessfulUpdateAt": "2026-10-16T16:52:54.565Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-10-16T12:22:39.968Z",
-    "updatedAt": "2026-10-16T12:22:39.968Z"
+    "createdAt": "2026-10-16T17:20:54.627Z",
+    "updatedAt": "2026-10-16T17:20:54.627Z"
   }
 ]
