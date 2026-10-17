@@ -1,60 +1,7 @@
 {
-  "updatedAt": "2026-10-17T01:32:43.238Z",
+  "updatedAt": "2026-10-17T06:09:39.375Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "319030551270",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4076io 21-22s | Ναι ναι το Καθημερινο Radio Night Stream με κλειδια πρωτης παραγωγης |",
-      "viewerCount": 15,
-      "startedAt": "2026-10-16T22:40:10Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "319030551270",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4076io 21-22s | Ναι ναι το Καθημερινο Radio Night Stream με κλειδια πρωτης παραγωγης |",
-      "viewerCount": 15,
-      "startedAt": "2026-10-16T22:40:10Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    }
-  ]
+  "streams": []
 }
