@@ -1,54 +1,34 @@
 {
-  "updatedAt": "2026-10-17T21:31:29.189Z",
+  "updatedAt": "2026-10-17T23:24:17.872Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318982006501",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
+      "id": "318851111399",
+      "userId": "45818286",
+      "userLogin": "giorgosyuki",
+      "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "TOURNAMENT TIME WARLOCK ♾️ ✅!DROPS !rxp",
-      "viewerCount": 281,
-      "startedAt": "2026-10-17T16:13:58Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "318848305383",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "I was bored",
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4077io 21-22s | Θα βγαλουμε κανα Key σημερα? Μαλλον οχι | Your FAVOURITE DEPLET SHOW IS ON |",
       "viewerCount": 14,
-      "startedAt": "2026-10-17T19:09:02Z",
+      "startedAt": "2026-10-17T23:05:24Z",
       "language": "el",
       "tags": [
         "English",
+        "Competitive",
         "Ελληνικά",
-        "levelup",
+        "MMORPG",
+        "Educational",
+        "Warrior",
+        "fury",
+        "WorldofWarcaft",
+        "EarlyAccess",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
       "id": "319038457574",
@@ -58,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "💥We Are Back | 19 Days for The Forever Release!!!!💥",
-      "viewerCount": 13,
+      "viewerCount": 8,
       "startedAt": "2026-10-17T15:49:17Z",
       "language": "el",
       "tags": [
@@ -81,7 +61,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "TOURNY WATCH PARTY",
-      "viewerCount": 7,
+      "viewerCount": 3,
       "startedAt": "2026-10-17T09:53:38Z",
       "language": "en",
       "tags": [
@@ -92,54 +72,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "319037084646",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! live twitch 🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 3,
-      "startedAt": "2026-10-17T13:59:11Z",
-      "language": "de",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية",
-        "DropsAktiviert"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "318846507239",
-      "userId": "80446942",
-      "userLogin": "estorial_calderan",
-      "userName": "Estorial_Calderan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔴$100k Dueling Tournament WOW FOREVER PVP gaming later  -  #kloukliklo",
-      "viewerCount": 3,
-      "startedAt": "2026-10-17T17:22:00Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "Ελληνικά",
-        "Κλουκλίκλο",
-        "wow",
-        "wowforever",
-        "pvp",
-        "english",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_estorial_calderan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/estorial_calderan"
     },
     {
       "id": "318986412389",
