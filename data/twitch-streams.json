@@ -1,7 +1,54 @@
 {
-  "updatedAt": "2026-10-18T06:25:32.395Z",
+  "updatedAt": "2026-10-18T11:34:58.980Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "318853535335",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "SUB ROGUE IS GTA WITH 5 STARS , POLICE IS COMING !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 417,
+      "startedAt": "2026-10-18T08:11:41Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318853501671",
+      "userId": "117165318",
+      "userLogin": "blackjareth_gr",
+      "userName": "blackjareth_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "kalimera! balte kafe kai arakste!!",
+      "viewerCount": 29,
+      "startedAt": "2026-10-18T08:06:13Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "Ελληνικά",
+        "DropsEnabeled",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blackjareth_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blackjareth_gr"
+    }
+  ]
 }
