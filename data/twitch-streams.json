@@ -1,9 +1,54 @@
 {
-  "updatedAt": "2026-10-17T23:24:17.872Z",
+  "updatedAt": "2026-10-18T01:24:32.009Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "318988375013",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "TIEBREAKERS TOURNAMENT TIME WARLOCK ♾️ ✅!DROPS !rxp",
+      "viewerCount": 1001,
+      "startedAt": "2026-10-17T23:44:55Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318849070439",
+      "userId": "102886337",
+      "userLogin": "spinustv",
+      "userName": "SpinusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🔥NIGHT STREAM FIRST DATES KAI TROLLOGAMES 🔥",
+      "viewerCount": 195,
+      "startedAt": "2026-10-17T19:57:53Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/spinustv"
+    },
     {
       "id": "318851111399",
       "userId": "45818286",
@@ -11,8 +56,8 @@
       "userName": "giorgosyuki",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4077io 21-22s | Θα βγαλουμε κανα Key σημερα? Μαλλον οχι | Your FAVOURITE DEPLET SHOW IS ON |",
-      "viewerCount": 14,
+      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4092io 21-22s | Θα βγαλουμε κανα Key σημερα? Μαλλον οχι | Your FAVOURITE DEPLET SHOW IS ON |",
+      "viewerCount": 11,
       "startedAt": "2026-10-17T23:05:24Z",
       "language": "el",
       "tags": [
@@ -31,47 +76,24 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "319038457574",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
+      "id": "318848305383",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "💥We Are Back | 19 Days for The Forever Release!!!!💥",
-      "viewerCount": 8,
-      "startedAt": "2026-10-17T15:49:17Z",
+      "title": "I was bored",
+      "viewerCount": 6,
+      "startedAt": "2026-10-17T19:09:02Z",
       "language": "el",
       "tags": [
-        "Ελληνικά",
-        "Greece",
         "English",
-        "MMO",
-        "wow",
-        "wowforever",
+        "Ελληνικά",
+        "levelup",
         "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "319034400230",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "TOURNY WATCH PARTY",
-      "viewerCount": 3,
-      "startedAt": "2026-10-17T09:53:38Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
     },
     {
       "id": "318986412389",
@@ -81,7 +103,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "PUG FEST",
-      "viewerCount": 1,
+      "viewerCount": 2,
       "startedAt": "2026-10-17T20:30:37Z",
       "language": "el",
       "tags": [
