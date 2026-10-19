@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-19T04:27:04.253Z",
+  "updatedAt": "2026-10-19T10:11:40.034Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319003891173",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "24RESIL BEFORE SUB NERFS FRRR !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 339,
+      "startedAt": "2026-10-19T07:54:59Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319003280229",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Azeroth Survivors!",
+      "viewerCount": 2,
+      "startedAt": "2026-10-19T05:38:29Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    }
+  ]
 }
