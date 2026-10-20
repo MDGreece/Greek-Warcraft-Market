@@ -1,9 +1,81 @@
 {
-  "updatedAt": "2026-10-20T05:15:54.872Z",
+  "updatedAt": "2026-10-20T10:10:31.563Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "319073214054",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "24RESIL BEFORE SUB NERFS FRRR !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 472,
+      "startedAt": "2026-10-20T07:52:51Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319072871014",
+      "userId": "63832292",
+      "userLogin": "zaboulef",
+      "userName": "zaboulef",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "[EN/GR]One Last Coffee in Azeroth | Undead Paladin | WoW Forever Final Beta  team: @corinthiansclan",
+      "viewerCount": 36,
+      "startedAt": "2026-10-20T06:42:19Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaboulef-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zaboulef"
+    },
+    {
+      "id": "318877787495",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Drops on Season 2 3860 I.O Παμε Λιγο Το WOW CONTENT Σ",
+      "viewerCount": 15,
+      "startedAt": "2026-10-20T08:14:04Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "suport",
+        "worldofwarcraft",
+        "tank",
+        "Mythicplus",
+        "Marathon",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
     {
       "id": "319014967653",
       "userId": "112793047",
@@ -12,7 +84,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Azeroth Survivors 🔥Warcraft Survival",
-      "viewerCount": 0,
+      "viewerCount": 3,
       "startedAt": "2026-10-20T05:11:05Z",
       "language": "en",
       "tags": [
@@ -27,6 +99,26 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/corgideustv"
+    },
+    {
+      "id": "318878246375",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "PUG FEST",
+      "viewerCount": 0,
+      "startedAt": "2026-10-20T09:30:43Z",
+      "language": "el",
+      "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
