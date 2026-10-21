@@ -1,29 +1,34 @@
 {
-  "updatedAt": "2026-10-21T05:47:49.673Z",
+  "updatedAt": "2026-10-21T10:38:22.958Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "321892476377",
-      "userId": "276337840",
-      "userLogin": "greekwario",
-      "userName": "GreekWario",
+      "id": "319085218278",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "FULL CIRCLE CRASHOUT !Forever !foreverdiscord",
-      "viewerCount": 304,
-      "startedAt": "2026-10-20T21:01:30Z",
+      "title": "24RESIL BEFORE SUB NERFS FRRR !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 326,
+      "startedAt": "2026-10-21T08:07:26Z",
       "language": "en",
       "tags": [
         "English",
-        "Veteran",
+        "rogue",
         "greek",
-        "American",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
         "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_greekwario-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/greekwario"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
       "id": "318888647783",
@@ -33,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Chill Raid-Weeklies Season 2 3888 ResilIance 20 Jump to 21",
-      "viewerCount": 9,
+      "viewerCount": 20,
       "startedAt": "2026-10-21T04:13:00Z",
       "language": "el",
       "tags": [
@@ -50,6 +55,31 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "318890556391",
+      "userId": "78005788",
+      "userLogin": "holywakamole",
+      "userName": "holywakamole",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Back on the grind ! MM hunter might be out of meta but i will still dominate the meters!",
+      "viewerCount": 1,
+      "startedAt": "2026-10-21T10:24:42Z",
+      "language": "other",
+      "tags": [
+        "fun",
+        "greek",
+        "english",
+        "tryingout",
+        "comeback",
+        "ελλαδα",
+        "hunter",
+        "marksmanship",
+        "beastmaster"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_holywakamole-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/holywakamole"
     }
   ]
 }
