@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T10:38:22.958Z",
+  "updatedAt": "2026-10-21T15:37:35.058Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "24RESIL BEFORE SUB NERFS FRRR !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 326,
+      "viewerCount": 373,
       "startedAt": "2026-10-21T08:07:26Z",
       "language": "en",
       "tags": [
@@ -38,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Chill Raid-Weeklies Season 2 3888 ResilIance 20 Jump to 21",
-      "viewerCount": 20,
+      "viewerCount": 16,
       "startedAt": "2026-10-21T04:13:00Z",
       "language": "el",
       "tags": [
@@ -57,29 +57,92 @@
       "twitchUrl": "https://www.twitch.tv/k1llatvv"
     },
     {
-      "id": "318890556391",
-      "userId": "78005788",
-      "userLogin": "holywakamole",
-      "userName": "holywakamole",
+      "id": "319030508133",
+      "userId": "119372895",
+      "userLogin": "ralfkm7",
+      "userName": "RalfKm7",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Back on the grind ! MM hunter might be out of meta but i will still dominate the meters!",
-      "viewerCount": 1,
-      "startedAt": "2026-10-21T10:24:42Z",
-      "language": "other",
+      "title": "m+ resislop any +24? :D",
+      "viewerCount": 3,
+      "startedAt": "2026-10-21T13:49:06Z",
+      "language": "en",
       "tags": [
-        "fun",
+        "English",
+        "WorldfofWarcraft",
         "greek",
-        "english",
-        "tryingout",
-        "comeback",
-        "ελλαδα",
-        "hunter",
-        "marksmanship",
-        "beastmaster"
+        "wow",
+        "MythicPlus",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_holywakamole-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/holywakamole"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_ralfkm7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/ralfkm7"
+    },
+    {
+      "id": "319030211813",
+      "userId": "837871492",
+      "userLogin": "freevoltv",
+      "userName": "FreevolTv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Classic era hardcore hunter lvling!! Later we gonna try stress test on forever.",
+      "viewerCount": 2,
+      "startedAt": "2026-10-21T13:16:38Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hardcore",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/freevoltv"
+    },
+    {
+      "id": "319088771174",
+      "userId": "777030215",
+      "userLogin": "megnagun_",
+      "userName": "megnagun_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever Stress Test today !!Beta extended till Friday 23 !! 14 more days for release !!",
+      "viewerCount": 1,
+      "startedAt": "2026-10-21T15:02:59Z",
+      "language": "el",
+      "tags": [
+        "GreekStreamer",
+        "WoWClassic",
+        "PvE",
+        "PvP",
+        "Chill",
+        "SmallStreamer",
+        "Community",
+        "English",
+        "WoWForever",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/megnagun_"
+    },
+    {
+      "id": "318892319207",
+      "userId": "1524103812",
+      "userLogin": "arc_gaming_gr",
+      "userName": "arc_gaming_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever Beta",
+      "viewerCount": 1,
+      "startedAt": "2026-10-21T13:58:40Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hearthstonebattlegrounds",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_arc_gaming_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/arc_gaming_gr"
     }
   ]
 }
