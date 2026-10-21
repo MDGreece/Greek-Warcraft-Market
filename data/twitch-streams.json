@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T00:54:53.320Z",
+  "updatedAt": "2026-10-21T05:47:49.673Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -11,8 +11,8 @@
       "userName": "GreekWario",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "I CRASH OUT IN NAX -> HARDCORE !Forever !foreverdiscord",
-      "viewerCount": 281,
+      "title": "FULL CIRCLE CRASHOUT !Forever !foreverdiscord",
+      "viewerCount": 304,
       "startedAt": "2026-10-20T21:01:30Z",
       "language": "en",
       "tags": [
@@ -26,23 +26,30 @@
       "twitchUrl": "https://www.twitch.tv/greekwario"
     },
     {
-      "id": "318886201191",
-      "userId": "100644161",
-      "userLogin": "mikegoesface",
-      "userName": "Mikegoesface",
+      "id": "318888647783",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WOW SURVIVAL",
-      "viewerCount": 99,
-      "startedAt": "2026-10-20T20:47:52Z",
+      "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Chill Raid-Weeklies Season 2 3888 ResilIance 20 Jump to 21",
+      "viewerCount": 9,
+      "startedAt": "2026-10-21T04:13:00Z",
       "language": "el",
       "tags": [
-        "greek",
-        "greece",
-        "fps"
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "suport",
+        "worldofwarcraft",
+        "tank",
+        "Mythicplus",
+        "Marathon",
+        "Ελληνικά"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mikegoesface"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
     }
   ]
 }
