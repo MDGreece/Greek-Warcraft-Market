@@ -1,81 +1,48 @@
 {
-  "updatedAt": "2026-10-20T22:31:32.397Z",
+  "updatedAt": "2026-10-21T00:54:53.320Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318885704551",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
+      "id": "321892476377",
+      "userId": "276337840",
+      "userLogin": "greekwario",
+      "userName": "GreekWario",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4124io 21-23s | Το καλυτερο Physical Group στο τετραγωνο ειναι εδω με Keys | Your Favourite Deplet show ON |",
-      "viewerCount": 12,
-      "startedAt": "2026-10-20T20:03:37Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "318091417059",
-      "userId": "109021076",
-      "userLogin": "chris_rnr",
-      "userName": "Chris_rnr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW Classic",
-      "viewerCount": 2,
-      "startedAt": "2026-10-20T22:16:44Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "Warrior",
-        "Protection",
-        "Warcraft",
-        "Midnight",
-        "WoW",
-        "WorldofWarcraft",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "Horde"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chris_rnr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chris_rnr"
-    },
-    {
-      "id": "317704023031",
-      "userId": "118464086",
-      "userLogin": "sg_world",
-      "userName": "SG_World",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "farming mc x4",
-      "viewerCount": 2,
-      "startedAt": "2026-10-20T21:46:27Z",
+      "title": "I CRASH OUT IN NAX -> HARDCORE !Forever !foreverdiscord",
+      "viewerCount": 281,
+      "startedAt": "2026-10-20T21:01:30Z",
       "language": "en",
       "tags": [
-        "greek",
-        "jazz",
-        "relaxing",
         "English",
+        "Veteran",
+        "greek",
+        "American",
         "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sg_world-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/sg_world"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_greekwario-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/greekwario"
+    },
+    {
+      "id": "318886201191",
+      "userId": "100644161",
+      "userLogin": "mikegoesface",
+      "userName": "Mikegoesface",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WOW SURVIVAL",
+      "viewerCount": 99,
+      "startedAt": "2026-10-20T20:47:52Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "fps"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mikegoesface"
     }
   ]
 }
