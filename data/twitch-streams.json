@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:38:30.007Z",
+  "updatedAt": "2026-10-22T16:01:48.741Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "23RESIL PUGMASTER PLAYING HIGH KEYS !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 337,
+      "viewerCount": 336,
       "startedAt": "2026-10-22T07:52:42Z",
       "language": "en",
       "tags": [
@@ -31,54 +31,112 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "319097312742",
-      "userId": "1100010133",
-      "userLogin": "k1llatvv",
-      "userName": "k1llatvv",
+      "id": "319042351845",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Farm Venoms  Season 2 3888 ResilIance 20 Jump to 21",
-      "viewerCount": 20,
-      "startedAt": "2026-10-22T08:07:57Z",
+      "title": "Let's VAULT about this | We will be back on Monday.",
+      "viewerCount": 16,
+      "startedAt": "2026-10-22T12:37:11Z",
       "language": "el",
       "tags": [
-        "Greek",
-        "Dropsenabled",
         "English",
-        "Ελληνικα",
-        "suport",
-        "worldofwarcraft",
-        "tank",
-        "Mythicplus",
-        "Marathon",
-        "Ελληνικά"
+        "Ελληνικά",
+        "levelup",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
     },
     {
-      "id": "319040385381",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "319043817445",
+      "userId": "777030215",
+      "userLogin": "megnagun_",
+      "userName": "megnagun_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Azeroth Survivors 🔥Warcraft Survival",
+      "title": "WoW TBC Anniversary until Forever launch. 13 More days. Welcome.",
+      "viewerCount": 3,
+      "startedAt": "2026-10-22T14:57:26Z",
+      "language": "el",
+      "tags": [
+        "GreekStreamer",
+        "WoWClassic",
+        "PvE",
+        "PvP",
+        "Chill",
+        "SmallStreamer",
+        "Community",
+        "English",
+        "WoWForever",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/megnagun_"
+    },
+    {
+      "id": "319101426278",
+      "userId": "837871492",
+      "userLogin": "freevoltv",
+      "userName": "FreevolTv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Are you gonna play forever?  Faction/class??",
       "viewerCount": 1,
-      "startedAt": "2026-10-22T08:35:42Z",
+      "startedAt": "2026-10-22T15:35:48Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hardcore",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/freevoltv"
+    },
+    {
+      "id": "319100998886",
+      "userId": "1524103812",
+      "userLogin": "arc_gaming_gr",
+      "userName": "arc_gaming_gr",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever Beta",
+      "viewerCount": 1,
+      "startedAt": "2026-10-22T15:03:47Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hearthstonebattlegrounds",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_arc_gaming_gr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/arc_gaming_gr"
+    },
+    {
+      "id": "318104666595",
+      "userId": "507744448",
+      "userLogin": "mastercc92",
+      "userName": "mastercc92",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever Hype!  !Drops Just chilling come over say hi",
+      "viewerCount": 0,
+      "startedAt": "2026-10-22T15:14:45Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "DropsEnabled",
-        "warcraft",
-        "worldofwarcraft",
-        "wow"
+        "Veterangamer",
+        "greek",
+        "chattingwithviewers",
+        "MMORPGOpenWorld",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mastercc92-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mastercc92"
     }
   ]
 }
