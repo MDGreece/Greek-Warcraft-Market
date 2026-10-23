@@ -1,32 +1,89 @@
 {
-  "updatedAt": "2026-10-23T06:30:34.043Z",
+  "updatedAt": "2026-10-23T12:04:49.961Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318912020199",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "318912840039",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Azeroth Survivors 🔥Warcraft Survival",
-      "viewerCount": 1,
-      "startedAt": "2026-10-23T04:59:36Z",
+      "title": "23RESIL GAMING , ROGUE NERFS TODAY MAYBE PROPABLY UNFORTUNATELY !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 308,
+      "startedAt": "2026-10-23T08:03:14Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "DropsEnabled",
-        "warcraft",
-        "worldofwarcraft",
-        "wow"
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319053632613",
+      "userId": "162966481",
+      "userLogin": "xacaciax",
+      "userName": "xacaciax",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "{GR} WoW Retail - Η μεγάλη επιστροφή!",
+      "viewerCount": 9,
+      "startedAt": "2026-10-23T11:12:45Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xacaciax-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/xacaciax"
+    },
+    {
+      "id": "318083235426",
+      "userId": "65821261",
+      "userLogin": "darklline",
+      "userName": "Darklline",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Some monk keys.. :) turbo boosted",
+      "viewerCount": 2,
+      "startedAt": "2026-10-23T12:02:17Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_darklline-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/darklline"
+    },
+    {
+      "id": "318914572519",
+      "userId": "515148151",
+      "userLogin": "singsongwow",
+      "userName": "SingSongWoW",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "?",
+      "viewerCount": 1,
+      "startedAt": "2026-10-23T11:47:39Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_singsongwow-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/singsongwow"
     }
   ]
 }
