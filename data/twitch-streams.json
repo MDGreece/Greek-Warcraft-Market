@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-10-23T17:01:03.352Z",
+  "updatedAt": "2026-10-23T20:24:40.410Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "318912840039",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "23RESIL GAMING , ROGUE NERFS TODAY MAYBE PROPABLY UNFORTUNATELY !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 362,
-      "startedAt": "2026-10-23T08:03:14Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
     {
       "id": "318917110759",
       "userId": "69183831",
@@ -38,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Warlock WoW Forever PvP / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
-      "viewerCount": 203,
+      "viewerCount": 296,
       "startedAt": "2026-10-23T15:28:12Z",
       "language": "en",
       "tags": [
@@ -57,58 +31,6 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "319055038309",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4163io 22-23s | 23 Resil this week prob maybe not who knows ? | ΚΛΕΙΔΙΑ ΜΕ ΤΗΝ ΣΦΟΥΓΓΑΡΙΣΤΡΑ |",
-      "viewerCount": 25,
-      "startedAt": "2026-10-23T13:43:25Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "319113967078",
-      "userId": "161731907",
-      "userLogin": "andrikatsgames",
-      "userName": "AndriKatsGames",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🥳 !DROPS WoW Forever Beta ENDS TODAY! 🥲😭 Fun Shenanigans Are Happening Though!",
-      "viewerCount": 13,
-      "startedAt": "2026-10-23T14:37:32Z",
-      "language": "en",
-      "tags": [
-        "wow",
-        "English",
-        "greek",
-        "Ελληνικά",
-        "casual",
-        "streamergirl",
-        "cozy",
-        "wow",
-        "wowforever",
-        "wowretial"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
-    },
-    {
       "id": "319114901990",
       "userId": "777030215",
       "userLogin": "megnagun_",
@@ -116,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "WoW TBC Anniversary until Forever launch. 12 more days. Welcome !!",
-      "viewerCount": 1,
+      "viewerCount": 15,
       "startedAt": "2026-10-23T15:46:13Z",
       "language": "el",
       "tags": [
