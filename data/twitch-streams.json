@@ -1,7 +1,146 @@
 {
-  "updatedAt": "2026-10-24T06:59:01.414Z",
+  "updatedAt": "2026-10-24T11:56:50.672Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319065392101",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "THEY CAN NERF THE CLASS , but NOT THE PLAYER , MASTERPLAN TO NOT BE NERFED HERE FIRST !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 610,
+      "startedAt": "2026-10-24T07:22:16Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319065764197",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Ticket day",
+      "viewerCount": 23,
+      "startedAt": "2026-10-24T08:20:45Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
+    {
+      "id": "318927802215",
+      "userId": "1100010133",
+      "userLogin": "k1llatvv",
+      "userName": "k1llatvv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "ΚΙΛΛΑ \" THE OLYMPIOUS GOD Βραδινο  Season 2 3888 ResilIance 20 Jump to 21",
+      "viewerCount": 11,
+      "startedAt": "2026-10-24T11:20:27Z",
+      "language": "el",
+      "tags": [
+        "Greek",
+        "Dropsenabled",
+        "English",
+        "Ελληνικα",
+        "suport",
+        "worldofwarcraft",
+        "tank",
+        "Mythicplus",
+        "Marathon",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_k1llatvv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/k1llatvv"
+    },
+    {
+      "id": "319124860774",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "☕ WoW Hardcore | Morning Chill & Leveling | Forever Waiting Room [ENG/GR]",
+      "viewerCount": 5,
+      "startedAt": "2026-10-24T09:05:39Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "english",
+        "drops",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
+    },
+    {
+      "id": "318927982055",
+      "userId": "837871492",
+      "userLogin": "freevoltv",
+      "userName": "FreevolTv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Are you gonna play forever?  Faction/class??",
+      "viewerCount": 1,
+      "startedAt": "2026-10-24T11:36:12Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hardcore",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/freevoltv"
+    },
+    {
+      "id": "318927982055",
+      "userId": "837871492",
+      "userLogin": "freevoltv",
+      "userName": "FreevolTv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Are you gonna play forever?  Faction/class??",
+      "viewerCount": 1,
+      "startedAt": "2026-10-24T11:36:12Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hardcore",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/freevoltv"
+    }
+  ]
 }
