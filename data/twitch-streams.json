@@ -1,34 +1,7 @@
 {
-  "updatedAt": "2026-10-23T23:21:05.619Z",
+  "updatedAt": "2026-10-24T01:50:55.122Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "318917110759",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Warlock WoW Forever PvP / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
-      "viewerCount": 170,
-      "startedAt": "2026-10-23T15:28:12Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    }
-  ]
+  "streams": []
 }
