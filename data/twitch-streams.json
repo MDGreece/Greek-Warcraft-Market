@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-10-24T21:05:03.332Z",
+  "updatedAt": "2026-10-24T23:08:31.206Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
+    {
+      "id": "320979588320",
+      "userId": "729769477",
+      "userLogin": "z0gra",
+      "userName": "z0gra",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!Drops, chill wow",
+      "viewerCount": 4,
+      "startedAt": "2026-10-24T22:00:27Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "wow",
+        "wowstreamer",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/z0gra"
+    },
     {
       "id": "318936245607",
       "userId": "121154475",
@@ -12,7 +32,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "S.S.D.D.",
-      "viewerCount": 2,
+      "viewerCount": 1,
       "startedAt": "2026-10-24T20:48:52Z",
       "language": "el",
       "tags": [
