@@ -1,150 +1,28 @@
 {
-  "updatedAt": "2026-10-24T18:23:16.148Z",
+  "updatedAt": "2026-10-24T21:05:03.332Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "319065392101",
-      "userId": "85310009",
-      "userLogin": "casualaddict_",
-      "userName": "Casualaddict_",
+      "id": "318936245607",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "THEY CAN NERF THE CLASS , but NOT THE PLAYER , MASTERPLAN TO NOT BE NERFED HERE FIRST !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 533,
-      "startedAt": "2026-10-24T07:22:16Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "rogue",
-        "greek",
-        "mmorpg",
-        "WorldfofWarcraft",
-        "drops",
-        "Radio",
-        "music",
-        "musicplaylist",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/casualaddict_"
-    },
-    {
-      "id": "318931698535",
-      "userId": "69183831",
-      "userLogin": "jazggz",
-      "userName": "Jazggz",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Warlock WoW Forever PvP / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
-      "viewerCount": 331,
-      "startedAt": "2026-10-24T16:02:38Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "PvP",
-        "Arena",
-        "WoW",
-        "Warlock",
-        "greek",
-        "pve",
-        "wowforever",
-        "MMORPG",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jazggz"
-    },
-    {
-      "id": "319124860774",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "☕ WoW Hardcore | Morning Chill & Leveling | Forever Waiting Room [ENG/GR]",
-      "viewerCount": 7,
-      "startedAt": "2026-10-24T09:05:39Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "319124860774",
-      "userId": "43494331",
-      "userLogin": "fasolid",
-      "userName": "fasolid",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "☕ WoW Hardcore | Morning Chill & Leveling | Forever Waiting Room [ENG/GR]",
-      "viewerCount": 7,
-      "startedAt": "2026-10-24T09:05:39Z",
-      "language": "en",
-      "tags": [
-        "greek",
-        "english",
-        "drops",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/fasolid"
-    },
-    {
-      "id": "318098021602",
-      "userId": "109021076",
-      "userLogin": "chris_rnr",
-      "userName": "Chris_rnr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Warcraft Classic Warrior",
+      "title": "S.S.D.D.",
       "viewerCount": 2,
-      "startedAt": "2026-10-24T17:49:26Z",
+      "startedAt": "2026-10-24T20:48:52Z",
       "language": "el",
       "tags": [
+        "MythicPlusKeys",
         "Ελληνικά",
-        "greek",
-        "Warrior",
-        "Warcraft",
-        "WoW",
-        "WorldofWarcraft",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "Horde",
-        "WarcraftClassic"
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chris_rnr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chris_rnr"
-    },
-    {
-      "id": "318098021602",
-      "userId": "109021076",
-      "userLogin": "chris_rnr",
-      "userName": "Chris_rnr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Warcraft Classic Warrior",
-      "viewerCount": 2,
-      "startedAt": "2026-10-24T17:49:26Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "Warrior",
-        "Warcraft",
-        "WoW",
-        "WorldofWarcraft",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "Horde",
-        "WarcraftClassic"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_chris_rnr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/chris_rnr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
     }
   ]
 }
