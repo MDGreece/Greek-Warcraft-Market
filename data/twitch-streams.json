@@ -1,90 +1,10 @@
 {
-  "updatedAt": "2026-10-25T21:06:10.606Z",
+  "updatedAt": "2026-10-25T23:13:32.384Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318947493863",
-      "userId": "171979357",
-      "userLogin": "nekyontwitch",
-      "userName": "NekyOnTwitch",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DNG | Ulatek - Maybe p3's shmera?",
-      "viewerCount": 32,
-      "startedAt": "2026-10-25T18:00:16Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "healing",
-        "evoker",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
-    },
-    {
-      "id": "319083088101",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔥 Hardcore Μέχρι το Forever 🔥 PvE Horde GR Guild recruitment",
-      "viewerCount": 16,
-      "startedAt": "2026-10-25T13:53:43Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "Greece",
-        "English",
-        "MMO",
-        "wow",
-        "wowforever",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "319088455909",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> 6/8M! Prison Day 7!",
-      "viewerCount": 11,
-      "startedAt": "2026-10-25T19:26:40Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
-    },
-    {
-      "id": "319088455909",
-      "userId": "26278072",
-      "userLogin": "etheriel7",
-      "userName": "etheriel7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/ENG] <Provatina> 6/8M! Prison Day 7!",
-      "viewerCount": 11,
-      "startedAt": "2026-10-25T19:26:40Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_etheriel7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/etheriel7"
-    },
-    {
       "id": "319089476709",
       "userId": "134219640",
       "userLogin": "luxxord_tv",
@@ -92,127 +12,63 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "AZEROTH SURVIVORS BABYYYY - BACK WITH COOP MODE",
-      "viewerCount": 10,
-      "startedAt": "2026-10-25T20:43:46Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
-    },
-    {
-      "id": "319089476709",
-      "userId": "134219640",
-      "userLogin": "luxxord_tv",
-      "userName": "luxxord_tv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "AZEROTH SURVIVORS BABYYYY - BACK WITH COOP MODE",
-      "viewerCount": 10,
-      "startedAt": "2026-10-25T20:43:46Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
-    },
-    {
-      "id": "318944561639",
-      "userId": "80446942",
-      "userLogin": "estorial_calderan",
-      "userName": "Estorial_Calderan",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔴Azeroth Survivors Forever until WOW FOREVER  !discord -  #kloukliklo",
-      "viewerCount": 6,
-      "startedAt": "2026-10-25T15:00:33Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "Ελληνικά",
-        "Κλουκλίκλο",
-        "english",
-        "absolum",
-        "azerothsurvivors",
-        "Halloween",
-        "trickortreat"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_estorial_calderan-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/estorial_calderan"
-    },
-    {
-      "id": "318110131554",
-      "userId": "31742358",
-      "userLogin": "kxursed_",
-      "userName": "kxursed_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
       "viewerCount": 4,
-      "startedAt": "2026-10-25T18:35:58Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kxursed_"
-    },
-    {
-      "id": "319147022310",
-      "userId": "71084836",
-      "userLogin": "athlios",
-      "userName": "Athlios",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GK | Kholyo nooooooo | LET'S GO",
-      "viewerCount": 2,
-      "startedAt": "2026-10-25T20:32:56Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "greek",
-        "drops",
-        "wow",
-        "druid",
-        "DrpsEnabled",
-        "MythicPlus",
-        "Keys",
-        "Raiding",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_athlios-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/athlios"
-    },
-    {
-      "id": "318949389543",
-      "userId": "109021076",
-      "userLogin": "skullcrushlive",
-      "userName": "SkullcrushLive",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Warcraft Classic Warrior",
-      "viewerCount": 2,
-      "startedAt": "2026-10-25T19:49:30Z",
+      "startedAt": "2026-10-25T20:43:46Z",
       "language": "el",
       "tags": [
         "Ελληνικά",
-        "greek",
-        "Warrior",
-        "Warcraft",
-        "WoW",
-        "WorldofWarcraft",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "Horde",
-        "WarcraftClassic"
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_skullcrushlive-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/skullcrushlive"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
+    },
+    {
+      "id": "319144295654",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 2,
+      "startedAt": "2026-10-25T17:29:24Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
+    },
+    {
+      "id": "319144295654",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 2,
+      "startedAt": "2026-10-25T17:29:24Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
     }
   ]
 }
