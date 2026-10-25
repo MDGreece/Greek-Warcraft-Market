@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:01:01.271Z",
+  "updatedAt": "2026-10-25T18:22:34.333Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "NERF ON ROGUE IS IRRELEVANT IT DOES NOTHING , THANK ME LATER !!! !rogue !misery !coaching !ui !bleedaddon",
-      "viewerCount": 452,
+      "viewerCount": 394,
       "startedAt": "2026-10-25T09:03:04Z",
       "language": "en",
       "tags": [
@@ -31,58 +31,6 @@
       "twitchUrl": "https://www.twitch.tv/casualaddict_"
     },
     {
-      "id": "319141510118",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Cloudy sundays",
-      "viewerCount": 15,
-      "startedAt": "2026-10-25T14:05:49Z",
-      "language": "el",
-      "tags": [
-        "BeginnerPlayers",
-        "AMA",
-        "Greece",
-        "Ελληνικά",
-        "ADHD",
-        "MMORPG",
-        "EndgameContent",
-        "English",
-        "AskMeAnyhting",
-        "Greek"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
-    },
-    {
-      "id": "318943814887",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DROPS ON!!! [GR/EN] -Yuki- | 4192io 22-23s | 23 Resil this week prob maybe not who knows ? | Short Stream |",
-      "viewerCount": 12,
-      "startedAt": "2026-10-25T14:06:13Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
       "id": "319083088101",
       "userId": "81696814",
       "userLogin": "tyrantfeller",
@@ -90,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "🔥 Hardcore Μέχρι το Forever 🔥 PvE Horde GR Guild recruitment",
-      "viewerCount": 10,
+      "viewerCount": 16,
       "startedAt": "2026-10-25T13:53:43Z",
       "language": "el",
       "tags": [
@@ -106,30 +54,96 @@
       "twitchUrl": "https://www.twitch.tv/tyrantfeller"
     },
     {
-      "id": "318944320103",
-      "userId": "777030215",
-      "userLogin": "megnagun_",
-      "userName": "megnagun_",
+      "id": "318136769507",
+      "userId": "17888361",
+      "userLogin": "sephbladesgaminggr",
+      "userName": "SephBladesGamingGR",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW Forever waiting room.TBC Anniversary until Forever launch. 10 more days. Welcome !!",
-      "viewerCount": 4,
-      "startedAt": "2026-10-25T14:44:16Z",
+      "title": "Social Raid!  - !commands !youtube",
+      "viewerCount": 12,
+      "startedAt": "2026-10-25T17:51:27Z",
       "language": "el",
       "tags": [
-        "GreekStreamer",
-        "WoWClassic",
+        "greek",
+        "cyprus",
+        "coop",
         "PvE",
-        "PvP",
-        "Chill",
-        "SmallStreamer",
-        "Community",
-        "English",
-        "WoWForever",
-        "Ελληνικά"
+        "boomer",
+        "RPG",
+        "Ελληνικά",
+        "Karaflas",
+        "wow",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/megnagun_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sephbladesgaminggr-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sephbladesgaminggr"
+    },
+    {
+      "id": "318947493863",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Ulatek - Maybe p3's shmera?",
+      "viewerCount": 10,
+      "startedAt": "2026-10-25T18:00:16Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+    },
+    {
+      "id": "318947493863",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Ulatek - Maybe p3's shmera?",
+      "viewerCount": 10,
+      "startedAt": "2026-10-25T18:00:16Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+    },
+    {
+      "id": "319144295654",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 2,
+      "startedAt": "2026-10-25T17:29:24Z",
+      "language": "ru",
+      "tags": [
+        "Ελληνικά",
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "DropsAktiviert"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
     },
     {
       "id": "319137757158",
@@ -156,6 +170,45 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrplivestream-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/mrplivestream"
+    },
+    {
+      "id": "319143973606",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "S.S.D.D.",
+      "viewerCount": 2,
+      "startedAt": "2026-10-25T17:06:59Z",
+      "language": "el",
+      "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+    },
+    {
+      "id": "318119550308",
+      "userId": "60534455",
+      "userLogin": "athinoss",
+      "userName": "Athinoss",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Chill Gaming",
+      "viewerCount": 1,
+      "startedAt": "2026-10-25T08:11:32Z",
+      "language": "el",
+      "tags": [
+        "GR",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_athinoss-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/athinoss"
     }
   ]
 }
