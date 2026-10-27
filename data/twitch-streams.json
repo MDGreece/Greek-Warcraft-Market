@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T14:23:49.908Z",
+  "updatedAt": "2026-10-27T19:33:14.586Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -11,8 +11,8 @@
       "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Warlock PvP WoW Forever Waiting room| R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
-      "viewerCount": 1735,
+      "title": "!foreverhype to enter giveaway Warlock PvP WoW Forever Waiting room| R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 1082,
       "startedAt": "2026-10-27T09:53:54Z",
       "language": "en",
       "tags": [
@@ -31,60 +31,14 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "318968060007",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Mesimeriani Skoupa",
-      "viewerCount": 18,
-      "startedAt": "2026-10-27T12:42:07Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "levelup",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
-    },
-    {
-      "id": "319165353958",
-      "userId": "161731907",
-      "userLogin": "andrikatsgames",
-      "userName": "AndriKatsGames",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🥳 !DROPS Goldmaking for Bruto! 3/5M",
-      "viewerCount": 18,
-      "startedAt": "2026-10-27T13:38:36Z",
-      "language": "en",
-      "tags": [
-        "wow",
-        "English",
-        "greek",
-        "Ελληνικά",
-        "casual",
-        "streamergirl",
-        "cozy",
-        "wow",
-        "wowforever",
-        "wowretial"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
-    },
-    {
       "id": "318126871522",
       "userId": "465449515",
       "userLogin": "mrsteve_tv",
       "userName": "MrSteve_TV",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "♾️World of Warcraft HARDCORE!♾️ NAME RESERVATION ΣΤΙΣ 19:00!",
-      "viewerCount": 9,
+      "title": "♾️NAME RESERVATION WOW FOREVER♾️",
+      "viewerCount": 40,
       "startedAt": "2026-10-27T13:07:10Z",
       "language": "el",
       "tags": [
@@ -94,6 +48,75 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
+    },
+    {
+      "id": "318971212007",
+      "userId": "81696814",
+      "userLogin": "tyrantfeller",
+      "userName": "Tyrantfeller",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🔥 Hardcore Μέχρι το Forever 🔥 PvE Horde GR Guild recruitment",
+      "viewerCount": 22,
+      "startedAt": "2026-10-27T17:02:43Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Greece",
+        "English",
+        "MMO",
+        "wow",
+        "wowforever",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
+    },
+    {
+      "id": "319109383653",
+      "userId": "777030215",
+      "userLogin": "megnagun_",
+      "userName": "megnagun_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever waiting room.TBC Anniversary until Forever launch. 8 more days. Welcome !!",
+      "viewerCount": 6,
+      "startedAt": "2026-10-27T17:24:52Z",
+      "language": "el",
+      "tags": [
+        "GreekStreamer",
+        "WoWClassic",
+        "PvE",
+        "PvP",
+        "Chill",
+        "SmallStreamer",
+        "Community",
+        "English",
+        "WoWForever",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/megnagun_"
+    },
+    {
+      "id": "319168058470",
+      "userId": "207837864",
+      "userLogin": "karl3tos",
+      "userName": "karl3tos",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW & Chill | GR/EN",
+      "viewerCount": 2,
+      "startedAt": "2026-10-27T17:33:49Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "GreekGamer",
+        "Ελληνικά",
+        "ChillandChaotic"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_karl3tos-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/karl3tos"
     }
   ]
 }
