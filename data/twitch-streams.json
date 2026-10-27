@@ -1,32 +1,99 @@
 {
-  "updatedAt": "2026-10-27T08:00:14.462Z",
+  "updatedAt": "2026-10-27T14:23:49.908Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "318965391975",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "319163679462",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Azeroth Survivors 🔥Warcraft Survival",
-      "viewerCount": 3,
-      "startedAt": "2026-10-27T05:17:04Z",
+      "title": "Warlock PvP WoW Forever Waiting room| R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 1735,
+      "startedAt": "2026-10-27T09:53:54Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "DropsEnabled",
-        "warcraft",
-        "worldofwarcraft",
-        "wow"
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "318968060007",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Mesimeriani Skoupa",
+      "viewerCount": 18,
+      "startedAt": "2026-10-27T12:42:07Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "levelup",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "319165353958",
+      "userId": "161731907",
+      "userLogin": "andrikatsgames",
+      "userName": "AndriKatsGames",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🥳 !DROPS Goldmaking for Bruto! 3/5M",
+      "viewerCount": 18,
+      "startedAt": "2026-10-27T13:38:36Z",
+      "language": "en",
+      "tags": [
+        "wow",
+        "English",
+        "greek",
+        "Ελληνικά",
+        "casual",
+        "streamergirl",
+        "cozy",
+        "wow",
+        "wowforever",
+        "wowretial"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_andrikatsgames-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/andrikatsgames"
+    },
+    {
+      "id": "318126871522",
+      "userId": "465449515",
+      "userLogin": "mrsteve_tv",
+      "userName": "MrSteve_TV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️World of Warcraft HARDCORE!♾️ NAME RESERVATION ΣΤΙΣ 19:00!",
+      "viewerCount": 9,
+      "startedAt": "2026-10-27T13:07:10Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
     }
   ]
 }
