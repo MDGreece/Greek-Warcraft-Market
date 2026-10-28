@@ -26,7 +26,7 @@
         "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-10-27T22:30:35.041Z",
+        "updatedAt": "2026-10-28T06:06:40.945Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
-        "lastSuccessfulUpdateAt": "2026-10-27T22:30:35.041Z",
+        "lastSuccessfulUpdateAt": "2026-10-28T06:06:40.945Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,13 +62,13 @@
         "rosterUpdatedAt": "2026-10-05T22:00:52.856Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-10-27T22:30:10.488Z",
-        "updatedAt": "2026-10-27T22:30:38.330Z",
+        "lastSeenInRosterAt": "2026-10-28T06:06:11.404Z",
+        "updatedAt": "2026-10-28T06:06:44.230Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
-        "achievementPoints": 35345,
+        "achievementPoints": 35350,
         "itemLevel": 331.625,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
@@ -76,10 +76,10 @@
         "raidKills": 6,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-10-26T14:30:55.000Z",
+        "raiderIoUpdatedAt": "2026-10-27T22:46:06.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-10-27T22:30:38.330Z"
+        "lastSuccessfulUpdateAt": "2026-10-28T06:06:44.230Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-10-27T22:45:00.444Z",
-    "updatedAt": "2026-10-27T22:45:00.444Z"
+    "createdAt": "2026-10-28T06:20:57.279Z",
+    "updatedAt": "2026-10-28T06:20:57.279Z"
   }
 ]
