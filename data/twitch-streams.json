@@ -1,75 +1,7 @@
 {
-  "updatedAt": "2026-10-27T23:08:52.539Z",
+  "updatedAt": "2026-10-28T02:14:31.307Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "319170219366",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4208io 22-23s | Doing some Keys with the bois |",
-      "viewerCount": 18,
-      "startedAt": "2026-10-27T19:54:48Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    },
-    {
-      "id": "319171736806",
-      "userId": "162966481",
-      "userLogin": "xacaciax",
-      "userName": "xacaciax",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "{GR} WoW Retail - Χαλαρά wow Late night stream.",
-      "viewerCount": 5,
-      "startedAt": "2026-10-27T22:11:39Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xacaciax-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/xacaciax"
-    },
-    {
-      "id": "318976579175",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 1,
-      "startedAt": "2026-10-27T22:11:10Z",
-      "language": "ru",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    }
-  ]
+  "streams": []
 }
