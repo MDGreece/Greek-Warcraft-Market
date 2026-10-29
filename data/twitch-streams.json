@@ -1,32 +1,100 @@
 {
-  "updatedAt": "2026-10-29T06:15:50.908Z",
+  "updatedAt": "2026-10-29T13:19:33.603Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "319186175078",
-      "userId": "112793047",
-      "userLogin": "corgideustv",
-      "userName": "CorgideusTV",
+      "id": "319187221734",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Azeroth Survivors 🔥Warcraft Survival",
-      "viewerCount": 2,
-      "startedAt": "2026-10-29T05:58:33Z",
+      "title": "ROGUE ISNT NERFED , BACK FROM 2DAY ROGUE NERF BOOTCAMP TO SHOW YOU THE WAY !!! !rogue !misery !coaching !ui !bleedaddon",
+      "viewerCount": 579,
+      "startedAt": "2026-10-29T09:30:04Z",
       "language": "en",
       "tags": [
-        "greek",
         "English",
-        "Englísh",
-        "Ελληνικά",
-        "DropsEnabled",
-        "warcraft",
-        "worldofwarcraft",
-        "wow"
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/corgideustv"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "318994114023",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "!wowforever ♾️ WoW Forever Waiting room | R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 186,
+      "startedAt": "2026-10-29T12:10:48Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "319129987813",
+      "userId": "837871492",
+      "userLogin": "freevoltv",
+      "userName": "FreevolTv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Druid HC classic era farming",
+      "viewerCount": 1,
+      "startedAt": "2026-10-29T13:05:16Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "hardcore",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_freevoltv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/freevoltv"
+    },
+    {
+      "id": "318994376935",
+      "userId": "1388609591",
+      "userLogin": "erebus_xrtc",
+      "userName": "Erebus_xrtc",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Leveling  -- (Forever Waiting Room)",
+      "viewerCount": 1,
+      "startedAt": "2026-10-29T12:42:19Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "hardcore",
+        "mmorpg",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_erebus_xrtc-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/erebus_xrtc"
     }
   ]
 }
