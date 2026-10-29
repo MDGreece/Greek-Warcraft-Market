@@ -38,8 +38,8 @@
       "GR": "11"
     },
     "The Venomous Abyss": {
-      "progress": "7/8 H",
-      "WR": "6743",
+      "progress": "3/8 M",
+      "WR": "3965",
       "GR": "-"
     }
   },
@@ -64,21 +64,28 @@
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Guardian",
-        "reports": 11
+        "reports": 10
+      },
+      {
+        "name": "Nahimoki",
+        "realm": "Silvermoon",
+        "class": "Monk",
+        "spec": "Brewmaster",
+        "reports": 1
       },
       {
         "name": "Therolir",
         "realm": "Sylvanas",
         "class": "Druid",
         "spec": "Guardian",
-        "reports": 4
+        "reports": 3
       },
       {
         "name": "Zerkosmk",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 9
+        "reports": 7
       }
     ],
     "healers": [
@@ -88,13 +95,6 @@
         "class": "Evoker",
         "spec": "Preservation",
         "reports": 5
-      },
-      {
-        "name": "Boomsakala",
-        "realm": "Silvermoon",
-        "class": "Monk",
-        "spec": "Mistweaver",
-        "reports": 1
       },
       {
         "name": "Erimitis",
@@ -115,14 +115,14 @@
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 6
+        "reports": 5
       },
       {
         "name": "Jisalia",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 5
+        "reports": 7
       },
       {
         "name": "Mojontin",
@@ -136,7 +136,7 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 10
+        "reports": 7
       },
       {
         "name": "Plutonas",
@@ -157,7 +157,14 @@
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 3
+        "reports": 2
+      },
+      {
+        "name": "Xartinos",
+        "realm": "Ragnaros",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 1
       }
     ],
     "dps": [
@@ -166,28 +173,35 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 10
+        "reports": 9
       },
       {
         "name": "Akeginu",
         "realm": "Kazzak",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 11
+        "reports": 9
       },
       {
         "name": "Asimaroth",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 8
+        "reports": 5
+      },
+      {
+        "name": "Bhalrik",
+        "realm": "Sylvanas",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 1
       },
       {
         "name": "Cptkrix",
         "realm": "Kazzak",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Davellaros",
@@ -201,42 +215,63 @@
         "realm": "Kazzak",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 5
+        "reports": 1
+      },
+      {
+        "name": "Elraywar",
+        "realm": "Kazzak",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 1
       },
       {
         "name": "Faemon",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 9
+        "reports": 6
       },
       {
         "name": "Goldgun",
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 1
-      },
-      {
-        "name": "Grimhold",
-        "realm": "Silvermoon",
-        "class": "DemonHunter",
-        "spec": "Havoc",
-        "reports": 10
+        "reports": 2
       },
       {
         "name": "Heavyshade",
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 8
+        "reports": 6
+      },
+      {
+        "name": "Hypnagogia",
+        "realm": "Silvermoon",
+        "class": "DemonHunter",
+        "spec": "Havoc",
+        "reports": 2
+      },
+      {
+        "name": "Izú",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 2
       },
       {
         "name": "Katsvela",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 9
+        "reports": 8
+      },
+      {
+        "name": "Lockcaps",
+        "realm": "Kazzak",
+        "class": "Warlock",
+        "spec": "Demonology",
+        "reports": 1
       },
       {
         "name": "Manarileme",
@@ -250,7 +285,7 @@
         "realm": "Ravenholdt",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Mythbreaker",
@@ -264,14 +299,14 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "BeastMastery",
-        "reports": 7
+        "reports": 8
       },
       {
         "name": "Proikismenos",
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 10
+        "reports": 9
       },
       {
         "name": "Rãmpage",
@@ -285,14 +320,14 @@
         "realm": "Silvermoon",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 12
+        "reports": 10
       },
       {
         "name": "Remedious",
         "realm": "ArgentDawn",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 10
+        "reports": 9
       },
       {
         "name": "Sakisafro",
@@ -313,34 +348,34 @@
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 15
+        "reports": 12
       },
       {
         "name": "Skilcapp",
         "realm": "Magtheridon",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 1
+        "reports": 5
       },
       {
         "name": "Suselakos",
         "realm": "Sylvanas",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 5
+        "reports": 7
       },
       {
-        "name": "Umberhulk",
-        "realm": "Kazzak",
-        "class": "Hunter",
-        "spec": "BeastMastery",
-        "reports": 1
+        "name": "Thraxpanx",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 2
       },
       {
-        "name": "Xamelleon",
+        "name": "Vouturobebes",
         "realm": "Silvermoon",
-        "class": "Druid",
-        "spec": "Balance",
+        "class": "Hunter",
+        "spec": "Survival",
         "reports": 1
       },
       {
@@ -348,21 +383,14 @@
         "realm": "Ravenholdt",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 8
+        "reports": 7
       },
       {
         "name": "Yakionigiri",
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 7
-      },
-      {
-        "name": "Ypnaras",
-        "realm": "TarrenMill",
-        "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 1
+        "reports": 6
       }
     ]
   },
@@ -370,16 +398,16 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-10-05T22:00:06.574Z"
+    "lastUpdated": "2026-10-29T17:27:40.443Z"
   },
-  "rosterUpdatedAt": "2026-10-05T22:00:34.099Z",
+  "rosterUpdatedAt": "2026-10-29T17:28:09.066Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 713880,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 856,
+    "verifiedGuildMembers": 860,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Chillers"
   }

@@ -38,33 +38,26 @@
       "GR": "9"
     },
     "The Venomous Abyss": {
-      "progress": "3/8 M",
-      "WR": "2760",
+      "progress": "5/8 M",
+      "WR": "2398",
       "GR": "-"
     }
   },
   "roster": {
     "tanks": [
       {
-        "name": "Dimpala",
-        "realm": "TwistingNether",
-        "class": "Paladin",
-        "spec": "Protection",
-        "reports": 1
-      },
-      {
-        "name": "Iridadr",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Guardian",
-        "reports": 1
-      },
-      {
         "name": "Noodlegrip",
         "realm": "Ravencrest",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 17
+        "reports": 14
+      },
+      {
+        "name": "Phenrix",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 1
       },
       {
         "name": "Pinwfix",
@@ -79,7 +72,7 @@
         "name": "Darthveigar",
         "realm": "TwistingNether",
         "class": "Priest",
-        "spec": "Holy",
+        "spec": "Discipline",
         "reports": 1
       },
       {
@@ -94,14 +87,14 @@
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 13
+        "reports": 11
       },
       {
         "name": "Epifanios",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 17
+        "reports": 15
       },
       {
         "name": "Filtráki",
@@ -122,7 +115,7 @@
         "realm": "TarrenMill",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 17
+        "reports": 15
       }
     ],
     "dps": [
@@ -131,28 +124,28 @@
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 11
+        "reports": 4
       },
       {
         "name": "Deathbagua",
         "realm": "TarrenMill",
         "class": "DeathKnight",
         "spec": "Frost",
-        "reports": 1
+        "reports": 3
       },
       {
         "name": "Démian",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Draksíe",
         "realm": "TarrenMill",
         "class": "Hunter",
         "spec": "Survival",
-        "reports": 14
+        "reports": 7
       },
       {
         "name": "Elfhron",
@@ -162,18 +155,32 @@
         "reports": 14
       },
       {
+        "name": "Elfhron",
+        "realm": "Kazzak",
+        "class": "Warrior",
+        "spec": "Fury",
+        "reports": 2
+      },
+      {
         "name": "Falgidron",
         "realm": "Ragnaros",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 7
+        "reports": 12
       },
       {
         "name": "Fenrix",
         "realm": "TarrenMill",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 17
+        "reports": 14
+      },
+      {
+        "name": "Gnuke",
+        "realm": "Draenor",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 1
       },
       {
         "name": "Gothdor",
@@ -194,42 +201,56 @@
         "realm": "Sylvanas",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 5
+        "reports": 3
       },
       {
         "name": "Kardasi",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 16
+        "reports": 14
+      },
+      {
+        "name": "Kavladxd",
+        "realm": "TarrenMill",
+        "class": "Paladin",
+        "spec": "Retribution",
+        "reports": 3
       },
       {
         "name": "Koftisdh",
         "realm": "TarrenMill",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 17
+        "reports": 13
       },
       {
         "name": "Mendorxd",
         "realm": "TarrenMill",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Metabatt",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 17
+        "reports": 15
       },
       {
         "name": "Mokinha",
         "realm": "Silvermoon",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 13
+        "reports": 11
+      },
+      {
+        "name": "Pipetos",
+        "realm": "Ragnaros",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 2
       },
       {
         "name": "Recrucified",
@@ -243,42 +264,49 @@
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Servium",
         "realm": "Thrall",
         "class": "Monk",
         "spec": "Windwalker",
-        "reports": 17
+        "reports": 15
       },
       {
         "name": "Shockìra",
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Enhancement",
-        "reports": 17
+        "reports": 13
       },
       {
         "name": "Sofron",
         "realm": "Stormscale",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 17
+        "reports": 15
       },
       {
         "name": "Sotmage",
         "realm": "TarrenMill",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 15
+        "reports": 13
+      },
+      {
+        "name": "Wartsil",
+        "realm": "Draenor",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 1
       },
       {
         "name": "Zilard",
         "realm": "Kazzak",
         "class": "Evoker",
         "spec": "Devastation",
-        "reports": 14
+        "reports": 13
       }
     ]
   },
@@ -286,16 +314,16 @@
     "profileUrl": "https://raider.io/guilds/eu/tarren-mill/SoE%20Reborn",
     "realm": "tarren-mill",
     "region": "eu",
-    "lastUpdated": "2026-10-05T22:00:06.573Z"
+    "lastUpdated": "2026-10-29T17:27:40.442Z"
   },
-  "rosterUpdatedAt": "2026-10-05T22:02:13.688Z",
+  "rosterUpdatedAt": "2026-10-29T17:29:44.007Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 583338,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 549,
+    "verifiedGuildMembers": 550,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "SOE Reborn"
   }

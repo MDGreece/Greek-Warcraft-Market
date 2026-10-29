@@ -52,7 +52,7 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 13
+        "reports": 7
       },
       {
         "name": "Meliodazz",
@@ -60,6 +60,13 @@
         "class": "DemonHunter",
         "spec": "Vengeance",
         "reports": 11
+      },
+      {
+        "name": "Xanthokoukli",
+        "realm": "Silvermoon",
+        "class": "Paladin",
+        "spec": "Protection",
+        "reports": 12
       }
     ],
     "healers": [
@@ -68,28 +75,28 @@
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Nirain",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Restoration",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Purobolitis",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 12
+        "reports": 11
       },
       {
         "name": "Slásh",
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 13
+        "reports": 10
       }
     ],
     "dps": [
@@ -98,42 +105,42 @@
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 13
+        "reports": 11
       },
       {
         "name": "Commandoxx",
         "realm": "Twilight'sHammer",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 7
+        "reports": 10
       },
       {
         "name": "Eleléf",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 11
+        "reports": 10
       },
       {
         "name": "Ephyra",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Ibreakstuff",
         "realm": "TheMaelstrom",
         "class": "Warrior",
         "spec": "Fury",
-        "reports": 8
+        "reports": 6
       },
       {
         "name": "Jeroh",
         "realm": "Sylvanas",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Karaglizzy",
@@ -147,91 +154,84 @@
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 13
+        "reports": 7
       },
       {
         "name": "Luffyluke",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 12
+        "reports": 11
       },
       {
         "name": "Malgred",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Meleron",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 13
+        "reports": 6
       },
       {
         "name": "Mouxla",
         "realm": "TwistingNether",
         "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 11
+        "spec": "Subtlety",
+        "reports": 10
       },
       {
         "name": "Naruto",
         "realm": "Doomhammer",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 9
+        "reports": 11
       },
       {
         "name": "Noxkan",
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Unholy",
-        "reports": 13
+        "reports": 12
       },
       {
         "name": "Qleon",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 12
+        "reports": 11
       },
       {
         "name": "Rottingale",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 13
+        "reports": 11
       },
       {
         "name": "Shufferz",
         "realm": "TwistingNether",
         "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 12
+        "spec": "Havoc",
+        "reports": 11
       },
       {
         "name": "Varnos",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 7
+        "reports": 12
       },
       {
         "name": "Ventetadh",
         "realm": "Silvermoon",
         "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 13
-      },
-      {
-        "name": "Xanthokoukli",
-        "realm": "Silvermoon",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 12
+        "spec": "Havoc",
+        "reports": 11
       }
     ]
   },
@@ -242,13 +242,13 @@
     "region": "eu",
     "lastUpdated": "2026-07-29T13:37:29.166Z"
   },
-  "rosterUpdatedAt": "2026-10-05T22:01:03.217Z",
+  "rosterUpdatedAt": "2026-10-29T17:28:34.630Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 705280,
     "activeDays": 45,
     "minimumReports": 1,
-    "reportsChecked": 15,
+    "reportsChecked": 12,
     "verifiedGuildMembers": 27,
     "membershipVerification": "Warcraft Logs team + Raider.IO guild",
     "verificationGuild": "Disobedient"

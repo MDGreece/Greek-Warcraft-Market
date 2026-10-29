@@ -15,7 +15,7 @@
     "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
     "realm": "silvermoon",
     "region": "eu",
-    "lastUpdated": "2026-10-05T22:00:06.570Z"
+    "lastUpdated": "2026-10-29T17:27:40.440Z"
   },
   "warcraftLogs": {
     "guildName": "Death and Glory",
@@ -44,8 +44,8 @@
       "GR": "1"
     },
     "The Venomous Abyss": {
-      "progress": "6/8 M",
-      "WR": "343",
+      "progress": "8/8 M",
+      "WR": "351",
       "GR": "-"
     }
   },
@@ -56,14 +56,14 @@
         "realm": "Silvermoon",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 16
+        "reports": 18
       },
       {
         "name": "Sapioxeris",
         "realm": "Silvermoon",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 17
+        "reports": 18
       }
     ],
     "healers": [
@@ -73,6 +73,13 @@
         "class": "Priest",
         "spec": "Holy",
         "reports": 18
+      },
+      {
+        "name": "Alentors",
+        "realm": "TwistingNether",
+        "class": "Druid",
+        "spec": "Restoration",
+        "reports": 2
       },
       {
         "name": "Aquiru",
@@ -89,18 +96,18 @@
         "reports": 18
       },
       {
+        "name": "Kontostoupys",
+        "realm": "Silvermoon",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "reports": 8
+      },
+      {
         "name": "Limpoh",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 4
-      },
-      {
-        "name": "Narkissisths",
-        "realm": "TwistingNether",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "reports": 15
+        "reports": 3
       },
       {
         "name": "Nekyfotm",
@@ -114,23 +121,23 @@
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 16
+        "reports": 9
       },
       {
         "name": "Psyckosis",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 2
+        "reports": 4
       }
     ],
     "dps": [
       {
-        "name": "Alinity",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Balance",
-        "reports": 1
+        "name": "Antimetrino",
+        "realm": "Silvermoon",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 2
       },
       {
         "name": "Bolbis",
@@ -144,7 +151,7 @@
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 14
+        "reports": 4
       },
       {
         "name": "Elizabéth",
@@ -158,7 +165,7 @@
         "realm": "Silvermoon",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 3
+        "reports": 1
       },
       {
         "name": "Hamourampi",
@@ -172,7 +179,7 @@
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 2
+        "reports": 3
       },
       {
         "name": "Kuedonn",
@@ -186,28 +193,42 @@
         "realm": "Silvermoon",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 18
+        "reports": 17
+      },
+      {
+        "name": "Makampo",
+        "realm": "Kazzak",
+        "class": "Druid",
+        "spec": "Balance",
+        "reports": 5
+      },
+      {
+        "name": "Makrinos",
+        "realm": "Silvermoon",
+        "class": "Hunter",
+        "spec": "BeastMastery",
+        "reports": 4
       },
       {
         "name": "Malenakpl",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 18
+        "reports": 15
       },
       {
-        "name": "Maousucks",
-        "realm": "Ravencrest",
+        "name": "Maousuktwice",
+        "realm": "Silvermoon",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 8
+        "reports": 4
       },
       {
         "name": "Meghstånas",
         "realm": "Silvermoon",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 17
+        "reports": 16
       },
       {
         "name": "Mksdh",
@@ -217,18 +238,11 @@
         "reports": 18
       },
       {
-        "name": "Mòra",
-        "realm": "Silvermoon",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "reports": 1
-      },
-      {
         "name": "Oranormi",
         "realm": "TarrenMill",
         "class": "Evoker",
         "spec": "Devastation",
-        "reports": 5
+        "reports": 6
       },
       {
         "name": "Prosexteme",
@@ -242,7 +256,7 @@
         "realm": "Silvermoon",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 17
+        "reports": 18
       },
       {
         "name": "Ralêz",
@@ -252,27 +266,6 @@
         "reports": 18
       },
       {
-        "name": "Renastrae",
-        "realm": "Silvermoon",
-        "class": "Mage",
-        "spec": "Arcane",
-        "reports": 4
-      },
-      {
-        "name": "Sakgioumam",
-        "realm": "Draenor",
-        "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 1
-      },
-      {
-        "name": "Sborn",
-        "realm": "Silvermoon",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 3
-      },
-      {
         "name": "Scuffedaim",
         "realm": "Silvermoon",
         "class": "Hunter",
@@ -280,53 +273,46 @@
         "reports": 18
       },
       {
-        "name": "Sneakyboomer",
-        "realm": "Silvermoon",
-        "class": "Rogue",
-        "spec": "Assassination",
-        "reports": 1
-      },
-      {
         "name": "Snrm",
         "realm": "Kazzak",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 15
+        "reports": 18
       },
       {
         "name": "Solfege",
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Shadow",
-        "reports": 7
+        "reports": 15
       },
       {
         "name": "Takks",
         "realm": "Silvermoon",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 3
+        "reports": 6
       },
       {
         "name": "Takuruadh",
         "realm": "Silvermoon",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 4
+        "reports": 1
       },
       {
         "name": "Toubaneiros",
         "realm": "Kazzak",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 14
+        "reports": 8
       },
       {
         "name": "Trollingrn",
         "realm": "Ragnaros",
         "class": "Warlock",
-        "spec": "Demonology",
-        "reports": 4
+        "spec": "Affliction",
+        "reports": 6
       },
       {
         "name": "Tsiflok",
@@ -339,26 +325,26 @@
         "name": "Xaliamoutris",
         "realm": "Kazzak",
         "class": "Warlock",
-        "spec": "Affliction",
+        "spec": "Demonology",
         "reports": 2
       },
       {
         "name": "Xlepa",
         "realm": "TwistingNether",
         "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 13
+        "spec": "Frost",
+        "reports": 18
       }
     ]
   },
-  "rosterUpdatedAt": "2026-10-05T22:00:45.455Z",
+  "rosterUpdatedAt": "2026-10-29T17:28:20.532Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 312193,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 930,
+    "verifiedGuildMembers": 935,
     "membershipVerification": "Warcraft Logs",
     "verificationGuild": "Death and Glory"
   }

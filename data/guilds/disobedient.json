@@ -38,8 +38,8 @@
       "GR": "2"
     },
     "The Venomous Abyss": {
-      "progress": "6/8 M",
-      "WR": "795",
+      "progress": "7/8 M",
+      "WR": "442",
       "GR": "-"
     }
   },
@@ -50,28 +50,21 @@
         "realm": "TwistingNether",
         "class": "DeathKnight",
         "spec": "Blood",
-        "reports": 15
+        "reports": 17
       },
       {
         "name": "Cuteholy",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Protection",
-        "reports": 3
+        "reports": 14
       },
       {
         "name": "Cutewalker",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Brewmaster",
-        "reports": 13
-      },
-      {
-        "name": "Kyrrodk",
-        "realm": "TwistingNether",
-        "class": "DeathKnight",
-        "spec": "Blood",
-        "reports": 2
+        "reports": 4
       }
     ],
     "healers": [
@@ -80,45 +73,52 @@
         "realm": "Silvermoon",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Blazefist",
         "realm": "TwistingNether",
         "class": "Monk",
         "spec": "Mistweaver",
-        "reports": 4
+        "reports": 15
       },
       {
         "name": "Blazepala",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Holy",
-        "reports": 12
+        "reports": 5
       },
       {
         "name": "Jeicore",
         "realm": "TwistingNether",
         "class": "Priest",
         "spec": "Holy",
-        "reports": 16
+        "reports": 18
       },
       {
         "name": "Ramrobinson",
         "realm": "Ravencrest",
         "class": "Shaman",
         "spec": "Restoration",
-        "reports": 16
+        "reports": 18
       },
       {
         "name": "Seridna",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Preservation",
-        "reports": 14
+        "reports": 15
       }
     ],
     "dps": [
+      {
+        "name": "Animalcntrl",
+        "realm": "TwistingNether",
+        "class": "Hunter",
+        "spec": "Marksmanship",
+        "reports": 7
+      },
       {
         "name": "Arhontas",
         "realm": "TwistingNether",
@@ -131,119 +131,112 @@
         "realm": "Ravencrest",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 8
+        "reports": 15
       },
       {
         "name": "Babodin",
         "realm": "TwistingNether",
         "class": "Paladin",
         "spec": "Retribution",
-        "reports": 15
+        "reports": 13
       },
       {
         "name": "Balnados",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 12
+        "reports": 16
       },
       {
         "name": "Bòbba",
         "realm": "TwistingNether",
         "class": "Hunter",
         "spec": "Marksmanship",
-        "reports": 12
+        "reports": 9
       },
       {
         "name": "Chay",
         "realm": "TwistingNether",
         "class": "Druid",
         "spec": "Balance",
-        "reports": 16
+        "reports": 17
+      },
+      {
+        "name": "Chaykovsky",
+        "realm": "TwistingNether",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 1
+      },
+      {
+        "name": "Chaytwo",
+        "realm": "TwistingNether",
+        "class": "Mage",
+        "spec": "Arcane",
+        "reports": 1
       },
       {
         "name": "Deipa",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Subtlety",
-        "reports": 16
-      },
-      {
-        "name": "Goradin",
-        "realm": "TarrenMill",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 2
+        "reports": 18
       },
       {
         "name": "Gypsywitch",
         "realm": "TwistingNether",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 11
+        "reports": 17
       },
       {
         "name": "Jpc",
         "realm": "TwistingNether",
         "class": "Rogue",
         "spec": "Assassination",
-        "reports": 14
+        "reports": 15
       },
       {
         "name": "Karanthirr",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 12
-      },
-      {
-        "name": "Mageakys",
-        "realm": "TarrenMill",
-        "class": "Mage",
-        "spec": "Arcane",
-        "reports": 2
-      },
-      {
-        "name": "Mambå",
-        "realm": "TwistingNether",
-        "class": "Druid",
-        "spec": "Balance",
-        "reports": 1
+        "reports": 14
       },
       {
         "name": "Mergelos",
         "realm": "Silvermoon",
         "class": "Warlock",
         "spec": "Demonology",
-        "reports": 16
+        "reports": 17
       },
       {
         "name": "Missmayhide",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Havoc",
-        "reports": 1
+        "reports": 2
       },
       {
         "name": "Mixosw",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
-        "reports": 8
+        "reports": 3
       },
       {
         "name": "Mnolomafiozo",
         "realm": "TwistingNether",
         "class": "Evoker",
         "spec": "Augmentation",
-        "reports": 16
+        "reports": 15
       },
       {
         "name": "Narisil",
         "realm": "TwistingNether",
         "class": "Mage",
         "spec": "Arcane",
-        "reports": 14
+        "reports": 18
       },
       {
         "name": "Navval",
@@ -253,39 +246,46 @@
         "reports": 1
       },
       {
-        "name": "Raziee",
-        "realm": "TwistingNether",
-        "class": "DeathKnight",
-        "spec": "Unholy",
-        "reports": 14
-      },
-      {
-        "name": "Shirako",
-        "realm": "Silvermoon",
-        "class": "Priest",
-        "spec": "Shadow",
-        "reports": 16
-      },
-      {
-        "name": "Sizor",
-        "realm": "TwistingNether",
-        "class": "Warrior",
-        "spec": "Arms",
-        "reports": 15
-      },
-      {
-        "name": "Sorayaa",
+        "name": "Navvalwar",
         "realm": "TwistingNether",
         "class": "Warrior",
         "spec": "Arms",
         "reports": 1
       },
       {
+        "name": "Raziee",
+        "realm": "TwistingNether",
+        "class": "DeathKnight",
+        "spec": "Unholy",
+        "reports": 16
+      },
+      {
+        "name": "Shirako",
+        "realm": "Silvermoon",
+        "class": "Priest",
+        "spec": "Shadow",
+        "reports": 17
+      },
+      {
+        "name": "Sizor",
+        "realm": "TwistingNether",
+        "class": "Warrior",
+        "spec": "Arms",
+        "reports": 11
+      },
+      {
         "name": "Soulsx",
         "realm": "TwistingNether",
         "class": "DemonHunter",
         "spec": "Devourer",
-        "reports": 13
+        "reports": 12
+      },
+      {
+        "name": "Spantry",
+        "realm": "Draenor",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "reports": 1
       },
       {
         "name": "Trampoukoss",
@@ -299,28 +299,14 @@
         "realm": "TwistingNether",
         "class": "Shaman",
         "spec": "Elemental",
-        "reports": 11
-      },
-      {
-        "name": "Vipgiozz",
-        "realm": "TwistingNether",
-        "class": "Mage",
-        "spec": "Arcane",
-        "reports": 1
-      },
-      {
-        "name": "Xrysaki",
-        "realm": "Draenor",
-        "class": "Paladin",
-        "spec": "Retribution",
-        "reports": 2
+        "reports": 18
       },
       {
         "name": "Yureih",
         "realm": "TwistingNether",
         "class": "DemonHunter",
-        "spec": "Devourer",
-        "reports": 16
+        "spec": "Havoc",
+        "reports": 18
       }
     ]
   },
@@ -328,16 +314,16 @@
     "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
     "realm": "twisting-nether",
     "region": "eu",
-    "lastUpdated": "2026-10-05T22:00:06.571Z"
+    "lastUpdated": "2026-10-29T17:27:40.440Z"
   },
-  "rosterUpdatedAt": "2026-10-05T22:01:23.349Z",
+  "rosterUpdatedAt": "2026-10-29T17:28:55.206Z",
   "rosterSource": {
     "provider": "Warcraft Logs",
     "guildId": 555159,
     "activeDays": 45,
     "minimumReports": 1,
     "reportsChecked": 18,
-    "verifiedGuildMembers": 862,
+    "verifiedGuildMembers": 874,
     "membershipVerification": "Warcraft Logs main guild excluding Group II/III",
     "verificationGuild": "Disobedient"
   }
