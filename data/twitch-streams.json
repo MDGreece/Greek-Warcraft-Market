@@ -1,7 +1,133 @@
 {
-  "updatedAt": "2026-10-31T05:31:04.662Z",
+  "updatedAt": "2026-10-31T11:12:39.897Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319019044583",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "MORNING ROGUE CLASSROOM into 24RESIL FR !!! !rogue !misery !coaching !ui !tour",
+      "viewerCount": 409,
+      "startedAt": "2026-10-31T08:48:14Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319213347302",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Warlock PvP ♾️ WoW Forever Waiting room | R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 175,
+      "startedAt": "2026-10-31T10:47:26Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "319151737189",
+      "userId": "271733489",
+      "userLogin": "takamura_mimis",
+      "userName": "takamura_mimis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Azeroth Survivors enjoyer - dota meta",
+      "viewerCount": 6,
+      "startedAt": "2026-10-31T08:21:59Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Greek",
+        "Ελληνικά",
+        "chill",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_takamura_mimis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/takamura_mimis"
+    },
+    {
+      "id": "319152907877",
+      "userId": "777030215",
+      "userLogin": "megnagun_",
+      "userName": "megnagun_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever waiting room.TBC Anniversary until Forever launch.4 more days. New Horde and Alliance emotes in chat.Welcome !!",
+      "viewerCount": 4,
+      "startedAt": "2026-10-31T11:07:53Z",
+      "language": "el",
+      "tags": [
+        "GreekStreamer",
+        "WoWClassic",
+        "PvE",
+        "PvP",
+        "Chill",
+        "SmallStreamer",
+        "Community",
+        "English",
+        "WoWForever",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/megnagun_"
+    },
+    {
+      "id": "319213431654",
+      "userId": "95567479",
+      "userLogin": "anacronz",
+      "userName": "anacronz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "4 more days",
+      "viewerCount": 2,
+      "startedAt": "2026-10-31T10:55:53Z",
+      "language": "el",
+      "tags": [
+        "PVP",
+        "PVE",
+        "depresion",
+        "ExtractionShooter",
+        "fps",
+        "old",
+        "foreveralone",
+        "Ελληνικά",
+        "Επανάληψη",
+        "greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/anacronz"
+    }
+  ]
 }
