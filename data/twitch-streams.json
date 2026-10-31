@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:12:39.897Z",
+  "updatedAt": "2026-10-31T16:09:54.712Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
@@ -12,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "MORNING ROGUE CLASSROOM into 24RESIL FR !!! !rogue !misery !coaching !ui !tour",
-      "viewerCount": 409,
+      "viewerCount": 456,
       "startedAt": "2026-10-31T08:48:14Z",
       "language": "en",
       "tags": [
@@ -38,7 +38,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Warlock PvP ♾️ WoW Forever Waiting room | R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
-      "viewerCount": 175,
+      "viewerCount": 290,
       "startedAt": "2026-10-31T10:47:26Z",
       "language": "en",
       "tags": [
@@ -57,77 +57,117 @@
       "twitchUrl": "https://www.twitch.tv/jazggz"
     },
     {
-      "id": "319151737189",
-      "userId": "271733489",
-      "userLogin": "takamura_mimis",
-      "userName": "takamura_mimis",
+      "id": "319216772838",
+      "userId": "278779852",
+      "userLogin": "nikosgodx",
+      "userName": "nikosgodx",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Azeroth Survivors enjoyer - dota meta",
-      "viewerCount": 6,
-      "startedAt": "2026-10-31T08:21:59Z",
+      "title": "[GR/ENG] Rare ww blast-shit quality-playing from diff pc = everything changed - DM me on discord for coach/boost up to glad : nikosgodx#9293",
+      "viewerCount": 21,
+      "startedAt": "2026-10-31T16:02:59Z",
       "language": "en",
       "tags": [
-        "English",
-        "Greek",
         "Ελληνικά",
-        "chill",
-        "DropsEnabled"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_takamura_mimis-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/takamura_mimis"
-    },
-    {
-      "id": "319152907877",
-      "userId": "777030215",
-      "userLogin": "megnagun_",
-      "userName": "megnagun_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW Forever waiting room.TBC Anniversary until Forever launch.4 more days. New Horde and Alliance emotes in chat.Welcome !!",
-      "viewerCount": 4,
-      "startedAt": "2026-10-31T11:07:53Z",
-      "language": "el",
-      "tags": [
-        "GreekStreamer",
-        "WoWClassic",
-        "PvE",
+        "English",
+        "RetailWOW",
+        "EU",
         "PvP",
-        "Chill",
-        "SmallStreamer",
-        "Community",
-        "English",
-        "WoWForever",
-        "Ελληνικά"
+        "Arena",
+        "WW",
+        "Monk",
+        "Priest",
+        "PvE"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/megnagun_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nikosgodx-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nikosgodx"
     },
     {
-      "id": "319213431654",
-      "userId": "95567479",
-      "userLogin": "anacronz",
-      "userName": "anacronz",
+      "id": "319216772838",
+      "userId": "278779852",
+      "userLogin": "nikosgodx",
+      "userName": "nikosgodx",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "4 more days",
-      "viewerCount": 2,
-      "startedAt": "2026-10-31T10:55:53Z",
+      "title": "[GR/ENG] Rare ww blast-shit quality-playing from diff pc = everything changed - DM me on discord for coach/boost up to glad : nikosgodx#9293",
+      "viewerCount": 21,
+      "startedAt": "2026-10-31T16:02:59Z",
+      "language": "en",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "RetailWOW",
+        "EU",
+        "PvP",
+        "Arena",
+        "WW",
+        "Monk",
+        "Priest",
+        "PvE"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nikosgodx-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nikosgodx"
+    },
+    {
+      "id": "319215839078",
+      "userId": "126713901",
+      "userLogin": "vroxovatis",
+      "userName": "vroxovatis",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "O DarthVader της καρδιάς σας!",
+      "viewerCount": 16,
+      "startedAt": "2026-10-31T14:46:54Z",
       "language": "el",
       "tags": [
-        "PVP",
-        "PVE",
-        "depresion",
-        "ExtractionShooter",
-        "fps",
-        "old",
-        "foreveralone",
+        "18pluschannel",
+        "greekstreamer",
+        "greek",
         "Ελληνικά",
-        "Επανάληψη",
-        "greek"
+        "ΤαDropΕνεργοποιήθηκαν",
+        "MythicPlusKeys"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anacronz-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/anacronz"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vroxovatis-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/vroxovatis"
+    },
+    {
+      "id": "319154770149",
+      "userId": "89971071",
+      "userLogin": "sikzy",
+      "userName": "sikzy",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "forever waiting room | instagram: @sikzy_3d",
+      "viewerCount": 10,
+      "startedAt": "2026-10-31T14:30:38Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_sikzy-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/sikzy"
+    },
+    {
+      "id": "319155757029",
+      "userId": "87318771",
+      "userLogin": "laspis_official",
+      "userName": "LaspiS_official",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Αοεε",
+      "viewerCount": 1,
+      "startedAt": "2026-10-31T15:56:11Z",
+      "language": "el",
+      "tags": [
+        "laspis",
+        "English",
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_laspis_official-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/laspis_official"
     }
   ]
 }
