@@ -1,7 +1,60 @@
 {
-  "updatedAt": "2026-11-01T02:20:27.307Z",
+  "updatedAt": "2026-11-01T09:33:02.906Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319163364069",
+      "userId": "40562225",
+      "userLogin": "gredush",
+      "userName": "Gredush",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Tickets!",
+      "viewerCount": 13,
+      "startedAt": "2026-11-01T08:31:38Z",
+      "language": "el",
+      "tags": [
+        "BeginnerPlayers",
+        "AMA",
+        "Greece",
+        "Ελληνικά",
+        "ADHD",
+        "MMORPG",
+        "EndgameContent",
+        "English",
+        "AskMeAnyhting",
+        "Greek"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/gredush"
+    },
+    {
+      "id": "319033764839",
+      "userId": "777030215",
+      "userLogin": "megnagun_",
+      "userName": "megnagun_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever Waiting room !! TBC for now!! 3 more days !! New Horde and Alliance emotes in chat !! Welcome !!",
+      "viewerCount": 6,
+      "startedAt": "2026-11-01T08:22:39Z",
+      "language": "el",
+      "tags": [
+        "GreekStreamer",
+        "WoWClassic",
+        "PvE",
+        "PvP",
+        "Chill",
+        "SmallStreamer",
+        "Community",
+        "English",
+        "WoWForever",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/megnagun_"
+    }
+  ]
 }
