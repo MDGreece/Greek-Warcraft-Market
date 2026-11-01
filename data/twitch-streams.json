@@ -1,60 +1,32 @@
 {
-  "updatedAt": "2026-11-01T09:33:02.906Z",
+  "updatedAt": "2026-11-01T16:21:24.805Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
     {
-      "id": "319163364069",
-      "userId": "40562225",
-      "userLogin": "gredush",
-      "userName": "Gredush",
+      "id": "319229555302",
+      "userId": "537931796",
+      "userLogin": "woopwoop7",
+      "userName": "WoopWoop7",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Tickets!",
-      "viewerCount": 13,
-      "startedAt": "2026-11-01T08:31:38Z",
-      "language": "el",
+      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
+      "viewerCount": 43,
+      "startedAt": "2026-11-01T15:47:28Z",
+      "language": "cs",
       "tags": [
-        "BeginnerPlayers",
-        "AMA",
-        "Greece",
         "Ελληνικά",
-        "ADHD",
-        "MMORPG",
-        "EndgameContent",
-        "English",
-        "AskMeAnyhting",
-        "Greek"
+        "Русский",
+        "Deutsch",
+        "TiếngViệt",
+        "粵語",
+        "Čeština",
+        "العربية",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gredush-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gredush"
-    },
-    {
-      "id": "319033764839",
-      "userId": "777030215",
-      "userLogin": "megnagun_",
-      "userName": "megnagun_",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW Forever Waiting room !! TBC for now!! 3 more days !! New Horde and Alliance emotes in chat !! Welcome !!",
-      "viewerCount": 6,
-      "startedAt": "2026-11-01T08:22:39Z",
-      "language": "el",
-      "tags": [
-        "GreekStreamer",
-        "WoWClassic",
-        "PvE",
-        "PvP",
-        "Chill",
-        "SmallStreamer",
-        "Community",
-        "English",
-        "WoWForever",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_megnagun_-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/megnagun_"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/woopwoop7"
     }
   ]
 }
