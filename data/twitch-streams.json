@@ -1,69 +1,7 @@
 {
-  "updatedAt": "2026-10-31T23:17:08.601Z",
+  "updatedAt": "2026-11-01T02:20:27.307Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "319028784231",
-      "userId": "102886337",
-      "userLogin": "spinustv",
-      "userName": "SpinusTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔥ΒΡΑΔΙΝΑ ΑΝΤΙ-ΤΗΛΕΟΠΤΙΚΑ GAMES ΜΠΟΡΕΙ ΚΑΙ ΟΧΙ ( ΕΧΩ ΠΙΕΙ ΔΕΝ ΑΛΛΑΖΩ ΓΝΩΜΗ )🔥",
-      "viewerCount": 441,
-      "startedAt": "2026-10-31T20:36:22Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/spinustv"
-    },
-    {
-      "id": "319025476967",
-      "userId": "166949280",
-      "userLogin": "jokersmiles",
-      "userName": "jokersmiles",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "GreekCraft Forever",
-      "viewerCount": 76,
-      "startedAt": "2026-10-31T17:24:44Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jokersmiles-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/jokersmiles"
-    },
-    {
-      "id": "319157344613",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 48,
-      "startedAt": "2026-10-31T18:02:23Z",
-      "language": "ru",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    }
-  ]
+  "streams": []
 }
