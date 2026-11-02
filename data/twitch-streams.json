@@ -1,7 +1,52 @@
 {
-  "updatedAt": "2026-11-02T05:39:52.944Z",
+  "updatedAt": "2026-11-02T13:51:18.676Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319048359911",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "MORNING ROGUE CLASS into 24RESIL 100% !!! !rogue !misery !coaching !ui !tour",
+      "viewerCount": 530,
+      "startedAt": "2026-11-02T08:43:32Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319049809511",
+      "userId": "134219640",
+      "userLogin": "luxxord_tv",
+      "userName": "luxxord_tv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "AZEROTH SURVIVORS - PALADIN ASHBRINGER || ΙΣΩΣ ΠΑΙΞΩ BALDURS GATE 3 WOW PLUG-IN",
+      "viewerCount": 29,
+      "startedAt": "2026-11-02T11:56:35Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
+    }
+  ]
 }
