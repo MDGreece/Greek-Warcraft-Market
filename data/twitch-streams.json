@@ -1,77 +1,7 @@
 {
-  "updatedAt": "2026-11-01T23:56:44.707Z",
+  "updatedAt": "2026-11-02T05:39:52.944Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": [
-    {
-      "id": "319045372647",
-      "userId": "102886337",
-      "userLogin": "spinustv",
-      "userName": "SpinusTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔥MONO WOW🔥",
-      "viewerCount": 115,
-      "startedAt": "2026-11-01T22:38:16Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/spinustv"
-    },
-    {
-      "id": "319229555302",
-      "userId": "537931796",
-      "userLogin": "woopwoop7",
-      "userName": "WoopWoop7",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Daily Streams ! Не знакомлюсь🦉 eule | owl | chouette | coruja |сова| jetzt rein bevor der key brennt залетай | get in click => !gift2  !cmd",
-      "viewerCount": 44,
-      "startedAt": "2026-11-01T15:47:28Z",
-      "language": "ru",
-      "tags": [
-        "Ελληνικά",
-        "Русский",
-        "Deutsch",
-        "TiếngViệt",
-        "粵語",
-        "Čeština",
-        "العربية",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_woopwoop7-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/woopwoop7"
-    },
-    {
-      "id": "319168863333",
-      "userId": "45818286",
-      "userLogin": "giorgosyuki",
-      "userName": "giorgosyuki",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "[GR/EN] -Yuki- | 4249io  23-24s keys | 23 Resil Done | 4.3 maybe soon !? | Keys into Killing Ulatek into keys again |",
-      "viewerCount": 21,
-      "startedAt": "2026-11-01T16:38:57Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Competitive",
-        "Ελληνικά",
-        "MMORPG",
-        "Educational",
-        "Warrior",
-        "fury",
-        "WorldofWarcaft",
-        "EarlyAccess",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_giorgosyuki-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/giorgosyuki"
-    }
-  ]
+  "streams": []
 }
