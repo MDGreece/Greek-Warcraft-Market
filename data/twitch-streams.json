@@ -1,50 +1,9 @@
 {
-  "updatedAt": "2026-11-03T18:35:29.182Z",
+  "updatedAt": "2026-11-03T23:39:21.098Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "319067035239",
-      "userId": "81696814",
-      "userLogin": "tyrantfeller",
-      "userName": "Tyrantfeller",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔥 PvE Horde Guild -ΚΑΝΟΥΜΕ RECRUIT | Χτίζουμε Την Κοινότητα Μας | WoW Forever",
-      "viewerCount": 19,
-      "startedAt": "2026-11-03T16:58:15Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "Greece",
-        "English",
-        "MMO",
-        "wow",
-        "wowforever"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
-    },
-    {
-      "id": "319189317477",
-      "userId": "1349726258",
-      "userLogin": "mal__ditto",
-      "userName": "Mal__ditto",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Let's get warlock to 90 | Some M+ Keys laterr",
-      "viewerCount": 16,
-      "startedAt": "2026-11-03T15:11:12Z",
-      "language": "el",
-      "tags": [
-        "English",
-        "Ελληνικά",
-        "levelup"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mal__ditto"
-    },
     {
       "id": "319189807077",
       "userId": "45818286",
@@ -53,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[GR/EN] -Yuki- | 4250io  23-24s keys | 23 Resil Done | 4.3 maybe soon !? | Keys with the chad team | Mic Off only pump |",
-      "viewerCount": 11,
+      "viewerCount": 26,
       "startedAt": "2026-11-03T16:00:12Z",
       "language": "el",
       "tags": [
@@ -71,23 +30,23 @@
       "twitchUrl": "https://www.twitch.tv/giorgosyuki"
     },
     {
-      "id": "319067837159",
-      "userId": "121154475",
-      "userLogin": "blindgeekiness",
-      "userName": "BlindGeekiness",
+      "id": "318230164964",
+      "userId": "38434831",
+      "userLogin": "jukyswow",
+      "userName": "jukyswow",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Pug Fest <3",
+      "title": "4249 ELE M+ Pug adventures",
       "viewerCount": 3,
-      "startedAt": "2026-11-03T17:48:31Z",
-      "language": "el",
+      "startedAt": "2026-11-03T20:44:47Z",
+      "language": "en",
       "tags": [
-        "MythicPlusKeys",
+        "Ελλάδα",
         "Ελληνικά",
         "English"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jukyswow-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jukyswow"
     }
   ]
 }
