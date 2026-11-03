@@ -1,3 +1,4 @@
+
 [
   {
     "title": "The War Within",
@@ -10,7 +11,8 @@
   {
     "title": "Midnight",
     "tiers": [
-      "T1 (DR, VS, MoQ)"
+      "T1 (DR, VS, MoQ)",
+      "VA"
     ]
   }
 ]
