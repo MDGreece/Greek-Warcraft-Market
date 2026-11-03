@@ -950,15 +950,46 @@ if (progressPercentElement) {
               expansion.tiers.forEach(
                 tier => {
 
-                  const tierRank =
-                    guild.tierRanks &&
-                    guild.tierRanks[tier]
-                      ? guild.tierRanks[tier]
-                      : {
-                          progress: "-",
-                          WR: "-",
-                          GR: "-"
-                        };
+                
+let tierRank;
+
+if (tier === "VA") {
+  const worldRank =
+    Number(leaderboardEntry?.worldRank);
+
+  const greekRank =
+    Number(leaderboardEntry?.rank);
+
+  tierRank = {
+    progress:
+      leaderboardEntry?.progress || "-",
+
+    WR:
+      Number.isInteger(worldRank) &&
+      worldRank > 0 &&
+      worldRank < 999999
+        ? `#${worldRank}`
+        : "-",
+
+    GR:
+      Number.isInteger(greekRank) &&
+      greekRank > 0
+        ? `#${greekRank}`
+        : "-"
+  };
+
+} else {
+  tierRank =
+    guild.tierRanks &&
+    guild.tierRanks[tier]
+      ? guild.tierRanks[tier]
+      : {
+          progress: "-",
+          WR: "-",
+          GR: "-"
+        };
+}
+
 
                   const progress =
                     tierRank.progress ||
