@@ -1,7 +1,104 @@
 {
-  "updatedAt": "2026-11-03T03:42:19.124Z",
+  "updatedAt": "2026-11-03T11:23:57.998Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319062119015",
+      "userId": "85310009",
+      "userLogin": "casualaddict_",
+      "userName": "Casualaddict_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "MORNING ROGUE CLASS into 24RESIL 100% !!! !rogue !misery !coaching !ui !tour",
+      "viewerCount": 353,
+      "startedAt": "2026-11-03T08:24:24Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "rogue",
+        "greek",
+        "mmorpg",
+        "WorldfofWarcraft",
+        "drops",
+        "Radio",
+        "music",
+        "musicplaylist",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_casualaddict_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/casualaddict_"
+    },
+    {
+      "id": "319187105765",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "WoW Forever LAUNCH TOMORROW♾️Warlock PvP ♾️ WoW Forever Waiting room | R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 190,
+      "startedAt": "2026-11-03T10:09:11Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "319248562278",
+      "userId": "121154475",
+      "userLogin": "blindgeekiness",
+      "userName": "BlindGeekiness",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Pug Fest <3",
+      "viewerCount": 3,
+      "startedAt": "2026-11-03T09:48:37Z",
+      "language": "el",
+      "tags": [
+        "MythicPlusKeys",
+        "Ελληνικά",
+        "English",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_blindgeekiness-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/blindgeekiness"
+    },
+    {
+      "id": "319247435622",
+      "userId": "112793047",
+      "userLogin": "corgideustv",
+      "userName": "CorgideusTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "World of Kartcraft /azeroth survivors Later!",
+      "viewerCount": 2,
+      "startedAt": "2026-11-03T06:53:19Z",
+      "language": "en",
+      "tags": [
+        "greek",
+        "English",
+        "Englísh",
+        "Ελληνικά",
+        "DropsEnabled",
+        "warcraft",
+        "worldofwarcraft",
+        "wow"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_corgideustv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/corgideustv"
+    }
+  ]
 }
