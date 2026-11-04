@@ -1,7 +1,185 @@
 {
-  "updatedAt": "2026-11-04T03:18:50.458Z",
+  "updatedAt": "2026-11-04T18:41:33.102Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
-  "streams": []
+  "streams": [
+    {
+      "id": "319260933094",
+      "userId": "69183831",
+      "userLogin": "jazggz",
+      "userName": "Jazggz",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "1 SUB/GIFT = Horde or Ally Badge WOW FOREVER TONIGHT ♾️Warlock PvP ♾️| R1 3605+  / #3 DUEL TOURNAMENT  WARLOCK ♾️ ✅!DROPS",
+      "viewerCount": 238,
+      "startedAt": "2026-11-04T11:11:35Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PvP",
+        "Arena",
+        "WoW",
+        "Warlock",
+        "greek",
+        "pve",
+        "wowforever",
+        "MMORPG",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_jazggz-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/jazggz"
+    },
+    {
+      "id": "319264785766",
+      "userId": "81696814",
+      "userLogin": "tyrantfeller",
+      "userName": "Tyrantfeller",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🚨 HORDE, Η ΘΕΣΗ ΣΟΥ ΕΙΝΑΙ ΕΔΩ! ΕΛΑ ΝΑ ΓΙΝΕΙΣ ΜΕΡΟΣ ΤΗΣ GUILD🔥",
+      "viewerCount": 21,
+      "startedAt": "2026-11-04T17:19:57Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "Greece",
+        "English",
+        "MMO",
+        "wow",
+        "wowforever",
+        "DropsEnabeled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tyrantfeller-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tyrantfeller"
+    },
+    {
+      "id": "319265233766",
+      "userId": "1349726258",
+      "userLogin": "mal__ditto",
+      "userName": "Mal__ditto",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Keys - Raid and WoW FOREVERRR",
+      "viewerCount": 16,
+      "startedAt": "2026-11-04T17:50:11Z",
+      "language": "el",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "levelup",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mal__ditto-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mal__ditto"
+    },
+    {
+      "id": "319080652647",
+      "userId": "171979357",
+      "userLogin": "nekyontwitch",
+      "userName": "NekyOnTwitch",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "DNG | Maou CE",
+      "viewerCount": 10,
+      "startedAt": "2026-11-04T18:01:43Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "greek",
+        "healing",
+        "evoker",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nekyontwitch-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/nekyontwitch"
+    },
+    {
+      "id": "319080227047",
+      "userId": "135725735",
+      "userLogin": "tanchao",
+      "userName": "Tanchao",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "🐍Mythic Coil Day 6  | Tank PoV | O M E G A | End of Retail???",
+      "viewerCount": 9,
+      "startedAt": "2026-11-04T17:37:20Z",
+      "language": "en",
+      "tags": [
+        "PvE",
+        "WorldofWarcaft",
+        "Mythic",
+        "Raiding",
+        "BloodDK",
+        "greek",
+        "tank",
+        "VenomousAbyss",
+        "English"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tanchao-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/tanchao"
+    },
+    {
+      "id": "319080765159",
+      "userId": "501386295",
+      "userLogin": "zaxstv",
+      "userName": "ZaxsTV",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Back From Italy Rank 1 Demo PvP Retail",
+      "viewerCount": 5,
+      "startedAt": "2026-11-04T18:07:36Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "PｖP",
+        "warlock",
+        "Arena",
+        "Demonology",
+        "greek",
+        "Retail",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaxstv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/zaxstv"
+    },
+    {
+      "id": "318199313250",
+      "userId": "31742358",
+      "userLogin": "kxursed_",
+      "userName": "kxursed_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "viewerCount": 3,
+      "startedAt": "2026-11-04T18:27:15Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kxursed_"
+    },
+    {
+      "id": "318199313250",
+      "userId": "31742358",
+      "userLogin": "kxursed_",
+      "userName": "kxursed_",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "NO DRAMA LLAMA KEKW - FREEDOM",
+      "viewerCount": 3,
+      "startedAt": "2026-11-04T18:27:15Z",
+      "language": "en",
+      "tags": [
+        "English",
+        "Ελληνικά",
+        "DropsEnabled"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kxursed_-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kxursed_"
+    }
+  ]
 }
