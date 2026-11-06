@@ -26,7 +26,7 @@
         "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-11-05T20:12:40.858Z",
+        "updatedAt": "2026-11-06T07:12:46.223Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
-        "lastSuccessfulUpdateAt": "2026-11-05T20:12:40.858Z",
+        "lastSuccessfulUpdateAt": "2026-11-06T07:12:46.223Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -62,14 +62,14 @@
         "rosterUpdatedAt": "2026-10-29T17:28:27.567Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-11-05T20:12:10.859Z",
-        "updatedAt": "2026-11-05T20:12:43.323Z",
+        "lastSeenInRosterAt": "2026-11-06T07:12:20.126Z",
+        "updatedAt": "2026-11-06T07:12:51.623Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
         "gender": "female",
         "achievementPoints": 35365,
-        "itemLevel": 334,
+        "itemLevel": 334.125,
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
@@ -79,7 +79,7 @@
         "raiderIoUpdatedAt": "2026-11-03T23:10:19.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-11-05T20:12:43.323Z"
+        "lastSuccessfulUpdateAt": "2026-11-06T07:12:51.623Z"
       }
     ],
     "characterCount": 2,
@@ -90,7 +90,7 @@
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-11-05T20:24:34.325Z",
-    "updatedAt": "2026-11-05T20:24:34.325Z"
+    "createdAt": "2026-11-06T07:26:11.921Z",
+    "updatedAt": "2026-11-06T07:26:11.921Z"
   }
 ]
