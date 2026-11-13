@@ -26,7 +26,7 @@
         "itemLevel": 292,
         "raidProgress": "-",
         "achievement": "-",
-        "updatedAt": "2026-11-12T20:18:07.391Z",
+        "updatedAt": "2026-11-13T07:05:22.309Z",
         "dataStatus": "found",
         "updateError": "",
         "trackedGuild": "Deny Everything",
@@ -40,7 +40,7 @@
         "raidKills": 0,
         "raidTotalBosses": 8,
         "raiderIoUpdatedAt": "2026-10-13T11:52:28.000Z",
-        "lastSuccessfulUpdateAt": "2026-11-12T20:18:07.391Z",
+        "lastSuccessfulUpdateAt": "2026-11-13T07:05:22.309Z",
         "lastFailedUpdateAt": "2026-09-15T12:08:10.203Z"
       },
       {
@@ -56,14 +56,14 @@
         "raiderIoUrl": "https://raider.io/characters/eu/silvermoon/Anastrásza",
         "warcraftLogsUrl": "https://www.warcraftlogs.com/character/eu/silvermoon/Anastr%C3%A1sza",
         "mythicPlusScore": 2858,
-        "raidProgress": "6/8M",
+        "raidProgress": "7/8M",
         "achievement": "-",
         "sourceGuildFile": "deny-everything.json",
         "rosterUpdatedAt": "2026-10-29T17:28:27.567Z",
         "inCurrentRoster": true,
         "firstSeenAt": "2026-08-02T14:09:18.254Z",
-        "lastSeenInRosterAt": "2026-11-12T20:17:42.497Z",
-        "updatedAt": "2026-11-12T20:18:10.163Z",
+        "lastSeenInRosterAt": "2026-11-13T07:04:58.189Z",
+        "updatedAt": "2026-11-13T07:05:25.104Z",
         "trackedGuild": "Deny Everything",
         "faction": "alliance",
         "race": "Dracthyr",
@@ -73,24 +73,24 @@
         "raidKey": "the-venomous-abyss",
         "raidName": "The Venomous Abyss",
         "raidDifficulty": "Mythic",
-        "raidKills": 6,
+        "raidKills": 7,
         "raidTotalBosses": 8,
         "thumbnailUrl": "https://render.worldofwarcraft.com/eu/character/silvermoon/116/206862964-avatar.jpg?alt=/wow/static/images/2d/avatar/52-1.jpg",
-        "raiderIoUpdatedAt": "2026-11-06T10:12:27.000Z",
+        "raiderIoUpdatedAt": "2026-11-12T20:38:50.000Z",
         "dataStatus": "found",
         "updateError": "",
-        "lastSuccessfulUpdateAt": "2026-11-12T20:18:10.163Z"
+        "lastSuccessfulUpdateAt": "2026-11-13T07:05:25.104Z"
       }
     ],
     "characterCount": 2,
     "highestMythicPlusScore": 2858,
-    "bestRaidProgress": "6/8M",
+    "bestRaidProgress": "7/8M",
     "bestAchievement": "-",
     "currentRaidKey": "the-venomous-abyss",
     "mainCharacter": "",
     "discord": "",
     "profileImage": "",
-    "createdAt": "2026-11-12T20:30:17.616Z",
-    "updatedAt": "2026-11-12T20:30:17.616Z"
+    "createdAt": "2026-11-13T07:16:34.856Z",
+    "updatedAt": "2026-11-13T07:16:34.856Z"
   }
 ]
