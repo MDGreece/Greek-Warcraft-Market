@@ -1,46 +1,9 @@
 {
-  "updatedAt": "2026-11-14T21:09:47.125Z",
+  "updatedAt": "2026-11-15T01:03:42.718Z",
   "game": "World of Warcraft",
   "language": "el",
   "detection": "language-or-greek-tag",
   "streams": [
-    {
-      "id": "319205424615",
-      "userId": "55290849",
-      "userLogin": "gn_krobatv",
-      "userName": "gn_krobatv",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "DOES THIS MAN EVER SLEEP? WORKING ISN'T EASY",
-      "viewerCount": 373,
-      "startedAt": "2026-11-14T10:29:15Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gn_krobatv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/gn_krobatv"
-    },
-    {
-      "id": "319326141285",
-      "userId": "102886337",
-      "userLogin": "spinustv",
-      "userName": "SpinusTV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🔥ΣΑΒΒΑΤΙΑΤΙΚΟ WOW και EIMAΣΤΕ ΣΕ ΤΡΟΧΙΑ PUSH  !genAIRation🔥",
-      "viewerCount": 225,
-      "startedAt": "2026-11-14T18:00:34Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "English",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_spinustv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/spinustv"
-    },
     {
       "id": "319327866981",
       "userId": "166949280",
@@ -49,7 +12,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "Τι ειπωθηκε στην συναντηση κορυφης - Forever μεχρι το πρωι",
-      "viewerCount": 50,
+      "viewerCount": 62,
       "startedAt": "2026-11-14T19:40:21Z",
       "language": "el",
       "tags": [
@@ -60,6 +23,64 @@
       "twitchUrl": "https://www.twitch.tv/jokersmiles"
     },
     {
+      "id": "319215676007",
+      "userId": "100644161",
+      "userLogin": "mikegoesface",
+      "userName": "Mikegoesface",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever 55+",
+      "viewerCount": 42,
+      "startedAt": "2026-11-14T23:19:11Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "fps",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mikegoesface"
+    },
+    {
+      "id": "319215676007",
+      "userId": "100644161",
+      "userLogin": "mikegoesface",
+      "userName": "Mikegoesface",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Forever 55+",
+      "viewerCount": 42,
+      "startedAt": "2026-11-14T23:19:11Z",
+      "language": "el",
+      "tags": [
+        "greek",
+        "greece",
+        "fps",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mikegoesface-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/mikegoesface"
+    },
+    {
+      "id": "319406174950",
+      "userId": "134219640",
+      "userLogin": "luxxord_tv",
+      "userName": "luxxord_tv",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "♾️ Forever Leveling ♾️⚡ARCANE BLASTING⚡New Custom UI ♾️ PvP",
+      "viewerCount": 12,
+      "startedAt": "2026-11-14T23:31:22Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά",
+        "ΤαDropΕνεργοποιήθηκαν"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_luxxord_tv-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/luxxord_tv"
+    },
+    {
       "id": "319325017957",
       "userId": "81696814",
       "userLogin": "tyrantfeller",
@@ -67,7 +88,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "🔥 Better Call Horde | No Rush, Just WoW",
-      "viewerCount": 14,
+      "viewerCount": 11,
       "startedAt": "2026-11-14T16:40:51Z",
       "language": "el",
       "tags": [
@@ -84,56 +105,26 @@
       "twitchUrl": "https://www.twitch.tv/tyrantfeller"
     },
     {
-      "id": "319401069158",
-      "userId": "73779495",
-      "userLogin": "baron_oni",
-      "userName": "Baron_Oni",
+      "id": "319209851367",
+      "userId": "36335353",
+      "userLogin": "magnex44",
+      "userName": "Magnex44",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "1 SUB=HORDE/ALLIANCE BADGE FOR TWITCH! Rogue Power! / !tradeit !drip !cmnds 👣Follow @unitedhubtv & @greekproleague👣",
-      "viewerCount": 11,
-      "startedAt": "2026-11-14T18:27:27Z",
+      "title": "CEO of the Stealth | Sharing Horde logs for Chinese chicks around my area | !scam !fish | GR / EN",
+      "viewerCount": 6,
+      "startedAt": "2026-11-14T16:41:38Z",
       "language": "el",
       "tags": [
-        "Competitive",
-        "Delulu",
-        "Greek",
-        "Greece",
-        "420",
+        "English",
         "Ελληνικά",
-        "TryhardGameplay",
-        "PvP",
-        "CS2",
-        "WoWClassic"
+        "Variety",
+        "NotBaldYet",
+        "degen",
+        "ΤαDropΕνεργοποιήθηκαν"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baron_oni-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/baron_oni"
-    },
-    {
-      "id": "319401069158",
-      "userId": "73779495",
-      "userLogin": "baron_oni",
-      "userName": "Baron_Oni",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "1 SUB=HORDE/ALLIANCE BADGE FOR TWITCH! Rogue Power! / !tradeit !drip !cmnds 👣Follow @unitedhubtv & @greekproleague👣",
-      "viewerCount": 11,
-      "startedAt": "2026-11-14T18:27:27Z",
-      "language": "el",
-      "tags": [
-        "Competitive",
-        "Delulu",
-        "Greek",
-        "Greece",
-        "420",
-        "Ελληνικά",
-        "TryhardGameplay",
-        "PvP",
-        "CS2",
-        "WoWClassic"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_baron_oni-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/baron_oni"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_magnex44-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/magnex44"
     },
     {
       "id": "319401951206",
@@ -162,6 +153,29 @@
       "twitchUrl": "https://www.twitch.tv/waventice"
     },
     {
+      "id": "319215182055",
+      "userId": "27162477",
+      "userLogin": "humanxii",
+      "userName": "HumanXII",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Undead Priest | WoW Forever  Push 40 LVL",
+      "viewerCount": 4,
+      "startedAt": "2026-11-14T22:28:18Z",
+      "language": "el",
+      "tags": [
+        "wow",
+        "forever",
+        "classic",
+        "pvp",
+        "greece",
+        "english",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_humanxii-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/humanxii"
+    },
+    {
       "id": "319400265062",
       "userId": "176930548",
       "userLogin": "xzstance",
@@ -169,7 +183,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "[EN/GR] *Xzstance Power Nap Done !  - Mage / Music Vibes / PvP RuleSet",
-      "viewerCount": 4,
+      "viewerCount": 2,
       "startedAt": "2026-11-14T17:43:50Z",
       "language": "el",
       "tags": [
@@ -188,180 +202,24 @@
       "twitchUrl": "https://www.twitch.tv/xzstance"
     },
     {
-      "id": "319328341221",
-      "userId": "729769477",
-      "userLogin": "z0gra",
-      "userName": "z0gra",
+      "id": "319214990695",
+      "userId": "43494331",
+      "userLogin": "fasolid",
+      "userName": "fasolid",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "WoW Forever PvP, Ordo Hellenicus Guild",
-      "viewerCount": 4,
-      "startedAt": "2026-11-14T20:05:54Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "wow",
-        "wowstreamer",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_z0gra-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/z0gra"
-    },
-    {
-      "id": "318347345764",
-      "userId": "83232192",
-      "userLogin": "pikisithlord",
-      "userName": "PikiSithLord",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "World of Warcraft Forever Hunter Levelling Up AGROTHS! (Part 3)",
-      "viewerCount": 4,
-      "startedAt": "2026-11-14T17:55:32Z",
+      "title": "We hit 60, now what??? [ENG/GR]",
+      "viewerCount": 2,
+      "startedAt": "2026-11-14T22:09:36Z",
       "language": "en",
       "tags": [
-        "World",
-        "of",
-        "Warcraft",
-        "Forever",
-        "Hunter",
-        "Levelling",
-        "Up",
-        "AGROTHS",
-        "Greek",
+        "greek",
+        "english",
+        "drops",
         "English"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_pikisithlord-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/pikisithlord"
-    },
-    {
-      "id": "319328869733",
-      "userId": "1547046954",
-      "userLogin": "joyboydstelios",
-      "userName": "JoyboyDstelios",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "WoW Forever LVLING UP! : This time i will go for the first time Alliance ON EU PVP Server!  Lets get 35 lvl!",
-      "viewerCount": 3,
-      "startedAt": "2026-11-14T20:39:18Z",
-      "language": "en",
-      "tags": [
-        "ADHDStreamer",
-        "ADHDfriendly",
-        "English",
-        "wow",
-        "wowforever",
-        "PvP",
-        "MMORPPG",
-        "Greek",
-        "Deutsch"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_joyboydstelios-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/joyboydstelios"
-    },
-    {
-      "id": "319325066341",
-      "userId": "848000294",
-      "userLogin": "kounabee",
-      "userName": "Kounabee",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Level the healer for start dungeons..",
-      "viewerCount": 3,
-      "startedAt": "2026-11-14T16:44:26Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kounabee-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/kounabee"
-    },
-    {
-      "id": "318348285796",
-      "userId": "465449515",
-      "userLogin": "mrsteve_tv",
-      "userName": "MrSteve_TV",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "♾️WOW FOREVER♾️PVP ROGUE! ♾️",
-      "viewerCount": 3,
-      "startedAt": "2026-11-14T18:57:48Z",
-      "language": "el",
-      "tags": [
-        "Ελληνικά",
-        "greek",
-        "ΤαDropΕνεργοποιήθηκαν"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mrsteve_tv-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/mrsteve_tv"
-    },
-    {
-      "id": "319211203047",
-      "userId": "195497262",
-      "userLogin": "bazak88",
-      "userName": "BaZaK88",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Ελα και περιμενε κοσμος....",
-      "viewerCount": 2,
-      "startedAt": "2026-11-14T18:02:27Z",
-      "language": "el",
-      "tags": [
-        "Greek",
-        "chill",
-        "Drops",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bazak88-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/bazak88"
-    },
-    {
-      "id": "319320238181",
-      "userId": "1379235840",
-      "userLogin": "monomachousx",
-      "userName": "MonomachousX",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "!DROP WoW Forever Day 9 ⚔️ Warrior  PVP EU Server ⚔️",
-      "viewerCount": 2,
-      "startedAt": "2026-11-14T08:26:20Z",
-      "language": "el",
-      "tags": [
-        "PvP",
-        "greek",
-        "English",
-        "MMORPG",
-        "Leveling",
-        "Warrior",
-        "Launch",
-        "grind",
-        "Hardcore",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_monomachousx-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/monomachousx"
-    },
-    {
-      "id": "319401327974",
-      "userId": "258214624",
-      "userLogin": "dukedidi",
-      "userName": "dukedidi",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "🟣DAY 10🟣🔥🔥WOW FOREVER ORC ADVENTURES🔥HORDE PVP EU🔥!giveaway !tts #wowforever",
-      "viewerCount": 2,
-      "startedAt": "2026-11-14T18:41:17Z",
-      "language": "el",
-      "tags": [
-        "greek",
-        "Επανάληψη",
-        "wowforever",
-        "ΤαDropΕνεργοποιήθηκαν",
-        "Ελληνικά",
-        "wow",
-        "WorldofWarcaft"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dukedidi-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/dukedidi"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_fasolid-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/fasolid"
     },
     {
       "id": "319325063781",
@@ -371,7 +229,7 @@
       "gameId": "18122",
       "gameName": "World of Warcraft",
       "title": "WoW Forever For the Horde!!! They made me do it",
-      "viewerCount": 2,
+      "viewerCount": 1,
       "startedAt": "2026-11-14T16:44:16Z",
       "language": "el",
       "tags": [
@@ -388,57 +246,6 @@
       ],
       "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bossdoc-640x360.jpg",
       "twitchUrl": "https://www.twitch.tv/bossdoc"
-    },
-    {
-      "id": "319400825446",
-      "userId": "494115686",
-      "userLogin": "xoristrasyo",
-      "userName": "XoristrasYo",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "<Greekcraft> Dwarf Warrior Tank POV Join Alliance Greekcraft Guild https://discord.gg/P9z7skJ3G",
-      "viewerCount": 2,
-      "startedAt": "2026-11-14T18:14:25Z",
-      "language": "el",
-      "tags": [
-        "Leveling",
-        "forever",
-        "warrior",
-        "greek",
-        "greece",
-        "pov",
-        "wow",
-        "greekcraft",
-        "Ελληνικά"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xoristrasyo-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/xoristrasyo"
-    },
-    {
-      "id": "319328033509",
-      "userId": "81937287",
-      "userLogin": "realgsus33",
-      "userName": "RealGsus33",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Day 9 WarlockAdventures x [Tryhard to learn fast] - PVP Server Horde",
-      "viewerCount": 2,
-      "startedAt": "2026-11-14T19:50:04Z",
-      "language": "el",
-      "tags": [
-        "H1Z1",
-        "GR",
-        "ENG",
-        "Lineage2",
-        "lordoftherings",
-        "Snipershots",
-        "2tap",
-        "gameplays",
-        "realgsus",
-        "wowforever"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_realgsus33-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/realgsus33"
     },
     {
       "id": "319395103462",
@@ -461,13 +268,81 @@
       "twitchUrl": "https://www.twitch.tv/freevoltv"
     },
     {
+      "id": "319400825446",
+      "userId": "494115686",
+      "userLogin": "xoristrasyo",
+      "userName": "XoristrasYo",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "<Greekcraft> Dwarf Warrior Tank POV Join Alliance Greekcraft Guild https://discord.gg/P9z7skJ3G",
+      "viewerCount": 1,
+      "startedAt": "2026-11-14T18:14:25Z",
+      "language": "el",
+      "tags": [
+        "Leveling",
+        "forever",
+        "warrior",
+        "greek",
+        "greece",
+        "pov",
+        "wow",
+        "greekcraft",
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xoristrasyo-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/xoristrasyo"
+    },
+    {
+      "id": "319214761319",
+      "userId": "1591396056",
+      "userLogin": "kwb_pulse",
+      "userName": "KwB_pulse",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "☕ΦΤΙΑΞΕ ΚΑΦΕΔΑΚΙ ΚΑΙ ΕΛΑ ΣΤΗΝ ΠΑΡΕΑ ☕ ⚔️ WoW Forever ⚔️ Καφεδάκι ☕και  lvling !! ⚔️ PVP RULE SET Human Warrior ⚔️",
+      "viewerCount": 1,
+      "startedAt": "2026-11-14T21:49:37Z",
+      "language": "el",
+      "tags": [
+        "WorlfofWarcraft",
+        "Ελληνικά",
+        "chill",
+        "worldofwarcraftforever",
+        "pvpruleset",
+        "gamingstreaming",
+        "gaming",
+        "greekgaming",
+        "greekstreamer",
+        "worldofwarcraftclassic"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kwb_pulse-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kwb_pulse"
+    },
+    {
+      "id": "319325066341",
+      "userId": "848000294",
+      "userLogin": "kounabee",
+      "userName": "Kounabee",
+      "gameId": "18122",
+      "gameName": "World of Warcraft",
+      "title": "Level the healer for start dungeons.. (wow forever)",
+      "viewerCount": 1,
+      "startedAt": "2026-11-14T16:44:26Z",
+      "language": "el",
+      "tags": [
+        "Ελληνικά"
+      ],
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kounabee-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/kounabee"
+    },
+    {
       "id": "319403730918",
       "userId": "55252164",
       "userLogin": "supd4wgs",
       "userName": "supd4wgs",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Remember the meme back in 2006 about 35+ year old players?? we are them now",
+      "title": "Veteran Rogue comes back",
       "viewerCount": 1,
       "startedAt": "2026-11-14T20:45:08Z",
       "language": "el",
@@ -499,77 +374,30 @@
       "twitchUrl": "https://www.twitch.tv/niemal_dev"
     },
     {
-      "id": "319212773223",
-      "userId": "1540811426",
-      "userLogin": "vistalock",
-      "userName": "vistalock",
+      "id": "319328033509",
+      "userId": "81937287",
+      "userLogin": "realgsus33",
+      "userName": "RealGsus33",
       "gameId": "18122",
       "gameName": "World of Warcraft",
-      "title": "Late night WoW , Deadmines and off to Redridge :P",
+      "title": "Day 9 WarlockAdventures x [Tryhard to learn fast] - PVP Server Horde",
       "viewerCount": 1,
-      "startedAt": "2026-11-14T19:29:53Z",
+      "startedAt": "2026-11-14T19:50:04Z",
       "language": "el",
       "tags": [
-        "English",
-        "greek",
-        "WorldofWarcaft",
-        "Chıll",
-        "Casual",
-        "Ελληνικά"
+        "H1Z1",
+        "GR",
+        "ENG",
+        "Lineage2",
+        "lordoftherings",
+        "Snipershots",
+        "2tap",
+        "gameplays",
+        "realgsus",
+        "wowforever"
       ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_vistalock-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/vistalock"
-    },
-    {
-      "id": "319328149349",
-      "userId": "503492332",
-      "userLogin": "filologikoergasthri",
-      "userName": "FilologikoErgasthri",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "level up sto WOW forever",
-      "viewerCount": 1,
-      "startedAt": "2026-11-14T19:56:29Z",
-      "language": "en",
-      "tags": [
-        "English",
-        "Greek",
-        "Καθηγητής",
-        "Gamer",
-        "Ιστορία",
-        "παίζοντας",
-        "Ελλάδα",
-        "Μακεδονία",
-        "Rerun"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_filologikoergasthri-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/filologikoergasthri"
-    },
-    {
-      "id": "319329002469",
-      "userId": "46695153",
-      "userLogin": "xionistrasgr",
-      "userName": "xionistrasgr",
-      "gameId": "18122",
-      "gameName": "World of Warcraft",
-      "title": "Arena Glad Pushing - Mythic Keys Push - !Forever Also !",
-      "viewerCount": 0,
-      "startedAt": "2026-11-14T20:48:54Z",
-      "language": "en",
-      "tags": [
-        "WorldofWarcaft",
-        "streamnow",
-        "pcgamer",
-        "pcgames",
-        "gamer",
-        "console",
-        "greek",
-        "Newgames",
-        "PC",
-        "English"
-      ],
-      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xionistrasgr-640x360.jpg",
-      "twitchUrl": "https://www.twitch.tv/xionistrasgr"
+      "thumbnailUrl": "https://static-cdn.jtvnw.net/previews-ttv/live_user_realgsus33-640x360.jpg",
+      "twitchUrl": "https://www.twitch.tv/realgsus33"
     }
   ]
 }
