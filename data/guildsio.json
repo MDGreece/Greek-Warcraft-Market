@@ -1,5 +1,398 @@
 [
   {
+    "id": "death-and-glory",
+    "name": "Death and Glory",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Death%20and%20Glory",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-venomous-abyss": {
+        "summary": "8/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 8
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 4758,
+          "region": 1814,
+          "realm": 111
+        },
+        "heroic": {
+          "world": 347,
+          "region": 138,
+          "realm": 7
+        },
+        "mythic": {
+          "world": 401,
+          "region": 200,
+          "realm": 7
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2536,
+          "region": 222,
+          "realm": 9
+        },
+        "mythic": {
+          "world": 850,
+          "region": 122,
+          "realm": 5
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 6922,
+          "region": 2822,
+          "realm": 154
+        },
+        "mythic": {
+          "world": 1181,
+          "region": 537,
+          "realm": 17
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 5067,
+          "region": 1589,
+          "realm": 97
+        },
+        "mythic": {
+          "world": 249,
+          "region": 101,
+          "realm": 5
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 5994,
+          "region": 2398,
+          "realm": 144
+        },
+        "heroic": {
+          "world": 1180,
+          "region": 590,
+          "realm": 23
+        },
+        "mythic": {
+          "world": 352,
+          "region": 177,
+          "realm": 7
+        }
+      }
+    }
+  },
+  {
+    "id": "disobedient",
+    "name": "Disobedient",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/Disobedient",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "8/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 8
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 9331,
+          "region": 3983,
+          "realm": 115
+        },
+        "heroic": {
+          "world": 918,
+          "region": 443,
+          "realm": 35
+        },
+        "mythic": {
+          "world": 774,
+          "region": 369,
+          "realm": 30
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2430,
+          "region": 117,
+          "realm": 4
+        },
+        "mythic": {
+          "world": 5249,
+          "region": 2186,
+          "realm": 99
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 3069,
+          "region": 1206,
+          "realm": 50
+        },
+        "heroic": {
+          "world": 909,
+          "region": 412,
+          "realm": 31
+        },
+        "mythic": {
+          "world": 901,
+          "region": 454,
+          "realm": 35
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 1679,
+          "region": 580,
+          "realm": 40
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 612,
+          "region": 375,
+          "realm": 26
+        },
+        "heroic": {
+          "world": 948,
+          "region": 507,
+          "realm": 44
+        },
+        "mythic": {
+          "world": 468,
+          "region": 232,
+          "realm": 22
+        }
+      }
+    }
+  },
+  {
+    "id": "k-l-i-k-a",
+    "name": "K L I K A",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/K%20L%20I%20K%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "8/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 8
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15608,
+          "region": 6865,
+          "realm": 178
+        },
+        "heroic": {
+          "world": 352,
+          "region": 143,
+          "realm": 15
+        },
+        "mythic": {
+          "world": 784,
+          "region": 379,
+          "realm": 32
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 5845,
+          "region": 2032,
+          "realm": 76
+        },
+        "heroic": {
+          "world": 2393,
+          "region": 919,
+          "realm": 57
+        },
+        "mythic": {
+          "world": 664,
+          "region": 300,
+          "realm": 24
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 3320,
+          "region": 1272,
+          "realm": 72
+        },
+        "heroic": {
+          "world": 622,
+          "region": 292,
+          "realm": 29
+        },
+        "mythic": {
+          "world": 419,
+          "region": 206,
+          "realm": 20
+        }
+      }
+    }
+  },
+  {
     "id": "deny-everything",
     "name": "Deny Everything",
     "realm": "tarren-mill",
@@ -123,9 +516,140 @@
           "realm": 130
         },
         "mythic": {
-          "world": 1807,
-          "region": 849,
+          "world": 1818,
+          "region": 856,
           "realm": 89
+        }
+      }
+    }
+  },
+  {
+    "id": "o-m-e-g-a",
+    "name": "O M E G A",
+    "realm": "twisting-nether",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/twisting-nether/O%20M%20E%20G%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "9/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 9
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "7/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 7
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15653,
+          "region": 6910,
+          "realm": 183
+        },
+        "heroic": {
+          "world": 2483,
+          "region": 1238,
+          "realm": 75
+        },
+        "mythic": {
+          "world": 1512,
+          "region": 723,
+          "realm": 52
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2533,
+          "region": 219,
+          "realm": 9
+        },
+        "mythic": {
+          "world": 846,
+          "region": 118,
+          "realm": 7
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 4174,
+          "region": 1823,
+          "realm": 86
+        },
+        "mythic": {
+          "world": 1647,
+          "region": 749,
+          "realm": 51
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 2602,
+          "region": 1498,
+          "realm": 70
+        },
+        "mythic": {
+          "world": 669,
+          "region": 353,
+          "realm": 16
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 515,
+          "region": 278,
+          "realm": 20
+        },
+        "heroic": {
+          "world": 2092,
+          "region": 911,
+          "realm": 62
+        },
+        "mythic": {
+          "world": 1774,
+          "region": 847,
+          "realm": 54
         }
       }
     }
@@ -254,9 +778,9 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2397,
-          "region": 1150,
-          "realm": 111
+          "world": 2274,
+          "region": 1091,
+          "realm": 110
         }
       }
     }
@@ -385,9 +909,9 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1871,
-          "region": 877,
-          "realm": 92
+          "world": 1894,
+          "region": 893,
+          "realm": 93
         }
       }
     }
@@ -482,8 +1006,8 @@
           "realm": 115
         },
         "mythic": {
-          "world": 4820,
-          "region": 2178,
+          "world": 4823,
+          "region": 2181,
           "realm": 97
         }
       },
@@ -516,9 +1040,271 @@
           "realm": 84
         },
         "mythic": {
-          "world": 2533,
-          "region": 1230,
-          "realm": 66
+          "world": 2555,
+          "region": 1247,
+          "realm": 67
+        }
+      }
+    }
+  },
+  {
+    "id": "chillers",
+    "name": "Chillers",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Chillers",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "7/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 9,
+        "mythic_bosses_killed": 7
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "4/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 4
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 17123,
+          "region": 7290,
+          "realm": 357
+        },
+        "heroic": {
+          "world": 6156,
+          "region": 2897,
+          "realm": 160
+        },
+        "mythic": {
+          "world": 3513,
+          "region": 1583,
+          "realm": 81
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 13000,
+          "region": 5072,
+          "realm": 267
+        },
+        "mythic": {
+          "world": 6453,
+          "region": 2597,
+          "realm": 141
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 6272,
+          "region": 2446,
+          "realm": 139
+        },
+        "heroic": {
+          "world": 9289,
+          "region": 3615,
+          "realm": 194
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 10058,
+          "region": 3995,
+          "realm": 232
+        },
+        "heroic": {
+          "world": 6766,
+          "region": 2578,
+          "realm": 155
+        },
+        "mythic": {
+          "world": 3653,
+          "region": 1639,
+          "realm": 96
+        }
+      }
+    }
+  },
+  {
+    "id": "nyxborn",
+    "name": "Nyxborn",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Nyxborn",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 7595,
+          "region": 3464,
+          "realm": 199
+        },
+        "heroic": {
+          "world": 13005,
+          "region": 5815,
+          "realm": 306
+        },
+        "mythic": {
+          "world": 4773,
+          "region": 2112,
+          "realm": 111
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       }
     }
@@ -648,8 +1434,139 @@
         },
         "mythic": {
           "world": 908,
-          "region": 462,
-          "realm": 37
+          "region": 464,
+          "realm": 39
+        }
+      }
+    }
+  },
+  {
+    "id": "u-t-o-p-i-a",
+    "name": "U T O P I A",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/U%20T%20O%20P%20I%20A",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "5/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 7,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 5
+      },
+      "sporefall": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "0/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 15678,
+          "region": 6935,
+          "realm": 340
+        },
+        "heroic": {
+          "world": 13471,
+          "region": 5953,
+          "realm": 319
+        },
+        "mythic": {
+          "world": 5041,
+          "region": 2249,
+          "realm": 120
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       }
     }
@@ -786,6 +1703,137 @@
     }
   },
   {
+    "id": "elegance",
+    "name": "Elegance",
+    "realm": "silvermoon",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/silvermoon/Elegance",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "4/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 4
+      },
+      "sporefall": {
+        "summary": "1/1 M",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 1
+      },
+      "the-tidebound-grotto": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 1,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "1/8 M",
+        "total_bosses": 8,
+        "normal_bosses_killed": 8,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 1
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 11477,
+          "region": 5103,
+          "realm": 260
+        },
+        "heroic": {
+          "world": 12711,
+          "region": 5638,
+          "realm": 296
+        },
+        "mythic": {
+          "world": 5759,
+          "region": 2573,
+          "realm": 145
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11311,
+          "region": 4455,
+          "realm": 231
+        },
+        "mythic": {
+          "world": 6269,
+          "region": 2534,
+          "realm": 133
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 8899,
+          "region": 3546,
+          "realm": 193
+        },
+        "heroic": {
+          "world": 6705,
+          "region": 2745,
+          "realm": 152
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 5561,
+          "region": 2076,
+          "realm": 127
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 10189,
+          "region": 4126,
+          "realm": 237
+        },
+        "heroic": {
+          "world": 6478,
+          "region": 2504,
+          "realm": 153
+        },
+        "mythic": {
+          "world": 5500,
+          "region": 2353,
+          "realm": 136
+        }
+      }
+    }
+  },
+  {
     "id": "dungeon-meta",
     "name": "Dungeon Meta",
     "realm": "twisting-nether",
@@ -875,8 +1923,8 @@
           "realm": 146
         },
         "mythic": {
-          "world": 4310,
-          "region": 1918,
+          "world": 4314,
+          "region": 1922,
           "realm": 89
         }
       },
@@ -909,9 +1957,140 @@
           "realm": 125
         },
         "mythic": {
-          "world": 4673,
-          "region": 2019,
+          "world": 4677,
+          "region": 2022,
           "realm": 100
+        }
+      }
+    }
+  },
+  {
+    "id": "myrmidones",
+    "name": "Myrmidones",
+    "realm": "stormscale",
+    "region": "eu",
+    "profileUrl": "https://raider.io/guilds/eu/stormscale/Myrmidones",
+    "progress": {
+      "tier-mn-1": {
+        "summary": "2/9 M",
+        "total_bosses": 9,
+        "normal_bosses_killed": 9,
+        "heroic_bosses_killed": 8,
+        "mythic_bosses_killed": 2
+      },
+      "sporefall": {
+        "summary": "1/1 H",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-tidebound-grotto": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      },
+      "the-venomous-abyss": {
+        "summary": "3/8 N",
+        "total_bosses": 8,
+        "normal_bosses_killed": 3,
+        "heroic_bosses_killed": 0,
+        "mythic_bosses_killed": 0
+      }
+    },
+    "rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 8376,
+          "region": 3571,
+          "realm": 44
+        },
+        "heroic": {
+          "world": 12480,
+          "region": 5508,
+          "realm": 73
+        },
+        "mythic": {
+          "world": 7875,
+          "region": 3372,
+          "realm": 50
+        }
+      },
+      "sporefall": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 11303,
+          "region": 4447,
+          "realm": 46
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-tidebound-grotto": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        }
+      },
+      "the-venomous-abyss": {
+        "normal": {
+          "world": 15989,
+          "region": 6271,
+          "realm": 72
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       }
     }
@@ -972,7 +2151,7 @@
           "realm": 147
         },
         "mythic": {
-          "world": 8517,
+          "world": 8518,
           "region": 3603,
           "realm": 163
         }
@@ -1103,7 +2282,7 @@
           "realm": 19
         },
         "mythic": {
-          "world": 9019,
+          "world": 9020,
           "region": 3788,
           "realm": 8
         }
@@ -1149,8 +2328,8 @@
           "realm": 4
         },
         "heroic": {
-          "world": 11260,
-          "region": 4241,
+          "world": 11274,
+          "region": 4253,
           "realm": 22
         },
         "mythic": {
@@ -1166,8 +2345,8 @@
           "realm": 18
         },
         "heroic": {
-          "world": 12583,
-          "region": 4796,
+          "world": 12604,
+          "region": 4808,
           "realm": 27
         },
         "mythic": {
@@ -1268,8 +2447,8 @@
           "realm": 122
         },
         "mythic": {
-          "world": 4829,
-          "region": 2182,
+          "world": 4832,
+          "region": 2185,
           "realm": 98
         }
       },
@@ -1365,7 +2544,7 @@
           "realm": 234
         },
         "mythic": {
-          "world": 8952,
+          "world": 8953,
           "region": 3760,
           "realm": 215
         }
@@ -1394,8 +2573,8 @@
           "realm": 12
         },
         "heroic": {
-          "world": 13522,
-          "region": 5228,
+          "world": 13525,
+          "region": 5229,
           "realm": 281
         },
         "mythic": {
@@ -1496,7 +2675,7 @@
           "realm": 256
         },
         "mythic": {
-          "world": 9249,
+          "world": 9250,
           "region": 3882,
           "realm": 227
         }
@@ -1555,12 +2734,12 @@
       "the-venomous-abyss": {
         "normal": {
           "world": 16319,
-          "region": 6381,
+          "region": 6382,
           "realm": 309
         },
         "heroic": {
-          "world": 15281,
-          "region": 5788,
+          "world": 15285,
+          "region": 5791,
           "realm": 304
         },
         "mythic": {
@@ -1627,7 +2806,7 @@
           "realm": 232
         },
         "mythic": {
-          "world": 8945,
+          "world": 8946,
           "region": 3755,
           "realm": 220
         }
@@ -1952,8 +3131,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 15195,
-          "region": 5752,
+          "world": 15201,
+          "region": 5756,
           "realm": 175
         },
         "mythic": {
@@ -2185,9 +3364,9 @@
           "realm": 95
         },
         "mythic": {
-          "world": 4317,
-          "region": 1923,
-          "realm": 103
+          "world": 4321,
+          "region": 1927,
+          "realm": 104
         }
       },
       "the-unbinding-of-kithix": {
@@ -2219,9 +3398,9 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2327,
-          "region": 1109,
-          "realm": 52
+          "world": 2345,
+          "region": 1121,
+          "realm": 53
         }
       }
     }
