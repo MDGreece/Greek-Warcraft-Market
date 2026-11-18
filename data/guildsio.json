@@ -106,7 +106,7 @@
           "realm": 97
         },
         "mythic": {
-          "world": 251,
+          "world": 253,
           "region": 102,
           "realm": 5
         }
@@ -516,9 +516,9 @@
           "realm": 130
         },
         "mythic": {
-          "world": 1829,
-          "region": 856,
-          "realm": 89
+          "world": 1541,
+          "region": 792,
+          "realm": 86
         }
       }
     }
@@ -630,8 +630,8 @@
           "realm": 70
         },
         "mythic": {
-          "world": 674,
-          "region": 354,
+          "world": 677,
+          "region": 355,
           "realm": 16
         }
       },
@@ -647,8 +647,8 @@
           "realm": 62
         },
         "mythic": {
-          "world": 1784,
-          "region": 847,
+          "world": 1788,
+          "region": 851,
           "realm": 54
         }
       }
@@ -778,8 +778,8 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2284,
-          "region": 1092,
+          "world": 2290,
+          "region": 1094,
           "realm": 110
         }
       }
@@ -909,8 +909,8 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1910,
-          "region": 894,
+          "world": 1920,
+          "region": 899,
           "realm": 93
         }
       }
@@ -1006,9 +1006,9 @@
           "realm": 115
         },
         "mythic": {
-          "world": 4823,
-          "region": 2181,
-          "realm": 97
+          "world": 4825,
+          "region": 2183,
+          "realm": 98
         }
       },
       "the-unbinding-of-kithix": {
@@ -1040,8 +1040,8 @@
           "realm": 84
         },
         "mythic": {
-          "world": 2563,
-          "region": 1247,
+          "world": 2569,
+          "region": 1249,
           "realm": 67
         }
       }
@@ -1171,8 +1171,8 @@
           "realm": 155
         },
         "mythic": {
-          "world": 3662,
-          "region": 1640,
+          "world": 3669,
+          "region": 1645,
           "realm": 96
         }
       }
@@ -1433,8 +1433,8 @@
           "realm": 70
         },
         "mythic": {
-          "world": 922,
-          "region": 464,
+          "world": 927,
+          "region": 468,
           "realm": 39
         }
       }
@@ -1826,8 +1826,8 @@
           "realm": 153
         },
         "mythic": {
-          "world": 5501,
-          "region": 2353,
+          "world": 5503,
+          "region": 2354,
           "realm": 136
         }
       }
@@ -1923,9 +1923,9 @@
           "realm": 146
         },
         "mythic": {
-          "world": 4314,
-          "region": 1922,
-          "realm": 89
+          "world": 4317,
+          "region": 1925,
+          "realm": 90
         }
       },
       "the-unbinding-of-kithix": {
@@ -1957,9 +1957,9 @@
           "realm": 125
         },
         "mythic": {
-          "world": 4680,
-          "region": 2022,
-          "realm": 100
+          "world": 4681,
+          "region": 2023,
+          "realm": 101
         }
       }
     }
@@ -2078,7 +2078,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 15992,
+          "world": 15993,
           "region": 6273,
           "realm": 72
         },
@@ -2328,8 +2328,8 @@
           "realm": 4
         },
         "heroic": {
-          "world": 11280,
-          "region": 4255,
+          "world": 11283,
+          "region": 4256,
           "realm": 22
         },
         "mythic": {
@@ -2345,8 +2345,8 @@
           "realm": 18
         },
         "heroic": {
-          "world": 12618,
-          "region": 4816,
+          "world": 12625,
+          "region": 4821,
           "realm": 27
         },
         "mythic": {
@@ -2447,9 +2447,9 @@
           "realm": 122
         },
         "mythic": {
-          "world": 4832,
-          "region": 2185,
-          "realm": 98
+          "world": 4834,
+          "region": 2187,
+          "realm": 99
         }
       },
       "the-unbinding-of-kithix": {
@@ -2573,8 +2573,8 @@
           "realm": 12
         },
         "heroic": {
-          "world": 13525,
-          "region": 5229,
+          "world": 13526,
+          "region": 5230,
           "realm": 281
         },
         "mythic": {
@@ -2733,13 +2733,13 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 16321,
+          "world": 16322,
           "region": 6383,
           "realm": 309
         },
         "heroic": {
-          "world": 15289,
-          "region": 5793,
+          "world": 15293,
+          "region": 5794,
           "realm": 304
         },
         "mythic": {
@@ -3131,8 +3131,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 15204,
-          "region": 5758,
+          "world": 15210,
+          "region": 5760,
           "realm": 175
         },
         "mythic": {
@@ -3364,8 +3364,8 @@
           "realm": 95
         },
         "mythic": {
-          "world": 4321,
-          "region": 1927,
+          "world": 4324,
+          "region": 1930,
           "realm": 104
         }
       },
@@ -3398,8 +3398,8 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2354,
-          "region": 1121,
+          "world": 2362,
+          "region": 1125,
           "realm": 53
         }
       }
