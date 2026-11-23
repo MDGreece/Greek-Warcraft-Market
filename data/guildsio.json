@@ -341,7 +341,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 5845,
+          "world": 5846,
           "region": 2032,
           "realm": 76
         },
@@ -516,8 +516,8 @@
           "realm": 130
         },
         "mythic": {
-          "world": 1627,
-          "region": 825,
+          "world": 1633,
+          "region": 826,
           "realm": 87
         }
       }
@@ -647,7 +647,7 @@
           "realm": 62
         },
         "mythic": {
-          "world": 1936,
+          "world": 1939,
           "region": 926,
           "realm": 57
         }
@@ -734,7 +734,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7029,
+          "world": 7030,
           "region": 2738,
           "realm": 158
         },
@@ -778,7 +778,7 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2436,
+          "world": 2437,
           "region": 1133,
           "realm": 111
         }
@@ -909,7 +909,7 @@
           "realm": 110
         },
         "mythic": {
-          "world": 2085,
+          "world": 2089,
           "region": 961,
           "realm": 97
         }
@@ -996,7 +996,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7186,
+          "world": 7187,
           "region": 2895,
           "realm": 95
         },
@@ -1040,7 +1040,7 @@
           "realm": 84
         },
         "mythic": {
-          "world": 2673,
+          "world": 2674,
           "region": 1271,
           "realm": 68
         }
@@ -1127,7 +1127,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 6272,
+          "world": 6273,
           "region": 2446,
           "realm": 139
         },
@@ -1433,7 +1433,7 @@
           "realm": 70
         },
         "mythic": {
-          "world": 1055,
+          "world": 1059,
           "region": 523,
           "realm": 40
         }
@@ -1782,7 +1782,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 8899,
+          "world": 8900,
           "region": 3546,
           "realm": 193
         },
@@ -1913,7 +1913,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 9934,
+          "world": 9935,
           "region": 4011,
           "realm": 107
         },
@@ -2078,7 +2078,7 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 16004,
+          "world": 16005,
           "region": 6278,
           "realm": 72
         },
@@ -2175,7 +2175,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 9736,
+          "world": 9737,
           "region": 3928,
           "realm": 106
         },
@@ -2328,7 +2328,7 @@
           "realm": 4
         },
         "heroic": {
-          "world": 11386,
+          "world": 11394,
           "region": 4294,
           "realm": 23
         },
@@ -2345,7 +2345,7 @@
           "realm": 18
         },
         "heroic": {
-          "world": 12779,
+          "world": 12788,
           "region": 4874,
           "realm": 27
         },
@@ -2573,7 +2573,7 @@
           "realm": 12
         },
         "heroic": {
-          "world": 13554,
+          "world": 13555,
           "region": 5240,
           "realm": 282
         },
@@ -2612,7 +2612,7 @@
           "realm": 225
         },
         "mythic": {
-          "world": 5816,
+          "world": 5817,
           "region": 2466,
           "realm": 142
         }
@@ -2733,12 +2733,12 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 16332,
+          "world": 16333,
           "region": 6388,
           "realm": 309
         },
         "heroic": {
-          "world": 15347,
+          "world": 15350,
           "region": 5817,
           "realm": 304
         },
@@ -3131,7 +3131,7 @@
           "realm": 0
         },
         "heroic": {
-          "world": 15262,
+          "world": 15265,
           "region": 5778,
           "realm": 175
         },
@@ -3354,7 +3354,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 7077,
+          "world": 7078,
           "region": 2786,
           "realm": 154
         },
@@ -3398,7 +3398,7 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2443,
+          "world": 2444,
           "region": 1139,
           "realm": 56
         }
