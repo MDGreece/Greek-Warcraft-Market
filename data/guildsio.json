@@ -516,7 +516,7 @@
           "realm": 130
         },
         "mythic": {
-          "world": 1656,
+          "world": 1663,
           "region": 845,
           "realm": 87
         }
@@ -630,7 +630,7 @@
           "realm": 70
         },
         "mythic": {
-          "world": 731,
+          "world": 733,
           "region": 379,
           "realm": 16
         }
@@ -647,7 +647,7 @@
           "realm": 62
         },
         "mythic": {
-          "world": 1661,
+          "world": 1669,
           "region": 847,
           "realm": 54
         }
@@ -778,8 +778,8 @@
           "realm": 125
         },
         "mythic": {
-          "world": 2386,
-          "region": 1106,
+          "world": 2395,
+          "region": 1107,
           "realm": 110
         }
       }
@@ -909,7 +909,7 @@
           "realm": 110
         },
         "mythic": {
-          "world": 1814,
+          "world": 1825,
           "region": 924,
           "realm": 91
         }
@@ -1006,7 +1006,7 @@
           "realm": 115
         },
         "mythic": {
-          "world": 4865,
+          "world": 4866,
           "region": 2200,
           "realm": 98
         }
@@ -1040,7 +1040,7 @@
           "realm": 84
         },
         "mythic": {
-          "world": 2686,
+          "world": 2697,
           "region": 1274,
           "realm": 68
         }
@@ -1171,7 +1171,7 @@
           "realm": 155
         },
         "mythic": {
-          "world": 3732,
+          "world": 3735,
           "region": 1665,
           "realm": 97
         }
@@ -1433,7 +1433,7 @@
           "realm": 70
         },
         "mythic": {
-          "world": 949,
+          "world": 951,
           "region": 467,
           "realm": 38
         }
@@ -1826,7 +1826,7 @@
           "realm": 153
         },
         "mythic": {
-          "world": 5540,
+          "world": 5541,
           "region": 2368,
           "realm": 137
         }
@@ -1923,7 +1923,7 @@
           "realm": 146
         },
         "mythic": {
-          "world": 4353,
+          "world": 4355,
           "region": 1940,
           "realm": 90
         }
@@ -1957,7 +1957,7 @@
           "realm": 125
         },
         "mythic": {
-          "world": 4720,
+          "world": 4723,
           "region": 2031,
           "realm": 101
         }
@@ -2328,8 +2328,8 @@
           "realm": 4
         },
         "heroic": {
-          "world": 11400,
-          "region": 4298,
+          "world": 11404,
+          "region": 4299,
           "realm": 23
         },
         "mythic": {
@@ -2345,8 +2345,8 @@
           "realm": 18
         },
         "heroic": {
-          "world": 12810,
-          "region": 4885,
+          "world": 12816,
+          "region": 4888,
           "realm": 27
         },
         "mythic": {
@@ -2447,7 +2447,7 @@
           "realm": 122
         },
         "mythic": {
-          "world": 4874,
+          "world": 4875,
           "region": 2204,
           "realm": 99
         }
@@ -3364,7 +3364,7 @@
           "realm": 95
         },
         "mythic": {
-          "world": 4360,
+          "world": 4362,
           "region": 1945,
           "realm": 105
         }
@@ -3398,8 +3398,8 @@
           "realm": 55
         },
         "mythic": {
-          "world": 2443,
-          "region": 1134,
+          "world": 2454,
+          "region": 1135,
           "realm": 55
         }
       }
